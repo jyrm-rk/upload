@@ -1,0 +1,2 @@
+uninstall.phase4=osgiUninstall(uninstallIU:com.softwareag.plm.spm.nirvana.feature.patch.feature.group/10.7.0.0001-133384,repository:common/runtime/bundles/num-cc/eclipse,profile:minimal,profileRepo:/profiles/SPM);
+uninstall.phase3=osgiShutdown(profile:SPM);

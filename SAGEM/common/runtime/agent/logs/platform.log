@@ -1,0 +1,1762 @@
+!SESSION 2021-10-26 10:29:28.567 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_261
+java.vendor=Azul Systems, Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -application com.softwareag.eclipse.equinox.p2.director -optionsFile file:/C:/temp/SAGEM/install/platform/profile_1635224368119_install -destination C:\temp\SAGEM\install\profile -profile minimal -p2.os win32 -p2.arch x86_64 -p2.ws win32 -roaming -profileProperties org.eclipse.equinox.p2.launcherConfiguration=C:\temp\SAGEM\install\profile\bin\eclipse.ini.ignored
+Command-line arguments:  -debug C:\temp\SAGEM\install\profile\bin\.options -clean -application com.softwareag.eclipse.equinox.p2.director -optionsFile file:/C:/temp/SAGEM/install/platform/profile_1635224368119_install -destination C:\temp\SAGEM\install\profile -profile minimal -p2.os win32 -p2.arch x86_64 -p2.ws win32 -data C:\temp\SAGEM\common\runtime\install -roaming -consolelog -profileProperties org.eclipse.equinox.p2.launcherConfiguration=C:\temp\SAGEM\install\profile\bin\eclipse.ini.ignored
+
+!ENTRY com.softwareag.equinox.p2.director.app 0 0 2021-10-26 10:29:30.886
+!MESSAGE Merged application arguments: -installIU com.softwareag.osgi.platform.minimal.sdk.feature.group,com.softwareag.plm.sd.platform.provision.application.feature.feature.group -metadataRepository file:/C:/temp/SAGEM/common/runtime/bundles/sd/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/sagprov/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/sum-cc/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/esapi/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/ext/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/platform/eclipse/ -artifactRepository file:/C:/temp/SAGEM/common/runtime/bundles/sd/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/sagprov/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/sum-cc/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/esapi/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/ext/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/platform/eclipse/ -addCacheExt file:/C:/temp/SAGEM/common/runtime/bundles/sd/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/sagprov/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/sum-cc/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/esapi/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/ext/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/platform/eclipse/ -destination C:\temp\SAGEM\install\profile -profile minimal -p2.os win32 -p2.arch x86_64 -p2.ws win32 -roaming -profileProperties org.eclipse.equinox.p2.launcherConfiguration=C:\temp\SAGEM\install\profile\bin\eclipse.ini.ignored
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2021-10-26 10:29:31.773
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2021-10-26 10:29:31.774
+!MESSAGE Add request for Provisioning Application Feature 10.7.0.0000-0359 (com.softwareag.plm.sd.platform.provision.application.feature.feature.group 10.7.0.0000-0359) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2021-10-26 10:29:31.774
+!MESSAGE Add request for OSGi Minimal Platform SDK 10.7.0.0000-0635 (com.softwareag.osgi.platform.minimal.sdk.feature.group 10.7.0.0000-0635) is satisfiable
+
+!ENTRY Orphaned Bundles in Profile 4 6 2021-10-26 10:29:32.349
+!MESSAGE There are 1 orphaned bundles in profile agent:
+	com.softwareag.platform.p2.actions(10.7.0.0000-0635)
+
+!ENTRY addToList 0 0 2021-10-26 10:29:39.307
+!MESSAGE Filtered C:\temp\SAGEM\install\profile\bin\setenv.bat: Performed 1 additions of C:\temp\SAGEM\common\runtime\bundles\platform\eclipse\plugins\com.softwareag.platform.bootstrap_10.7.0.0000-0635.jar
+
+!ENTRY addToList 0 0 2021-10-26 10:29:39.315
+!MESSAGE Filtered C:\temp\SAGEM\install\profile\configuration\wrapper.conf: Performed 1 additions of C:\temp\SAGEM\common\runtime\bundles\platform\eclipse\plugins\com.softwareag.platform.bootstrap_10.7.0.0000-0635.jar
+
+!ENTRY addToList 0 0 2021-10-26 10:29:39.315
+!MESSAGE Environment osgi.os=win32,osgi.arch=x86_64,osgi.ws=win32,osgi.nl=en_IN is not suitable for this action
+
+!ENTRY addToList 0 0 2021-10-26 10:29:39.316
+!MESSAGE Environment osgi.os=win32,osgi.arch=x86_64,osgi.ws=win32,osgi.nl=en_IN is not suitable for this action
+
+!ENTRY addToProgramProperty 0 0 2021-10-26 10:29:39.324
+!MESSAGE Added jaas.file.loader to list com.softwareag.platform.config.stores
+
+!ENTRY addToProgramProperty 0 0 2021-10-26 10:29:39.326
+!MESSAGE Added file.property.loader to list com.softwareag.platform.config.stores
+
+!ENTRY addToProgramProperty 0 0 2021-10-26 10:29:39.326
+!MESSAGE Added extender.property.loader to list com.softwareag.platform.config.stores
+
+!ENTRY addToProgramProperty 0 0 2021-10-26 10:29:39.328
+!MESSAGE Added envtoken.config.filter to list com.softwareag.platform.config.filters
+
+!ENTRY addToProgramProperty 0 0 2021-10-26 10:29:39.329
+!MESSAGE Added location.token.resolver to list com.softwareag.platform.config.filters
+
+!ENTRY addToProgramProperty 0 0 2021-10-26 10:29:39.331
+!MESSAGE Added securetoken.config.filter to list com.softwareag.platform.config.filters
+
+!ENTRY replaceTokens 0 0 2021-10-26 10:29:39.343
+!MESSAGE Filtered C:\temp\SAGEM\install\profile\bin\setenv.bat: Performed 1 token replacements
+
+!ENTRY replaceTokens 0 0 2021-10-26 10:29:39.344
+!MESSAGE Environment osgi.os=win32,osgi.arch=x86_64,osgi.ws=win32,osgi.nl=en_IN is not suitable for this action
+
+!ENTRY replaceTokens 0 0 2021-10-26 10:29:39.351
+!MESSAGE Filtered C:\temp\SAGEM\install\profile\bin\custom_setenv.bat: Performed 1 token replacements
+
+!ENTRY replaceTokens 0 0 2021-10-26 10:29:39.352
+!MESSAGE Environment osgi.os=win32,osgi.arch=x86_64,osgi.ws=win32,osgi.nl=en_IN is not suitable for this action
+
+!ENTRY replaceTokens 0 0 2021-10-26 10:29:39.359
+!MESSAGE Filtered C:\temp\SAGEM\install\profile\configuration\wrapper.conf: Performed 3 token replacements
+
+!ENTRY addToList 0 0 2021-10-26 10:29:39.377
+!MESSAGE Filtered C:\temp\SAGEM\install\profile\bin\setenv.bat: Performed 1 additions of C:\temp\SAGEM\common\runtime\bundles\platform\eclipse\plugins\com.softwareag.platform.jaas.proxy_10.7.0.0000-0635.jar
+
+!ENTRY addToList 0 0 2021-10-26 10:29:39.383
+!MESSAGE Filtered C:\temp\SAGEM\install\profile\configuration\wrapper.conf: Performed 1 additions of C:\temp\SAGEM\common\runtime\bundles\platform\eclipse\plugins\com.softwareag.platform.jaas.proxy_10.7.0.0000-0635.jar
+
+!ENTRY addToList 0 0 2021-10-26 10:29:39.384
+!MESSAGE Environment osgi.os=win32,osgi.arch=x86_64,osgi.ws=win32,osgi.nl=en_IN is not suitable for this action
+
+!ENTRY addToList 0 0 2021-10-26 10:29:39.385
+!MESSAGE Environment osgi.os=win32,osgi.arch=x86_64,osgi.ws=win32,osgi.nl=en_IN is not suitable for this action
+
+!ENTRY addToProgramProperty 0 0 2021-10-26 10:29:39.385
+!MESSAGE Added com.softwareag.platform.jaas.proxy;version="1.0.0" to list org.osgi.framework.system.packages.extra
+
+!ENTRY replaceTokens 0 0 2021-10-26 10:29:39.398
+!MESSAGE Filtered C:\temp\SAGEM\install\profile\configuration\logging\log4j2.properties: Performed 2 token replacements
+
+!ENTRY addToList 0 0 2021-10-26 10:29:39.411
+!MESSAGE Filtered C:\temp\SAGEM\install\profile\bin\setenv.bat: Performed 1 additions of C:\temp\SAGEM\common\runtime\bundles\platform\eclipse\plugins\com.softwareag.platform.logging.jul.proxy_10.7.0.0000-0635.jar
+
+!ENTRY addToList 0 0 2021-10-26 10:29:39.418
+!MESSAGE Filtered C:\temp\SAGEM\install\profile\configuration\wrapper.conf: Performed 1 additions of C:\temp\SAGEM\common\runtime\bundles\platform\eclipse\plugins\com.softwareag.platform.logging.jul.proxy_10.7.0.0000-0635.jar
+
+!ENTRY addToList 0 0 2021-10-26 10:29:39.419
+!MESSAGE Environment osgi.os=win32,osgi.arch=x86_64,osgi.ws=win32,osgi.nl=en_IN is not suitable for this action
+
+!ENTRY addToList 0 0 2021-10-26 10:29:39.419
+!MESSAGE Environment osgi.os=win32,osgi.arch=x86_64,osgi.ws=win32,osgi.nl=en_IN is not suitable for this action
+
+!ENTRY addToProgramProperty 0 0 2021-10-26 10:29:39.419
+!MESSAGE Added com.softwareag.platform.jul.proxy;version="1.0.0" to list org.osgi.framework.system.packages.extra
+
+!ENTRY addToProgramProperty 0 0 2021-10-26 10:29:39.426
+!MESSAGE Added jaas.ldap.server.filter to list com.softwareag.platform.config.filters
+
+!ENTRY addToList 0 0 2021-10-26 10:29:39.537
+!MESSAGE Filtered C:\temp\SAGEM\install\profile\bin\setenv.bat: Performed 1 additions of C:\temp\SAGEM\common\runtime\bundles\platform\eclipse\plugins\org.eclipse.equinox.launcher_1.5.300.v20190213-1655.jar
+
+!ENTRY addToList 0 0 2021-10-26 10:29:39.836
+!MESSAGE Filtered C:\temp\SAGEM\install\profile\configuration\wrapper.conf: Performed 1 additions of C:\temp\SAGEM\common\runtime\bundles\platform\eclipse\plugins\org.eclipse.equinox.launcher_1.5.300.v20190213-1655.jar
+
+!ENTRY addToList 0 0 2021-10-26 10:29:39.837
+!MESSAGE Environment osgi.os=win32,osgi.arch=x86_64,osgi.ws=win32,osgi.nl=en_IN is not suitable for this action
+
+!ENTRY addToList 0 0 2021-10-26 10:29:39.837
+!MESSAGE Environment osgi.os=win32,osgi.arch=x86_64,osgi.ws=win32,osgi.nl=en_IN is not suitable for this action
+
+!ENTRY Orphaned Bundles in Profile 4 6 2021-10-26 10:29:40.291
+!MESSAGE There are 10 orphaned bundles in profile minimal:
+	com.softwareag.platform.audit.utils(10.7.0.0000-0635)
+	com.softwareag.platform.audit.api(10.7.0.0000-0635)
+	org.apache.commons.io(2.6.0)
+	org.apache.httpcomponents.httpcore(4.4.9)
+	org.glassfish.main.javaee-api.javax.jms(3.1.2.1-SNAPSHOT)
+	org.osgi.util.converter(1.0.1.201810101357)
+	com.softwareag.platform.p2.actions(10.7.0.0000-0635)
+	org.apache.httpcomponents.httpclient(4.5.5)
+	org.apache.commons.logging(1.2.0)
+	org.apache.commons.codec(1.13.0)
+!SESSION 2021-10-26 10:29:41.696 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_261
+java.vendor=Azul Systems, Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -application com.softwareag.eclipse.equinox.p2.director -optionsFile file:/C:/temp/SAGEM/install/platform/SPM_1635224381475_install -destination C:\temp\SAGEM\profiles\SPM -profile minimal -p2.os win32 -p2.arch x86_64 -p2.ws win32 -roaming -profileProperties org.eclipse.equinox.p2.launcherConfiguration=C:\temp\SAGEM\profiles\SPM\bin\eclipse.ini.ignored
+Command-line arguments:  -debug C:\temp\SAGEM\profiles\SPM\bin\.options -clean -application com.softwareag.eclipse.equinox.p2.director -optionsFile file:/C:/temp/SAGEM/install/platform/SPM_1635224381475_install -destination C:\temp\SAGEM\profiles\SPM -profile minimal -p2.os win32 -p2.arch x86_64 -p2.ws win32 -data C:\temp\SAGEM\common\runtime\install -roaming -consolelog -profileProperties org.eclipse.equinox.p2.launcherConfiguration=C:\temp\SAGEM\profiles\SPM\bin\eclipse.ini.ignored
+
+!ENTRY com.softwareag.equinox.p2.director.app 0 0 2021-10-26 10:29:42.732
+!MESSAGE Merged application arguments: -installIU com.softwareag.plm.spm.main.feature.feature.group -metadataRepository file:/C:/temp/SAGEM/common/runtime/bundles/spm/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/cc-shared/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/lic/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/lar/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/esapi/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/ext/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/sd/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/sagprov/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/sum-cc/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/deployer-acdl-shared/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/platform/eclipse/ -artifactRepository file:/C:/temp/SAGEM/common/runtime/bundles/spm/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/cc-shared/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/lic/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/lar/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/esapi/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/ext/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/sd/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/sagprov/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/sum-cc/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/deployer-acdl-shared/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/platform/eclipse/ -addCacheExt file:/C:/temp/SAGEM/common/runtime/bundles/spm/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/cc-shared/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/lic/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/lar/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/esapi/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/ext/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/sd/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/sagprov/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/sum-cc/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/deployer-acdl-shared/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/platform/eclipse/ -destination C:\temp\SAGEM\profiles\SPM -profile minimal -p2.os win32 -p2.arch x86_64 -p2.ws win32 -roaming -profileProperties org.eclipse.equinox.p2.launcherConfiguration=C:\temp\SAGEM\profiles\SPM\bin\eclipse.ini.ignored
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2021-10-26 10:29:43.727
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2021-10-26 10:29:43.728
+!MESSAGE Add request for Platform Manager Server 10.7.0.0000-0784 (com.softwareag.plm.spm.main.feature.feature.group 10.7.0.0000-0784) is satisfiable
+
+!ENTRY addToList 0 0 2021-10-26 10:29:51.893
+!MESSAGE Filtered C:\temp\SAGEM\profiles\SPM\bin\setenv.bat: Performed 1 additions of C:\temp\SAGEM\common\runtime\bundles\platform\eclipse\plugins\com.softwareag.platform.bootstrap_10.7.0.0000-0635.jar
+
+!ENTRY addToList 0 0 2021-10-26 10:29:51.901
+!MESSAGE Filtered C:\temp\SAGEM\profiles\SPM\configuration\wrapper.conf: Performed 1 additions of C:\temp\SAGEM\common\runtime\bundles\platform\eclipse\plugins\com.softwareag.platform.bootstrap_10.7.0.0000-0635.jar
+
+!ENTRY addToList 0 0 2021-10-26 10:29:51.901
+!MESSAGE Environment osgi.os=win32,osgi.arch=x86_64,osgi.ws=win32,osgi.nl=en_IN is not suitable for this action
+
+!ENTRY addToList 0 0 2021-10-26 10:29:51.902
+!MESSAGE Environment osgi.os=win32,osgi.arch=x86_64,osgi.ws=win32,osgi.nl=en_IN is not suitable for this action
+
+!ENTRY addToProgramProperty 0 0 2021-10-26 10:29:51.929
+!MESSAGE Added jaas.file.loader to list com.softwareag.platform.config.stores
+
+!ENTRY addToProgramProperty 0 0 2021-10-26 10:29:51.931
+!MESSAGE Added file.property.loader to list com.softwareag.platform.config.stores
+
+!ENTRY addToProgramProperty 0 0 2021-10-26 10:29:51.931
+!MESSAGE Added extender.property.loader to list com.softwareag.platform.config.stores
+
+!ENTRY addToProgramProperty 0 0 2021-10-26 10:29:51.934
+!MESSAGE Added envtoken.config.filter to list com.softwareag.platform.config.filters
+
+!ENTRY addToProgramProperty 0 0 2021-10-26 10:29:51.936
+!MESSAGE Added location.token.resolver to list com.softwareag.platform.config.filters
+
+!ENTRY addToProgramProperty 0 0 2021-10-26 10:29:51.938
+!MESSAGE Added securetoken.config.filter to list com.softwareag.platform.config.filters
+
+!ENTRY replaceTokens 0 0 2021-10-26 10:29:51.944
+!MESSAGE Filtered C:\temp\SAGEM\profiles\SPM\bin\setenv.bat: Performed 1 token replacements
+
+!ENTRY replaceTokens 0 0 2021-10-26 10:29:51.944
+!MESSAGE Environment osgi.os=win32,osgi.arch=x86_64,osgi.ws=win32,osgi.nl=en_IN is not suitable for this action
+
+!ENTRY replaceTokens 0 0 2021-10-26 10:29:51.947
+!MESSAGE Filtered C:\temp\SAGEM\profiles\SPM\bin\custom_setenv.bat: Performed 1 token replacements
+
+!ENTRY replaceTokens 0 0 2021-10-26 10:29:51.948
+!MESSAGE Environment osgi.os=win32,osgi.arch=x86_64,osgi.ws=win32,osgi.nl=en_IN is not suitable for this action
+
+!ENTRY replaceTokens 0 0 2021-10-26 10:29:51.955
+!MESSAGE Filtered C:\temp\SAGEM\profiles\SPM\configuration\wrapper.conf: Performed 3 token replacements
+
+!ENTRY replaceTokens 0 0 2021-10-26 10:29:51.972
+!MESSAGE Filtered C:\temp\SAGEM\profiles\SPM\configuration\tomcat\conf\server.xml: Performed 0 token replacements
+
+!ENTRY replaceTokens 0 0 2021-10-26 10:29:51.972
+!MESSAGE Environment osgi.os=win32,osgi.arch=x86_64,osgi.ws=win32,osgi.nl=en_IN is not suitable for this action
+
+!ENTRY replaceTokens 0 0 2021-10-26 10:29:51.975
+!MESSAGE Filtered C:\temp\SAGEM\profiles\SPM\configuration\tomcat\conf\server.xml: Performed 0 token replacements
+
+!ENTRY addToList 0 0 2021-10-26 10:29:52.000
+!MESSAGE Filtered C:\temp\SAGEM\profiles\SPM\bin\setenv.bat: Performed 1 additions of C:\temp\SAGEM\common\runtime\bundles\platform\eclipse\plugins\com.softwareag.platform.jaas.proxy_10.7.0.0000-0635.jar
+
+!ENTRY addToList 0 0 2021-10-26 10:29:52.009
+!MESSAGE Filtered C:\temp\SAGEM\profiles\SPM\configuration\wrapper.conf: Performed 1 additions of C:\temp\SAGEM\common\runtime\bundles\platform\eclipse\plugins\com.softwareag.platform.jaas.proxy_10.7.0.0000-0635.jar
+
+!ENTRY addToList 0 0 2021-10-26 10:29:52.009
+!MESSAGE Environment osgi.os=win32,osgi.arch=x86_64,osgi.ws=win32,osgi.nl=en_IN is not suitable for this action
+
+!ENTRY addToList 0 0 2021-10-26 10:29:52.010
+!MESSAGE Environment osgi.os=win32,osgi.arch=x86_64,osgi.ws=win32,osgi.nl=en_IN is not suitable for this action
+
+!ENTRY addToProgramProperty 0 0 2021-10-26 10:29:52.010
+!MESSAGE Added com.softwareag.platform.jaas.proxy;version="1.0.0" to list org.osgi.framework.system.packages.extra
+
+!ENTRY replaceTokens 0 0 2021-10-26 10:29:52.048
+!MESSAGE Filtered C:\temp\SAGEM\profiles\SPM\configuration\logging\log4j2.properties: Performed 2 token replacements
+
+!ENTRY addToList 0 0 2021-10-26 10:29:52.204
+!MESSAGE Filtered C:\temp\SAGEM\profiles\SPM\bin\setenv.bat: Performed 1 additions of C:\temp\SAGEM\common\runtime\bundles\platform\eclipse\plugins\com.softwareag.platform.logging.jul.proxy_10.7.0.0000-0635.jar
+
+!ENTRY addToList 0 0 2021-10-26 10:29:52.213
+!MESSAGE Filtered C:\temp\SAGEM\profiles\SPM\configuration\wrapper.conf: Performed 1 additions of C:\temp\SAGEM\common\runtime\bundles\platform\eclipse\plugins\com.softwareag.platform.logging.jul.proxy_10.7.0.0000-0635.jar
+
+!ENTRY addToList 0 0 2021-10-26 10:29:52.213
+!MESSAGE Environment osgi.os=win32,osgi.arch=x86_64,osgi.ws=win32,osgi.nl=en_IN is not suitable for this action
+
+!ENTRY addToList 0 0 2021-10-26 10:29:52.214
+!MESSAGE Environment osgi.os=win32,osgi.arch=x86_64,osgi.ws=win32,osgi.nl=en_IN is not suitable for this action
+
+!ENTRY addToProgramProperty 0 0 2021-10-26 10:29:52.215
+!MESSAGE Added com.softwareag.platform.jul.proxy;version="1.0.0" to list org.osgi.framework.system.packages.extra
+
+!ENTRY addToProgramProperty 0 0 2021-10-26 10:29:52.229
+!MESSAGE Added jaas.ldap.server.filter to list com.softwareag.platform.config.filters
+
+!ENTRY replaceTokens 0 0 2021-10-26 10:29:52.283
+!MESSAGE Filtered C:\temp\SAGEM\profiles\SPM\configuration\logging\log4j2.properties: Performed 1 token replacements
+
+!ENTRY replaceTokens 0 0 2021-10-26 10:29:52.297
+!MESSAGE Filtered C:\temp\SAGEM\profiles\SPM\configuration\com.softwareag.platform.config.propsloader\com.softwareag.catalina.connector.https.pid-spm.properties: Performed 1 token replacements
+
+!ENTRY replaceTokens 0 0 2021-10-26 10:29:52.303
+!MESSAGE Filtered C:\temp\SAGEM\profiles\SPM\configuration\com.softwareag.platform.config.propsloader\com.softwareag.catalina.connector.http.pid-spm.properties: Performed 2 token replacements
+
+!ENTRY replaceTokens 0 0 2021-10-26 10:29:52.310
+!MESSAGE Filtered C:\temp\SAGEM\profiles\SPM\configuration\com.softwareag.platform.config.propsloader\com.softwareag.catalina.connector.http.pid-spm.properties: Performed 0 token replacements
+
+!ENTRY replaceTokens 0 0 2021-10-26 10:29:52.316
+!MESSAGE Filtered C:\temp\SAGEM\profiles\SPM\configuration\com.softwareag.platform.config.propsloader\com.softwareag.jmx.connector.pid-spm.properties: Performed 1 token replacements
+
+!ENTRY replaceTokens 0 0 2021-10-26 10:29:52.317
+!MESSAGE Environment osgi.os=win32,osgi.arch=x86_64,osgi.ws=win32,osgi.nl=en_IN is not suitable for this action
+
+!ENTRY replaceTokens 0 0 2021-10-26 10:29:52.323
+!MESSAGE Filtered C:\temp\SAGEM\profiles\SPM\configuration\com.softwareag.platform.config.propsloader\com.softwareag.catalina.connector.https.pid-spm.properties: Performed 1 token replacements
+
+!ENTRY addToProgramProperty 0 0 2021-10-26 10:29:52.385
+!MESSAGE Added 30000 to list equinox.scr.waitTimeOnBlock
+
+!ENTRY addToProgramProperty 0 0 2021-10-26 10:29:52.386
+!MESSAGE Added 30000 to list ds.lock.timeout.milliseconds
+
+!ENTRY addToList 0 0 2021-10-26 10:29:52.504
+!MESSAGE Filtered C:\temp\SAGEM\profiles\SPM\bin\setenv.bat: Performed 1 additions of C:\temp\SAGEM\common\runtime\bundles\platform\eclipse\plugins\org.eclipse.equinox.launcher_1.5.300.v20190213-1655.jar
+
+!ENTRY addToList 0 0 2021-10-26 10:29:52.512
+!MESSAGE Filtered C:\temp\SAGEM\profiles\SPM\configuration\wrapper.conf: Performed 1 additions of C:\temp\SAGEM\common\runtime\bundles\platform\eclipse\plugins\org.eclipse.equinox.launcher_1.5.300.v20190213-1655.jar
+
+!ENTRY addToList 0 0 2021-10-26 10:29:52.512
+!MESSAGE Environment osgi.os=win32,osgi.arch=x86_64,osgi.ws=win32,osgi.nl=en_IN is not suitable for this action
+
+!ENTRY addToList 0 0 2021-10-26 10:29:52.513
+!MESSAGE Environment osgi.os=win32,osgi.arch=x86_64,osgi.ws=win32,osgi.nl=en_IN is not suitable for this action
+
+!ENTRY Orphaned Bundles in Profile 4 7 2021-10-26 10:29:53.401
+!MESSAGE There are 15 orphaned bundles in profile minimal:
+	com.softwareag.security.common.web(10.7.0.0000-0384)
+	org.apache.httpcomponents.httpcore(4.4.9)
+	org.glassfish.main.javaee-api.javax.jms(3.1.2.1-SNAPSHOT)
+	com.softwareag.security.web.sso.saml2(10.7.0.0000-0384)
+	org.apache.commons.codec(1.13.0)
+	com.softwareag.platform.audit.utils(10.7.0.0000-0635)
+	com.softwareag.platform.audit.api(10.7.0.0000-0635)
+	com.softwareag.net.sourceforge.spnego(0.0.0.0000-0003)
+	org.osgi.util.converter(1.0.1.201810101357)
+	com.softwareag.platform.p2.actions(10.7.0.0000-0635)
+	org.apache.httpcomponents.httpclient(4.5.5)
+	org.apache.servicemix.bundles.spring-web(5.2.4.RELEASE_1)
+	com.jcraft.jsch(0.1.55)
+	org.apache.commons.logging(1.2.0)
+	org.glassfish.external.asm-all(6.0.0.ALPHA)
+!SESSION 2021-10-26 10:29:55.190 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_261
+java.vendor=Azul Systems, Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -application com.softwareag.eclipse.equinox.p2.director -optionsFile file:/C:/temp/SAGEM/install/platform/SPM_1635224395011_install -profile minimal -destination C:\temp\SAGEM\profiles\SPM -p2.os win32 -p2.arch x86_64 -roaming
+Command-line arguments:  -consolelog -application com.softwareag.eclipse.equinox.p2.director -optionsFile file:/C:/temp/SAGEM/install/platform/SPM_1635224395011_install -profile minimal -destination C:\temp\SAGEM\profiles\SPM -p2.os win32 -p2.arch x86_64 -roaming -clean -data C:\temp\SAGEM\common\runtime\install
+
+!ENTRY com.softwareag.equinox.p2.director.app 0 0 2021-10-26 10:29:56.348
+!MESSAGE Merged application arguments: -installIU com.softwareag.plm.spm.nirvana.feature.feature.group -metadataRepository file:/C:/temp/SAGEM/common/runtime/bundles/num-cc/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/spm/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/cc-shared/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/lic/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/lar/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/esapi/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/ext/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/sd/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/sagprov/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/sum-cc/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/deployer-acdl-shared/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/cmp/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/cmp-um95/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/cmp-um96/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/cmp-um97/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/cmp-um98/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/cmp-um99/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/cmp-um910/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/cmp-um912/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/cmp-um100/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/cmp-um101/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/cmp-um102/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/cmp-um103/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/cmp-um104/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/cmp-um105/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/cmp-api/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/num/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/is-shared/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/broker-shared/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/platform/eclipse/ -artifactRepository file:/C:/temp/SAGEM/common/runtime/bundles/num-cc/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/spm/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/cc-shared/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/lic/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/lar/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/esapi/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/ext/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/sd/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/sagprov/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/sum-cc/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/deployer-acdl-shared/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/cmp/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/cmp-um95/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/cmp-um96/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/cmp-um97/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/cmp-um98/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/cmp-um99/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/cmp-um910/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/cmp-um912/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/cmp-um100/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/cmp-um101/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/cmp-um102/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/cmp-um103/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/cmp-um104/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/cmp-um105/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/cmp-api/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/num/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/is-shared/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/broker-shared/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/platform/eclipse/ -addCacheExt file:/C:/temp/SAGEM/common/runtime/bundles/num-cc/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/spm/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/cc-shared/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/lic/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/lar/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/esapi/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/ext/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/sd/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/sagprov/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/sum-cc/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/deployer-acdl-shared/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/cmp/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/cmp-um95/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/cmp-um96/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/cmp-um97/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/cmp-um98/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/cmp-um99/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/cmp-um910/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/cmp-um912/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/cmp-um100/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/cmp-um101/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/cmp-um102/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/cmp-um103/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/cmp-um104/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/cmp-um105/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/cmp-api/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/num/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/is-shared/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/broker-shared/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/platform/eclipse/ -profile minimal -destination C:\temp\SAGEM\profiles\SPM -p2.os win32 -p2.arch x86_64 -roaming
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2021-10-26 10:29:59.847
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2021-10-26 10:29:59.847
+!MESSAGE Add request for SPM for 'null' feature 10.7.0.0000-133380 (com.softwareag.plm.spm.nirvana.feature.feature.group 10.7.0.0000-133380) is satisfiable
+
+!ENTRY Orphaned Bundles in Profile 4 7 2021-10-26 10:30:01.360
+!MESSAGE There are 16 orphaned bundles in profile minimal:
+	com.softwareag.security.common.web(10.7.0.0000-0384)
+	org.apache.httpcomponents.httpcore(4.4.9)
+	org.glassfish.main.javaee-api.javax.jms(3.1.2.1-SNAPSHOT)
+	com.softwareag.security.web.sso.saml2(10.7.0.0000-0384)
+	org.apache.commons.codec(1.13.0)
+	com.softwareag.platform.audit.utils(10.7.0.0000-0635)
+	com.softwareag.platform.audit.api(10.7.0.0000-0635)
+	com.softwareag.net.sourceforge.spnego(0.0.0.0000-0003)
+	com.google.protobuf.util(3.7.1.1)
+	org.osgi.util.converter(1.0.1.201810101357)
+	com.softwareag.platform.p2.actions(10.7.0.0000-0635)
+	org.apache.httpcomponents.httpclient(4.5.5)
+	org.apache.servicemix.bundles.spring-web(5.2.4.RELEASE_1)
+	com.jcraft.jsch(0.1.55)
+	org.apache.commons.logging(1.2.0)
+	org.glassfish.external.asm-all(6.0.0.ALPHA)
+!SESSION 2021-10-26 10:30:43.794 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_261
+java.vendor=Azul Systems, Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -application org.eclipse.equinox.p2.director -profile minimal -installIU com.softwareag.plm.sd.platform.repository.feature.patch.feature.group/10.7.0.0001-0360,com.softwareag.plm.sd.platform.provision.feature.patch.feature.group/10.7.0.0001-0360,com.softwareag.plm.sd.platform.repository.manager.feature.patch.feature.group/10.7.0.0001-0360,com.softwareag.plm.sd.platform.repository.web.app.feature.patch.feature.group/10.7.0.0001-0360 -repository file:C:\temp\SAGEM\common\runtime\bundles\sagprov\eclipse -destination C:\temp\SAGEM\profiles\SPM -addCacheExt file:C:\temp\SAGEM\common\runtime\bundles\sagprov\eclipse
+Command-line arguments:  -consoleLog -application org.eclipse.equinox.p2.director -profile minimal -installIU com.softwareag.plm.sd.platform.repository.feature.patch.feature.group/10.7.0.0001-0360,com.softwareag.plm.sd.platform.provision.feature.patch.feature.group/10.7.0.0001-0360,com.softwareag.plm.sd.platform.repository.manager.feature.patch.feature.group/10.7.0.0001-0360,com.softwareag.plm.sd.platform.repository.web.app.feature.patch.feature.group/10.7.0.0001-0360 -repository file:C:\temp\SAGEM\common\runtime\bundles\sagprov\eclipse -destination C:\temp\SAGEM\profiles\SPM -addCacheExt file:C:\temp\SAGEM\common\runtime\bundles\sagprov\eclipse
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2021-10-26 10:30:47.380
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2021-10-26 10:30:47.380
+!MESSAGE Add request for Provisioning Agent Feature 10.7.0.0001-0360 (com.softwareag.plm.sd.platform.provision.feature.patch.feature.group 10.7.0.0001-0360) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2021-10-26 10:30:47.381
+!MESSAGE Add request for Product Repository Feature 10.7.0.0001-0360 (com.softwareag.plm.sd.platform.repository.feature.patch.feature.group 10.7.0.0001-0360) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2021-10-26 10:30:47.381
+!MESSAGE Add request for Product Repository Manager Feature 10.7.0.0001-0360 (com.softwareag.plm.sd.platform.repository.manager.feature.patch.feature.group 10.7.0.0001-0360) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2021-10-26 10:30:47.381
+!MESSAGE Add request for Product Repository Web App Feature 10.7.0.0001-0360 (com.softwareag.plm.sd.platform.repository.web.app.feature.patch.feature.group 10.7.0.0001-0360) is satisfiable
+
+!ENTRY Orphaned Bundles in Profile 4 7 2021-10-26 10:30:48.909
+!MESSAGE There are 25 orphaned bundles in profile minimal:
+	com.softwareag.plm.sd.platform.repository(10.7.0.0001-0360)
+	com.softwareag.security.common.web(10.7.0.0000-0384)
+	com.softwareag.plm.sd.repository.manager(10.7.0.0001-0360)
+	org.apache.httpcomponents.httpcore(4.4.9)
+	com.softwareag.plm.sd.platform.provision.common(10.7.0.0001-0360)
+	com.softwareag.plm.sd.platform.provision(10.7.0.0001-0360)
+	org.glassfish.main.javaee-api.javax.jms(3.1.2.1-SNAPSHOT)
+	com.softwareag.security.web.sso.saml2(10.7.0.0000-0384)
+	org.apache.commons.codec(1.13.0)
+	com.softwareag.platform.audit.utils(10.7.0.0000-0635)
+	com.softwareag.platform.audit.api(10.7.0.0000-0635)
+	com.softwareag.plm.sd.platform.provision.monitor(10.7.0.0001-0360)
+	com.softwareag.plm.sd.platform.common(10.7.0.0001-0360)
+	com.softwareag.plm.sd.platform.repository.web.app(10.7.0.0001-0360)
+	com.softwareag.plm.sd.platform.agent(10.7.0.0001-0360)
+	com.softwareag.net.sourceforge.spnego(0.0.0.0000-0003)
+	com.google.protobuf.util(3.7.1.1)
+	com.softwareag.plm.sd.platform.sdc.auth(10.7.0.0001-0360)
+	org.osgi.util.converter(1.0.1.201810101357)
+	com.softwareag.platform.p2.actions(10.7.0.0000-0635)
+	org.apache.httpcomponents.httpclient(4.5.5)
+	org.apache.servicemix.bundles.spring-web(5.2.4.RELEASE_1)
+	com.jcraft.jsch(0.1.55)
+	org.apache.commons.logging(1.2.0)
+	org.glassfish.external.asm-all(6.0.0.ALPHA)
+!SESSION 2021-10-26 10:30:50.897 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_261
+java.vendor=Azul Systems, Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -source C:\temp\SAGEM\install\fix\temp\wMFix.OSGI.Platform_10.7.0.0006-0749\install.phase4_1\repo -application org.eclipse.equinox.p2.artifact.repository.mirrorApplication -destination file:C:\temp\SAGEM\common\runtime\bundles\platform\eclipse
+Command-line arguments:  -consoleLog -source C:\temp\SAGEM\install\fix\temp\wMFix.OSGI.Platform_10.7.0.0006-0749\install.phase4_1\repo -application org.eclipse.equinox.p2.artifact.repository.mirrorApplication -destination file:C:\temp\SAGEM\common\runtime\bundles\platform\eclipse
+
+!ENTRY org.eclipse.equinox.p2.transformer 0 0 2021-10-26 10:30:52.628
+!MESSAGE Messages while mirroring artifact descriptors.
+!SESSION 2021-10-26 10:30:56.704 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_261
+java.vendor=Azul Systems, Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -application org.eclipse.equinox.p2.director -profile minimal -installIU com.softwareag.platform.equinox.patch.feature.group/10.7.0.0006-0749,com.softwareag.platform.tomcat.core.patch.feature.group/10.7.0.0006-0749,com.softwareag.platform.security.authz.patch.feature.group/10.7.0.0006-0749,com.softwareag.platform.scg.patch.feature.group/10.7.0.0006-0749,com.softwareag.platform.g11n.patch.feature.group/10.7.0.0006-0749,com.softwareag.platform.minimal.patch.feature.group/10.7.0.0006-0749 -repository file:C:\temp\SAGEM\common\runtime\bundles\platform\eclipse -destination C:\temp\SAGEM\profiles\SPM -addCacheExt file:C:\temp\SAGEM\common\runtime\bundles\platform\eclipse
+Command-line arguments:  -consoleLog -application org.eclipse.equinox.p2.director -profile minimal -installIU com.softwareag.platform.equinox.patch.feature.group/10.7.0.0006-0749,com.softwareag.platform.tomcat.core.patch.feature.group/10.7.0.0006-0749,com.softwareag.platform.security.authz.patch.feature.group/10.7.0.0006-0749,com.softwareag.platform.scg.patch.feature.group/10.7.0.0006-0749,com.softwareag.platform.g11n.patch.feature.group/10.7.0.0006-0749,com.softwareag.platform.minimal.patch.feature.group/10.7.0.0006-0749 -repository file:C:\temp\SAGEM\common\runtime\bundles\platform\eclipse -destination C:\temp\SAGEM\profiles\SPM -addCacheExt file:C:\temp\SAGEM\common\runtime\bundles\platform\eclipse
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2021-10-26 10:31:00.378
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2021-10-26 10:31:00.378
+!MESSAGE Add request for com.softwareag.platform.tomcat.core.patch 10.7.0.0006-0749 (com.softwareag.platform.tomcat.core.patch.feature.group 10.7.0.0006-0749) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2021-10-26 10:31:00.378
+!MESSAGE Add request for com.softwareag.platform.security.authz.patch 10.7.0.0006-0749 (com.softwareag.platform.security.authz.patch.feature.group 10.7.0.0006-0749) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2021-10-26 10:31:00.378
+!MESSAGE Add request for com.softwareag.platform.scg.patch 10.7.0.0006-0749 (com.softwareag.platform.scg.patch.feature.group 10.7.0.0006-0749) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2021-10-26 10:31:00.378
+!MESSAGE Add request for com.softwareag.platform.equinox.patch 10.7.0.0006-0749 (com.softwareag.platform.equinox.patch.feature.group 10.7.0.0006-0749) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2021-10-26 10:31:00.378
+!MESSAGE Add request for com.softwareag.platform.g11n.patch 10.7.0.0006-0749 (com.softwareag.platform.g11n.patch.feature.group 10.7.0.0006-0749) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2021-10-26 10:31:00.378
+!MESSAGE Add request for com.softwareag.platform.minimal.patch 10.7.0.0006-0749 (com.softwareag.platform.minimal.patch.feature.group 10.7.0.0006-0749) is satisfiable
+
+!ENTRY Orphaned Bundles in Profile 4 7 2021-10-26 10:31:02.088
+!MESSAGE There are 42 orphaned bundles in profile minimal:
+	org.apache.juli(8.5.64)
+	com.softwareag.plm.sd.platform.repository(10.7.0.0001-0360)
+	org.apache.shiro.core(1.7.1)
+	com.softwareag.security.common.web(10.7.0.0000-0384)
+	org.apache.tomcat.jni(8.5.64)
+	com.softwareag.plm.sd.repository.manager(10.7.0.0001-0360)
+	org.apache.catalina(8.5.64)
+	org.apache.httpcomponents.httpcore(4.4.9)
+	com.softwareag.plm.sd.platform.provision.common(10.7.0.0001-0360)
+	org.apache.el(8.5.64)
+	com.softwareag.plm.sd.platform.provision(10.7.0.0001-0360)
+	com.softwareag.sc.security(10.7.0.0001-0450)
+	org.glassfish.main.javaee-api.javax.jms(3.1.2.1-SNAPSHOT)
+	com.softwareag.g11n(10.7.0.0000-0016)
+	com.softwareag.security.web.sso.saml2(10.7.0.0000-0384)
+	com.softwareag.platform.proxy(10.7.0.0006-0749)
+	org.apache.commons.codec(1.13.0)
+	org.apache.catalina.ha(8.5.64)
+	org.apache.coyote(8.5.64)
+	com.softwareag.sc.core(10.7.0.0001-0450)
+	com.softwareag.platform.audit.utils(10.7.0.0000-0635)
+	com.softwareag.platform.audit.api(10.7.0.0000-0635)
+	com.softwareag.plm.sd.platform.provision.monitor(10.7.0.0001-0360)
+	com.softwareag.plm.sd.platform.common(10.7.0.0001-0360)
+	com.softwareag.plm.sd.platform.repository.web.app(10.7.0.0001-0360)
+	com.softwareag.plm.sd.platform.agent(10.7.0.0001-0360)
+	com.softwareag.net.sourceforge.spnego(0.0.0.0000-0003)
+	com.google.protobuf.util(3.7.1.1)
+	org.apache.tomcat.util.scan(8.5.64)
+	org.apache.jasper(8.5.64)
+	com.softwareag.plm.sd.platform.sdc.auth(10.7.0.0001-0360)
+	org.osgi.util.converter(1.0.1.201810101357)
+	com.softwareag.platform.p2.actions(10.7.0.0000-0635)
+	org.apache.catalina.tribes(8.5.64)
+	org.apache.tomcat.api(8.5.64)
+	org.apache.httpcomponents.httpclient(4.5.5)
+	org.apache.servicemix.bundles.spring-web(5.2.4.RELEASE_1)
+	com.jcraft.jsch(0.1.55)
+	org.apache.commons.logging(1.2.0)
+	org.apache.tomcat.websocket(8.5.64)
+	org.apache.tomcat.util(8.5.64)
+	org.glassfish.external.asm-all(6.0.0.ALPHA)
+!SESSION 2021-10-26 10:31:06.503 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_261
+java.vendor=Azul Systems, Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -application org.eclipse.equinox.p2.director -profile minimal -installIU com.softwareag.plm.cc.configuration.common.model.feature.patch.feature.group/10.7.0.0005-0926,com.softwareag.plm.cc.common.feature.patch.feature.group/10.7.0.0005-0926 -repository file:C:\temp\SAGEM\common\runtime\bundles\cc-shared\eclipse -destination C:\temp\SAGEM\profiles\SPM -addCacheExt file:C:\temp\SAGEM\common\runtime\bundles\cc-shared\eclipse
+Command-line arguments:  -consoleLog -application org.eclipse.equinox.p2.director -profile minimal -installIU com.softwareag.plm.cc.configuration.common.model.feature.patch.feature.group/10.7.0.0005-0926,com.softwareag.plm.cc.common.feature.patch.feature.group/10.7.0.0005-0926 -repository file:C:\temp\SAGEM\common\runtime\bundles\cc-shared\eclipse -destination C:\temp\SAGEM\profiles\SPM -addCacheExt file:C:\temp\SAGEM\common\runtime\bundles\cc-shared\eclipse
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2021-10-26 10:31:10.197
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2021-10-26 10:31:10.197
+!MESSAGE Add request for CC Configuration Common Model feature 10.7.0.0005-0926 (com.softwareag.plm.cc.configuration.common.model.feature.patch.feature.group 10.7.0.0005-0926) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2021-10-26 10:31:10.197
+!MESSAGE Add request for CC Common feature 10.7.0.0005-0926 (com.softwareag.plm.cc.common.feature.patch.feature.group 10.7.0.0005-0926) is satisfiable
+
+!ENTRY Orphaned Bundles in Profile 4 7 2021-10-26 10:31:11.746
+!MESSAGE There are 56 orphaned bundles in profile minimal:
+	org.apache.juli(8.5.64)
+	com.softwareag.plm.sd.platform.repository(10.7.0.0001-0360)
+	org.apache.shiro.core(1.7.1)
+	com.softwareag.plm.cc.spm.util(10.7.0.0005-0926)
+	com.softwareag.security.common.web(10.7.0.0000-0384)
+	org.apache.tomcat.jni(8.5.64)
+	com.softwareag.plm.sd.repository.manager(10.7.0.0001-0360)
+	org.apache.catalina(8.5.64)
+	com.softwareag.plm.cc.spm.configuration.common.model(10.7.0.0005-0926)
+	com.softwareag.plm.cc.spm.configuration.common(10.7.0.0005-0926)
+	org.apache.httpcomponents.httpcore(4.4.9)
+	com.softwareag.plm.sd.platform.provision.common(10.7.0.0001-0360)
+	org.apache.el(8.5.64)
+	com.softwareag.plm.sd.platform.provision(10.7.0.0001-0360)
+	com.softwareag.sc.security(10.7.0.0001-0450)
+	org.glassfish.main.javaee-api.javax.jms(3.1.2.1-SNAPSHOT)
+	com.softwareag.g11n(10.7.0.0000-0016)
+	com.softwareag.security.web.sso.saml2(10.7.0.0000-0384)
+	com.softwareag.platform.proxy(10.7.0.0006-0749)
+	org.apache.commons.codec(1.13.0)
+	com.softwareag.plm.cc.spm.security.common(10.7.0.0005-0926)
+	org.apache.catalina.ha(8.5.64)
+	com.softwareag.plm.cc.spm.template.common(10.7.0.0005-0926)
+	com.softwareag.plm.cc.spm.uibinding.common(10.7.0.0005-0926)
+	com.softwareag.plm.cc.spm.abe(10.7.0.0005-0926)
+	com.softwareag.plm.cc.spm.remote.core(10.7.0.0005-0926)
+	org.apache.coyote(8.5.64)
+	com.softwareag.sc.core(10.7.0.0001-0450)
+	com.softwareag.plm.cc.spm.common(10.7.0.0005-0926)
+	com.softwareag.platform.audit.utils(10.7.0.0000-0635)
+	com.softwareag.platform.audit.api(10.7.0.0000-0635)
+	com.softwareag.plm.sd.platform.provision.monitor(10.7.0.0001-0360)
+	com.softwareag.plm.sd.platform.common(10.7.0.0001-0360)
+	com.softwareag.plm.sd.platform.repository.web.app(10.7.0.0001-0360)
+	com.softwareag.plm.cc.spm.composite.template.common(10.7.0.0005-0926)
+	com.softwareag.plm.sd.platform.agent(10.7.0.0001-0360)
+	com.softwareag.net.sourceforge.spnego(0.0.0.0000-0003)
+	com.google.protobuf.util(3.7.1.1)
+	org.apache.tomcat.util.scan(8.5.64)
+	com.softwareag.plm.cc.spm.polling.common(10.7.0.0005-0926)
+	com.softwareag.plm.cc.spm.job.manager(10.7.0.0005-0926)
+	org.apache.jasper(8.5.64)
+	com.softwareag.plm.sd.platform.sdc.auth(10.7.0.0001-0360)
+	org.osgi.util.converter(1.0.1.201810101357)
+	com.softwareag.platform.p2.actions(10.7.0.0000-0635)
+	org.apache.catalina.tribes(8.5.64)
+	org.apache.tomcat.api(8.5.64)
+	org.apache.httpcomponents.httpclient(4.5.5)
+	org.apache.servicemix.bundles.spring-web(5.2.4.RELEASE_1)
+	com.softwareag.plm.cc.spm.remote.json(10.7.0.0005-0926)
+	com.jcraft.jsch(0.1.55)
+	org.apache.commons.logging(1.2.0)
+	com.softwareag.plm.cc.spm.composite.template.tools(10.7.0.0005-0926)
+	org.apache.tomcat.websocket(8.5.64)
+	org.apache.tomcat.util(8.5.64)
+	org.glassfish.external.asm-all(6.0.0.ALPHA)
+!SESSION 2021-10-26 10:31:15.837 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_261
+java.vendor=Azul Systems, Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -application org.eclipse.equinox.p2.director -profile minimal -installIU com.softwareag.plm.sum.cc.all.spm.feature.patch.feature.group/10.7.0.0001-0296 -repository file:C:\temp\SAGEM\common\runtime\bundles\sum-cc\eclipse -destination C:\temp\SAGEM\profiles\SPM -addCacheExt file:C:\temp\SAGEM\common\runtime\bundles\sum-cc\eclipse
+Command-line arguments:  -consoleLog -application org.eclipse.equinox.p2.director -profile minimal -installIU com.softwareag.plm.sum.cc.all.spm.feature.patch.feature.group/10.7.0.0001-0296 -repository file:C:\temp\SAGEM\common\runtime\bundles\sum-cc\eclipse -destination C:\temp\SAGEM\profiles\SPM -addCacheExt file:C:\temp\SAGEM\common\runtime\bundles\sum-cc\eclipse
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2021-10-26 10:31:19.388
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2021-10-26 10:31:19.388
+!MESSAGE Add request for sum-cc sum-cc-all-spm feature 10.7.0.0001-0296 (com.softwareag.plm.sum.cc.all.spm.feature.patch.feature.group 10.7.0.0001-0296) is satisfiable
+
+!ENTRY Orphaned Bundles in Profile 4 7 2021-10-26 10:31:20.595
+!MESSAGE There are 58 orphaned bundles in profile minimal:
+	org.apache.juli(8.5.64)
+	com.softwareag.plm.sd.platform.repository(10.7.0.0001-0360)
+	org.apache.shiro.core(1.7.1)
+	com.softwareag.plm.cc.spm.util(10.7.0.0005-0926)
+	com.softwareag.security.common.web(10.7.0.0000-0384)
+	org.apache.tomcat.jni(8.5.64)
+	com.softwareag.plm.sd.repository.manager(10.7.0.0001-0360)
+	org.apache.catalina(8.5.64)
+	com.softwareag.plm.cc.spm.configuration.common.model(10.7.0.0005-0926)
+	com.softwareag.plm.cc.spm.configuration.common(10.7.0.0005-0926)
+	org.apache.httpcomponents.httpcore(4.4.9)
+	com.softwareag.plm.sd.platform.provision.common(10.7.0.0001-0360)
+	com.softwareag.plm.sum.cc.spm.sum.cc.api(10.7.0.0001-0296)
+	org.apache.el(8.5.64)
+	com.softwareag.plm.sd.platform.provision(10.7.0.0001-0360)
+	com.softwareag.sc.security(10.7.0.0001-0450)
+	org.glassfish.main.javaee-api.javax.jms(3.1.2.1-SNAPSHOT)
+	com.softwareag.g11n(10.7.0.0000-0016)
+	com.softwareag.security.web.sso.saml2(10.7.0.0000-0384)
+	com.softwareag.plm.sum.cc.spm.sum.cc(10.7.0.0001-0296)
+	com.softwareag.platform.proxy(10.7.0.0006-0749)
+	org.apache.commons.codec(1.13.0)
+	com.softwareag.plm.cc.spm.security.common(10.7.0.0005-0926)
+	org.apache.catalina.ha(8.5.64)
+	com.softwareag.plm.cc.spm.template.common(10.7.0.0005-0926)
+	com.softwareag.plm.cc.spm.uibinding.common(10.7.0.0005-0926)
+	com.softwareag.plm.cc.spm.abe(10.7.0.0005-0926)
+	com.softwareag.plm.cc.spm.remote.core(10.7.0.0005-0926)
+	org.apache.coyote(8.5.64)
+	com.softwareag.sc.core(10.7.0.0001-0450)
+	com.softwareag.plm.cc.spm.common(10.7.0.0005-0926)
+	com.softwareag.platform.audit.utils(10.7.0.0000-0635)
+	com.softwareag.platform.audit.api(10.7.0.0000-0635)
+	com.softwareag.plm.sd.platform.provision.monitor(10.7.0.0001-0360)
+	com.softwareag.plm.sd.platform.common(10.7.0.0001-0360)
+	com.softwareag.plm.sd.platform.repository.web.app(10.7.0.0001-0360)
+	com.softwareag.plm.cc.spm.composite.template.common(10.7.0.0005-0926)
+	com.softwareag.plm.sd.platform.agent(10.7.0.0001-0360)
+	com.softwareag.net.sourceforge.spnego(0.0.0.0000-0003)
+	com.google.protobuf.util(3.7.1.1)
+	org.apache.tomcat.util.scan(8.5.64)
+	com.softwareag.plm.cc.spm.polling.common(10.7.0.0005-0926)
+	com.softwareag.plm.cc.spm.job.manager(10.7.0.0005-0926)
+	org.apache.jasper(8.5.64)
+	com.softwareag.plm.sd.platform.sdc.auth(10.7.0.0001-0360)
+	org.osgi.util.converter(1.0.1.201810101357)
+	com.softwareag.platform.p2.actions(10.7.0.0000-0635)
+	org.apache.catalina.tribes(8.5.64)
+	org.apache.tomcat.api(8.5.64)
+	org.apache.httpcomponents.httpclient(4.5.5)
+	org.apache.servicemix.bundles.spring-web(5.2.4.RELEASE_1)
+	com.softwareag.plm.cc.spm.remote.json(10.7.0.0005-0926)
+	com.jcraft.jsch(0.1.55)
+	org.apache.commons.logging(1.2.0)
+	com.softwareag.plm.cc.spm.composite.template.tools(10.7.0.0005-0926)
+	org.apache.tomcat.websocket(8.5.64)
+	org.apache.tomcat.util(8.5.64)
+	org.glassfish.external.asm-all(6.0.0.ALPHA)
+!SESSION 2021-10-26 10:31:26.392 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_261
+java.vendor=Azul Systems, Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -application org.eclipse.equinox.p2.director -profile minimal -installIU com.softwareag.plm.spm.nirvana.feature.patch.feature.group/10.7.0.0001-133384 -repository file:C:\temp\SAGEM\common\runtime\bundles\num-cc\eclipse -destination C:\temp\SAGEM\profiles\SPM -addCacheExt file:C:\temp\SAGEM\common\runtime\bundles\num-cc\eclipse
+Command-line arguments:  -consoleLog -application org.eclipse.equinox.p2.director -profile minimal -installIU com.softwareag.plm.spm.nirvana.feature.patch.feature.group/10.7.0.0001-133384 -repository file:C:\temp\SAGEM\common\runtime\bundles\num-cc\eclipse -destination C:\temp\SAGEM\profiles\SPM -addCacheExt file:C:\temp\SAGEM\common\runtime\bundles\num-cc\eclipse
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2021-10-26 10:31:30.046
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2021-10-26 10:31:30.046
+!MESSAGE Add request for SPM for 'null' feature 10.7.0.0001-133384 (com.softwareag.plm.spm.nirvana.feature.patch.feature.group 10.7.0.0001-133384) is satisfiable
+
+!ENTRY Orphaned Bundles in Profile 4 7 2021-10-26 10:31:31.118
+!MESSAGE There are 60 orphaned bundles in profile minimal:
+	org.apache.juli(8.5.64)
+	com.softwareag.plm.sd.platform.repository(10.7.0.0001-0360)
+	org.apache.shiro.core(1.7.1)
+	com.softwareag.plm.cc.spm.util(10.7.0.0005-0926)
+	com.softwareag.plm.spm.nirvana.impl(10.7.0.0001-133384)
+	com.softwareag.security.common.web(10.7.0.0000-0384)
+	org.apache.tomcat.jni(8.5.64)
+	com.softwareag.plm.sd.repository.manager(10.7.0.0001-0360)
+	org.apache.catalina(8.5.64)
+	com.softwareag.plm.cc.spm.configuration.common.model(10.7.0.0005-0926)
+	com.softwareag.plm.cc.spm.configuration.common(10.7.0.0005-0926)
+	org.apache.httpcomponents.httpcore(4.4.9)
+	com.softwareag.plm.sd.platform.provision.common(10.7.0.0001-0360)
+	com.softwareag.plm.sum.cc.spm.sum.cc.api(10.7.0.0001-0296)
+	org.apache.el(8.5.64)
+	com.softwareag.plm.sd.platform.provision(10.7.0.0001-0360)
+	com.softwareag.sc.security(10.7.0.0001-0450)
+	org.glassfish.main.javaee-api.javax.jms(3.1.2.1-SNAPSHOT)
+	com.softwareag.g11n(10.7.0.0000-0016)
+	com.softwareag.security.web.sso.saml2(10.7.0.0000-0384)
+	com.softwareag.plm.sum.cc.spm.sum.cc(10.7.0.0001-0296)
+	com.softwareag.platform.proxy(10.7.0.0006-0749)
+	org.apache.commons.codec(1.13.0)
+	com.softwareag.plm.cc.spm.security.common(10.7.0.0005-0926)
+	org.apache.catalina.ha(8.5.64)
+	com.softwareag.plm.cc.spm.template.common(10.7.0.0005-0926)
+	com.softwareag.plm.cc.spm.uibinding.common(10.7.0.0005-0926)
+	com.softwareag.plm.cc.spm.abe(10.7.0.0005-0926)
+	com.softwareag.plm.cc.spm.remote.core(10.7.0.0005-0926)
+	org.apache.coyote(8.5.64)
+	com.softwareag.sc.core(10.7.0.0001-0450)
+	com.softwareag.plm.cc.spm.common(10.7.0.0005-0926)
+	com.softwareag.platform.audit.utils(10.7.0.0000-0635)
+	com.softwareag.platform.audit.api(10.7.0.0000-0635)
+	com.softwareag.plm.sd.platform.provision.monitor(10.7.0.0001-0360)
+	com.softwareag.plm.sd.platform.common(10.7.0.0001-0360)
+	com.softwareag.plm.sd.platform.repository.web.app(10.7.0.0001-0360)
+	com.softwareag.plm.cc.spm.composite.template.common(10.7.0.0005-0926)
+	com.softwareag.plm.sd.platform.agent(10.7.0.0001-0360)
+	com.softwareag.net.sourceforge.spnego(0.0.0.0000-0003)
+	com.google.protobuf.util(3.7.1.1)
+	org.apache.tomcat.util.scan(8.5.64)
+	com.softwareag.plm.cc.spm.polling.common(10.7.0.0005-0926)
+	com.softwareag.plm.cc.spm.job.manager(10.7.0.0005-0926)
+	org.apache.jasper(8.5.64)
+	com.softwareag.plm.sd.platform.sdc.auth(10.7.0.0001-0360)
+	org.osgi.util.converter(1.0.1.201810101357)
+	com.softwareag.platform.p2.actions(10.7.0.0000-0635)
+	org.apache.catalina.tribes(8.5.64)
+	org.apache.tomcat.api(8.5.64)
+	org.apache.httpcomponents.httpclient(4.5.5)
+	org.apache.servicemix.bundles.spring-web(5.2.4.RELEASE_1)
+	com.softwareag.plm.cc.spm.remote.json(10.7.0.0005-0926)
+	com.jcraft.jsch(0.1.55)
+	org.apache.commons.logging(1.2.0)
+	com.softwareag.plm.cc.spm.composite.template.tools(10.7.0.0005-0926)
+	org.apache.tomcat.websocket(8.5.64)
+	com.softwareag.plm.spm.nirvana.base.impl(10.7.0.0001-133384)
+	org.apache.tomcat.util(8.5.64)
+	org.glassfish.external.asm-all(6.0.0.ALPHA)
+!SESSION 2021-10-26 10:31:52.378 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_261
+java.vendor=Azul Systems, Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -application org.eclipse.equinox.p2.director -profile minimal -installIU com.softwareag.mom.nirvana.shared.feature.patch.feature.group/10.7.0.0003-140269 -repository file:C:\temp\SAGEM\common\runtime\bundles\num\eclipse -destination C:\temp\SAGEM\profiles\SPM -addCacheExt file:C:\temp\SAGEM\common\runtime\bundles\num\eclipse
+Command-line arguments:  -consoleLog -application org.eclipse.equinox.p2.director -profile minimal -installIU com.softwareag.mom.nirvana.shared.feature.patch.feature.group/10.7.0.0003-140269 -repository file:C:\temp\SAGEM\common\runtime\bundles\num\eclipse -destination C:\temp\SAGEM\profiles\SPM -addCacheExt file:C:\temp\SAGEM\common\runtime\bundles\num\eclipse
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2021-10-26 10:31:56.056
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2021-10-26 10:31:56.056
+!MESSAGE Add request for com.softwareag.mom.nirvana.shared.feature.patch 10.7.0.0003-140269 (com.softwareag.mom.nirvana.shared.feature.patch.feature.group 10.7.0.0003-140269) is satisfiable
+
+!ENTRY Orphaned Bundles in Profile 4 7 2021-10-26 10:31:57.240
+!MESSAGE There are 64 orphaned bundles in profile minimal:
+	org.apache.juli(8.5.64)
+	com.softwareag.plm.sd.platform.repository(10.7.0.0001-0360)
+	org.apache.shiro.core(1.7.1)
+	com.softwareag.plm.cc.spm.util(10.7.0.0005-0926)
+	com.softwareag.plm.spm.nirvana.impl(10.7.0.0001-133384)
+	com.softwareag.security.common.web(10.7.0.0000-0384)
+	org.apache.tomcat.jni(8.5.64)
+	com.softwareag.um.modules(10.7.0.0003-140269)
+	com.softwareag.plm.sd.repository.manager(10.7.0.0001-0360)
+	org.apache.catalina(8.5.64)
+	com.softwareag.plm.cc.spm.configuration.common.model(10.7.0.0005-0926)
+	com.softwareag.plm.cc.spm.configuration.common(10.7.0.0005-0926)
+	org.apache.httpcomponents.httpcore(4.4.9)
+	com.softwareag.plm.sd.platform.provision.common(10.7.0.0001-0360)
+	com.softwareag.plm.sum.cc.spm.sum.cc.api(10.7.0.0001-0296)
+	org.apache.el(8.5.64)
+	com.softwareag.plm.sd.platform.provision(10.7.0.0001-0360)
+	com.softwareag.sc.security(10.7.0.0001-0450)
+	org.glassfish.main.javaee-api.javax.jms(3.1.2.1-SNAPSHOT)
+	com.softwareag.g11n(10.7.0.0000-0016)
+	com.softwareag.security.web.sso.saml2(10.7.0.0000-0384)
+	com.softwareag.plm.sum.cc.spm.sum.cc(10.7.0.0001-0296)
+	com.softwareag.platform.proxy(10.7.0.0006-0749)
+	org.apache.commons.codec(1.13.0)
+	com.softwareag.plm.cc.spm.security.common(10.7.0.0005-0926)
+	org.apache.catalina.ha(8.5.64)
+	com.pcbsys.nirvana.nJMS(10.7.0.0003-140269)
+	com.softwareag.plm.cc.spm.template.common(10.7.0.0005-0926)
+	com.softwareag.plm.cc.spm.uibinding.common(10.7.0.0005-0926)
+	com.softwareag.plm.cc.spm.abe(10.7.0.0005-0926)
+	com.softwareag.plm.cc.spm.remote.core(10.7.0.0005-0926)
+	org.apache.coyote(8.5.64)
+	com.softwareag.sc.core(10.7.0.0001-0450)
+	com.softwareag.plm.cc.spm.common(10.7.0.0005-0926)
+	com.softwareag.platform.audit.utils(10.7.0.0000-0635)
+	com.softwareag.platform.audit.api(10.7.0.0000-0635)
+	com.pcbsys.nirvana.nAdminAPI(10.7.0.0003-140269)
+	com.softwareag.plm.sd.platform.provision.monitor(10.7.0.0001-0360)
+	com.softwareag.plm.sd.platform.common(10.7.0.0001-0360)
+	com.softwareag.plm.sd.platform.repository.web.app(10.7.0.0001-0360)
+	com.softwareag.plm.cc.spm.composite.template.common(10.7.0.0005-0926)
+	com.softwareag.plm.sd.platform.agent(10.7.0.0001-0360)
+	com.softwareag.net.sourceforge.spnego(0.0.0.0000-0003)
+	com.google.protobuf.util(3.7.1.1)
+	org.apache.tomcat.util.scan(8.5.64)
+	com.softwareag.plm.cc.spm.polling.common(10.7.0.0005-0926)
+	com.softwareag.plm.cc.spm.job.manager(10.7.0.0005-0926)
+	org.apache.jasper(8.5.64)
+	com.softwareag.plm.sd.platform.sdc.auth(10.7.0.0001-0360)
+	com.pcbsys.nirvana.client(10.7.0.0003-140269)
+	org.osgi.util.converter(1.0.1.201810101357)
+	com.softwareag.platform.p2.actions(10.7.0.0000-0635)
+	org.apache.catalina.tribes(8.5.64)
+	org.apache.tomcat.api(8.5.64)
+	org.apache.httpcomponents.httpclient(4.5.5)
+	org.apache.servicemix.bundles.spring-web(5.2.4.RELEASE_1)
+	com.softwareag.plm.cc.spm.remote.json(10.7.0.0005-0926)
+	com.jcraft.jsch(0.1.55)
+	org.apache.commons.logging(1.2.0)
+	com.softwareag.plm.cc.spm.composite.template.tools(10.7.0.0005-0926)
+	org.apache.tomcat.websocket(8.5.64)
+	com.softwareag.plm.spm.nirvana.base.impl(10.7.0.0001-133384)
+	org.apache.tomcat.util(8.5.64)
+	org.glassfish.external.asm-all(6.0.0.ALPHA)
+!SESSION 2021-10-26 10:32:02.873 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_261
+java.vendor=Azul Systems, Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -application org.eclipse.equinox.p2.director -profile minimal -uninstallIU org.yaml.snakeyaml/1.24.0 -installIU org.yaml.snakeyaml/1.27.0 -repository file:C:\temp\SAGEM\common\runtime\bundles\ext\eclipse -destination C:\temp\SAGEM\profiles\SPM -addCacheExt file:C:\temp\SAGEM\common\runtime\bundles\ext\eclipse
+Command-line arguments:  -consoleLog -application org.eclipse.equinox.p2.director -profile minimal -uninstallIU org.yaml.snakeyaml/1.24.0 -installIU org.yaml.snakeyaml/1.27.0 -repository file:C:\temp\SAGEM\common\runtime\bundles\ext\eclipse -destination C:\temp\SAGEM\profiles\SPM -addCacheExt file:C:\temp\SAGEM\common\runtime\bundles\ext\eclipse
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2021-10-26 10:32:06.431
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2021-10-26 10:32:06.431
+!MESSAGE Remove request for SnakeYAML 1.24.0 (org.yaml.snakeyaml 1.24.0) is NOT satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2021-10-26 10:32:06.431
+!MESSAGE Add request for SnakeYAML 1.27.0 (org.yaml.snakeyaml 1.27.0) is satisfiable
+
+!ENTRY Orphaned Bundles in Profile 4 7 2021-10-26 10:32:07.483
+!MESSAGE There are 65 orphaned bundles in profile minimal:
+	org.apache.juli(8.5.64)
+	com.softwareag.plm.sd.platform.repository(10.7.0.0001-0360)
+	org.apache.shiro.core(1.7.1)
+	com.softwareag.plm.cc.spm.util(10.7.0.0005-0926)
+	com.softwareag.plm.spm.nirvana.impl(10.7.0.0001-133384)
+	com.softwareag.security.common.web(10.7.0.0000-0384)
+	org.apache.tomcat.jni(8.5.64)
+	com.softwareag.um.modules(10.7.0.0003-140269)
+	com.softwareag.plm.sd.repository.manager(10.7.0.0001-0360)
+	org.apache.catalina(8.5.64)
+	com.softwareag.plm.cc.spm.configuration.common.model(10.7.0.0005-0926)
+	com.softwareag.plm.cc.spm.configuration.common(10.7.0.0005-0926)
+	org.apache.httpcomponents.httpcore(4.4.9)
+	com.softwareag.plm.sd.platform.provision.common(10.7.0.0001-0360)
+	com.softwareag.plm.sum.cc.spm.sum.cc.api(10.7.0.0001-0296)
+	org.apache.el(8.5.64)
+	com.softwareag.plm.sd.platform.provision(10.7.0.0001-0360)
+	com.softwareag.sc.security(10.7.0.0001-0450)
+	org.glassfish.main.javaee-api.javax.jms(3.1.2.1-SNAPSHOT)
+	com.softwareag.g11n(10.7.0.0000-0016)
+	com.softwareag.security.web.sso.saml2(10.7.0.0000-0384)
+	com.softwareag.plm.sum.cc.spm.sum.cc(10.7.0.0001-0296)
+	com.softwareag.platform.proxy(10.7.0.0006-0749)
+	org.apache.commons.codec(1.13.0)
+	com.softwareag.plm.cc.spm.security.common(10.7.0.0005-0926)
+	org.apache.catalina.ha(8.5.64)
+	com.pcbsys.nirvana.nJMS(10.7.0.0003-140269)
+	com.softwareag.plm.cc.spm.template.common(10.7.0.0005-0926)
+	com.softwareag.plm.cc.spm.uibinding.common(10.7.0.0005-0926)
+	com.softwareag.plm.cc.spm.abe(10.7.0.0005-0926)
+	com.softwareag.plm.cc.spm.remote.core(10.7.0.0005-0926)
+	org.apache.coyote(8.5.64)
+	com.softwareag.sc.core(10.7.0.0001-0450)
+	com.softwareag.plm.cc.spm.common(10.7.0.0005-0926)
+	com.softwareag.platform.audit.utils(10.7.0.0000-0635)
+	com.softwareag.platform.audit.api(10.7.0.0000-0635)
+	com.pcbsys.nirvana.nAdminAPI(10.7.0.0003-140269)
+	com.softwareag.plm.sd.platform.provision.monitor(10.7.0.0001-0360)
+	com.softwareag.plm.sd.platform.common(10.7.0.0001-0360)
+	org.yaml.snakeyaml(1.27.0)
+	com.softwareag.plm.sd.platform.repository.web.app(10.7.0.0001-0360)
+	com.softwareag.plm.cc.spm.composite.template.common(10.7.0.0005-0926)
+	com.softwareag.plm.sd.platform.agent(10.7.0.0001-0360)
+	com.softwareag.net.sourceforge.spnego(0.0.0.0000-0003)
+	com.google.protobuf.util(3.7.1.1)
+	org.apache.tomcat.util.scan(8.5.64)
+	com.softwareag.plm.cc.spm.polling.common(10.7.0.0005-0926)
+	com.softwareag.plm.cc.spm.job.manager(10.7.0.0005-0926)
+	org.apache.jasper(8.5.64)
+	com.softwareag.plm.sd.platform.sdc.auth(10.7.0.0001-0360)
+	com.pcbsys.nirvana.client(10.7.0.0003-140269)
+	org.osgi.util.converter(1.0.1.201810101357)
+	com.softwareag.platform.p2.actions(10.7.0.0000-0635)
+	org.apache.catalina.tribes(8.5.64)
+	org.apache.tomcat.api(8.5.64)
+	org.apache.httpcomponents.httpclient(4.5.5)
+	org.apache.servicemix.bundles.spring-web(5.2.4.RELEASE_1)
+	com.softwareag.plm.cc.spm.remote.json(10.7.0.0005-0926)
+	com.jcraft.jsch(0.1.55)
+	org.apache.commons.logging(1.2.0)
+	com.softwareag.plm.cc.spm.composite.template.tools(10.7.0.0005-0926)
+	org.apache.tomcat.websocket(8.5.64)
+	com.softwareag.plm.spm.nirvana.base.impl(10.7.0.0001-133384)
+	org.apache.tomcat.util(8.5.64)
+	org.glassfish.external.asm-all(6.0.0.ALPHA)
+!SESSION 2021-10-26 10:32:12.012 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_261
+java.vendor=Azul Systems, Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -application org.eclipse.equinox.p2.director -profile minimal -uninstallIU com.fasterxml.jackson.core.jackson-annotations/2.10.1 -installIU com.fasterxml.jackson.core.jackson-annotations/2.12.3 -repository file:C:\temp\SAGEM\common\runtime\bundles\ext\eclipse -destination C:\temp\SAGEM\profiles\SPM -addCacheExt file:C:\temp\SAGEM\common\runtime\bundles\ext\eclipse
+Command-line arguments:  -consoleLog -application org.eclipse.equinox.p2.director -profile minimal -uninstallIU com.fasterxml.jackson.core.jackson-annotations/2.10.1 -installIU com.fasterxml.jackson.core.jackson-annotations/2.12.3 -repository file:C:\temp\SAGEM\common\runtime\bundles\ext\eclipse -destination C:\temp\SAGEM\profiles\SPM -addCacheExt file:C:\temp\SAGEM\common\runtime\bundles\ext\eclipse
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2021-10-26 10:32:15.637
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2021-10-26 10:32:15.637
+!MESSAGE Remove request for Jackson-annotations 2.10.1 (com.fasterxml.jackson.core.jackson-annotations 2.10.1) is NOT satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2021-10-26 10:32:15.637
+!MESSAGE Add request for Jackson-annotations 2.12.3 (com.fasterxml.jackson.core.jackson-annotations 2.12.3) is satisfiable
+
+!ENTRY Orphaned Bundles in Profile 4 7 2021-10-26 10:32:16.676
+!MESSAGE There are 66 orphaned bundles in profile minimal:
+	org.apache.juli(8.5.64)
+	com.softwareag.plm.sd.platform.repository(10.7.0.0001-0360)
+	org.apache.shiro.core(1.7.1)
+	com.softwareag.plm.cc.spm.util(10.7.0.0005-0926)
+	com.softwareag.plm.spm.nirvana.impl(10.7.0.0001-133384)
+	com.softwareag.security.common.web(10.7.0.0000-0384)
+	org.apache.tomcat.jni(8.5.64)
+	com.softwareag.um.modules(10.7.0.0003-140269)
+	com.softwareag.plm.sd.repository.manager(10.7.0.0001-0360)
+	org.apache.catalina(8.5.64)
+	com.softwareag.plm.cc.spm.configuration.common.model(10.7.0.0005-0926)
+	com.softwareag.plm.cc.spm.configuration.common(10.7.0.0005-0926)
+	org.apache.httpcomponents.httpcore(4.4.9)
+	com.softwareag.plm.sd.platform.provision.common(10.7.0.0001-0360)
+	com.softwareag.plm.sum.cc.spm.sum.cc.api(10.7.0.0001-0296)
+	org.apache.el(8.5.64)
+	com.softwareag.plm.sd.platform.provision(10.7.0.0001-0360)
+	com.softwareag.sc.security(10.7.0.0001-0450)
+	org.glassfish.main.javaee-api.javax.jms(3.1.2.1-SNAPSHOT)
+	com.softwareag.g11n(10.7.0.0000-0016)
+	com.softwareag.security.web.sso.saml2(10.7.0.0000-0384)
+	com.softwareag.plm.sum.cc.spm.sum.cc(10.7.0.0001-0296)
+	com.softwareag.platform.proxy(10.7.0.0006-0749)
+	org.apache.commons.codec(1.13.0)
+	com.fasterxml.jackson.core.jackson-annotations(2.12.3)
+	com.softwareag.plm.cc.spm.security.common(10.7.0.0005-0926)
+	org.apache.catalina.ha(8.5.64)
+	com.pcbsys.nirvana.nJMS(10.7.0.0003-140269)
+	com.softwareag.plm.cc.spm.template.common(10.7.0.0005-0926)
+	com.softwareag.plm.cc.spm.uibinding.common(10.7.0.0005-0926)
+	com.softwareag.plm.cc.spm.abe(10.7.0.0005-0926)
+	com.softwareag.plm.cc.spm.remote.core(10.7.0.0005-0926)
+	org.apache.coyote(8.5.64)
+	com.softwareag.sc.core(10.7.0.0001-0450)
+	com.softwareag.plm.cc.spm.common(10.7.0.0005-0926)
+	com.softwareag.platform.audit.utils(10.7.0.0000-0635)
+	com.softwareag.platform.audit.api(10.7.0.0000-0635)
+	com.pcbsys.nirvana.nAdminAPI(10.7.0.0003-140269)
+	com.softwareag.plm.sd.platform.provision.monitor(10.7.0.0001-0360)
+	com.softwareag.plm.sd.platform.common(10.7.0.0001-0360)
+	org.yaml.snakeyaml(1.27.0)
+	com.softwareag.plm.sd.platform.repository.web.app(10.7.0.0001-0360)
+	com.softwareag.plm.cc.spm.composite.template.common(10.7.0.0005-0926)
+	com.softwareag.plm.sd.platform.agent(10.7.0.0001-0360)
+	com.softwareag.net.sourceforge.spnego(0.0.0.0000-0003)
+	com.google.protobuf.util(3.7.1.1)
+	org.apache.tomcat.util.scan(8.5.64)
+	com.softwareag.plm.cc.spm.polling.common(10.7.0.0005-0926)
+	com.softwareag.plm.cc.spm.job.manager(10.7.0.0005-0926)
+	org.apache.jasper(8.5.64)
+	com.softwareag.plm.sd.platform.sdc.auth(10.7.0.0001-0360)
+	com.pcbsys.nirvana.client(10.7.0.0003-140269)
+	org.osgi.util.converter(1.0.1.201810101357)
+	com.softwareag.platform.p2.actions(10.7.0.0000-0635)
+	org.apache.catalina.tribes(8.5.64)
+	org.apache.tomcat.api(8.5.64)
+	org.apache.httpcomponents.httpclient(4.5.5)
+	org.apache.servicemix.bundles.spring-web(5.2.4.RELEASE_1)
+	com.softwareag.plm.cc.spm.remote.json(10.7.0.0005-0926)
+	com.jcraft.jsch(0.1.55)
+	org.apache.commons.logging(1.2.0)
+	com.softwareag.plm.cc.spm.composite.template.tools(10.7.0.0005-0926)
+	org.apache.tomcat.websocket(8.5.64)
+	com.softwareag.plm.spm.nirvana.base.impl(10.7.0.0001-133384)
+	org.apache.tomcat.util(8.5.64)
+	org.glassfish.external.asm-all(6.0.0.ALPHA)
+!SESSION 2021-10-26 10:32:21.195 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_261
+java.vendor=Azul Systems, Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -application org.eclipse.equinox.p2.director -profile minimal -uninstallIU com.fasterxml.jackson.core.jackson-core/2.10.1 -installIU com.fasterxml.jackson.core.jackson-core/2.12.3 -repository file:C:\temp\SAGEM\common\runtime\bundles\ext\eclipse -destination C:\temp\SAGEM\profiles\SPM -addCacheExt file:C:\temp\SAGEM\common\runtime\bundles\ext\eclipse
+Command-line arguments:  -consoleLog -application org.eclipse.equinox.p2.director -profile minimal -uninstallIU com.fasterxml.jackson.core.jackson-core/2.10.1 -installIU com.fasterxml.jackson.core.jackson-core/2.12.3 -repository file:C:\temp\SAGEM\common\runtime\bundles\ext\eclipse -destination C:\temp\SAGEM\profiles\SPM -addCacheExt file:C:\temp\SAGEM\common\runtime\bundles\ext\eclipse
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2021-10-26 10:32:24.782
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2021-10-26 10:32:24.782
+!MESSAGE Remove request for Jackson-core 2.10.1 (com.fasterxml.jackson.core.jackson-core 2.10.1) is NOT satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2021-10-26 10:32:24.782
+!MESSAGE Add request for Jackson-core 2.12.3 (com.fasterxml.jackson.core.jackson-core 2.12.3) is satisfiable
+
+!ENTRY Orphaned Bundles in Profile 4 7 2021-10-26 10:32:25.893
+!MESSAGE There are 67 orphaned bundles in profile minimal:
+	org.apache.juli(8.5.64)
+	com.softwareag.plm.sd.platform.repository(10.7.0.0001-0360)
+	org.apache.shiro.core(1.7.1)
+	com.softwareag.plm.cc.spm.util(10.7.0.0005-0926)
+	com.softwareag.plm.spm.nirvana.impl(10.7.0.0001-133384)
+	com.softwareag.security.common.web(10.7.0.0000-0384)
+	org.apache.tomcat.jni(8.5.64)
+	com.softwareag.um.modules(10.7.0.0003-140269)
+	com.softwareag.plm.sd.repository.manager(10.7.0.0001-0360)
+	org.apache.catalina(8.5.64)
+	com.softwareag.plm.cc.spm.configuration.common.model(10.7.0.0005-0926)
+	com.softwareag.plm.cc.spm.configuration.common(10.7.0.0005-0926)
+	org.apache.httpcomponents.httpcore(4.4.9)
+	com.softwareag.plm.sd.platform.provision.common(10.7.0.0001-0360)
+	com.softwareag.plm.sum.cc.spm.sum.cc.api(10.7.0.0001-0296)
+	org.apache.el(8.5.64)
+	com.softwareag.plm.sd.platform.provision(10.7.0.0001-0360)
+	com.softwareag.sc.security(10.7.0.0001-0450)
+	org.glassfish.main.javaee-api.javax.jms(3.1.2.1-SNAPSHOT)
+	com.softwareag.g11n(10.7.0.0000-0016)
+	com.softwareag.security.web.sso.saml2(10.7.0.0000-0384)
+	com.softwareag.plm.sum.cc.spm.sum.cc(10.7.0.0001-0296)
+	com.softwareag.platform.proxy(10.7.0.0006-0749)
+	org.apache.commons.codec(1.13.0)
+	com.fasterxml.jackson.core.jackson-annotations(2.12.3)
+	com.softwareag.plm.cc.spm.security.common(10.7.0.0005-0926)
+	org.apache.catalina.ha(8.5.64)
+	com.pcbsys.nirvana.nJMS(10.7.0.0003-140269)
+	com.softwareag.plm.cc.spm.template.common(10.7.0.0005-0926)
+	com.softwareag.plm.cc.spm.uibinding.common(10.7.0.0005-0926)
+	com.softwareag.plm.cc.spm.abe(10.7.0.0005-0926)
+	com.softwareag.plm.cc.spm.remote.core(10.7.0.0005-0926)
+	org.apache.coyote(8.5.64)
+	com.softwareag.sc.core(10.7.0.0001-0450)
+	com.softwareag.plm.cc.spm.common(10.7.0.0005-0926)
+	com.softwareag.platform.audit.utils(10.7.0.0000-0635)
+	com.softwareag.platform.audit.api(10.7.0.0000-0635)
+	com.pcbsys.nirvana.nAdminAPI(10.7.0.0003-140269)
+	com.softwareag.plm.sd.platform.provision.monitor(10.7.0.0001-0360)
+	com.softwareag.plm.sd.platform.common(10.7.0.0001-0360)
+	org.yaml.snakeyaml(1.27.0)
+	com.softwareag.plm.sd.platform.repository.web.app(10.7.0.0001-0360)
+	com.softwareag.plm.cc.spm.composite.template.common(10.7.0.0005-0926)
+	com.softwareag.plm.sd.platform.agent(10.7.0.0001-0360)
+	com.softwareag.net.sourceforge.spnego(0.0.0.0000-0003)
+	com.google.protobuf.util(3.7.1.1)
+	org.apache.tomcat.util.scan(8.5.64)
+	com.softwareag.plm.cc.spm.polling.common(10.7.0.0005-0926)
+	com.softwareag.plm.cc.spm.job.manager(10.7.0.0005-0926)
+	org.apache.jasper(8.5.64)
+	com.softwareag.plm.sd.platform.sdc.auth(10.7.0.0001-0360)
+	com.pcbsys.nirvana.client(10.7.0.0003-140269)
+	org.osgi.util.converter(1.0.1.201810101357)
+	com.softwareag.platform.p2.actions(10.7.0.0000-0635)
+	org.apache.catalina.tribes(8.5.64)
+	com.fasterxml.jackson.core.jackson-core(2.12.3)
+	org.apache.tomcat.api(8.5.64)
+	org.apache.httpcomponents.httpclient(4.5.5)
+	org.apache.servicemix.bundles.spring-web(5.2.4.RELEASE_1)
+	com.softwareag.plm.cc.spm.remote.json(10.7.0.0005-0926)
+	com.jcraft.jsch(0.1.55)
+	org.apache.commons.logging(1.2.0)
+	com.softwareag.plm.cc.spm.composite.template.tools(10.7.0.0005-0926)
+	org.apache.tomcat.websocket(8.5.64)
+	com.softwareag.plm.spm.nirvana.base.impl(10.7.0.0001-133384)
+	org.apache.tomcat.util(8.5.64)
+	org.glassfish.external.asm-all(6.0.0.ALPHA)
+!SESSION 2021-10-26 10:32:30.340 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_261
+java.vendor=Azul Systems, Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -application org.eclipse.equinox.p2.director -profile minimal -uninstallIU com.fasterxml.jackson.core.jackson-databind/2.10.1 -installIU com.fasterxml.jackson.core.jackson-databind/2.12.3 -repository file:C:\temp\SAGEM\common\runtime\bundles\ext\eclipse -destination C:\temp\SAGEM\profiles\SPM -addCacheExt file:C:\temp\SAGEM\common\runtime\bundles\ext\eclipse
+Command-line arguments:  -consoleLog -application org.eclipse.equinox.p2.director -profile minimal -uninstallIU com.fasterxml.jackson.core.jackson-databind/2.10.1 -installIU com.fasterxml.jackson.core.jackson-databind/2.12.3 -repository file:C:\temp\SAGEM\common\runtime\bundles\ext\eclipse -destination C:\temp\SAGEM\profiles\SPM -addCacheExt file:C:\temp\SAGEM\common\runtime\bundles\ext\eclipse
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2021-10-26 10:32:33.896
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2021-10-26 10:32:33.896
+!MESSAGE Remove request for jackson-databind 2.10.1 (com.fasterxml.jackson.core.jackson-databind 2.10.1) is NOT satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2021-10-26 10:32:33.896
+!MESSAGE Add request for jackson-databind 2.12.3 (com.fasterxml.jackson.core.jackson-databind 2.12.3) is satisfiable
+
+!ENTRY Orphaned Bundles in Profile 4 7 2021-10-26 10:32:34.933
+!MESSAGE There are 68 orphaned bundles in profile minimal:
+	org.apache.juli(8.5.64)
+	com.softwareag.plm.sd.platform.repository(10.7.0.0001-0360)
+	org.apache.shiro.core(1.7.1)
+	com.softwareag.plm.cc.spm.util(10.7.0.0005-0926)
+	com.softwareag.plm.spm.nirvana.impl(10.7.0.0001-133384)
+	com.softwareag.security.common.web(10.7.0.0000-0384)
+	org.apache.tomcat.jni(8.5.64)
+	com.softwareag.um.modules(10.7.0.0003-140269)
+	com.softwareag.plm.sd.repository.manager(10.7.0.0001-0360)
+	org.apache.catalina(8.5.64)
+	com.softwareag.plm.cc.spm.configuration.common.model(10.7.0.0005-0926)
+	com.softwareag.plm.cc.spm.configuration.common(10.7.0.0005-0926)
+	org.apache.httpcomponents.httpcore(4.4.9)
+	com.softwareag.plm.sd.platform.provision.common(10.7.0.0001-0360)
+	com.softwareag.plm.sum.cc.spm.sum.cc.api(10.7.0.0001-0296)
+	org.apache.el(8.5.64)
+	com.softwareag.plm.sd.platform.provision(10.7.0.0001-0360)
+	com.softwareag.sc.security(10.7.0.0001-0450)
+	org.glassfish.main.javaee-api.javax.jms(3.1.2.1-SNAPSHOT)
+	com.softwareag.g11n(10.7.0.0000-0016)
+	com.softwareag.security.web.sso.saml2(10.7.0.0000-0384)
+	com.softwareag.plm.sum.cc.spm.sum.cc(10.7.0.0001-0296)
+	com.softwareag.platform.proxy(10.7.0.0006-0749)
+	org.apache.commons.codec(1.13.0)
+	com.fasterxml.jackson.core.jackson-annotations(2.12.3)
+	com.softwareag.plm.cc.spm.security.common(10.7.0.0005-0926)
+	org.apache.catalina.ha(8.5.64)
+	com.pcbsys.nirvana.nJMS(10.7.0.0003-140269)
+	com.softwareag.plm.cc.spm.template.common(10.7.0.0005-0926)
+	com.softwareag.plm.cc.spm.uibinding.common(10.7.0.0005-0926)
+	com.softwareag.plm.cc.spm.abe(10.7.0.0005-0926)
+	com.softwareag.plm.cc.spm.remote.core(10.7.0.0005-0926)
+	org.apache.coyote(8.5.64)
+	com.softwareag.sc.core(10.7.0.0001-0450)
+	com.softwareag.plm.cc.spm.common(10.7.0.0005-0926)
+	com.softwareag.platform.audit.utils(10.7.0.0000-0635)
+	com.softwareag.platform.audit.api(10.7.0.0000-0635)
+	com.pcbsys.nirvana.nAdminAPI(10.7.0.0003-140269)
+	com.softwareag.plm.sd.platform.provision.monitor(10.7.0.0001-0360)
+	com.softwareag.plm.sd.platform.common(10.7.0.0001-0360)
+	org.yaml.snakeyaml(1.27.0)
+	com.softwareag.plm.sd.platform.repository.web.app(10.7.0.0001-0360)
+	com.softwareag.plm.cc.spm.composite.template.common(10.7.0.0005-0926)
+	com.softwareag.plm.sd.platform.agent(10.7.0.0001-0360)
+	com.softwareag.net.sourceforge.spnego(0.0.0.0000-0003)
+	com.google.protobuf.util(3.7.1.1)
+	org.apache.tomcat.util.scan(8.5.64)
+	com.softwareag.plm.cc.spm.polling.common(10.7.0.0005-0926)
+	com.softwareag.plm.cc.spm.job.manager(10.7.0.0005-0926)
+	org.apache.jasper(8.5.64)
+	com.softwareag.plm.sd.platform.sdc.auth(10.7.0.0001-0360)
+	com.pcbsys.nirvana.client(10.7.0.0003-140269)
+	org.osgi.util.converter(1.0.1.201810101357)
+	com.softwareag.platform.p2.actions(10.7.0.0000-0635)
+	org.apache.catalina.tribes(8.5.64)
+	com.fasterxml.jackson.core.jackson-core(2.12.3)
+	org.apache.tomcat.api(8.5.64)
+	org.apache.httpcomponents.httpclient(4.5.5)
+	org.apache.servicemix.bundles.spring-web(5.2.4.RELEASE_1)
+	com.softwareag.plm.cc.spm.remote.json(10.7.0.0005-0926)
+	com.jcraft.jsch(0.1.55)
+	org.apache.commons.logging(1.2.0)
+	com.fasterxml.jackson.core.jackson-databind(2.12.3)
+	com.softwareag.plm.cc.spm.composite.template.tools(10.7.0.0005-0926)
+	org.apache.tomcat.websocket(8.5.64)
+	com.softwareag.plm.spm.nirvana.base.impl(10.7.0.0001-133384)
+	org.apache.tomcat.util(8.5.64)
+	org.glassfish.external.asm-all(6.0.0.ALPHA)
+!SESSION 2021-10-26 10:32:43.818 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_261
+java.vendor=Azul Systems, Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -application org.eclipse.equinox.p2.director -profile minimal -installIU com.softwareag.tps.snakeyaml.feature.patch.feature.group/10.7.0.0001-0036 -repository file:C:\temp\SAGEM\common\runtime\bundles\ext\eclipse -destination C:\temp\SAGEM\profiles\SPM -addCacheExt file:C:\temp\SAGEM\common\runtime\bundles\ext\eclipse
+Command-line arguments:  -consoleLog -application org.eclipse.equinox.p2.director -profile minimal -installIU com.softwareag.tps.snakeyaml.feature.patch.feature.group/10.7.0.0001-0036 -repository file:C:\temp\SAGEM\common\runtime\bundles\ext\eclipse -destination C:\temp\SAGEM\profiles\SPM -addCacheExt file:C:\temp\SAGEM\common\runtime\bundles\ext\eclipse
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2021-10-26 10:32:47.421
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2021-10-26 10:32:47.421
+!MESSAGE Add request for snakeyaml 10.7.0.0001-0036 (com.softwareag.tps.snakeyaml.feature.patch.feature.group 10.7.0.0001-0036) is satisfiable
+
+!ENTRY Orphaned Bundles in Profile 4 7 2021-10-26 10:32:48.457
+!MESSAGE There are 68 orphaned bundles in profile minimal:
+	org.apache.juli(8.5.64)
+	com.softwareag.plm.sd.platform.repository(10.7.0.0001-0360)
+	org.apache.shiro.core(1.7.1)
+	com.softwareag.plm.cc.spm.util(10.7.0.0005-0926)
+	com.softwareag.plm.spm.nirvana.impl(10.7.0.0001-133384)
+	com.softwareag.security.common.web(10.7.0.0000-0384)
+	org.apache.tomcat.jni(8.5.64)
+	com.softwareag.um.modules(10.7.0.0003-140269)
+	com.softwareag.plm.sd.repository.manager(10.7.0.0001-0360)
+	org.apache.catalina(8.5.64)
+	com.softwareag.plm.cc.spm.configuration.common.model(10.7.0.0005-0926)
+	com.softwareag.plm.cc.spm.configuration.common(10.7.0.0005-0926)
+	org.apache.httpcomponents.httpcore(4.4.9)
+	com.softwareag.plm.sd.platform.provision.common(10.7.0.0001-0360)
+	com.softwareag.plm.sum.cc.spm.sum.cc.api(10.7.0.0001-0296)
+	org.apache.el(8.5.64)
+	com.softwareag.plm.sd.platform.provision(10.7.0.0001-0360)
+	com.softwareag.sc.security(10.7.0.0001-0450)
+	org.glassfish.main.javaee-api.javax.jms(3.1.2.1-SNAPSHOT)
+	com.softwareag.g11n(10.7.0.0000-0016)
+	com.softwareag.security.web.sso.saml2(10.7.0.0000-0384)
+	com.softwareag.plm.sum.cc.spm.sum.cc(10.7.0.0001-0296)
+	com.softwareag.platform.proxy(10.7.0.0006-0749)
+	org.apache.commons.codec(1.13.0)
+	com.fasterxml.jackson.core.jackson-annotations(2.12.3)
+	com.softwareag.plm.cc.spm.security.common(10.7.0.0005-0926)
+	org.apache.catalina.ha(8.5.64)
+	com.pcbsys.nirvana.nJMS(10.7.0.0003-140269)
+	com.softwareag.plm.cc.spm.template.common(10.7.0.0005-0926)
+	com.softwareag.plm.cc.spm.uibinding.common(10.7.0.0005-0926)
+	com.softwareag.plm.cc.spm.abe(10.7.0.0005-0926)
+	com.softwareag.plm.cc.spm.remote.core(10.7.0.0005-0926)
+	org.apache.coyote(8.5.64)
+	com.softwareag.sc.core(10.7.0.0001-0450)
+	com.softwareag.plm.cc.spm.common(10.7.0.0005-0926)
+	com.softwareag.platform.audit.utils(10.7.0.0000-0635)
+	com.softwareag.platform.audit.api(10.7.0.0000-0635)
+	com.pcbsys.nirvana.nAdminAPI(10.7.0.0003-140269)
+	com.softwareag.plm.sd.platform.provision.monitor(10.7.0.0001-0360)
+	com.softwareag.plm.sd.platform.common(10.7.0.0001-0360)
+	org.yaml.snakeyaml(1.27.0)
+	com.softwareag.plm.sd.platform.repository.web.app(10.7.0.0001-0360)
+	com.softwareag.plm.cc.spm.composite.template.common(10.7.0.0005-0926)
+	com.softwareag.plm.sd.platform.agent(10.7.0.0001-0360)
+	com.softwareag.net.sourceforge.spnego(0.0.0.0000-0003)
+	com.google.protobuf.util(3.7.1.1)
+	org.apache.tomcat.util.scan(8.5.64)
+	com.softwareag.plm.cc.spm.polling.common(10.7.0.0005-0926)
+	com.softwareag.plm.cc.spm.job.manager(10.7.0.0005-0926)
+	org.apache.jasper(8.5.64)
+	com.softwareag.plm.sd.platform.sdc.auth(10.7.0.0001-0360)
+	com.pcbsys.nirvana.client(10.7.0.0003-140269)
+	org.osgi.util.converter(1.0.1.201810101357)
+	com.softwareag.platform.p2.actions(10.7.0.0000-0635)
+	org.apache.catalina.tribes(8.5.64)
+	com.fasterxml.jackson.core.jackson-core(2.12.3)
+	org.apache.tomcat.api(8.5.64)
+	org.apache.httpcomponents.httpclient(4.5.5)
+	org.apache.servicemix.bundles.spring-web(5.2.4.RELEASE_1)
+	com.softwareag.plm.cc.spm.remote.json(10.7.0.0005-0926)
+	com.jcraft.jsch(0.1.55)
+	org.apache.commons.logging(1.2.0)
+	com.fasterxml.jackson.core.jackson-databind(2.12.3)
+	com.softwareag.plm.cc.spm.composite.template.tools(10.7.0.0005-0926)
+	org.apache.tomcat.websocket(8.5.64)
+	com.softwareag.plm.spm.nirvana.base.impl(10.7.0.0001-133384)
+	org.apache.tomcat.util(8.5.64)
+	org.glassfish.external.asm-all(6.0.0.ALPHA)
+!SESSION 2021-10-26 10:32:54.754 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_261
+java.vendor=Azul Systems, Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -application org.eclipse.equinox.p2.director -profile minimal -installIU com.softwareag.tps.gf.jackson2.annotations.feature.patch.feature.group/10.7.0.0001-0036 -repository file:C:\temp\SAGEM\common\runtime\bundles\ext\eclipse -destination C:\temp\SAGEM\profiles\SPM -addCacheExt file:C:\temp\SAGEM\common\runtime\bundles\ext\eclipse
+Command-line arguments:  -consoleLog -application org.eclipse.equinox.p2.director -profile minimal -installIU com.softwareag.tps.gf.jackson2.annotations.feature.patch.feature.group/10.7.0.0001-0036 -repository file:C:\temp\SAGEM\common\runtime\bundles\ext\eclipse -destination C:\temp\SAGEM\profiles\SPM -addCacheExt file:C:\temp\SAGEM\common\runtime\bundles\ext\eclipse
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2021-10-26 10:32:58.541
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2021-10-26 10:32:58.541
+!MESSAGE Add request for gf jackson2 annotations 10.7.0.0001-0036 (com.softwareag.tps.gf.jackson2.annotations.feature.patch.feature.group 10.7.0.0001-0036) is satisfiable
+
+!ENTRY Orphaned Bundles in Profile 4 7 2021-10-26 10:32:59.533
+!MESSAGE There are 68 orphaned bundles in profile minimal:
+	org.apache.juli(8.5.64)
+	com.softwareag.plm.sd.platform.repository(10.7.0.0001-0360)
+	org.apache.shiro.core(1.7.1)
+	com.softwareag.plm.cc.spm.util(10.7.0.0005-0926)
+	com.softwareag.plm.spm.nirvana.impl(10.7.0.0001-133384)
+	com.softwareag.security.common.web(10.7.0.0000-0384)
+	org.apache.tomcat.jni(8.5.64)
+	com.softwareag.um.modules(10.7.0.0003-140269)
+	com.softwareag.plm.sd.repository.manager(10.7.0.0001-0360)
+	org.apache.catalina(8.5.64)
+	com.softwareag.plm.cc.spm.configuration.common.model(10.7.0.0005-0926)
+	com.softwareag.plm.cc.spm.configuration.common(10.7.0.0005-0926)
+	org.apache.httpcomponents.httpcore(4.4.9)
+	com.softwareag.plm.sd.platform.provision.common(10.7.0.0001-0360)
+	com.softwareag.plm.sum.cc.spm.sum.cc.api(10.7.0.0001-0296)
+	org.apache.el(8.5.64)
+	com.softwareag.plm.sd.platform.provision(10.7.0.0001-0360)
+	com.softwareag.sc.security(10.7.0.0001-0450)
+	org.glassfish.main.javaee-api.javax.jms(3.1.2.1-SNAPSHOT)
+	com.softwareag.g11n(10.7.0.0000-0016)
+	com.softwareag.security.web.sso.saml2(10.7.0.0000-0384)
+	com.softwareag.plm.sum.cc.spm.sum.cc(10.7.0.0001-0296)
+	com.softwareag.platform.proxy(10.7.0.0006-0749)
+	org.apache.commons.codec(1.13.0)
+	com.fasterxml.jackson.core.jackson-annotations(2.12.3)
+	com.softwareag.plm.cc.spm.security.common(10.7.0.0005-0926)
+	org.apache.catalina.ha(8.5.64)
+	com.pcbsys.nirvana.nJMS(10.7.0.0003-140269)
+	com.softwareag.plm.cc.spm.template.common(10.7.0.0005-0926)
+	com.softwareag.plm.cc.spm.uibinding.common(10.7.0.0005-0926)
+	com.softwareag.plm.cc.spm.abe(10.7.0.0005-0926)
+	com.softwareag.plm.cc.spm.remote.core(10.7.0.0005-0926)
+	org.apache.coyote(8.5.64)
+	com.softwareag.sc.core(10.7.0.0001-0450)
+	com.softwareag.plm.cc.spm.common(10.7.0.0005-0926)
+	com.softwareag.platform.audit.utils(10.7.0.0000-0635)
+	com.softwareag.platform.audit.api(10.7.0.0000-0635)
+	com.pcbsys.nirvana.nAdminAPI(10.7.0.0003-140269)
+	com.softwareag.plm.sd.platform.provision.monitor(10.7.0.0001-0360)
+	com.softwareag.plm.sd.platform.common(10.7.0.0001-0360)
+	org.yaml.snakeyaml(1.27.0)
+	com.softwareag.plm.sd.platform.repository.web.app(10.7.0.0001-0360)
+	com.softwareag.plm.cc.spm.composite.template.common(10.7.0.0005-0926)
+	com.softwareag.plm.sd.platform.agent(10.7.0.0001-0360)
+	com.softwareag.net.sourceforge.spnego(0.0.0.0000-0003)
+	com.google.protobuf.util(3.7.1.1)
+	org.apache.tomcat.util.scan(8.5.64)
+	com.softwareag.plm.cc.spm.polling.common(10.7.0.0005-0926)
+	com.softwareag.plm.cc.spm.job.manager(10.7.0.0005-0926)
+	org.apache.jasper(8.5.64)
+	com.softwareag.plm.sd.platform.sdc.auth(10.7.0.0001-0360)
+	com.pcbsys.nirvana.client(10.7.0.0003-140269)
+	org.osgi.util.converter(1.0.1.201810101357)
+	com.softwareag.platform.p2.actions(10.7.0.0000-0635)
+	org.apache.catalina.tribes(8.5.64)
+	com.fasterxml.jackson.core.jackson-core(2.12.3)
+	org.apache.tomcat.api(8.5.64)
+	org.apache.httpcomponents.httpclient(4.5.5)
+	org.apache.servicemix.bundles.spring-web(5.2.4.RELEASE_1)
+	com.softwareag.plm.cc.spm.remote.json(10.7.0.0005-0926)
+	com.jcraft.jsch(0.1.55)
+	org.apache.commons.logging(1.2.0)
+	com.fasterxml.jackson.core.jackson-databind(2.12.3)
+	com.softwareag.plm.cc.spm.composite.template.tools(10.7.0.0005-0926)
+	org.apache.tomcat.websocket(8.5.64)
+	com.softwareag.plm.spm.nirvana.base.impl(10.7.0.0001-133384)
+	org.apache.tomcat.util(8.5.64)
+	org.glassfish.external.asm-all(6.0.0.ALPHA)
+!SESSION 2021-10-26 10:33:05.614 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_261
+java.vendor=Azul Systems, Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -application org.eclipse.equinox.p2.director -profile minimal -installIU com.softwareag.tps.gf.jackson2.core.feature.patch.feature.group/10.7.0.0001-0036 -repository file:C:\temp\SAGEM\common\runtime\bundles\ext\eclipse -destination C:\temp\SAGEM\profiles\SPM -addCacheExt file:C:\temp\SAGEM\common\runtime\bundles\ext\eclipse
+Command-line arguments:  -consoleLog -application org.eclipse.equinox.p2.director -profile minimal -installIU com.softwareag.tps.gf.jackson2.core.feature.patch.feature.group/10.7.0.0001-0036 -repository file:C:\temp\SAGEM\common\runtime\bundles\ext\eclipse -destination C:\temp\SAGEM\profiles\SPM -addCacheExt file:C:\temp\SAGEM\common\runtime\bundles\ext\eclipse
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2021-10-26 10:33:09.285
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2021-10-26 10:33:09.285
+!MESSAGE Add request for gf jackson2 core 10.7.0.0001-0036 (com.softwareag.tps.gf.jackson2.core.feature.patch.feature.group 10.7.0.0001-0036) is satisfiable
+
+!ENTRY Orphaned Bundles in Profile 4 7 2021-10-26 10:33:10.297
+!MESSAGE There are 68 orphaned bundles in profile minimal:
+	org.apache.juli(8.5.64)
+	com.softwareag.plm.sd.platform.repository(10.7.0.0001-0360)
+	org.apache.shiro.core(1.7.1)
+	com.softwareag.plm.cc.spm.util(10.7.0.0005-0926)
+	com.softwareag.plm.spm.nirvana.impl(10.7.0.0001-133384)
+	com.softwareag.security.common.web(10.7.0.0000-0384)
+	org.apache.tomcat.jni(8.5.64)
+	com.softwareag.um.modules(10.7.0.0003-140269)
+	com.softwareag.plm.sd.repository.manager(10.7.0.0001-0360)
+	org.apache.catalina(8.5.64)
+	com.softwareag.plm.cc.spm.configuration.common.model(10.7.0.0005-0926)
+	com.softwareag.plm.cc.spm.configuration.common(10.7.0.0005-0926)
+	org.apache.httpcomponents.httpcore(4.4.9)
+	com.softwareag.plm.sd.platform.provision.common(10.7.0.0001-0360)
+	com.softwareag.plm.sum.cc.spm.sum.cc.api(10.7.0.0001-0296)
+	org.apache.el(8.5.64)
+	com.softwareag.plm.sd.platform.provision(10.7.0.0001-0360)
+	com.softwareag.sc.security(10.7.0.0001-0450)
+	org.glassfish.main.javaee-api.javax.jms(3.1.2.1-SNAPSHOT)
+	com.softwareag.g11n(10.7.0.0000-0016)
+	com.softwareag.security.web.sso.saml2(10.7.0.0000-0384)
+	com.softwareag.plm.sum.cc.spm.sum.cc(10.7.0.0001-0296)
+	com.softwareag.platform.proxy(10.7.0.0006-0749)
+	org.apache.commons.codec(1.13.0)
+	com.fasterxml.jackson.core.jackson-annotations(2.12.3)
+	com.softwareag.plm.cc.spm.security.common(10.7.0.0005-0926)
+	org.apache.catalina.ha(8.5.64)
+	com.pcbsys.nirvana.nJMS(10.7.0.0003-140269)
+	com.softwareag.plm.cc.spm.template.common(10.7.0.0005-0926)
+	com.softwareag.plm.cc.spm.uibinding.common(10.7.0.0005-0926)
+	com.softwareag.plm.cc.spm.abe(10.7.0.0005-0926)
+	com.softwareag.plm.cc.spm.remote.core(10.7.0.0005-0926)
+	org.apache.coyote(8.5.64)
+	com.softwareag.sc.core(10.7.0.0001-0450)
+	com.softwareag.plm.cc.spm.common(10.7.0.0005-0926)
+	com.softwareag.platform.audit.utils(10.7.0.0000-0635)
+	com.softwareag.platform.audit.api(10.7.0.0000-0635)
+	com.pcbsys.nirvana.nAdminAPI(10.7.0.0003-140269)
+	com.softwareag.plm.sd.platform.provision.monitor(10.7.0.0001-0360)
+	com.softwareag.plm.sd.platform.common(10.7.0.0001-0360)
+	org.yaml.snakeyaml(1.27.0)
+	com.softwareag.plm.sd.platform.repository.web.app(10.7.0.0001-0360)
+	com.softwareag.plm.cc.spm.composite.template.common(10.7.0.0005-0926)
+	com.softwareag.plm.sd.platform.agent(10.7.0.0001-0360)
+	com.softwareag.net.sourceforge.spnego(0.0.0.0000-0003)
+	com.google.protobuf.util(3.7.1.1)
+	org.apache.tomcat.util.scan(8.5.64)
+	com.softwareag.plm.cc.spm.polling.common(10.7.0.0005-0926)
+	com.softwareag.plm.cc.spm.job.manager(10.7.0.0005-0926)
+	org.apache.jasper(8.5.64)
+	com.softwareag.plm.sd.platform.sdc.auth(10.7.0.0001-0360)
+	com.pcbsys.nirvana.client(10.7.0.0003-140269)
+	org.osgi.util.converter(1.0.1.201810101357)
+	com.softwareag.platform.p2.actions(10.7.0.0000-0635)
+	org.apache.catalina.tribes(8.5.64)
+	com.fasterxml.jackson.core.jackson-core(2.12.3)
+	org.apache.tomcat.api(8.5.64)
+	org.apache.httpcomponents.httpclient(4.5.5)
+	org.apache.servicemix.bundles.spring-web(5.2.4.RELEASE_1)
+	com.softwareag.plm.cc.spm.remote.json(10.7.0.0005-0926)
+	com.jcraft.jsch(0.1.55)
+	org.apache.commons.logging(1.2.0)
+	com.fasterxml.jackson.core.jackson-databind(2.12.3)
+	com.softwareag.plm.cc.spm.composite.template.tools(10.7.0.0005-0926)
+	org.apache.tomcat.websocket(8.5.64)
+	com.softwareag.plm.spm.nirvana.base.impl(10.7.0.0001-133384)
+	org.apache.tomcat.util(8.5.64)
+	org.glassfish.external.asm-all(6.0.0.ALPHA)
+!SESSION 2021-10-26 10:33:16.285 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_261
+java.vendor=Azul Systems, Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -application org.eclipse.equinox.p2.director -profile minimal -installIU com.softwareag.tps.gf.jackson2.databind.feature.patch.feature.group/10.7.0.0001-0036 -repository file:C:\temp\SAGEM\common\runtime\bundles\ext\eclipse -destination C:\temp\SAGEM\profiles\SPM -addCacheExt file:C:\temp\SAGEM\common\runtime\bundles\ext\eclipse
+Command-line arguments:  -consoleLog -application org.eclipse.equinox.p2.director -profile minimal -installIU com.softwareag.tps.gf.jackson2.databind.feature.patch.feature.group/10.7.0.0001-0036 -repository file:C:\temp\SAGEM\common\runtime\bundles\ext\eclipse -destination C:\temp\SAGEM\profiles\SPM -addCacheExt file:C:\temp\SAGEM\common\runtime\bundles\ext\eclipse
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2021-10-26 10:33:19.979
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2021-10-26 10:33:19.979
+!MESSAGE Add request for gf jackson2 databind 10.7.0.0001-0036 (com.softwareag.tps.gf.jackson2.databind.feature.patch.feature.group 10.7.0.0001-0036) is satisfiable
+
+!ENTRY Orphaned Bundles in Profile 4 7 2021-10-26 10:33:21.083
+!MESSAGE There are 68 orphaned bundles in profile minimal:
+	org.apache.juli(8.5.64)
+	com.softwareag.plm.sd.platform.repository(10.7.0.0001-0360)
+	org.apache.shiro.core(1.7.1)
+	com.softwareag.plm.cc.spm.util(10.7.0.0005-0926)
+	com.softwareag.plm.spm.nirvana.impl(10.7.0.0001-133384)
+	com.softwareag.security.common.web(10.7.0.0000-0384)
+	org.apache.tomcat.jni(8.5.64)
+	com.softwareag.um.modules(10.7.0.0003-140269)
+	com.softwareag.plm.sd.repository.manager(10.7.0.0001-0360)
+	org.apache.catalina(8.5.64)
+	com.softwareag.plm.cc.spm.configuration.common.model(10.7.0.0005-0926)
+	com.softwareag.plm.cc.spm.configuration.common(10.7.0.0005-0926)
+	org.apache.httpcomponents.httpcore(4.4.9)
+	com.softwareag.plm.sd.platform.provision.common(10.7.0.0001-0360)
+	com.softwareag.plm.sum.cc.spm.sum.cc.api(10.7.0.0001-0296)
+	org.apache.el(8.5.64)
+	com.softwareag.plm.sd.platform.provision(10.7.0.0001-0360)
+	com.softwareag.sc.security(10.7.0.0001-0450)
+	org.glassfish.main.javaee-api.javax.jms(3.1.2.1-SNAPSHOT)
+	com.softwareag.g11n(10.7.0.0000-0016)
+	com.softwareag.security.web.sso.saml2(10.7.0.0000-0384)
+	com.softwareag.plm.sum.cc.spm.sum.cc(10.7.0.0001-0296)
+	com.softwareag.platform.proxy(10.7.0.0006-0749)
+	org.apache.commons.codec(1.13.0)
+	com.fasterxml.jackson.core.jackson-annotations(2.12.3)
+	com.softwareag.plm.cc.spm.security.common(10.7.0.0005-0926)
+	org.apache.catalina.ha(8.5.64)
+	com.pcbsys.nirvana.nJMS(10.7.0.0003-140269)
+	com.softwareag.plm.cc.spm.template.common(10.7.0.0005-0926)
+	com.softwareag.plm.cc.spm.uibinding.common(10.7.0.0005-0926)
+	com.softwareag.plm.cc.spm.abe(10.7.0.0005-0926)
+	com.softwareag.plm.cc.spm.remote.core(10.7.0.0005-0926)
+	org.apache.coyote(8.5.64)
+	com.softwareag.sc.core(10.7.0.0001-0450)
+	com.softwareag.plm.cc.spm.common(10.7.0.0005-0926)
+	com.softwareag.platform.audit.utils(10.7.0.0000-0635)
+	com.softwareag.platform.audit.api(10.7.0.0000-0635)
+	com.pcbsys.nirvana.nAdminAPI(10.7.0.0003-140269)
+	com.softwareag.plm.sd.platform.provision.monitor(10.7.0.0001-0360)
+	com.softwareag.plm.sd.platform.common(10.7.0.0001-0360)
+	org.yaml.snakeyaml(1.27.0)
+	com.softwareag.plm.sd.platform.repository.web.app(10.7.0.0001-0360)
+	com.softwareag.plm.cc.spm.composite.template.common(10.7.0.0005-0926)
+	com.softwareag.plm.sd.platform.agent(10.7.0.0001-0360)
+	com.softwareag.net.sourceforge.spnego(0.0.0.0000-0003)
+	com.google.protobuf.util(3.7.1.1)
+	org.apache.tomcat.util.scan(8.5.64)
+	com.softwareag.plm.cc.spm.polling.common(10.7.0.0005-0926)
+	com.softwareag.plm.cc.spm.job.manager(10.7.0.0005-0926)
+	org.apache.jasper(8.5.64)
+	com.softwareag.plm.sd.platform.sdc.auth(10.7.0.0001-0360)
+	com.pcbsys.nirvana.client(10.7.0.0003-140269)
+	org.osgi.util.converter(1.0.1.201810101357)
+	com.softwareag.platform.p2.actions(10.7.0.0000-0635)
+	org.apache.catalina.tribes(8.5.64)
+	com.fasterxml.jackson.core.jackson-core(2.12.3)
+	org.apache.tomcat.api(8.5.64)
+	org.apache.httpcomponents.httpclient(4.5.5)
+	org.apache.servicemix.bundles.spring-web(5.2.4.RELEASE_1)
+	com.softwareag.plm.cc.spm.remote.json(10.7.0.0005-0926)
+	com.jcraft.jsch(0.1.55)
+	org.apache.commons.logging(1.2.0)
+	com.fasterxml.jackson.core.jackson-databind(2.12.3)
+	com.softwareag.plm.cc.spm.composite.template.tools(10.7.0.0005-0926)
+	org.apache.tomcat.websocket(8.5.64)
+	com.softwareag.plm.spm.nirvana.base.impl(10.7.0.0001-133384)
+	org.apache.tomcat.util(8.5.64)
+	org.glassfish.external.asm-all(6.0.0.ALPHA)
+!SESSION 2021-10-26 10:33:28.407 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_261
+java.vendor=Azul Systems, Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -application org.eclipse.equinox.p2.director -profile minimal -installIU com.softwareag.saml2.patch.feature.group/10.7.0.0002-0434,com.softwareag.security.identity-feature.patch.feature.group/10.7.0.0002-0434 -repository file:C:\temp\SAGEM\common\runtime\bundles\platform\eclipse -destination C:\temp\SAGEM\profiles\SPM -addCacheExt file:C:\temp\SAGEM\common\runtime\bundles\platform\eclipse
+Command-line arguments:  -consoleLog -application org.eclipse.equinox.p2.director -profile minimal -installIU com.softwareag.saml2.patch.feature.group/10.7.0.0002-0434,com.softwareag.security.identity-feature.patch.feature.group/10.7.0.0002-0434 -repository file:C:\temp\SAGEM\common\runtime\bundles\platform\eclipse -destination C:\temp\SAGEM\profiles\SPM -addCacheExt file:C:\temp\SAGEM\common\runtime\bundles\platform\eclipse
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2021-10-26 10:33:32.035
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2021-10-26 10:33:32.035
+!MESSAGE Add request for sec-saml2 10.7.0.0002-0434 (com.softwareag.saml2.patch.feature.group 10.7.0.0002-0434) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2021-10-26 10:33:32.035
+!MESSAGE Add request for sec-identity-feature 10.7.0.0002-0434 (com.softwareag.security.identity-feature.patch.feature.group 10.7.0.0002-0434) is satisfiable
+
+!ENTRY Orphaned Bundles in Profile 4 7 2021-10-26 10:33:33.337
+!MESSAGE There are 72 orphaned bundles in profile minimal:
+	org.apache.juli(8.5.64)
+	com.softwareag.plm.sd.platform.repository(10.7.0.0001-0360)
+	org.apache.shiro.core(1.7.1)
+	com.softwareag.plm.cc.spm.util(10.7.0.0005-0926)
+	com.softwareag.plm.spm.nirvana.impl(10.7.0.0001-133384)
+	com.softwareag.security.common.web(10.7.0.0000-0384)
+	org.apache.tomcat.jni(8.5.64)
+	com.softwareag.um.modules(10.7.0.0003-140269)
+	com.softwareag.plm.sd.repository.manager(10.7.0.0001-0360)
+	org.apache.catalina(8.5.64)
+	com.softwareag.plm.cc.spm.configuration.common.model(10.7.0.0005-0926)
+	com.softwareag.plm.cc.spm.configuration.common(10.7.0.0005-0926)
+	org.apache.httpcomponents.httpcore(4.4.9)
+	com.softwareag.plm.sd.platform.provision.common(10.7.0.0001-0360)
+	com.softwareag.plm.sum.cc.spm.sum.cc.api(10.7.0.0001-0296)
+	org.apache.el(8.5.64)
+	com.softwareag.plm.sd.platform.provision(10.7.0.0001-0360)
+	com.softwareag.sc.security(10.7.0.0001-0450)
+	org.glassfish.main.javaee-api.javax.jms(3.1.2.1-SNAPSHOT)
+	com.softwareag.g11n(10.7.0.0000-0016)
+	com.softwareag.security.web.sso.saml2(10.7.0.0000-0384)
+	com.softwareag.plm.sum.cc.spm.sum.cc(10.7.0.0001-0296)
+	com.softwareag.platform.proxy(10.7.0.0006-0749)
+	org.apache.commons.codec(1.13.0)
+	com.fasterxml.jackson.core.jackson-annotations(2.12.3)
+	com.softwareag.plm.cc.spm.security.common(10.7.0.0005-0926)
+	org.apache.catalina.ha(8.5.64)
+	com.pcbsys.nirvana.nJMS(10.7.0.0003-140269)
+	com.softwareag.plm.cc.spm.template.common(10.7.0.0005-0926)
+	com.softwareag.plm.cc.spm.uibinding.common(10.7.0.0005-0926)
+	com.softwareag.plm.cc.spm.abe(10.7.0.0005-0926)
+	com.softwareag.plm.cc.spm.remote.core(10.7.0.0005-0926)
+	org.apache.coyote(8.5.64)
+	com.softwareag.sc.core(10.7.0.0001-0450)
+	com.softwareag.plm.cc.spm.common(10.7.0.0005-0926)
+	com.softwareag.security.sin.idp.saml2(10.7.0.0002-0434)
+	com.softwareag.platform.audit.utils(10.7.0.0000-0635)
+	com.softwareag.platform.audit.api(10.7.0.0000-0635)
+	com.pcbsys.nirvana.nAdminAPI(10.7.0.0003-140269)
+	com.softwareag.plm.sd.platform.provision.monitor(10.7.0.0001-0360)
+	com.softwareag.plm.sd.platform.common(10.7.0.0001-0360)
+	org.yaml.snakeyaml(1.27.0)
+	com.softwareag.plm.sd.platform.repository.web.app(10.7.0.0001-0360)
+	com.softwareag.plm.cc.spm.composite.template.common(10.7.0.0005-0926)
+	com.softwareag.plm.sd.platform.agent(10.7.0.0001-0360)
+	com.softwareag.security.sin.idp.saml1(10.7.0.0002-0434)
+	com.softwareag.net.sourceforge.spnego(0.0.0.0000-0003)
+	com.google.protobuf.util(3.7.1.1)
+	org.apache.tomcat.util.scan(8.5.64)
+	com.softwareag.plm.cc.spm.polling.common(10.7.0.0005-0926)
+	com.softwareag.plm.cc.spm.job.manager(10.7.0.0005-0926)
+	org.apache.jasper(8.5.64)
+	com.softwareag.plm.sd.platform.sdc.auth(10.7.0.0001-0360)
+	com.pcbsys.nirvana.client(10.7.0.0003-140269)
+	org.osgi.util.converter(1.0.1.201810101357)
+	com.softwareag.platform.p2.actions(10.7.0.0000-0635)
+	org.apache.catalina.tribes(8.5.64)
+	com.fasterxml.jackson.core.jackson-core(2.12.3)
+	org.apache.tomcat.api(8.5.64)
+	org.apache.httpcomponents.httpclient(4.5.5)
+	org.apache.servicemix.bundles.spring-web(5.2.4.RELEASE_1)
+	com.softwareag.plm.cc.spm.remote.json(10.7.0.0005-0926)
+	com.jcraft.jsch(0.1.55)
+	bcpg(1.68.0)
+	org.apache.commons.logging(1.2.0)
+	com.fasterxml.jackson.core.jackson-databind(2.12.3)
+	com.softwareag.plm.cc.spm.composite.template.tools(10.7.0.0005-0926)
+	org.apache.tomcat.websocket(8.5.64)
+	com.softwareag.plm.spm.nirvana.base.impl(10.7.0.0001-133384)
+	org.apache.tomcat.util(8.5.64)
+	bcprov(1.68.0)
+	org.glassfish.external.asm-all(6.0.0.ALPHA)
+!SESSION 2021-10-26 10:33:43.503 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_292
+java.vendor=Azul Systems, Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -application org.eclipse.equinox.p2.director -profile minimal -installIU com.softwareag.plm.spm.core.feature.patch.feature.group/10.7.0.0005-0926,com.softwareag.plm.spm.plugins.feature.patch.feature.group/10.7.0.0005-0926,com.softwareag.plm.spm.host.feature.patch.feature.group/10.7.0.0005-0926,com.softwareag.plm.spm.asset.feature.patch.feature.group/10.7.0.0005-0926,com.softwareag.plm.spm.metering.feature.patch.feature.group/10.7.0.0005-0926 -repository file:C:\temp\SAGEM\common\runtime\bundles\spm\eclipse -destination C:\temp\SAGEM\profiles\SPM -addCacheExt file:C:\temp\SAGEM\common\runtime\bundles\spm\eclipse
+Command-line arguments:  -consoleLog -application org.eclipse.equinox.p2.director -profile minimal -installIU com.softwareag.plm.spm.core.feature.patch.feature.group/10.7.0.0005-0926,com.softwareag.plm.spm.plugins.feature.patch.feature.group/10.7.0.0005-0926,com.softwareag.plm.spm.host.feature.patch.feature.group/10.7.0.0005-0926,com.softwareag.plm.spm.asset.feature.patch.feature.group/10.7.0.0005-0926,com.softwareag.plm.spm.metering.feature.patch.feature.group/10.7.0.0005-0926 -repository file:C:\temp\SAGEM\common\runtime\bundles\spm\eclipse -destination C:\temp\SAGEM\profiles\SPM -addCacheExt file:C:\temp\SAGEM\common\runtime\bundles\spm\eclipse
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2021-10-26 10:33:47.119
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2021-10-26 10:33:47.120
+!MESSAGE Add request for Platform Manager Core Plugins 10.7.0.0005-0926 (com.softwareag.plm.spm.plugins.feature.patch.feature.group 10.7.0.0005-0926) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2021-10-26 10:33:47.120
+!MESSAGE Add request for Platform Manager REST API 10.7.0.0005-0926 (com.softwareag.plm.spm.host.feature.patch.feature.group 10.7.0.0005-0926) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2021-10-26 10:33:47.120
+!MESSAGE Add request for Platform Manager Engine 10.7.0.0005-0926 (com.softwareag.plm.spm.core.feature.patch.feature.group 10.7.0.0005-0926) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2021-10-26 10:33:47.120
+!MESSAGE Add request for Platform Manager Assets Support 10.7.0.0005-0926 (com.softwareag.plm.spm.asset.feature.patch.feature.group 10.7.0.0005-0926) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2021-10-26 10:33:47.120
+!MESSAGE Add request for Platform Manager Metering Validator 10.7.0.0005-0926 (com.softwareag.plm.spm.metering.feature.patch.feature.group 10.7.0.0005-0926) is satisfiable
+
+!ENTRY Orphaned Bundles in Profile 4 7 2021-10-26 10:33:49.831
+!MESSAGE There are 111 orphaned bundles in profile minimal:
+	org.apache.juli(8.5.64)
+	com.softwareag.plm.spm.monitoring(10.7.0.0005-0926)
+	com.softwareag.plm.sd.platform.repository(10.7.0.0001-0360)
+	org.apache.shiro.core(1.7.1)
+	com.softwareag.plm.cc.spm.util(10.7.0.0005-0926)
+	com.softwareag.plm.spm.nirvana.impl(10.7.0.0001-133384)
+	com.softwareag.security.common.web(10.7.0.0000-0384)
+	org.apache.tomcat.jni(8.5.64)
+	com.softwareag.plm.spm.inventory.remote(10.7.0.0005-0926)
+	com.softwareag.um.modules(10.7.0.0003-140269)
+	com.softwareag.plm.sd.repository.manager(10.7.0.0001-0360)
+	org.apache.catalina(8.5.64)
+	com.softwareag.plm.cc.spm.configuration.common.model(10.7.0.0005-0926)
+	com.softwareag.plm.cc.spm.configuration.common(10.7.0.0005-0926)
+	com.softwareag.plm.spm.metering.remote(10.7.0.0005-0926)
+	org.apache.httpcomponents.httpcore(4.4.9)
+	com.softwareag.plm.sd.platform.provision.common(10.7.0.0001-0360)
+	com.softwareag.plm.spm.provision(10.7.0.0005-0926)
+	com.softwareag.plm.sum.cc.spm.sum.cc.api(10.7.0.0001-0296)
+	com.softwareag.plm.spm.core(10.7.0.0005-0926)
+	com.softwareag.plm.spm.remote.resources(10.7.0.0005-0926)
+	com.softwareag.plm.spm.repository.impl(10.7.0.0005-0926)
+	com.softwareag.plm.spm.security(10.7.0.0005-0926)
+	org.apache.el(8.5.64)
+	com.softwareag.plm.sd.platform.provision(10.7.0.0001-0360)
+	com.softwareag.plm.spm.administration(10.7.0.0005-0926)
+	com.softwareag.sc.security(10.7.0.0001-0450)
+	com.softwareag.plm.spm.repository.remote(10.7.0.0005-0926)
+	org.glassfish.main.javaee-api.javax.jms(3.1.2.1-SNAPSHOT)
+	com.softwareag.plm.spm.instance.management.remote(10.7.0.0005-0926)
+	com.softwareag.g11n(10.7.0.0000-0016)
+	com.softwareag.plm.spm.provision.remote(10.7.0.0005-0926)
+	com.softwareag.plm.spm.asset.management(10.7.0.0005-0926)
+	com.softwareag.security.web.sso.saml2(10.7.0.0000-0384)
+	com.softwareag.plm.sum.cc.spm.sum.cc(10.7.0.0001-0296)
+	com.softwareag.platform.proxy(10.7.0.0006-0749)
+	com.softwareag.plm.spm.instance.management(10.7.0.0005-0926)
+	org.apache.commons.codec(1.13.0)
+	com.fasterxml.jackson.core.jackson-annotations(2.12.3)
+	com.softwareag.plm.cc.spm.security.common(10.7.0.0005-0926)
+	org.apache.catalina.ha(8.5.64)
+	com.pcbsys.nirvana.nJMS(10.7.0.0003-140269)
+	com.softwareag.plm.cc.spm.template.common(10.7.0.0005-0926)
+	com.softwareag.plm.spm.installation.proxy.remote(10.7.0.0005-0926)
+	com.softwareag.plm.spm.osgi.impl(10.7.0.0005-0926)
+	com.softwareag.plm.spm.monitoring.remote(10.7.0.0005-0926)
+	com.softwareag.plm.cc.spm.uibinding.common(10.7.0.0005-0926)
+	com.softwareag.plm.cc.spm.abe(10.7.0.0005-0926)
+	com.softwareag.plm.spm.diagnostics.remote(10.7.0.0005-0926)
+	com.softwareag.plm.cc.spm.remote.core(10.7.0.0005-0926)
+	com.softwareag.plm.spm.uibinding.remote(10.7.0.0005-0926)
+	org.apache.coyote(8.5.64)
+	com.softwareag.sc.core(10.7.0.0001-0450)
+	com.softwareag.plm.spm.template(10.7.0.0005-0926)
+	com.softwareag.plm.cc.spm.common(10.7.0.0005-0926)
+	com.softwareag.security.sin.idp.saml2(10.7.0.0002-0434)
+	com.softwareag.plm.spm.installation.proxy(10.7.0.0005-0926)
+	com.softwareag.platform.audit.utils(10.7.0.0000-0635)
+	com.softwareag.platform.audit.api(10.7.0.0000-0635)
+	com.pcbsys.nirvana.nAdminAPI(10.7.0.0003-140269)
+	com.softwareag.plm.spm.lifecycle(10.7.0.0005-0926)
+	com.softwareag.plm.sd.platform.provision.monitor(10.7.0.0001-0360)
+	com.softwareag.plm.sd.platform.common(10.7.0.0001-0360)
+	com.softwareag.plm.spm.job.manager.remote(10.7.0.0005-0926)
+	org.yaml.snakeyaml(1.27.0)
+	com.softwareag.plm.spm.configuration(10.7.0.0005-0926)
+	com.softwareag.plm.sd.platform.repository.web.app(10.7.0.0001-0360)
+	com.softwareag.plm.cc.spm.composite.template.common(10.7.0.0005-0926)
+	com.softwareag.plm.spm.lifecycle.remote(10.7.0.0005-0926)
+	com.softwareag.plm.sd.platform.agent(10.7.0.0001-0360)
+	com.softwareag.plm.spm.inventory(10.7.0.0005-0926)
+	com.softwareag.plm.spm.repository(10.7.0.0005-0926)
+	com.softwareag.security.sin.idp.saml1(10.7.0.0002-0434)
+	com.softwareag.net.sourceforge.spnego(0.0.0.0000-0003)
+	com.google.protobuf.util(3.7.1.1)
+	org.apache.tomcat.util.scan(8.5.64)
+	com.softwareag.plm.cc.spm.polling.common(10.7.0.0005-0926)
+	com.softwareag.plm.cc.spm.job.manager(10.7.0.0005-0926)
+	com.softwareag.plm.spm.composite.template(10.7.0.0005-0926)
+	org.apache.jasper(8.5.64)
+	com.softwareag.plm.spm.security.remote(10.7.0.0005-0926)
+	com.softwareag.plm.sd.platform.sdc.auth(10.7.0.0001-0360)
+	com.pcbsys.nirvana.client(10.7.0.0003-140269)
+	org.osgi.util.converter(1.0.1.201810101357)
+	com.softwareag.plm.spm.template.remote(10.7.0.0005-0926)
+	com.softwareag.platform.p2.actions(10.7.0.0000-0635)
+	org.apache.catalina.tribes(8.5.64)
+	com.softwareag.plm.spm.asset.management.remote(10.7.0.0005-0926)
+	com.fasterxml.jackson.core.jackson-core(2.12.3)
+	com.softwareag.plm.spm.metering(10.7.0.0005-0926)
+	com.softwareag.plm.spm.diagnostics(10.7.0.0005-0926)
+	org.apache.tomcat.api(8.5.64)
+	com.softwareag.plm.spm.metering.validator(10.7.0.0005-0926)
+	org.apache.httpcomponents.httpclient(4.5.5)
+	org.apache.servicemix.bundles.spring-web(5.2.4.RELEASE_1)
+	com.softwareag.plm.cc.spm.remote.json(10.7.0.0005-0926)
+	com.jcraft.jsch(0.1.55)
+	bcpg(1.68.0)
+	org.apache.commons.logging(1.2.0)
+	com.fasterxml.jackson.core.jackson-databind(2.12.3)
+	com.softwareag.plm.spm.configuration.remote(10.7.0.0005-0926)
+	com.softwareag.plm.cc.spm.composite.template.tools(10.7.0.0005-0926)
+	com.softwareag.plm.spm.spm.impl(10.7.0.0005-0926)
+	com.softwareag.plm.spm.uibinding(10.7.0.0005-0926)
+	org.apache.tomcat.websocket(8.5.64)
+	com.softwareag.plm.spm.nirvana.base.impl(10.7.0.0001-133384)
+	com.softwareag.plm.spm.dbc.impl(10.7.0.0005-0926)
+	org.apache.tomcat.util(8.5.64)
+	bcprov(1.68.0)
+	org.glassfish.external.asm-all(6.0.0.ALPHA)
+	com.softwareag.plm.spm.administration.remote(10.7.0.0005-0926)
+!SESSION 2021-10-26 10:33:58.025 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_292
+java.vendor=Azul Systems, Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -application org.eclipse.equinox.p2.director -profile minimal -installIU com.softwareag.platform.lar.repository.patch.feature.group/10.7.0.0001-0435 -repository file:C:\temp\SAGEM\common\runtime\bundles\lar\eclipse -destination C:\temp\SAGEM\profiles\SPM -addCacheExt file:C:\temp\SAGEM\common\runtime\bundles\lar\eclipse
+Command-line arguments:  -consoleLog -application org.eclipse.equinox.p2.director -profile minimal -installIU com.softwareag.platform.lar.repository.patch.feature.group/10.7.0.0001-0435 -repository file:C:\temp\SAGEM\common\runtime\bundles\lar\eclipse -destination C:\temp\SAGEM\profiles\SPM -addCacheExt file:C:\temp\SAGEM\common\runtime\bundles\lar\eclipse
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2021-10-26 10:34:01.891
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2021-10-26 10:34:01.891
+!MESSAGE Add request for lar-repository-feature 10.7.0.0001-0435 (com.softwareag.platform.lar.repository.patch.feature.group 10.7.0.0001-0435) is satisfiable
+
+!ENTRY Orphaned Bundles in Profile 4 7 2021-10-26 10:34:03.012
+!MESSAGE There are 112 orphaned bundles in profile minimal:
+	org.apache.juli(8.5.64)
+	com.softwareag.plm.spm.monitoring(10.7.0.0005-0926)
+	com.softwareag.plm.sd.platform.repository(10.7.0.0001-0360)
+	org.apache.shiro.core(1.7.1)
+	com.softwareag.plm.cc.spm.util(10.7.0.0005-0926)
+	com.softwareag.plm.spm.nirvana.impl(10.7.0.0001-133384)
+	com.softwareag.security.common.web(10.7.0.0000-0384)
+	org.apache.tomcat.jni(8.5.64)
+	com.softwareag.plm.spm.inventory.remote(10.7.0.0005-0926)
+	com.softwareag.um.modules(10.7.0.0003-140269)
+	com.softwareag.plm.sd.repository.manager(10.7.0.0001-0360)
+	org.apache.catalina(8.5.64)
+	com.softwareag.plm.cc.spm.configuration.common.model(10.7.0.0005-0926)
+	com.softwareag.plm.cc.spm.configuration.common(10.7.0.0005-0926)
+	com.softwareag.plm.spm.metering.remote(10.7.0.0005-0926)
+	org.apache.httpcomponents.httpcore(4.4.9)
+	com.softwareag.plm.sd.platform.provision.common(10.7.0.0001-0360)
+	com.softwareag.plm.spm.provision(10.7.0.0005-0926)
+	com.softwareag.plm.sum.cc.spm.sum.cc.api(10.7.0.0001-0296)
+	com.softwareag.plm.spm.core(10.7.0.0005-0926)
+	com.softwareag.plm.spm.remote.resources(10.7.0.0005-0926)
+	com.softwareag.plm.spm.repository.impl(10.7.0.0005-0926)
+	com.softwareag.plm.spm.security(10.7.0.0005-0926)
+	org.apache.el(8.5.64)
+	com.softwareag.plm.sd.platform.provision(10.7.0.0001-0360)
+	com.softwareag.plm.spm.administration(10.7.0.0005-0926)
+	com.softwareag.sc.security(10.7.0.0001-0450)
+	com.softwareag.plm.spm.repository.remote(10.7.0.0005-0926)
+	org.glassfish.main.javaee-api.javax.jms(3.1.2.1-SNAPSHOT)
+	com.softwareag.plm.spm.instance.management.remote(10.7.0.0005-0926)
+	com.softwareag.g11n(10.7.0.0000-0016)
+	com.softwareag.plm.spm.provision.remote(10.7.0.0005-0926)
+	com.softwareag.plm.spm.asset.management(10.7.0.0005-0926)
+	com.softwareag.security.web.sso.saml2(10.7.0.0000-0384)
+	com.softwareag.plm.sum.cc.spm.sum.cc(10.7.0.0001-0296)
+	com.softwareag.platform.proxy(10.7.0.0006-0749)
+	com.softwareag.plm.spm.instance.management(10.7.0.0005-0926)
+	org.apache.commons.codec(1.13.0)
+	com.fasterxml.jackson.core.jackson-annotations(2.12.3)
+	com.softwareag.plm.cc.spm.security.common(10.7.0.0005-0926)
+	org.apache.catalina.ha(8.5.64)
+	com.pcbsys.nirvana.nJMS(10.7.0.0003-140269)
+	com.softwareag.plm.cc.spm.template.common(10.7.0.0005-0926)
+	com.softwareag.plm.spm.installation.proxy.remote(10.7.0.0005-0926)
+	com.softwareag.plm.spm.osgi.impl(10.7.0.0005-0926)
+	com.softwareag.plm.spm.monitoring.remote(10.7.0.0005-0926)
+	com.softwareag.plm.cc.spm.uibinding.common(10.7.0.0005-0926)
+	com.softwareag.plm.cc.spm.abe(10.7.0.0005-0926)
+	com.softwareag.plm.spm.diagnostics.remote(10.7.0.0005-0926)
+	com.softwareag.plm.cc.spm.remote.core(10.7.0.0005-0926)
+	com.softwareag.plm.spm.uibinding.remote(10.7.0.0005-0926)
+	org.apache.coyote(8.5.64)
+	com.softwareag.sc.core(10.7.0.0001-0450)
+	com.softwareag.plm.spm.template(10.7.0.0005-0926)
+	com.softwareag.plm.cc.spm.common(10.7.0.0005-0926)
+	com.softwareag.security.sin.idp.saml2(10.7.0.0002-0434)
+	com.softwareag.plm.spm.installation.proxy(10.7.0.0005-0926)
+	com.softwareag.platform.audit.utils(10.7.0.0000-0635)
+	com.softwareag.platform.audit.api(10.7.0.0000-0635)
+	com.pcbsys.nirvana.nAdminAPI(10.7.0.0003-140269)
+	com.softwareag.plm.spm.lifecycle(10.7.0.0005-0926)
+	com.softwareag.plm.sd.platform.provision.monitor(10.7.0.0001-0360)
+	com.softwareag.plm.sd.platform.common(10.7.0.0001-0360)
+	com.softwareag.plm.spm.job.manager.remote(10.7.0.0005-0926)
+	org.yaml.snakeyaml(1.27.0)
+	com.softwareag.plm.spm.configuration(10.7.0.0005-0926)
+	com.softwareag.plm.sd.platform.repository.web.app(10.7.0.0001-0360)
+	com.softwareag.plm.cc.spm.composite.template.common(10.7.0.0005-0926)
+	com.softwareag.plm.spm.lifecycle.remote(10.7.0.0005-0926)
+	com.softwareag.plm.sd.platform.agent(10.7.0.0001-0360)
+	com.softwareag.plm.spm.inventory(10.7.0.0005-0926)
+	com.softwareag.plm.spm.repository(10.7.0.0005-0926)
+	com.softwareag.security.sin.idp.saml1(10.7.0.0002-0434)
+	com.softwareag.net.sourceforge.spnego(0.0.0.0000-0003)
+	com.google.protobuf.util(3.7.1.1)
+	org.apache.tomcat.util.scan(8.5.64)
+	com.softwareag.plm.cc.spm.polling.common(10.7.0.0005-0926)
+	com.softwareag.plm.cc.spm.job.manager(10.7.0.0005-0926)
+	com.softwareag.plm.spm.composite.template(10.7.0.0005-0926)
+	org.apache.jasper(8.5.64)
+	com.softwareag.plm.spm.security.remote(10.7.0.0005-0926)
+	com.softwareag.plm.sd.platform.sdc.auth(10.7.0.0001-0360)
+	com.pcbsys.nirvana.client(10.7.0.0003-140269)
+	org.osgi.util.converter(1.0.1.201810101357)
+	com.softwareag.platform.lar.repository.git(10.7.0.0001-0435)
+	com.softwareag.plm.spm.template.remote(10.7.0.0005-0926)
+	com.softwareag.platform.p2.actions(10.7.0.0000-0635)
+	org.apache.catalina.tribes(8.5.64)
+	com.softwareag.plm.spm.asset.management.remote(10.7.0.0005-0926)
+	com.fasterxml.jackson.core.jackson-core(2.12.3)
+	com.softwareag.plm.spm.metering(10.7.0.0005-0926)
+	com.softwareag.plm.spm.diagnostics(10.7.0.0005-0926)
+	org.apache.tomcat.api(8.5.64)
+	com.softwareag.plm.spm.metering.validator(10.7.0.0005-0926)
+	org.apache.httpcomponents.httpclient(4.5.5)
+	org.apache.servicemix.bundles.spring-web(5.2.4.RELEASE_1)
+	com.softwareag.plm.cc.spm.remote.json(10.7.0.0005-0926)
+	com.jcraft.jsch(0.1.55)
+	bcpg(1.68.0)
+	org.apache.commons.logging(1.2.0)
+	com.fasterxml.jackson.core.jackson-databind(2.12.3)
+	com.softwareag.plm.spm.configuration.remote(10.7.0.0005-0926)
+	com.softwareag.plm.cc.spm.composite.template.tools(10.7.0.0005-0926)
+	com.softwareag.plm.spm.spm.impl(10.7.0.0005-0926)
+	com.softwareag.plm.spm.uibinding(10.7.0.0005-0926)
+	org.apache.tomcat.websocket(8.5.64)
+	com.softwareag.plm.spm.nirvana.base.impl(10.7.0.0001-133384)
+	com.softwareag.plm.spm.dbc.impl(10.7.0.0005-0926)
+	org.apache.tomcat.util(8.5.64)
+	bcprov(1.68.0)
+	org.glassfish.external.asm-all(6.0.0.ALPHA)
+	com.softwareag.plm.spm.administration.remote(10.7.0.0005-0926)

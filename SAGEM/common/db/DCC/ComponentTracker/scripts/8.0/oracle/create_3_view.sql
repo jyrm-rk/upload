@@ -1,0 +1,38 @@
+
+-- **************************************/
+-- *        Script - Common DB component - Create view INSTALLED_COMPONENT
+-- **************************************/
+ALTER SESSION SET NLS_LENGTH_SEMANTICS='BYTE';
+
+CREATE OR REPLACE
+    VIEW INSTALLED_COMPONENT 
+    ( 
+        COMPONENT_CD, 
+        COMPONENT_LEVEL, 
+        COMPONENT_DESC,
+	TABLESPACE_DATA,
+        TABLESPACE_INDEX
+    ) AS 
+SELECT DISTINCT 
+    COMPONENT_CD, 
+    COMPONENT_LEVEL, 
+    COMPONENT_DESC,
+    TABLESPACE_DATA,
+    TABLESPACE_INDEX
+FROM 
+    COMPONENT_EVENT 
+WHERE 
+    COMPONENT_EVENT            NOT IN ('UNINSTALL','MIGRATE')
+    AND COMPONENT_EVENT_ID NOT IN 
+    ( 
+    SELECT 
+        E1.COMPONENT_EVENT_ID 
+    FROM 
+        COMPONENT_EVENT E1, 
+        COMPONENT_EVENT E2 
+    WHERE 
+        E1.COMPONENT_EVENT = 'INSTALL' 
+        AND E1.COMPONENT_CD = E2.COMPONENT_CD 
+        AND E1.COMPONENT_EVENT_ID    < E2.COMPONENT_EVENT_ID
+    );
+/

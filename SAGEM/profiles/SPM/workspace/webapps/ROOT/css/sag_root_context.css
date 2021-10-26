@@ -1,0 +1,79 @@
+
+#navigation
+{
+	margin-top: 40px;	
+}
+
+#choose-text
+{
+	display:block;
+	float:left;
+	font-size: 16px;
+	font-weight: bold;
+	color: #0899cc;
+}
+
+#list-products
+{
+	display: block;
+	float: left;
+	margin-left: 30px;
+}
+
+#list-products p { margin: 0 0 1em 0; }
+
+.productButton
+{
+	border: 1px solid #b6b6b6;
+	margin-bottom: 15px;
+	font-size: 14px;
+	width: 235px;
+	vertical-align: middle;
+	height: 30px;
+	background:url('../img/ico_chevron_arrow_24.png') #a4a4a4  no-repeat right center;	
+	/*behavior: url('pie/PIE_uncompressed.htc');  IE under v.9 */
+	-moz-border-radius: 5px; /* Firefox */  
+	-webkit-border-radius: 5px; /* Safari, Chrome */  
+	border-radius: 5px; /* CSS3 */  	
+}
+
+.productButton span
+{
+	color: #444;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 5px 0px 5px 12px;
+	float: left;
+}
+
+.productButton:hover
+{
+	border: 1px solid #0085ad;
+	background:url('../img/ico_chevron_arrow_24_white.png') #0899cc  no-repeat right center;
+	color: #fff;	
+}
+
+ .productButton:hover span
+ {
+	color: #fff;
+ }
+
+#footer
+{
+	display:none;
+	clear: both;
+	padding: .5em;
+	background-color: #077b9b;
+	vertical-align: bottom;
+	color: #fff;
+}
+
+#content
+{
+	display: none;
+	border: 1px solid #077b9b;
+	margin:15px 0px 15px 200px;
+	padding: 1em;
+	max-width: 36em;
+}
+#content h2 { margin: 0 0 .5em 0; }

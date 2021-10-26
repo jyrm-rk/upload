@@ -1,0 +1,45 @@
+name=e2ei/11/CMP_10.7.0.0.82/CMP/CMP/CMP-W64-Any/BM_CMP-ALL-Any
+version=10.7.0.0.82
+timestamp=1599492527
+
+common/
+common/runtime/
+common/
+common/runtime/bundles/
+common/runtime/
+common/runtime/bundles/cmp/
+common/runtime/bundles/
+common/runtime/bundles/cmp/eclipse/
+common/runtime/bundles/cmp/
+common/runtime/bundles/cmp/eclipse/binary/
+common/runtime/bundles/cmp/eclipse/
+common/runtime/bundles/cmp/eclipse/features/
+common/runtime/bundles/cmp/eclipse/plugins/
+0755 common/runtime/bundles/cmp/eclipse/artifacts.xml
+0755 common/runtime/bundles/cmp/eclipse/content.xml
+0755 common/runtime/bundles/cmp/eclipse/features/com.softwareag.cmp.features.cmp.apama.feature_10.7.0.0000-0082.jar
+common/runtime/bundles/cmp/eclipse/features/
+0755 common/runtime/bundles/cmp/eclipse/features/com.softwareag.cmp.features.cmp.broker.feature_10.7.0.0000-0082.jar
+0755 common/runtime/bundles/cmp/eclipse/features/com.softwareag.cmp.features.cmp.des.feature_10.7.0.0000-0082.jar
+0755 common/runtime/bundles/cmp/eclipse/features/com.softwareag.cmp.features.cmp.eventrouting.feature_10.7.0.0000-0082.jar
+0755 common/runtime/bundles/cmp/eclipse/features/com.softwareag.cmp.features.cmp.infradc.feature_10.7.0.0000-0082.jar
+0755 common/runtime/bundles/cmp/eclipse/features/com.softwareag.cmp.features.cmp.jmx.feature_10.7.0.0000-0082.jar
+0755 common/runtime/bundles/cmp/eclipse/features/com.softwareag.cmp.features.cmp.mws.feature_10.7.0.0000-0082.jar
+0755 common/runtime/bundles/cmp/eclipse/features/com.softwareag.cmp.features.cmp.mzng.feature_10.7.0.0000-0082.jar
+0755 common/runtime/bundles/cmp/eclipse/features/com.softwareag.cmp.features.cmp.presto.feature_10.7.0.0000-0082.jar
+0755 common/runtime/bundles/cmp/eclipse/features/com.softwareag.cmp.features.cmp.tc.feature_10.7.0.0000-0082.jar
+0755 common/runtime/bundles/cmp/eclipse/features/com.softwareag.cmp.features.cmp.um.feature_10.7.0.0000-0082.jar
+0755 common/runtime/bundles/cmp/eclipse/plugins/com.softwareag.cmp.apama.impl_10.7.0.0000-0082.jar
+common/runtime/bundles/cmp/eclipse/plugins/
+0755 common/runtime/bundles/cmp/eclipse/plugins/com.softwareag.cmp.broker.impl_10.7.0.0000-0082.jar
+0755 common/runtime/bundles/cmp/eclipse/plugins/com.softwareag.cmp.des.impl_10.7.0.0000-0082.jar
+0755 common/runtime/bundles/cmp/eclipse/plugins/com.softwareag.cmp.eventrouting.impl_10.7.0.0000-0082.jar
+0755 common/runtime/bundles/cmp/eclipse/plugins/com.softwareag.cmp.infradc.impl_10.7.0.0000-0082.jar
+0755 common/runtime/bundles/cmp/eclipse/plugins/com.softwareag.cmp.jmx.impl_10.7.0.0000-0082.jar
+0755 common/runtime/bundles/cmp/eclipse/plugins/com.softwareag.cmp.mws.impl_10.7.0.0000-0082.jar
+0755 common/runtime/bundles/cmp/eclipse/plugins/com.softwareag.cmp.mzng.impl_10.7.0.0000-0082.jar
+0755 common/runtime/bundles/cmp/eclipse/plugins/com.softwareag.cmp.presto.impl_10.7.0.0000-0082.jar
+0755 common/runtime/bundles/cmp/eclipse/plugins/com.softwareag.cmp.tc.impl_10.7.0.0000-0082.jar
+0755 common/runtime/bundles/cmp/eclipse/plugins/com.softwareag.cmp.um.impl_10.7.0.0000-0082.jar
+0755 common/runtime/bundles/cmp/eclipse/plugins/com.softwareag.cmp.util_10.7.0.0000-0082.jar
+0755 common/runtime/bundles/cmp/eclipse/plugins/com.softwareag.cmp.verify.common_10.7.0.0000-0082.jar

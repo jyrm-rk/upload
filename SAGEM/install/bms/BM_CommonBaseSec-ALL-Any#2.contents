@@ -1,0 +1,12 @@
+name=e2ei/11/TPS_10.7.0.0.224/SCG/tppSEC/tppSEC-W64-Any/BM_CommonBaseSec-ALL-Any
+version=10.7.0.0.224
+timestamp=1599492582
+
+lib/
+lib/ext/
+lib/
+0755 lib/ext/enttoolkit.jar
+lib/ext/
+0755 lib/ext/esapi.jar
+0755 lib/ext/ldapfilt.jar
+0755 lib/ext/ldapjdk.jar

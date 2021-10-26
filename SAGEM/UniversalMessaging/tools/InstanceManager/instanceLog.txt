@@ -1,0 +1,261 @@
+10:30:03 info DM>
+10:30:03 info DM> TO FIND PRODUCT ERROR MESSAGE, SEARCH FOR THE STRING APP_ERROR>
+10:30:03 info DM>
+10:30:03 info DM> TO FIND PRODUCT WARNING MESSAGE, SEARCH FOR THE STRING APP_WARNING>
+10:30:03 info DM>
+10:30:03 info nInstanceManager> ************Instance Manager initiated at [Tue Oct 26 10:30:03 IST 2021]************
+10:30:04 debug nInstanceManager> Getting ITools interface...
+10:30:04 debug nInstanceManager> Getting IOSGiUtils interface...
+10:30:04 debug nInstanceManager> Getting IStartMenuHelper interface...
+10:30:04 debug GF> calcWJNI hash code for ICL is: 122883338
+10:30:04 debug GF> library path is: com/wm/distman/helpers/dmhelpvista64.dll
+10:30:04 debug IA> isServerFeatureEnabled class: class com.wm.distman.custominstall.FeatureEnabledChecker
+10:30:04 debug IA> Invoking method on server side null isFeatureEnabled (startMenuHelperWrapper)
+10:30:04 debug IA> response: true
+10:30:04 debug GF> calcWJNI hash code for ICL is: 122883338
+10:30:04 debug GF> library path is: com/wm/distman/helpers/dmhelpvista64.dll
+10:30:04 debug SMHF> (StartMenuHelperFactory) User admin rights available
+10:30:04 error APP_ERROR> NUMRealmServer: Could not detect canonical name for selected product.
+10:30:04 debug nInstanceManager> EM:installDir_1: C:\temp\SAGEM
+10:30:04 debug nInstanceManager> EM:installDirNUM: UniversalMessaging
+10:30:04 debug nInstanceManager> EM:installDir_2: C:\temp\SAGEM\UniversalMessaging
+10:30:04 debug nInstanceManager> initSubstituter: ENTER
+10:30:04 debug SAGEnvironmentManager.getEnvironment() path = C:\temp\SAGEM
+10:30:04 debug SAGEM> found environment for path C:\temp\SAGEM at id 6
+10:30:04 info VarsSubstituteImpl> Adding for substitute: varName: USER_INSTALL_DIR varValue: C:\temp\SAGEM\UniversalMessaging
+10:30:04 info VarsSubstituteImpl> Adding for substitute: varName: INSTANECONF_DIR varValue: C:\temp\SAGEM\UniversalMessaging\java
+10:30:04 info VarsSubstituteImpl> Adding for substitute: varName: JAVA_EXEC varValue: ..\..\..\..\jvm\jvm\bin\java.exe
+10:30:04 info VarsSubstituteImpl> Adding for substitute: varName: JAVA_HOME varValue: C:\temp\SAGEM\jvm\jvm
+10:30:04 debug TanukiWrapperImpl> getWrapperExecutable: ENTER
+10:30:04 debug TanukiWrapperImpl> Getting wrapper version for NUMEnterpriseManager
+10:30:04 debug TanukiWrapperImpl> getWrapperVersion: ENTER
+10:30:04 debug TanukiWrapperImpl> productProp: NUMEnterpriseManager
+10:30:04 debug TanukiWrapperImpl> Get product ID from remote products.
+10:30:04 debug TanukiWrapperImpl> Getting product ID from local not selected products.
+10:30:04 debug TanukiWrapperImpl> from InstallerUtils - currentProductName: e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMEnterpriseManager
+10:30:04 debug TanukiWrapperImpl> wrapperVer: 3.5.43
+10:30:04 debug TanukiWrapperImpl> getWrapperVersion: EXIT
+10:30:04 debug TanukiWrapperImpl> getWrapperExecutable: EXIT: C:\temp\SAGEM\common\bin\wrapper-3.5.43.exe
+10:30:04 debug nInstanceManager> productProp: NUMEnterpriseManager wrapperExecutable: C:\temp\SAGEM\common\bin\wrapper-3.5.43.exe
+10:30:04 debug TanukiWrapperImpl> getWrapperLib: ENTER
+10:30:04 debug TanukiWrapperImpl> getWrapperVersion: ENTER
+10:30:04 debug TanukiWrapperImpl> productProp: NUMEnterpriseManager
+10:30:04 debug TanukiWrapperImpl> Get product ID from remote products.
+10:30:04 debug TanukiWrapperImpl> Getting product ID from local not selected products.
+10:30:04 debug TanukiWrapperImpl> from InstallerUtils - currentProductName: e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMEnterpriseManager
+10:30:04 debug TanukiWrapperImpl> wrapperVer: 3.5.43
+10:30:04 debug TanukiWrapperImpl> getWrapperVersion: EXIT
+10:30:04 debug TanukiWrapperImpl> getWrapperLib: EXIT: C:\temp\SAGEM\common\lib\tw-3.5.43
+10:30:04 info VarsSubstituteImpl> Adding for substitute: varName: WRAPPER_LIB varValue: ..\..\..\..\common\lib\tw-3.5.43
+10:30:04 info VarsSubstituteImpl> Adding for substitute: varName: WRAPPER_BIN varValue: C:\temp\SAGEM\common\bin
+10:30:04 info VarsSubstituteImpl> Adding for substitute: varName: WRAPPER_EXEC varValue: ..\..\..\..\common\bin\wrapper-3.5.43.exe
+10:30:04 info VarsSubstituteImpl> Adding for substitute: varName: CLIENT_RNAME varValue: nsp://localhost:9000
+10:30:04 info VarsSubstituteImpl> Adding for substitute: varName: CLIENT_CONFIG varValue: umserver
+10:30:04 info VarsSubstituteImpl> Adding for substitute: varName: CLIENT_MINMEM varValue: 32M
+10:30:04 info VarsSubstituteImpl> Adding for substitute: varName: CLIENT_MAXMEM varValue: 128M
+10:30:04 info VarsSubstituteImpl> Adding for substitute: varName: CLIENT_LOGLEVEL varValue: 4
+10:30:04 info VarsSubstituteImpl> Adding for substitute: varName: JSSE_LOGICAL_CONFIG_NAME varValue: 
+10:30:04 info VarsSubstituteImpl> Adding for substitute: varName: JSSE_CONFIGURATION_TYPE varValue: client
+10:30:04 info VarsSubstituteImpl> Adding for substitute: varName: KEYSTORE varValue: C:\temp\SAGEM\UniversalMessaging\server\umserver\bin\server.jks
+10:30:04 info VarsSubstituteImpl> Adding for substitute: varName: KEYSTORE_PASSWORD varValue: ***
+10:30:04 info VarsSubstituteImpl> Adding for substitute: varName: TRUSTSTORE varValue: C:\temp\SAGEM\UniversalMessaging\server\umserver\bin\nirvanacacerts.jks
+10:30:04 info VarsSubstituteImpl> Adding for substitute: varName: TRUSTSTORE_PASSWORD varValue: ***
+10:30:04 info VarsSubstituteImpl> Adding for substitute: varName: CKEYSTORE varValue: C:\temp\SAGEM\UniversalMessaging\server\umserver\bin\client.jks
+10:30:04 info VarsSubstituteImpl> Adding for substitute: varName: CKEYSTORE_PASSWORD varValue: ***
+10:30:04 info VarsSubstituteImpl> Adding for substitute: varName: DEFAULT_KEYSTORE varValue: C:\temp\SAGEM\UniversalMessaging\server\umserver\bin\server.jks
+10:30:04 info VarsSubstituteImpl> Adding for substitute: varName: DEFAULT_KEYSTORE_PASSWORD varValue: ***
+10:30:04 info VarsSubstituteImpl> Adding for substitute: varName: DEFAULT_TRUSTSTORE varValue: C:\temp\SAGEM\UniversalMessaging\server\umserver\bin\nirvanacacerts.jks
+10:30:04 info VarsSubstituteImpl> Adding for substitute: varName: DEFAULT_TRUSTSTORE_PASSWORD varValue: ***
+10:30:04 info VarsSubstituteImpl> Adding for substitute: varName: DEFAULT_CKEYSTORE varValue: C:\temp\SAGEM\UniversalMessaging\server\umserver\bin\client.jks
+10:30:04 info VarsSubstituteImpl> Adding for substitute: varName: DEFAULT_CKEYSTORE_PASSWORD varValue: ***
+10:30:04 info VarsSubstituteImpl> Adding for substitute: varName: CLIENT_JNDI_PROVIDER varValue: com.pcbsys.nirvana.nSpace.NirvanaContextFactory
+10:30:04 info VarsSubstituteImpl> Adding for substitute: varName: CLIENT_JNDI_PROVIDER_URL varValue: nsp://localhost:9000
+10:30:04 info VarsSubstituteImpl> Adding for substitute: varName: CLIENT_JNDI_PROVIDER_PATH varValue: C:\temp\SAGEM\UniversalMessaging\java\umserver\jms
+10:30:04 info VarsSubstituteImpl> Adding for substitute: varName: CLIENT_JNDI_PRINCIPAL varValue: 
+10:30:04 info VarsSubstituteImpl> Adding for substitute: varName: CLIENT_JNDI_PASSWORD varValue: ***
+10:30:04 info VarsSubstituteImpl> Adding for substitute: varName: DEFAULT_CLIENT_JNDI_PROVIDER varValue: com.pcbsys.nirvana.nSpace.NirvanaContextFactory
+10:30:04 info VarsSubstituteImpl> Adding for substitute: varName: DEFAULT_CLIENT_JNDI_PROVIDER_URL varValue: nsp://localhost:9000
+10:30:04 info VarsSubstituteImpl> Adding for substitute: varName: DEFAULT_CLIENT_JNDI_PROVIDER_PATH varValue: C:\temp\SAGEM\UniversalMessaging\java\umserver\jms
+10:30:04 info VarsSubstituteImpl> Adding for substitute: varName: DEFAULT_CLIENT_JNDI_PRINCIPAL varValue: 
+10:30:04 info VarsSubstituteImpl> Adding for substitute: varName: DEFAULT_CLIENT_JNDI_PASSWORD varValue: ***
+10:30:04 info VarsSubstituteImpl> Adding for substitute: varName: CLIENT_TOPICCONNECTIONFACTORY varValue: TopicConnectionFactory
+10:30:04 info VarsSubstituteImpl> Adding for substitute: varName: CLIENT_QUEUECONNECTIONFACTORY varValue: QueueConnectionFactory
+10:30:04 info VarsSubstituteImpl> Adding for substitute: varName: CLIENT_TOPIC varValue: testtopic
+10:30:04 info VarsSubstituteImpl> Adding for substitute: varName: CLIENT_QUEUE varValue: testqueue
+10:30:04 info VarsSubstituteImpl> Adding for substitute: varName: DEFAULT_CLIENT_TOPICCONNECTIONFACTORY varValue: TopicConnectionFactory
+10:30:04 info VarsSubstituteImpl> Adding for substitute: varName: DEFAULT_CLIENT_QUEUECONNECTIONFACTORY varValue: QueueConnectionFactory
+10:30:04 info VarsSubstituteImpl> Adding for substitute: varName: DEFAULT_CLIENT_TOPIC varValue: testtopic
+10:30:04 info VarsSubstituteImpl> Adding for substitute: varName: DEFAULT_CLIENT_QUEUE varValue: testqueue
+10:30:04 info VarsSubstituteImpl> Adding for substitute: varName: USER_MAGIC_FOLDER_4 varValue: C:\temp\SAGEM\UniversalMessaging\java\templates
+10:30:04 info VarsSubstituteImpl> Adding for substitute: varName: USER_MAGIC_FOLDER_20 varValue: C:\temp\SAGEM\UniversalMessaging\java
+10:30:04 info VarsSubstituteImpl> Adding for substitute: varName: USER_MAGIC_FOLDER_21 varValue: C:\temp\SAGEM\UniversalMessaging\extras
+10:30:04 info VarsSubstituteImpl> Adding for substitute: varName: USER_MAGIC_FOLDER_5 varValue: C:\temp\SAGEM\UniversalMessaging\java\umserver\bin
+10:30:04 info VarsSubstituteImpl> Adding for substitute: varName: USER_MAGIC_FOLDER_7 varValue: C:\temp\SAGEM\UniversalMessaging\java\umserver\jms
+10:30:04 info VarsSubstituteImpl> Adding for substitute: varName: Nirvana_Version varValue: 10.7
+10:30:04 info VarsSubstituteImpl> Adding for substitute: varName: REALM_CASESENSITIVE varValue: true
+10:30:04 info VarsSubstituteImpl> Adding for substitute: varName: REALM_LOGLEVEL varValue: 4
+10:30:04 info VarsSubstituteImpl> Adding for substitute: varName: REALM_LOGSIZE varValue: 100000000
+10:30:04 info VarsSubstituteImpl> Adding for substitute: varName: REALM_MINMEM varValue: 1024M
+10:30:04 info VarsSubstituteImpl> Adding for substitute: varName: REALM_MAXMEM varValue: 1024M
+10:30:04 info VarsSubstituteImpl> Adding for substitute: varName: SAGLIC_JAR varValue: ../../../../common/lib/saglic.jar
+10:30:04 info VarsSubstituteImpl> Adding for substitute: varName: INSTALLATION_NUMBER varValue: 7
+10:30:04 info VarsSubstituteImpl> Adding for substitute: varName: UM_INSTALL_DIR varValue: C:\temp\SAGEM\UniversalMessaging
+10:30:04 info VarsSubstituteImpl> Adding for substitute: varName: INSTALLATION_NUMBER_IF_MULTIPLE varValue: (7)
+10:30:04 info VarsSubstituteImpl> Adding for substitute: varName: CAKEYSTORE varValue: C:\temp\SAGEM\UniversalMessaging\server\umserver\bin\nirvanacacerts.jks
+10:30:04 info VarsSubstituteImpl> Adding for substitute: varName: CAKEYSTORE_PASSWORD varValue: ***
+10:30:04 debug IA> getStandardLocation for jarsDir : C:\temp\SAGEM\install\jars
+10:30:04 info VarsSubstituteImpl> Adding for substitute: varName: INSTALLER_UTILS_JAR_PATH varValue: C:\temp\SAGEM\install\jars\InstallerUtils-ALL-Any.jar
+10:30:04 info VarsSubstituteImpl> Adding for substitute: varName: DISTMAN_JAR_PATH varValue: C:\temp\SAGEM\install\jars\DistMan.jar
+10:30:04 info VarsSubstituteImpl> Adding for substitute: varName: CUSTOM_INSTALL_JAR_PATH varValue: C:\temp\SAGEM\install\jars\CustomInstall-ALL-Any.jar
+10:30:04 info VarsSubstituteImpl> Adding for substitute: varName: CUSTOM_INSTALL_W32_JAR_PATH varValue: C:\temp\SAGEM\install\jars\CustomInstall-W32-Any.jar
+10:30:04 info VarsSubstituteImpl> Adding for substitute: varName: CUSTOM_INSTALL_W64_JAR_PATH varValue: C:\temp\SAGEM\install\jars\CustomInstall-W64-Any.jar
+10:30:04 info VarsSubstituteImpl> Adding for substitute: varName: INSTALL_TOOLS_API_JAR_PATH varValue: C:\temp\SAGEM\install\jars\wMInstToolsAPI-ALL-Any.jar
+10:30:04 info VarsSubstituteImpl> Adding for substitute: varName: INSTALL_TOOLS_JAR_PATH varValue: C:\temp\SAGEM\install\jars\wMInstTools-ALL-Any.jar
+10:30:04 info VarsSubstituteImpl> Adding for substitute: varName: OSGI_PROFILES_API_JAR_PATH varValue: C:\temp\SAGEM\install\jars\OSGiProfilesAPI-ALL-Any.jar
+10:30:04 info VarsSubstituteImpl> Adding for substitute: varName: OSGI_PROFILES_JAR_PATH varValue: C:\temp\SAGEM\install\jars\OSGiProfiles-ALL-Any.jar
+10:30:04 info VarsSubstituteImpl> Adding for substitute: varName: NUM_INSTALL_MSG_JAR_PATH varValue: C:\temp\SAGEM\install\jars\NUMInstallMessages-ALL-Any.jar
+10:30:04 info VarsSubstituteImpl> Adding for substitute: varName: NENTERPRISEMGR_OSX_SPECIFIC varValue: 
+10:30:04 info VarsSubstituteImpl> Adding for substitute: varName: NENTERPRISEVIEW_OSX_SPECIFIC varValue: 
+10:30:04 info VarsSubstituteImpl> Adding for substitute: varName: GLASSFISH_JMS_JAR varValue: gf.javax.jms.jar
+10:30:04 info VarsSubstituteImpl> Adding for substitute: varName: GLASSFISH_JTA_JAR varValue: gf.javax.transaction.jar
+10:30:04 debug GF> calcWJNI hash code for ICL is: 122883338
+10:30:04 debug GF> library path is: com/wm/distman/helpers/dmhelpvista64.dll
+10:30:04 debug nInstanceManager> copyTemplateFiles: ENTER
+10:30:04 debug nInstanceManager> installDir: C:\temp\SAGEM\UniversalMessaging
+10:30:04 info FileToCopyImpl> skipCoping: false
+10:30:04 info FileToCopyImpl> C:\temp\SAGEM\UniversalMessaging\java\umserver\bin\nenterpriseview.conf exists: false overwrite: true
+10:30:04 info FileToCopyImpl> Copy file: C:\temp\SAGEM\UniversalMessaging\java\umserver\bin\nenterpriseview.conf
+10:30:04 info FileToCopyImpl> skipCoping: false
+10:30:04 info FileToCopyImpl> C:\temp\SAGEM\UniversalMessaging\java\umserver\bin\nenterpriseview-licence.conf exists: false overwrite: true
+10:30:04 info FileToCopyImpl> Copy file: C:\temp\SAGEM\UniversalMessaging\java\umserver\bin\nenterpriseview-licence.conf
+10:30:04 info FileToCopyImpl> skipCoping: false
+10:30:04 info FileToCopyImpl> C:\temp\SAGEM\UniversalMessaging\java\umserver\bin\nenterprisemgr.conf exists: false overwrite: true
+10:30:04 info FileToCopyImpl> Copy file: C:\temp\SAGEM\UniversalMessaging\java\umserver\bin\nenterprisemgr.conf
+10:30:04 info FileToCopyImpl> skipCoping: false
+10:30:04 info FileToCopyImpl> C:\temp\SAGEM\UniversalMessaging\java\umserver\bin\nenterprisemgr-licence.conf exists: false overwrite: true
+10:30:04 info FileToCopyImpl> Copy file: C:\temp\SAGEM\UniversalMessaging\java\umserver\bin\nenterprisemgr-licence.conf
+10:30:04 info FileToCopyImpl> skipCoping: false
+10:30:04 info FileToCopyImpl> C:\temp\SAGEM\UniversalMessaging\java\umserver\bin\JMSSetup.ico exists: false overwrite: true
+10:30:04 info FileToCopyImpl> Copy file: C:\temp\SAGEM\UniversalMessaging\java\umserver\bin\JMSSetup.ico
+10:30:04 info FileToCopyImpl> skipCoping: false
+10:30:04 info FileToCopyImpl> C:\temp\SAGEM\UniversalMessaging\java\umserver\bin\icon.ico exists: false overwrite: true
+10:30:04 info FileToCopyImpl> Copy file: C:\temp\SAGEM\UniversalMessaging\java\umserver\bin\icon.ico
+10:30:04 info FileToCopyImpl> skipCoping: false
+10:30:04 info FileToCopyImpl> C:\temp\SAGEM\UniversalMessaging\java\umserver\bin\icon.icns exists: false overwrite: true
+10:30:04 info FileToCopyImpl> Copy file: C:\temp\SAGEM\UniversalMessaging\java\umserver\bin\icon.icns
+10:30:04 info FileToCopyImpl> skipCoping: false
+10:30:04 info FileToCopyImpl> C:\temp\SAGEM\UniversalMessaging\java\umserver\bin\Admin_Tools_Common.conf exists: false overwrite: true
+10:30:04 info FileToCopyImpl> Copy file: C:\temp\SAGEM\UniversalMessaging\java\umserver\bin\Admin_Tools_Common.conf
+10:30:04 info FileToCopyImpl> skipCoping: false
+10:30:04 debug nInstanceManager> copyTemplateFiles: EXIT
+10:30:04 debug nInstanceManager> createCustomWrapper: ENTER
+10:30:04 debug TanukiWrapperImpl> getWrapperExecutable: ENTER
+10:30:04 debug TanukiWrapperImpl> Getting wrapper version for NUMEnterpriseManager
+10:30:04 debug TanukiWrapperImpl> getWrapperVersion: ENTER
+10:30:04 debug TanukiWrapperImpl> productProp: NUMEnterpriseManager
+10:30:04 debug TanukiWrapperImpl> Get product ID from remote products.
+10:30:04 debug TanukiWrapperImpl> Getting product ID from local not selected products.
+10:30:04 debug TanukiWrapperImpl> from InstallerUtils - currentProductName: e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMEnterpriseManager
+10:30:04 debug TanukiWrapperImpl> wrapperVer: 3.5.43
+10:30:04 debug TanukiWrapperImpl> getWrapperVersion: EXIT
+10:30:04 debug TanukiWrapperImpl> getWrapperExecutable: EXIT: C:\temp\SAGEM\common\bin\wrapper-3.5.43.exe
+10:30:04 info nInstanceManager> Wrapper executable file: C:\temp\SAGEM\common\bin\wrapper-3.5.43.exe
+10:30:04 info nInstanceManager> Install Dir: C:\temp\SAGEM\UniversalMessaging
+10:30:04 info nInstanceManager> Custom wrapper call for EM
+10:30:04 info nInstanceManager> Template dir: C:\temp\SAGEM\UniversalMessaging\java\EMtemplates
+10:30:04 info nInstanceManager> Execute dir: C:\temp\SAGEM\UniversalMessaging\java\umserver
+10:30:04 info nInstanceManager> Custom wrapper file: C:\temp\SAGEM\UniversalMessaging\java\umserver\customWrapper.exe
+10:30:04 info nInstanceManager> C:\temp\SAGEM\UniversalMessaging\java\EMtemplates\icon.icoCopied to C:\temp\SAGEM\UniversalMessaging\java\umserver
+10:30:04 info nInstanceManager> Icon file: C:\temp\SAGEM\UniversalMessaging\java\umserver\icon.ico
+10:30:04 info nInstanceManager> Process command: C:\temp\SAGEM\common\bin\wrapper-3.5.43.exe--customize--targetC:\temp\SAGEM\UniversalMessaging\java\umserver\customWrapper.exe--silent--passthrough--iconC:\temp\SAGEM\UniversalMessaging\java\umserver\icon.ico--manufacturerSoftware AG
+10:30:04 info PH> Execute arr cmd=[C:\temp\SAGEM\common\bin\wrapper-3.5.43.exe, --customize, --target, C:\temp\SAGEM\UniversalMessaging\java\umserver\customWrapper.exe, --silent, --passthrough, --icon, C:\temp\SAGEM\UniversalMessaging\java\umserver\icon.ico, --manufacturer, Software AG]
+10:30:04 info PH> Execute env=[null]
+10:30:04 info PH> Execute execDir: C:\temp\SAGEM\UniversalMessaging\java\umserver
+10:30:04 debug PH> Process [24412@SAG-GY5L573], with PID:24412 has started with [[C:\temp\SAGEM\common\bin\wrapper-3.5.43.exe, --customize, --target, C:\temp\SAGEM\UniversalMessaging\java\umserver\customWrapper.exe, --silent, --passthrough, --icon, C:\temp\SAGEM\UniversalMessaging\java\umserver\icon.ico, --manufacturer, Software AG]] and was interrupted during read out: process has not exited
+10:30:04 info Exit code: 0
+10:30:04 info nInstanceManager> Custom Tanuki Wrapper executable created.
+10:30:04 debug nInstanceManager> Deleting icon file C:\temp\SAGEM\UniversalMessaging\java\umserver\icon.ico
+10:30:04 debug nInstanceManager> createCustomWrapper: EXIT
+10:30:04 debug nInstanceManager> copyCustomWrapper: ENTER
+10:30:04 info nInstanceManager> For instance: umserver
+10:30:04 debug TanukiWrapperImpl> getWrapperVersion: ENTER
+10:30:04 debug TanukiWrapperImpl> productProp: NUMEnterpriseManager
+10:30:04 debug TanukiWrapperImpl> Get product ID from remote products.
+10:30:04 debug TanukiWrapperImpl> Getting product ID from local not selected products.
+10:30:04 debug TanukiWrapperImpl> from InstallerUtils - currentProductName: e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMEnterpriseManager
+10:30:04 debug TanukiWrapperImpl> wrapperVer: 3.5.43
+10:30:04 debug TanukiWrapperImpl> getWrapperVersion: EXIT
+10:30:04 debug nInstanceManager> Source wrapper: customWrapper.exe
+10:30:04 debug nInstanceManager> Found Tanuki Wrapper configuration files: 2
+10:30:04 debug nInstanceManager> Adding target: C:\temp\SAGEM\UniversalMessaging\java\umserver\bin\nenterprisemgr.exe
+10:30:04 debug nInstanceManager> Adding target: C:\temp\SAGEM\UniversalMessaging\java\umserver\bin\nenterpriseview.exe
+10:30:04 debug nInstanceManager> Found of custom Tanuki Wrapper executables to create: 2
+10:30:04 debug nInstanceManager> copyCustomWrapper: EXIT
+10:30:04 debug nInstanceManager> deleteCustomWrapper: ENTER
+10:30:04 debug nInstanceManager> deleteCustomWrapper: EXIT
+10:30:04 debug nInstanceManager> substituteTemplateFiles: ENTER
+10:30:04 info VarsSubstituteImpl> Adding file: C:\temp\SAGEM\UniversalMessaging\java\umserver\bin\Admin_Tools_Common.conf
+10:30:04 info VarsSubstituteImpl> Adding file: C:\temp\SAGEM\UniversalMessaging\java\umserver\bin\nenterprisemgr-licence.conf
+10:30:04 info VarsSubstituteImpl> Adding file: C:\temp\SAGEM\UniversalMessaging\java\umserver\bin\nenterprisemgr.conf
+10:30:04 info VarsSubstituteImpl> Adding file: C:\temp\SAGEM\UniversalMessaging\java\umserver\bin\nenterpriseview-licence.conf
+10:30:04 info VarsSubstituteImpl> Adding file: C:\temp\SAGEM\UniversalMessaging\java\umserver\bin\nenterpriseview.conf
+10:30:04 debug VarsSubstituteImpl> Using encoding: System
+10:30:04 info VarsSubstituteImpl> Substitute file: C:\temp\SAGEM\UniversalMessaging\java\umserver\bin\nenterprisemgr-licence.conf
+10:30:04 debug VarsSubstituteImpl> Using encoding: System
+10:30:04 info VarsSubstituteImpl> Substitute file: C:\temp\SAGEM\UniversalMessaging\java\umserver\bin\nenterpriseview-licence.conf
+10:30:04 debug VarsSubstituteImpl> Using encoding: System
+10:30:04 info VarsSubstituteImpl> Substitute file: C:\temp\SAGEM\UniversalMessaging\java\umserver\bin\nenterpriseview.conf
+10:30:04 info VarsSubstituteImpl> replaceVars var: $USER_MAGIC_FOLDER_5$ with: 'C:\temp\SAGEM\UniversalMessaging\java\umserver\bin'
+10:30:04 info VarsSubstituteImpl> replaceVars var: $USER_MAGIC_FOLDER_5$ with: 'C:\temp\SAGEM\UniversalMessaging\java\umserver\bin'
+10:30:04 info VarsSubstituteImpl> replaceVars var: $USER_MAGIC_FOLDER_5$ with: 'C:\temp\SAGEM\UniversalMessaging\java\umserver\bin'
+10:30:04 info VarsSubstituteImpl> replaceVars var: $CLIENT_RNAME$ with: 'nsp://localhost:9000'
+10:30:04 info VarsSubstituteImpl> replaceVars var: $GLASSFISH_JMS_JAR$ with: 'gf.javax.jms.jar'
+10:30:04 info VarsSubstituteImpl> replaceVars var: $WRAPPER_LIB$ with: '..\..\..\..\common\lib\tw-3.5.43'
+10:30:04 info VarsSubstituteImpl> replaceVars var: $NENTERPRISEVIEW_OSX_SPECIFIC$ with: ''
+10:30:04 debug VarsSubstituteImpl> Using encoding: System
+10:30:04 info VarsSubstituteImpl> Substitute file: C:\temp\SAGEM\UniversalMessaging\java\umserver\bin\Admin_Tools_Common.conf
+10:30:04 info VarsSubstituteImpl> replaceVars var: $JAVA_EXEC$ with: '..\..\..\..\jvm\jvm\bin\java.exe'
+10:30:04 info VarsSubstituteImpl> replaceVars var: $WRAPPER_LIB$ with: '..\..\..\..\common\lib\tw-3.5.43'
+10:30:04 debug VarsSubstituteImpl> Using encoding: System
+10:30:04 info VarsSubstituteImpl> Substitute file: C:\temp\SAGEM\UniversalMessaging\java\umserver\bin\nenterprisemgr.conf
+10:30:04 info VarsSubstituteImpl> replaceVars var: $USER_MAGIC_FOLDER_5$ with: 'C:\temp\SAGEM\UniversalMessaging\java\umserver\bin'
+10:30:04 info VarsSubstituteImpl> replaceVars var: $USER_MAGIC_FOLDER_5$ with: 'C:\temp\SAGEM\UniversalMessaging\java\umserver\bin'
+10:30:04 info VarsSubstituteImpl> replaceVars var: $USER_MAGIC_FOLDER_5$ with: 'C:\temp\SAGEM\UniversalMessaging\java\umserver\bin'
+10:30:04 info VarsSubstituteImpl> replaceVars var: $CLIENT_RNAME$ with: 'nsp://localhost:9000'
+10:30:04 info VarsSubstituteImpl> replaceVars var: $GLASSFISH_JMS_JAR$ with: 'gf.javax.jms.jar'
+10:30:04 info VarsSubstituteImpl> replaceVars var: $WRAPPER_LIB$ with: '..\..\..\..\common\lib\tw-3.5.43'
+10:30:04 info VarsSubstituteImpl> replaceVars var: $NENTERPRISEMGR_OSX_SPECIFIC$ with: ''
+10:30:04 debug nInstanceManager> substituteTemplateFiles: EXIT
+10:30:04 debug nInstanceManager> substituteWrapperFiles: ENTER
+10:30:04 debug nInstanceManager> substituteWrapperFiles: EXIT
+10:30:04 debug GF> calcWJNI hash code for ICL is: 122883338
+10:30:04 debug GF> library path is: com/wm/distman/helpers/dmhelpvista64.dll
+10:30:04 debug GF> calcWJNI hash code for ICL is: 122883338
+10:30:04 debug GF> library path is: com/wm/distman/helpers/dmhelpvista64.dll
+10:30:04 debug nInstanceManager> startMenuFolder: Temp SAG EM
+10:30:04 alert Call getResourceBundle with locale country: IN(India) lang: en(English) vari: () ISO: IND eng for class com/softwareag/num/install/NUMInstallMessages
+10:30:04 info nInstanceManager> Create folder: Temp SAG EM\Administration
+10:30:04 alert Call getResourceBundle with locale country: IN(India) lang: en(English) vari: () ISO: IND eng for class com/softwareag/num/install/NUMInstallMessages
+10:30:04 info nInstanceManager> Create folder: Temp SAG EM\Administration\Universal Messaging Administration 10.7
+10:30:04 info nInstanceManager> Create folder: Temp SAG EM\Administration\Universal Messaging Administration 10.7\umserver
+10:30:04 alert Call getResourceBundle with locale country: IN(India) lang: en(English) vari: () ISO: IND eng for class com/softwareag/num/install/NUMInstallMessages
+10:30:04 debug nInstanceManager> createStartMenuShortcut: ENTER
+10:30:04 debug nInstanceManager> folderPath: Temp SAG EM\Administration\Universal Messaging Administration 10.7\umserver
+10:30:04 debug nInstanceManager> shortcutName: Universal Messaging Enterprise Manager for umserver 10.7
+10:30:04 debug nInstanceManager> shortcutExecPath: C:\temp\SAGEM\UniversalMessaging\java\umserver\bin\nenterprisemgr.exe
+10:30:04 debug nInstanceManager> args: null
+10:30:04 debug nInstanceManager> iconPath: C:\temp\SAGEM\UniversalMessaging\java\umserver\bin\icon.ico
+10:30:04 debug nInstanceManager> workDirPath: C:\temp\SAGEM\UniversalMessaging\java\umserver\bin
+10:30:04 debug nInstanceManager> createStartMenuShortcut: EXIT
+10:30:04 alert Call getResourceBundle with locale country: IN(India) lang: en(English) vari: () ISO: IND eng for class com/softwareag/num/install/NUMInstallMessages
+10:30:04 debug nInstanceManager> createStartMenuShortcut: ENTER
+10:30:04 debug nInstanceManager> folderPath: Temp SAG EM\Administration\Universal Messaging Administration 10.7\umserver
+10:30:04 debug nInstanceManager> shortcutName: Universal Messaging Enterprise Viewer for umserver 10.7
+10:30:04 debug nInstanceManager> shortcutExecPath: C:\temp\SAGEM\UniversalMessaging\java\umserver\bin\nenterpriseview.exe
+10:30:04 debug nInstanceManager> args: null
+10:30:04 debug nInstanceManager> iconPath: C:\temp\SAGEM\UniversalMessaging\java\umserver\bin\icon.ico
+10:30:04 debug nInstanceManager> workDirPath: C:\temp\SAGEM\UniversalMessaging\java\umserver\bin
+10:30:04 debug nInstanceManager> createStartMenuShortcut: EXIT
+10:30:04 debug nInstanceManager> Created EM instance umserver
+10:30:04 debug OSGiUtilsImpl> registerInstance: ENTER
+10:30:04 debug OSGiUtilsImpl> registerInstance: EXIT

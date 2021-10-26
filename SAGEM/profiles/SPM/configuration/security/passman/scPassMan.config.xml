@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 
+ Passman configuration to use JCE security providers to speed up startup
+ -->
+<Config> 
+    <configName>PassManConfig</configName> 
+
+    <dsConfig> 
+        <ClassPropertyConfig className="com.webmethods.sc.security.passman.impl.datastore.DefaultDataStore"> 
+            <params> 
+                <param name="fileName" value="defaultPassStore.dat"/> 
+            </params> 
+        </ClassPropertyConfig> 
+     </dsConfig> 
+           
+    <mpwConfig> 
+        <ClassPropertyConfig className="com.webmethods.sc.security.passman.impl.masterpw.JceMasterPassword"> 
+            <params> 
+                <param name="fileName" value="mpw.dat"/> 
+            </params> 
+        </ClassPropertyConfig> 
+    </mpwConfig> 
+     
+    <encConfig> 
+        <defaultEncCode>PbeSha1Etc</defaultEncCode> 
+        <sanityEncCode>PbeSha1Etc</sanityEncCode> 
+        <encryptors> 
+            <ClassPropertyConfig className="com.webmethods.sc.security.passman.impl.encryption.JceEncryptor"> 
+            </ClassPropertyConfig> 
+        </encryptors> 
+    </encConfig> 
+ </Config>

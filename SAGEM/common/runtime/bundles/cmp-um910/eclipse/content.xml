@@ -1,0 +1,354 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?metadataRepository version='1.2.0'?>
+<repository name='assemblyRuntime' type='org.eclipse.equinox.internal.p2.metadata.repository.LocalMetadataRepository' version='1'>
+  <properties size='2'>
+    <property name='p2.timestamp' value='1598261251189'/>
+    <property name='p2.compressed' value='false'/>
+  </properties>
+  <units size='6'>
+    <unit id='com.pcbsys.nirvana.nAdminAPI' version='9.10.0.0016-101339' singleton='false' generation='2'>
+      <update id='com.pcbsys.nirvana.nAdminAPI' range='[0.0.0,9.10.0.0016-101339)' severity='0'/>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='nAdminAPI'/>
+        <property name='org.eclipse.equinox.p2.description' value='Nirvana Administration API Library'/>
+      </properties>
+      <provides size='6'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.pcbsys.nirvana.nAdminAPI' version='9.10.0.0016-101339'/>
+        <provided namespace='osgi.bundle' name='com.pcbsys.nirvana.nAdminAPI' version='9.10.0.0016-101339'/>
+        <provided namespace='java.package' name='com.pcbsys.nirvana.nAdminAPI' version='9.10.0.0016-101339'/>
+        <provided namespace='java.package' name='com.pcbsys.nirvana.nAdmin' version='9.10.0.0016-101339'/>
+        <provided namespace='osgi.identity' name='com.pcbsys.nirvana.nAdminAPI' version='9.10.0.0016-101339'>
+          <properties size='1'>
+            <property name='type' value='osgi.bundle'/>
+          </properties>
+        </provided>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='44'>
+        <required namespace='java.package' name='com.pcbsys.foundation.base' range='[9.10.0.0016-101339,9.10.0.0016-101339]'/>
+        <required namespace='java.package' name='com.pcbsys.foundation.collections' range='[9.10.0.0016-101339,9.10.0.0016-101339]'/>
+        <required namespace='java.package' name='com.pcbsys.foundation.collections.fast' range='[9.10.0.0016-101339,9.10.0.0016-101339]'/>
+        <required namespace='java.package' name='com.pcbsys.foundation.collections.maps' range='[9.10.0.0016-101339,9.10.0.0016-101339]'/>
+        <required namespace='java.package' name='com.pcbsys.foundation.collections.multiq' range='[9.10.0.0016-101339,9.10.0.0016-101339]'/>
+        <required namespace='java.package' name='com.pcbsys.foundation.configuration' range='[9.10.0.0016-101339,9.10.0.0016-101339]'/>
+        <required namespace='java.package' name='com.pcbsys.foundation.drivers' range='[9.10.0.0016-101339,9.10.0.0016-101339]'/>
+        <required namespace='java.package' name='com.pcbsys.foundation.drivers.configuration' range='[9.10.0.0016-101339,9.10.0.0016-101339]'/>
+        <required namespace='java.package' name='com.pcbsys.foundation.drivers.handlers' range='[9.10.0.0016-101339,9.10.0.0016-101339]'/>
+        <required namespace='java.package' name='com.pcbsys.foundation.drivers.http' range='[9.10.0.0016-101339,9.10.0.0016-101339]'/>
+        <required namespace='java.package' name='com.pcbsys.foundation.drivers.jdk' range='[9.10.0.0016-101339,9.10.0.0016-101339]'/>
+        <required namespace='java.package' name='com.pcbsys.foundation.drivers.jdk.URLHandler' range='[9.10.0.0016-101339,9.10.0.0016-101339]'/>
+        <required namespace='java.package' name='com.pcbsys.foundation.drivers.jdk.ibm' range='[9.10.0.0016-101339,9.10.0.0016-101339]'/>
+        <required namespace='java.package' name='com.pcbsys.foundation.drivers.jdk.v1_5' range='[9.10.0.0016-101339,9.10.0.0016-101339]'/>
+        <required namespace='java.package' name='com.pcbsys.foundation.drivers.jdk.v1_6' range='[9.10.0.0016-101339,9.10.0.0016-101339]'/>
+        <required namespace='java.package' name='com.pcbsys.foundation.drivers.jdk.v1_7' range='[9.10.0.0016-101339,9.10.0.0016-101339]'/>
+        <required namespace='java.package' name='com.pcbsys.foundation.drivers.multicast' range='[9.10.0.0016-101339,9.10.0.0016-101339]'/>
+        <required namespace='java.package' name='com.pcbsys.foundation.drivers.multicast.client' range='[9.10.0.0016-101339,9.10.0.0016-101339]'/>
+        <required namespace='java.package' name='com.pcbsys.foundation.drivers.multicast.crypto' range='[9.10.0.0016-101339,9.10.0.0016-101339]'/>
+        <required namespace='java.package' name='com.pcbsys.foundation.drivers.multicast.server' range='[9.10.0.0016-101339,9.10.0.0016-101339]'/>
+        <required namespace='java.package' name='com.pcbsys.foundation.drivers.nio' range='[9.10.0.0016-101339,9.10.0.0016-101339]'/>
+        <required namespace='java.package' name='com.pcbsys.foundation.drivers.nio.handlers' range='[9.10.0.0016-101339,9.10.0.0016-101339]'/>
+        <required namespace='java.package' name='com.pcbsys.foundation.drivers.nio.io' range='[9.10.0.0016-101339,9.10.0.0016-101339]'/>
+        <required namespace='java.package' name='com.pcbsys.foundation.drivers.nio.ssl' range='[9.10.0.0016-101339,9.10.0.0016-101339]'/>
+        <required namespace='java.package' name='com.pcbsys.foundation.drivers.proxy' range='[9.10.0.0016-101339,9.10.0.0016-101339]'/>
+        <required namespace='java.package' name='com.pcbsys.foundation.drivers.shm' range='[9.10.0.0016-101339,9.10.0.0016-101339]'/>
+        <required namespace='java.package' name='com.pcbsys.foundation.filters' range='[9.10.0.0016-101339,9.10.0.0016-101339]'/>
+        <required namespace='java.package' name='com.pcbsys.foundation.io' range='[9.10.0.0016-101339,9.10.0.0016-101339]'/>
+        <required namespace='java.package' name='com.pcbsys.foundation.io.javascript' range='[9.10.0.0016-101339,9.10.0.0016-101339]'/>
+        <required namespace='java.package' name='com.pcbsys.foundation.logger' range='[9.10.0.0016-101339,9.10.0.0016-101339]'/>
+        <required namespace='java.package' name='com.pcbsys.foundation.memory' range='[9.10.0.0016-101339,9.10.0.0016-101339]'/>
+        <required namespace='java.package' name='com.pcbsys.foundation.persist' range='[9.10.0.0016-101339,9.10.0.0016-101339]'/>
+        <required namespace='java.package' name='com.pcbsys.foundation.scheduler' range='[9.10.0.0016-101339,9.10.0.0016-101339]'/>
+        <required namespace='java.package' name='com.pcbsys.foundation.scheduler.parser' range='[9.10.0.0016-101339,9.10.0.0016-101339]'/>
+        <required namespace='java.package' name='com.pcbsys.foundation.scheduler.parser.grammer' range='[9.10.0.0016-101339,9.10.0.0016-101339]'/>
+        <required namespace='java.package' name='com.pcbsys.foundation.security' range='[9.10.0.0016-101339,9.10.0.0016-101339]'/>
+        <required namespace='java.package' name='com.pcbsys.foundation.threads' range='[9.10.0.0016-101339,9.10.0.0016-101339]'/>
+        <required namespace='java.package' name='com.pcbsys.foundation.utils' range='[9.10.0.0016-101339,9.10.0.0016-101339]'/>
+        <required namespace='java.package' name='com.pcbsys.foundation.vm' range='[9.10.0.0016-101339,9.10.0.0016-101339]'/>
+        <required namespace='java.package' name='com.pcbsys.nirvana.base' range='[9.10.0.0016-101339,9.10.0.0016-101339]'/>
+        <required namespace='java.package' name='com.pcbsys.nirvana.base.events' range='[9.10.0.0016-101339,9.10.0.0016-101339]'/>
+        <required namespace='java.package' name='com.pcbsys.nirvana.client' range='[9.10.0.0016-101339,9.10.0.0016-101339]'/>
+        <required namespace='java.package' name='com.pcbsys.nirvana.client.p2p' range='[9.10.0.0016-101339,9.10.0.0016-101339]'/>
+        <requiredProperties namespace='osgi.ee' match='(&amp;(osgi.ee=JavaSE)(version=1.7))'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.pcbsys.nirvana.nAdminAPI' version='9.10.0.0016-101339'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.pcbsys.nirvana.nAdminAPI&#xA;Bundle-Version: 9.10.0.0016-101339&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.pcbsys.nirvana.client' version='9.10.0.0016-101339' singleton='false' generation='2'>
+      <update id='com.pcbsys.nirvana.client' range='[0.0.0,9.10.0.0016-101339)' severity='0'/>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='nClient'/>
+        <property name='org.eclipse.equinox.p2.description' value='Nirvana native client API Library'/>
+      </properties>
+      <provides size='47'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.pcbsys.nirvana.client' version='9.10.0.0016-101339'/>
+        <provided namespace='osgi.bundle' name='com.pcbsys.nirvana.client' version='9.10.0.0016-101339'/>
+        <provided namespace='java.package' name='com.pcbsys.nirvana.client' version='9.10.0.0016-101339'/>
+        <provided namespace='java.package' name='com.pcbsys.foundation.utils' version='9.10.0.0016-101339'/>
+        <provided namespace='java.package' name='com.pcbsys.foundation.vm' version='9.10.0.0016-101339'/>
+        <provided namespace='java.package' name='com.pcbsys.foundation.base' version='9.10.0.0016-101339'/>
+        <provided namespace='java.package' name='com.pcbsys.foundation.filters' version='9.10.0.0016-101339'/>
+        <provided namespace='java.package' name='com.pcbsys.foundation.io' version='9.10.0.0016-101339'/>
+        <provided namespace='java.package' name='com.pcbsys.foundation.io.javascript' version='9.10.0.0016-101339'/>
+        <provided namespace='java.package' name='com.pcbsys.foundation.security' version='9.10.0.0016-101339'/>
+        <provided namespace='java.package' name='com.pcbsys.foundation.scheduler' version='9.10.0.0016-101339'/>
+        <provided namespace='java.package' name='com.pcbsys.foundation.scheduler.parser' version='9.10.0.0016-101339'/>
+        <provided namespace='java.package' name='com.pcbsys.foundation.scheduler.parser.grammer' version='9.10.0.0016-101339'/>
+        <provided namespace='java.package' name='com.pcbsys.foundation.persist' version='9.10.0.0016-101339'/>
+        <provided namespace='java.package' name='com.pcbsys.foundation.memory' version='9.10.0.0016-101339'/>
+        <provided namespace='java.package' name='com.pcbsys.foundation.logger' version='9.10.0.0016-101339'/>
+        <provided namespace='java.package' name='com.pcbsys.foundation.drivers' version='9.10.0.0016-101339'/>
+        <provided namespace='java.package' name='com.pcbsys.foundation.drivers.shm' version='9.10.0.0016-101339'/>
+        <provided namespace='java.package' name='com.pcbsys.foundation.drivers.proxy' version='9.10.0.0016-101339'/>
+        <provided namespace='java.package' name='com.pcbsys.foundation.drivers.nio' version='9.10.0.0016-101339'/>
+        <provided namespace='java.package' name='com.pcbsys.foundation.drivers.nio.ssl' version='9.10.0.0016-101339'/>
+        <provided namespace='java.package' name='com.pcbsys.foundation.drivers.nio.io' version='9.10.0.0016-101339'/>
+        <provided namespace='java.package' name='com.pcbsys.foundation.drivers.nio.handlers' version='9.10.0.0016-101339'/>
+        <provided namespace='java.package' name='com.pcbsys.foundation.drivers.multicast' version='9.10.0.0016-101339'/>
+        <provided namespace='java.package' name='com.pcbsys.foundation.drivers.multicast.server' version='9.10.0.0016-101339'/>
+        <provided namespace='java.package' name='com.pcbsys.foundation.drivers.multicast.crypto' version='9.10.0.0016-101339'/>
+        <provided namespace='java.package' name='com.pcbsys.foundation.drivers.multicast.client' version='9.10.0.0016-101339'/>
+        <provided namespace='java.package' name='com.pcbsys.foundation.drivers.jdk' version='9.10.0.0016-101339'/>
+        <provided namespace='java.package' name='com.pcbsys.foundation.drivers.jdk.v1_7' version='9.10.0.0016-101339'/>
+        <provided namespace='java.package' name='com.pcbsys.foundation.drivers.jdk.v1_6' version='9.10.0.0016-101339'/>
+        <provided namespace='java.package' name='com.pcbsys.foundation.drivers.jdk.v1_5' version='9.10.0.0016-101339'/>
+        <provided namespace='java.package' name='com.pcbsys.foundation.drivers.jdk.URLHandler' version='9.10.0.0016-101339'/>
+        <provided namespace='java.package' name='com.pcbsys.foundation.drivers.jdk.ibm' version='9.10.0.0016-101339'/>
+        <provided namespace='java.package' name='com.pcbsys.foundation.drivers.http' version='9.10.0.0016-101339'/>
+        <provided namespace='java.package' name='com.pcbsys.foundation.drivers.handlers' version='9.10.0.0016-101339'/>
+        <provided namespace='java.package' name='com.pcbsys.foundation.drivers.configuration' version='9.10.0.0016-101339'/>
+        <provided namespace='java.package' name='com.pcbsys.foundation.threads' version='9.10.0.0016-101339'/>
+        <provided namespace='java.package' name='com.pcbsys.foundation.collections' version='9.10.0.0016-101339'/>
+        <provided namespace='java.package' name='com.pcbsys.foundation.collections.fast' version='9.10.0.0016-101339'/>
+        <provided namespace='java.package' name='com.pcbsys.foundation.collections.maps' version='9.10.0.0016-101339'/>
+        <provided namespace='java.package' name='com.pcbsys.foundation.collections.multiq' version='9.10.0.0016-101339'/>
+        <provided namespace='java.package' name='com.pcbsys.foundation.concurrent' version='9.10.0.0016-101339'/>
+        <provided namespace='java.package' name='com.pcbsys.foundation.configuration' version='9.10.0.0016-101339'/>
+        <provided namespace='java.package' name='com.pcbsys.nirvana.base.events' version='9.10.0.0016-101339'/>
+        <provided namespace='java.package' name='com.pcbsys.nirvana.base' version='9.10.0.0016-101339'/>
+        <provided namespace='osgi.identity' name='com.pcbsys.nirvana.client' version='9.10.0.0016-101339'>
+          <properties size='1'>
+            <property name='type' value='osgi.bundle'/>
+          </properties>
+        </provided>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='17'>
+        <required namespace='java.package' name='com.google.protobuf' range='0.0.0' optional='true' greedy='false'/>
+        <required namespace='java.package' name='com.ibm.security.x509' range='0.0.0' optional='true' greedy='false'/>
+        <required namespace='java.package' name='javax.crypto' range='0.0.0'/>
+        <required namespace='java.package' name='javax.crypto.spec' range='0.0.0'/>
+        <required namespace='java.package' name='javax.net' range='0.0.0'/>
+        <required namespace='java.package' name='javax.net.ssl' range='0.0.0'/>
+        <required namespace='java.package' name='javax.security.cert' range='0.0.0'/>
+        <required namespace='java.package' name='javax.xml.parsers' range='0.0.0'/>
+        <required namespace='java.package' name='javax.xml.transform' range='0.0.0'/>
+        <required namespace='java.package' name='javax.xml.transform.dom' range='0.0.0'/>
+        <required namespace='java.package' name='javax.xml.transform.stream' range='0.0.0'/>
+        <required namespace='java.package' name='org.w3c.dom' range='0.0.0'/>
+        <required namespace='java.package' name='org.xml.sax' range='0.0.0'/>
+        <required namespace='java.package' name='sun.misc' range='0.0.0' optional='true' greedy='false'/>
+        <required namespace='java.package' name='sun.security.util' range='0.0.0' optional='true' greedy='false'/>
+        <required namespace='java.package' name='sun.security.x509' range='0.0.0' optional='true' greedy='false'/>
+        <requiredProperties namespace='osgi.ee' match='(&amp;(osgi.ee=JavaSE)(version=1.7))'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.pcbsys.nirvana.client' version='9.10.0.0016-101339'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.pcbsys.nirvana.client&#xA;Bundle-Version: 9.10.0.0016-101339&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.softwareag.cmp.features.cmp.um910.feature.feature.jar' version='10.7.0.0000-0082'>
+      <properties size='9'>
+        <property name='org.eclipse.equinox.p2.name' value='%featureName'/>
+        <property name='org.eclipse.equinox.p2.description' value='%description'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='%descriptionURL'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%providerName'/>
+        <property name='df_LT.license' value='For Software AG Legal Notices please refer to: http://softwareag.com/licenses and/or in the root installation directory of the licensed product(s).'/>
+        <property name='df_LT.copyright' value='Copyright &amp;copy; 2006 - 2020 Software AG, Darmstadt, Germany and/or Software AG USA Inc., Reston, VA, USA, and/or its subsidiaries and/or its affiliates and/or their licensors. The name Software AG and all Software AG product names are either trademarks or registered trademarks of Software AG and/or Software AG USA Inc. and/or its subsidiaries and/or its affiliates and/or their licensors. Other company and product names mentioned herein may be trademarks of their respective owners. Detailed information on trademarks and patents owned by Software AG and/or its subsidiaries is located at {http://softwareag.com/licenses}. This software may include portions of third-party products. For third-party copyright notices, license terms, additional rights or restrictions, please refer to &quot;License Texts, Copyright Notices and Disclaimers of Third Party Products&quot;. For certain specific third-party license restrictions, please refer to section E of the Legal Notices available under &quot;License Terms and Conditions for Use of Software AG Products / Copyright and Trademark Notices of Software AG Products&quot;. These documents are part of the product documentation, located at {http://softwareag.com/licenses} and/or in the root installation directory of the licensed product(s). Use, reproduction, transfer, publication or disclosure is prohibited except as specifically provided for in your License Agreement with Software AG.'/>
+        <property name='df_LT.featureName' value='CMP UM910 feature'/>
+        <property name='df_LT.description' value='Software AG CMP UM910 feature'/>
+        <property name='df_LT.providerName' value='Software AG'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.cmp.features.cmp.um910.feature.feature.jar' version='10.7.0.0000-0082'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
+        <provided namespace='org.eclipse.update.feature' name='com.softwareag.cmp.features.cmp.um910.feature' version='10.7.0.0000-0082'/>
+      </provides>
+      <filter>
+        (org.eclipse.update.install.features=true)
+      </filter>
+      <artifacts size='1'>
+        <artifact classifier='org.eclipse.update.feature' id='com.softwareag.cmp.features.cmp.um910.feature' version='10.7.0.0000-0082'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+        </instructions>
+      </touchpointData>
+      <licenses size='1'>
+        <license uri='%25licenseURL' url='%25licenseURL'>
+          %license
+        </license>
+      </licenses>
+      <copyright uri='%25copyrightURL' url='%25copyrightURL'>
+        %copyright
+      </copyright>
+    </unit>
+    <unit id='com.softwareag.cmp.features.cmp.um910.feature.feature.group' version='10.7.0.0000-0082' singleton='false'>
+      <update id='com.softwareag.cmp.features.cmp.um910.feature.feature.group' range='[0.0.0,10.7.0.0000-0082)' severity='0'/>
+      <properties size='10'>
+        <property name='org.eclipse.equinox.p2.name' value='%featureName'/>
+        <property name='org.eclipse.equinox.p2.description' value='%description'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='%descriptionURL'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%providerName'/>
+        <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+        <property name='df_LT.license' value='For Software AG Legal Notices please refer to: http://softwareag.com/licenses and/or in the root installation directory of the licensed product(s).'/>
+        <property name='df_LT.copyright' value='Copyright &amp;copy; 2006 - 2020 Software AG, Darmstadt, Germany and/or Software AG USA Inc., Reston, VA, USA, and/or its subsidiaries and/or its affiliates and/or their licensors. The name Software AG and all Software AG product names are either trademarks or registered trademarks of Software AG and/or Software AG USA Inc. and/or its subsidiaries and/or its affiliates and/or their licensors. Other company and product names mentioned herein may be trademarks of their respective owners. Detailed information on trademarks and patents owned by Software AG and/or its subsidiaries is located at {http://softwareag.com/licenses}. This software may include portions of third-party products. For third-party copyright notices, license terms, additional rights or restrictions, please refer to &quot;License Texts, Copyright Notices and Disclaimers of Third Party Products&quot;. For certain specific third-party license restrictions, please refer to section E of the Legal Notices available under &quot;License Terms and Conditions for Use of Software AG Products / Copyright and Trademark Notices of Software AG Products&quot;. These documents are part of the product documentation, located at {http://softwareag.com/licenses} and/or in the root installation directory of the licensed product(s). Use, reproduction, transfer, publication or disclosure is prohibited except as specifically provided for in your License Agreement with Software AG.'/>
+        <property name='df_LT.featureName' value='CMP UM910 feature'/>
+        <property name='df_LT.description' value='Software AG CMP UM910 feature'/>
+        <property name='df_LT.providerName' value='Software AG'/>
+      </properties>
+      <provides size='2'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.cmp.features.cmp.um910.feature.feature.group' version='10.7.0.0000-0082'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+      </provides>
+      <requires size='5'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.pcbsys.nirvana.nAdminAPI' range='[9.10.0.0016-101339,9.10.0.0016-101339]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.pcbsys.nirvana.client.p2p' range='[9.10.0.0016-101339,9.10.0.0016-101339]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.pcbsys.nirvana.client' range='[9.10.0.0016-101339,9.10.0.0016-101339]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.cmp.um910.impl' range='[10.7.0.0000-0082,10.7.0.0000-0082]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.cmp.features.cmp.um910.feature.feature.jar' range='[10.7.0.0000-0082,10.7.0.0000-0082]'>
+          <filter>
+            (org.eclipse.update.install.features=true)
+          </filter>
+        </required>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+      <licenses size='1'>
+        <license uri='%25licenseURL' url='%25licenseURL'>
+          %license
+        </license>
+      </licenses>
+      <copyright uri='%25copyrightURL' url='%25copyrightURL'>
+        %copyright
+      </copyright>
+    </unit>
+    <unit id='com.softwareag.cmp.um910.impl' version='10.7.0.0000-0082' singleton='false' generation='2'>
+      <update id='com.softwareag.cmp.um910.impl' range='[0.0.0,10.7.0.0000-0082)' severity='0'/>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='CMP cmp-um910-impl module'/>
+        <property name='org.eclipse.equinox.p2.description' value='CMP cmp-um910-impl module'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Software AG'/>
+        <property name='org.eclipse.equinox.p2.doc.url' value='http://www.softwareag.com'/>
+      </properties>
+      <provides size='13'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.cmp.um910.impl' version='10.7.0.0000-0082'/>
+        <provided namespace='osgi.bundle' name='com.softwareag.cmp.um910.impl' version='10.7.0.0000-0082'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.um' version='10.5.0'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.umprovider910' version='10.5.0'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.umprovider910.attribute' version='10.5.0'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.umprovider910.context' version='10.5.0'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.umprovider910.metamodel' version='10.5.0'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.umprovider910.model' version='10.5.0'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.umprovider910.ping' version='10.5.0'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.umprovider910.util' version='10.5.0'/>
+        <provided namespace='java.package' name='metamodel' version='10.5.0'/>
+        <provided namespace='osgi.identity' name='com.softwareag.cmp.um910.impl' version='10.7.0.0000-0082'>
+          <properties size='1'>
+            <property name='type' value='osgi.bundle'/>
+          </properties>
+        </provided>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='20'>
+        <required namespace='java.package' name='com.pcbsys.nirvana.client' range='[9.10.0,9.12.0)'/>
+        <required namespace='java.package' name='com.pcbsys.nirvana.nAdminAPI' range='[9.10.0,9.12.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider.attribute' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider.context' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider.metamodel' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider.model' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider.ping' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider.relation' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider.util' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider.util.xml' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.umprovider910' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.cmp.umprovider910.attribute' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.cmp.umprovider910.context' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.cmp.umprovider910.metamodel' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.cmp.umprovider910.model' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.cmp.umprovider910.ping' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.cmp.umprovider910.util' range='0.0.0'/>
+        <required namespace='java.package' name='org.apache.logging.log4j' range='[2.13.0,3.0.0)'/>
+        <requiredProperties namespace='osgi.ee' match='(&amp;(osgi.ee=JavaSE)(version=1.8))'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.softwareag.cmp.um910.impl' version='10.7.0.0000-0082'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.softwareag.cmp.um910.impl&#xA;Bundle-Version: 10.7.0.0000-0082&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.pcbsys.nirvana.client.p2p' version='9.10.0.0016-101339' singleton='false' generation='2'>
+      <update id='com.pcbsys.nirvana.client.p2p' range='[0.0.0,9.10.0.0016-101339)' severity='0'/>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='nP2P'/>
+        <property name='org.eclipse.equinox.p2.description' value='Nirvana Peer 2 Peer API Library'/>
+      </properties>
+      <provides size='5'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.pcbsys.nirvana.client.p2p' version='9.10.0.0016-101339'/>
+        <provided namespace='osgi.bundle' name='com.pcbsys.nirvana.client.p2p' version='9.10.0.0016-101339'/>
+        <provided namespace='java.package' name='com.pcbsys.nirvana.client.p2p' version='9.10.0.0016-101339'/>
+        <provided namespace='osgi.identity' name='com.pcbsys.nirvana.client.p2p' version='9.10.0.0016-101339'>
+          <properties size='1'>
+            <property name='type' value='osgi.bundle'/>
+          </properties>
+        </provided>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='7'>
+        <required namespace='java.package' name='com.pcbsys.foundation.collections' range='[9.10.0.0016-101339,9.10.0.0016-101339]'/>
+        <required namespace='java.package' name='com.pcbsys.foundation.logger' range='[9.10.0.0016-101339,9.10.0.0016-101339]'/>
+        <required namespace='java.package' name='com.pcbsys.foundation.threads' range='[9.10.0.0016-101339,9.10.0.0016-101339]'/>
+        <required namespace='java.package' name='com.pcbsys.foundation.utils' range='[9.10.0.0016-101339,9.10.0.0016-101339]'/>
+        <required namespace='java.package' name='com.pcbsys.nirvana.client' range='[9.10.0.0016-101339,9.10.0.0016-101339]'/>
+        <required namespace='java.package' name='org.w3c.dom' range='0.0.0'/>
+        <requiredProperties namespace='osgi.ee' match='(&amp;(osgi.ee=JavaSE)(version=1.7))'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.pcbsys.nirvana.client.p2p' version='9.10.0.0016-101339'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.pcbsys.nirvana.client.p2p&#xA;Bundle-Version: 9.10.0.0016-101339&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+  </units>
+</repository>

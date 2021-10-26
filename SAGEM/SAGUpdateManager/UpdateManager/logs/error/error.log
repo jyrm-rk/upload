@@ -1,0 +1,1 @@
+ERROR[AbstractFixApplication] 2021/10/26 10:30:21.208 IST: com.softwareag.fixinstall.sum.credentials.helper.exceptions.MissingPasswordFile: No password file found. To resolve this error, try entering the password again.

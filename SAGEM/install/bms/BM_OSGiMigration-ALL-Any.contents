@@ -1,0 +1,42 @@
+name=e2ei/11/OSGI_10.7.0.0.635/Platform/OSGI/OSGI-W64-Any/BM_OSGiMigration-ALL-Any
+version=10.7.0.0.635
+timestamp=1599492568
+
+common/
+common/lib/
+common/
+common/lib/diagnostic-tool/
+common/lib/
+common/lib/migrate/
+0755 common/lib/diagnostic-tool/app-utils.jar
+common/lib/diagnostic-tool/
+0755 common/lib/diagnostic-tool/commons-configuration.jar
+0755 common/lib/diagnostic-tool/commons-lang.jar
+0755 common/lib/diagnostic-tool/commons-logging.jar
+0755 common/lib/diagnostic-tool/diagnostic-collector.jar
+0755 common/lib/diagnostic-tool/jackson-annotations.jar
+0755 common/lib/diagnostic-tool/jackson-core.jar
+0755 common/lib/diagnostic-tool/jackson-databind.jar
+0755 common/lib/diagnostic-tool/jboss-logging.jar
+0755 common/lib/diagnostic-tool/jboss-threads.jar
+0755 common/lib/diagnostic-tool/log4j-api.jar
+0755 common/lib/diagnostic-tool/log4j-core.jar
+0755 common/lib/diagnostic-tool/mdbootstrap.jar
+0755 common/lib/diagnostic-tool/undertow-core.jar
+0755 common/lib/diagnostic-tool/validator.jar
+0755 common/lib/diagnostic-tool/web-ui.jar
+0755 common/lib/diagnostic-tool/wildfly-client-config.jar
+0755 common/lib/diagnostic-tool/wildfly-common.jar
+0755 common/lib/diagnostic-tool/xnio-api.jar
+0755 common/lib/diagnostic-tool/xnio-nio.jar
+0755 common/lib/migrate/commons-collections-3.2.2-eclipse463.jar
+common/lib/migrate/
+0755 common/lib/migrate/commons-configuration.jar
+0755 common/lib/migrate/commons-io.jar
+0755 common/lib/migrate/commons-lang.jar
+0755 common/lib/migrate/commons-logging.jar
+0755 common/lib/migrate/jakarta-xml-soap-api.jar
+0755 common/lib/migrate/platform-common-migration.jar
+0755 common/lib/migrate/sec-authz-store.jar
+0755 common/lib/migrate/sec-common.jar
+0755 common/lib/migrate/sec-jaas.jar

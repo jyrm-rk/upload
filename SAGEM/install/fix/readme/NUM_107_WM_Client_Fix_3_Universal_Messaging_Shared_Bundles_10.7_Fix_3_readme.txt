@@ -1,0 +1,516 @@
+                      Universal Messaging webMethods Client 10.7 SP0 Fix 3 Readme
+                  
+                                  July 2021
+
+________________________________________________________________________________
+
+This file provides important information for applying Universal Messaging Client 10.7 SP0 Fix 3 to 
+Universal Messaging 10.7 SP0 installations. For additional information about Universal Messaging, 
+see the index.html file in the docs directory of your installation. 
+
+
+Contents:
+
+1.0   Fix Name
+2.0   Fix ID
+3.0   Product(s)/Component(s) Affected
+4.0   Requirements
+5.0   Platform Support
+6.0   Cautions and Warnings 
+7.0   Fix Contents
+8.0   Installation
+9.0   Uninstallation
+10.0  Globalization 
+11.0  Copyright
+12.0  Contacting Us
+
+
+
+1.0 Fix Name
+
+Universal Messaging webMethods Client 10.7 SP0 Fix 3 Build ***BUILD_NUMBER***
+
+
+
+2.0 Fix ID
+
+NUM_10.7_wM_Client_Fix3
+
+
+
+3.0 Product(s)/Component(s) Affected
+
+Universal Messaging webMethods Client 10.7 SP0
+
+
+
+4.0 Requirements
+
+None.
+
+
+
+5.0 Platform Support
+
+Same platforms as product release.
+
+
+
+6.0 Cautions and Warnings
+
+None.
+
+
+7.0 Fix Contents
+
+In addition to including resolutions to product defects, a fix may also include
+enhancements to existing functionality and features. Any of these items can 
+result in new or changed built-in services, APIs, or configuration parameters. 
+Review the fix contents carefully before applying the fix.
+ 	
+This fix is cumulative, which means that it is an aggregate of previous fixes 
+for the release.
+
+NUM-16219 (NUM_10.7_wM_Client_Fix3)
+
+Top tab has been updated to display more channel details
+
+NUM-15236 (NUM_10.7_wM_Client_Fix2)
+
+The Universal Messaging Enterprise Manager fails to perform some operations
+because it uses non-admin connections to the Universal Messaging server for those operations.
+When the Universal Messaging server is configured to not allow non-admin client connections,
+the Enterprise Manager fails to perform the operations that use non-admin connections to the server.
+For example, the problem happens after you set the ClusterMode parameter to 'Replication', which
+means Universal Messaging does not allow non-admin connections to cluster nodes other than the 
+master node.
+This issue is now resolved.
+
+NUM-13424 (NUM_10.7_wM_Client_Fix2)
+
+Enterprise Manager does not connect to nsps port.
+This issue has been resolved.
+
+NUM-16198 (NUM_10.7_wM_Client_Fix2)
+
+The Universal Messaging server or Java client might fail to start after you apply
+Universal Messaging 10.5 realm server fix 11 or Universal Messaging 10.5 Java client fix 11, 
+respectively.
+The Universal Messaging server or Java client might fail to start with a
+'java.lang.NoClassDefFoundError: com.pcbsys.foundation.threads.fThreadPool' exception.
+The issue occurs if the server or client log file has reached the configured 'RolledLogFileDepth'
+at the time of initialization. The default value for 'RolledLogFileDepth' is 100 MB.
+This issue is now resolved.
+
+NUM-16039 (NUM_10.7_wM_Client_Fix2)
+
+nett-all library is updated to newer version because of security vulnerabilities
+
+NUM-15889 (NUM_10.7_wM_Client_Fix2)
+
+Creating a channel or queue for a webMethods Cloud Container solution using the Universal Messaging 
+Enterprise Manager might result in an error.
+When you create a queue or channel for a Cloud Container solution on the JNDI tab in the Universal 
+Messaging Enterprise Manager, Universal Messaging creates the queue or channel, but also displays 
+an empty error message. Additionally, the newly created queue or channel is not listed on the 
+Settings > Messaging > JNDI Settings page in Cloud Container.
+The issue is now resolved.
+
+NUM-15140 (NUM_10.7_wM_Client_Fix2)
+
+Realm XML Export doesn't export correctly selector property value for durables.
+This issue is resolved now.
+
+NUM-14608 (NUM_10.7_wM_Client_Fix2)
+
+Performance issue when nginx used as load balancer.
+Issue has been fixed.
+
+NUM-15315 (NUM_10.7_wM_Client_Fix1)
+
+The Enterprise Manager for Universal Messaging might stop responding when you click a queue to view 
+its status.
+Such a situation might also happen when you try to view the status of a channel or a durable in the 
+Enterprise Manager.
+The issue is now resolved.
+
+NUM-15163 (NUM_10.7_wM_Client_Fix1)
+
+Universal Messaging writes messages to already rolled nirvana.log files.
+The problem occurs because Universal Messaging does not use the correct logging framework. The 
+server uses the default logging framework instead of the additionally specified Log4J2 framework.
+The issue is resolved. Now all packages use the correct logger for the package level.
+
+NUM-14901 (NUM_10.7_wM_Client_Fix1)
+
+Exporting or importing a realm configuration into XML results in missing or incomplete joins 
+details.
+When exporting or importing realm configurations from Enterprise Manager or using the "nexportrealm" 
+or "nimportrealm" code samples, one of the following issues occurs:
+- The exported XML file does not include any information about the remote joins.
+- The joins entries in the exported XML file do not include the details of the remote realm, which 
+incorrectly represents the join as local.
+- The information about the remote joins does not get imported.
+The issues are now resolved.
+
+NUM-13647 (NUM_10.7_wM_Client_Fix1)
+
+Importing the interfaces are based on ports uniqueness based. nsp and nsps imports work when the 
+aliases are similar. It creates new aliases with new ports and work. But due to some reason, the 
+nhp and nhps didn't work when the aliases are similar. But they work when the aliases are 
+different. 
+When an interface with the same host and port is present, a new interface gets added and then the 
+status is changes to Error. 
+These issues are solved.
+
+NUM-15865 (NUM_10.7_wM_Client_Fix1)
+
+Beginning with release 10.7, Universal Messaging (UM) servers now have bi-directional compatibility 
+with the following Universal Messaging clients:
+- native API for Java
+- API for JMS
+- the Resource Adapter for JMS.
+Bi-directional compatibility means that a UM server now works not only with clients that have lower 
+version, but also with clients that have higher release version than the server.
+We have improved logging and error handling, optimized HTTP-based connection intercepts, and added 
+support for Horizontal Scalability (HS) in server environments of mixed release versions. To 
+support HS in such environments, we have added a new URL parameter, "HS_PROTOCOL_VERSION".
+Parameter description: (Optional) In the "HS_PROTOCOL_VERSION" parameter, you specify the lowest 
+release version of the server that the HS session can connect to. This parameter ensures that the 
+HS session will use the same protocol version to connect to all servers. The parameter is required 
+when the servers in the HS URL have different versions.
+Example: The following URL indicates that the HS client will use protocol version 10.5 to connect to 
+servers of release version 10.5 or higher. UM1 (nsp://host1:port1) is version 10.5 and UM2 
+(nsp://host2:port2) is version 10.7, but because "HS_PROTOCOL_VERSION=10.5", the client session 
+will use protocol version 10.5.
+(nsp://host1:port1)(nsp://host2:port2)?HS_PROTOCOL_VERSION=10.5
+Note that a UM server with release version lower than the version of the client API will not support 
+all new functions added in the API. For details about compatibility limitations, see the topics for 
+the respective client API in the Universal Messaging documentation.
+
+NUM-15687 (NUM_10.7_wM_Client_Fix1)
+
+Establishing a lot of sessions to Universal Messaging might result in high memory consumption by 
+Java threads and connection failure.
+When the Universal Messaging Java client is used by applications that create a high number of 
+sessions, the memory consumed by Java threads might increase depending on the configured Java 
+thread stack size (-Xss Java argument).
+This situation occurs because Universal Messaging sessions require at least three Java threads per 
+session: a connection reader, a connection writer, and an event-processing thread.
+In such scenarios, it might be feasible to reconfigure the Universal Messaging Java client to use a 
+shared thread pool for event processing and configure its size to a lower value than the number of 
+client sessions, thus reducing the number of Java threads used for event processing.
+The issue is resolved. The Universal Messaging Java client has been enhanced to support two new 
+client-side system properties, ?com.softwareag.um.client.useSharedThreadPool? and 
+?com.softwareag.um.client.SharedThreadPoolMaxSize?. You can use these properties to enable client 
+sessions to use a shared thread pool for processing events and to configure the size of the shared 
+thread pool, respectively.
+System-property reference
+- com.softwareag.um.client.useSharedThreadPool - enables usage of a shared thread pool for 
+processing incoming nConsumeEvent events for every client session. Valid values are ?true? or 
+?false? (default).
+By default, each client session will create and use a separate/dedicated pool of threads for 
+processing received nConsumeEvent events. When this system property is set to true, all client 
+sessions will use a shared thread pool.
+- com.softwareag.um.client.SharedThreadPoolMaxSize - configures the maximum size of the shared 
+thread pool. The default maximum thread pool size is 5.
+Additionally, the Universal Messaging Java client's nSession.enableThreading() API has been 
+deprecated.
+For more information about using client system properties, see the Universal Messaging 
+documentation.
+
+NUM-15646 (NUM_10.7_wM_Client_Fix1)
+
+Universal Messaging now uses the Qpid Proton-J version 0.33.5 server library for the AMQP networking 
+protocol.
+
+NUM-15592 (NUM_10.7_wM_Client_Fix1)
+
+Deleting a Universal Messaging channel or queue that is configured for trace logging
+might result in an exception in the server log file during server shutdown.
+The issue occurs because when you delete a channel or queue, the Universal Messaging server
+might not remove all resources of the trace logger for the channel or queue. In this case, when you 
+stop
+Universal Messaging, the server returns the following exception in the Universal Messaging server 
+nirvana.log file:
+"org.apache.logging.log4j.core.appender.AppenderLoggingException: Error writing to 
+RandomAccessFile",
+followed by the path to the trace log file of the deleted channel or queue.
+This issue is now resolved.
+
+NUM-15576 (NUM_10.7_wM_Client_Fix1)
+
+Using a JMS connection over SSL to connect to Universal Messaging fails
+with a javax.net.ssl.SSLException.
+The issue occurs due to a failure to initialize the SSL context in
+the Universal Messaging JMS client when you do not specify all SSL settings explicitly,
+such as the cipherSuite attribute. Universal Messaging returns an SSL exception and
+an error such as "Could not set cipher suite -
+check exception cause" / "Unsupported CipherSuite: null".
+The issue is resolved.
+
+NUM-15488 (NUM_10.7_wM_Client_Fix1)
+
+The Universal Messaging Enterprise API for Java documentation for the nDurableAttributes class is 
+not clear enough.
+The issue is resolved. The nDurableAttributes documentation has been updated to include a detailed 
+description of durable#StartEID. In addition, you can use 
+nDurableAttributes#INITIAL_EID_END_OF_STORE to set the StartEID of a durable to -2.
+
+NUM-15394 (NUM_10.7_wM_Client_Fix1)
+
+When you execute the ngetservertime tool on a Universal Messaging realm with basic authentication 
+enabled and mandatory, the tool returns a security exception.
+When you execute the ngetservertime tool on a realm with basic authentication enabled and mandatory, 
+the tool returns the following error: 
+"com.pcbsys.foundation.security.auth.fAuthenticationException: An error occurred while 
+authenticating driver". This issue occurs because the tool does not pass the user password to the 
+session it creates.
+The issue is now resolved. You can use either one of two new system properties, ?UM_PASSWORD? or 
+?PASS_PASSWORD_IN_CONSOLE?, to pass the user password to the session.
+Do not use the two properties together.
+Property description
+UM_PASSWORD=<password>
+Passes the user password to the session created by the tool.
+You set the new property in the .conf file of the ngetservertime tool in the
+<SoftwareAG_directory>\UniversalMessaging\ java\<instance_name>\bin directory in the following 
+format:
+wrapper.java.additional.<n>=-DUM_PASSWORD=<password>
+where <n> is a unique positive integer.
+PASS_PASSWORD_IN_CONSOLE
+Specifies whether to provide the user password in the console.
+Values are:
+- true - you are asked to specify the password in the console.
+- false (default) - you are not asked to specify the password in the console.
+You set the new property in the .conf file of the ngetservertime tool in the
+<SoftwareAG_directory>\UniversalMessaging\ java\<instance_name>\bin directory in the following 
+format:
+wrapper.java.additional.<n>=-DPASS_PASSWORD_IN_CONSOLE=true|false
+where <n> is a unique positive integer.
+For more information about the two properties, see the Universal Messaging webhelp.
+
+NUM-15348 (NUM_10.7_wM_Client_Fix1)
+
+UM generates several thread dumps due to Reason: Stalled task detected on this thread pool.
+Fixed the code logic to calculate the task duration correctly, this issue has been resolved.
+
+NUM-15340 (NUM_10.7_wM_Client_Fix1)
+
+During transactional publishing to Universal Messaging using a horizontal scalability (HS) session, 
+the Universal Messaging client might report an nUnexpectedResponseException.
+When a client is performing transactional publishing of messages to Universal Messaging servers that 
+are part of an HS URL, and one of the servers is stopped during the transaction, some messages 
+might remain unpublished. In addition, the client returns an nUnexpectedResponseException. The 
+exception occurs because the transaction request does not receive a reply from the Universal 
+Messaging server.
+The issue is resolved. When a Universal Messaging server is stopped during multi-threaded 
+transactional publishing, the transaction returns an nSessionNotConnectedException, and the 
+transaction can be retried.
+
+NUM-15229 (NUM_10.7_wM_Client_Fix1)
+
+Integration Server might fail to connect to Universal Messaging with an invalid ClientID error when 
+using a horizontal scalability (HS) session.
+When you start the JMS connection alias in Integration Server after one of the Universal Messaging 
+servers that is part of the HS URL is stopped, Integration Server might return the following error: 
+?Error creating connection: javax.jms.InvalidClientIDException: Connection: clientID already 
+exists.?
+The issue occurs because Universal Messaging does not generate client IDs correctly under these 
+circumstances.
+The issue is now resolved.
+
+NUM-15086 (NUM_10.7_wM_Client_Fix1)
+
+waitForNamespace() wait for realm construction which do not wait for nPkgGetDurable thread to 
+complete, since fetching durable information will be taken care by separate thread.  Added a public 
+api waitForDurableInformation() & waitForDurableInformation(ltimeout) to wait for nPkgGetDurable 
+thread to complete hence one can get complete durable information. 
+
+NUM-14978 (NUM_10.7_wM_Client_Fix1)
+
+Using the Universal Messaging RepublishEventsFromOfflineFile command-line tool
+might result in the following issues:
+- The tool returns a NullPointerException when it imports events from a .mem file
+and some events are missing.
+- The tool returns a "java.lang.Long cannot be cast to java.lang.Integer" exception
+when it imports events with the "nrvpub.redelivery" header property from an .xml file.
+The issues are resolved.
+
+NUM-14663 (NUM_10.7_wM_Client_Fix1)
+
+When using horizontal scalability (HS) with the Universal Messaging API for JMS, some of the events 
+might be lost when a synchronous transactional queue reader is closed before processing all of the 
+consumed events from the Universal Messaging server instance. The issue occurs because the 
+Universal Messaging server is not notified that the consumer is closed and the consumed events in 
+the HS cache do not get rolled back.
+The issue is resolved.
+
+NUM-14631 (NUM_10.7_wM_Client_Fix1)
+
+You can use newly added APIs for receiving client-side cached events and outstanding
+requests in a horizontal scalability (HS) scenario. New methods have been added in both
+the native and JMS APIs.
+For more information, see the Universal Messaging API documentation.
+
+NUM-14412 (NUM_10.7_wM_Client_Fix1)
+
+Connecting nodes in a Universal Messaging cluster might fail when you use
+the VIA list of an interface to configure access control list (ACL) entries
+for cluster communication.
+The issue is resolved.
+
+NUM-13923 (NUM_10.7_wM_Client_Fix1)
+
+Configuring the Universal Messaging Resource Adapter for JMS (UMRA) for XA transactions fails. The 
+issue occurs because the "supportsXA" custom property is not displayed in the WebSphere Application 
+Server administrative console.
+The issue is resolved.
+
+NUM-13071 (NUM_10.7_wM_Client_Fix1)
+
+The Realm Export into XML did not contain the selector thread configuration of the interfaces 
+previously. This fix addresses this issue.
+
+NUM-11779 (NUM_10.7_wM_Client_Fix1)
+
+When the Cluster Config -> DisconnectWhenNotReady is set to true 
+and the UM server has not joined the cluster- the UM server was also disconnecting and Admin 
+connections. Admin connections should not be disconnected in this case and this is now resolved.
+Now If the Admin client tries to perform cluster-wide operation while the UM server has not joined 
+the cluster yet- the client will get a exception on the cluster-wide operation, instead of closing 
+the session.  
+
+NUM-14655 (NUM_10.7_wM_Client_Fix1)
+
+Security vulnerabilities were discovered in OpenSSL version 1.1.1f. 
+The issue is resolved. The OpenSSL version used in Universal Messaging has been upgraded from 1.1.1f 
+to 1.1.1g.
+
+
+8.0 Installation
+
+If you are installing a Universal Messaging server fix, please shut down any running Universal
+Messaging server instances before installing.
+In case the Universal Messaging server instance is a member of a cluster, please apply the
+procedure for installing rolling cluster updates described below(*).
+
+If you are installing a Universal Messaging client fix, please shut down any applications such as
+Integration server or Enterprise Manager which are using client libraries.
+
+If you are installing a Universal Messaging Enterprise Manager fix, you do not need to shut down the
+Universal Messaging server.
+
+Install using the Software AG Update Manager or Command Central (9.5 or later). For instructions,
+see the corresponding documentation at http://documentation.softwareag.com.
+
+(*) Universal Messaging cluster is supporting rolling updates for its nodes.
+There is a strong recommendation to start applying the new fixes on the Slave nodes and leave the
+Master node to be the last one.
+
+For each single node that is part of the cluster the customer needs to follow the steps:
+1) Shutdown the node. The node will be disconnected from the cluster.
+2) Apply the specific fix
+3) Start the node. It will be connected back again to the cluster and will be operational
+4) Apply the same procedure from 1-3 steps on the next node
+
+In order to have truly no downtime, the client that talks to the Universal Messaging cluster should
+also be implemented in a way that it tolerates brief connection loss. A rolling update in a cluster
+still means that:
+a) When the node that a client is connected to is brought down for maintenance, the connection to
+this server, and respectively the cluster, will be lost and has to be re-established. The client
+should be able to handle this seamlessly.
+b) When the master node of the cluster is brought down for maintenance, the cluster will briefly
+go offline until a new master is elected. This is usually a very short time window, but still,
+similarly to point a). The client applications should be able to handle it in order to have truly
+no downtime from the point of view of the end user.
+
+
+
+9.0 Uninstallation
+
+If you are uninstalling a Universal Messaging server fix,
+please note that any running Universal Messaging server
+instances will be automatically shutdown before installing.
+
+If you are uninstalling a Universal Messaging client fix, 
+please shut down any applications such as Integration Server 
+or Enterprise Manager which are using client libraries.
+
+If you are uninstalling a Universal Messaging Enterprise Manager 
+fix, you do not need to shut down the Universal Messaging server.
+
+Uninstall using the Software AG Update Manager or 
+Command Central (9.5 or later). For instructions, see the 
+corresponding documentation 
+at http://documentation.softwareag.com.
+
+Note: These instructions can only be used to uninstall the 
+most recently installed fix. This action will revert your 
+installation to the previously installed fix. You cannot 
+apply these instructions to the previously installed fix.
+
+
+
+10.0 Globalization
+
+This fix conforms to the internationalization standards of the webMethods 
+product suite and includes support for operation in any country, locale, or 
+language as specified in the Installing webMethods Products guide. It was not 
+tested with non-English configurations and non-ASCII data. However, this fix has
+no globalization impact and can be applied to systems running in any supported 
+locale or configuration.
+
+
+
+10.1 Localization
+
+This fix does not require an updated Language Pack. It might contain new 
+messages and these messages will appear in English.
+
+
+
+11.0 Copyright
+
+Copyright (c) 2021 Software AG, Darmstadt, Germany and/or Software AG USA Inc., 
+Reston, VA, USA, and/or its subsidiaries and/or its affiliates and/or their 
+licensors.
+
+The name Software AG and all Software AG product names are either trademarks or 
+registered trademarks of Software AG and/or Software AG USA Inc. and/or its 
+subsidiaries and/or its affiliates and/or their licensors. Other company and 
+product names mentioned herein may be trademarks of their respective owners.
+
+Detailed information on trademarks and patents owned by Software AG and/or its 
+subsidiaries is located at http://softwareag.com/licenses.
+
+This software may include portions of third-party products. For third-party 
+copyright notices, license terms, additional rights or restrictions, please 
+refer to "License Texts, Copyright Notices and Disclaimers of Third Party 
+Products". For certain specific third-party license restrictions, please refer 
+to section E of the Legal Notices available under "License Terms and Conditions 
+for Use of Software AG Products / Copyright and Trademark Notices of Software AG
+Products". These documents are part of the product documentation, located at 
+http://softwareag.com/licenses and/or in the root installation directory of the 
+licensed product(s).
+
+
+
+12.0 Contacting Us
+
+Authorized technical support contacts can reach Software AG Global Support in
+the following ways:
+
+  Web: https://empower.softwareag.com (online support center)
+  
+  E-mail: empower@softwareag.com
+  
+You can find complete contact information in our Global Support Contact 
+Directory at:
+
+https://empower.softwareag.com/public_directory.asp
+
+You can also visit our Software AG Developer Communities to access additional 
+articles, demos, and tutorials, technical information, samples, useful resources,
+online discussion forums moderated by Software AG professionals, and more at:
+
+http://communities.softwareag.com/ecosystem/communities/public/index.html

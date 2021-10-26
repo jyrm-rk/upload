@@ -1,0 +1,7 @@
+* Command Central Internal Users
+
+version:3.0
+
+* DO NOT DELETE Administrator user
+
+user:Administrator:$6a$0dE8FNe9URI6WSms+4YohQsdWRuiNpxyyaJuivikO3xjCY5d3FL49HqY11NXGTpzSAVv5GK//+sb32a1OqZcVw==

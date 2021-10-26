@@ -1,0 +1,10 @@
+name=e2ei/11/WIS_10.7.0.0.426/Infrastructure/WISSharedBundles/WISSharedBundles-W64-Any/BM_WISSUMLauncher-W64-Any
+version=10.7.0.0.426
+timestamp=1612359323
+
+install/
+install/sum-launcher/
+install/
+0755 install/sum-launcher/SUMlauncher.jar
+install/sum-launcher/
+0755 install/sum-launcher/sum-setup.bat

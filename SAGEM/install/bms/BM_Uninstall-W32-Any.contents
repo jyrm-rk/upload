@@ -1,0 +1,13 @@
+name=e2ei/11/WIR_10.7.0.0.391/Infrastructure/CustomInstall/CustomInstall-W64-Any/BM_Uninstall-W32-Any
+version=10.7.0.0.391
+timestamp=1626253018
+
+install/
+install/bin/
+install/
+install/etc/
+0755 install/bin/runasadmin32.exe
+install/bin/
+0755 install/bin/runasadmin64.exe
+0755 install/etc/installer-icon-programs-48.ico
+install/etc/

@@ -1,0 +1,120 @@
+Zulu (the “Product”) incorporates third-party licensed software packages. Some of 
+these have distribution restrictions and some have only reporting requirements. 
+This document lists the third-party licensed software packages for Zulu extensions
+supplied within the Zulu Commercial Compatibility Kit.
+
+
+Legal Notices
+Published August 1, 2014
+Copyright (c) 2014, Azul Systems, Inc. 1173 Borregas Avenue, Sunnyvale, CA
+94089-1306.
+All rights reserved.
+
+Azul Systems, Azul Zulu, Zulu, and the Azul logo are trademarks or registered
+trademarks of Azul Systems, Inc. Monotype is a trademark of Monotype 
+Imaging Inc. registered in the United States Patent and Trademark Office and may be
+registered in certain other jurisdictions. The Monotype logo is a trademark of 
+Monotype Imaging Inc. and may be registered in certain jurisdictions. All other
+trademarks are the property of their respective holders and are used here only for
+identification purposes.
+
+
+%% This notice is provided with respect to Monotype fonts, which may 
+be included with this software: 
+
+By installing and using the Product, you agree to the following terms and conditions
+for the benefit of Monotype Imaging, Inc., regarding Font Software owned by 
+Monotype Software, Inc. 
+
+	1.	The Product contains font software programs which generate human readable
+	typeface designs (“Font Software”). You may not install or use the Font Software on
+	any device except one on which you have installed a properly licensed copy of the
+	Product.
+
+	2.	The Font Software is supplied to you for Internal Use only. “Internal Use,” as
+	used herein, means use (i) in the course of your customary and ordinary internal
+	business, or (ii) for your personal use. If used in the course of your customary
+	and ordinary internal business, Internal Use shall mean use solely by your
+	authorized agents and employees. If used for personal use, Internal Use shall mean
+	use solely by individuals who reside with you in your household. All such agents,
+	employees and household residents must agree to the terms and conditions of this
+	EULA as a condition of using the Font Software. Internal Use shall occur when an
+	individual is able to give commands (whether by keyboard or otherwise) that are
+	followed by the Font Software, regardless of the location in which the Font
+	Software resides.
+
+	3.	You may not convert the Font Software into a different format. You may not
+	alter or modify the Font Software in any manner which results in the Font Software
+	having different or enhanced functionality then when it was delivered to you as
+	part of the Product.
+
+	4.	You may use an application program such as Adobe Acrobat to embed the Font
+	Software into an electronic document. You may send such an electronic document to a
+	third party only for the purpose of permitting the third party to view and print the
+	electronic document. Font Software may not be embedded in any format which permits
+	the recipient of an electronic document to install the Font Software or to use the
+	Font Software for any purpose beyond merely viewing and printing the document. You
+	may not embed Font Software into a Commercial Product. A “Commercial Product” is an
+	electronic document which is distributed in exchange for a fee or other
+	consideration. For example, you cannot embed Font Software into an electronic book
+	or magazine which is offered to the public for a fee.
+
+	5.	Except for the print and view embedding permission granted in paragraph 4 above,
+	you may not copy the Font Software, provided, however, you may make one copy of the
+	Font Software for archival purposes only. The archival copy cannot be distributed
+	and can be used only when you have permanently deleted the original or any copy of
+	the Font Software on your device. You may not reverse engineer, decompile, or take
+	any action which results in or designed to result in gaining access to the source
+	code of the Font Software, except as permitted by law and then only for the purpose
+	of achieving an interoperable program.
+
+	6.	The Font Software supplied with the Product is proprietary and is protected by
+	U.S. and international copyright and trademark law. All rights not expressly set
+	forth herein are reserved. A breach of this End User License Agreement may subject
+	you to damages and injunctive relief under this Agreement as well as under
+	applicable copyright and trademark law.
+
+	7.	YOU AGREE THAT THE FONT SOFTWARE IS SUPPLIED TO YOU WITHOUT ANY WARRANTIES,
+	EXPRESSED OR IMPLIED, INCLUDING WITHOUT LIMITATION ANY WARRANTIES OF FITNESS FOR A
+	PARTICULAR PURPOSE OR MERCHANTABILITY. You agree that the Font Software is supplied
+	without any warranty that the Font Software is free of all bugs, errors, and
+	omissions. YOU AGREE THAT IN NO EVENT WILL THE PROVIDER OF THE PRODUCT OR ITS
+	SUPPLIERS, INCLUDING THE SUPPLIER(S) OF THE FONT SOFTWARE, BE LIABLE TO YOU OR ANY
+	OTHER PARTY FOR LOST PROFITS, LOST DATA, OR ANY OTHER INDIRECT, INCIDENTAL OR
+	CONSEQUENTIAL DAMAGES, OR FOR ANY PUNITIVE OR SPECIAL DAMAGES, EVEN IF YOU NOTIFIED
+	THE PROVIDER OF THE PRODUCT AND THE SUPPLIERS OF THE FONT SOFTWARE OF THE
+	POSSIBILITY OF SUCH DAMAGES. You agree that your sole and exclusive remedy and the
+	sole liability of the provider of the Product and the supplier(s) of the Font
+	Software for defective Font Software is, upon return of the defective Font Software
+	to the provider of the Product, either (and at the sole option of the provider of
+	the Product (i) the replacement of defective Font Software or (ii) the refund of
+	your licensee fee paid for such Font Software. Some jurisdictions do not allow the
+	exclusion or limitations of incidental, consequential or special damages, so the
+	above exclusion may not apply to you. Also, some jurisdictions do not allow the
+	exclusion of implied warranties or limitations on how long an implied warranty may
+	last, so the above limitations may not apply to you. To the greatest extent permitted
+	by law, any implied warranties not effectively excluded by this Agreement are
+	limited to ninety (90) days. Some jurisdictions do not permit a limitation or
+	exclusion of implied warranties where the product results in physical injury or
+	death so that such limitations or exclusions may not apply to you. In those
+	jurisdictions, you agree that the liability of the supplier of the Font Software 
+	for such physical injury shall not exceed one hundred thousand dollars
+	(U.S. $100,000), provided that such jurisdictions permit a limitation of such
+	liability. This warranty gives you specific legal rights. You may have other rights
+	that vary from jurisdiction to jurisdiction. Other than as expressly set forth herein,
+	the Font Software is non-returnable and nonrefundable.
+
+	8.	This license shall remain in effect so long as you are in material compliance
+	with all of its terms and conditions. If you breach any of the terms and conditions,
+	this license is automatically terminated and you are obligated to destroy the
+	original and all copies of the Font Software. In such event, upon the request of the
+	provider of the Product or the suppliers of the Font Software, you shall provide
+	written certification of such destruction.
+
+	9.	If you are acquiring Font Software on behalf of any unit or agency of the
+	United States Government, the following provisions shall apply. Use, duplication
+	or disclosure by the United States Government is subject to restrictions as set
+	forth in the Rights in Technical Data and computer Software clause at FAR 252.227-7013,
+	subdivision (b)(3)(ii) or subparagraph (c)(1(ii), as appropriate. Further use,
+	duplication or disclosure is subject to restrictions to restricted rights software
+	as set forth in FAR 52.227-19(c)(2).

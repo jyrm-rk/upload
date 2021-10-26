@@ -1,0 +1,26 @@
+name=e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMRepository/NUMRepository-W64-Any/BM_NUM_Repository-ALL-Any
+version=10.7.0.0.136016
+timestamp=1599492560
+
+common/
+common/runtime/
+common/
+common/runtime/bundles/
+common/runtime/
+common/runtime/bundles/num/
+common/runtime/bundles/
+common/runtime/bundles/num/eclipse/
+common/runtime/bundles/num/
+common/runtime/bundles/num/eclipse/binary/
+common/runtime/bundles/num/eclipse/
+common/runtime/bundles/num/eclipse/features/
+common/runtime/bundles/num/eclipse/plugins/
+0755 common/runtime/bundles/num/eclipse/artifacts.xml
+0755 common/runtime/bundles/num/eclipse/content.xml
+0755 common/runtime/bundles/num/eclipse/features/com.softwareag.mom.nirvana.shared.feature_10.7.0.0000-136016.jar
+common/runtime/bundles/num/eclipse/features/
+0755 common/runtime/bundles/num/eclipse/plugins/com.pcbsys.nirvana.client_10.7.0.0000-136016.jar
+common/runtime/bundles/num/eclipse/plugins/
+0755 common/runtime/bundles/num/eclipse/plugins/com.pcbsys.nirvana.nAdminAPI_10.7.0.0000-136016.jar
+0755 common/runtime/bundles/num/eclipse/plugins/com.pcbsys.nirvana.nJMS_10.7.0.0000-136016.jar
+0755 common/runtime/bundles/num/eclipse/plugins/com.softwareag.um.modules_10.7.0.0000-136016.jar

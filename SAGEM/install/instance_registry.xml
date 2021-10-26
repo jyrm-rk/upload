@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ns2:productRegistry xmlns:ns2="com.softwareag.install.instance.register">
+    <instanceRegistry>
+        <entry>
+            <key>SPM</key>
+            <value>
+                <ProductInstances>
+                    <instance>
+                        <defaultInstance>true</defaultInstance>
+                        <instanceName>SPM</instanceName>
+                        <profileName>SPM</profileName>
+                    </instance>
+                </ProductInstances>
+            </value>
+        </entry>
+        <entry>
+            <key>NUMEnterpriseManager</key>
+            <value>
+                <ProductInstances>
+                    <instance>
+                        <defaultInstance>true</defaultInstance>
+                        <instanceName>umserver</instanceName>
+                    </instance>
+                </ProductInstances>
+            </value>
+        </entry>
+    </instanceRegistry>
+</ns2:productRegistry>

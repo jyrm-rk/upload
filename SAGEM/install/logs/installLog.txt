@@ -1,0 +1,1617 @@
+10:27:35 info DM>
+10:27:35 info DM> TO FIND PRODUCT ERROR MESSAGE, SEARCH FOR THE STRING APP_ERROR>
+10:27:35 info DM>
+10:27:35 info DM> TO FIND PRODUCT WARNING MESSAGE, SEARCH FOR THE STRING APP_WARNING>
+10:27:35 info DM>
+10:27:35 info CLA> arg #0: -nativestart
+10:27:35 info DM> Time: Tue Oct 26 10:27:35 IST 2021
+10:27:35 info DM> Installer client version: 2021-07 (build 10.7.0.0.391)
+10:27:35 info DM> debugLog lvl: info
+10:27:35 info DM> Current process name: 7836@SAG-GY5L573
+10:27:36 info DM> real os: Microsoft Windows 10 Enterprise, version: 10.0.19042
+10:27:36 info DM> No compatibility mode detected.
+10:27:36 info DM> platform: W64
+10:27:36 info DM> Java system properties dump start.
+10:27:36 info DM> os.arch: amd64
+10:27:36 info DM> os.name: Windows 10
+10:27:36 info DM> os.version: 10.0
+10:27:36 info DM> sun.arch.data.model: 64
+10:27:36 info DM> user.name: JARU
+10:27:36 info DM> user.home: C:\Users\JARU
+10:27:36 info DM> user.language: en
+10:27:36 info DM> java.home: C:\Users\JARU\AppData\Local\Temp\_MEI32042\resources\jre
+10:27:36 info DM> java.version: 1.8.0_252
+10:27:36 info DM> java.class.path: C:\Users\JARU\AppData\Local\Temp\_MEI32042\resources\sagInstaller.jar
+10:27:36 info DM> sun.os.patch.level: 
+10:27:36 info DM> Java system properties dump end.
+10:27:36 info DM> Windows TS/RDP session: console. There are no other active sessions.
+10:27:36 info DMSLAF> setLookAndFeel2
+10:27:36 info DMSLAF> Found WindowsLookAndFeel, using
+10:28:01 warning DMU> package DistMan.jar has platform value we can't extract, return 'ALL'
+10:28:01 warning DMU> package OA601227PredefInstall.jar has platform value we can't extract, return 'ALL'
+10:28:01 warning DMU> package OA601206PredefInstall.jar has platform value we can't extract, return 'ALL'
+10:28:01 warning DMU> package OA601213PredefInstall.jar has platform value we can't extract, return 'ALL'
+10:28:01 warning DMU> package MQ65Install.jar has platform value we can't extract, return 'ALL'
+10:28:01 warning DMU> package ADK65Install.jar has platform value we can't extract, return 'ALL'
+10:28:01 warning DMU> package Siebel60SP3Install.jar has platform value we can't extract, return 'ALL'
+10:28:01 warning DMU> package PS60Install.jar has platform value we can't extract, return 'ALL'
+10:28:01 warning DMU> package OA60PredefInstall.jar has platform value we can't extract, return 'ALL'
+10:28:01 warning DMU> package OA60Install.jar has platform value we can't extract, return 'ALL'
+10:28:01 warning DMU> package msmq60Install.jar has platform value we can't extract, return 'ALL'
+10:28:01 warning DMU> package OA6011510PredefInstall.jar has platform value we can't extract, return 'ALL'
+10:28:01 warning DMU> package OA601159PredefInstall.jar has platform value we can't extract, return 'ALL'
+10:28:01 warning DMU> package LotusNotes60Install.jar has platform value we can't extract, return 'ALL'
+10:28:01 warning DMU> package e2ei,11,ADK_6.5.0.0,BM_WmAdapterDevelopmentKit65-Any.zip has platform value we can't extract, return 'ALL'
+10:28:01 warning DMU> package bootstrapper.zip has platform value we can't extract, return 'ALL'
+10:28:01 warning DMU> package content.jar has platform value we can't extract, return 'ALL'
+10:28:01 warning DMU> package artifacts.jar has platform value we can't extract, return 'ALL'
+10:28:01 warning DMU> package content_sag.jar has platform value we can't extract, return 'ALL'
+10:28:01 warning DMU> package plugins/com.softwareag.fixinstall.actions_11.0.0.0028-0666.jar has platform value we can't extract, return 'ALL'
+10:28:01 warning DMU> package plugins/com.softwareag.fixinstall.cmdlineinstaller_11.0.0.0028-0666.jar has platform value we can't extract, return 'ALL'
+10:28:01 warning DMU> package plugins/com.softwareag.fixinstall.core_11.0.0.0028-0666.jar has platform value we can't extract, return 'ALL'
+10:28:01 warning DMU> package plugins/com.softwareag.fixinstall.guiinstaller_11.0.0.0028-0666.jar has platform value we can't extract, return 'ALL'
+10:28:01 warning DMU> package plugins/com.softwareag.fixinstall.headless_11.0.0.0028-0666.jar has platform value we can't extract, return 'ALL'
+10:28:01 warning DMU> package plugins/com.softwareag.fixinstall.log4j2.api.config_11.0.0.0028-0666.jar has platform value we can't extract, return 'ALL'
+10:28:01 warning DMU> package plugins/com.softwareag.fixinstall.products_11.0.0.0028-0666.jar has platform value we can't extract, return 'ALL'
+10:28:01 warning DMU> package plugins/com.softwareag.fixinstall.sagjars_11.0.0.0028-0666.jar has platform value we can't extract, return 'ALL'
+10:28:01 warning DMU> package plugins/com.softwareag.fixinstall.shared.actions_11.0.0.0028-0666.jar has platform value we can't extract, return 'ALL'
+10:28:01 warning DMU> package plugins/com.softwareag.fixinstall.sum.credentials.helper_11.0.0.0028-0666.jar has platform value we can't extract, return 'ALL'
+10:28:01 warning DMU> package features/com.softwareag.fixinstall.feature.patch_11.0.0.0028-0666.jar has platform value we can't extract, return 'ALL'
+10:28:01 warning DMU> package features/com.softwareag.fixinstall.internal.feature.patch_11.0.0.0028-0666.jar has platform value we can't extract, return 'ALL'
+10:28:01 warning DMU> package full_repo/content.jar has platform value we can't extract, return 'ALL'
+10:28:01 warning DMU> package components/core_11.0.0.0000-0126.zip has platform value we can't extract, return 'ALL'
+10:28:01 warning DMU> package components/equinox-W64_10.0.0.0000-0036.zip has platform value we can't extract, return 'ALL'
+10:28:01 warning DMU> package components/java-W64_10.1.0.0000-0033.zip has platform value we can't extract, return 'ALL'
+10:28:01 warning DMU> package components/launcher_11.0.0.0000-0352.zip has platform value we can't extract, return 'ALL'
+10:28:02 warning DMU> package DistMan.jar has platform value we can't extract, return 'ALL'
+10:28:02 warning DMU> package OA601227PredefInstall.jar has platform value we can't extract, return 'ALL'
+10:28:02 warning DMU> package OA601206PredefInstall.jar has platform value we can't extract, return 'ALL'
+10:28:02 warning DMU> package OA601213PredefInstall.jar has platform value we can't extract, return 'ALL'
+10:28:02 warning DMU> package MQ65Install.jar has platform value we can't extract, return 'ALL'
+10:28:02 warning DMU> package ADK65Install.jar has platform value we can't extract, return 'ALL'
+10:28:02 warning DMU> package Siebel60SP3Install.jar has platform value we can't extract, return 'ALL'
+10:28:02 warning DMU> package PS60Install.jar has platform value we can't extract, return 'ALL'
+10:28:02 warning DMU> package OA60PredefInstall.jar has platform value we can't extract, return 'ALL'
+10:28:02 warning DMU> package OA60Install.jar has platform value we can't extract, return 'ALL'
+10:28:02 warning DMU> package msmq60Install.jar has platform value we can't extract, return 'ALL'
+10:28:02 warning DMU> package OA6011510PredefInstall.jar has platform value we can't extract, return 'ALL'
+10:28:02 warning DMU> package OA601159PredefInstall.jar has platform value we can't extract, return 'ALL'
+10:28:02 warning DMU> package LotusNotes60Install.jar has platform value we can't extract, return 'ALL'
+10:28:02 warning DMU> package e2ei,11,ADK_6.5.0.0,BM_WmAdapterDevelopmentKit65-Any.zip has platform value we can't extract, return 'ALL'
+10:28:02 warning DMU> package bootstrapper.zip has platform value we can't extract, return 'ALL'
+10:28:02 warning DMU> package content.jar has platform value we can't extract, return 'ALL'
+10:28:02 warning DMU> package artifacts.jar has platform value we can't extract, return 'ALL'
+10:28:02 warning DMU> package content_sag.jar has platform value we can't extract, return 'ALL'
+10:28:02 warning DMU> package plugins/com.softwareag.fixinstall.actions_11.0.0.0028-0666.jar has platform value we can't extract, return 'ALL'
+10:28:02 warning DMU> package plugins/com.softwareag.fixinstall.cmdlineinstaller_11.0.0.0028-0666.jar has platform value we can't extract, return 'ALL'
+10:28:02 warning DMU> package plugins/com.softwareag.fixinstall.core_11.0.0.0028-0666.jar has platform value we can't extract, return 'ALL'
+10:28:02 warning DMU> package plugins/com.softwareag.fixinstall.guiinstaller_11.0.0.0028-0666.jar has platform value we can't extract, return 'ALL'
+10:28:02 warning DMU> package plugins/com.softwareag.fixinstall.headless_11.0.0.0028-0666.jar has platform value we can't extract, return 'ALL'
+10:28:02 warning DMU> package plugins/com.softwareag.fixinstall.log4j2.api.config_11.0.0.0028-0666.jar has platform value we can't extract, return 'ALL'
+10:28:02 warning DMU> package plugins/com.softwareag.fixinstall.products_11.0.0.0028-0666.jar has platform value we can't extract, return 'ALL'
+10:28:02 warning DMU> package plugins/com.softwareag.fixinstall.sagjars_11.0.0.0028-0666.jar has platform value we can't extract, return 'ALL'
+10:28:02 warning DMU> package plugins/com.softwareag.fixinstall.shared.actions_11.0.0.0028-0666.jar has platform value we can't extract, return 'ALL'
+10:28:02 warning DMU> package plugins/com.softwareag.fixinstall.sum.credentials.helper_11.0.0.0028-0666.jar has platform value we can't extract, return 'ALL'
+10:28:02 warning DMU> package features/com.softwareag.fixinstall.feature.patch_11.0.0.0028-0666.jar has platform value we can't extract, return 'ALL'
+10:28:02 warning DMU> package features/com.softwareag.fixinstall.internal.feature.patch_11.0.0.0028-0666.jar has platform value we can't extract, return 'ALL'
+10:28:02 warning DMU> package full_repo/content.jar has platform value we can't extract, return 'ALL'
+10:28:02 warning DMU> package components/core_11.0.0.0000-0126.zip has platform value we can't extract, return 'ALL'
+10:28:02 warning DMU> package components/equinox-W64_10.0.0.0000-0036.zip has platform value we can't extract, return 'ALL'
+10:28:02 warning DMU> package components/java-W64_10.1.0.0000-0033.zip has platform value we can't extract, return 'ALL'
+10:28:02 warning DMU> package components/launcher_11.0.0.0000-0352.zip has platform value we can't extract, return 'ALL'
+10:28:05 info DLIFPP> We are running with local admin privileges.
+10:28:05 alert DLIFPP> Windows product name: Windows 10 Enterprise
+10:28:05 alert DLIFPP> Windows build lab: 19041.vb_release.191206-1406
+10:28:30 info >>BrokerInstallMessages. osBit is: null
+10:28:39 info CSWP> space required for environment: 688541139
+10:28:39 info DLJPP>> installExecute() BEGIN
+10:28:39 info DLJPP>> serverSupportsBulkDownload is not supported
+10:28:40 info DLJPP>> installExecute() END
+10:28:40 info DLJPP>> installExecute() BEGIN
+10:28:40 info DLJPP>> serverSupportsBulkDownload is not supported
+10:28:40 info DLJPP>> installExecute() END
+10:28:40 info MFC.UTIL> Calling method: getUpdateStatus() with prop file: MfcAll
+10:28:40 info MFC.UTIL> Calling method: getUpdateStatus() FirstTime Installation
+10:28:40 info MFC.UTIL> Calling method: executeShellCommand()
+10:28:40 info PH> Execute arr cmd=[cmd.exe, /c, "wmic.exe os get version"]
+10:28:40 info PH> Execute env=[null]
+10:28:40 info PH> Execute execDir: null
+10:28:40 info Exit code: 0
+10:28:40 info MFC.UTIL> ReturnCode: 0
+10:28:40 info MFC.UTIL> isEmptyString() with string : 
+Version     
+
+10.0.19042  
+
+
+
+
+10:28:40 info MFC.UTIL> StdOut:    
+Version     
+
+10.0.19042  
+
+
+
+
+10:28:40 info MFC.UTIL> isEmptyString() with string : 
+
+10:28:40 info MFC.UTIL> StdErr:     <empty>
+10:28:40 info MFC.UTIL> isEmptyString() with string : 
+Version     
+
+10.0.19042  
+
+
+
+
+10:28:40 info MFC.CP>  The OS version is 10.0.19042
+10:28:40 info MFC.CP>  This is not Windows 8.1 or Windows Server 2012 R2.
+10:28:40 info encryption: Domestic
+10:28:40 info Selected: e2ei/11/TPL_10.7.0.0.25/License/license
+10:28:40 info Call DownloadFixesMetadataPanel.installSetupGUI
+10:28:40 info DFMP>> Settings updates content file to: C:\Users\JARU\AppData\Local\Temp\sag7716660332504384026_tmp\content.jar
+10:28:40 info Parsed fixes from content file are following:
+wMFix.OPT.DesignerBAM_10.7.0.0002-0459
+wMFix.Broker.CApi.W64_10.5.0.0002-0432
+wMFix.integrationServer.WmAdmin_10.7.0.0002-0003
+wMFix.Broker.Core.W64_10.5.0.0002-0432
+wMFix.ALL.SSL.W64_10.7.0.0001-0067
+wMFix.LARSharedBundles_10.7.0.0001-0435
+wMFix.OPT.wmOptimize_10.7.0.0002-0459
+wMFix.brmsui_10.7.0.0006-0478
+wMFix.Broker.JavaApi_10.5.0.0003-0446
+wMFix.TPS.Commons_10.7.0.0001-0017
+wMFix.WOKacdl_10.7.0.0005-0471
+wMFix.CloudStreams.Server_10.7.0.0001-0008
+wMFix.DatabaseComponentConfigurator_10.7.0.0001-0043
+wMFix.OSGI.Updater_10.7.0.0001-0020
+wMFix.NUMClient.WIN64_10.7.0.0003-140269
+wMFix.TESDES_4.3.9.0004-0009
+wMFix.DesignerCPP_10.7.0.0002-0062
+wMFix.MWSspm_10.7.0.0001-0324
+wMFix.OSGI.Migration_10.7.0.0001-0384
+wMFix.TDBOSGIStore_10.7.0.0004-0053
+wMFix.Broker.CommandLine.W64_10.5.0.0001-0432
+wMFix.NUMEnterpriseManager_10.7.0.0003-140269
+wMFix.jdbcAdapter_10.3.0.0013-0002
+wMFix.TDBlibrariesTransaction_10.7.0.0004-0053
+wMFix.PAMServer.W64_10.7.0.0027-394180
+wMFix.TDBCommon_10.7.0.0004-0053
+wMFix.OPT.centralConfiguratorUI_10.7.0.0002-0459
+wMFix.OPT.optimizeWSDataCollector_10.7.0.0002-0459
+wMFix.monitorUI_10.7.0.0001-0071
+wMFix.TDBLibrariesStore_10.7.0.0004-0053
+wMFix.SUMApi_10.7.0.0001-0296
+wMFix.integrationServer.Core_10.7.0.0003-0028
+wMFix.WPEcdc_10.7.0.0001-0001
+wMFix.TDBConsole_10.7.0.0004-0053
+wMFix.DesignerBPM_10.7.0.0001-0331
+wMFix.WOKspm_10.7.0.0001-0116
+wMFix.MWScdc_10.7.0.0001-0007
+wMFix.OPT.optimizeSharedUI_10.7.0.0002-0459
+wMFix.WWG_10.3.0.0006-0550
+wMFix.TES_4.3.9.0004-0009
+wMFix.FlatFile_10.7.0.0003-0002
+wMFix.SCGCommon.MWS_10.7.0.0001-0063
+wMFix.PAMDesigner.W64_10.7.0.0027-394180
+wMFix.TPP.Ant_10.7.0.0001-0019
+wMFix.SCGCommon.glue_10.1.0.0003-0001
+wMFix.NUMspmBundles_10.7.0.0001-133384
+wMFix.MeteringAgent_10.7.0.0002-0361
+wMFix.NUMClient_10.7.0.0003-140269
+wMFix.WSSCore_10.7.0.0002-0597
+wMFix.SCGCommon.IS_10.7.0.0003-0028
+wMFix.SCGCommon.DatabaseComponentConfigurator_10.7.0.0001-0043
+wMFix.TDBspm_10.7.0.0004-0053
+wMFix.TDBCluster_10.7.0.0004-0053
+wMFix.OPT.optimizeUI_10.7.0.0002-0459
+wMFix.NUMRealmServer_10.7.0.0003-140269
+wMFix.MwsProgramFiles_10.7.0.0001-0063
+wMFix.MWSCentralUserManagement_10.7.0.0002-0061
+wMFix.NUMTemplateApplications.WIN_10.7.0.0003-140269
+wMFix.WSSWebApp_10.7.0.0002-0597
+wMFix.brmspackage_10.7.0.0004-0467
+wMFix.SCGCommon.Security_10.7.0.0001-0450
+wMFix.monitorSharedUI_10.7.0.0001-0071
+wMFix.PAMShared.W64_10.7.0.0027-394180
+wMFix.TESOSGi_4.3.9.0004-0009
+wMFix.Broker.SharedBundles_10.5.0.0003-0446
+wMFix.OPT.optimizeAnalysis_10.7.0.0002-0459
+wMFix.NaturalOneDeveloper_9.1.3.0002-0015
+wMFix.WWW_10.3.0.0005-0479
+wMFix.DesignerWCD_10.7.0.0001-0413
+wMFix.PAMspm_10.7.0.0027-394180
+wMFix.TESCommon_4.3.9.0004-0009
+wMFix.SJP.Java64.W64_10.7.0.0134-0007
+wMFix.NaturalOneDeveloperAjax_9.1.3.0002-0015
+wMFix.integrationServer.SPM_10.7.0.0001-0002
+wMFix.TPP.ApacheCommons_10.7.0.0002-0039
+wMFix.WSSOSGi_10.7.0.0002-0597
+wMFix.DDJ.DataDirect_10.7.0.0001-0003
+wMFix.SCGCommon.LWQ_10.7.0.0001-0053
+wMFix.TPP.DataDirect_10.7.0.0001-0004
+wMFix.WmMonitor_10.7.0.0001-0063
+wMFix.PAMDashboardViewer.W64_10.7.0.0027-394180
+wMFix.APIGateway_10.7.0.0006-0281
+wMFix.CentraSite.Designer_10.7.0.0005-0828
+wMFix.NUMClient.JavaScript_10.7.0.0003-140269
+wMFix.ALL.SIN_10.7.0.0002-0434
+wMFix.TDBOSGICache_10.7.0.0004-0053
+wMFix.SCGCommon.Broker.JavaApi_10.5.0.0003-0446
+wMFix.NaturalOneGenTesting_9.1.3.0002-0015
+wMFix.OPT.infraDCUI_10.7.0.0002-0459
+wMFix.CCShared_10.7.0.0005-0926
+wMFix.TPP.Parsers_10.7.0.0002-0030
+wMFix.TPP.Swagger_10.7.0.0001-0013
+wMFix.TDBOSGIShared_10.7.0.0004-0053
+wMFix.SCGCommon.Core_10.7.0.0001-0450
+wMFix.NUMRepository.SharedBundles_10.7.0.0003-140269
+wMFix.SDRepository_10.7.0.0001-0360
+wMFix.SPM_10.7.0.0005-0926
+wMFix.CEL_10.7.0.0001-0432
+wMFix.OSGI.Diagnostic_10.7.0.0004-0386
+wMFix.LARDesigner_10.7.0.0001-0435
+wMFix.TDBLibrariesEhcache_10.7.0.0004-0053
+wMFix.Deployer_10.7.0.0001-0404
+wMFix.NUMClient.CommonLibraries_10.7.0.0003-140269
+wMFix.OSGI.Platform_10.7.0.0006-0749
+wMFix.TDBServer_10.7.0.0004-0053
+wMFix.MeteringAgent_10.5.0.0005-0340
+wMFix.OPT.optimizeSharedLib_10.7.0.0002-0459
+wMFix.OPT.OBEcdc_10.7.0.0002-0459
+wMFix.NUMClient.WIN_10.7.0.0003-140269
+wMFix.TPS.Glassfish_10.7.0.0001-0036
+wMFix.DesignerServiceDevelopment_10.7.0.0001-0384
+wMFix.brmsplugin_10.7.0.0005-0471
+wMFix.WMNcdc_10.7.0.0001-0001
+wMFix.Microgateway_10.7.0.0006-0281
+wMFix.OPT.OBECentConfCdc_10.7.0.0002-0459
+wMFix.WmDesigner_10.7.0.0002-0334
+wMFix.CentraSite.Reporting_10.7.0.0005-0828
+wMFix.integrationServer.ART_10.7.0.0001-0022
+
+10:28:40 info Construct fix tree. Show all parameter is: false
+10:28:40 warning Missing fix requirement wMFix.Broker.Core.LNXS390X[10.5.0.0002-0000,10.5.0.9999-9999] for fix wMFix.Broker.JavaApi_10.5.0.0003-0446
+10:28:40 warning Missing fix requirement wMFix.Broker.Core.AIX[10.5.0.0002-0000,10.5.0.9999-9999] for fix wMFix.Broker.JavaApi_10.5.0.0003-0446
+10:28:40 warning Missing fix requirement wMFix.Broker.Core.SOL[10.5.0.0002-0000,10.5.0.9999-9999] for fix wMFix.Broker.JavaApi_10.5.0.0003-0446
+10:28:40 warning Missing fix requirement wMFix.Broker.Core.LNXAMD64[10.5.0.0002-0000,10.5.0.9999-9999] for fix wMFix.Broker.JavaApi_10.5.0.0003-0446
+10:28:40 info Dependencies on fix wMFix.SUMApi_10.7.0.0001-0296 are following:
+10:28:40 info Dependencies on fix wMFix.CCShared_10.7.0.0005-0926 are following:
+10:28:40 info Dependencies on fix wMFix.SCGCommon.Core_10.7.0.0001-0450 are following:
+10:28:40 info Dependencies on fix wMFix.NUMRepository.SharedBundles_10.7.0.0003-140269 are following:
+10:28:40 info Dependencies on fix wMFix.SDRepository_10.7.0.0001-0360 are following:
+10:28:40 info Dependencies on fix wMFix.SPM_10.7.0.0005-0926 are following:
+10:28:40 info wMFix.CCShared_10.7.0.0005-0926
+10:28:40 info wMFix.SUMApi_10.7.0.0001-0296
+10:28:40 info wMFix.SDRepository_10.7.0.0001-0360
+10:28:40 info Dependencies on fix wMFix.LARSharedBundles_10.7.0.0001-0435 are following:
+10:28:40 info Dependencies on fix wMFix.ALL.SSL.W64_10.7.0.0001-0067 are following:
+10:28:40 info Dependencies on fix wMFix.SCGCommon.Security_10.7.0.0001-0450 are following:
+10:28:40 info Dependencies on fix wMFix.OSGI.Diagnostic_10.7.0.0004-0386 are following:
+10:28:40 info Dependencies on fix wMFix.TPS.Commons_10.7.0.0001-0017 are following:
+10:28:40 info Dependencies on fix wMFix.Broker.SharedBundles_10.5.0.0003-0446 are following:
+10:28:40 info Dependencies on fix wMFix.OSGI.Updater_10.7.0.0001-0020 are following:
+10:28:40 info Dependencies on fix wMFix.OSGI.Platform_10.7.0.0006-0749 are following:
+10:28:40 info Dependencies on fix wMFix.NUMClient.WIN64_10.7.0.0003-140269 are following:
+10:28:40 info Dependencies on fix wMFix.OSGI.Migration_10.7.0.0001-0384 are following:
+10:28:40 info Dependencies on fix wMFix.SCGCommon.glue_10.1.0.0003-0001 are following:
+10:28:40 info Dependencies on fix wMFix.NUMspmBundles_10.7.0.0001-133384 are following:
+10:28:40 info Dependencies on fix wMFix.SJP.Java64.W64_10.7.0.0134-0007 are following:
+10:28:40 info Dependencies on fix wMFix.NUMEnterpriseManager_10.7.0.0003-140269 are following:
+10:28:40 info Dependencies on fix wMFix.NUMClient_10.7.0.0003-140269 are following:
+10:28:40 info Dependencies on fix wMFix.NUMClient.WIN_10.7.0.0003-140269 are following:
+10:28:40 info Dependencies on fix wMFix.SCGCommon.LWQ_10.7.0.0001-0053 are following:
+10:28:40 info Dependencies on fix wMFix.TPS.Glassfish_10.7.0.0001-0036 are following:
+10:28:40 info Dependencies on fix wMFix.SCGCommon.IS_10.7.0.0003-0028 are following:
+10:28:40 info Dependencies on fix wMFix.SCGCommon.DatabaseComponentConfigurator_10.7.0.0001-0043 are following:
+10:28:40 info Dependencies on fix wMFix.ALL.SIN_10.7.0.0002-0434 are following:
+10:28:40 info wMFix.OSGI.Platform_10.7.0.0006-0749
+10:28:40 info Dependencies on fix wMFix.NUMClient.JavaScript_10.7.0.0003-140269 are following:
+10:28:40 info Dependents on fix wMFix.SCGCommon.LWQ_10.7.0.0001-0053 are following:
+10:28:40 info Dependents on fix wMFix.TPS.Glassfish_10.7.0.0001-0036 are following:
+10:28:40 info Dependents on fix wMFix.ALL.SIN_10.7.0.0002-0434 are following:
+10:28:40 info Dependents on fix wMFix.OSGI.Platform_10.7.0.0006-0749 are following:
+10:28:40 info wMFix.ALL.SIN_10.7.0.0002-0434
+10:28:40 info Dependents on fix wMFix.CCShared_10.7.0.0005-0926 are following:
+10:28:40 info wMFix.SPM_10.7.0.0005-0926
+10:28:40 info Dependents on fix wMFix.TPS.Commons_10.7.0.0001-0017 are following:
+10:28:40 info Dependents on fix wMFix.Broker.SharedBundles_10.5.0.0003-0446 are following:
+10:28:40 info Dependents on fix wMFix.NUMClient.WIN64_10.7.0.0003-140269 are following:
+10:28:40 info Dependents on fix wMFix.NUMClient_10.7.0.0003-140269 are following:
+10:28:40 info Dependents on fix wMFix.SCGCommon.glue_10.1.0.0003-0001 are following:
+10:28:40 info Dependents on fix wMFix.OSGI.Updater_10.7.0.0001-0020 are following:
+10:28:40 info Dependents on fix wMFix.NUMspmBundles_10.7.0.0001-133384 are following:
+10:28:40 info Dependents on fix wMFix.SJP.Java64.W64_10.7.0.0134-0007 are following:
+10:28:40 info Dependents on fix wMFix.NUMClient.JavaScript_10.7.0.0003-140269 are following:
+10:28:40 info Dependents on fix wMFix.SCGCommon.DatabaseComponentConfigurator_10.7.0.0001-0043 are following:
+10:28:40 info Dependents on fix wMFix.ALL.SSL.W64_10.7.0.0001-0067 are following:
+10:28:40 info Dependents on fix wMFix.OSGI.Diagnostic_10.7.0.0004-0386 are following:
+10:28:40 info Dependents on fix wMFix.SUMApi_10.7.0.0001-0296 are following:
+10:28:40 info wMFix.SPM_10.7.0.0005-0926
+10:28:40 info Dependents on fix wMFix.NUMEnterpriseManager_10.7.0.0003-140269 are following:
+10:28:40 info Dependents on fix wMFix.LARSharedBundles_10.7.0.0001-0435 are following:
+10:28:40 info Dependents on fix wMFix.SCGCommon.IS_10.7.0.0003-0028 are following:
+10:28:40 info Dependents on fix wMFix.SCGCommon.Core_10.7.0.0001-0450 are following:
+10:28:40 info Dependents on fix wMFix.SDRepository_10.7.0.0001-0360 are following:
+10:28:40 info wMFix.SPM_10.7.0.0005-0926
+10:28:40 info Dependents on fix wMFix.SCGCommon.Security_10.7.0.0001-0450 are following:
+10:28:40 info Dependents on fix wMFix.NUMRepository.SharedBundles_10.7.0.0003-140269 are following:
+10:28:40 info Dependents on fix wMFix.OSGI.Migration_10.7.0.0001-0384 are following:
+10:28:40 info Dependents on fix wMFix.NUMClient.WIN_10.7.0.0003-140269 are following:
+10:28:40 info Dependents on fix wMFix.SPM_10.7.0.0005-0926 are following:
+10:28:40 info Showed fixes on tree are following:
+wMFix.SUMApi_10.7.0.0001-0296. Is selected: true
+wMFix.CCShared_10.7.0.0005-0926. Is selected: true
+wMFix.SCGCommon.Core_10.7.0.0001-0450. Is selected: true
+wMFix.NUMRepository.SharedBundles_10.7.0.0003-140269. Is selected: true
+wMFix.SDRepository_10.7.0.0001-0360. Is selected: true
+wMFix.SPM_10.7.0.0005-0926. Is selected: true
+wMFix.LARSharedBundles_10.7.0.0001-0435. Is selected: true
+wMFix.ALL.SSL.W64_10.7.0.0001-0067. Is selected: true
+wMFix.SCGCommon.Security_10.7.0.0001-0450. Is selected: true
+wMFix.OSGI.Diagnostic_10.7.0.0004-0386. Is selected: true
+wMFix.TPS.Commons_10.7.0.0001-0017. Is selected: true
+wMFix.Broker.SharedBundles_10.5.0.0003-0446. Is selected: true
+wMFix.OSGI.Updater_10.7.0.0001-0020. Is selected: true
+wMFix.OSGI.Platform_10.7.0.0006-0749. Is selected: true
+wMFix.NUMClient.WIN64_10.7.0.0003-140269. Is selected: true
+wMFix.OSGI.Migration_10.7.0.0001-0384. Is selected: true
+wMFix.SCGCommon.glue_10.1.0.0003-0001. Is selected: true
+wMFix.NUMspmBundles_10.7.0.0001-133384. Is selected: true
+wMFix.SJP.Java64.W64_10.7.0.0134-0007. Is selected: true
+wMFix.NUMEnterpriseManager_10.7.0.0003-140269. Is selected: true
+wMFix.NUMClient_10.7.0.0003-140269. Is selected: true
+wMFix.NUMClient.WIN_10.7.0.0003-140269. Is selected: true
+wMFix.SCGCommon.LWQ_10.7.0.0001-0053. Is selected: true
+wMFix.TPS.Glassfish_10.7.0.0001-0036. Is selected: true
+wMFix.SCGCommon.IS_10.7.0.0003-0028. Is selected: true
+wMFix.SCGCommon.DatabaseComponentConfigurator_10.7.0.0001-0043. Is selected: true
+wMFix.ALL.SIN_10.7.0.0002-0434. Is selected: true
+wMFix.NUMClient.JavaScript_10.7.0.0003-140269. Is selected: true
+
+10:28:46 info SPM_SetupPanel.executePanel()-BEGIN
+10:28:46 info SPM_SetupPanel.executePanel()-END
+10:28:51 info SPM_SetupPanel.endPanel()
+10:28:59 info SPM_SetupPanel.executePanel()-BEGIN
+10:28:59 info SPM_SetupPanel.executePanel()-END
+10:29:01 info SPM_SetupPanel.endPanel()
+10:29:01 info SPM HttpPortNum is 8092
+10:29:01 info SPM HttpsPortNum is 8093
+10:29:01 info SPM installAsService is false
+10:29:02 info RWP> 
+10:29:02 info RWP> locally installed products:
+10:29:02 info RWP> 
+10:29:02 info RWP> NONE
+10:29:02 info RWP> 
+10:29:02 info RWP> products to be installed or added to image:
+10:29:02 info RWP> 
+10:29:02 info RWP> e2ei/11/SJP_1.8.0.0.858/Infrastructure/sjp : Infrastructure > Java Package
+10:29:02 info RWP> e2ei/11/ZSL_10.7.0.0.239/Platform/ZSLSharedBundles : Central Security Bundles (ZSL) > ZSL esapi Bundle
+10:29:02 info RWP> e2ei/11/WSC_10.7.0.0.434/SCG/SCGCommon : Libraries > Shared Libraries
+10:29:02 info RWP> e2ei/11/WIS_10.7.0.0.426/Infrastructure/WISSharedLibs : Libraries > Installer Libraries
+10:29:02 info RWP> e2ei/11/WIS_10.7.0.0.426/Infrastructure/WISSharedBundles : Bundles > Installer Bundles
+10:29:02 info RWP> e2ei/11/TPS_10.7.0.0.224/SCG/tppSEC : Third-Party Libraries > Base Security Libraries
+10:29:02 info RWP> e2ei/11/TPS_10.7.0.0.224/SCG/tppModelling : Third-Party Libraries > Data Modeling Libraries
+10:29:02 info RWP> e2ei/11/TPS_10.7.0.0.224/SCG/loggers : Third-Party Libraries > Logging Libraries for Java
+10:29:02 info RWP> e2ei/11/TPS_10.7.0.0.224/SCG/jsw : Third-Party Libraries > Tool for Java Service Wrapper
+10:29:02 info RWP> e2ei/11/TPS_10.7.0.0.224/Platform/TPS : Bundles > Shared Bundles
+10:29:02 info RWP> e2ei/11/SSX_TLS_10.7.0.0.56/API/SSX_TLS : Libraries > Common Libraries for OpenSSL
+10:29:02 info RWP> e2ei/11/SPM_10.7.0.0.784/Platform/SPM : Infrastructure > Platform Manager
+10:29:02 info RWP> e2ei/11/OSGI_10.7.0.0.635/Platform/OSGI : Shared Platform > Platform
+10:29:02 info RWP> e2ei/11/NUM_TOOLS_10.7.0.0.133380/UniversalMessaging/NUMspm : Platform Manager Plug-ins > Universal Messaging Plug-in
+10:29:02 info RWP> e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMRepository : Bundles > Universal Messaging Bundles
+10:29:02 info RWP> e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMInstanceManager : Universal Messaging > Instance Manager
+10:29:02 info RWP> e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMEnterpriseManager : Universal Messaging > Enterprise Manager
+10:29:02 info RWP> e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMClient : Universal Messaging > Client Libraries
+10:29:02 info RWP> e2ei/11/MFC_20.10.0.0.32/MFC/MfcAll : Infrastructure > Common C/C++ Runtime
+10:29:02 info RWP> e2ei/11/LIC_5.7.2.0.956/LICUtil/LICUtil : License > Verifier
+10:29:02 info RWP> e2ei/11/LIC_5.7.2.0.956/LICSharedLibsJava/LICSharedLibsJava : License > Library for Java
+10:29:02 info RWP> e2ei/11/LIC_5.7.2.0.956/LICRepository/LICRepository : Bundles > License Validator Bundles
+10:29:02 info RWP> e2ei/11/LAR_10.7.0.0.407/Platform/LARSharedBundles : Bundles > Common Landscape Asset Registry
+10:29:02 info RWP> e2ei/11/IS_10.7.0.0.196/integrationServer/integrationServerMigrationFrameworkLib : Libraries > Migration Framework Libraries
+10:29:02 info RWP> e2ei/11/IS_10.7.0.0.196/integrationServer/ISSharedBundles : Bundles > Integration Server Bundles
+10:29:02 info RWP> e2ei/11/CMP_10.7.0.0.82/CMP/CMP_API : Common Monitoring Provider Bundle > API
+10:29:02 info RWP> e2ei/11/CMP_10.7.0.0.82/CMP/CMP : Common Monitoring Provider Bundle > Implementations
+10:29:02 info RWP> e2ei/11/BR_10.5.0.0.700/Broker/PIFSharedBundles : Bundles > Broker Bundles
+10:29:02 info RWP> e2ei/11/ACDL_10.7.0.0.345/ACDL/ACDLDeployerSharedBundle : Bundles > Deployer and Asset Build Environment Bundles
+10:29:02 info RWP> e2ei/11/TPL_10.7.0.0.25/License/license : License > Agreement
+10:29:02 info RWP> e2ei/11/WIR_10.7.0.0.391/Infrastructure/CustomInstall : Core Installer Files > Software AG Installer
+10:29:03 info MFC> start beginPanel() install=true
+10:29:03 info MFC.UTIL> Calling method: checkInstalledX64()
+10:29:03 info MFC.UTIL> isEmptyString() with string : v14.26.28720.03
+10:29:03 info MFC.UTIL> The version of the installed Microsoft Visual C++ Redistributable (64bit) is v14.26.28720.03
+10:29:03 info MFC> The needed version 28720 Microsoft Visual C++ Redistributable (64bit) is installed.
+10:29:03 info MFC.UTIL> Calling method: checkInstalledX86()
+10:29:03 info MFC.UTIL> isEmptyString() with string : v14.26.28720.03
+10:29:03 info MFC.UTIL> The version of the installed Microsoft Visual C++ Redistributable (32bit) is v14.26.28720.03
+10:29:03 info MFC> The needed version 28720 Microsoft Visual C++ Redistributable (32bit) is installed.
+10:29:03 info MFC.UTIL> Calling method: isRebootPending()
+10:29:03 warning MFC.UTIL> A Reboot is pending.
+10:29:03 info MFC.UTIL> prodSelectedWhichNeedsMFC() -->
+10:29:03 info MFC.UTIL> isEmptyString() with string : sjp
+10:29:03 info MFC.UTIL> isEmptyString() with string : ZSLSharedBundles
+10:29:03 info MFC.UTIL> isEmptyString() with string : SCGCommon
+10:29:03 info MFC.UTIL> isEmptyString() with string : WISSharedLibs
+10:29:03 info MFC.UTIL> isEmptyString() with string : WISSharedBundles
+10:29:03 info MFC.UTIL> isEmptyString() with string : tppSEC
+10:29:03 info MFC.UTIL> isEmptyString() with string : tppModelling
+10:29:03 info MFC.UTIL> isEmptyString() with string : loggers
+10:29:03 info MFC.UTIL> isEmptyString() with string : jsw
+10:29:03 info MFC.UTIL> isEmptyString() with string : TPS
+10:29:03 info MFC.UTIL> isEmptyString() with string : SSX_TLS
+10:29:03 info MFC.UTIL> isEmptyString() with string : SPM
+10:29:03 info MFC.UTIL> isEmptyString() with string : OSGI
+10:29:03 info MFC.UTIL> isEmptyString() with string : NUMspm
+10:29:03 info MFC.UTIL> isEmptyString() with string : NUMRepository
+10:29:03 info MFC.UTIL> isEmptyString() with string : NUMInstanceManager
+10:29:03 info MFC.UTIL> isEmptyString() with string : NUMEnterpriseManager
+10:29:03 info MFC.UTIL> isEmptyString() with string : NUMClient
+10:29:03 info MFC.UTIL> isEmptyString() with string : MfcAll
+10:29:03 info MFC.UTIL> isEmptyString() with string : LICUtil
+10:29:03 info MFC.UTIL> isEmptyString() with string : LICSharedLibsJava
+10:29:03 info MFC.UTIL> isEmptyString() with string : LICRepository
+10:29:03 info MFC.UTIL> isEmptyString() with string : LARSharedBundles
+10:29:03 info MFC.UTIL> isEmptyString() with string : integrationServerMigrationFrameworkLib
+10:29:03 info MFC.UTIL> isEmptyString() with string : ISSharedBundles
+10:29:03 info MFC.UTIL> isEmptyString() with string : CMP_API
+10:29:03 info MFC.UTIL> isEmptyString() with string : CMP
+10:29:03 info MFC.UTIL> isEmptyString() with string : PIFSharedBundles
+10:29:03 info MFC.UTIL> isEmptyString() with string : ACDLDeployerSharedBundle
+10:29:03 info MFC.UTIL> isEmptyString() with string : license
+10:29:03 info MFC.UTIL> isEmptyString() with string : CustomInstall
+10:29:03 info MFC.UTIL> No selected product found which needs MFC already during installation.
+10:29:03 info MFC.UTIL> prodSelectedWhichNeedsMFC() <--
+10:29:03 info MFC> Global var com.softwareag.mfc.install.vs2019.x64 contains : null
+10:29:03 info MFC.UTIL> isEmptyString() with string : null
+10:29:03 info MFC> Global var com.softwareag.mfc.install.vs2019.x86 contains : null
+10:29:03 info MFC.UTIL> isEmptyString() with string : null
+10:29:03 info MFC> executePanel()
+10:29:03 info MFC> Redist found: VC_redist.x64.exe
+10:29:03 info MFC> It will be extracted to C:\temp\SAGEM\common\VS2019\x64
+10:29:03 info MFC> No old VC_redist.x64.exe exists.
+10:29:03 info MFC.UTIL> Calling method: copyInputStreamToFile()
+10:29:03 info MFC> Redist extracted to C:\temp\SAGEM\common\VS2019\x64\VC_redist.x64.exe
+10:29:03 info MFC> Redist found: VC_redist.x86.exe
+10:29:03 info MFC> It will be extracted to C:\temp\SAGEM\common\VS2019\x86
+10:29:03 info MFC> No old VC_redist.x86.exe exists.
+10:29:03 info MFC.UTIL> Calling method: copyInputStreamToFile()
+10:29:03 info MFC> Redist extracted to C:\temp\SAGEM\common\VS2019\x86\VC_redist.x86.exe
+10:29:03 info MFC.UTIL> Calling method:  executeRedist()
+10:29:03 info MFC.UTIL> Calling method: executeShellCommand()
+10:29:03 info PH> Execute arr cmd=[cmd.exe, /c, ""C:\temp\SAGEM\common\VS2019\x64\VC_redist.x64.exe" /quiet /norestart /log "C:\temp\SAGEM\common\VS2019\x64\VC_redist.x64.InstallLog.txt""]
+10:29:03 info PH> Execute env=[null]
+10:29:03 info PH> Execute execDir: null
+10:29:07 info Exit code: 0
+10:29:07 info MFC.UTIL> ReturnCode: 0
+10:29:07 info MFC.UTIL> isEmptyString() with string : 
+
+10:29:07 info MFC.UTIL> StdOut:     <empty>
+10:29:07 info MFC.UTIL> isEmptyString() with string : 
+
+10:29:07 info MFC.UTIL> StdErr:     <empty>
+10:29:07 info MFC.UTIL> [288C:57A4][2021-10-26T10:29:04]i001: Burn v3.10.4.4718, Windows v10.0 (Build 19042: Service Pack 0), path: C:\windows\Temp\{954C101B-138D-442B-8D39-6DF96D76F698}\.cr\VC_redist.x64.exe
+10:29:07 info MFC.UTIL> [288C:57A4][2021-10-26T10:29:04]i009: Command Line: '-burn.clean.room=C:\temp\SAGEM\common\VS2019\x64\VC_redist.x64.exe -burn.filehandle.attached=584 -burn.filehandle.self=692 /quiet /norestart /log C:\temp\SAGEM\common\VS2019\x64\VC_redist.x64.InstallLog.txt'
+10:29:07 info MFC.UTIL> [288C:57A4][2021-10-26T10:29:04]i000: Setting string variable 'WixBundleOriginalSource' to value 'C:\temp\SAGEM\common\VS2019\x64\VC_redist.x64.exe'
+10:29:07 info MFC.UTIL> [288C:57A4][2021-10-26T10:29:04]i000: Setting string variable 'WixBundleOriginalSourceFolder' to value 'C:\temp\SAGEM\common\VS2019\x64\'
+10:29:07 info MFC.UTIL> [288C:57A4][2021-10-26T10:29:04]i000: Setting string variable 'WixBundleLog' to value 'C:\temp\SAGEM\common\VS2019\x64\VC_redist.x64.InstallLog.txt'
+10:29:07 info MFC.UTIL> [288C:57A4][2021-10-26T10:29:04]i000: Setting string variable 'WixBundleManufacturer' to value 'Microsoft Corporation'
+10:29:07 info MFC.UTIL> [288C:3268][2021-10-26T10:29:04]i000: Setting version variable 'WixBundleFileVersion' to value '14.26.28720.3'
+10:29:07 info MFC.UTIL> [288C:57A4][2021-10-26T10:29:04]i100: Detect begin, 10 packages
+10:29:07 info MFC.UTIL> [288C:57A4][2021-10-26T10:29:04]i000: Setting version variable 'windows_uCRT_DetectKey' to value '10.0.19041.789'
+10:29:07 info MFC.UTIL> [288C:57A4][2021-10-26T10:29:04]i000: Setting numeric variable 'windows_uCRT_DetectKeyExists' to value 1
+10:29:07 info MFC.UTIL> [288C:57A4][2021-10-26T10:29:04]i052: Condition '(VersionNT = v6.3 AND NOT VersionNT64) AND (windows_uCRT_DetectKeyExists AND windows_uCRT_DetectKey >= v10.0.10240.0)' evaluates to false.
+10:29:07 info MFC.UTIL> [288C:57A4][2021-10-26T10:29:04]i052: Condition '(VersionNT = v6.3 AND VersionNT64) AND (windows_uCRT_DetectKeyExists AND windows_uCRT_DetectKey >= v10.0.10240.0)' evaluates to false.
+10:29:07 info MFC.UTIL> [288C:57A4][2021-10-26T10:29:04]i052: Condition '(VersionNT = v6.2 AND NOT VersionNT64) AND (windows_uCRT_DetectKeyExists AND windows_uCRT_DetectKey >= v10.0.10240.0)' evaluates to false.
+10:29:07 info MFC.UTIL> [288C:57A4][2021-10-26T10:29:04]i052: Condition '(VersionNT = v6.2 AND VersionNT64) AND (windows_uCRT_DetectKeyExists AND windows_uCRT_DetectKey >= v10.0.10240.0)' evaluates to false.
+10:29:07 info MFC.UTIL> [288C:57A4][2021-10-26T10:29:04]i052: Condition '(VersionNT = v6.1 AND NOT VersionNT64) AND (windows_uCRT_DetectKeyExists AND windows_uCRT_DetectKey >= v10.0.10240.0)' evaluates to false.
+10:29:07 info MFC.UTIL> [288C:57A4][2021-10-26T10:29:04]i052: Condition '(VersionNT = v6.1 AND VersionNT64) AND (windows_uCRT_DetectKeyExists AND windows_uCRT_DetectKey >= v10.0.10240.0)' evaluates to false.
+10:29:07 info MFC.UTIL> [288C:57A4][2021-10-26T10:29:04]i052: Condition '(VersionNT = v6.0 AND NOT VersionNT64) AND (windows_uCRT_DetectKeyExists AND windows_uCRT_DetectKey >= v10.0.10240.0)' evaluates to false.
+10:29:07 info MFC.UTIL> [288C:57A4][2021-10-26T10:29:04]i052: Condition '(VersionNT = v6.0 AND VersionNT64) AND (windows_uCRT_DetectKeyExists AND windows_uCRT_DetectKey >= v10.0.10240.0)' evaluates to false.
+10:29:07 info MFC.UTIL> [288C:57A4][2021-10-26T10:29:04]i101: Detected package: Windows81_x86, state: Absent, cached: None
+10:29:07 info MFC.UTIL> [288C:57A4][2021-10-26T10:29:04]i101: Detected package: Windows81_x64, state: Absent, cached: None
+10:29:07 info MFC.UTIL> [288C:57A4][2021-10-26T10:29:04]i101: Detected package: Windows8_x86, state: Absent, cached: None
+10:29:07 info MFC.UTIL> [288C:57A4][2021-10-26T10:29:04]i101: Detected package: Windows8_x64, state: Absent, cached: None
+10:29:07 info MFC.UTIL> [288C:57A4][2021-10-26T10:29:04]i101: Detected package: Windows7_MSU_x86, state: Absent, cached: None
+10:29:07 info MFC.UTIL> [288C:57A4][2021-10-26T10:29:04]i101: Detected package: Windows7_MSU_x64, state: Absent, cached: None
+10:29:07 info MFC.UTIL> [288C:57A4][2021-10-26T10:29:04]i101: Detected package: WindowsVista_MSU_x86, state: Absent, cached: None
+10:29:07 info MFC.UTIL> [288C:57A4][2021-10-26T10:29:04]i101: Detected package: WindowsVista_MSU_x64, state: Absent, cached: None
+10:29:07 info MFC.UTIL> [288C:57A4][2021-10-26T10:29:04]i101: Detected package: vcRuntimeMinimum_x64, state: Present, cached: Complete
+10:29:07 info MFC.UTIL> [288C:57A4][2021-10-26T10:29:04]i101: Detected package: vcRuntimeAdditional_x64, state: Present, cached: Complete
+10:29:07 info MFC.UTIL> [288C:57A4][2021-10-26T10:29:04]i052: Condition 'VersionNT64 >= v6.0 OR (VersionNT64 = v5.2 AND ServicePackLevel >= 1)' evaluates to true.
+10:29:07 info MFC.UTIL> [288C:57A4][2021-10-26T10:29:04]i199: Detect complete, result: 0x0
+10:29:07 info MFC.UTIL> [288C:57A4][2021-10-26T10:29:04]i200: Plan begin, 10 packages, action: Modify
+10:29:07 info MFC.UTIL> [288C:57A4][2021-10-26T10:29:04]i052: Condition 'VersionNT = v6.3 AND NOT VersionNT64' evaluates to false.
+10:29:07 info MFC.UTIL> [288C:57A4][2021-10-26T10:29:04]w321: Skipping dependency registration on package with no dependency providers: Windows81_x86
+10:29:07 info MFC.UTIL> [288C:57A4][2021-10-26T10:29:04]i052: Condition 'VersionNT = v6.3 AND VersionNT64' evaluates to false.
+10:29:07 info MFC.UTIL> [288C:57A4][2021-10-26T10:29:04]w321: Skipping dependency registration on package with no dependency providers: Windows81_x64
+10:29:07 info MFC.UTIL> [288C:57A4][2021-10-26T10:29:04]i052: Condition 'VersionNT = v6.2 AND NOT VersionNT64' evaluates to false.
+10:29:07 info MFC.UTIL> [288C:57A4][2021-10-26T10:29:04]w321: Skipping dependency registration on package with no dependency providers: Windows8_x86
+10:29:07 info MFC.UTIL> [288C:57A4][2021-10-26T10:29:04]i052: Condition 'VersionNT = v6.2 AND VersionNT64' evaluates to false.
+10:29:07 info MFC.UTIL> [288C:57A4][2021-10-26T10:29:04]w321: Skipping dependency registration on package with no dependency providers: Windows8_x64
+10:29:07 info MFC.UTIL> [288C:57A4][2021-10-26T10:29:04]i052: Condition 'VersionNT = v6.1 AND NOT VersionNT64' evaluates to false.
+10:29:07 info MFC.UTIL> [288C:57A4][2021-10-26T10:29:04]w321: Skipping dependency registration on package with no dependency providers: Windows7_MSU_x86
+10:29:07 info MFC.UTIL> [288C:57A4][2021-10-26T10:29:04]i052: Condition 'VersionNT = v6.1 AND VersionNT64' evaluates to false.
+10:29:07 info MFC.UTIL> [288C:57A4][2021-10-26T10:29:04]w321: Skipping dependency registration on package with no dependency providers: Windows7_MSU_x64
+10:29:07 info MFC.UTIL> [288C:57A4][2021-10-26T10:29:04]i052: Condition 'VersionNT = v6.0 AND NOT VersionNT64' evaluates to false.
+10:29:07 info MFC.UTIL> [288C:57A4][2021-10-26T10:29:04]w321: Skipping dependency registration on package with no dependency providers: WindowsVista_MSU_x86
+10:29:07 info MFC.UTIL> [288C:57A4][2021-10-26T10:29:04]i052: Condition 'VersionNT = v6.0 AND VersionNT64' evaluates to false.
+10:29:07 info MFC.UTIL> [288C:57A4][2021-10-26T10:29:04]w321: Skipping dependency registration on package with no dependency providers: WindowsVista_MSU_x64
+10:29:07 info MFC.UTIL> [288C:57A4][2021-10-26T10:29:04]i052: Condition '(VersionNT64)' evaluates to true.
+10:29:07 info MFC.UTIL> [288C:57A4][2021-10-26T10:29:04]i052: Condition '(VersionNT64)' evaluates to true.
+10:29:07 info MFC.UTIL> [288C:57A4][2021-10-26T10:29:04]i201: Planned package: Windows81_x86, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+10:29:07 info MFC.UTIL> [288C:57A4][2021-10-26T10:29:04]i201: Planned package: Windows81_x64, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+10:29:07 info MFC.UTIL> [288C:57A4][2021-10-26T10:29:04]i201: Planned package: Windows8_x86, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+10:29:07 info MFC.UTIL> [288C:57A4][2021-10-26T10:29:04]i201: Planned package: Windows8_x64, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+10:29:07 info MFC.UTIL> [288C:57A4][2021-10-26T10:29:04]i201: Planned package: Windows7_MSU_x86, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+10:29:07 info MFC.UTIL> [288C:57A4][2021-10-26T10:29:04]i201: Planned package: Windows7_MSU_x64, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+10:29:07 info MFC.UTIL> [288C:57A4][2021-10-26T10:29:04]i201: Planned package: WindowsVista_MSU_x86, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+10:29:07 info MFC.UTIL> [288C:57A4][2021-10-26T10:29:04]i201: Planned package: WindowsVista_MSU_x64, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+10:29:07 info MFC.UTIL> [288C:57A4][2021-10-26T10:29:04]i201: Planned package: vcRuntimeMinimum_x64, state: Present, default requested: Present, ba requested: Present, execute: None, rollback: None, cache: No, uncache: No, dependency: Register
+10:29:07 info MFC.UTIL> [288C:57A4][2021-10-26T10:29:04]i201: Planned package: vcRuntimeAdditional_x64, state: Present, default requested: Present, ba requested: Present, execute: None, rollback: None, cache: No, uncache: No, dependency: Register
+10:29:07 info MFC.UTIL> [288C:57A4][2021-10-26T10:29:04]i299: Plan complete, result: 0x0
+10:29:07 info MFC.UTIL> [288C:57A4][2021-10-26T10:29:04]i300: Apply begin
+10:29:07 info MFC.UTIL> [288C:57A4][2021-10-26T10:29:04]i010: Launching elevated engine process.
+10:29:07 info MFC.UTIL> [288C:57A4][2021-10-26T10:29:06]i011: Launched elevated engine process.
+10:29:07 info MFC.UTIL> [288C:57A4][2021-10-26T10:29:06]i012: Connected to elevated engine.
+10:29:07 info MFC.UTIL> [0500:4A90][2021-10-26T10:29:06]i358: Pausing automatic updates.
+10:29:07 info MFC.UTIL> [0500:4A90][2021-10-26T10:29:06]i359: Paused automatic updates.
+10:29:07 info MFC.UTIL> [0500:4A90][2021-10-26T10:29:06]i360: Creating a system restore point.
+10:29:07 info MFC.UTIL> [0500:4A90][2021-10-26T10:29:06]i361: Created a system restore point.
+10:29:07 info MFC.UTIL> [0500:4A90][2021-10-26T10:29:06]i371: Updating session, registration key: SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{7d607fb4-7e28-4c7a-a92f-3fcdaf555faf}, resume: Active, restart initiated: No, disable resume: No
+10:29:07 info MFC.UTIL> [0500:4A90][2021-10-26T10:29:06]i325: Registering dependency: {7d607fb4-7e28-4c7a-a92f-3fcdaf555faf} on package provider: Microsoft.VS.VC_RuntimeMinimumVSU_amd64,v14, package: vcRuntimeMinimum_x64
+10:29:07 info MFC.UTIL> [0500:4A90][2021-10-26T10:29:06]i325: Registering dependency: {7d607fb4-7e28-4c7a-a92f-3fcdaf555faf} on package provider: Microsoft.VS.VC_RuntimeAdditionalVSU_amd64,v14, package: vcRuntimeAdditional_x64
+10:29:07 info MFC.UTIL> [0500:4A90][2021-10-26T10:29:06]i372: Session end, registration key: SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{7d607fb4-7e28-4c7a-a92f-3fcdaf555faf}, resume: ARP, restart: None, disable resume: No
+10:29:07 info MFC.UTIL> [0500:4A90][2021-10-26T10:29:06]i371: Updating session, registration key: SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{7d607fb4-7e28-4c7a-a92f-3fcdaf555faf}, resume: ARP, restart initiated: No, disable resume: No
+10:29:07 info MFC.UTIL> [288C:57A4][2021-10-26T10:29:06]i399: Apply complete, result: 0x0, restart: None, ba requested restart:  No
+10:29:07 info MFC.UTIL> [288C:57A4][2021-10-26T10:29:06]i500: Shutting down, exit code: 0x0
+10:29:07 info MFC.UTIL> [288C:57A4][2021-10-26T10:29:06]i410: Variable: SystemFolder = C:\windows\system32\
+10:29:07 info MFC.UTIL> [288C:57A4][2021-10-26T10:29:06]i410: Variable: VersionNT = 10.0.0.0
+10:29:07 info MFC.UTIL> [288C:57A4][2021-10-26T10:29:06]i410: Variable: VersionNT64 = 10.0.0.0
+10:29:07 info MFC.UTIL> [288C:57A4][2021-10-26T10:29:06]i410: Variable: windows_uCRT_DetectKey = 10.0.19041.789
+10:29:07 info MFC.UTIL> [288C:57A4][2021-10-26T10:29:06]i410: Variable: windows_uCRT_DetectKeyExists = 1
+10:29:07 info MFC.UTIL> [288C:57A4][2021-10-26T10:29:06]i410: Variable: WixBundleAction = 6
+10:29:07 info MFC.UTIL> [288C:57A4][2021-10-26T10:29:06]i410: Variable: WixBundleElevated = 1
+10:29:07 info MFC.UTIL> [288C:57A4][2021-10-26T10:29:06]i410: Variable: WixBundleFileVersion = 14.26.28720.3
+10:29:07 info MFC.UTIL> [288C:57A4][2021-10-26T10:29:06]i410: Variable: WixBundleInstalled = 1
+10:29:07 info MFC.UTIL> [288C:57A4][2021-10-26T10:29:06]i410: Variable: WixBundleLog = C:\temp\SAGEM\common\VS2019\x64\VC_redist.x64.InstallLog.txt
+10:29:07 info MFC.UTIL> [288C:57A4][2021-10-26T10:29:06]i410: Variable: WixBundleManufacturer = Microsoft Corporation
+10:29:07 info MFC.UTIL> [288C:57A4][2021-10-26T10:29:06]i410: Variable: WixBundleName = Microsoft Visual C++ 2015-2019 Redistributable (x64) - 14.26.28720
+10:29:07 info MFC.UTIL> [288C:57A4][2021-10-26T10:29:06]i410: Variable: WixBundleOriginalSource = C:\SoftwareAG107\common\VS2019\x64\VC_redist.x64.exe
+10:29:07 info MFC.UTIL> [288C:57A4][2021-10-26T10:29:06]i410: Variable: WixBundleOriginalSourceFolder = C:\SoftwareAG107\common\VS2019\x64\
+10:29:07 info MFC.UTIL> [288C:57A4][2021-10-26T10:29:06]i410: Variable: WixBundleProviderKey = VC,redist.x64,amd64,14.26,bundle
+10:29:07 info MFC.UTIL> [288C:57A4][2021-10-26T10:29:06]i410: Variable: WixBundleSourceProcessFolder = C:\temp\SAGEM\common\VS2019\x64\
+10:29:07 info MFC.UTIL> [288C:57A4][2021-10-26T10:29:06]i410: Variable: WixBundleSourceProcessPath = C:\temp\SAGEM\common\VS2019\x64\VC_redist.x64.exe
+10:29:07 info MFC.UTIL> [288C:57A4][2021-10-26T10:29:06]i410: Variable: WixBundleTag =
+10:29:07 info MFC.UTIL> [288C:57A4][2021-10-26T10:29:06]i410: Variable: WixBundleVersion = 14.26.28720.3
+10:29:07 info MFC.UTIL> [288C:57A4][2021-10-26T10:29:06]i007: Exit code: 0x0, restarting: No
+10:29:07 info MFC> Set global var com.softwareag.mfc.install.vs2019.x64 to 'YES'
+10:29:07 info MFC.UTIL> Calling method:  executeRedist()
+10:29:07 info MFC.UTIL> Calling method: executeShellCommand()
+10:29:07 info PH> Execute arr cmd=[cmd.exe, /c, ""C:\temp\SAGEM\common\VS2019\x86\VC_redist.x86.exe" /quiet /norestart /log "C:\temp\SAGEM\common\VS2019\x86\VC_redist.x86.InstallLog.txt""]
+10:29:07 info PH> Execute env=[null]
+10:29:07 info PH> Execute execDir: null
+10:29:11 info Exit code: 0
+10:29:11 info MFC.UTIL> ReturnCode: 0
+10:29:11 info MFC.UTIL> isEmptyString() with string : 
+
+10:29:11 info MFC.UTIL> StdOut:     <empty>
+10:29:11 info MFC.UTIL> isEmptyString() with string : 
+
+10:29:11 info MFC.UTIL> StdErr:     <empty>
+10:29:11 info MFC.UTIL> [19A0:10F4][2021-10-26T10:29:07]i001: Burn v3.10.4.4718, Windows v10.0 (Build 19042: Service Pack 0), path: C:\windows\Temp\{0AC88843-55FF-401E-A794-E8D911AE7624}\.cr\VC_redist.x86.exe
+10:29:11 info MFC.UTIL> [19A0:10F4][2021-10-26T10:29:07]i009: Command Line: '-burn.clean.room=C:\temp\SAGEM\common\VS2019\x86\VC_redist.x86.exe -burn.filehandle.attached=584 -burn.filehandle.self=692 /quiet /norestart /log C:\temp\SAGEM\common\VS2019\x86\VC_redist.x86.InstallLog.txt'
+10:29:11 info MFC.UTIL> [19A0:10F4][2021-10-26T10:29:07]i000: Setting string variable 'WixBundleOriginalSource' to value 'C:\temp\SAGEM\common\VS2019\x86\VC_redist.x86.exe'
+10:29:11 info MFC.UTIL> [19A0:10F4][2021-10-26T10:29:07]i000: Setting string variable 'WixBundleOriginalSourceFolder' to value 'C:\temp\SAGEM\common\VS2019\x86\'
+10:29:11 info MFC.UTIL> [19A0:10F4][2021-10-26T10:29:07]i000: Setting string variable 'WixBundleLog' to value 'C:\temp\SAGEM\common\VS2019\x86\VC_redist.x86.InstallLog.txt'
+10:29:11 info MFC.UTIL> [19A0:10F4][2021-10-26T10:29:07]i000: Setting string variable 'WixBundleManufacturer' to value 'Microsoft Corporation'
+10:29:11 info MFC.UTIL> [19A0:43AC][2021-10-26T10:29:07]i000: Setting version variable 'WixBundleFileVersion' to value '14.26.28720.3'
+10:29:11 info MFC.UTIL> [19A0:10F4][2021-10-26T10:29:07]i100: Detect begin, 10 packages
+10:29:11 info MFC.UTIL> [19A0:10F4][2021-10-26T10:29:07]i000: Setting version variable 'windows_uCRT_DetectKey' to value '10.0.19041.789'
+10:29:11 info MFC.UTIL> [19A0:10F4][2021-10-26T10:29:07]i000: Setting numeric variable 'windows_uCRT_DetectKeyExists' to value 1
+10:29:11 info MFC.UTIL> [19A0:10F4][2021-10-26T10:29:07]i052: Condition '(VersionNT = v6.3 AND NOT VersionNT64) AND (windows_uCRT_DetectKeyExists AND windows_uCRT_DetectKey >= v10.0.10240.0)' evaluates to false.
+10:29:11 info MFC.UTIL> [19A0:10F4][2021-10-26T10:29:07]i052: Condition '(VersionNT = v6.3 AND VersionNT64) AND (windows_uCRT_DetectKeyExists AND windows_uCRT_DetectKey >= v10.0.10240.0)' evaluates to false.
+10:29:11 info MFC.UTIL> [19A0:10F4][2021-10-26T10:29:07]i052: Condition '(VersionNT = v6.2 AND NOT VersionNT64) AND (windows_uCRT_DetectKeyExists AND windows_uCRT_DetectKey >= v10.0.10240.0)' evaluates to false.
+10:29:11 info MFC.UTIL> [19A0:10F4][2021-10-26T10:29:07]i052: Condition '(VersionNT = v6.2 AND VersionNT64) AND (windows_uCRT_DetectKeyExists AND windows_uCRT_DetectKey >= v10.0.10240.0)' evaluates to false.
+10:29:11 info MFC.UTIL> [19A0:10F4][2021-10-26T10:29:07]i052: Condition '(VersionNT = v6.1 AND NOT VersionNT64) AND (windows_uCRT_DetectKeyExists AND windows_uCRT_DetectKey >= v10.0.10240.0)' evaluates to false.
+10:29:11 info MFC.UTIL> [19A0:10F4][2021-10-26T10:29:07]i052: Condition '(VersionNT = v6.1 AND VersionNT64) AND (windows_uCRT_DetectKeyExists AND windows_uCRT_DetectKey >= v10.0.10240.0)' evaluates to false.
+10:29:11 info MFC.UTIL> [19A0:10F4][2021-10-26T10:29:07]i052: Condition '(VersionNT = v6.0 AND NOT VersionNT64) AND (windows_uCRT_DetectKeyExists AND windows_uCRT_DetectKey >= v10.0.10240.0)' evaluates to false.
+10:29:11 info MFC.UTIL> [19A0:10F4][2021-10-26T10:29:07]i052: Condition '(VersionNT = v6.0 AND VersionNT64) AND (windows_uCRT_DetectKeyExists AND windows_uCRT_DetectKey >= v10.0.10240.0)' evaluates to false.
+10:29:11 info MFC.UTIL> [19A0:10F4][2021-10-26T10:29:07]i101: Detected package: Windows81_x86, state: Absent, cached: None
+10:29:11 info MFC.UTIL> [19A0:10F4][2021-10-26T10:29:07]i101: Detected package: Windows81_x64, state: Absent, cached: None
+10:29:11 info MFC.UTIL> [19A0:10F4][2021-10-26T10:29:07]i101: Detected package: Windows8_x86, state: Absent, cached: None
+10:29:11 info MFC.UTIL> [19A0:10F4][2021-10-26T10:29:07]i101: Detected package: Windows8_x64, state: Absent, cached: None
+10:29:11 info MFC.UTIL> [19A0:10F4][2021-10-26T10:29:07]i101: Detected package: Windows7_MSU_x86, state: Absent, cached: None
+10:29:11 info MFC.UTIL> [19A0:10F4][2021-10-26T10:29:07]i101: Detected package: Windows7_MSU_x64, state: Absent, cached: None
+10:29:11 info MFC.UTIL> [19A0:10F4][2021-10-26T10:29:07]i101: Detected package: WindowsVista_MSU_x86, state: Absent, cached: None
+10:29:11 info MFC.UTIL> [19A0:10F4][2021-10-26T10:29:07]i101: Detected package: WindowsVista_MSU_x64, state: Absent, cached: None
+10:29:11 info MFC.UTIL> [19A0:10F4][2021-10-26T10:29:07]i101: Detected package: vcRuntimeMinimum_x86, state: Present, cached: Complete
+10:29:11 info MFC.UTIL> [19A0:10F4][2021-10-26T10:29:07]i101: Detected package: vcRuntimeAdditional_x86, state: Present, cached: Complete
+10:29:11 info MFC.UTIL> [19A0:10F4][2021-10-26T10:29:07]i052: Condition 'VersionNT >= v6.0 OR (VersionNT = v5.1 AND ServicePackLevel >= 2) OR (VersionNT = v5.2 AND ServicePackLevel >= 1)' evaluates to true.
+10:29:11 info MFC.UTIL> [19A0:10F4][2021-10-26T10:29:07]i199: Detect complete, result: 0x0
+10:29:11 info MFC.UTIL> [19A0:10F4][2021-10-26T10:29:07]i200: Plan begin, 10 packages, action: Modify
+10:29:11 info MFC.UTIL> [19A0:10F4][2021-10-26T10:29:07]i052: Condition 'VersionNT = v6.3 AND NOT VersionNT64' evaluates to false.
+10:29:11 info MFC.UTIL> [19A0:10F4][2021-10-26T10:29:07]w321: Skipping dependency registration on package with no dependency providers: Windows81_x86
+10:29:11 info MFC.UTIL> [19A0:10F4][2021-10-26T10:29:07]i052: Condition 'VersionNT = v6.3 AND VersionNT64' evaluates to false.
+10:29:11 info MFC.UTIL> [19A0:10F4][2021-10-26T10:29:07]w321: Skipping dependency registration on package with no dependency providers: Windows81_x64
+10:29:11 info MFC.UTIL> [19A0:10F4][2021-10-26T10:29:07]i052: Condition 'VersionNT = v6.2 AND NOT VersionNT64' evaluates to false.
+10:29:11 info MFC.UTIL> [19A0:10F4][2021-10-26T10:29:07]w321: Skipping dependency registration on package with no dependency providers: Windows8_x86
+10:29:11 info MFC.UTIL> [19A0:10F4][2021-10-26T10:29:07]i052: Condition 'VersionNT = v6.2 AND VersionNT64' evaluates to false.
+10:29:11 info MFC.UTIL> [19A0:10F4][2021-10-26T10:29:07]w321: Skipping dependency registration on package with no dependency providers: Windows8_x64
+10:29:11 info MFC.UTIL> [19A0:10F4][2021-10-26T10:29:07]i052: Condition 'VersionNT = v6.1 AND NOT VersionNT64' evaluates to false.
+10:29:11 info MFC.UTIL> [19A0:10F4][2021-10-26T10:29:07]w321: Skipping dependency registration on package with no dependency providers: Windows7_MSU_x86
+10:29:11 info MFC.UTIL> [19A0:10F4][2021-10-26T10:29:07]i052: Condition 'VersionNT = v6.1 AND VersionNT64' evaluates to false.
+10:29:11 info MFC.UTIL> [19A0:10F4][2021-10-26T10:29:07]w321: Skipping dependency registration on package with no dependency providers: Windows7_MSU_x64
+10:29:11 info MFC.UTIL> [19A0:10F4][2021-10-26T10:29:07]i052: Condition 'VersionNT = v6.0 AND NOT VersionNT64' evaluates to false.
+10:29:11 info MFC.UTIL> [19A0:10F4][2021-10-26T10:29:07]w321: Skipping dependency registration on package with no dependency providers: WindowsVista_MSU_x86
+10:29:11 info MFC.UTIL> [19A0:10F4][2021-10-26T10:29:07]i052: Condition 'VersionNT = v6.0 AND VersionNT64' evaluates to false.
+10:29:11 info MFC.UTIL> [19A0:10F4][2021-10-26T10:29:07]w321: Skipping dependency registration on package with no dependency providers: WindowsVista_MSU_x64
+10:29:11 info MFC.UTIL> [19A0:10F4][2021-10-26T10:29:07]i201: Planned package: Windows81_x86, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+10:29:11 info MFC.UTIL> [19A0:10F4][2021-10-26T10:29:07]i201: Planned package: Windows81_x64, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+10:29:11 info MFC.UTIL> [19A0:10F4][2021-10-26T10:29:07]i201: Planned package: Windows8_x86, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+10:29:11 info MFC.UTIL> [19A0:10F4][2021-10-26T10:29:07]i201: Planned package: Windows8_x64, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+10:29:11 info MFC.UTIL> [19A0:10F4][2021-10-26T10:29:07]i201: Planned package: Windows7_MSU_x86, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+10:29:11 info MFC.UTIL> [19A0:10F4][2021-10-26T10:29:07]i201: Planned package: Windows7_MSU_x64, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+10:29:11 info MFC.UTIL> [19A0:10F4][2021-10-26T10:29:07]i201: Planned package: WindowsVista_MSU_x86, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+10:29:11 info MFC.UTIL> [19A0:10F4][2021-10-26T10:29:07]i201: Planned package: WindowsVista_MSU_x64, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+10:29:11 info MFC.UTIL> [19A0:10F4][2021-10-26T10:29:07]i201: Planned package: vcRuntimeMinimum_x86, state: Present, default requested: Present, ba requested: Present, execute: None, rollback: None, cache: No, uncache: No, dependency: Register
+10:29:11 info MFC.UTIL> [19A0:10F4][2021-10-26T10:29:07]i201: Planned package: vcRuntimeAdditional_x86, state: Present, default requested: Present, ba requested: Present, execute: None, rollback: None, cache: No, uncache: No, dependency: Register
+10:29:11 info MFC.UTIL> [19A0:10F4][2021-10-26T10:29:07]i299: Plan complete, result: 0x0
+10:29:11 info MFC.UTIL> [19A0:10F4][2021-10-26T10:29:07]i300: Apply begin
+10:29:11 info MFC.UTIL> [19A0:10F4][2021-10-26T10:29:07]i010: Launching elevated engine process.
+10:29:11 info MFC.UTIL> [19A0:10F4][2021-10-26T10:29:10]i011: Launched elevated engine process.
+10:29:11 info MFC.UTIL> [19A0:10F4][2021-10-26T10:29:10]i012: Connected to elevated engine.
+10:29:11 info MFC.UTIL> [0FC0:47CC][2021-10-26T10:29:10]i358: Pausing automatic updates.
+10:29:11 info MFC.UTIL> [0FC0:47CC][2021-10-26T10:29:10]i359: Paused automatic updates.
+10:29:11 info MFC.UTIL> [0FC0:47CC][2021-10-26T10:29:10]i360: Creating a system restore point.
+10:29:11 info MFC.UTIL> [0FC0:47CC][2021-10-26T10:29:10]i361: Created a system restore point.
+10:29:11 info MFC.UTIL> [0FC0:47CC][2021-10-26T10:29:10]i371: Updating session, registration key: SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{86380aef-fd23-4fc3-8723-a98ccad8f2c6}, resume: Active, restart initiated: No, disable resume: No
+10:29:11 info MFC.UTIL> [0FC0:47CC][2021-10-26T10:29:10]i325: Registering dependency: {86380aef-fd23-4fc3-8723-a98ccad8f2c6} on package provider: Microsoft.VS.VC_RuntimeMinimumVSU_x86,v14, package: vcRuntimeMinimum_x86
+10:29:11 info MFC.UTIL> [0FC0:47CC][2021-10-26T10:29:10]i325: Registering dependency: {86380aef-fd23-4fc3-8723-a98ccad8f2c6} on package provider: Microsoft.VS.VC_RuntimeAdditionalVSU_x86,v14, package: vcRuntimeAdditional_x86
+10:29:11 info MFC.UTIL> [0FC0:47CC][2021-10-26T10:29:10]i372: Session end, registration key: SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{86380aef-fd23-4fc3-8723-a98ccad8f2c6}, resume: ARP, restart: None, disable resume: No
+10:29:11 info MFC.UTIL> [0FC0:47CC][2021-10-26T10:29:10]i371: Updating session, registration key: SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{86380aef-fd23-4fc3-8723-a98ccad8f2c6}, resume: ARP, restart initiated: No, disable resume: No
+10:29:11 info MFC.UTIL> [19A0:10F4][2021-10-26T10:29:10]i399: Apply complete, result: 0x0, restart: None, ba requested restart:  No
+10:29:11 info MFC.UTIL> [19A0:10F4][2021-10-26T10:29:10]i500: Shutting down, exit code: 0x0
+10:29:11 info MFC.UTIL> [19A0:10F4][2021-10-26T10:29:10]i410: Variable: SystemFolder = C:\windows\system32\
+10:29:11 info MFC.UTIL> [19A0:10F4][2021-10-26T10:29:10]i410: Variable: VersionNT = 10.0.0.0
+10:29:11 info MFC.UTIL> [19A0:10F4][2021-10-26T10:29:10]i410: Variable: VersionNT64 = 10.0.0.0
+10:29:11 info MFC.UTIL> [19A0:10F4][2021-10-26T10:29:10]i410: Variable: windows_uCRT_DetectKey = 10.0.19041.789
+10:29:11 info MFC.UTIL> [19A0:10F4][2021-10-26T10:29:10]i410: Variable: windows_uCRT_DetectKeyExists = 1
+10:29:11 info MFC.UTIL> [19A0:10F4][2021-10-26T10:29:10]i410: Variable: WixBundleAction = 6
+10:29:11 info MFC.UTIL> [19A0:10F4][2021-10-26T10:29:10]i410: Variable: WixBundleElevated = 1
+10:29:11 info MFC.UTIL> [19A0:10F4][2021-10-26T10:29:10]i410: Variable: WixBundleFileVersion = 14.26.28720.3
+10:29:11 info MFC.UTIL> [19A0:10F4][2021-10-26T10:29:10]i410: Variable: WixBundleInstalled = 1
+10:29:11 info MFC.UTIL> [19A0:10F4][2021-10-26T10:29:10]i410: Variable: WixBundleLog = C:\temp\SAGEM\common\VS2019\x86\VC_redist.x86.InstallLog.txt
+10:29:11 info MFC.UTIL> [19A0:10F4][2021-10-26T10:29:10]i410: Variable: WixBundleManufacturer = Microsoft Corporation
+10:29:11 info MFC.UTIL> [19A0:10F4][2021-10-26T10:29:10]i410: Variable: WixBundleName = Microsoft Visual C++ 2015-2019 Redistributable (x86) - 14.26.28720
+10:29:11 info MFC.UTIL> [19A0:10F4][2021-10-26T10:29:10]i410: Variable: WixBundleOriginalSource = C:\SoftwareAG107\common\VS2019\x86\VC_redist.x86.exe
+10:29:11 info MFC.UTIL> [19A0:10F4][2021-10-26T10:29:10]i410: Variable: WixBundleOriginalSourceFolder = C:\SoftwareAG107\common\VS2019\x86\
+10:29:11 info MFC.UTIL> [19A0:10F4][2021-10-26T10:29:10]i410: Variable: WixBundleProviderKey = VC,redist.x86,x86,14.26,bundle
+10:29:11 info MFC.UTIL> [19A0:10F4][2021-10-26T10:29:10]i410: Variable: WixBundleSourceProcessFolder = C:\temp\SAGEM\common\VS2019\x86\
+10:29:11 info MFC.UTIL> [19A0:10F4][2021-10-26T10:29:10]i410: Variable: WixBundleSourceProcessPath = C:\temp\SAGEM\common\VS2019\x86\VC_redist.x86.exe
+10:29:11 info MFC.UTIL> [19A0:10F4][2021-10-26T10:29:10]i410: Variable: WixBundleTag =
+10:29:11 info MFC.UTIL> [19A0:10F4][2021-10-26T10:29:10]i410: Variable: WixBundleVersion = 14.26.28720.3
+10:29:11 info MFC.UTIL> [19A0:10F4][2021-10-26T10:29:10]i007: Exit code: 0x0, restarting: No
+10:29:11 info MFC> Set global var com.softwareag.mfc.install.vs2019.x86 to 'YES'
+10:29:11 info MFC> The Common C/C++ Runtime has been installed successfully. Continue with the installation ...
+10:29:11 info SAGEMW> Stored C:\temp\SAGEM: 7 (new)
+10:29:11 info SAGEMW> Stored C:\temp\SAGEM: 7 (persistent)
+10:29:12 info 
++-----------------------------+------------+-----+--------------+-------------------+-----------------+---------------+------------------+--------------+
+| Date                        | Logged user| User| Source server| Download Size (KB)| Download Started| Download Ended| Time for download| Transfer rate|
++-----------------------------+------------+-----+--------------+-------------------+-----------------+---------------+------------------+--------------+
+| Tue Oct 26 10:27:35 IST 2021| JARU       |     |              | 400888            | 10:29:12        | 10:29:12      | 0 min            | ~0KB/s       |
++-----------------------------+------------+-----+--------------+-------------------+-----------------+---------------+------------------+--------------+
+
+10:29:27 alert OSGI> init: ENTER
+10:29:27 info OSGI> Getting ITools interface...
+10:29:27 info OSGI> Getting IEnvironmentHelper interface...
+10:29:27 info OSGI> Getting IOSGiUtils interface...
+10:29:27 info OSGI> Getting java image path...
+10:29:27 info EnvironmentHelperImpl> Java absolute executable: C:\temp\SAGEM\jvm\jvm\bin\java
+10:29:27 info EnvironmentHelperImpl> javaExec: C:\temp\SAGEM\jvm\jvm\bin\java
+10:29:27 info OSGI> Getting profiles directory...
+10:29:27 info OSGI> init: EXIT
+10:29:27 info WISIntrospectInstallPanel> init: ENTER
+10:29:27 info WISIntrospectInstallPanel> Getting ITools object...
+10:29:27 info WISIntrospectInstallPanel> Getting IOSGiUtils object...
+10:29:27 info WISIntrospectInstallPanel> init: EXIT
+10:29:27 info WISInstallPanel> init: ENTER
+10:29:27 info WISInstallPanel> Getting ITools object...
+10:29:27 info WISInstallPanel> Getting IOSGiUtils object...
+10:29:27 info WISInstallPanel> init: EXIT
+10:29:28 info WISSPMCONF> Skip panel when installing from image
+10:29:28 info Begin executePanel !
+10:29:28 info End executePanel !
+10:29:28 info OSGI> OSGiInstallPanel> Invoke step VarSubstSecutiryScript
+10:29:28 info OSGI> Start substitute of internal user repo script...
+10:29:28 info VarsSubstituteImpl> Adding for substitute: varName: OSGI_INSTALL_AREA varValue: C:\temp\SAGEM\common\runtime
+10:29:28 info VarsSubstituteImpl> Adding for substitute: varName: JAVA_EXEC varValue: C:\temp\SAGEM\jvm\jvm\bin\java
+10:29:28 info VarsSubstituteImpl> Adding for substitute: varName: JAVA_DIR varValue: C:\temp\SAGEM\jvm\jvm\bin
+10:29:28 info VarsSubstituteImpl> Adding for substitute: varName: ROOT_PATH varValue: C:\temp\SAGEM\common
+10:29:28 info VarsSubstituteImpl> Adding file: C:\temp\SAGEM\common\bin\internaluserrepo.bat
+10:29:28 info VarsSubstituteImpl> Adding file: C:\temp\SAGEM\common\bin\certtool.bat
+10:29:28 info VarsSubstituteImpl> Substitute file: C:\temp\SAGEM\common\bin\internaluserrepo.bat
+10:29:28 info VarsSubstituteImpl> replaceVars var: {{OSGI_INSTALL_AREA}} with: 'C:\temp\SAGEM\common\runtime'
+10:29:28 info VarsSubstituteImpl> replaceVars var: {{OSGI_INSTALL_AREA}} with: 'C:\temp\SAGEM\common\runtime'
+10:29:28 info VarsSubstituteImpl> replaceVars var: {{OSGI_INSTALL_AREA}} with: 'C:\temp\SAGEM\common\runtime'
+10:29:28 info VarsSubstituteImpl> replaceVars var: {{JAVA_EXEC}} with: 'C:\temp\SAGEM\jvm\jvm\bin\java'
+10:29:28 info VarsSubstituteImpl> Substitute file: C:\temp\SAGEM\common\bin\certtool.bat
+10:29:28 info VarsSubstituteImpl> replaceVars var: {{ROOT_PATH}} with: 'C:\temp\SAGEM\common'
+10:29:28 info VarsSubstituteImpl> replaceVars var: {{JAVA_DIR}} with: 'C:\temp\SAGEM\jvm\jvm\bin'
+10:29:28 info OSGI> End substitute of internal user repo script successfull.
+10:29:28 info WISIntrospectInstallPanel> Invoke step ExtractIntrospectRepository
+10:29:28 info WISIntrospectInstallPanel> Extracting introspect repository...
+10:29:28 info ToolsImpl> Extracting zip file C:\temp\SAGEM\install\repo\sd-introspect-p2repo-10.7.0-v0391.zip into directory C:\temp\SAGEM\common\runtime\bundles\sd
+10:29:28 info WISIntrospectInstallPanel> Introspect repository was extracted successfully.
+10:29:28 info WISInstallPanel> Invoke step InitProfile
+10:29:28 info WISInstallPanel> Initializing profile instance...
+10:29:28 info WISInstallPanel> The profile name is 'profile'.
+10:29:28 info WISInstallPanel> Invoke step CreateProfile
+10:29:28 info WISInstallPanel> Creating instance of profile profile for product Installer Bundles...
+10:29:28 info OSGiUtilsImpl> Using InstallerProductProps implementation of getTargetDependProducts...
+10:29:28 info OSGiUtilsImpl> No repository for product: e2ei/11/OSGI_10.7.0.0.635/Platform/OSGI
+10:29:28 info OSGiUtilsImpl> No repository for product: e2ei/11/TPS_10.7.0.0.224/SCG/loggers
+10:29:28 info OSGiUtilsImpl> No repository for product: e2ei/11/IS_10.7.0.0.196/integrationServer/integrationServerMigrationFrameworkLib
+10:29:28 info OSGiUtilsImpl> Add repositories for product: e2ei/11/ZSL_10.7.0.0.239/Platform/ZSLSharedBundles
+10:29:28 info OSGiUtilsImpl> Added repository: C:\temp\SAGEM\common\runtime\bundles\esapi\eclipse
+10:29:28 info OSGiUtilsImpl> Add repositories for product: e2ei/11/TPS_10.7.0.0.224/Platform/TPS
+10:29:28 info OSGiUtilsImpl> Added repository: C:\temp\SAGEM\common\runtime\bundles\ext\eclipse
+10:29:28 info OSGiUtilsImpl> No repository for product: e2ei/11/WIS_10.7.0.0.426/Infrastructure/WISSharedLibs
+10:29:28 info OSGiUtilsImpl> No repository for product: e2ei/11/TPS_10.7.0.0.224/SCG/jsw
+10:29:28 info OSGiProfileImpl> installMainFeatureAction: ENTER
+10:29:28 info EnvironmentHelperImpl> Java absolute executable: C:\temp\SAGEM\jvm\jvm\bin\java
+10:29:28 info EnvironmentHelperImpl> javaExec: C:\temp\SAGEM\jvm\jvm\bin\java
+10:29:28 info OSGiUtilsImpl> Launcher jar: C:\temp\SAGEM\common\runtime\bundles\platform\eclipse\plugins\org.eclipse.equinox.launcher_1.5.300.v20190213-1655.jar
+10:29:28 info OSGiUtilsImpl> >>> configurationPath: C:\temp\SAGEM\common\runtime\agent\configuration
+10:29:28 info OSGiProfileImpl> profileProps: org.eclipse.equinox.p2.launcherConfiguration=C:\temp\SAGEM\install\profile\bin\eclipse.ini.ignored
+10:29:28 info OSGiProfileImpl> Configure main feature of profile profile...
+10:29:28 info PH> Execute arr cmd=["C:\temp\SAGEM\jvm\jvm\bin\java", -Dosgi.startLevel=10, -Dosgi.noShutdown=false, -cp, "C:\temp\SAGEM\common\runtime\bundles\platform\eclipse\plugins\org.eclipse.equinox.launcher_1.5.300.v20190213-1655.jar;C:\Users\JARU\AppData\Local\Temp\sagbootclass1185215502760607642.tmp", com.softwareag.install.EquinoxBootstrap, -debug, C:\temp\SAGEM\install\profile\bin\.options, -clean, -install, "C:\temp\SAGEM\common\runtime\agent", -configuration, "C:\temp\SAGEM\common\runtime\agent\configuration", -application, com.softwareag.eclipse.equinox.p2.director, -optionsFile, "file:/C:/temp/SAGEM/install/platform/profile_1635224368119_install", -destination, "C:\temp\SAGEM\install\profile", -profile, minimal, -p2.os, win32, -p2.arch, x86_64, -p2.ws, win32, -data, C:\temp\SAGEM\common\runtime\install, -roaming, -consolelog, -profileProperties, org.eclipse.equinox.p2.launcherConfiguration=C:\temp\SAGEM\install\profile\bin\eclipse.ini.ignored]
+10:29:28 info PH> Execute env=[null]
+10:29:28 info PH> Execute execDir: C:\temp\SAGEM\common\runtime\agent\bin
+10:29:41 info Exit code: 0
+10:29:41 info OSGiProfileImpl> Configure of main feature of profile profile finished successfully.
+10:29:41 info OSGiPropertiesImpl> mergeDynamicConfigurations: ENTER
+10:29:41 info OSGiPropertiesImpl> Not found old configuration for com.softwareag.connector.map.pid
+10:29:41 info OSGiPropertiesImpl> Read dynamic configuration: com.softwareag.connector.map.pid.properties
+10:29:41 info OSGiPropertiesImpl> Not found old configuration for com.softwareag.jmx.connector.pid
+10:29:41 info OSGiPropertiesImpl> Read dynamic configuration: com.softwareag.jmx.connector.pid-default.properties
+10:29:41 info OSGiPropertiesImpl> Not found old configuration for com.softwareag.platform.debug
+10:29:41 info OSGiPropertiesImpl> Read dynamic configuration: com.softwareag.platform.debug.properties
+10:29:41 info OSGiPropertiesImpl> Not found old configuration for com.softwareag.security.authz.pid
+10:29:41 info OSGiPropertiesImpl> Read dynamic configuration: com.softwareag.security.authz.pid.properties
+10:29:41 info OSGiPropertiesImpl> Not found old configuration for com.softwareag.security.ldap.pid
+10:29:41 info OSGiPropertiesImpl> Read dynamic configuration: com.softwareag.security.ldap.pid.properties
+10:29:41 info OSGiPropertiesImpl> Not found old configuration for com.softwareag.sshd.pid
+10:29:41 info OSGiPropertiesImpl> Read dynamic configuration: com.softwareag.sshd.pid-default.properties
+10:29:41 info OSGiPropertiesImpl> Not found old configuration for com.softwareag.sso.pid
+10:29:41 info OSGiPropertiesImpl> Read dynamic configuration: com.softwareag.sso.pid.properties
+10:29:41 info OSGiPropertiesImpl> mergeDynamicConfigurations: EXIT
+10:29:41 info OSGiUtilsImpl> Launcher jar: C:\temp\SAGEM\common\runtime\bundles\platform\eclipse\plugins\org.eclipse.equinox.launcher_1.5.300.v20190213-1655.jar
+10:29:41 info EnvironmentHelperImpl> Java absolute executable: C:\temp\SAGEM\jvm\jvm\bin\java
+10:29:41 info EnvironmentHelperImpl> javaExec: C:\temp\SAGEM\jvm\jvm\bin\java
+10:29:41 info VarsSubstituteImpl> Adding for substitute: varName: WRAPPER_EXEC varValue: C:\temp\SAGEM\common\bin\wrapper.exe
+10:29:41 info VarsSubstituteImpl> Adding for substitute: varName: WRAPPER_LIB varValue: C:\temp\SAGEM\common\lib
+10:29:41 info VarsSubstituteImpl> Adding for substitute: varName: WRAPPER_EXEC_NAME varValue: wrapper.exe
+10:29:41 info VarsSubstituteImpl> Adding file: C:\temp\SAGEM\install\profile\configuration\wrapper.conf
+10:29:41 info VarsSubstituteImpl> Adding for substitute: varName: W_LIBPATH varValue: 
+10:29:41 info OSGiUtilsImpl> Launcher jar: C:\temp\SAGEM\common\runtime\bundles\platform\eclipse\plugins\com.softwareag.platform.jaas.proxy_10.7.0.0000-0635.jar
+10:29:41 info VarsSubstituteImpl> Adding for substitute: varName: PLATFORM_JAASPROXY_JAR varValue: C:\temp\SAGEM\common\runtime\bundles\platform\eclipse\plugins\com.softwareag.platform.jaas.proxy_10.7.0.0000-0635.jar
+10:29:41 info OSGiUtilsImpl> Launcher jar: C:\temp\SAGEM\common\runtime\bundles\platform\eclipse\plugins\com.softwareag.platform.bootstrap_10.7.0.0000-0635.jar
+10:29:41 info VarsSubstituteImpl> Adding for substitute: varName: PLATFORM_BOOTSTRAP_JAR varValue: C:\temp\SAGEM\common\runtime\bundles\platform\eclipse\plugins\com.softwareag.platform.bootstrap_10.7.0.0000-0635.jar
+10:29:41 info VarsSubstituteImpl> Adding for substitute: varName: SECURITY_PATH varValue: C:\temp\SAGEM\common\security\ssx_64\auth\sagssxauthd2
+10:29:41 info VarsSubstituteImpl> Adding for substitute: varName: JAVA_EXEC varValue: C:\temp\SAGEM\jvm\jvm\bin\java
+10:29:41 info VarsSubstituteImpl> Adding for substitute: varName: ROOT_PATH varValue: C:\temp\SAGEM\common
+10:29:41 info VarsSubstituteImpl> Adding for substitute: varName: PROFILE_PATH varValue: C:\temp\SAGEM\install\profile
+10:29:41 info VarsSubstituteImpl> Adding for substitute: varName: ROOT_PATH_SEC varValue: C:/temp/SAGEM/common
+10:29:41 info VarsSubstituteImpl> Adding for substitute: varName: PROFILE_PATH_SEC varValue: C:/temp/SAGEM/install/profile
+10:29:41 info VarsSubstituteImpl> Adding for substitute: varName: PROFILE_BIN_PATH varValue: C:\temp\SAGEM\install\profile\bin\
+10:29:41 info VarsSubstituteImpl> Adding for substitute: varName: OSGI_INSTALL_AREA varValue: C:/temp/SAGEM/install/profile
+10:29:41 info VarsSubstituteImpl> Adding for substitute: varName: OSGI_FRAMEWORK_JAR varValue: C:\temp\SAGEM\common\runtime\bundles\platform\eclipse\plugins\org.eclipse.equinox.launcher_1.5.300.v20190213-1655.jar
+10:29:41 info VarsSubstituteImpl> Adding for substitute: varName: OSGI_CONFIGURATION_AREA varValue: C:\temp\SAGEM\install\profile\configuration
+10:29:41 info VarsSubstituteImpl> Adding for substitute: varName: OSGI_CONSOLE varValue: 8125
+10:29:41 info VarsSubstituteImpl> Adding for substitute: varName: WORK_DIR varValue: 
+10:29:41 info VarsSubstituteImpl> Adding for substitute: varName: HOST_NAME varValue: SAG-GY5L573
+10:29:41 info VarsSubstituteImpl> Adding for substitute: varName: SERVICE_NAME varValue: sagwis_7.1
+10:29:41 info VarsSubstituteImpl> Adding for substitute: varName: SERVICE_DISP_NAME varValue: Software AG Provision Application (7)
+10:29:41 info VarsSubstituteImpl> Adding for substitute: varName: SERVICE_DESCR varValue: Software AG Provision Application
+10:29:41 info VarsSubstituteImpl> Adding for substitute: varName: PRODUCT_DISPLAY_NAME varValue: Software AG Provision Application (7)
+10:29:41 info VarsSubstituteImpl> Adding for substitute: varName: SECURITY_LIB_DIR varValue: security\ssx_64\bin
+10:29:41 info VarsSubstituteImpl> Adding file: C:\temp\SAGEM\install\profile\configuration\jaas.config
+10:29:41 info VarsSubstituteImpl> Adding file: C:\temp\SAGEM\install\profile\bin\setenv.bat
+10:29:41 info VarsSubstituteImpl> Adding file: C:\temp\SAGEM\install\profile\bin\service.bat
+10:29:41 info VarsSubstituteImpl> Substitute file: C:\temp\SAGEM\install\profile\configuration\jaas.config
+10:29:41 info VarsSubstituteImpl> Substitute file: C:\temp\SAGEM\install\profile\configuration\wrapper.conf
+10:29:41 info VarsSubstituteImpl> replaceVars var: {{W_LIBPATH}} with: ''
+10:29:41 info VarsSubstituteImpl> replaceVars var: {{ROOT_PATH}} with: 'C:\temp\SAGEM\common'
+10:29:41 info VarsSubstituteImpl> replaceVars var: {{SECURITY_LIB_DIR}} with: 'security\ssx_64\bin'
+10:29:41 info VarsSubstituteImpl> replaceVars var: {{JAVA_EXEC}} with: 'C:\temp\SAGEM\jvm\jvm\bin\java'
+10:29:41 info VarsSubstituteImpl> replaceVars var: {{WRAPPER_LIB}} with: 'C:\temp\SAGEM\common\lib'
+10:29:41 info VarsSubstituteImpl> replaceVars var: {{WRAPPER_LIB}} with: 'C:\temp\SAGEM\common\lib'
+10:29:41 info VarsSubstituteImpl> replaceVars var: {{ROOT_PATH}} with: 'C:\temp\SAGEM\common'
+10:29:41 info VarsSubstituteImpl> replaceVars var: {{ROOT_PATH}} with: 'C:\temp\SAGEM\common'
+10:29:41 info VarsSubstituteImpl> replaceVars var: {{SECURITY_LIB_DIR}} with: 'security\ssx_64\bin'
+10:29:41 info VarsSubstituteImpl> replaceVars var: {{PRODUCT_DISPLAY_NAME}} with: 'Software AG Provision Application (7)'
+10:29:41 info VarsSubstituteImpl> replaceVars var: {{SERVICE_NAME}} with: 'sagwis_7.1'
+10:29:41 info VarsSubstituteImpl> replaceVars var: {{SERVICE_DISP_NAME}} with: 'Software AG Provision Application (7)'
+10:29:41 info VarsSubstituteImpl> replaceVars var: {{SERVICE_DESCR}} with: 'Software AG Provision Application'
+10:29:41 info VarsSubstituteImpl> Substitute file: C:\temp\SAGEM\install\profile\bin\setenv.bat
+10:29:41 info VarsSubstituteImpl> replaceVars var: {{WRAPPER_EXEC}} with: 'C:\temp\SAGEM\common\bin\wrapper.exe'
+10:29:41 info VarsSubstituteImpl> replaceVars var: {{WORK_DIR}} with: ''
+10:29:41 info VarsSubstituteImpl> replaceVars var: {{SERVICE_NAME}} with: 'sagwis_7.1'
+10:29:41 info VarsSubstituteImpl> replaceVars var: {{PRODUCT_DISPLAY_NAME}} with: 'Software AG Provision Application (7)'
+10:29:41 info VarsSubstituteImpl> replaceVars var: {{JAVA_EXEC}} with: 'C:\temp\SAGEM\jvm\jvm\bin\java'
+10:29:41 info VarsSubstituteImpl> replaceVars var: {{ROOT_PATH}} with: 'C:\temp\SAGEM\common'
+10:29:41 info VarsSubstituteImpl> replaceVars var: {{SECURITY_LIB_DIR}} with: 'security\ssx_64\bin'
+10:29:41 info VarsSubstituteImpl> Substitute file: C:\temp\SAGEM\install\profile\bin\service.bat
+10:29:41 info VarsSubstituteImpl> replaceVars var: {{ROOT_PATH}} with: 'C:\temp\SAGEM\common'
+10:29:41 info VarsSubstituteImpl> replaceVars var: {{WRAPPER_EXEC_NAME}} with: 'wrapper.exe'
+10:29:41 info VarsSubstituteImpl> replaceVars var: {{PROFILE_PATH}} with: 'C:\temp\SAGEM\install\profile'
+10:29:41 info OSGiProfileImpl> replacePlacehoolders: EXIT
+10:29:41 info OSGiProfileImpl> storeConfiguration: ENTER
+10:29:41 info OSGiPropertiesImpl> Update Tomcat's server.xml file.
+10:29:41 info OSGiPropertiesImpl> Tomcat configuration file C:\temp\SAGEM\install\profile\configuration\tomcat\conf\server.xml is missing.
+10:29:41 info OSGiPropertiesImpl> Update Tomcat's CTPConfiguration.xml file.
+10:29:41 info OSGiPropertiesImpl> Tomcat info file C:\temp\SAGEM\install\profile\workspace\webapps\ROOT\CTPConfiguration.xml is missing.
+10:29:41 info OSGiProfileImpl> storeConfiguration: EXIT
+10:29:41 info OSGiProfileImpl> installMainFeatureAction: EXIT
+10:29:41 info OSGiProfileImpl> storeConfiguration: ENTER
+10:29:41 info OSGiPropertiesImpl> Update Tomcat's server.xml file.
+10:29:41 info OSGiPropertiesImpl> Tomcat configuration file C:\temp\SAGEM\install\profile\configuration\tomcat\conf\server.xml is missing.
+10:29:41 info OSGiPropertiesImpl> Update Tomcat's CTPConfiguration.xml file.
+10:29:41 info OSGiPropertiesImpl> Tomcat info file C:\temp\SAGEM\install\profile\workspace\webapps\ROOT\CTPConfiguration.xml is missing.
+10:29:41 info OSGiProfileImpl> storeConfiguration: EXIT
+10:29:41 info WISInstallPanel> Instance for profile profile was created successfully.
+10:29:41 info SPMInstallPanel> SPMInstallPanel> Invoke step InitProfile
+10:29:41 info SPMInstallPanel> Initializing profile data...
+10:29:41 info SPMInstallPanel> Pofile instance initialized 'SPM' successfully.
+10:29:41 info SPMInstallPanel> SPMInstallPanel> Invoke step CreateProfile
+10:29:41 info SPMInstallPanel> Creating instance of profile SPM for product Platform Manager...
+10:29:41 info OSGiUtilsImpl> Using InstallerProductProps implementation of getTargetDependProducts...
+10:29:41 info OSGiUtilsImpl> Add repositories for product: e2ei/11/LIC_5.7.2.0.956/LICRepository/LICRepository
+10:29:41 info OSGiUtilsImpl> Added repository: C:\temp\SAGEM\common\runtime\bundles\lic\eclipse
+10:29:41 info OSGiUtilsImpl> Add repositories for product: e2ei/11/LAR_10.7.0.0.407/Platform/LARSharedBundles
+10:29:41 info OSGiUtilsImpl> Added repository: C:\temp\SAGEM\common\runtime\bundles\lar\eclipse
+10:29:41 info OSGiUtilsImpl> No repository for product: e2ei/11/OSGI_10.7.0.0.635/Platform/OSGI
+10:29:41 info OSGiUtilsImpl> No repository for product: e2ei/11/TPS_10.7.0.0.224/SCG/loggers
+10:29:41 info OSGiUtilsImpl> No repository for product: e2ei/11/IS_10.7.0.0.196/integrationServer/integrationServerMigrationFrameworkLib
+10:29:41 info OSGiUtilsImpl> Add repositories for product: e2ei/11/ZSL_10.7.0.0.239/Platform/ZSLSharedBundles
+10:29:41 info OSGiUtilsImpl> Added repository: C:\temp\SAGEM\common\runtime\bundles\esapi\eclipse
+10:29:41 info OSGiUtilsImpl> Add repositories for product: e2ei/11/TPS_10.7.0.0.224/Platform/TPS
+10:29:41 info OSGiUtilsImpl> Added repository: C:\temp\SAGEM\common\runtime\bundles\ext\eclipse
+10:29:41 info OSGiUtilsImpl> No repository for product: e2ei/11/WIS_10.7.0.0.426/Infrastructure/WISSharedLibs
+10:29:41 info OSGiUtilsImpl> No repository for product: e2ei/11/TPS_10.7.0.0.224/SCG/jsw
+10:29:41 info OSGiUtilsImpl> Add repositories for product: e2ei/11/WIS_10.7.0.0.426/Infrastructure/WISSharedBundles
+10:29:41 info OSGiUtilsImpl> Added repository: C:\temp\SAGEM\common\runtime\bundles\sd\eclipse
+10:29:41 info OSGiUtilsImpl> Added repository: C:\temp\SAGEM\common\runtime\bundles\sagprov\eclipse
+10:29:41 info OSGiUtilsImpl> Added repository: C:\temp\SAGEM\common\runtime\bundles\sum-cc\eclipse
+10:29:41 info OSGiUtilsImpl> No repository for product: e2ei/11/TPS_10.7.0.0.224/SCG/tppSEC
+10:29:41 info OSGiUtilsImpl> No repository for product: e2ei/11/WSC_10.7.0.0.434/SCG/SCGCommon
+10:29:41 info OSGiUtilsImpl> No repository for product: e2ei/11/LIC_5.7.2.0.956/LICSharedLibsJava/LICSharedLibsJava
+10:29:41 info OSGiUtilsImpl> Add repositories for product: e2ei/11/ACDL_10.7.0.0.345/ACDL/ACDLDeployerSharedBundle
+10:29:41 info OSGiUtilsImpl> Added repository: C:\temp\SAGEM\common\runtime\bundles\deployer-acdl-shared\eclipse
+10:29:41 info OSGiProfileImpl> installMainFeatureAction: ENTER
+10:29:41 info EnvironmentHelperImpl> Java absolute executable: C:\temp\SAGEM\jvm\jvm\bin\java
+10:29:41 info EnvironmentHelperImpl> javaExec: C:\temp\SAGEM\jvm\jvm\bin\java
+10:29:41 info OSGiUtilsImpl> Launcher jar: C:\temp\SAGEM\common\runtime\bundles\platform\eclipse\plugins\org.eclipse.equinox.launcher_1.5.300.v20190213-1655.jar
+10:29:41 info OSGiUtilsImpl> >>> configurationPath: C:\temp\SAGEM\common\runtime\agent\configuration
+10:29:41 info OSGiProfileImpl> profileProps: org.eclipse.equinox.p2.launcherConfiguration=C:\temp\SAGEM\profiles\SPM\bin\eclipse.ini.ignored
+10:29:41 info OSGiProfileImpl> Configure main feature of profile SPM...
+10:29:41 info PH> Execute arr cmd=["C:\temp\SAGEM\jvm\jvm\bin\java", -Dosgi.startLevel=10, -Dosgi.noShutdown=false, -cp, "C:\temp\SAGEM\common\runtime\bundles\platform\eclipse\plugins\org.eclipse.equinox.launcher_1.5.300.v20190213-1655.jar;C:\Users\JARU\AppData\Local\Temp\sagbootclass7004235323518716081.tmp", com.softwareag.install.EquinoxBootstrap, -debug, C:\temp\SAGEM\profiles\SPM\bin\.options, -clean, -install, "C:\temp\SAGEM\common\runtime\agent", -configuration, "C:\temp\SAGEM\common\runtime\agent\configuration", -application, com.softwareag.eclipse.equinox.p2.director, -optionsFile, "file:/C:/temp/SAGEM/install/platform/SPM_1635224381475_install", -destination, "C:\temp\SAGEM\profiles\SPM", -profile, minimal, -p2.os, win32, -p2.arch, x86_64, -p2.ws, win32, -data, C:\temp\SAGEM\common\runtime\install, -roaming, -consolelog, -profileProperties, org.eclipse.equinox.p2.launcherConfiguration=C:\temp\SAGEM\profiles\SPM\bin\eclipse.ini.ignored]
+10:29:41 info PH> Execute env=[null]
+10:29:41 info PH> Execute execDir: C:\temp\SAGEM\common\runtime\agent\bin
+10:29:54 info Exit code: 0
+10:29:54 info OSGiProfileImpl> Configure of main feature of profile SPM finished successfully.
+10:29:54 info OSGiPropertiesImpl> mergeDynamicConfigurations: ENTER
+10:29:54 info OSGiPropertiesImpl> Not found old configuration for com.softwareag.catalina.connector.http.pid
+10:29:54 info OSGiPropertiesImpl> Read dynamic configuration: com.softwareag.catalina.connector.http.pid-spm.properties
+10:29:54 info OSGiPropertiesImpl> Not found old configuration for com.softwareag.catalina.connector.https.pid
+10:29:54 info OSGiPropertiesImpl> Read dynamic configuration: com.softwareag.catalina.connector.https.pid-spm.properties
+10:29:54 info OSGiPropertiesImpl> Not found old configuration for com.softwareag.config.watchdog.pid
+10:29:54 info OSGiPropertiesImpl> Read dynamic configuration: com.softwareag.config.watchdog.pid.properties
+10:29:54 info OSGiPropertiesImpl> Not found old configuration for com.softwareag.connector.map.pid
+10:29:54 info OSGiPropertiesImpl> Read dynamic configuration: com.softwareag.connector.map.pid.properties
+10:29:54 info OSGiPropertiesImpl> Not found old configuration for com.softwareag.jmx.connector.pid
+10:29:54 info OSGiPropertiesImpl> Read dynamic configuration: com.softwareag.jmx.connector.pid-spm.properties
+10:29:54 info OSGiPropertiesImpl> Not found old configuration for com.softwareag.platform.debug
+10:29:54 info OSGiPropertiesImpl> Read dynamic configuration: com.softwareag.platform.debug.properties
+10:29:54 info OSGiPropertiesImpl> Not found old configuration for com.softwareag.platform.management.common.inventory.InventoryService.pid
+10:29:54 info OSGiPropertiesImpl> Read dynamic configuration: com.softwareag.platform.management.common.inventory.InventoryService.pid.properties
+10:29:54 info OSGiPropertiesImpl> Not found old configuration for com.softwareag.platform.management.common.monitoring.BasicMonitoringService
+10:29:54 info OSGiPropertiesImpl> Read dynamic configuration: com.softwareag.platform.management.common.monitoring.BasicMonitoringService.properties
+10:29:54 info OSGiPropertiesImpl> Not found old configuration for com.softwareag.platform.management.common.monitoring.RuntimeStatusService
+10:29:54 info OSGiPropertiesImpl> Read dynamic configuration: com.softwareag.platform.management.common.monitoring.RuntimeStatusService.properties
+10:29:54 info OSGiPropertiesImpl> Not found old configuration for com.softwareag.security.authz.pid
+10:29:54 info OSGiPropertiesImpl> Read dynamic configuration: com.softwareag.security.authz.pid.properties
+10:29:54 info OSGiPropertiesImpl> Not found old configuration for com.softwareag.security.ldap.pid
+10:29:54 info OSGiPropertiesImpl> Read dynamic configuration: com.softwareag.security.ldap.pid.properties
+10:29:54 info OSGiPropertiesImpl> Not found old configuration for com.softwareag.sshd.pid
+10:29:54 info OSGiPropertiesImpl> Read dynamic configuration: com.softwareag.sshd.pid-default.properties
+10:29:54 info OSGiPropertiesImpl> Not found old configuration for com.softwareag.sso.pid
+10:29:54 info OSGiPropertiesImpl> Read dynamic configuration: com.softwareag.sso.pid.properties
+10:29:54 info OSGiPropertiesImpl> mergeDynamicConfigurations: EXIT
+10:29:54 info OSGiUtilsImpl> Launcher jar: C:\temp\SAGEM\common\runtime\bundles\platform\eclipse\plugins\org.eclipse.equinox.launcher_1.5.300.v20190213-1655.jar
+10:29:54 info EnvironmentHelperImpl> Java absolute executable: C:\temp\SAGEM\jvm\jvm\bin\java
+10:29:54 info EnvironmentHelperImpl> javaExec: C:\temp\SAGEM\jvm\jvm\bin\java
+10:29:54 info VarsSubstituteImpl> Adding for substitute: varName: WRAPPER_EXEC varValue: C:\temp\SAGEM\common\bin\wrapper-3.5.43.exe
+10:29:54 info VarsSubstituteImpl> Adding for substitute: varName: WRAPPER_LIB varValue: C:\temp\SAGEM\common\lib\tw-3.5.43
+10:29:54 info VarsSubstituteImpl> Adding for substitute: varName: WRAPPER_EXEC_NAME varValue: wrapper-3.5.43.exe
+10:29:54 info VarsSubstituteImpl> Adding file: C:\temp\SAGEM\profiles\SPM\configuration\wrapper.conf
+10:29:54 info VarsSubstituteImpl> Adding for substitute: varName: W_LIBPATH varValue: 
+10:29:54 info OSGiUtilsImpl> Launcher jar: C:\temp\SAGEM\common\runtime\bundles\platform\eclipse\plugins\com.softwareag.platform.jaas.proxy_10.7.0.0000-0635.jar
+10:29:54 info VarsSubstituteImpl> Adding for substitute: varName: PLATFORM_JAASPROXY_JAR varValue: C:\temp\SAGEM\common\runtime\bundles\platform\eclipse\plugins\com.softwareag.platform.jaas.proxy_10.7.0.0000-0635.jar
+10:29:54 info OSGiUtilsImpl> Launcher jar: C:\temp\SAGEM\common\runtime\bundles\platform\eclipse\plugins\com.softwareag.platform.bootstrap_10.7.0.0000-0635.jar
+10:29:54 info VarsSubstituteImpl> Adding for substitute: varName: PLATFORM_BOOTSTRAP_JAR varValue: C:\temp\SAGEM\common\runtime\bundles\platform\eclipse\plugins\com.softwareag.platform.bootstrap_10.7.0.0000-0635.jar
+10:29:54 info VarsSubstituteImpl> Adding for substitute: varName: SECURITY_PATH varValue: C:\temp\SAGEM\common\security\ssx_64\auth\sagssxauthd2
+10:29:54 info VarsSubstituteImpl> Adding for substitute: varName: JAVA_EXEC varValue: C:\temp\SAGEM\jvm\jvm\bin\java
+10:29:54 info VarsSubstituteImpl> Adding for substitute: varName: ROOT_PATH varValue: C:\temp\SAGEM\common
+10:29:54 info VarsSubstituteImpl> Adding for substitute: varName: PROFILE_PATH varValue: C:\temp\SAGEM\profiles\SPM
+10:29:54 info VarsSubstituteImpl> Adding for substitute: varName: ROOT_PATH_SEC varValue: C:/temp/SAGEM/common
+10:29:54 info VarsSubstituteImpl> Adding for substitute: varName: PROFILE_PATH_SEC varValue: C:/temp/SAGEM/profiles/SPM
+10:29:54 info VarsSubstituteImpl> Adding for substitute: varName: PROFILE_BIN_PATH varValue: C:\temp\SAGEM\profiles\SPM\bin\
+10:29:54 info VarsSubstituteImpl> Adding for substitute: varName: OSGI_INSTALL_AREA varValue: C:/temp/SAGEM/profiles/SPM
+10:29:54 info VarsSubstituteImpl> Adding for substitute: varName: OSGI_FRAMEWORK_JAR varValue: C:\temp\SAGEM\common\runtime\bundles\platform\eclipse\plugins\org.eclipse.equinox.launcher_1.5.300.v20190213-1655.jar
+10:29:54 info VarsSubstituteImpl> Adding for substitute: varName: OSGI_CONFIGURATION_AREA varValue: C:\temp\SAGEM\profiles\SPM\configuration
+10:29:54 info VarsSubstituteImpl> Adding for substitute: varName: OSGI_CONSOLE varValue: 8095
+10:29:54 info VarsSubstituteImpl> Adding for substitute: varName: WORK_DIR varValue: 
+10:29:54 info VarsSubstituteImpl> Adding for substitute: varName: org.eclipse.equinox.http.tomcat.http.port varValue: 8092
+10:29:54 info VarsSubstituteImpl> Adding for substitute: varName: HTTP_PORT varValue: 8092
+10:29:54 info VarsSubstituteImpl> Adding for substitute: varName: org.eclipse.equinox.http.tomcat.https.port varValue: 8093
+10:29:54 info VarsSubstituteImpl> Adding for substitute: varName: HOST_NAME varValue: SAG-GY5L573
+10:29:54 info VarsSubstituteImpl> Adding for substitute: varName: SERVICE_NAME varValue: sagspm107_7.1
+10:29:54 info VarsSubstituteImpl> Adding for substitute: varName: SERVICE_DISP_NAME varValue: Software AG Platform Manager 10.7 (7)
+10:29:54 info VarsSubstituteImpl> Adding for substitute: varName: SERVICE_DESCR varValue: Software AG Platform Manager 10.7
+10:29:54 info VarsSubstituteImpl> Adding for substitute: varName: PRODUCT_DISPLAY_NAME varValue: Software AG Platform Manager 10.7 (7)
+10:29:54 info VarsSubstituteImpl> Adding for substitute: varName: SECURITY_LIB_DIR varValue: security\ssx_64\bin
+10:29:54 info VarsSubstituteImpl> Adding file: C:\temp\SAGEM\profiles\SPM\configuration\jaas.config
+10:29:54 info VarsSubstituteImpl> Adding file: C:\temp\SAGEM\profiles\SPM\bin\setenv.bat
+10:29:54 info VarsSubstituteImpl> Adding file: C:\temp\SAGEM\profiles\SPM\bin\service.bat
+10:29:54 info VarsSubstituteImpl> Substitute file: C:\temp\SAGEM\profiles\SPM\configuration\jaas.config
+10:29:54 info VarsSubstituteImpl> Substitute file: C:\temp\SAGEM\profiles\SPM\bin\service.bat
+10:29:54 info VarsSubstituteImpl> replaceVars var: {{ROOT_PATH}} with: 'C:\temp\SAGEM\common'
+10:29:54 info VarsSubstituteImpl> replaceVars var: {{WRAPPER_EXEC_NAME}} with: 'wrapper-3.5.43.exe'
+10:29:54 info VarsSubstituteImpl> replaceVars var: {{PROFILE_PATH}} with: 'C:\temp\SAGEM\profiles\SPM'
+10:29:54 info VarsSubstituteImpl> Substitute file: C:\temp\SAGEM\profiles\SPM\configuration\wrapper.conf
+10:29:54 info VarsSubstituteImpl> replaceVars var: {{W_LIBPATH}} with: ''
+10:29:54 info VarsSubstituteImpl> replaceVars var: {{ROOT_PATH}} with: 'C:\temp\SAGEM\common'
+10:29:54 info VarsSubstituteImpl> replaceVars var: {{SECURITY_LIB_DIR}} with: 'security\ssx_64\bin'
+10:29:54 info VarsSubstituteImpl> replaceVars var: {{JAVA_EXEC}} with: 'C:\temp\SAGEM\jvm\jvm\bin\java'
+10:29:54 info VarsSubstituteImpl> replaceVars var: {{WRAPPER_LIB}} with: 'C:\temp\SAGEM\common\lib\tw-3.5.43'
+10:29:54 info VarsSubstituteImpl> replaceVars var: {{WRAPPER_LIB}} with: 'C:\temp\SAGEM\common\lib\tw-3.5.43'
+10:29:54 info VarsSubstituteImpl> replaceVars var: {{ROOT_PATH}} with: 'C:\temp\SAGEM\common'
+10:29:54 info VarsSubstituteImpl> replaceVars var: {{ROOT_PATH}} with: 'C:\temp\SAGEM\common'
+10:29:54 info VarsSubstituteImpl> replaceVars var: {{SECURITY_LIB_DIR}} with: 'security\ssx_64\bin'
+10:29:54 info VarsSubstituteImpl> replaceVars var: {{PRODUCT_DISPLAY_NAME}} with: 'Software AG Platform Manager 10.7 (7)'
+10:29:54 info VarsSubstituteImpl> replaceVars var: {{SERVICE_NAME}} with: 'sagspm107_7.1'
+10:29:54 info VarsSubstituteImpl> replaceVars var: {{SERVICE_DISP_NAME}} with: 'Software AG Platform Manager 10.7 (7)'
+10:29:54 info VarsSubstituteImpl> replaceVars var: {{SERVICE_DESCR}} with: 'Software AG Platform Manager 10.7'
+10:29:54 info VarsSubstituteImpl> Substitute file: C:\temp\SAGEM\profiles\SPM\bin\setenv.bat
+10:29:54 info VarsSubstituteImpl> replaceVars var: {{WRAPPER_EXEC}} with: 'C:\temp\SAGEM\common\bin\wrapper-3.5.43.exe'
+10:29:54 info VarsSubstituteImpl> replaceVars var: {{WORK_DIR}} with: ''
+10:29:54 info VarsSubstituteImpl> replaceVars var: {{SERVICE_NAME}} with: 'sagspm107_7.1'
+10:29:54 info VarsSubstituteImpl> replaceVars var: {{PRODUCT_DISPLAY_NAME}} with: 'Software AG Platform Manager 10.7 (7)'
+10:29:54 info VarsSubstituteImpl> replaceVars var: {{JAVA_EXEC}} with: 'C:\temp\SAGEM\jvm\jvm\bin\java'
+10:29:54 info VarsSubstituteImpl> replaceVars var: {{ROOT_PATH}} with: 'C:\temp\SAGEM\common'
+10:29:54 info VarsSubstituteImpl> replaceVars var: {{SECURITY_LIB_DIR}} with: 'security\ssx_64\bin'
+10:29:54 info OSGiProfileImpl> replacePlacehoolders: EXIT
+10:29:54 info OSGiProfileImpl> storeConfiguration: ENTER
+10:29:54 info OSGiPropertiesImpl> Update Tomcat's server.xml file.
+10:29:54 info OSGiPropertiesImpl> Saving Tomcat configuration server.xml file...
+10:29:54 info OSGiPropertiesImpl> Update Tomcat's CTPConfiguration.xml file.
+10:29:54 info OSGiPropertiesImpl> Tomcat info file C:\temp\SAGEM\profiles\SPM\workspace\webapps\ROOT\CTPConfiguration.xml is missing.
+10:29:54 info OSGiProfileImpl> storeConfiguration: EXIT
+10:29:54 info OSGiProfileImpl> installMainFeatureAction: EXIT
+10:29:54 info SPMInstallPanel> Instance created sucessfully.
+10:29:54 info SPMInstallPanel> SPMInstallPanel> Invoke step StoreConfig
+10:29:54 info SPMInstallPanel> Storing configuration of profile SPM...
+10:29:54 info OSGiProfileImpl> storeConfiguration: ENTER
+10:29:54 info OSGiPropertiesImpl> Update Tomcat's server.xml file.
+10:29:54 info OSGiPropertiesImpl> Saving Tomcat configuration server.xml file...
+10:29:54 info OSGiPropertiesImpl> Update Tomcat's CTPConfiguration.xml file.
+10:29:54 info OSGiPropertiesImpl> Tomcat info file C:\temp\SAGEM\profiles\SPM\workspace\webapps\ROOT\CTPConfiguration.xml is missing.
+10:29:54 info OSGiProfileImpl> storeConfiguration: EXIT
+10:29:54 info SPMInstallPanel> Configuration stored sucessfully.
+10:29:54 info SPMInstallPanel> SPMInstallPanel> Invoke step ConfigureCustomJavaSettings
+10:29:54 info SPMInstallPanel> Configuring custom Java memory settings of profile SPM...
+10:29:54 info SPMInstallPanel> Configuration of custom Java memory settings is done.
+10:29:54 info SPMInstallPanel> SPMInstallPanel> Invoke step InstallService
+10:29:54 info SPMInstallPanel> SPMInstallPanel> Invoke step CreateSudoRcScript
+10:29:54 info SPMInstallPanel> Skip install step. RC script is only for UNIX and only in service mode.
+10:29:54 info SPMInstallPanel> SPMInstallPanel> Invoke step RegisterStartStop
+10:29:54 info SPMInstallPanel> Register start/stop scripts...
+10:29:54 info SPMInstallPanel> Scripts for start/stop registered successfully.
+10:29:54 warning java.io.FileNotFoundException: C:\temp\SAGEM\logs\launcher.log (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.wm.distman.install.DistManUtils.copyFile(DistManUtils.java:8986)
+	at com.wm.distman.install.DownloadUpdateManagerPanel.copyLauncherLog(DownloadUpdateManagerPanel.java:117)
+	at com.wm.distman.install.DownloadUpdateManagerPanel.installExecute(DownloadUpdateManagerPanel.java:109)
+	at com.wm.distman.install.PanelThread.run(PanelThread.java:125)
+
+10:29:54 info OSGiUtilsImpl> Using InstallerProductProps implementation of getTargetDependProducts...
+10:29:54 info OSGiProfileImpl> loadConfiguration: ENTER
+10:29:54 info OSGiPropertiesImpl> Read dynamic configuration: com.softwareag.catalina.connector.http.pid-spm.properties
+10:29:54 info OSGiPropertiesImpl> Read dynamic configuration: com.softwareag.catalina.connector.https.pid-spm.properties
+10:29:54 info OSGiPropertiesImpl> Read dynamic configuration: com.softwareag.config.watchdog.pid.properties
+10:29:54 info OSGiPropertiesImpl> Read dynamic configuration: com.softwareag.connector.map.pid.properties
+10:29:54 info OSGiPropertiesImpl> Read dynamic configuration: com.softwareag.jmx.connector.pid-spm.properties
+10:29:54 info OSGiPropertiesImpl> Read dynamic configuration: com.softwareag.platform.debug.properties
+10:29:54 info OSGiPropertiesImpl> Read dynamic configuration: com.softwareag.platform.management.common.inventory.InventoryService.pid.properties
+10:29:54 info OSGiPropertiesImpl> Read dynamic configuration: com.softwareag.platform.management.common.monitoring.BasicMonitoringService.properties
+10:29:54 info OSGiPropertiesImpl> Read dynamic configuration: com.softwareag.platform.management.common.monitoring.RuntimeStatusService.properties
+10:29:54 info OSGiPropertiesImpl> Read dynamic configuration: com.softwareag.security.authz.pid.properties
+10:29:54 info OSGiPropertiesImpl> Read dynamic configuration: com.softwareag.security.ldap.pid.properties
+10:29:54 info OSGiPropertiesImpl> Read dynamic configuration: com.softwareag.sshd.pid-default.properties
+10:29:54 info OSGiPropertiesImpl> Read dynamic configuration: com.softwareag.sso.pid.properties
+10:29:54 info OSGiProfileImpl> loadConfiguration: EXIT
+10:29:54 info NUMClientInstallPanel> beginPanel: ENTER
+10:29:54 info NUMClientInstallPanel> beginPanel: EXIT
+10:29:54 info NUMEnterpriseManagerInstallPanel> beginPanel: ENTER
+10:29:54 info NUMEnterpriseManagerInstallPanel> beginPanel: EXIT
+10:29:54 info VarsSubstituteImpl> Adding file: C:\temp\SAGEM\common\security\openssl\extras\tlsenv.bat
+10:29:54 info VarsSubstituteImpl> Adding file: C:\temp\SAGEM\common\security\openssl32\extras\tlsenv.bat
+10:29:54 info VarsSubstituteImpl> Adding for substitute: varName: INSTALLDIR varValue: C:\temp\SAGEM
+10:29:54 info VarsSubstituteImpl> Substitute file: C:\temp\SAGEM\common\security\openssl\extras\tlsenv.bat
+10:29:54 info VarsSubstituteImpl> replaceVars var: {{INSTALLDIR}} with: 'C:\temp\SAGEM'
+10:29:54 info VarsSubstituteImpl> Substitute file: C:\temp\SAGEM\common\security\openssl32\extras\tlsenv.bat
+10:29:54 info VarsSubstituteImpl> replaceVars var: {{INSTALLDIR}} with: 'C:\temp\SAGEM'
+10:29:54 info SPMPluginsProvisioning> executePanel: ENTER
+10:29:54 info OSGiProfileImpl> loadConfiguration: ENTER
+10:29:54 info OSGiPropertiesImpl> Read dynamic configuration: com.softwareag.catalina.connector.http.pid-spm.properties
+10:29:54 info OSGiPropertiesImpl> Read dynamic configuration: com.softwareag.catalina.connector.https.pid-spm.properties
+10:29:54 info OSGiPropertiesImpl> Read dynamic configuration: com.softwareag.config.watchdog.pid.properties
+10:29:54 info OSGiPropertiesImpl> Read dynamic configuration: com.softwareag.connector.map.pid.properties
+10:29:54 info OSGiPropertiesImpl> Read dynamic configuration: com.softwareag.jmx.connector.pid-spm.properties
+10:29:54 info OSGiPropertiesImpl> Read dynamic configuration: com.softwareag.platform.debug.properties
+10:29:54 info OSGiPropertiesImpl> Read dynamic configuration: com.softwareag.platform.management.common.inventory.InventoryService.pid.properties
+10:29:54 info OSGiPropertiesImpl> Read dynamic configuration: com.softwareag.platform.management.common.monitoring.BasicMonitoringService.properties
+10:29:54 info OSGiPropertiesImpl> Read dynamic configuration: com.softwareag.platform.management.common.monitoring.RuntimeStatusService.properties
+10:29:54 info OSGiPropertiesImpl> Read dynamic configuration: com.softwareag.security.authz.pid.properties
+10:29:54 info OSGiPropertiesImpl> Read dynamic configuration: com.softwareag.security.ldap.pid.properties
+10:29:55 info OSGiPropertiesImpl> Read dynamic configuration: com.softwareag.sshd.pid-default.properties
+10:29:55 info OSGiPropertiesImpl> Read dynamic configuration: com.softwareag.sso.pid.properties
+10:29:55 info OSGiProfileImpl> loadConfiguration: EXIT
+10:29:55 info OSGiUtilsImpl> Add repositories for product: e2ei/11/SPM_10.7.0.0.784/Platform/SPM
+10:29:55 info OSGiUtilsImpl> Added repository: C:\temp\SAGEM\common\runtime\bundles\spm\eclipse
+10:29:55 info OSGiUtilsImpl> Added repository: C:\temp\SAGEM\common\runtime\bundles\cc-shared\eclipse
+10:29:55 info OSGiUtilsImpl> Add repositories for product: e2ei/11/LIC_5.7.2.0.956/LICRepository/LICRepository
+10:29:55 info OSGiUtilsImpl> Added repository: C:\temp\SAGEM\common\runtime\bundles\lic\eclipse
+10:29:55 info OSGiUtilsImpl> Add repositories for product: e2ei/11/LAR_10.7.0.0.407/Platform/LARSharedBundles
+10:29:55 info OSGiUtilsImpl> Added repository: C:\temp\SAGEM\common\runtime\bundles\lar\eclipse
+10:29:55 info OSGiUtilsImpl> No repository for product: e2ei/11/OSGI_10.7.0.0.635/Platform/OSGI
+10:29:55 info OSGiUtilsImpl> No repository for product: e2ei/11/TPS_10.7.0.0.224/SCG/loggers
+10:29:55 info OSGiUtilsImpl> No repository for product: e2ei/11/IS_10.7.0.0.196/integrationServer/integrationServerMigrationFrameworkLib
+10:29:55 info OSGiUtilsImpl> Add repositories for product: e2ei/11/ZSL_10.7.0.0.239/Platform/ZSLSharedBundles
+10:29:55 info OSGiUtilsImpl> Added repository: C:\temp\SAGEM\common\runtime\bundles\esapi\eclipse
+10:29:55 info OSGiUtilsImpl> Add repositories for product: e2ei/11/TPS_10.7.0.0.224/Platform/TPS
+10:29:55 info OSGiUtilsImpl> Added repository: C:\temp\SAGEM\common\runtime\bundles\ext\eclipse
+10:29:55 info OSGiUtilsImpl> No repository for product: e2ei/11/WIS_10.7.0.0.426/Infrastructure/WISSharedLibs
+10:29:55 info OSGiUtilsImpl> No repository for product: e2ei/11/TPS_10.7.0.0.224/SCG/jsw
+10:29:55 info OSGiUtilsImpl> Add repositories for product: e2ei/11/WIS_10.7.0.0.426/Infrastructure/WISSharedBundles
+10:29:55 info OSGiUtilsImpl> Added repository: C:\temp\SAGEM\common\runtime\bundles\sd\eclipse
+10:29:55 info OSGiUtilsImpl> Added repository: C:\temp\SAGEM\common\runtime\bundles\sagprov\eclipse
+10:29:55 info OSGiUtilsImpl> Added repository: C:\temp\SAGEM\common\runtime\bundles\sum-cc\eclipse
+10:29:55 info OSGiUtilsImpl> No repository for product: e2ei/11/TPS_10.7.0.0.224/SCG/tppSEC
+10:29:55 info OSGiUtilsImpl> No repository for product: e2ei/11/WSC_10.7.0.0.434/SCG/SCGCommon
+10:29:55 info OSGiUtilsImpl> No repository for product: e2ei/11/LIC_5.7.2.0.956/LICSharedLibsJava/LICSharedLibsJava
+10:29:55 info OSGiUtilsImpl> Add repositories for product: e2ei/11/ACDL_10.7.0.0.345/ACDL/ACDLDeployerSharedBundle
+10:29:55 info OSGiUtilsImpl> Added repository: C:\temp\SAGEM\common\runtime\bundles\deployer-acdl-shared\eclipse
+10:29:55 info OSGiUtilsImpl> Add repositories for product: e2ei/11/CMP_10.7.0.0.82/CMP/CMP
+10:29:55 info OSGiUtilsImpl> Added repository: C:\temp\SAGEM\common\runtime\bundles\cmp\eclipse
+10:29:55 info OSGiUtilsImpl> Added repository: C:\temp\SAGEM\common\runtime\bundles\cmp-um95\eclipse
+10:29:55 info OSGiUtilsImpl> Added repository: C:\temp\SAGEM\common\runtime\bundles\cmp-um96\eclipse
+10:29:55 info OSGiUtilsImpl> Added repository: C:\temp\SAGEM\common\runtime\bundles\cmp-um97\eclipse
+10:29:55 info OSGiUtilsImpl> Added repository: C:\temp\SAGEM\common\runtime\bundles\cmp-um98\eclipse
+10:29:55 info OSGiUtilsImpl> Added repository: C:\temp\SAGEM\common\runtime\bundles\cmp-um99\eclipse
+10:29:55 info OSGiUtilsImpl> Added repository: C:\temp\SAGEM\common\runtime\bundles\cmp-um910\eclipse
+10:29:55 info OSGiUtilsImpl> Added repository: C:\temp\SAGEM\common\runtime\bundles\cmp-um912\eclipse
+10:29:55 info OSGiUtilsImpl> Added repository: C:\temp\SAGEM\common\runtime\bundles\cmp-um100\eclipse
+10:29:55 info OSGiUtilsImpl> Added repository: C:\temp\SAGEM\common\runtime\bundles\cmp-um101\eclipse
+10:29:55 info OSGiUtilsImpl> Added repository: C:\temp\SAGEM\common\runtime\bundles\cmp-um102\eclipse
+10:29:55 info OSGiUtilsImpl> Added repository: C:\temp\SAGEM\common\runtime\bundles\cmp-um103\eclipse
+10:29:55 info OSGiUtilsImpl> Added repository: C:\temp\SAGEM\common\runtime\bundles\cmp-um104\eclipse
+10:29:55 info OSGiUtilsImpl> Added repository: C:\temp\SAGEM\common\runtime\bundles\cmp-um105\eclipse
+10:29:55 info OSGiUtilsImpl> Add repositories for product: e2ei/11/CMP_10.7.0.0.82/CMP/CMP_API
+10:29:55 info OSGiUtilsImpl> Added repository: C:\temp\SAGEM\common\runtime\bundles\cmp-api\eclipse
+10:29:55 info OSGiUtilsImpl> Add repositories for product: e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMRepository
+10:29:55 info OSGiUtilsImpl> Added repository: C:\temp\SAGEM\common\runtime\bundles\num\eclipse
+10:29:55 info OSGiUtilsImpl> Add repositories for product: e2ei/11/IS_10.7.0.0.196/integrationServer/ISSharedBundles
+10:29:55 info OSGiUtilsImpl> Added repository: C:\temp\SAGEM\common\runtime\bundles\is-shared\eclipse
+10:29:55 info OSGiUtilsImpl> Add repositories for product: e2ei/11/BR_10.5.0.0.700/Broker/PIFSharedBundles
+10:29:55 info OSGiUtilsImpl> Added repository: C:\temp\SAGEM\common\runtime\bundles\broker-shared\eclipse
+10:29:55 info OSGiProfileImpl> installFeatures: ENTER
+10:29:55 info EnvironmentHelperImpl> Java absolute executable: C:\temp\SAGEM\jvm\jvm\bin\java
+10:29:55 info EnvironmentHelperImpl> javaExec: C:\temp\SAGEM\jvm\jvm\bin\java
+10:29:55 info OSGiUtilsImpl> Launcher jar: C:\temp\SAGEM\common\runtime\bundles\platform\eclipse\plugins\com.softwareag.platform.jaas.proxy_10.7.0.0000-0635.jar
+10:29:55 info AUML>> Execute with java from: C:\temp\SAGEM\jvm\jvm\bin\java.exe
+10:29:55 info AUML>> Execute with java from: C:\temp\SAGEM\jvm\jvm\bin\java.exe
+10:29:55 info AUML>> Start launcher with following arguments[C:\Users\JARU\AppData\Local\Temp\sag7716660332504384026_tmp\sum-setup.bat, -debug, -d, C:\temp\SAGEM\SAGUpdateManager, --accept-license, -i, "C:\SoftwareAG107\wM107Image.zip"]
+10:29:55 info PH> Execute arr cmd=["C:\temp\SAGEM\jvm\jvm\bin\java", -Dosgi.startLevel=10, -cp, "C:\temp\SAGEM\common\runtime\bundles\platform\eclipse\plugins\org.eclipse.equinox.launcher_1.5.300.v20190213-1655.jar;C:\temp\SAGEM\common\runtime\bundles\platform\eclipse\plugins\com.softwareag.platform.jaas.proxy_10.7.0.0000-0635.jar", org.eclipse.equinox.launcher.Main, -install, "C:\temp\SAGEM\common\runtime\agent", -consolelog, -application, com.softwareag.eclipse.equinox.p2.director, -optionsFile, "file:/C:/temp/SAGEM/install/platform/SPM_1635224395011_install", -profile, minimal, -destination, "C:\temp\SAGEM\profiles\SPM", -p2.os, win32, -p2.arch, x86_64, -roaming, -clean, -data, C:\temp\SAGEM\common\runtime\install, -vmArgs, -Dosgi.noShutdown=false]
+10:29:55 info PH> Execute env=[null]
+10:29:55 info PH> Execute execDir: C:\temp\SAGEM\profiles\SPM\bin
+10:29:55 info AUML>> Start Update Manager installation
+10:29:55 info 
+10:29:55 info Software AG Update Manager installation
+10:29:55 info 
+10:29:55 info Checking java
+10:29:55 info Will try local java
+10:29:55 info openjdk version "1.8.0_261"
+10:29:55 info OpenJDK Runtime Environment (Zulu 8.47.0.16-SA-win64) (build 1.8.0_261-b09)
+10:29:55 info OpenJDK 64-Bit Server VM (Zulu 8.47.0.16-SA-win64) (build 25.261-b09, mixed mode)
+10:29:55 info Done checking java
+10:29:55 info "C:\temp\SAGEM\SAGUpdateManager" does not exist
+10:29:55 info Installing into "C:\temp\SAGEM\SAGUpdateManager"
+10:29:57 info 2021/10/26 10:29:57  INFO    | Installing SUM from image file
+10:30:02 info Exit code: 0
+10:30:02 info P2Wrapper> P2Wrapper ExitCode: 0
+10:30:02 info P2Wrapper> P2Wrapper OutputStreamMsg: 
+
+Debug options:
+    file:/C:/temp/SAGEM/profiles/SPM/bin/.options not found
+!SESSION 2021-10-26 10:29:55.190 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_261
+java.vendor=Azul Systems, Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -application com.softwareag.eclipse.equinox.p2.director -optionsFile file:/C:/temp/SAGEM/install/platform/SPM_1635224395011_install -profile minimal -destination C:\temp\SAGEM\profiles\SPM -p2.os win32 -p2.arch x86_64 -roaming
+Command-line arguments:  -consolelog -application com.softwareag.eclipse.equinox.p2.director -optionsFile file:/C:/temp/SAGEM/install/platform/SPM_1635224395011_install -profile minimal -destination C:\temp\SAGEM\profiles\SPM -p2.os win32 -p2.arch x86_64 -roaming -clean -data C:\temp\SAGEM\common\runtime\install
+
+!ENTRY com.softwareag.equinox.p2.director.app 0 0 2021-10-26 10:29:56.348
+!MESSAGE Merged application arguments: -installIU com.softwareag.plm.spm.nirvana.feature.feature.group -metadataRepository file:/C:/temp/SAGEM/common/runtime/bundles/num-cc/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/spm/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/cc-shared/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/lic/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/lar/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/esapi/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/ext/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/sd/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/sagprov/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/sum-cc/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/deployer-acdl-shared/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/cmp/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/cmp-um95/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/cmp-um96/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/cmp-um97/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/cmp-um98/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/cmp-um99/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/cmp-um910/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/cmp-um912/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/cmp-um100/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/cmp-um101/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/cmp-um102/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/cmp-um103/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/cmp-um104/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/cmp-um105/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/cmp-api/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/num/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/is-shared/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/broker-shared/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/platform/eclipse/ -artifactRepository file:/C:/temp/SAGEM/common/runtime/bundles/num-cc/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/spm/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/cc-shared/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/lic/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/lar/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/esapi/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/ext/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/sd/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/sagprov/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/sum-cc/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/deployer-acdl-shared/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/cmp/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/cmp-um95/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/cmp-um96/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/cmp-um97/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/cmp-um98/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/cmp-um99/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/cmp-um910/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/cmp-um912/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/cmp-um100/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/cmp-um101/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/cmp-um102/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/cmp-um103/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/cmp-um104/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/cmp-um105/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/cmp-api/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/num/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/is-shared/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/broker-shared/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/platform/eclipse/ -addCacheExt file:/C:/temp/SAGEM/common/runtime/bundles/num-cc/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/spm/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/cc-shared/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/lic/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/lar/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/esapi/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/ext/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/sd/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/sagprov/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/sum-cc/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/deployer-acdl-shared/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/cmp/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/cmp-um95/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/cmp-um96/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/cmp-um97/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/cmp-um98/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/cmp-um99/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/cmp-um910/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/cmp-um912/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/cmp-um100/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/cmp-um101/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/cmp-um102/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/cmp-um103/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/cmp-um104/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/cmp-um105/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/cmp-api/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/num/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/is-shared/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/broker-shared/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/platform/eclipse/ -profile minimal -destination C:\temp\SAGEM\profiles\SPM -p2.os win32 -p2.arch x86_64 -roaming
+Installing com.softwareag.plm.spm.nirvana.feature.feature.group 10.7.0.0000-133380.
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2021-10-26 10:29:59.847
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2021-10-26 10:29:59.847
+!MESSAGE Add request for SPM for 'null' feature 10.7.0.0000-133380 (com.softwareag.plm.spm.nirvana.feature.feature.group 10.7.0.0000-133380) is satisfiable
+
+!ENTRY Orphaned Bundles in Profile 4 7 2021-10-26 10:30:01.360
+!MESSAGE There are 16 orphaned bundles in profile minimal:
+	com.softwareag.security.common.web(10.7.0.0000-0384)
+	org.apache.httpcomponents.httpcore(4.4.9)
+	org.glassfish.main.javaee-api.javax.jms(3.1.2.1-SNAPSHOT)
+	com.softwareag.security.web.sso.saml2(10.7.0.0000-0384)
+	org.apache.commons.codec(1.13.0)
+	com.softwareag.platform.audit.utils(10.7.0.0000-0635)
+	com.softwareag.platform.audit.api(10.7.0.0000-0635)
+	com.softwareag.net.sourceforge.spnego(0.0.0.0000-0003)
+	com.google.protobuf.util(3.7.1.1)
+	org.osgi.util.converter(1.0.1.201810101357)
+	com.softwareag.platform.p2.actions(10.7.0.0000-0635)
+	org.apache.httpcomponents.httpclient(4.5.5)
+	org.apache.servicemix.bundles.spring-web(5.2.4.RELEASE_1)
+	com.jcraft.jsch(0.1.55)
+	org.apache.commons.logging(1.2.0)
+	org.glassfish.external.asm-all(6.0.0.ALPHA)
+Operation completed in 5697 ms.
+
+10:30:02 info P2Wrapper> P2Wrapper ErrorStreamMsg: 
+
+
+10:30:02 info OSGiProfileImpl> installFeatures: EXIT
+10:30:02 info SPMPluginsProvisioning> executePanel: EXIT
+10:30:02 info NUMClientInstallPanel> executePanel: ENTER
+10:30:02 info NUMClientInstallPanel> NUMClientInstallPanel> Invoke step CreateStartMenu with method createStartMenu
+10:30:02 info NUMClientInstallPanel> Creating Start Menu shortcuts...
+10:30:02 info NUMClientInstallPanel> Create folder: Temp SAG EM
+10:30:02 info NUMClientInstallPanel> Create folder: Temp SAG EM\Tools
+10:30:02 info NUMClientInstallPanel> Create folder: Temp SAG EM\Tools\Universal Messaging Clients 10.7
+10:30:02 info NUMClientInstallPanel> Start Menu shortcuts created successfully.
+10:30:02 info NUMClientInstallPanel> executePanel: EXIT
+10:30:02 info NUMEnterpriseManagerInstallPanel> executePanel: ENTER
+10:30:02 info NUMEnterpriseManagerInstallPanel> NUMEnterpriseManagerInstallPanel> Invoke step CreateInstance with method createInstance
+10:30:02 info NUMEnterpriseManagerInstallPanel> creating EM instance...
+10:30:02 info PH> Execute arr cmd=[C:\temp\SAGEM\UniversalMessaging\tools\InstanceManager\ninstancemanager.bat, create, umserver, em, 127.0.0.1, 9000]
+10:30:02 info PH> Execute env=[null]
+10:30:02 info PH> Execute execDir: C:\temp\SAGEM\UniversalMessaging\tools\InstanceManager
+10:30:05 info Exit code: 0
+10:30:05 info NUMEnterpriseManagerInstallPanel> Successfully created instance (em): umserver
+10:30:05 info NUMEnterpriseManagerInstallPanel> Create of EM instance finished successfully.
+10:30:05 info NUMEnterpriseManagerInstallPanel> executePanel: EXIT
+10:30:05 info Call DLJarsProgressPanel.installSetupGUI
+10:30:05 info > FixInstallPanel.installExecute
+10:30:05 info 2021/10/26 10:30:05  INFO    | Create SUM properties file: C:\temp\SAGEM\SAGUpdateManager\bin\config.properties ...
+10:30:05 info 2021/10/26 10:30:05  INFO    | Creation of SUM properties file successful
+10:30:05 info 2021/10/26 10:30:05  INFO    | 
+10:30:05 info 2021/10/26 10:30:05  INFO    | A new process will be started to install the SUM bundles
+10:30:05 info 2021/10/26 10:30:05  INFO    | 
+10:30:05 info Installing SUM bundles...
+10:30:09 info Installing SUM bundles...
+10:30:13 info Installing SUM bundles...
+10:30:13 info 
+10:30:13 info ####
+10:30:13 info #### Installation of Update Manager completed
+10:30:13 info ####
+10:30:13 info 
+10:30:13 info AUML>> End Update Manager installation
+10:30:13 info Exit code after execution of launcher: 0 (0)
+10:30:13 info Starting process builder with the following parameters: [C:\temp\SAGEM\SAGUpdateManager\bin\UpdateManagerCMD.bat, -readScript, C:\Users\JARU\AppData\Local\Temp\SAGUpdateManager_script_1635224413916.txt, -installFromImage, "C:\SoftwareAG107\wM107Image.zip", -disableProductsStartup, true]
+10:30:13 info UME>> Start fix installation
+10:30:16 info 2021/10/26 10:30:16  INFO    | Updating SUM from image file
+10:30:18 info 2021/10/26 10:30:18  INFO    | Updating SUM from image file
+10:30:20 info Audit file was not createdjava.nio.file.NoSuchFileException: C:\temp\SAGEM\SAGUpdateManager\UpdateManager\logs\audit_log_location.txt
+10:30:21 info 
+10:30:21 info 
+10:30:21 info Install fixes from image
+10:30:21 info 
+10:30:21 info Product directory (full path): [C:\temp\SAGEM] ?
+10:30:21 info Install Support Patch (Y or N): [N]?H) Home N) Next B) Back X) Exit
+10:30:21 info 
+10:30:21 info Enter: [ N ]?Initializing connection with repository
+10:30:22 info Updating SoftwareAG Update Manager
+10:30:24 info Unable to rename file: C:\temp\SAGEM\SAGUpdateManager\UpdateManager\logs\info\info.log
+10:30:24 info Unable to rename file: C:\temp\SAGEM\SAGUpdateManager\UpdateManager\logs\debug\debug.log
+10:30:24 info Unable to rename file: C:\temp\SAGEM\SAGUpdateManager\UpdateManager\logs\error\error.log
+10:30:24 info Unable to rename file: C:\temp\SAGEM\SAGUpdateManager\UpdateManager\logs\info\info.log
+10:30:24 info Unable to rename file: C:\temp\SAGEM\SAGUpdateManager\UpdateManager\logs\debug\debug.log
+10:30:24 info Unable to rename file: C:\temp\SAGEM\SAGUpdateManager\UpdateManager\logs\error\error.log
+10:30:25 info 
+10:30:25 info 
+10:30:25 info Install fixes from image
+10:30:25 info 
+10:30:25 info Product directory (full path): [C:\temp\SAGEM] ?
+10:30:25 info Install Support Patch (Y or N): [N]?H) Home N) Next B) Back X) Exit
+10:30:25 info 
+10:30:25 info Enter: [ N ]?Initializing connection with repository
+10:30:27 info Initializing connection with repository
+10:30:27 info Retrieving available fixes from repository
+10:30:27 info 
+10:30:27 info 
+10:30:27 info Select a fix to install by entering the corresponding number. [X] marks fixes to install. [I] marks already installed fixes.
+10:30:27 info Install Directory:C:\temp\SAGEM
+10:30:27 info 
+10:30:27 info Install?   Fix Name
+10:30:27 info ---------- --------
+10:30:27 info 1)     [X]   All fixes
+10:30:27 info 2)     [X]     Common Library
+10:30:27 info 3)     [X]       Shared Components 10.7 Core Fix 1
+10:30:27 info 4)     [X]       DC_CL_10.7_DCC_Fix1
+10:30:27 info 5)     [X]       Integration Server Client 10.7 Fix 3
+10:30:27 info 6)     [X]       Shared Components 10.7 Security Fix 1
+10:30:27 info 7)     [X]     Infrastructure
+10:30:27 info 8)     [X]       Java Package 1.8 Fix 134 (W64)
+10:30:27 info 9)     [X]       Libraries
+10:30:27 info 10)    [X]         Common Libraries for OpenSSL 10.7 Fix 1 (W64)
+10:30:27 info 11)    [X]         Shared Libraries Light Weight Queue 10.7 Fix 1
+10:30:27 info 12)    [X]       Platform Manager
+10:30:27 info 13)    [X]         Platform Manager Shared 10.7.0 FIX 5
+10:30:27 info 14)    [X]         Platform Manager 10.7.0 FIX 5
+10:30:27 info 15)    [X]       Platform Manager Plug-ins
+10:30:27 info 16)    [X]         Universal Messaging 10.7 Fix 1
+10:30:27 info 17)    [X]       Shared Platform
+10:30:27 info 18)    [X]         Security Infrastructure 10.7 Fix 2
+10:30:27 info 19)    [X]         Platform Diagnostic 10.7 Fix 4
+10:30:27 info 20)    [X]         Platform Migration 10.7.0 Fix 0001
+10:30:27 info 21)    [X]         Platform 10.7.0 Fix 0006
+10:30:27 info 22)    [X]         Platform Updater 10.7 Fix 1
+10:30:27 info 23)    [X]         Bundles
+10:30:27 info 24)    [X]           Broker Bundles 10.5 Fix 3
+10:30:27 info 25)    [X]           Common Landscape Asset Registry 10.7 Fix 1
+10:30:27 info 26)    [X]           webMethods Installer Shared Tools InstallationProvisioning 10.7.0 FIX 1
+10:30:27 info 27)    [X]     Platform
+10:30:27 info 28)    [X]       webMethods Installer Shared Tools SUM API 10.7.0 FIX 1
+10:30:27 info 29)    [X]     Shared Bundles
+10:30:27 info 30)    [X]       Universal Messaging Shared Bundles 10.7 Fix 3
+10:30:27 info 31)    [X]       Shared Bundles Commons 10.7 Fix 1
+10:30:27 info 32)    [X]       Shared Bundles Glassfish 10.7 Fix 1
+10:30:27 info 33)    [X]     Universal Messaging
+10:30:27 info 34)    [X]       Universal Messaging Java Client 10.7 Fix 3
+10:30:27 info 35)    [X]       Universal Messaging JavaScript Client 10.7 Fix 3
+10:30:27 info 36)    [X]       Universal Messaging .Net Client 10.7 Fix 3 (WNT,W64)
+10:30:27 info 37)    [X]       Universal Messaging C++ Client 10.7 Fix 3 (W64)
+10:30:27 info 38)    [X]       Universal Messaging Enterprise Manager 10.7 Fix 3
+10:30:27 info 
+10:30:27 info H) Home N) Next B) Back F) Fix Filter V) View readme S) Save readme... P) Print readme... X) Exit
+10:30:27 info 
+10:30:29 info Enter: [ N ]?
+10:30:29 info 
+10:30:29 info Update Manager is about to install the fixes you selected and their related fixes.
+10:30:29 info Install Directory:C:\temp\SAGEM
+10:30:29 info 
+10:30:29 info 1)    Common Library
+10:30:29 info 2)      Shared Components 10.7 Core Fix 1
+10:30:29 info 3)      DC_CL_10.7_DCC_Fix1
+10:30:29 info 4)      Integration Server Client 10.7 Fix 3
+10:30:29 info 5)      Shared Components 10.7 Security Fix 1
+10:30:29 info 6)    Infrastructure
+10:30:29 info 7)      Java Package 1.8 Fix 134 (W64)
+10:30:29 info 8)      Libraries
+10:30:29 info 9)        Common Libraries for OpenSSL 10.7 Fix 1 (W64)
+10:30:29 info 10)       Shared Libraries Light Weight Queue 10.7 Fix 1
+10:30:29 info 11)     Platform Manager
+10:30:29 info 12)       Platform Manager Shared 10.7.0 FIX 5
+10:30:29 info 13)       Platform Manager 10.7.0 FIX 5
+10:30:29 info 14)     Platform Manager Plug-ins
+10:30:29 info 15)       Universal Messaging 10.7 Fix 1
+10:30:29 info 16)     Shared Platform
+10:30:29 info 17)       Security Infrastructure 10.7 Fix 2
+10:30:29 info 18)       Platform Diagnostic 10.7 Fix 4
+10:30:29 info 19)       Platform Migration 10.7.0 Fix 0001
+10:30:29 info 20)       Platform 10.7.0 Fix 0006
+10:30:29 info 21)       Platform Updater 10.7 Fix 1
+10:30:29 info 22)       Bundles
+10:30:29 info 23)         Broker Bundles 10.5 Fix 3
+10:30:29 info 24)         Common Landscape Asset Registry 10.7 Fix 1
+10:30:29 info 25)         webMethods Installer Shared Tools InstallationProvisioning 10.7.0 FIX 1
+10:30:29 info 26)   Platform
+10:30:29 info 27)     webMethods Installer Shared Tools SUM API 10.7.0 FIX 1
+10:30:29 info 28)   Shared Bundles
+10:30:29 info 29)     Universal Messaging Shared Bundles 10.7 Fix 3
+10:30:29 info 30)     Shared Bundles Commons 10.7 Fix 1
+10:30:29 info 31)     Shared Bundles Glassfish 10.7 Fix 1
+10:30:29 info 32)   Universal Messaging
+10:30:29 info 33)     Universal Messaging Java Client 10.7 Fix 3
+10:30:29 info 34)     Universal Messaging JavaScript Client 10.7 Fix 3
+10:30:29 info 35)     Universal Messaging .Net Client 10.7 Fix 3 (WNT,W64)
+10:30:29 info 36)     Universal Messaging C++ Client 10.7 Fix 3 (W64)
+10:30:29 info 37)     Universal Messaging Enterprise Manager 10.7 Fix 3
+10:30:29 info 
+10:30:29 info H) Home N) Next B) Back X) Exit
+10:30:29 info 
+10:30:29 info Enter: [ N ]?Following servers will be shut down (if running) to install the selected fixes.
+10:30:29 info 
+10:30:29 info Integration Server
+10:30:29 info 
+10:30:29 info Enter C to cancel or any other key to continue:?Downloading fixes...please wait...
+10:30:31 info Start installing the fixes...
+10:30:31 info Executing 'extract' action for fix wMFix.SCGCommon.DatabaseComponentConfigurator_10.7.0.0001-0043
+10:30:31 info Completed : 0% of 100%
+10:30:31 info Extracting common/db/lib/wm-cdc-client.jar to C:\temp\SAGEM
+10:30:31 info Executing 'extract' action for fix wMFix.SCGCommon.DatabaseComponentConfigurator_10.7.0.0001-0043
+10:30:31 info Completed : 0% of 100%
+10:30:31 info Extracting common/db/bin/* to C:\temp\SAGEM
+10:30:31 info Executing 'extract' action for fix wMFix.SCGCommon.DatabaseComponentConfigurator_10.7.0.0001-0043
+10:30:31 info Completed : 1% of 100%
+10:30:31 info Extracting common/db/DCC/Storage/scripts/8.0/oracle/* to C:\temp\SAGEM
+10:30:31 info Executing 'extract' action for fix wMFix.SCGCommon.DatabaseComponentConfigurator_10.7.0.0001-0043
+10:30:31 info Completed : 2% of 100%
+10:30:31 info Extracting common/db/DCC/ComponentTracker/scripts/8.0/*/* to C:\temp\SAGEM
+10:30:31 info Executing 'osgiShutdown' action for fix wMFix.SDRepository_10.7.0.0001-0360
+10:30:31 info Completed : 3% of 100%
+10:30:32 info Executing 'osgiShutdown' action for fix wMFix.OSGI.Platform_10.7.0.0006-0749
+10:30:32 info Completed : 4% of 100%
+10:30:32 info Executing 'osgiShutdown' action for fix wMFix.CCShared_10.7.0.0005-0926
+10:30:32 info Completed : 5% of 100%
+10:30:33 info Executing 'osgiShutdown' action for fix wMFix.SUMApi_10.7.0.0001-0296
+10:30:33 info Completed : 6% of 100%
+10:30:35 info Executing 'osgiShutdown' action for fix wMFix.OSGI.Updater_10.7.0.0001-0020
+10:30:35 info Completed : 7% of 100%
+10:30:35 info Executing 'shutdownIS' action for fix wMFix.SCGCommon.IS_10.7.0.0003-0028
+10:30:35 info Completed : 8% of 100%
+10:30:35 info Executing 'osgiShutdown' action for fix wMFix.NUMspmBundles_10.7.0.0001-133384
+10:30:35 info Completed : 9% of 100%
+10:30:36 info Executing 'osgiShutdown' action for fix wMFix.NUMRepository.SharedBundles_10.7.0.0003-140269
+10:30:36 info Completed : 9% of 100%
+10:30:36 info Executing 'osgiShutdown' action for fix wMFix.OSGI.Diagnostic_10.7.0.0004-0386
+10:30:36 info Completed : 10% of 100%
+10:30:36 info Executing 'osgiShutdown' action for fix wMFix.TPS.Glassfish_10.7.0.0001-0036
+10:30:36 info Completed : 11% of 100%
+10:30:36 info Executing 'osgiShutdown' action for fix wMFix.ALL.SIN_10.7.0.0002-0434
+10:30:36 info Completed : 12% of 100%
+10:30:36 info Executing 'osgiShutdown' action for fix wMFix.OSGI.Migration_10.7.0.0001-0384
+10:30:36 info Completed : 13% of 100%
+10:30:36 info Executing 'osgiShutdown' action for fix wMFix.SJP.Java64.W64_10.7.0.0134-0007
+10:30:36 info Completed : 14% of 100%
+10:30:38 info Executing 'osgiShutdown' action for fix wMFix.Broker.SharedBundles_10.5.0.0003-0446
+10:30:38 info Completed : 15% of 100%
+10:30:38 info Executing 'osgiShutdown' action for fix wMFix.SPM_10.7.0.0005-0926
+10:30:38 info Completed : 16% of 100%
+10:30:39 info Executing 'osgiShutdown' action for fix wMFix.TPS.Commons_10.7.0.0001-0017
+10:30:39 info Completed : 17% of 100%
+10:30:39 info Executing 'osgiShutdown' action for fix wMFix.LARSharedBundles_10.7.0.0001-0435
+10:30:39 info Completed : 18% of 100%
+10:30:39 info Executing 'osgiInstall' action for fix wMFix.SDRepository_10.7.0.0001-0360
+10:30:39 info Completed : 19% of 100%
+10:30:49 info Executing 'osgiInstall' action for fix wMFix.OSGI.Platform_10.7.0.0006-0749
+10:30:49 info Completed : 19% of 100%
+10:31:02 info Executing 'osgiInstall' action for fix wMFix.CCShared_10.7.0.0005-0926
+10:31:02 info Completed : 20% of 100%
+10:31:12 info Executing 'osgiInstall' action for fix wMFix.SUMApi_10.7.0.0001-0296
+10:31:12 info Completed : 21% of 100%
+10:31:21 info Executing 'extract' action for fix wMFix.NUMClient.JavaScript_10.7.0.0003-140269
+10:31:21 info Completed : 22% of 100%
+10:31:21 info Extracting UniversalMessaging/**/* to C:\temp\SAGEM
+10:31:22 info Executing 'extract' action for fix wMFix.OSGI.Updater_10.7.0.0001-0020
+10:31:22 info Completed : 23% of 100%
+10:31:22 info Extracting common/lib/**/* to C:\temp\SAGEM
+10:31:22 info Executing 'extract' action for fix wMFix.SCGCommon.LWQ_10.7.0.0001-0053
+10:31:22 info Completed : 24% of 100%
+10:31:22 info Extracting common/lib/wm-lwq.jar to C:\temp\SAGEM
+10:31:22 info Executing 'extract' action for fix wMFix.NUMEnterpriseManager_10.7.0.0003-140269
+10:31:22 info Completed : 25% of 100%
+10:31:22 info Extracting UniversalMessaging/**/* to C:\temp\SAGEM
+10:31:22 info Executing 'extract' action for fix wMFix.SCGCommon.IS_10.7.0.0003-0028
+10:31:22 info Completed : 30% of 100%
+10:31:22 info Extracting common/lib/wm-isclient.jar to C:\temp\SAGEM
+10:31:22 info Executing 'extract' action for fix wMFix.ALL.SSL.W64_10.7.0.0001-0067
+10:31:22 info Completed : 58% of 100%
+10:31:22 info Extracting openssl*/**/* to C:\temp\SAGEM\common\security
+10:31:23 info Executing 'osgiInstall' action for fix wMFix.NUMspmBundles_10.7.0.0001-133384
+10:31:23 info Completed : 59% of 100%
+10:31:31 info Executing 'extract' action for fix wMFix.SCGCommon.Core_10.7.0.0001-0450
+10:31:31 info Completed : 59% of 100%
+10:31:31 info Extracting common/lib/wm-scg-core.jar to C:\temp\SAGEM
+10:31:31 info Executing 'extract' action for fix wMFix.NUMClient.WIN_10.7.0.0003-140269
+10:31:31 info Completed : 60% of 100%
+10:31:31 info Extracting UniversalMessaging/dotnet/**/* to C:\temp\SAGEM
+10:31:33 info Executing 'extract' action for fix wMFix.NUMClient.WIN64_10.7.0.0003-140269
+10:31:33 info Completed : 61% of 100%
+10:31:33 info Extracting UniversalMessaging/cplus/**/* to C:\temp\SAGEM
+10:31:44 info Executing 'extract' action for fix wMFix.SCGCommon.Security_10.7.0.0001-0450
+10:31:44 info Completed : 62% of 100%
+10:31:44 info Extracting common/lib/wm-scg-security.jar to C:\temp\SAGEM
+10:31:44 info Executing 'osgiPublish' action for fix wMFix.NUMRepository.SharedBundles_10.7.0.0003-140269
+10:31:44 info Completed : 63% of 100%
+10:31:45 info Executing 'osgiInstall' action for fix wMFix.NUMRepository.SharedBundles_10.7.0.0003-140269
+10:31:45 info Completed : 64% of 100%
+10:31:58 info Executing 'extract' action for fix wMFix.OSGI.Diagnostic_10.7.0.0004-0386
+10:31:58 info Completed : 66% of 100%
+10:31:58 info Extracting common/lib/diagnostic-tool/** to C:\temp\SAGEM
+10:31:58 info Executing 'osgiUpdate' action for fix wMFix.TPS.Glassfish_10.7.0.0001-0036
+10:31:58 info Completed : 67% of 100%
+10:32:08 info Executing 'osgiUpdate' action for fix wMFix.TPS.Glassfish_10.7.0.0001-0036
+10:32:08 info Completed : 68% of 100%
+10:32:17 info Executing 'osgiUpdate' action for fix wMFix.TPS.Glassfish_10.7.0.0001-0036
+10:32:17 info Completed : 69% of 100%
+10:32:26 info Executing 'osgiUpdate' action for fix wMFix.TPS.Glassfish_10.7.0.0001-0036
+10:32:26 info Completed : 69% of 100%
+10:32:35 info Executing 'osgiUpdate' action for fix wMFix.TPS.Glassfish_10.7.0.0001-0036
+10:32:35 info Completed : 70% of 100%
+10:32:36 info Executing 'osgiUpdate' action for fix wMFix.TPS.Glassfish_10.7.0.0001-0036
+10:32:36 info Completed : 71% of 100%
+10:32:36 info Executing 'osgiUpdate' action for fix wMFix.TPS.Glassfish_10.7.0.0001-0036
+10:32:36 info Completed : 72% of 100%
+10:32:37 info Executing 'osgiUpdate' action for fix wMFix.TPS.Glassfish_10.7.0.0001-0036
+10:32:37 info Completed : 73% of 100%
+10:32:38 info Executing 'osgiUpdate' action for fix wMFix.TPS.Glassfish_10.7.0.0001-0036
+10:32:38 info Completed : 74% of 100%
+10:32:38 info Executing 'osgiInstall' action for fix wMFix.TPS.Glassfish_10.7.0.0001-0036
+10:32:38 info Completed : 75% of 100%
+10:32:49 info Executing 'osgiInstall' action for fix wMFix.TPS.Glassfish_10.7.0.0001-0036
+10:32:49 info Completed : 76% of 100%
+10:33:00 info Executing 'osgiInstall' action for fix wMFix.TPS.Glassfish_10.7.0.0001-0036
+10:33:00 info Completed : 77% of 100%
+10:33:11 info Executing 'osgiInstall' action for fix wMFix.TPS.Glassfish_10.7.0.0001-0036
+10:33:11 info Completed : 78% of 100%
+10:33:21 info Executing 'osgiInstall' action for fix wMFix.TPS.Glassfish_10.7.0.0001-0036
+10:33:21 info Completed : 79% of 100%
+10:33:22 info Executing 'osgiInstall' action for fix wMFix.TPS.Glassfish_10.7.0.0001-0036
+10:33:22 info Completed : 79% of 100%
+10:33:23 info Executing 'osgiInstall' action for fix wMFix.TPS.Glassfish_10.7.0.0001-0036
+10:33:23 info Completed : 80% of 100%
+10:33:23 info Executing 'osgiInstall' action for fix wMFix.TPS.Glassfish_10.7.0.0001-0036
+10:33:23 info Completed : 81% of 100%
+10:33:24 info Executing 'osgiInstall' action for fix wMFix.TPS.Glassfish_10.7.0.0001-0036
+10:33:24 info Completed : 82% of 100%
+10:33:24 info Executing 'osgiInstall' action for fix wMFix.ALL.SIN_10.7.0.0002-0434
+10:33:24 info Completed : 83% of 100%
+10:33:34 info Executing 'extract' action for fix wMFix.OSGI.Migration_10.7.0.0001-0384
+10:33:34 info Completed : 84% of 100%
+10:33:34 info Extracting common/lib/migrate/platform-common-migration.jar to C:\temp\SAGEM
+10:33:34 info Executing 'extract' action for fix wMFix.OSGI.Migration_10.7.0.0001-0384
+10:33:34 info Completed : 85% of 100%
+10:33:34 info Extracting common/migrate/osgi/bin/platform-migration.jar to C:\temp\SAGEM
+10:33:34 info Executing 'renameSJP' action for fix wMFix.SJP.Java64.W64_10.7.0.0134-0007
+10:33:34 info Completed : 86% of 100%
+10:33:34 info Executing 'addUninstallAction' action for fix wMFix.SJP.Java64.W64_10.7.0.0134-0007
+10:33:34 info Completed : 87% of 100%
+10:33:34 info Executing 'addUninstallAction' action for fix wMFix.SJP.Java64.W64_10.7.0.0134-0007
+10:33:34 info Completed : 88% of 100%
+10:33:34 info Executing 'extract' action for fix wMFix.SJP.Java64.W64_10.7.0.0134-0007
+10:33:34 info Completed : 89% of 100%
+10:33:34 info Extracting jvm/**/* to C:\temp\SAGEM
+10:33:37 info Executing 'extract' action for fix wMFix.SJP.Java64.W64_10.7.0.0134-0007
+10:33:37 info Completed : 89% of 100%
+10:33:37 info Extracting bin/**/* to C:\temp\SAGEM
+10:33:37 info Executing 'addUninstallAction' action for fix wMFix.SJP.Java64.W64_10.7.0.0134-0007
+10:33:37 info Completed : 90% of 100%
+10:33:37 info Executing 'addUninstallAction' action for fix wMFix.SJP.Java64.W64_10.7.0.0134-0007
+10:33:37 info Completed : 91% of 100%
+10:33:37 info Executing 'osgiInstall' action for fix wMFix.Broker.SharedBundles_10.5.0.0003-0446
+10:33:37 info Completed : 92% of 100%
+10:33:37 info Executing 'osgiInstall' action for fix wMFix.SPM_10.7.0.0005-0926
+10:33:37 info Completed : 93% of 100%
+10:33:50 info Executing 'extract' action for fix wMFix.NUMClient_10.7.0.0003-140269
+10:33:50 info Completed : 94% of 100%
+10:33:50 info Extracting UniversalMessaging/**/* to C:\temp\SAGEM
+10:33:54 info Executing 'osgiUpdate' action for fix wMFix.TPS.Commons_10.7.0.0001-0017
+10:33:54 info Completed : 95% of 100%
+10:33:54 info Executing 'osgiInstall' action for fix wMFix.TPS.Commons_10.7.0.0001-0017
+10:33:54 info Completed : 96% of 100%
+10:33:54 info Executing 'osgiInstall' action for fix wMFix.LARSharedBundles_10.7.0.0001-0435
+10:33:54 info Completed : 97% of 100%
+10:34:03 info Completed : 100% of 100%
+10:34:03 info  completed
+10:34:04 info Starting post commit actions.
+10:34:05 info Completed post commit actions.
+10:34:05 info 
+10:34:05 info 
+10:34:05 info The following fixes were installed.
+10:34:05 info For instructions, see the fix readmes in C:\temp\SAGEM\install\fix\readmeC:\temp\SAGEM\install\fix\readme
+10:34:05 info 
+10:34:05 info  Common Library
+10:34:05 info   - Shared Components 10.7 Core Fix 1
+10:34:05 info  Common Library
+10:34:05 info   - DC_CL_10.7_DCC_Fix1
+10:34:05 info  Common Library
+10:34:05 info   - Integration Server Client 10.7 Fix 3
+10:34:05 info  Common Library
+10:34:05 info   - Shared Components 10.7 Security Fix 1
+10:34:05 info  Infrastructure
+10:34:05 info   - Java Package 1.8 Fix 134 (W64)
+10:34:05 info  Libraries
+10:34:05 info   - Common Libraries for OpenSSL 10.7 Fix 1 (W64)
+10:34:05 info  Libraries
+10:34:05 info   - Shared Libraries Light Weight Queue 10.7 Fix 1
+10:34:05 info  Platform Manager
+10:34:05 info   - Platform Manager Shared 10.7.0 FIX 5
+10:34:05 info  Platform Manager
+10:34:05 info   - Platform Manager 10.7.0 FIX 5
+10:34:05 info  Platform Manager Plug-ins
+10:34:05 info   - Universal Messaging 10.7 Fix 1
+10:34:05 info  Shared Platform
+10:34:05 info   - Security Infrastructure 10.7 Fix 2
+10:34:05 info  Shared Platform
+10:34:05 info   - Platform Diagnostic 10.7 Fix 4
+10:34:05 info  Shared Platform
+10:34:05 info   - Platform Migration 10.7.0 Fix 0001
+10:34:05 info  Shared Platform
+10:34:05 info   - Platform 10.7.0 Fix 0006
+10:34:05 info  Shared Platform
+10:34:05 info   - Platform Updater 10.7 Fix 1
+10:34:05 info  Bundles
+10:34:05 info   - Broker Bundles 10.5 Fix 3
+10:34:05 info  Bundles
+10:34:05 info   - Common Landscape Asset Registry 10.7 Fix 1
+10:34:05 info  Bundles
+10:34:05 info   - webMethods Installer Shared Tools InstallationProvisioning 10.7.0 FIX 1
+10:34:05 info  Platform
+10:34:05 info   - webMethods Installer Shared Tools SUM API 10.7.0 FIX 1
+10:34:05 info  Shared Bundles
+10:34:05 info   - Universal Messaging Shared Bundles 10.7 Fix 3
+10:34:05 info  Shared Bundles
+10:34:05 info   - Shared Bundles Commons 10.7 Fix 1
+10:34:05 info  Shared Bundles
+10:34:05 info   - Shared Bundles Glassfish 10.7 Fix 1
+10:34:05 info  Universal Messaging
+10:34:05 info   - Universal Messaging Java Client 10.7 Fix 3
+10:34:05 info  Universal Messaging
+10:34:05 info   - Universal Messaging JavaScript Client 10.7 Fix 3
+10:34:05 info  Universal Messaging
+10:34:05 info   - Universal Messaging .Net Client 10.7 Fix 3 (WNT,W64)
+10:34:05 info  Universal Messaging
+10:34:05 info   - Universal Messaging C++ Client 10.7 Fix 3 (W64)
+10:34:05 info  Universal Messaging
+10:34:05 info   - Universal Messaging Enterprise Manager 10.7 Fix 3
+10:34:05 info 
+10:34:05 info H) Home X) Exit
+10:34:05 info 
+10:34:05 info Enter: [ X ]?2021/10/26 10:34:05  INFO    | SUM application exited successfully
+10:34:05 info 2021/10/26 10:34:05  INFO    | 
+10:34:05 info 2021/10/26 10:34:05  INFO    | 
+10:34:05 info 2021/10/26 10:34:05  INFO    | Exit from Launcher: 0
+10:34:05 info 2021/10/26 10:34:05  INFO    | 
+10:34:06 info UME>> End fix installation
+10:34:06 info Exit code after fix installation: 0
+10:34:06 info UpdateManagerExitCode for operation INSTALL_FIXES is [OK] Message 'Success installation' error code 0
+10:34:06 warning java.io.FileNotFoundException: C:\Users\JARU\AppData\Local\Temp\sag7716660332504384026_tmp\SAGUpdateManager\UpdateManager\logs\debug\debug.log (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.wm.distman.install.DistManUtils.copyFile(DistManUtils.java:8986)
+	at com.wm.distman.install.FixInstallPanel.copyDebugLog(FixInstallPanel.java:250)
+	at com.wm.distman.install.FixInstallPanel.installExecute(FixInstallPanel.java:239)
+	at com.wm.distman.install.PanelThread.run(PanelThread.java:125)
+
+10:34:06 info < FixInstallPanel.installExecute
+10:34:06 info DPP >> Checking DockerProgressPanel
+10:34:06 info MFC.CLEAN> start beginPanel() install=true
+10:34:06 info MFC.CLEAN> Global var com.softwareag.mfc.install.vs2019.x64 contains : YES
+10:34:06 info MFC.UTIL> isEmptyString() with string : YES
+10:34:06 info MFC.CLEAN> Global var com.softwareag.mfc.install.vs2019.x86 contains : YES
+10:34:06 info MFC.UTIL> isEmptyString() with string : YES
+10:34:06 info MFC.CLEAN> executePanel()
+10:34:06 info MFC.CLEAN> C:\temp\SAGEM\common\VS2019\x64\VC_redist.x64.exe removed, because it is no longer needed.
+10:34:06 info MFC.CLEAN> C:\temp\SAGEM\common\VS2019\x86\VC_redist.x86.exe removed, because it is no longer needed.
+10:48:37 alert C> installer is exiting with code: 0

@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Nirvana.Reactive</name>
+    </assembly>
+    <members>
+        <member name="T:MyChannels.Nirvana.NirvanaRx">
+            <summary>
+            Provides a set of static methods for adapting MyChannels.Nirvana objects to observable sequences.
+            </summary>
+        </member>
+        <member name="M:MyChannels.Nirvana.NirvanaRx.ToObservable(MyChannels.Nirvana.IConsumer)">
+            <summary>
+            Converts MessageReceived events to an observable sequence.
+            </summary>
+        </member>
+        <member name="M:MyChannels.Nirvana.NirvanaRx.ToObservable(MyChannels.Nirvana.IDataGroupSession)">
+            <summary>
+            Converts MessageReceived events to an observable sequence.
+            </summary>
+        </member>
+        <member name="M:MyChannels.Nirvana.NirvanaRx.ToStreamAddedObservable(MyChannels.Nirvana.IDataGroupSession)">
+            <summary>
+            Converts StreamAdded events to an observable sequence.
+            </summary>
+        </member>
+        <member name="M:MyChannels.Nirvana.NirvanaRx.ToStreamRemovedObservable(MyChannels.Nirvana.IDataGroupSession)">
+            <summary>
+            Converts StreamRemoved events to an observable sequence.
+            </summary>
+            <param name="source"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MyChannels.Nirvana.NirvanaRx.ToDataGroupAddedObservable(MyChannels.Nirvana.IDataGroupSession)">
+            <summary>
+            Converts DataGroupAdded events to an observable sequence.
+            </summary>
+            <param name="source"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MyChannels.Nirvana.NirvanaRx.ToDataGroupRemovedObservable(MyChannels.Nirvana.IDataGroupSession)">
+            <summary>
+            Converts DataGroupRemoved events to an observable sequence.
+            </summary>
+            <param name="source"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MyChannels.Nirvana.NirvanaRx.ToDataGroupCreatedObservable(MyChannels.Nirvana.IDataGroupSession)">
+            <summary>
+            Converts DataGroupCreated events into an observable sequence.
+            </summary>
+            <param name="source"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MyChannels.Nirvana.NirvanaRx.ToDataGroupDeletedObservable(MyChannels.Nirvana.IDataGroupSession)">
+            <summary>
+            Converts DataGroupDeleted events into an observable sequence.
+            </summary>
+            <param name="source"></param>
+            <returns></returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:MyChannels.Nirvana.NirvanaRx.RegisterObservable(MyChannels.Nirvana.IDataGroupSession,System.IObservable{MyChannels.Nirvana.IMessage},MyChannels.Nirvana.IDataGroup)" -->
+        <!-- Badly formed XML comment ignored for member "M:MyChannels.Nirvana.NirvanaRx.RegisterObservable(MyChannels.Nirvana.IDataGroupSession,System.IObservable{MyChannels.Nirvana.IMessage},System.String)" -->
+        <!-- Badly formed XML comment ignored for member "M:MyChannels.Nirvana.NirvanaRx.CreateDataGroup(MyChannels.Nirvana.IDataGroupSession,System.IObservable{MyChannels.Nirvana.IMessage},System.String)" -->
+    </members>
+</doc>

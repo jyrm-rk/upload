@@ -1,0 +1,28 @@
+name=e2ei/11/ZSL_10.7.0.0.239/Platform/ZSLSharedBundles/ZSLSharedBundles-W64-Any/BM_ZSLEsapiOsgi-ALL-Any
+version=10.7.0.0.239
+timestamp=1599492606
+
+common/
+common/runtime/
+common/
+common/runtime/bundles/
+common/runtime/
+common/runtime/bundles/esapi/
+common/runtime/bundles/
+common/runtime/bundles/esapi/eclipse/
+common/runtime/bundles/esapi/
+common/runtime/bundles/esapi/eclipse/binary/
+common/runtime/bundles/esapi/eclipse/
+common/runtime/bundles/esapi/eclipse/features/
+common/runtime/bundles/esapi/eclipse/plugins/
+0755 common/runtime/bundles/esapi/eclipse/artifacts.xml
+0755 common/runtime/bundles/esapi/eclipse/content.xml
+0755 common/runtime/bundles/esapi/eclipse/features/com.softwareag.esapi_10.7.0.0000-0239.jar
+common/runtime/bundles/esapi/eclipse/features/
+0755 common/runtime/bundles/esapi/eclipse/features/com.softwareag.tps.esapi_10.7.0.0000-0239.jar
+0755 common/runtime/bundles/esapi/eclipse/plugins/com.softwareag.ext.org.owasp.encoder_1.1.0.jar
+common/runtime/bundles/esapi/eclipse/plugins/
+0755 common/runtime/bundles/esapi/eclipse/plugins/com.softwareag.security.sin.esapi.logger_10.7.0.0000-0239.jar
+0755 common/runtime/bundles/esapi/eclipse/plugins/com.softwareag.security.sin.esapi.osgi_10.7.0.0000-0239.jar
+0755 common/runtime/bundles/esapi/eclipse/plugins/com.softwareag.security.sin.esapi_10.7.0.0000-0239.jar
+0755 common/runtime/bundles/esapi/eclipse/plugins/org.owasp.esapi_2.1.0.1.jar

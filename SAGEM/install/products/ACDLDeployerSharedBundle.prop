@@ -1,0 +1,46 @@
+
+product=e2ei/11/ACDL_10.7.0.0.345/ACDL/ACDLDeployerSharedBundle
+
+e2ei/11/ACDL_10.7.0.0.345/ACDL/ACDLDeployerSharedBundle/children=ACDLDeployerSharedBundle-W64-Any
+
+## Product e2ei/11/ACDL_10.7.0.0.345/ACDL/ACDLDeployerSharedBundle properties ##
+
+e2ei/11/ACDL_10.7.0.0.345/ACDL/ACDLDeployerSharedBundle/props=developmentServer,displayDescript,displayGroup,displayName,displayNameVersionFormat,flags,group,lengthGroupVersionString,lengthVersionString,osgiBundlesRepos,resourceBundle,resourceJars,sagProductCode,supplantLevel,user_hints,installDate
+e2ei/11/ACDL_10.7.0.0.345/ACDL/ACDLDeployerSharedBundle/props/developmentServer=true
+e2ei/11/ACDL_10.7.0.0.345/ACDL/ACDLDeployerSharedBundle/props/displayDescript=ACDLDeployerSharedBundle.displayDescript
+e2ei/11/ACDL_10.7.0.0.345/ACDL/ACDLDeployerSharedBundle/props/displayGroup=ACDLDeployerSharedBundle.displayGroup
+e2ei/11/ACDL_10.7.0.0.345/ACDL/ACDLDeployerSharedBundle/props/displayName=ACDLDeployerSharedBundle.displayName
+e2ei/11/ACDL_10.7.0.0.345/ACDL/ACDLDeployerSharedBundle/props/displayNameVersionFormat=%1.%2 SP%3
+e2ei/11/ACDL_10.7.0.0.345/ACDL/ACDLDeployerSharedBundle/props/flags=ProgramFilesType
+e2ei/11/ACDL_10.7.0.0.345/ACDL/ACDLDeployerSharedBundle/props/group=ACDL
+e2ei/11/ACDL_10.7.0.0.345/ACDL/ACDLDeployerSharedBundle/props/lengthGroupVersionString=0
+e2ei/11/ACDL_10.7.0.0.345/ACDL/ACDLDeployerSharedBundle/props/lengthVersionString=0
+e2ei/11/ACDL_10.7.0.0.345/ACDL/ACDLDeployerSharedBundle/props/osgiBundlesRepos=deployer-acdl-shared
+e2ei/11/ACDL_10.7.0.0.345/ACDL/ACDLDeployerSharedBundle/props/resourceBundle=com.softwareag.acdl.install.DeployerInstallMessages
+e2ei/11/ACDL_10.7.0.0.345/ACDL/ACDLDeployerSharedBundle/props/resourceJars=ACDLDeployerSharedBundleInstallMessages-ALL-Any
+e2ei/11/ACDL_10.7.0.0.345/ACDL/ACDLDeployerSharedBundle/props/sagProductCode=ABE
+e2ei/11/ACDL_10.7.0.0.345/ACDL/ACDLDeployerSharedBundle/props/supplantLevel=3
+e2ei/11/ACDL_10.7.0.0.345/ACDL/ACDLDeployerSharedBundle/props/user_hints=enable
+e2ei/11/ACDL_10.7.0.0.345/ACDL/ACDLDeployerSharedBundle/props/installDate=1635224359894
+
+## Product e2ei/11/ACDL_10.7.0.0.345/ACDL/ACDLDeployerSharedBundle jars ##
+
+e2ei/11/ACDL_10.7.0.0.345/ACDL/ACDLDeployerSharedBundle/jars=ACDLDeployerSharedBundleInstallMessages-ALL-Any
+e2ei/11/ACDL_10.7.0.0.345/ACDL/ACDLDeployerSharedBundle/jars/ACDLDeployerSharedBundleInstallMessages-ALL-Any/props=jar_version,md5,size,timestamp,type
+e2ei/11/ACDL_10.7.0.0.345/ACDL/ACDLDeployerSharedBundle/jars/ACDLDeployerSharedBundleInstallMessages-ALL-Any/props/jar_version=10.7.0.0000.0345
+e2ei/11/ACDL_10.7.0.0.345/ACDL/ACDLDeployerSharedBundle/jars/ACDLDeployerSharedBundleInstallMessages-ALL-Any/props/md5=e3478ab2bcd94f527a9fb816a9c77682
+e2ei/11/ACDL_10.7.0.0.345/ACDL/ACDLDeployerSharedBundle/jars/ACDLDeployerSharedBundleInstallMessages-ALL-Any/props/size=1170
+e2ei/11/ACDL_10.7.0.0.345/ACDL/ACDLDeployerSharedBundle/jars/ACDLDeployerSharedBundleInstallMessages-ALL-Any/props/timestamp=1599492517
+e2ei/11/ACDL_10.7.0.0.345/ACDL/ACDLDeployerSharedBundle/jars/ACDLDeployerSharedBundleInstallMessages-ALL-Any/props/type=resourceJar
+## Product e2ei/11/ACDL_10.7.0.0.345/ACDL/ACDLDeployerSharedBundle components ##
+
+## Buildmodule info for e2ei/11/ACDL_10.7.0.0.345/ACDL/ACDLDeployerSharedBundle/ACDLDeployerSharedBundle-W64-Any ##
+
+e2ei/11/ACDL_10.7.0.0.345/ACDL/ACDLDeployerSharedBundle/ACDLDeployerSharedBundle-W64-Any/children=BM_ACDLSharedDeployerBundles-ALL-Any
+e2ei/11/ACDL_10.7.0.0.345/ACDL/ACDLDeployerSharedBundle/ACDLDeployerSharedBundle-W64-Any/BM_ACDLSharedDeployerBundles-ALL-Any/props=compressed_size,expanded_size,md5,timestamp,version
+e2ei/11/ACDL_10.7.0.0.345/ACDL/ACDLDeployerSharedBundle/ACDLDeployerSharedBundle-W64-Any/BM_ACDLSharedDeployerBundles-ALL-Any/props/compressed_size=70704
+e2ei/11/ACDL_10.7.0.0.345/ACDL/ACDLDeployerSharedBundle/ACDLDeployerSharedBundle-W64-Any/BM_ACDLSharedDeployerBundles-ALL-Any/props/expanded_size=93063
+e2ei/11/ACDL_10.7.0.0.345/ACDL/ACDLDeployerSharedBundle/ACDLDeployerSharedBundle-W64-Any/BM_ACDLSharedDeployerBundles-ALL-Any/props/md5=ffa274f86e73e2bafb0d422d357fc54a
+e2ei/11/ACDL_10.7.0.0.345/ACDL/ACDLDeployerSharedBundle/ACDLDeployerSharedBundle-W64-Any/BM_ACDLSharedDeployerBundles-ALL-Any/props/timestamp=1599492517
+e2ei/11/ACDL_10.7.0.0.345/ACDL/ACDLDeployerSharedBundle/ACDLDeployerSharedBundle-W64-Any/BM_ACDLSharedDeployerBundles-ALL-Any/props/version=10.7.0.0.345
+

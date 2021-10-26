@@ -1,0 +1,1680 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?metadataRepository version='1.2.0'?>
+<repository name='assemblyRuntime' type='org.eclipse.equinox.internal.p2.metadata.repository.LocalMetadataRepository' version='1'>
+  <properties size='2'>
+    <property name='p2.timestamp' value='1598261231924'/>
+    <property name='p2.compressed' value='false'/>
+  </properties>
+  <units size='35'>
+    <unit id='com.softwareag.cmp.features.cmp.tc.feature.feature.jar' version='10.7.0.0000-0082'>
+      <properties size='9'>
+        <property name='org.eclipse.equinox.p2.name' value='%featureName'/>
+        <property name='org.eclipse.equinox.p2.description' value='%description'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='%descriptionURL'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%providerName'/>
+        <property name='df_LT.license' value='For Software AG Legal Notices please refer to: http://softwareag.com/licenses and/or in the root installation directory of the licensed product(s).'/>
+        <property name='df_LT.copyright' value='Copyright &amp;copy; 2006 - 2020 Software AG, Darmstadt, Germany and/or Software AG USA Inc., Reston, VA, USA, and/or its subsidiaries and/or its affiliates and/or their licensors. The name Software AG and all Software AG product names are either trademarks or registered trademarks of Software AG and/or Software AG USA Inc. and/or its subsidiaries and/or its affiliates and/or their licensors. Other company and product names mentioned herein may be trademarks of their respective owners. Detailed information on trademarks and patents owned by Software AG and/or its subsidiaries is located at {http://softwareag.com/licenses}. This software may include portions of third-party products. For third-party copyright notices, license terms, additional rights or restrictions, please refer to &quot;License Texts, Copyright Notices and Disclaimers of Third Party Products&quot;. For certain specific third-party license restrictions, please refer to section E of the Legal Notices available under &quot;License Terms and Conditions for Use of Software AG Products / Copyright and Trademark Notices of Software AG Products&quot;. These documents are part of the product documentation, located at {http://softwareag.com/licenses} and/or in the root installation directory of the licensed product(s). Use, reproduction, transfer, publication or disclosure is prohibited except as specifically provided for in your License Agreement with Software AG.'/>
+        <property name='df_LT.featureName' value='CMP Terracotta feature'/>
+        <property name='df_LT.description' value='Software AG CMP Terracotta feature'/>
+        <property name='df_LT.providerName' value='Software AG'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.cmp.features.cmp.tc.feature.feature.jar' version='10.7.0.0000-0082'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
+        <provided namespace='org.eclipse.update.feature' name='com.softwareag.cmp.features.cmp.tc.feature' version='10.7.0.0000-0082'/>
+      </provides>
+      <filter>
+        (org.eclipse.update.install.features=true)
+      </filter>
+      <artifacts size='1'>
+        <artifact classifier='org.eclipse.update.feature' id='com.softwareag.cmp.features.cmp.tc.feature' version='10.7.0.0000-0082'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+        </instructions>
+      </touchpointData>
+      <licenses size='1'>
+        <license uri='%25licenseURL' url='%25licenseURL'>
+          %license
+        </license>
+      </licenses>
+      <copyright uri='%25copyrightURL' url='%25copyrightURL'>
+        %copyright
+      </copyright>
+    </unit>
+    <unit id='com.softwareag.cmp.mzng.impl' version='10.7.0.0000-0082' singleton='false' generation='2'>
+      <update id='com.softwareag.cmp.mzng.impl' range='[0.0.0,10.7.0.0000-0082)' severity='0'/>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='CMP cmp-mzng-impl module'/>
+        <property name='org.eclipse.equinox.p2.description' value='CMP cmp-mzng-impl module'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Software AG'/>
+        <property name='org.eclipse.equinox.p2.doc.url' value='http://www.softwareag.com'/>
+      </properties>
+      <provides size='14'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.cmp.mzng.impl' version='10.7.0.0000-0082'/>
+        <provided namespace='osgi.bundle' name='com.softwareag.cmp.mzng.impl' version='10.7.0.0000-0082'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.mzng' version='10.5.0'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.mzngprovider' version='10.5.0'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.mzngprovider.attribute' version='10.5.0'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.mzngprovider.context' version='10.5.0'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.mzngprovider.metamodel' version='10.5.0'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.mzngprovider.model' version='10.5.0'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.mzngprovider.model.xml' version='10.5.0'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.mzngprovider.ping' version='10.5.0'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.mzngprovider.util' version='10.5.0'/>
+        <provided namespace='java.package' name='metamodel' version='10.5.0'/>
+        <provided namespace='osgi.identity' name='com.softwareag.cmp.mzng.impl' version='10.7.0.0000-0082'>
+          <properties size='1'>
+            <property name='type' value='osgi.bundle'/>
+          </properties>
+        </provided>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='41'>
+        <required namespace='java.package' name='com.fasterxml.jackson.databind' range='[2.9.0,3.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.jmxprovider' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.jmxprovider.attribute' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.jmxprovider.context' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.jmxprovider.model' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.mzngprovider' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.cmp.mzngprovider.attribute' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.cmp.mzngprovider.context' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.cmp.mzngprovider.metamodel' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.cmp.mzngprovider.model' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.cmp.mzngprovider.ping' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.cmp.mzngprovider.util' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider.attribute' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider.context' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider.metamodel' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider.model' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider.ping' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider.relation' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider.util' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider.util.xml' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.umprovider.context' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.umprovider103' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.umprovider103.context' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.umprovider910' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.umprovider910.context' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.umprovider912' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.umprovider912.context' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.util' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='javax.management' range='0.0.0'/>
+        <required namespace='java.package' name='javax.security.auth.login' range='0.0.0'/>
+        <required namespace='java.package' name='javax.xml.parsers' range='0.0.0'/>
+        <required namespace='java.package' name='org.apache.http' range='[4.4.0,5.0.0)'/>
+        <required namespace='java.package' name='org.apache.http.auth' range='[4.5.0,5.0.0)'/>
+        <required namespace='java.package' name='org.apache.http.client' range='[4.5.0,5.0.0)'/>
+        <required namespace='java.package' name='org.apache.http.client.methods' range='[4.5.0,5.0.0)'/>
+        <required namespace='java.package' name='org.apache.http.impl.client' range='[4.5.0,5.0.0)'/>
+        <required namespace='java.package' name='org.apache.http.util' range='[4.4.0,5.0.0)'/>
+        <required namespace='java.package' name='org.apache.logging.log4j' range='[2.13.0,3.0.0)'/>
+        <required namespace='java.package' name='org.w3c.dom' range='0.0.0'/>
+        <requiredProperties namespace='osgi.ee' match='(&amp;(osgi.ee=JavaSE)(version=1.8))'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.softwareag.cmp.mzng.impl' version='10.7.0.0000-0082'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.softwareag.cmp.mzng.impl&#xA;Bundle-Version: 10.7.0.0000-0082&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.softwareag.cmp.features.cmp.presto.feature.feature.jar' version='10.7.0.0000-0082'>
+      <properties size='9'>
+        <property name='org.eclipse.equinox.p2.name' value='%featureName'/>
+        <property name='org.eclipse.equinox.p2.description' value='%description'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='%descriptionURL'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%providerName'/>
+        <property name='df_LT.license' value='For Software AG Legal Notices please refer to: http://softwareag.com/licenses and/or in the root installation directory of the licensed product(s).'/>
+        <property name='df_LT.copyright' value='Copyright &amp;copy; 2006 - 2020 Software AG, Darmstadt, Germany and/or Software AG USA Inc., Reston, VA, USA, and/or its subsidiaries and/or its affiliates and/or their licensors. The name Software AG and all Software AG product names are either trademarks or registered trademarks of Software AG and/or Software AG USA Inc. and/or its subsidiaries and/or its affiliates and/or their licensors. Other company and product names mentioned herein may be trademarks of their respective owners. Detailed information on trademarks and patents owned by Software AG and/or its subsidiaries is located at {http://softwareag.com/licenses}. This software may include portions of third-party products. For third-party copyright notices, license terms, additional rights or restrictions, please refer to &quot;License Texts, Copyright Notices and Disclaimers of Third Party Products&quot;. For certain specific third-party license restrictions, please refer to section E of the Legal Notices available under &quot;License Terms and Conditions for Use of Software AG Products / Copyright and Trademark Notices of Software AG Products&quot;. These documents are part of the product documentation, located at {http://softwareag.com/licenses} and/or in the root installation directory of the licensed product(s). Use, reproduction, transfer, publication or disclosure is prohibited except as specifically provided for in your License Agreement with Software AG.'/>
+        <property name='df_LT.featureName' value='CMP Presto feature'/>
+        <property name='df_LT.description' value='Software AG CMP Presto feature'/>
+        <property name='df_LT.providerName' value='Software AG'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.cmp.features.cmp.presto.feature.feature.jar' version='10.7.0.0000-0082'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
+        <provided namespace='org.eclipse.update.feature' name='com.softwareag.cmp.features.cmp.presto.feature' version='10.7.0.0000-0082'/>
+      </provides>
+      <filter>
+        (org.eclipse.update.install.features=true)
+      </filter>
+      <artifacts size='1'>
+        <artifact classifier='org.eclipse.update.feature' id='com.softwareag.cmp.features.cmp.presto.feature' version='10.7.0.0000-0082'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+        </instructions>
+      </touchpointData>
+      <licenses size='1'>
+        <license uri='%25licenseURL' url='%25licenseURL'>
+          %license
+        </license>
+      </licenses>
+      <copyright uri='%25copyrightURL' url='%25copyrightURL'>
+        %copyright
+      </copyright>
+    </unit>
+    <unit id='com.softwareag.cmp.infradc.impl' version='10.7.0.0000-0082' singleton='false' generation='2'>
+      <update id='com.softwareag.cmp.infradc.impl' range='[0.0.0,10.7.0.0000-0082)' severity='0'/>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='CMP cmp-infradc-impl module'/>
+        <property name='org.eclipse.equinox.p2.description' value='CMP cmp-infradc-impl module'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Software AG'/>
+        <property name='org.eclipse.equinox.p2.doc.url' value='http://www.softwareag.com'/>
+      </properties>
+      <provides size='13'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.cmp.infradc.impl' version='10.7.0.0000-0082'/>
+        <provided namespace='osgi.bundle' name='com.softwareag.cmp.infradc.impl' version='10.7.0.0000-0082'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.infradc' version='10.5.0'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.infradcprovider' version='10.5.0'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.infradcprovider.attribute' version='10.5.0'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.infradcprovider.context' version='10.5.0'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.infradcprovider.metamodel' version='10.5.0'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.infradcprovider.model' version='10.5.0'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.infradcprovider.ping' version='10.5.0'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.infradcprovider.util' version='10.5.0'/>
+        <provided namespace='java.package' name='metamodel' version='10.5.0'/>
+        <provided namespace='osgi.identity' name='com.softwareag.cmp.infradc.impl' version='10.7.0.0000-0082'>
+          <properties size='1'>
+            <property name='type' value='osgi.bundle'/>
+          </properties>
+        </provided>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='27'>
+        <required namespace='java.package' name='com.softwareag.cmp.infradcprovider' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.cmp.infradcprovider.attribute' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.cmp.infradcprovider.context' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.cmp.infradcprovider.metamodel' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.cmp.infradcprovider.model' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.cmp.infradcprovider.ping' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.cmp.infradcprovider.util' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider.attribute' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider.context' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider.metamodel' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider.model' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider.ping' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider.util' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider.util.xml' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='javax.xml.parsers' range='0.0.0'/>
+        <required namespace='java.package' name='org.apache.http' range='[4.4.0,5.0.0)'/>
+        <required namespace='java.package' name='org.apache.http.client' range='[4.5.0,5.0.0)'/>
+        <required namespace='java.package' name='org.apache.http.client.methods' range='[4.5.0,5.0.0)'/>
+        <required namespace='java.package' name='org.apache.http.conn' range='[4.5.0,5.0.0)'/>
+        <required namespace='java.package' name='org.apache.http.impl.client' range='[4.5.0,5.0.0)'/>
+        <required namespace='java.package' name='org.apache.http.impl.conn' range='[4.5.0,5.0.0)'/>
+        <required namespace='java.package' name='org.apache.http.util' range='[4.4.0,5.0.0)'/>
+        <required namespace='java.package' name='org.apache.logging.log4j' range='[2.13.0,3.0.0)'/>
+        <required namespace='java.package' name='org.w3c.dom' range='0.0.0'/>
+        <required namespace='java.package' name='org.xml.sax' range='0.0.0'/>
+        <requiredProperties namespace='osgi.ee' match='(&amp;(osgi.ee=JavaSE)(version=1.8))'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.softwareag.cmp.infradc.impl' version='10.7.0.0000-0082'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.softwareag.cmp.infradc.impl&#xA;Bundle-Version: 10.7.0.0000-0082&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.softwareag.cmp.presto.impl' version='10.7.0.0000-0082' singleton='false' generation='2'>
+      <update id='com.softwareag.cmp.presto.impl' range='[0.0.0,10.7.0.0000-0082)' severity='0'/>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='CMP cmp-presto-impl module'/>
+        <property name='org.eclipse.equinox.p2.description' value='CMP cmp-presto-impl module'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Software AG'/>
+        <property name='org.eclipse.equinox.p2.doc.url' value='http://www.softwareag.com'/>
+      </properties>
+      <provides size='14'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.cmp.presto.impl' version='10.7.0.0000-0082'/>
+        <provided namespace='osgi.bundle' name='com.softwareag.cmp.presto.impl' version='10.7.0.0000-0082'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.presto' version='10.5.0'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.prestoprovider' version='10.5.0'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.prestoprovider.attribute' version='10.5.0'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.prestoprovider.context' version='10.5.0'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.prestoprovider.metamodel' version='10.5.0'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.prestoprovider.model' version='10.5.0'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.prestoprovider.model.xml' version='10.5.0'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.prestoprovider.ping' version='10.5.0'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.prestoprovider.util' version='10.5.0'/>
+        <provided namespace='java.package' name='metamodel' version='10.5.0'/>
+        <provided namespace='osgi.identity' name='com.softwareag.cmp.presto.impl' version='10.7.0.0000-0082'>
+          <properties size='1'>
+            <property name='type' value='osgi.bundle'/>
+          </properties>
+        </provided>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='35'>
+        <required namespace='java.package' name='com.softwareag.cmp.jmxprovider' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.jmxprovider.attribute' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.jmxprovider.context' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.jmxprovider.model' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.prestoprovider' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.cmp.prestoprovider.attribute' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.cmp.prestoprovider.context' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.cmp.prestoprovider.metamodel' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.cmp.prestoprovider.model' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.cmp.prestoprovider.ping' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.cmp.prestoprovider.util' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider.attribute' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider.context' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider.metamodel' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider.model' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider.ping' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider.relation' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider.util' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider.util.xml' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.umprovider99' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.umprovider99.context' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.util' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='javax.management' range='0.0.0'/>
+        <required namespace='java.package' name='javax.security.auth.login' range='0.0.0'/>
+        <required namespace='java.package' name='javax.xml.parsers' range='0.0.0'/>
+        <required namespace='java.package' name='org.apache.http' range='[4.4.0,5.0.0)'/>
+        <required namespace='java.package' name='org.apache.http.auth' range='[4.5.0,5.0.0)'/>
+        <required namespace='java.package' name='org.apache.http.client' range='[4.5.0,5.0.0)'/>
+        <required namespace='java.package' name='org.apache.http.client.methods' range='[4.5.0,5.0.0)'/>
+        <required namespace='java.package' name='org.apache.http.impl.client' range='[4.5.0,5.0.0)'/>
+        <required namespace='java.package' name='org.apache.http.util' range='[4.4.0,5.0.0)'/>
+        <required namespace='java.package' name='org.apache.logging.log4j' range='[2.13.0,3.0.0)'/>
+        <required namespace='java.package' name='org.w3c.dom' range='0.0.0'/>
+        <requiredProperties namespace='osgi.ee' match='(&amp;(osgi.ee=JavaSE)(version=1.8))'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.softwareag.cmp.presto.impl' version='10.7.0.0000-0082'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.softwareag.cmp.presto.impl&#xA;Bundle-Version: 10.7.0.0000-0082&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.softwareag.cmp.features.cmp.mws.feature.feature.jar' version='10.7.0.0000-0082'>
+      <properties size='9'>
+        <property name='org.eclipse.equinox.p2.name' value='%featureName'/>
+        <property name='org.eclipse.equinox.p2.description' value='%description'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='%descriptionURL'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%providerName'/>
+        <property name='df_LT.license' value='For Software AG Legal Notices please refer to: http://softwareag.com/licenses and/or in the root installation directory of the licensed product(s).'/>
+        <property name='df_LT.copyright' value='Copyright &amp;copy; 2006 - 2020 Software AG, Darmstadt, Germany and/or Software AG USA Inc., Reston, VA, USA, and/or its subsidiaries and/or its affiliates and/or their licensors. The name Software AG and all Software AG product names are either trademarks or registered trademarks of Software AG and/or Software AG USA Inc. and/or its subsidiaries and/or its affiliates and/or their licensors. Other company and product names mentioned herein may be trademarks of their respective owners. Detailed information on trademarks and patents owned by Software AG and/or its subsidiaries is located at {http://softwareag.com/licenses}. This software may include portions of third-party products. For third-party copyright notices, license terms, additional rights or restrictions, please refer to &quot;License Texts, Copyright Notices and Disclaimers of Third Party Products&quot;. For certain specific third-party license restrictions, please refer to section E of the Legal Notices available under &quot;License Terms and Conditions for Use of Software AG Products / Copyright and Trademark Notices of Software AG Products&quot;. These documents are part of the product documentation, located at {http://softwareag.com/licenses} and/or in the root installation directory of the licensed product(s). Use, reproduction, transfer, publication or disclosure is prohibited except as specifically provided for in your License Agreement with Software AG.'/>
+        <property name='df_LT.featureName' value='CMP MWS feature'/>
+        <property name='df_LT.description' value='Software AG CMP MWS feature'/>
+        <property name='df_LT.providerName' value='Software AG'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.cmp.features.cmp.mws.feature.feature.jar' version='10.7.0.0000-0082'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
+        <provided namespace='org.eclipse.update.feature' name='com.softwareag.cmp.features.cmp.mws.feature' version='10.7.0.0000-0082'/>
+      </provides>
+      <filter>
+        (org.eclipse.update.install.features=true)
+      </filter>
+      <artifacts size='1'>
+        <artifact classifier='org.eclipse.update.feature' id='com.softwareag.cmp.features.cmp.mws.feature' version='10.7.0.0000-0082'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+        </instructions>
+      </touchpointData>
+      <licenses size='1'>
+        <license uri='%25licenseURL' url='%25licenseURL'>
+          %license
+        </license>
+      </licenses>
+      <copyright uri='%25copyrightURL' url='%25copyrightURL'>
+        %copyright
+      </copyright>
+    </unit>
+    <unit id='com.softwareag.cmp.features.cmp.apama.feature.feature.jar' version='10.7.0.0000-0082'>
+      <properties size='9'>
+        <property name='org.eclipse.equinox.p2.name' value='%featureName'/>
+        <property name='org.eclipse.equinox.p2.description' value='%description'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='%descriptionURL'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%providerName'/>
+        <property name='df_LT.license' value='For Software AG Legal Notices please refer to: http://softwareag.com/licenses and/or in the root installation directory of the licensed product(s).'/>
+        <property name='df_LT.copyright' value='Copyright &amp;copy; 2006 - 2020 Software AG, Darmstadt, Germany and/or Software AG USA Inc., Reston, VA, USA, and/or its subsidiaries and/or its affiliates and/or their licensors. The name Software AG and all Software AG product names are either trademarks or registered trademarks of Software AG and/or Software AG USA Inc. and/or its subsidiaries and/or its affiliates and/or their licensors. Other company and product names mentioned herein may be trademarks of their respective owners. Detailed information on trademarks and patents owned by Software AG and/or its subsidiaries is located at {http://softwareag.com/licenses}. This software may include portions of third-party products. For third-party copyright notices, license terms, additional rights or restrictions, please refer to &quot;License Texts, Copyright Notices and Disclaimers of Third Party Products&quot;. For certain specific third-party license restrictions, please refer to section E of the Legal Notices available under &quot;License Terms and Conditions for Use of Software AG Products / Copyright and Trademark Notices of Software AG Products&quot;. These documents are part of the product documentation, located at {http://softwareag.com/licenses} and/or in the root installation directory of the licensed product(s). Use, reproduction, transfer, publication or disclosure is prohibited except as specifically provided for in your License Agreement with Software AG.'/>
+        <property name='df_LT.featureName' value='CMP Apama feature'/>
+        <property name='df_LT.description' value='Software AG CMP Apama feature'/>
+        <property name='df_LT.providerName' value='Software AG'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.cmp.features.cmp.apama.feature.feature.jar' version='10.7.0.0000-0082'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
+        <provided namespace='org.eclipse.update.feature' name='com.softwareag.cmp.features.cmp.apama.feature' version='10.7.0.0000-0082'/>
+      </provides>
+      <filter>
+        (org.eclipse.update.install.features=true)
+      </filter>
+      <artifacts size='1'>
+        <artifact classifier='org.eclipse.update.feature' id='com.softwareag.cmp.features.cmp.apama.feature' version='10.7.0.0000-0082'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+        </instructions>
+      </touchpointData>
+      <licenses size='1'>
+        <license uri='%25licenseURL' url='%25licenseURL'>
+          %license
+        </license>
+      </licenses>
+      <copyright uri='%25copyrightURL' url='%25copyrightURL'>
+        %copyright
+      </copyright>
+    </unit>
+    <unit id='com.softwareag.cmp.features.cmp.des.feature.feature.group' version='10.7.0.0000-0082' singleton='false'>
+      <update id='com.softwareag.cmp.features.cmp.des.feature.feature.group' range='[0.0.0,10.7.0.0000-0082)' severity='0'/>
+      <properties size='10'>
+        <property name='org.eclipse.equinox.p2.name' value='%featureName'/>
+        <property name='org.eclipse.equinox.p2.description' value='%description'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='%descriptionURL'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%providerName'/>
+        <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+        <property name='df_LT.license' value='For Software AG Legal Notices please refer to: http://softwareag.com/licenses and/or in the root installation directory of the licensed product(s).'/>
+        <property name='df_LT.copyright' value='Copyright &amp;copy; 2006 - 2020 Software AG, Darmstadt, Germany and/or Software AG USA Inc., Reston, VA, USA, and/or its subsidiaries and/or its affiliates and/or their licensors. The name Software AG and all Software AG product names are either trademarks or registered trademarks of Software AG and/or Software AG USA Inc. and/or its subsidiaries and/or its affiliates and/or their licensors. Other company and product names mentioned herein may be trademarks of their respective owners. Detailed information on trademarks and patents owned by Software AG and/or its subsidiaries is located at {http://softwareag.com/licenses}. This software may include portions of third-party products. For third-party copyright notices, license terms, additional rights or restrictions, please refer to &quot;License Texts, Copyright Notices and Disclaimers of Third Party Products&quot;. For certain specific third-party license restrictions, please refer to section E of the Legal Notices available under &quot;License Terms and Conditions for Use of Software AG Products / Copyright and Trademark Notices of Software AG Products&quot;. These documents are part of the product documentation, located at {http://softwareag.com/licenses} and/or in the root installation directory of the licensed product(s). Use, reproduction, transfer, publication or disclosure is prohibited except as specifically provided for in your License Agreement with Software AG.'/>
+        <property name='df_LT.featureName' value='CMP DES feature'/>
+        <property name='df_LT.description' value='Software AG CMP DES feature'/>
+        <property name='df_LT.providerName' value='Software AG'/>
+      </properties>
+      <provides size='2'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.cmp.features.cmp.des.feature.feature.group' version='10.7.0.0000-0082'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+      </provides>
+      <requires size='2'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.cmp.des.impl' range='[10.7.0.0000-0082,10.7.0.0000-0082]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.cmp.features.cmp.des.feature.feature.jar' range='[10.7.0.0000-0082,10.7.0.0000-0082]'>
+          <filter>
+            (org.eclipse.update.install.features=true)
+          </filter>
+        </required>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+      <licenses size='1'>
+        <license uri='%25licenseURL' url='%25licenseURL'>
+          %license
+        </license>
+      </licenses>
+      <copyright uri='%25copyrightURL' url='%25copyrightURL'>
+        %copyright
+      </copyright>
+    </unit>
+    <unit id='com.softwareag.cmp.features.cmp.broker.feature.feature.group' version='10.7.0.0000-0082' singleton='false'>
+      <update id='com.softwareag.cmp.features.cmp.broker.feature.feature.group' range='[0.0.0,10.7.0.0000-0082)' severity='0'/>
+      <properties size='10'>
+        <property name='org.eclipse.equinox.p2.name' value='%featureName'/>
+        <property name='org.eclipse.equinox.p2.description' value='%description'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='%descriptionURL'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%providerName'/>
+        <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+        <property name='df_LT.license' value='For Software AG Legal Notices please refer to: http://softwareag.com/licenses and/or in the root installation directory of the licensed product(s).'/>
+        <property name='df_LT.copyright' value='Copyright &amp;copy; 2006 - 2020 Software AG, Darmstadt, Germany and/or Software AG USA Inc., Reston, VA, USA, and/or its subsidiaries and/or its affiliates and/or their licensors. The name Software AG and all Software AG product names are either trademarks or registered trademarks of Software AG and/or Software AG USA Inc. and/or its subsidiaries and/or its affiliates and/or their licensors. Other company and product names mentioned herein may be trademarks of their respective owners. Detailed information on trademarks and patents owned by Software AG and/or its subsidiaries is located at {http://softwareag.com/licenses}. This software may include portions of third-party products. For third-party copyright notices, license terms, additional rights or restrictions, please refer to &quot;License Texts, Copyright Notices and Disclaimers of Third Party Products&quot;. For certain specific third-party license restrictions, please refer to section E of the Legal Notices available under &quot;License Terms and Conditions for Use of Software AG Products / Copyright and Trademark Notices of Software AG Products&quot;. These documents are part of the product documentation, located at {http://softwareag.com/licenses} and/or in the root installation directory of the licensed product(s). Use, reproduction, transfer, publication or disclosure is prohibited except as specifically provided for in your License Agreement with Software AG.'/>
+        <property name='df_LT.featureName' value='CMP Broker feature'/>
+        <property name='df_LT.description' value='Software AG CMP Broker feature'/>
+        <property name='df_LT.providerName' value='Software AG'/>
+      </properties>
+      <provides size='2'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.cmp.features.cmp.broker.feature.feature.group' version='10.7.0.0000-0082'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+      </provides>
+      <requires size='3'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.mom.broker.shared.java.feature.feature.group' range='10.5.0.0000-0000'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.cmp.broker.impl' range='[10.7.0.0000-0082,10.7.0.0000-0082]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.cmp.features.cmp.broker.feature.feature.jar' range='[10.7.0.0000-0082,10.7.0.0000-0082]'>
+          <filter>
+            (org.eclipse.update.install.features=true)
+          </filter>
+        </required>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+      <licenses size='1'>
+        <license uri='%25licenseURL' url='%25licenseURL'>
+          %license
+        </license>
+      </licenses>
+      <copyright uri='%25copyrightURL' url='%25copyrightURL'>
+        %copyright
+      </copyright>
+    </unit>
+    <unit id='com.softwareag.cmp.features.cmp.broker.feature.feature.jar' version='10.7.0.0000-0082'>
+      <properties size='9'>
+        <property name='org.eclipse.equinox.p2.name' value='%featureName'/>
+        <property name='org.eclipse.equinox.p2.description' value='%description'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='%descriptionURL'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%providerName'/>
+        <property name='df_LT.license' value='For Software AG Legal Notices please refer to: http://softwareag.com/licenses and/or in the root installation directory of the licensed product(s).'/>
+        <property name='df_LT.copyright' value='Copyright &amp;copy; 2006 - 2020 Software AG, Darmstadt, Germany and/or Software AG USA Inc., Reston, VA, USA, and/or its subsidiaries and/or its affiliates and/or their licensors. The name Software AG and all Software AG product names are either trademarks or registered trademarks of Software AG and/or Software AG USA Inc. and/or its subsidiaries and/or its affiliates and/or their licensors. Other company and product names mentioned herein may be trademarks of their respective owners. Detailed information on trademarks and patents owned by Software AG and/or its subsidiaries is located at {http://softwareag.com/licenses}. This software may include portions of third-party products. For third-party copyright notices, license terms, additional rights or restrictions, please refer to &quot;License Texts, Copyright Notices and Disclaimers of Third Party Products&quot;. For certain specific third-party license restrictions, please refer to section E of the Legal Notices available under &quot;License Terms and Conditions for Use of Software AG Products / Copyright and Trademark Notices of Software AG Products&quot;. These documents are part of the product documentation, located at {http://softwareag.com/licenses} and/or in the root installation directory of the licensed product(s). Use, reproduction, transfer, publication or disclosure is prohibited except as specifically provided for in your License Agreement with Software AG.'/>
+        <property name='df_LT.featureName' value='CMP Broker feature'/>
+        <property name='df_LT.description' value='Software AG CMP Broker feature'/>
+        <property name='df_LT.providerName' value='Software AG'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.cmp.features.cmp.broker.feature.feature.jar' version='10.7.0.0000-0082'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
+        <provided namespace='org.eclipse.update.feature' name='com.softwareag.cmp.features.cmp.broker.feature' version='10.7.0.0000-0082'/>
+      </provides>
+      <filter>
+        (org.eclipse.update.install.features=true)
+      </filter>
+      <artifacts size='1'>
+        <artifact classifier='org.eclipse.update.feature' id='com.softwareag.cmp.features.cmp.broker.feature' version='10.7.0.0000-0082'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+        </instructions>
+      </touchpointData>
+      <licenses size='1'>
+        <license uri='%25licenseURL' url='%25licenseURL'>
+          %license
+        </license>
+      </licenses>
+      <copyright uri='%25copyrightURL' url='%25copyrightURL'>
+        %copyright
+      </copyright>
+    </unit>
+    <unit id='com.softwareag.cmp.mws.impl' version='10.7.0.0000-0082' singleton='false' generation='2'>
+      <update id='com.softwareag.cmp.mws.impl' range='[0.0.0,10.7.0.0000-0082)' severity='0'/>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='CMP cmp-mws-impl module'/>
+        <property name='org.eclipse.equinox.p2.description' value='CMP cmp-mws-impl module'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Software AG'/>
+        <property name='org.eclipse.equinox.p2.doc.url' value='http://www.softwareag.com'/>
+      </properties>
+      <provides size='13'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.cmp.mws.impl' version='10.7.0.0000-0082'/>
+        <provided namespace='osgi.bundle' name='com.softwareag.cmp.mws.impl' version='10.7.0.0000-0082'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.mws' version='10.5.0'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.mwsprovider' version='10.5.0'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.mwsprovider.attribute' version='10.5.0'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.mwsprovider.context' version='10.5.0'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.mwsprovider.metamodel' version='10.5.0'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.mwsprovider.model' version='10.5.0'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.mwsprovider.ping' version='10.5.0'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.webmethods.rtl.encode' version='10.5.0'/>
+        <provided namespace='java.package' name='metamodel' version='10.5.0'/>
+        <provided namespace='osgi.identity' name='com.softwareag.cmp.mws.impl' version='10.7.0.0000-0082'>
+          <properties size='1'>
+            <property name='type' value='osgi.bundle'/>
+          </properties>
+        </provided>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='20'>
+        <required namespace='java.package' name='com.softwareag.cmp.mwsprovider' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.cmp.mwsprovider.attribute' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.cmp.mwsprovider.context' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.cmp.mwsprovider.metamodel' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.cmp.mwsprovider.model' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.cmp.mwsprovider.ping' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider.attribute' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider.context' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider.metamodel' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider.model' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider.ping' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider.relation' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider.util.xml' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.webmethods.rtl.encode' range='0.0.0'/>
+        <required namespace='java.package' name='javax.net.ssl' range='0.0.0'/>
+        <required namespace='java.package' name='javax.ws.rs.client' range='[2.1.0,3.0.0)'/>
+        <required namespace='java.package' name='javax.ws.rs.core' range='[2.1.0,3.0.0)'/>
+        <required namespace='java.package' name='org.apache.logging.log4j' range='[2.13.0,3.0.0)'/>
+        <requiredProperties namespace='osgi.ee' match='(&amp;(osgi.ee=JavaSE)(version=1.8))'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.softwareag.cmp.mws.impl' version='10.7.0.0000-0082'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.softwareag.cmp.mws.impl&#xA;Bundle-Version: 10.7.0.0000-0082&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.softwareag.cmp.features.cmp.eventrouting.feature.feature.jar' version='10.7.0.0000-0082'>
+      <properties size='9'>
+        <property name='org.eclipse.equinox.p2.name' value='%featureName'/>
+        <property name='org.eclipse.equinox.p2.description' value='%description'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='%descriptionURL'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%providerName'/>
+        <property name='df_LT.license' value='For Software AG Legal Notices please refer to: http://softwareag.com/licenses and/or in the root installation directory of the licensed product(s).'/>
+        <property name='df_LT.copyright' value='Copyright &amp;copy; 2006 - 2020 Software AG, Darmstadt, Germany and/or Software AG USA Inc., Reston, VA, USA, and/or its subsidiaries and/or its affiliates and/or their licensors. The name Software AG and all Software AG product names are either trademarks or registered trademarks of Software AG and/or Software AG USA Inc. and/or its subsidiaries and/or its affiliates and/or their licensors. Other company and product names mentioned herein may be trademarks of their respective owners. Detailed information on trademarks and patents owned by Software AG and/or its subsidiaries is located at {http://softwareag.com/licenses}. This software may include portions of third-party products. For third-party copyright notices, license terms, additional rights or restrictions, please refer to &quot;License Texts, Copyright Notices and Disclaimers of Third Party Products&quot;. For certain specific third-party license restrictions, please refer to section E of the Legal Notices available under &quot;License Terms and Conditions for Use of Software AG Products / Copyright and Trademark Notices of Software AG Products&quot;. These documents are part of the product documentation, located at {http://softwareag.com/licenses} and/or in the root installation directory of the licensed product(s). Use, reproduction, transfer, publication or disclosure is prohibited except as specifically provided for in your License Agreement with Software AG.'/>
+        <property name='df_LT.featureName' value='CMP Event Routing feature'/>
+        <property name='df_LT.description' value='Software AG CMP Event Routing feature'/>
+        <property name='df_LT.providerName' value='Software AG'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.cmp.features.cmp.eventrouting.feature.feature.jar' version='10.7.0.0000-0082'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
+        <provided namespace='org.eclipse.update.feature' name='com.softwareag.cmp.features.cmp.eventrouting.feature' version='10.7.0.0000-0082'/>
+      </provides>
+      <filter>
+        (org.eclipse.update.install.features=true)
+      </filter>
+      <artifacts size='1'>
+        <artifact classifier='org.eclipse.update.feature' id='com.softwareag.cmp.features.cmp.eventrouting.feature' version='10.7.0.0000-0082'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+        </instructions>
+      </touchpointData>
+      <licenses size='1'>
+        <license uri='%25licenseURL' url='%25licenseURL'>
+          %license
+        </license>
+      </licenses>
+      <copyright uri='%25copyrightURL' url='%25copyrightURL'>
+        %copyright
+      </copyright>
+    </unit>
+    <unit id='com.softwareag.cmp.features.cmp.infradc.feature.feature.group' version='10.7.0.0000-0082' singleton='false'>
+      <update id='com.softwareag.cmp.features.cmp.infradc.feature.feature.group' range='[0.0.0,10.7.0.0000-0082)' severity='0'/>
+      <properties size='10'>
+        <property name='org.eclipse.equinox.p2.name' value='%featureName'/>
+        <property name='org.eclipse.equinox.p2.description' value='%description'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='%descriptionURL'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%providerName'/>
+        <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+        <property name='df_LT.license' value='For Software AG Legal Notices please refer to: http://softwareag.com/licenses and/or in the root installation directory of the licensed product(s).'/>
+        <property name='df_LT.copyright' value='Copyright &amp;copy; 2006 - 2020 Software AG, Darmstadt, Germany and/or Software AG USA Inc., Reston, VA, USA, and/or its subsidiaries and/or its affiliates and/or their licensors. The name Software AG and all Software AG product names are either trademarks or registered trademarks of Software AG and/or Software AG USA Inc. and/or its subsidiaries and/or its affiliates and/or their licensors. Other company and product names mentioned herein may be trademarks of their respective owners. Detailed information on trademarks and patents owned by Software AG and/or its subsidiaries is located at {http://softwareag.com/licenses}. This software may include portions of third-party products. For third-party copyright notices, license terms, additional rights or restrictions, please refer to &quot;License Texts, Copyright Notices and Disclaimers of Third Party Products&quot;. For certain specific third-party license restrictions, please refer to section E of the Legal Notices available under &quot;License Terms and Conditions for Use of Software AG Products / Copyright and Trademark Notices of Software AG Products&quot;. These documents are part of the product documentation, located at {http://softwareag.com/licenses} and/or in the root installation directory of the licensed product(s). Use, reproduction, transfer, publication or disclosure is prohibited except as specifically provided for in your License Agreement with Software AG.'/>
+        <property name='df_LT.featureName' value='CMP InfraDC feature'/>
+        <property name='df_LT.description' value='Software AG CMP InfraDC feature'/>
+        <property name='df_LT.providerName' value='Software AG'/>
+      </properties>
+      <provides size='2'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.cmp.features.cmp.infradc.feature.feature.group' version='10.7.0.0000-0082'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+      </provides>
+      <requires size='3'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.tps.apache.httpcomponents.feature.feature.group' range='10.7.0.0000-0000'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.cmp.infradc.impl' range='[10.7.0.0000-0082,10.7.0.0000-0082]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.cmp.features.cmp.infradc.feature.feature.jar' range='[10.7.0.0000-0082,10.7.0.0000-0082]'>
+          <filter>
+            (org.eclipse.update.install.features=true)
+          </filter>
+        </required>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+      <licenses size='1'>
+        <license uri='%25licenseURL' url='%25licenseURL'>
+          %license
+        </license>
+      </licenses>
+      <copyright uri='%25copyrightURL' url='%25copyrightURL'>
+        %copyright
+      </copyright>
+    </unit>
+    <unit id='com.softwareag.cmp.features.cmp.um.feature.feature.jar' version='10.7.0.0000-0082'>
+      <properties size='9'>
+        <property name='org.eclipse.equinox.p2.name' value='%featureName'/>
+        <property name='org.eclipse.equinox.p2.description' value='%description'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='%descriptionURL'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%providerName'/>
+        <property name='df_LT.license' value='For Software AG Legal Notices please refer to: http://softwareag.com/licenses and/or in the root installation directory of the licensed product(s).'/>
+        <property name='df_LT.copyright' value='Copyright &amp;copy; 2006 - 2020 Software AG, Darmstadt, Germany and/or Software AG USA Inc., Reston, VA, USA, and/or its subsidiaries and/or its affiliates and/or their licensors. The name Software AG and all Software AG product names are either trademarks or registered trademarks of Software AG and/or Software AG USA Inc. and/or its subsidiaries and/or its affiliates and/or their licensors. Other company and product names mentioned herein may be trademarks of their respective owners. Detailed information on trademarks and patents owned by Software AG and/or its subsidiaries is located at {http://softwareag.com/licenses}. This software may include portions of third-party products. For third-party copyright notices, license terms, additional rights or restrictions, please refer to &quot;License Texts, Copyright Notices and Disclaimers of Third Party Products&quot;. For certain specific third-party license restrictions, please refer to section E of the Legal Notices available under &quot;License Terms and Conditions for Use of Software AG Products / Copyright and Trademark Notices of Software AG Products&quot;. These documents are part of the product documentation, located at {http://softwareag.com/licenses} and/or in the root installation directory of the licensed product(s). Use, reproduction, transfer, publication or disclosure is prohibited except as specifically provided for in your License Agreement with Software AG.'/>
+        <property name='df_LT.featureName' value='CMP UM feature'/>
+        <property name='df_LT.description' value='Software AG CMP UM feature'/>
+        <property name='df_LT.providerName' value='Software AG'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.cmp.features.cmp.um.feature.feature.jar' version='10.7.0.0000-0082'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
+        <provided namespace='org.eclipse.update.feature' name='com.softwareag.cmp.features.cmp.um.feature' version='10.7.0.0000-0082'/>
+      </provides>
+      <filter>
+        (org.eclipse.update.install.features=true)
+      </filter>
+      <artifacts size='1'>
+        <artifact classifier='org.eclipse.update.feature' id='com.softwareag.cmp.features.cmp.um.feature' version='10.7.0.0000-0082'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+        </instructions>
+      </touchpointData>
+      <licenses size='1'>
+        <license uri='%25licenseURL' url='%25licenseURL'>
+          %license
+        </license>
+      </licenses>
+      <copyright uri='%25copyrightURL' url='%25copyrightURL'>
+        %copyright
+      </copyright>
+    </unit>
+    <unit id='com.softwareag.cmp.features.cmp.jmx.feature.feature.jar' version='10.7.0.0000-0082'>
+      <properties size='9'>
+        <property name='org.eclipse.equinox.p2.name' value='%featureName'/>
+        <property name='org.eclipse.equinox.p2.description' value='%description'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='%descriptionURL'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%providerName'/>
+        <property name='df_LT.license' value='For Software AG Legal Notices please refer to: http://softwareag.com/licenses and/or in the root installation directory of the licensed product(s).'/>
+        <property name='df_LT.copyright' value='Copyright &amp;copy; 2006 - 2020 Software AG, Darmstadt, Germany and/or Software AG USA Inc., Reston, VA, USA, and/or its subsidiaries and/or its affiliates and/or their licensors. The name Software AG and all Software AG product names are either trademarks or registered trademarks of Software AG and/or Software AG USA Inc. and/or its subsidiaries and/or its affiliates and/or their licensors. Other company and product names mentioned herein may be trademarks of their respective owners. Detailed information on trademarks and patents owned by Software AG and/or its subsidiaries is located at {http://softwareag.com/licenses}. This software may include portions of third-party products. For third-party copyright notices, license terms, additional rights or restrictions, please refer to &quot;License Texts, Copyright Notices and Disclaimers of Third Party Products&quot;. For certain specific third-party license restrictions, please refer to section E of the Legal Notices available under &quot;License Terms and Conditions for Use of Software AG Products / Copyright and Trademark Notices of Software AG Products&quot;. These documents are part of the product documentation, located at {http://softwareag.com/licenses} and/or in the root installation directory of the licensed product(s). Use, reproduction, transfer, publication or disclosure is prohibited except as specifically provided for in your License Agreement with Software AG.'/>
+        <property name='df_LT.featureName' value='CMP JMX feature'/>
+        <property name='df_LT.description' value='Software AG CMP JMX feature'/>
+        <property name='df_LT.providerName' value='Software AG'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.cmp.features.cmp.jmx.feature.feature.jar' version='10.7.0.0000-0082'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
+        <provided namespace='org.eclipse.update.feature' name='com.softwareag.cmp.features.cmp.jmx.feature' version='10.7.0.0000-0082'/>
+      </provides>
+      <filter>
+        (org.eclipse.update.install.features=true)
+      </filter>
+      <artifacts size='1'>
+        <artifact classifier='org.eclipse.update.feature' id='com.softwareag.cmp.features.cmp.jmx.feature' version='10.7.0.0000-0082'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+        </instructions>
+      </touchpointData>
+      <licenses size='1'>
+        <license uri='%25licenseURL' url='%25licenseURL'>
+          %license
+        </license>
+      </licenses>
+      <copyright uri='%25copyrightURL' url='%25copyrightURL'>
+        %copyright
+      </copyright>
+    </unit>
+    <unit id='com.softwareag.cmp.features.cmp.jmx.feature.feature.group' version='10.7.0.0000-0082' singleton='false'>
+      <update id='com.softwareag.cmp.features.cmp.jmx.feature.feature.group' range='[0.0.0,10.7.0.0000-0082)' severity='0'/>
+      <properties size='10'>
+        <property name='org.eclipse.equinox.p2.name' value='%featureName'/>
+        <property name='org.eclipse.equinox.p2.description' value='%description'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='%descriptionURL'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%providerName'/>
+        <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+        <property name='df_LT.license' value='For Software AG Legal Notices please refer to: http://softwareag.com/licenses and/or in the root installation directory of the licensed product(s).'/>
+        <property name='df_LT.copyright' value='Copyright &amp;copy; 2006 - 2020 Software AG, Darmstadt, Germany and/or Software AG USA Inc., Reston, VA, USA, and/or its subsidiaries and/or its affiliates and/or their licensors. The name Software AG and all Software AG product names are either trademarks or registered trademarks of Software AG and/or Software AG USA Inc. and/or its subsidiaries and/or its affiliates and/or their licensors. Other company and product names mentioned herein may be trademarks of their respective owners. Detailed information on trademarks and patents owned by Software AG and/or its subsidiaries is located at {http://softwareag.com/licenses}. This software may include portions of third-party products. For third-party copyright notices, license terms, additional rights or restrictions, please refer to &quot;License Texts, Copyright Notices and Disclaimers of Third Party Products&quot;. For certain specific third-party license restrictions, please refer to section E of the Legal Notices available under &quot;License Terms and Conditions for Use of Software AG Products / Copyright and Trademark Notices of Software AG Products&quot;. These documents are part of the product documentation, located at {http://softwareag.com/licenses} and/or in the root installation directory of the licensed product(s). Use, reproduction, transfer, publication or disclosure is prohibited except as specifically provided for in your License Agreement with Software AG.'/>
+        <property name='df_LT.featureName' value='CMP JMX feature'/>
+        <property name='df_LT.description' value='Software AG CMP JMX feature'/>
+        <property name='df_LT.providerName' value='Software AG'/>
+      </properties>
+      <provides size='2'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.cmp.features.cmp.jmx.feature.feature.group' version='10.7.0.0000-0082'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+      </provides>
+      <requires size='2'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.cmp.jmx.impl' range='[10.7.0.0000-0082,10.7.0.0000-0082]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.cmp.features.cmp.jmx.feature.feature.jar' range='[10.7.0.0000-0082,10.7.0.0000-0082]'>
+          <filter>
+            (org.eclipse.update.install.features=true)
+          </filter>
+        </required>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+      <licenses size='1'>
+        <license uri='%25licenseURL' url='%25licenseURL'>
+          %license
+        </license>
+      </licenses>
+      <copyright uri='%25copyrightURL' url='%25copyrightURL'>
+        %copyright
+      </copyright>
+    </unit>
+    <unit id='com.softwareag.cmp.tc.impl' version='10.7.0.0000-0082' singleton='false' generation='2'>
+      <update id='com.softwareag.cmp.tc.impl' range='[0.0.0,10.7.0.0000-0082)' severity='0'/>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='CMP cmp-tc-impl module'/>
+        <property name='org.eclipse.equinox.p2.description' value='CMP cmp-tc-impl module'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Software AG'/>
+        <property name='org.eclipse.equinox.p2.doc.url' value='http://www.softwareag.com'/>
+      </properties>
+      <provides size='15'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.cmp.tc.impl' version='10.7.0.0000-0082'/>
+        <provided namespace='osgi.bundle' name='com.softwareag.cmp.tc.impl' version='10.7.0.0000-0082'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.tc' version='10.5.0'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.tcprovider' version='10.5.0'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.tcprovider.attribute' version='10.5.0'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.tcprovider.context' version='10.5.0'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.tcprovider.metamodel' version='10.5.0'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.tcprovider.model' version='10.5.0'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.tcprovider.ping' version='10.5.0'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.tcprovider.util' version='10.5.0'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.tcprovider.util.direct' version='10.5.0'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.tcprovider.util.tms' version='10.5.0'/>
+        <provided namespace='java.package' name='metamodel' version='10.5.0'/>
+        <provided namespace='osgi.identity' name='com.softwareag.cmp.tc.impl' version='10.7.0.0000-0082'>
+          <properties size='1'>
+            <property name='type' value='osgi.bundle'/>
+          </properties>
+        </provided>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='30'>
+        <required namespace='java.package' name='com.fasterxml.jackson.core' range='[2.10.0,3.0.0)'/>
+        <required namespace='java.package' name='com.fasterxml.jackson.databind' range='[2.10.0,3.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider.attribute' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider.context' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider.metamodel' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider.model' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider.ping' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider.relation' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider.util.xml' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.tcprovider' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.cmp.tcprovider.attribute' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.cmp.tcprovider.context' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.cmp.tcprovider.metamodel' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.cmp.tcprovider.model' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.cmp.tcprovider.ping' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.cmp.tcprovider.util' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.cmp.tcprovider.util.direct' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.cmp.tcprovider.util.tms' range='0.0.0'/>
+        <required namespace='java.package' name='org.apache.http' range='[4.4.0,5.0.0)'/>
+        <required namespace='java.package' name='org.apache.http.client' range='[4.5.0,5.0.0)'/>
+        <required namespace='java.package' name='org.apache.http.client.entity' range='[4.5.0,5.0.0)'/>
+        <required namespace='java.package' name='org.apache.http.client.methods' range='[4.5.0,5.0.0)'/>
+        <required namespace='java.package' name='org.apache.http.conn' range='[4.5.0,5.0.0)'/>
+        <required namespace='java.package' name='org.apache.http.impl.client' range='[4.5.0,5.0.0)'/>
+        <required namespace='java.package' name='org.apache.http.impl.conn' range='[4.5.0,5.0.0)'/>
+        <required namespace='java.package' name='org.apache.http.message' range='[4.4.0,5.0.0)'/>
+        <required namespace='java.package' name='org.apache.http.util' range='[4.4.0,5.0.0)'/>
+        <required namespace='java.package' name='org.apache.logging.log4j' range='[2.13.0,3.0.0)'/>
+        <requiredProperties namespace='osgi.ee' match='(&amp;(osgi.ee=JavaSE)(version=1.8))'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.softwareag.cmp.tc.impl' version='10.7.0.0000-0082'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.softwareag.cmp.tc.impl&#xA;Bundle-Version: 10.7.0.0000-0082&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.softwareag.cmp.features.cmp.tc.feature.feature.group' version='10.7.0.0000-0082' singleton='false'>
+      <update id='com.softwareag.cmp.features.cmp.tc.feature.feature.group' range='[0.0.0,10.7.0.0000-0082)' severity='0'/>
+      <properties size='10'>
+        <property name='org.eclipse.equinox.p2.name' value='%featureName'/>
+        <property name='org.eclipse.equinox.p2.description' value='%description'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='%descriptionURL'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%providerName'/>
+        <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+        <property name='df_LT.license' value='For Software AG Legal Notices please refer to: http://softwareag.com/licenses and/or in the root installation directory of the licensed product(s).'/>
+        <property name='df_LT.copyright' value='Copyright &amp;copy; 2006 - 2020 Software AG, Darmstadt, Germany and/or Software AG USA Inc., Reston, VA, USA, and/or its subsidiaries and/or its affiliates and/or their licensors. The name Software AG and all Software AG product names are either trademarks or registered trademarks of Software AG and/or Software AG USA Inc. and/or its subsidiaries and/or its affiliates and/or their licensors. Other company and product names mentioned herein may be trademarks of their respective owners. Detailed information on trademarks and patents owned by Software AG and/or its subsidiaries is located at {http://softwareag.com/licenses}. This software may include portions of third-party products. For third-party copyright notices, license terms, additional rights or restrictions, please refer to &quot;License Texts, Copyright Notices and Disclaimers of Third Party Products&quot;. For certain specific third-party license restrictions, please refer to section E of the Legal Notices available under &quot;License Terms and Conditions for Use of Software AG Products / Copyright and Trademark Notices of Software AG Products&quot;. These documents are part of the product documentation, located at {http://softwareag.com/licenses} and/or in the root installation directory of the licensed product(s). Use, reproduction, transfer, publication or disclosure is prohibited except as specifically provided for in your License Agreement with Software AG.'/>
+        <property name='df_LT.featureName' value='CMP Terracotta feature'/>
+        <property name='df_LT.description' value='Software AG CMP Terracotta feature'/>
+        <property name='df_LT.providerName' value='Software AG'/>
+      </properties>
+      <provides size='2'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.cmp.features.cmp.tc.feature.feature.group' version='10.7.0.0000-0082'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+      </provides>
+      <requires size='5'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.tps.apache.httpcomponents.feature.feature.group' range='10.7.0.0000-0000'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.fasterxml.jackson.core.jackson-core' range='2.10.1'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.fasterxml.jackson.core.jackson-databind' range='2.10.1'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.cmp.tc.impl' range='[10.7.0.0000-0082,10.7.0.0000-0082]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.cmp.features.cmp.tc.feature.feature.jar' range='[10.7.0.0000-0082,10.7.0.0000-0082]'>
+          <filter>
+            (org.eclipse.update.install.features=true)
+          </filter>
+        </required>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+      <licenses size='1'>
+        <license uri='%25licenseURL' url='%25licenseURL'>
+          %license
+        </license>
+      </licenses>
+      <copyright uri='%25copyrightURL' url='%25copyrightURL'>
+        %copyright
+      </copyright>
+    </unit>
+    <unit id='com.softwareag.cmp.features.cmp.presto.feature.feature.group' version='10.7.0.0000-0082' singleton='false'>
+      <update id='com.softwareag.cmp.features.cmp.presto.feature.feature.group' range='[0.0.0,10.7.0.0000-0082)' severity='0'/>
+      <properties size='10'>
+        <property name='org.eclipse.equinox.p2.name' value='%featureName'/>
+        <property name='org.eclipse.equinox.p2.description' value='%description'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='%descriptionURL'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%providerName'/>
+        <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+        <property name='df_LT.license' value='For Software AG Legal Notices please refer to: http://softwareag.com/licenses and/or in the root installation directory of the licensed product(s).'/>
+        <property name='df_LT.copyright' value='Copyright &amp;copy; 2006 - 2020 Software AG, Darmstadt, Germany and/or Software AG USA Inc., Reston, VA, USA, and/or its subsidiaries and/or its affiliates and/or their licensors. The name Software AG and all Software AG product names are either trademarks or registered trademarks of Software AG and/or Software AG USA Inc. and/or its subsidiaries and/or its affiliates and/or their licensors. Other company and product names mentioned herein may be trademarks of their respective owners. Detailed information on trademarks and patents owned by Software AG and/or its subsidiaries is located at {http://softwareag.com/licenses}. This software may include portions of third-party products. For third-party copyright notices, license terms, additional rights or restrictions, please refer to &quot;License Texts, Copyright Notices and Disclaimers of Third Party Products&quot;. For certain specific third-party license restrictions, please refer to section E of the Legal Notices available under &quot;License Terms and Conditions for Use of Software AG Products / Copyright and Trademark Notices of Software AG Products&quot;. These documents are part of the product documentation, located at {http://softwareag.com/licenses} and/or in the root installation directory of the licensed product(s). Use, reproduction, transfer, publication or disclosure is prohibited except as specifically provided for in your License Agreement with Software AG.'/>
+        <property name='df_LT.featureName' value='CMP Presto feature'/>
+        <property name='df_LT.description' value='Software AG CMP Presto feature'/>
+        <property name='df_LT.providerName' value='Software AG'/>
+      </properties>
+      <provides size='2'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.cmp.features.cmp.presto.feature.feature.group' version='10.7.0.0000-0082'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+      </provides>
+      <requires size='9'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.cmp.features.cmp.um99.feature.feature.group' range='10.7.0.0000-0000'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.tps.apache.commons.codec.feature.feature.group' range='10.7.0.0000-0000'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.tps.apache.httpcomponents.feature.feature.group' range='10.7.0.0000-0000'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.tps.apache.commons.logging.feature.feature.group' range='10.7.0.0000-0000'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.cmp.presto.impl' range='[10.7.0.0000-0082,10.7.0.0000-0082]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.cmp.jmx.impl' range='[10.7.0.0000-0082,10.7.0.0000-0082]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.cmp.verify.common' range='[10.7.0.0000-0082,10.7.0.0000-0082]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.cmp.util' range='[10.7.0.0000-0082,10.7.0.0000-0082]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.cmp.features.cmp.presto.feature.feature.jar' range='[10.7.0.0000-0082,10.7.0.0000-0082]'>
+          <filter>
+            (org.eclipse.update.install.features=true)
+          </filter>
+        </required>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+      <licenses size='1'>
+        <license uri='%25licenseURL' url='%25licenseURL'>
+          %license
+        </license>
+      </licenses>
+      <copyright uri='%25copyrightURL' url='%25copyrightURL'>
+        %copyright
+      </copyright>
+    </unit>
+    <unit id='com.softwareag.cmp.features.cmp.mws.feature.feature.group' version='10.7.0.0000-0082' singleton='false'>
+      <update id='com.softwareag.cmp.features.cmp.mws.feature.feature.group' range='[0.0.0,10.7.0.0000-0082)' severity='0'/>
+      <properties size='10'>
+        <property name='org.eclipse.equinox.p2.name' value='%featureName'/>
+        <property name='org.eclipse.equinox.p2.description' value='%description'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='%descriptionURL'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%providerName'/>
+        <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+        <property name='df_LT.license' value='For Software AG Legal Notices please refer to: http://softwareag.com/licenses and/or in the root installation directory of the licensed product(s).'/>
+        <property name='df_LT.copyright' value='Copyright &amp;copy; 2006 - 2020 Software AG, Darmstadt, Germany and/or Software AG USA Inc., Reston, VA, USA, and/or its subsidiaries and/or its affiliates and/or their licensors. The name Software AG and all Software AG product names are either trademarks or registered trademarks of Software AG and/or Software AG USA Inc. and/or its subsidiaries and/or its affiliates and/or their licensors. Other company and product names mentioned herein may be trademarks of their respective owners. Detailed information on trademarks and patents owned by Software AG and/or its subsidiaries is located at {http://softwareag.com/licenses}. This software may include portions of third-party products. For third-party copyright notices, license terms, additional rights or restrictions, please refer to &quot;License Texts, Copyright Notices and Disclaimers of Third Party Products&quot;. For certain specific third-party license restrictions, please refer to section E of the Legal Notices available under &quot;License Terms and Conditions for Use of Software AG Products / Copyright and Trademark Notices of Software AG Products&quot;. These documents are part of the product documentation, located at {http://softwareag.com/licenses} and/or in the root installation directory of the licensed product(s). Use, reproduction, transfer, publication or disclosure is prohibited except as specifically provided for in your License Agreement with Software AG.'/>
+        <property name='df_LT.featureName' value='CMP MWS feature'/>
+        <property name='df_LT.description' value='Software AG CMP MWS feature'/>
+        <property name='df_LT.providerName' value='Software AG'/>
+      </properties>
+      <provides size='2'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.cmp.features.cmp.mws.feature.feature.group' version='10.7.0.0000-0082'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+      </provides>
+      <requires size='3'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.tps.gf.javax.ws.rs.api.feature.feature.group' range='10.7.0.0000-0000'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.cmp.mws.impl' range='[10.7.0.0000-0082,10.7.0.0000-0082]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.cmp.features.cmp.mws.feature.feature.jar' range='[10.7.0.0000-0082,10.7.0.0000-0082]'>
+          <filter>
+            (org.eclipse.update.install.features=true)
+          </filter>
+        </required>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+      <licenses size='1'>
+        <license uri='%25licenseURL' url='%25licenseURL'>
+          %license
+        </license>
+      </licenses>
+      <copyright uri='%25copyrightURL' url='%25copyrightURL'>
+        %copyright
+      </copyright>
+    </unit>
+    <unit id='com.softwareag.cmp.features.cmp.apama.feature.feature.group' version='10.7.0.0000-0082' singleton='false'>
+      <update id='com.softwareag.cmp.features.cmp.apama.feature.feature.group' range='[0.0.0,10.7.0.0000-0082)' severity='0'/>
+      <properties size='10'>
+        <property name='org.eclipse.equinox.p2.name' value='%featureName'/>
+        <property name='org.eclipse.equinox.p2.description' value='%description'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='%descriptionURL'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%providerName'/>
+        <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+        <property name='df_LT.license' value='For Software AG Legal Notices please refer to: http://softwareag.com/licenses and/or in the root installation directory of the licensed product(s).'/>
+        <property name='df_LT.copyright' value='Copyright &amp;copy; 2006 - 2020 Software AG, Darmstadt, Germany and/or Software AG USA Inc., Reston, VA, USA, and/or its subsidiaries and/or its affiliates and/or their licensors. The name Software AG and all Software AG product names are either trademarks or registered trademarks of Software AG and/or Software AG USA Inc. and/or its subsidiaries and/or its affiliates and/or their licensors. Other company and product names mentioned herein may be trademarks of their respective owners. Detailed information on trademarks and patents owned by Software AG and/or its subsidiaries is located at {http://softwareag.com/licenses}. This software may include portions of third-party products. For third-party copyright notices, license terms, additional rights or restrictions, please refer to &quot;License Texts, Copyright Notices and Disclaimers of Third Party Products&quot;. For certain specific third-party license restrictions, please refer to section E of the Legal Notices available under &quot;License Terms and Conditions for Use of Software AG Products / Copyright and Trademark Notices of Software AG Products&quot;. These documents are part of the product documentation, located at {http://softwareag.com/licenses} and/or in the root installation directory of the licensed product(s). Use, reproduction, transfer, publication or disclosure is prohibited except as specifically provided for in your License Agreement with Software AG.'/>
+        <property name='df_LT.featureName' value='CMP Apama feature'/>
+        <property name='df_LT.description' value='Software AG CMP Apama feature'/>
+        <property name='df_LT.providerName' value='Software AG'/>
+      </properties>
+      <provides size='2'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.cmp.features.cmp.apama.feature.feature.group' version='10.7.0.0000-0082'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+      </provides>
+      <requires size='3'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.tps.apache.httpcomponents.feature.feature.group' range='10.7.0.0000-0000'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.cmp.apama.impl' range='[10.7.0.0000-0082,10.7.0.0000-0082]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.cmp.features.cmp.apama.feature.feature.jar' range='[10.7.0.0000-0082,10.7.0.0000-0082]'>
+          <filter>
+            (org.eclipse.update.install.features=true)
+          </filter>
+        </required>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+      <licenses size='1'>
+        <license uri='%25licenseURL' url='%25licenseURL'>
+          %license
+        </license>
+      </licenses>
+      <copyright uri='%25copyrightURL' url='%25copyrightURL'>
+        %copyright
+      </copyright>
+    </unit>
+    <unit id='com.softwareag.cmp.des.impl' version='10.7.0.0000-0082' singleton='false' generation='2'>
+      <update id='com.softwareag.cmp.des.impl' range='[0.0.0,10.7.0.0000-0082)' severity='0'/>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='CMP cmp-des-impl module'/>
+        <property name='org.eclipse.equinox.p2.description' value='CMP cmp-des-impl module'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Software AG'/>
+        <property name='org.eclipse.equinox.p2.doc.url' value='http://www.softwareag.com'/>
+      </properties>
+      <provides size='12'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.cmp.des.impl' version='10.7.0.0000-0082'/>
+        <provided namespace='osgi.bundle' name='com.softwareag.cmp.des.impl' version='10.7.0.0000-0082'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.des' version='10.5.0'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.desprovider' version='10.5.0'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.desprovider.attribute' version='10.5.0'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.desprovider.context' version='10.5.0'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.desprovider.metamodel' version='10.5.0'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.desprovider.model' version='10.5.0'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.desprovider.ping' version='10.5.0'/>
+        <provided namespace='java.package' name='metamodel' version='10.5.0'/>
+        <provided namespace='osgi.identity' name='com.softwareag.cmp.des.impl' version='10.7.0.0000-0082'>
+          <properties size='1'>
+            <property name='type' value='osgi.bundle'/>
+          </properties>
+        </provided>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='18'>
+        <required namespace='java.package' name='com.softwareag.cmp.desprovider' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.cmp.desprovider.attribute' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.cmp.desprovider.context' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.cmp.desprovider.metamodel' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.cmp.desprovider.model' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.cmp.desprovider.ping' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider.attribute' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider.context' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider.metamodel' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider.model' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider.ping' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider.relation' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider.util.xml' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='javax.management' range='0.0.0'/>
+        <required namespace='java.package' name='javax.management.remote' range='0.0.0'/>
+        <required namespace='java.package' name='org.apache.logging.log4j' range='[2.13.0,3.0.0)'/>
+        <requiredProperties namespace='osgi.ee' match='(&amp;(osgi.ee=JavaSE)(version=1.8))'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.softwareag.cmp.des.impl' version='10.7.0.0000-0082'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.softwareag.cmp.des.impl&#xA;Bundle-Version: 10.7.0.0000-0082&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.softwareag.cmp.features.cmp.um.feature.feature.group' version='10.7.0.0000-0082' singleton='false'>
+      <update id='com.softwareag.cmp.features.cmp.um.feature.feature.group' range='[0.0.0,10.7.0.0000-0082)' severity='0'/>
+      <properties size='10'>
+        <property name='org.eclipse.equinox.p2.name' value='%featureName'/>
+        <property name='org.eclipse.equinox.p2.description' value='%description'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='%descriptionURL'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%providerName'/>
+        <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+        <property name='df_LT.license' value='For Software AG Legal Notices please refer to: http://softwareag.com/licenses and/or in the root installation directory of the licensed product(s).'/>
+        <property name='df_LT.copyright' value='Copyright &amp;copy; 2006 - 2020 Software AG, Darmstadt, Germany and/or Software AG USA Inc., Reston, VA, USA, and/or its subsidiaries and/or its affiliates and/or their licensors. The name Software AG and all Software AG product names are either trademarks or registered trademarks of Software AG and/or Software AG USA Inc. and/or its subsidiaries and/or its affiliates and/or their licensors. Other company and product names mentioned herein may be trademarks of their respective owners. Detailed information on trademarks and patents owned by Software AG and/or its subsidiaries is located at {http://softwareag.com/licenses}. This software may include portions of third-party products. For third-party copyright notices, license terms, additional rights or restrictions, please refer to &quot;License Texts, Copyright Notices and Disclaimers of Third Party Products&quot;. For certain specific third-party license restrictions, please refer to section E of the Legal Notices available under &quot;License Terms and Conditions for Use of Software AG Products / Copyright and Trademark Notices of Software AG Products&quot;. These documents are part of the product documentation, located at {http://softwareag.com/licenses} and/or in the root installation directory of the licensed product(s). Use, reproduction, transfer, publication or disclosure is prohibited except as specifically provided for in your License Agreement with Software AG.'/>
+        <property name='df_LT.featureName' value='CMP UM feature'/>
+        <property name='df_LT.description' value='Software AG CMP UM feature'/>
+        <property name='df_LT.providerName' value='Software AG'/>
+      </properties>
+      <provides size='2'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.cmp.features.cmp.um.feature.feature.group' version='10.7.0.0000-0082'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+      </provides>
+      <requires size='3'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.mom.nirvana.shared.feature.feature.group' range='10.7.0.0000-0000'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.cmp.um.impl' range='[10.7.0.0000-0082,10.7.0.0000-0082]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.cmp.features.cmp.um.feature.feature.jar' range='[10.7.0.0000-0082,10.7.0.0000-0082]'>
+          <filter>
+            (org.eclipse.update.install.features=true)
+          </filter>
+        </required>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+      <licenses size='1'>
+        <license uri='%25licenseURL' url='%25licenseURL'>
+          %license
+        </license>
+      </licenses>
+      <copyright uri='%25copyrightURL' url='%25copyrightURL'>
+        %copyright
+      </copyright>
+    </unit>
+    <unit id='com.softwareag.cmp.um.impl' version='10.7.0.0000-0082' singleton='false' generation='2'>
+      <update id='com.softwareag.cmp.um.impl' range='[0.0.0,10.7.0.0000-0082)' severity='0'/>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='CMP cmp-um-impl module'/>
+        <property name='org.eclipse.equinox.p2.description' value='CMP cmp-um-impl module'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Software AG'/>
+        <property name='org.eclipse.equinox.p2.doc.url' value='http://www.softwareag.com'/>
+      </properties>
+      <provides size='14'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.cmp.um.impl' version='10.7.0.0000-0082'/>
+        <provided namespace='osgi.bundle' name='com.softwareag.cmp.um.impl' version='10.7.0.0000-0082'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.api' version='10.5.0'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.um' version='10.5.0'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.umprovider' version='10.5.0'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.umprovider.attribute' version='10.5.0'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.umprovider.context' version='10.5.0'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.umprovider.metamodel' version='10.5.0'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.umprovider.model' version='10.5.0'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.umprovider.ping' version='10.5.0'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.umprovider.util' version='10.5.0'/>
+        <provided namespace='java.package' name='metamodel' version='10.5.0'/>
+        <provided namespace='osgi.identity' name='com.softwareag.cmp.um.impl' version='10.7.0.0000-0082'>
+          <properties size='1'>
+            <property name='type' value='osgi.bundle'/>
+          </properties>
+        </provided>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='20'>
+        <required namespace='java.package' name='com.pcbsys.nirvana.client' range='[10.7.0,11.0.0)'/>
+        <required namespace='java.package' name='com.pcbsys.nirvana.nAdminAPI' range='[10.7.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider.attribute' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider.context' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider.metamodel' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider.model' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider.ping' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider.relation' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider.util' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider.util.xml' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.umprovider' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.cmp.umprovider.attribute' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.cmp.umprovider.context' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.cmp.umprovider.metamodel' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.cmp.umprovider.model' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.cmp.umprovider.ping' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.cmp.umprovider.util' range='0.0.0'/>
+        <required namespace='java.package' name='org.apache.logging.log4j' range='[2.13.0,3.0.0)'/>
+        <requiredProperties namespace='osgi.ee' match='(&amp;(osgi.ee=JavaSE)(version=1.8))'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.softwareag.cmp.um.impl' version='10.7.0.0000-0082'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.softwareag.cmp.um.impl&#xA;Bundle-Version: 10.7.0.0000-0082&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.softwareag.cmp.broker.impl' version='10.7.0.0000-0082' singleton='false' generation='2'>
+      <update id='com.softwareag.cmp.broker.impl' range='[0.0.0,10.7.0.0000-0082)' severity='0'/>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='CMP cmp-broker-impl module'/>
+        <property name='org.eclipse.equinox.p2.description' value='CMP cmp-broker-impl module'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Software AG'/>
+        <property name='org.eclipse.equinox.p2.doc.url' value='http://www.softwareag.com'/>
+      </properties>
+      <provides size='12'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.cmp.broker.impl' version='10.7.0.0000-0082'/>
+        <provided namespace='osgi.bundle' name='com.softwareag.cmp.broker.impl' version='10.7.0.0000-0082'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.broker' version='10.5.0'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.brokerprovider' version='10.5.0'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.brokerprovider.attribute' version='10.5.0'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.brokerprovider.context' version='10.5.0'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.brokerprovider.metamodel' version='10.5.0'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.brokerprovider.model' version='10.5.0'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.brokerprovider.ping' version='10.5.0'/>
+        <provided namespace='java.package' name='metamodel' version='10.5.0'/>
+        <provided namespace='osgi.identity' name='com.softwareag.cmp.broker.impl' version='10.7.0.0000-0082'>
+          <properties size='1'>
+            <property name='type' value='osgi.bundle'/>
+          </properties>
+        </provided>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='18'>
+        <required namespace='java.package' name='COM.activesw.api.client' range='[9.6.0,11.0.0)'/>
+        <required namespace='java.package' name='COM.activesw.api.client.enums' range='[9.6.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.brokerprovider' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.cmp.brokerprovider.attribute' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.cmp.brokerprovider.context' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.cmp.brokerprovider.metamodel' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.cmp.brokerprovider.model' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.cmp.brokerprovider.ping' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider.attribute' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider.context' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider.metamodel' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider.model' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider.ping' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider.relation' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider.util.xml' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='org.apache.logging.log4j' range='[2.13.0,3.0.0)'/>
+        <requiredProperties namespace='osgi.ee' match='(&amp;(osgi.ee=JavaSE)(version=1.8))'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.softwareag.cmp.broker.impl' version='10.7.0.0000-0082'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.softwareag.cmp.broker.impl&#xA;Bundle-Version: 10.7.0.0000-0082&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.softwareag.cmp.features.cmp.mzng.feature.feature.group' version='10.7.0.0000-0082' singleton='false'>
+      <update id='com.softwareag.cmp.features.cmp.mzng.feature.feature.group' range='[0.0.0,10.7.0.0000-0082)' severity='0'/>
+      <properties size='10'>
+        <property name='org.eclipse.equinox.p2.name' value='%featureName'/>
+        <property name='org.eclipse.equinox.p2.description' value='%description'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='%descriptionURL'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%providerName'/>
+        <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+        <property name='df_LT.license' value='For Software AG Legal Notices please refer to: http://softwareag.com/licenses and/or in the root installation directory of the licensed product(s).'/>
+        <property name='df_LT.copyright' value='Copyright &amp;copy; 2006 - 2020 Software AG, Darmstadt, Germany and/or Software AG USA Inc., Reston, VA, USA, and/or its subsidiaries and/or its affiliates and/or their licensors. The name Software AG and all Software AG product names are either trademarks or registered trademarks of Software AG and/or Software AG USA Inc. and/or its subsidiaries and/or its affiliates and/or their licensors. Other company and product names mentioned herein may be trademarks of their respective owners. Detailed information on trademarks and patents owned by Software AG and/or its subsidiaries is located at {http://softwareag.com/licenses}. This software may include portions of third-party products. For third-party copyright notices, license terms, additional rights or restrictions, please refer to &quot;License Texts, Copyright Notices and Disclaimers of Third Party Products&quot;. For certain specific third-party license restrictions, please refer to section E of the Legal Notices available under &quot;License Terms and Conditions for Use of Software AG Products / Copyright and Trademark Notices of Software AG Products&quot;. These documents are part of the product documentation, located at {http://softwareag.com/licenses} and/or in the root installation directory of the licensed product(s). Use, reproduction, transfer, publication or disclosure is prohibited except as specifically provided for in your License Agreement with Software AG.'/>
+        <property name='df_LT.featureName' value='CMP MZNG feature'/>
+        <property name='df_LT.description' value='Software AG CMP MZNG feature'/>
+        <property name='df_LT.providerName' value='Software AG'/>
+      </properties>
+      <provides size='2'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.cmp.features.cmp.mzng.feature.feature.group' version='10.7.0.0000-0082'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+      </provides>
+      <requires size='19'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.cmp.features.cmp.um104.feature.feature.group' range='10.7.0.0000-0000'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.tps.apache.httpcomponents.feature.feature.group' range='10.7.0.0000-0000'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.cmp.features.cmp.um912.feature.feature.group' range='10.7.0.0000-0000'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.cmp.features.cmp.um102.feature.feature.group' range='10.7.0.0000-0000'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.cmp.features.cmp.um105.feature.feature.group' range='10.7.0.0000-0000'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.fasterxml.jackson.core.jackson-databind' range='2.9.9'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.cmp.features.cmp.um100.feature.feature.group' range='10.7.0.0000-0000'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.fasterxml.jackson.core.jackson-core' range='2.9.9'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.cmp.features.cmp.um101.feature.feature.group' range='10.7.0.0000-0000'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.tps.apache.commons.codec.feature.feature.group' range='10.7.0.0000-0000'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.tps.apache.commons.logging.feature.feature.group' range='10.7.0.0000-0000'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.cmp.features.cmp.um910.feature.feature.group' range='10.7.0.0000-0000'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.cmp.features.cmp.um.feature.feature.group' range='10.7.0.0000-0000'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.cmp.features.cmp.um103.feature.feature.group' range='10.7.0.0000-0000'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.cmp.jmx.impl' range='[10.7.0.0000-0082,10.7.0.0000-0082]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.cmp.verify.common' range='[10.7.0.0000-0082,10.7.0.0000-0082]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.cmp.util' range='[10.7.0.0000-0082,10.7.0.0000-0082]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.cmp.mzng.impl' range='[10.7.0.0000-0082,10.7.0.0000-0082]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.cmp.features.cmp.mzng.feature.feature.jar' range='[10.7.0.0000-0082,10.7.0.0000-0082]'>
+          <filter>
+            (org.eclipse.update.install.features=true)
+          </filter>
+        </required>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+      <licenses size='1'>
+        <license uri='%25licenseURL' url='%25licenseURL'>
+          %license
+        </license>
+      </licenses>
+      <copyright uri='%25copyrightURL' url='%25copyrightURL'>
+        %copyright
+      </copyright>
+    </unit>
+    <unit id='com.softwareag.cmp.eventrouting.impl' version='10.7.0.0000-0082' singleton='false' generation='2'>
+      <update id='com.softwareag.cmp.eventrouting.impl' range='[0.0.0,10.7.0.0000-0082)' severity='0'/>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='CMP cmp-eventrouting-impl module'/>
+        <property name='org.eclipse.equinox.p2.description' value='CMP cmp-eventrouting-impl module'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Software AG'/>
+        <property name='org.eclipse.equinox.p2.doc.url' value='http://www.softwareag.com'/>
+      </properties>
+      <provides size='12'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.cmp.eventrouting.impl' version='10.7.0.0000-0082'/>
+        <provided namespace='osgi.bundle' name='com.softwareag.cmp.eventrouting.impl' version='10.7.0.0000-0082'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.eventrouting' version='10.5.0'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.eventroutingprovider' version='10.5.0'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.eventroutingprovider.attribute' version='10.5.0'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.eventroutingprovider.context' version='10.5.0'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.eventroutingprovider.metamodel' version='10.5.0'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.eventroutingprovider.model' version='10.5.0'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.eventroutingprovider.ping' version='10.5.0'/>
+        <provided namespace='java.package' name='metamodel' version='10.5.0'/>
+        <provided namespace='osgi.identity' name='com.softwareag.cmp.eventrouting.impl' version='10.7.0.0000-0082'>
+          <properties size='1'>
+            <property name='type' value='osgi.bundle'/>
+          </properties>
+        </provided>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='18'>
+        <required namespace='java.package' name='com.softwareag.cmp.eventroutingprovider' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.cmp.eventroutingprovider.attribute' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.cmp.eventroutingprovider.context' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.cmp.eventroutingprovider.metamodel' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.cmp.eventroutingprovider.model' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.cmp.eventroutingprovider.ping' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider.attribute' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider.context' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider.metamodel' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider.model' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider.ping' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider.relation' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider.util.xml' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='javax.management' range='0.0.0'/>
+        <required namespace='java.package' name='javax.management.remote' range='0.0.0'/>
+        <required namespace='java.package' name='org.apache.logging.log4j' range='[2.13.0,3.0.0)'/>
+        <requiredProperties namespace='osgi.ee' match='(&amp;(osgi.ee=JavaSE)(version=1.8))'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.softwareag.cmp.eventrouting.impl' version='10.7.0.0000-0082'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.softwareag.cmp.eventrouting.impl&#xA;Bundle-Version: 10.7.0.0000-0082&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.softwareag.cmp.features.cmp.eventrouting.feature.feature.group' version='10.7.0.0000-0082' singleton='false'>
+      <update id='com.softwareag.cmp.features.cmp.eventrouting.feature.feature.group' range='[0.0.0,10.7.0.0000-0082)' severity='0'/>
+      <properties size='10'>
+        <property name='org.eclipse.equinox.p2.name' value='%featureName'/>
+        <property name='org.eclipse.equinox.p2.description' value='%description'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='%descriptionURL'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%providerName'/>
+        <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+        <property name='df_LT.license' value='For Software AG Legal Notices please refer to: http://softwareag.com/licenses and/or in the root installation directory of the licensed product(s).'/>
+        <property name='df_LT.copyright' value='Copyright &amp;copy; 2006 - 2020 Software AG, Darmstadt, Germany and/or Software AG USA Inc., Reston, VA, USA, and/or its subsidiaries and/or its affiliates and/or their licensors. The name Software AG and all Software AG product names are either trademarks or registered trademarks of Software AG and/or Software AG USA Inc. and/or its subsidiaries and/or its affiliates and/or their licensors. Other company and product names mentioned herein may be trademarks of their respective owners. Detailed information on trademarks and patents owned by Software AG and/or its subsidiaries is located at {http://softwareag.com/licenses}. This software may include portions of third-party products. For third-party copyright notices, license terms, additional rights or restrictions, please refer to &quot;License Texts, Copyright Notices and Disclaimers of Third Party Products&quot;. For certain specific third-party license restrictions, please refer to section E of the Legal Notices available under &quot;License Terms and Conditions for Use of Software AG Products / Copyright and Trademark Notices of Software AG Products&quot;. These documents are part of the product documentation, located at {http://softwareag.com/licenses} and/or in the root installation directory of the licensed product(s). Use, reproduction, transfer, publication or disclosure is prohibited except as specifically provided for in your License Agreement with Software AG.'/>
+        <property name='df_LT.featureName' value='CMP Event Routing feature'/>
+        <property name='df_LT.description' value='Software AG CMP Event Routing feature'/>
+        <property name='df_LT.providerName' value='Software AG'/>
+      </properties>
+      <provides size='2'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.cmp.features.cmp.eventrouting.feature.feature.group' version='10.7.0.0000-0082'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+      </provides>
+      <requires size='2'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.cmp.eventrouting.impl' range='[10.7.0.0000-0082,10.7.0.0000-0082]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.cmp.features.cmp.eventrouting.feature.feature.jar' range='[10.7.0.0000-0082,10.7.0.0000-0082]'>
+          <filter>
+            (org.eclipse.update.install.features=true)
+          </filter>
+        </required>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+      <licenses size='1'>
+        <license uri='%25licenseURL' url='%25licenseURL'>
+          %license
+        </license>
+      </licenses>
+      <copyright uri='%25copyrightURL' url='%25copyrightURL'>
+        %copyright
+      </copyright>
+    </unit>
+    <unit id='com.softwareag.cmp.features.cmp.mzng.feature.feature.jar' version='10.7.0.0000-0082'>
+      <properties size='9'>
+        <property name='org.eclipse.equinox.p2.name' value='%featureName'/>
+        <property name='org.eclipse.equinox.p2.description' value='%description'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='%descriptionURL'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%providerName'/>
+        <property name='df_LT.license' value='For Software AG Legal Notices please refer to: http://softwareag.com/licenses and/or in the root installation directory of the licensed product(s).'/>
+        <property name='df_LT.copyright' value='Copyright &amp;copy; 2006 - 2020 Software AG, Darmstadt, Germany and/or Software AG USA Inc., Reston, VA, USA, and/or its subsidiaries and/or its affiliates and/or their licensors. The name Software AG and all Software AG product names are either trademarks or registered trademarks of Software AG and/or Software AG USA Inc. and/or its subsidiaries and/or its affiliates and/or their licensors. Other company and product names mentioned herein may be trademarks of their respective owners. Detailed information on trademarks and patents owned by Software AG and/or its subsidiaries is located at {http://softwareag.com/licenses}. This software may include portions of third-party products. For third-party copyright notices, license terms, additional rights or restrictions, please refer to &quot;License Texts, Copyright Notices and Disclaimers of Third Party Products&quot;. For certain specific third-party license restrictions, please refer to section E of the Legal Notices available under &quot;License Terms and Conditions for Use of Software AG Products / Copyright and Trademark Notices of Software AG Products&quot;. These documents are part of the product documentation, located at {http://softwareag.com/licenses} and/or in the root installation directory of the licensed product(s). Use, reproduction, transfer, publication or disclosure is prohibited except as specifically provided for in your License Agreement with Software AG.'/>
+        <property name='df_LT.featureName' value='CMP MZNG feature'/>
+        <property name='df_LT.description' value='Software AG CMP MZNG feature'/>
+        <property name='df_LT.providerName' value='Software AG'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.cmp.features.cmp.mzng.feature.feature.jar' version='10.7.0.0000-0082'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
+        <provided namespace='org.eclipse.update.feature' name='com.softwareag.cmp.features.cmp.mzng.feature' version='10.7.0.0000-0082'/>
+      </provides>
+      <filter>
+        (org.eclipse.update.install.features=true)
+      </filter>
+      <artifacts size='1'>
+        <artifact classifier='org.eclipse.update.feature' id='com.softwareag.cmp.features.cmp.mzng.feature' version='10.7.0.0000-0082'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+        </instructions>
+      </touchpointData>
+      <licenses size='1'>
+        <license uri='%25licenseURL' url='%25licenseURL'>
+          %license
+        </license>
+      </licenses>
+      <copyright uri='%25copyrightURL' url='%25copyrightURL'>
+        %copyright
+      </copyright>
+    </unit>
+    <unit id='com.softwareag.cmp.apama.impl' version='10.7.0.0000-0082' singleton='false' generation='2'>
+      <update id='com.softwareag.cmp.apama.impl' range='[0.0.0,10.7.0.0000-0082)' severity='0'/>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='CMP cmp-apama-impl module'/>
+        <property name='org.eclipse.equinox.p2.description' value='CMP cmp-apama-impl module'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Software AG'/>
+        <property name='org.eclipse.equinox.p2.doc.url' value='http://www.softwareag.com'/>
+      </properties>
+      <provides size='13'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.cmp.apama.impl' version='10.7.0.0000-0082'/>
+        <provided namespace='osgi.bundle' name='com.softwareag.cmp.apama.impl' version='10.7.0.0000-0082'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.apama' version='10.5.0'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.apamaprovider' version='10.5.0'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.apamaprovider.attribute' version='10.5.0'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.apamaprovider.context' version='10.5.0'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.apamaprovider.metamodel' version='10.5.0'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.apamaprovider.model' version='10.5.0'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.apamaprovider.ping' version='10.5.0'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.apamaprovider.util' version='10.5.0'/>
+        <provided namespace='java.package' name='metamodel' version='10.5.0'/>
+        <provided namespace='osgi.identity' name='com.softwareag.cmp.apama.impl' version='10.7.0.0000-0082'>
+          <properties size='1'>
+            <property name='type' value='osgi.bundle'/>
+          </properties>
+        </provided>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='27'>
+        <required namespace='java.package' name='com.softwareag.cmp.apamaprovider' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.cmp.apamaprovider.attribute' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.cmp.apamaprovider.context' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.cmp.apamaprovider.metamodel' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.cmp.apamaprovider.model' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.cmp.apamaprovider.ping' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.cmp.apamaprovider.util' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider.attribute' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider.context' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider.metamodel' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider.model' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider.ping' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider.relation' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider.util.xml' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='javax.xml.parsers' range='0.0.0'/>
+        <required namespace='java.package' name='org.apache.http' range='[4.4.0,5.0.0)'/>
+        <required namespace='java.package' name='org.apache.http.client' range='[4.5.0,5.0.0)'/>
+        <required namespace='java.package' name='org.apache.http.client.methods' range='[4.5.0,5.0.0)'/>
+        <required namespace='java.package' name='org.apache.http.conn' range='[4.5.0,5.0.0)'/>
+        <required namespace='java.package' name='org.apache.http.impl.client' range='[4.5.0,5.0.0)'/>
+        <required namespace='java.package' name='org.apache.http.impl.conn' range='[4.5.0,5.0.0)'/>
+        <required namespace='java.package' name='org.apache.http.util' range='[4.4.0,5.0.0)'/>
+        <required namespace='java.package' name='org.apache.logging.log4j' range='[2.13.0,3.0.0)'/>
+        <required namespace='java.package' name='org.w3c.dom' range='0.0.0'/>
+        <required namespace='java.package' name='org.xml.sax' range='0.0.0'/>
+        <requiredProperties namespace='osgi.ee' match='(&amp;(osgi.ee=JavaSE)(version=1.8))'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.softwareag.cmp.apama.impl' version='10.7.0.0000-0082'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.softwareag.cmp.apama.impl&#xA;Bundle-Version: 10.7.0.0000-0082&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.softwareag.cmp.features.cmp.infradc.feature.feature.jar' version='10.7.0.0000-0082'>
+      <properties size='9'>
+        <property name='org.eclipse.equinox.p2.name' value='%featureName'/>
+        <property name='org.eclipse.equinox.p2.description' value='%description'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='%descriptionURL'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%providerName'/>
+        <property name='df_LT.license' value='For Software AG Legal Notices please refer to: http://softwareag.com/licenses and/or in the root installation directory of the licensed product(s).'/>
+        <property name='df_LT.copyright' value='Copyright &amp;copy; 2006 - 2020 Software AG, Darmstadt, Germany and/or Software AG USA Inc., Reston, VA, USA, and/or its subsidiaries and/or its affiliates and/or their licensors. The name Software AG and all Software AG product names are either trademarks or registered trademarks of Software AG and/or Software AG USA Inc. and/or its subsidiaries and/or its affiliates and/or their licensors. Other company and product names mentioned herein may be trademarks of their respective owners. Detailed information on trademarks and patents owned by Software AG and/or its subsidiaries is located at {http://softwareag.com/licenses}. This software may include portions of third-party products. For third-party copyright notices, license terms, additional rights or restrictions, please refer to &quot;License Texts, Copyright Notices and Disclaimers of Third Party Products&quot;. For certain specific third-party license restrictions, please refer to section E of the Legal Notices available under &quot;License Terms and Conditions for Use of Software AG Products / Copyright and Trademark Notices of Software AG Products&quot;. These documents are part of the product documentation, located at {http://softwareag.com/licenses} and/or in the root installation directory of the licensed product(s). Use, reproduction, transfer, publication or disclosure is prohibited except as specifically provided for in your License Agreement with Software AG.'/>
+        <property name='df_LT.featureName' value='CMP InfraDC feature'/>
+        <property name='df_LT.description' value='Software AG CMP InfraDC feature'/>
+        <property name='df_LT.providerName' value='Software AG'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.cmp.features.cmp.infradc.feature.feature.jar' version='10.7.0.0000-0082'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
+        <provided namespace='org.eclipse.update.feature' name='com.softwareag.cmp.features.cmp.infradc.feature' version='10.7.0.0000-0082'/>
+      </provides>
+      <filter>
+        (org.eclipse.update.install.features=true)
+      </filter>
+      <artifacts size='1'>
+        <artifact classifier='org.eclipse.update.feature' id='com.softwareag.cmp.features.cmp.infradc.feature' version='10.7.0.0000-0082'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+        </instructions>
+      </touchpointData>
+      <licenses size='1'>
+        <license uri='%25licenseURL' url='%25licenseURL'>
+          %license
+        </license>
+      </licenses>
+      <copyright uri='%25copyrightURL' url='%25copyrightURL'>
+        %copyright
+      </copyright>
+    </unit>
+    <unit id='com.softwareag.cmp.util' version='10.7.0.0000-0082' singleton='false' generation='2'>
+      <update id='com.softwareag.cmp.util' range='[0.0.0,10.7.0.0000-0082)' severity='0'/>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='CMP cmp-util module'/>
+        <property name='org.eclipse.equinox.p2.description' value='CMP cmp-util module'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Software AG'/>
+        <property name='org.eclipse.equinox.p2.doc.url' value='http://www.softwareag.com'/>
+      </properties>
+      <provides size='6'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.cmp.util' version='10.7.0.0000-0082'/>
+        <provided namespace='osgi.bundle' name='com.softwareag.cmp.util' version='10.7.0.0000-0082'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.api' version='10.5.0'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.util' version='10.5.0'/>
+        <provided namespace='osgi.identity' name='com.softwareag.cmp.util' version='10.7.0.0000-0082'>
+          <properties size='1'>
+            <property name='type' value='osgi.bundle'/>
+          </properties>
+        </provided>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='2'>
+        <required namespace='java.package' name='org.apache.logging.log4j' range='[2.13.0,3.0.0)'/>
+        <requiredProperties namespace='osgi.ee' match='(&amp;(osgi.ee=JavaSE)(version=1.8))'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.softwareag.cmp.util' version='10.7.0.0000-0082'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.softwareag.cmp.util&#xA;Bundle-Version: 10.7.0.0000-0082&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.softwareag.cmp.features.cmp.des.feature.feature.jar' version='10.7.0.0000-0082'>
+      <properties size='9'>
+        <property name='org.eclipse.equinox.p2.name' value='%featureName'/>
+        <property name='org.eclipse.equinox.p2.description' value='%description'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='%descriptionURL'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%providerName'/>
+        <property name='df_LT.license' value='For Software AG Legal Notices please refer to: http://softwareag.com/licenses and/or in the root installation directory of the licensed product(s).'/>
+        <property name='df_LT.copyright' value='Copyright &amp;copy; 2006 - 2020 Software AG, Darmstadt, Germany and/or Software AG USA Inc., Reston, VA, USA, and/or its subsidiaries and/or its affiliates and/or their licensors. The name Software AG and all Software AG product names are either trademarks or registered trademarks of Software AG and/or Software AG USA Inc. and/or its subsidiaries and/or its affiliates and/or their licensors. Other company and product names mentioned herein may be trademarks of their respective owners. Detailed information on trademarks and patents owned by Software AG and/or its subsidiaries is located at {http://softwareag.com/licenses}. This software may include portions of third-party products. For third-party copyright notices, license terms, additional rights or restrictions, please refer to &quot;License Texts, Copyright Notices and Disclaimers of Third Party Products&quot;. For certain specific third-party license restrictions, please refer to section E of the Legal Notices available under &quot;License Terms and Conditions for Use of Software AG Products / Copyright and Trademark Notices of Software AG Products&quot;. These documents are part of the product documentation, located at {http://softwareag.com/licenses} and/or in the root installation directory of the licensed product(s). Use, reproduction, transfer, publication or disclosure is prohibited except as specifically provided for in your License Agreement with Software AG.'/>
+        <property name='df_LT.featureName' value='CMP DES feature'/>
+        <property name='df_LT.description' value='Software AG CMP DES feature'/>
+        <property name='df_LT.providerName' value='Software AG'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.cmp.features.cmp.des.feature.feature.jar' version='10.7.0.0000-0082'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
+        <provided namespace='org.eclipse.update.feature' name='com.softwareag.cmp.features.cmp.des.feature' version='10.7.0.0000-0082'/>
+      </provides>
+      <filter>
+        (org.eclipse.update.install.features=true)
+      </filter>
+      <artifacts size='1'>
+        <artifact classifier='org.eclipse.update.feature' id='com.softwareag.cmp.features.cmp.des.feature' version='10.7.0.0000-0082'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+        </instructions>
+      </touchpointData>
+      <licenses size='1'>
+        <license uri='%25licenseURL' url='%25licenseURL'>
+          %license
+        </license>
+      </licenses>
+      <copyright uri='%25copyrightURL' url='%25copyrightURL'>
+        %copyright
+      </copyright>
+    </unit>
+    <unit id='com.softwareag.cmp.verify.common' version='10.7.0.0000-0082' singleton='false' generation='2'>
+      <update id='com.softwareag.cmp.verify.common' range='[0.0.0,10.7.0.0000-0082)' severity='0'/>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='CMP cmp-verify-common module'/>
+        <property name='org.eclipse.equinox.p2.description' value='CMP cmp-verify-common module'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Software AG'/>
+        <property name='org.eclipse.equinox.p2.doc.url' value='http://www.softwareag.com'/>
+      </properties>
+      <provides size='6'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.cmp.verify.common' version='10.7.0.0000-0082'/>
+        <provided namespace='osgi.bundle' name='com.softwareag.cmp.verify.common' version='10.7.0.0000-0082'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.api' version='10.5.0'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.verify' version='10.5.0'/>
+        <provided namespace='osgi.identity' name='com.softwareag.cmp.verify.common' version='10.7.0.0000-0082'>
+          <properties size='1'>
+            <property name='type' value='osgi.bundle'/>
+          </properties>
+        </provided>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='9'>
+        <required namespace='java.package' name='com.softwareag.cmp.util' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='org.apache.logging.log4j' range='[2.13.0,3.0.0)'/>
+        <required namespace='java.package' name='org.apache.logging.log4j.core' range='[2.13.0,3.0.0)'/>
+        <required namespace='java.package' name='org.apache.logging.log4j.core.appender' range='[2.13.0,3.0.0)'/>
+        <required namespace='java.package' name='org.apache.logging.log4j.core.config' range='[2.13.0,3.0.0)'/>
+        <required namespace='java.package' name='org.apache.logging.log4j.core.config.plugins' range='[2.13.0,3.0.0)'/>
+        <required namespace='java.package' name='org.apache.logging.log4j.message' range='[2.13.0,3.0.0)'/>
+        <required namespace='java.package' name='org.apache.logging.log4j.spi' range='[2.13.0,3.0.0)'/>
+        <requiredProperties namespace='osgi.ee' match='(&amp;(osgi.ee=JavaSE)(version=1.8))'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.softwareag.cmp.verify.common' version='10.7.0.0000-0082'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.softwareag.cmp.verify.common&#xA;Bundle-Version: 10.7.0.0000-0082&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.softwareag.cmp.jmx.impl' version='10.7.0.0000-0082' singleton='false' generation='2'>
+      <update id='com.softwareag.cmp.jmx.impl' range='[0.0.0,10.7.0.0000-0082)' severity='0'/>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='CMP cmp-jmx-impl module'/>
+        <property name='org.eclipse.equinox.p2.description' value='CMP cmp-jmx-impl module'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Software AG'/>
+        <property name='org.eclipse.equinox.p2.doc.url' value='http://www.softwareag.com'/>
+      </properties>
+      <provides size='11'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.cmp.jmx.impl' version='10.7.0.0000-0082'/>
+        <provided namespace='osgi.bundle' name='com.softwareag.cmp.jmx.impl' version='10.7.0.0000-0082'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.jmx' version='10.5.0'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.jmxprovider' version='10.5.0'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.jmxprovider.attribute' version='10.5.0'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.jmxprovider.context' version='10.5.0'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.jmxprovider.filter' version='10.5.0'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.jmxprovider.metamodel' version='10.5.0'/>
+        <provided namespace='java.package' name='com.softwareag.cmp.jmxprovider.model' version='10.5.0'/>
+        <provided namespace='osgi.identity' name='com.softwareag.cmp.jmx.impl' version='10.7.0.0000-0082'>
+          <properties size='1'>
+            <property name='type' value='osgi.bundle'/>
+          </properties>
+        </provided>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='18'>
+        <required namespace='java.package' name='com.softwareag.cmp.jmxprovider' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.cmp.jmxprovider.attribute' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.cmp.jmxprovider.context' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.cmp.jmxprovider.filter' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.cmp.jmxprovider.metamodel' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.cmp.jmxprovider.model' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider.attribute' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider.context' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider.metamodel' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider.model' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider.ping' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider.relation' range='[10.5.0,11.0.0)'/>
+        <required namespace='java.package' name='javax.management' range='0.0.0'/>
+        <required namespace='java.package' name='javax.management.openmbean' range='0.0.0'/>
+        <required namespace='java.package' name='javax.management.remote' range='0.0.0'/>
+        <required namespace='java.package' name='org.apache.logging.log4j' range='[2.13.0,3.0.0)'/>
+        <requiredProperties namespace='osgi.ee' match='(&amp;(osgi.ee=JavaSE)(version=1.8))'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.softwareag.cmp.jmx.impl' version='10.7.0.0000-0082'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.softwareag.cmp.jmx.impl&#xA;Bundle-Version: 10.7.0.0000-0082&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+  </units>
+</repository>

@@ -1,0 +1,8 @@
+eclipse.preferences.version=1
+repositories/file\:_opt_CBMS_source_SUM_Agent_master_BAS_publish_build_p2_agent/enabled=true
+repositories/file\:_opt_CBMS_source_SUM_Agent_master_BAS_publish_build_p2_agent/isSystem=false
+repositories/file\:_opt_CBMS_source_SUM_Agent_master_BAS_publish_build_p2_agent/name=file\:/opt/CBMS/source/SUM_Agent_master_BAS_publish/build/p2_agent - metadata
+repositories/file\:_opt_CBMS_source_SUM_Agent_master_BAS_publish_build_p2_agent/suffix=content.xml
+repositories/file\:_opt_CBMS_source_SUM_Agent_master_BAS_publish_build_p2_agent/type=org.eclipse.equinox.internal.p2.metadata.repository.LocalMetadataRepository
+repositories/file\:_opt_CBMS_source_SUM_Agent_master_BAS_publish_build_p2_agent/uri=file\:/opt/CBMS/source/SUM_Agent_master_BAS_publish/build/p2_agent
+repositories/file\:_opt_CBMS_source_SUM_Agent_master_BAS_publish_build_p2_agent/version=1.0.0

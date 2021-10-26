@@ -1,0 +1,49 @@
+<configuration>
+
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="LOG_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<file>${LOGFILE}</file>
+		<triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
+			<maxFileSize>100000000</maxFileSize>
+		</triggeringPolicy>
+		
+		<rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
+			<fileNamePattern>logback_log%i.txt</fileNamePattern>
+			<minIndex>1</minIndex>
+			<maxIndex>12</maxIndex>
+		</rollingPolicy>
+		
+        <encoder class="ch.qos.logback.core.encoder.LayoutWrappingEncoder">
+			<!-- Custom pattern allows roll headers and footers -->
+            <layout class="com.softwareag.um.extensions.logger.logback.LogbackAdapterLayout">
+			<pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+			</layout>
+        </encoder>
+    </appender>
+	
+	<logger name="com.pcbsys.nirvana.server.handler" additivity="false">
+		<appender-ref ref="LOG_FILE" />
+	</logger>
+	<logger name="com.pcbsys.nirvana.server" additivity="false">
+		<appender-ref ref="LOG_FILE" />
+	</logger>
+	<logger name="com.pcbsys.foundation" additivity="false">
+		<appender-ref ref="LOG_FILE" />
+	</logger>
+	<logger name="com.pcbsys.nirvana.base" additivity="false">
+		<appender-ref ref="LOG_FILE" />
+	</logger>
+	<logger name="com.softwareag.um" additivity="false">
+		<appender-ref ref="LOG_FILE" />
+	</logger>
+
+    <root level="OFF">
+        <appender-ref ref="STDOUT" />
+    </root>
+
+</configuration>

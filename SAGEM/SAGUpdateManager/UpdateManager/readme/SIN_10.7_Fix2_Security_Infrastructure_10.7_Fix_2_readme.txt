@@ -1,0 +1,203 @@
+			Software AG Security Infrastructure 10.7 Fix 2 readme
+
+                    July 2021
+
+________________________________________________________________________________
+
+
+Contents:
+
+1.0   Fix Name
+2.0   Fix ID
+3.0   Product(s)/Component(s) Affected
+4.0   Requirements
+5.0   Platform Support
+6.0   Cautions and Warnings
+7.0   Fix Contents
+8.0   Installation
+9.0   Uninstallation
+10.0  Globalization
+11.0  Copyright
+12.0  Contacting Us
+
+
+
+1.0 Fix Name
+
+Software AG Security Infrastructure 10.7 Fix 2
+
+
+
+2.0 Fix ID
+
+SIN_10.7_Fix2
+
+
+3.0 Product(s)/Component(s) Affected
+
+
+This fix affects SAG Security Infrastructure 10.7.
+
+
+
+4.0 Requirements
+
+This fix requires Software AG Security Infrastructure 10.7. 
+Software AG Security Infrastructure 10.7 Fix 2 
+must be installed together with OSGI.Platform_10.7.0_Fix1 
+if the products for these fixes are installed on the system. 
+
+Official fixes are cumulative. Therefore, you can install the specified fix or later.
+
+For language pack requirements, see the Globalization section of the Software AG
+Empower Product Support website at
+https://empower.softwareag.com/Products/Globalization/default.asp
+
+
+
+5.0 Platform Support
+
+This fix is supported on all platforms supported
+by webMethods Product Suite 10.7.
+
+
+
+6.0 Cautions and Warnings
+
+Software AG Tomcat Server is stopped by Software AG Update 
+Manager, therefore it must be restarted after applying the fix.
+
+
+
+7.0 Fix Contents
+
+In addition to including resolutions to product defects, a fix may also include
+enhancements to existing functionality and features. Any of these items can 
+result in new or changed built-in services, APIs, or configuration parameters. 
+Review the fix contents carefully before applying the fix.
+
+This fix is cumulative, which means that it is an aggregate of previous fixes 
+for the release.
+
+SIN-1341
+Assertion engine was not supporting signed response with embedded unsigned assertion, only signed assertions
+
+The issue is now resolved
+
+SIN-1343
+Assertion engine was not supporting general attributes in assertion, only string types
+
+The issue is now resolved
+
+SIN-1360
+Upgrade of spring security to 5.3.9 for security reasons.
+ 
+
+SIN-1341
+Assertion engine was not supporting signed response with embedded unsigned assertion, only signed assertions
+
+The issue is now resolved
+
+SIN-1343
+Assertion engine was not supporting general attributes in assertion, only string types
+
+The issue is now resolved
+ 
+
+OGI-2603
+A security vulnerability exists in the third-party Bouncy Castle library.
+This issue is resolved. Software AG Common Platform now uses
+Bouncy Castle 1.68, where this vulnerability is fixed.
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+8.0 Installation
+
+
+Use Command Central to install fixes on multiple machines from a central 
+location (9.7 or later products), or Software AG Update Manager to install 
+fixes on one machine at a time. For instructions, see the documentation at
+http://documentation.softwareag.com.
+
+
+9.0 Uninstallation
+
+Note: These instructions can only be used to uninstall the most recently 
+installed fix. This action will revert your installation to the previously 
+installed fix. You cannot use these instructions to uninstall the previously 
+installed fix.
+
+Uninstall using Software AG Update Manager. For instructions, see the 
+documentation at http://documentation.softwareag.com.
+
+
+
+10.0 Globalization
+
+This fix conforms to the internationalization standards of the webMethods 
+product suite and includes support for operation in any country, locale, or 
+language as specified in the Installing webMethods Products guide. It was tested
+with non-English configurations and non-ASCII data.
+
+
+
+10.1 Localization
+
+This fix does not require an updated language pack. It might contain new 
+messages and these messages will appear in English.
+
+
+
+11.0 Copyright
+
+Copyright © 2021 Software AG, Darmstadt, Germany and/or Software AG USA Inc.,
+Reston, VA, USA, and/or its subsidiaries and/or its affiliates and/or their licensors.
+
+The name Software AG and all Software AG product names are either trademarks
+or registered trademarks of Software AG and/or Software AG USA Inc. 
+and/or its subsidiaries and/or its affiliates and/or their licensors.
+Other company and product names mentioned herein may be trademarks
+of their respective owners.
+
+Detailed information on trademarks and patents owned by Software AG and/or its subsidiaries
+is located at http://softwareag.com/licenses .
+
+This software may include portions of third-party products. 
+For third-party copyright notices, license terms, additional rights or restrictions,
+please refer to "License Texts, Copyright Notices and Disclaimers of Third Party Products".
+For certain specific third-party license restrictions, please refer to section E of 
+the Legal Notices available under "License Terms and Conditions for Use of Software AG Products /
+Copyright and Trademark Notices of Software AG Products". 
+These documents are part of the product documentation, located at
+http://softwareag.com/licenses and/or in the root installation directory of the licensed product(s).
+
+
+
+12.0 Contacting Us
+
+Authorized technical support contacts can reach Software AG Global Support in 
+the following ways:
+
+  Web: https://empower.softwareag.com (online support center)
+
+  E-mail: empower@softwareag.com
+
+You can find complete contact information in our Global Support Contact 
+Directory at:
+
+https://empower.softwareag.com/public_directory.asp
+
+You can also visit our Software AG Developer Communities to access additional 
+articles, demos, and tutorials, technical information, samples, useful resources,
+online discussion forums moderated by Software AG professionals, and more at:
+
+http://communities.softwareag.com/ecosystem/communities/public/index.html

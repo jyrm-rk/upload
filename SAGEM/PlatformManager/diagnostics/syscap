@@ -1,0 +1,250 @@
+#
+# Copyright (c) 2011-2018 Software AG, Darmstadt, Germany and/or Software AG USA Inc., Reston, VA, USA, and/or its subsidiaries and/or its affiliates and/or their licensors.
+#
+# Use, reproduction, transfer, publication or disclosure is prohibited except as specifically provided for in your License Agreement with Software AG.
+#
+#!/bin/sh
+
+KERNEL_NAME=`uname`
+SAG_USER=$USER
+
+OUTPUT_TXT=syscap.txt
+OUTPUT_BZ2=syscap.txt.bz2
+
+check_system_support()
+{
+	if [ "$KERNEL_NAME" != "Linux" ] && [ "$KERNEL_NAME" != "AIX" ] && [ "$KERNEL_NAME" != "Darwin" ]
+	then
+		echo "Unsupported platform: $KERNEL_NAME"
+		echo "Only Linux, AIX and macOS are supported at the moment."
+		exit 1
+	fi
+}
+
+parse_options()
+{
+	while getopts u: o
+	do
+		case $o in
+			u) SAG_USER=$OPTARG;;
+			*) ;;
+		esac
+	done
+}
+
+clear_output_txt()
+{
+	rm -f $OUTPUT_TXT > /dev/null 2>&1
+}
+
+capture_system_info_linux()
+{
+	echo "####################################### System info: uname" >> $OUTPUT_TXT
+	uname -a >> $OUTPUT_TXT 2>&1
+	echo "####################################### System info: /etc/os-release" >> $OUTPUT_TXT
+	cat /etc/os-release >> $OUTPUT_TXT 2>&1
+}
+
+capture_system_info_aix()
+{
+	echo "####################################### System info: uname" >> $OUTPUT_TXT
+	uname -aplM >> $OUTPUT_TXT 2>&1
+}
+
+capture_system_info_macos()
+{
+	echo "####################################### System info: uname" >> $OUTPUT_TXT
+	uname -a >> $OUTPUT_TXT 2>&1
+	echo "####################################### System info: sw_vers" >> $OUTPUT_TXT
+	sw_vers >> $OUTPUT_TXT 2>&1
+}
+
+capture_cpu_mem_generic()
+{
+	echo "####################################### CPU and memory: vmstat" >> $OUTPUT_TXT
+	vmstat >> $OUTPUT_TXT 2>&1
+}
+
+capture_cpu_mem_macos()
+{
+	echo "####################################### CPU: system_profiler SPHardwareDataType" >> $OUTPUT_TXT
+	system_profiler SPHardwareDataType >> $OUTPUT_TXT 2>&1
+	echo "####################################### CPU: sysctl machdep.cpu.brand_string" >> $OUTPUT_TXT
+	sysctl machdep.cpu.brand_string >> $OUTPUT_TXT 2>&1
+	echo "####################################### CPU: sysctl hw.ncpu" >> $OUTPUT_TXT
+	sysctl hw.ncpu >> $OUTPUT_TXT 2>&1
+	echo "####################################### swap: sysctl vm.swapusage" >> $OUTPUT_TXT
+	sysctl vm.swapusage >> $OUTPUT_TXT 2>&1
+	echo "####################################### memory: sysctl hw.memsize" >> $OUTPUT_TXT
+	sysctl hw.memsize >> $OUTPUT_TXT 2>&1
+	echo "####################################### memory: vm_stat" >> $OUTPUT_TXT
+	vm_stat >> $OUTPUT_TXT 2>&1
+}
+
+capture_firewall_linux()
+{
+	iptables_bin=`which iptables 2> /dev/null`
+	if [ $? -ne 0 ]
+	then
+		if [ -f "/usr/sbin/iptables" ]
+		then
+			iptables_bin="/usr/sbin/iptables"
+		elif [ -f "/sbin/iptables" ]
+		then
+			iptables_bin="/sbin/iptables"
+		else
+			echo "####################################### Firewall rules: Cannot find iptables binary!" >> $OUTPUT_TXT
+			return
+		fi
+	fi
+	echo "####################################### Firewall rules: iptables" >> $OUTPUT_TXT
+	$iptables_bin -L -t filter >> $OUTPUT_TXT 2>&1
+	$iptables_bin -L -t nat >> $OUTPUT_TXT 2>&1
+	$iptables_bin -L -t mangle >> $OUTPUT_TXT 2>&1
+}
+
+capture_firewall_aix()
+{
+	echo "####################################### Firewall rules: lsfilt" >> $OUTPUT_TXT
+	lsfilt >> $OUTPUT_TXT 2>&1
+}
+
+capture_firewall_macos()
+{
+	echo "####################################### Firewall rules: pf" >> $OUTPUT_TXT
+	pfctl -s all >> $OUTPUT_TXT 2>&1
+}
+
+capture_network_stack_linux()
+{
+	echo "####################################### Network stack: netstat interfaces" >> $OUTPUT_TXT
+	netstat -i >> $OUTPUT_TXT 2>&1
+	echo "####################################### Network stack: listening sockets" >> $OUTPUT_TXT
+	netstat -ntlp >> $OUTPUT_TXT 2>&1
+	ifconfig_bin=`which ifconfig 2> /dev/null`
+	if [ $? -ne 0 ]
+	then
+		if [ -f "/usr/sbin/ifconfig" ]
+		then
+			ifconfig_bin="/usr/sbin/ifconfig"
+		elif [ -f "/sbin/ifconfig" ]
+		then
+			ifconfig_bin="/sbin/ifconfig"
+		else
+			echo "####################################### Network stack: Cannot find ifconfig binary!" >> $OUTPUT_TXT
+			return
+		fi
+	fi
+	echo "####################################### Network stack: ifconfig interfaces" >> $OUTPUT_TXT
+	$ifconfig_bin -a >> $OUTPUT_TXT 2>&1
+
+	echo "####################################### Network stack: /etc/resolv.conf" >> $OUTPUT_TXT
+	cat /etc/resolv.conf >> $OUTPUT_TXT 2>&1
+	echo "####################################### Network stack: /etc/nsswitch.conf" >> $OUTPUT_TXT
+	cat /etc/nsswitch.conf >> $OUTPUT_TXT 2>&1
+	echo "####################################### Network stack: /etc/hosts" >> $OUTPUT_TXT
+	cat /etc/hosts >> $OUTPUT_TXT 2>&1
+}
+
+capture_network_stack_aix()
+{
+	echo "####################################### Network stack: netstat interfaces" >> $OUTPUT_TXT
+	netstat -i >> $OUTPUT_TXT 2>&1
+	echo "####################################### Network stack: listening sockets" >> $OUTPUT_TXT
+	netstat -na >> $OUTPUT_TXT 2>&1
+	echo "####################################### Network stack: ifconfig interfaces" >> $OUTPUT_TXT
+	ifconfig -a >> $OUTPUT_TXT 2>&1
+	echo "####################################### Network stack: /etc/resolv.conf" >> $OUTPUT_TXT
+	cat /etc/resolv.conf >> $OUTPUT_TXT 2>&1
+	echo "####################################### Network stack: /etc/hosts" >> $OUTPUT_TXT
+	cat /etc/hosts >> $OUTPUT_TXT 2>&1
+}
+
+capture_network_stack_macos()
+{
+	echo "####################################### Network stack: netstat interfaces" >> $OUTPUT_TXT
+	netstat -in >> $OUTPUT_TXT 2>&1
+	ifconfig_bin=`which ifconfig 2> /dev/null`
+	if [ $? -ne 0 ]
+	then
+		echo "####################################### Network stack: Cannot find ifconfig binary!" >> $OUTPUT_TXT
+		return
+	fi
+	echo "####################################### Network stack: ifconfig interfaces" >> $OUTPUT_TXT
+	$ifconfig_bin -a >> $OUTPUT_TXT 2>&1
+	echo "####################################### Network stack: /etc/resolv.conf" >> $OUTPUT_TXT
+	cat /etc/resolv.conf >> $OUTPUT_TXT 2>&1
+	echo "####################################### Network stack: /etc/hosts" >> $OUTPUT_TXT
+	cat /etc/hosts >> $OUTPUT_TXT 2>&1
+}
+
+capture_process_table_linux()
+{
+	echo "####################################### Process table" >> $OUTPUT_TXT
+	ps auxww >> $OUTPUT_TXT 2>&1
+}
+
+capture_process_table_aix()
+{
+	echo "####################################### Process table" >> $OUTPUT_TXT
+	ps -efl >> $OUTPUT_TXT 2>&1
+}
+
+capture_user_generic()
+{
+	echo "####################################### User" >> $OUTPUT_TXT
+	finger_bin=`which finger 2> /dev/null`
+	if [ $? -eq 0 ]
+	then
+		$finger_bin $1 >> $OUTPUT_TXT 2>&1
+	else
+		cat /etc/passwd |grep $1 >> $OUTPUT_TXT 2>&1
+	fi
+}
+
+compress_output_txt()
+{
+	rm -f $OUTPUT_BZ2 > /dev/null 2>&1
+	bzip2_bin=`which bzip2 2> /dev/null`
+	if [ $? -eq 0 ]
+	then
+		$bzip2_bin $OUTPUT_TXT || {
+			echo "The output cannot be compressed. You can send $OUTPUT_TXT directly or compress it manually then send it."
+		}
+	else
+		echo "bzip2 not found. The output will not be compressed. You can send $OUTPUT_TXT directly or compress it manually then send it."
+	fi
+}
+
+main()
+{
+	check_system_support
+	parse_options "$@"
+	clear_output_txt
+	if [ "$KERNEL_NAME" = "Linux" ]
+	then
+		capture_system_info_linux
+		capture_cpu_mem_generic
+		capture_firewall_linux
+		capture_network_stack_linux
+		capture_process_table_linux
+	elif [ "$KERNEL_NAME" = "AIX" ]
+	then
+		capture_system_info_aix
+		capture_cpu_mem_generic
+		capture_firewall_aix
+		capture_network_stack_aix
+		capture_process_table_aix
+	elif [ "$KERNEL_NAME" = "Darwin" ]
+	then
+		capture_system_info_macos
+		capture_cpu_mem_macos
+		capture_firewall_macos
+		capture_network_stack_macos
+		capture_process_table_linux
+	fi
+	capture_user_generic $SAG_USER
+	compress_output_txt
+}
+
+main "$@"

@@ -1,0 +1,2 @@
+uninstall.phase4=osgiUninstall(uninstallIU:com.softwareag.platform.lar.repository.patch.feature.group/10.7.0.0001-0435,repository:common/runtime/bundles/lar/eclipse,profile:minimal,profileRepo:/profiles/SPM);
+uninstall.phase3=osgiShutdown();

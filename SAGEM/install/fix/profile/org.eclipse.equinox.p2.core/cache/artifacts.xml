@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<repository name='download cache' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1.0.0'>
+  <properties size='2'>
+    <property name='p2.system' value='true'/>
+    <property name='p2.timestamp' value='1635224430665'/>
+  </properties>
+  <mappings size='3'>
+    <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
+    <rule filter='(&amp; (classifier=binary))' output='${repoUrl}/binary/${id}_${version}'/>
+    <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
+  </mappings>
+  <artifacts size='27'>
+    <artifact classifier='binary' id='wMFix.NUMspmBundles' version='10.7.0.0001-133384'>
+      <properties size='1'>
+        <property name='download.size' value='511660'/>
+      </properties>
+    </artifact>
+    <artifact classifier='binary' id='wMFix.NUMEnterpriseManager' version='10.7.0.0003-140269'>
+      <properties size='1'>
+        <property name='download.size' value='1946354'/>
+      </properties>
+    </artifact>
+    <artifact classifier='binary' id='wMFix.SCGCommon.LWQ' version='10.7.0.0001-0053'>
+      <properties size='1'>
+        <property name='download.size' value='122552'/>
+      </properties>
+    </artifact>
+    <artifact classifier='binary' id='wMFix.TPS.Commons' version='10.7.0.0001-0017'>
+      <properties size='1'>
+        <property name='download.size' value='2296909'/>
+      </properties>
+    </artifact>
+    <artifact classifier='binary' id='wMFix.NUMClient' version='10.7.0.0003-140269'>
+      <properties size='1'>
+        <property name='download.size' value='14145459'/>
+      </properties>
+    </artifact>
+    <artifact classifier='binary' id='wMFix.SCGCommon.Core' version='10.7.0.0001-0450'>
+      <properties size='1'>
+        <property name='download.size' value='166317'/>
+      </properties>
+    </artifact>
+    <artifact classifier='binary' id='wMFix.SCGCommon.Security' version='10.7.0.0001-0450'>
+      <properties size='1'>
+        <property name='download.size' value='208550'/>
+      </properties>
+    </artifact>
+    <artifact classifier='binary' id='wMFix.SPM' version='10.7.0.0005-0926'>
+      <properties size='1'>
+        <property name='download.size' value='1628136'/>
+      </properties>
+    </artifact>
+    <artifact classifier='binary' id='wMFix.Broker.SharedBundles' version='10.5.0.0003-0446'>
+      <properties size='1'>
+        <property name='download.size' value='2104860'/>
+      </properties>
+    </artifact>
+    <artifact classifier='binary' id='wMFix.NUMClient.WIN' version='10.7.0.0003-140269'>
+      <properties size='1'>
+        <property name='download.size' value='3497804'/>
+      </properties>
+    </artifact>
+    <artifact classifier='binary' id='wMFix.OSGI.Diagnostic' version='10.7.0.0004-0386'>
+      <properties size='1'>
+        <property name='download.size' value='6976067'/>
+      </properties>
+    </artifact>
+    <artifact classifier='binary' id='wMFix.SCGCommon.DatabaseComponentConfigurator' version='10.7.0.0001-0043'>
+      <properties size='1'>
+        <property name='download.size' value='328687'/>
+      </properties>
+    </artifact>
+    <artifact classifier='binary' id='wMFix.NUMClient.WIN64' version='10.7.0.0003-140269'>
+      <properties size='1'>
+        <property name='download.size' value='24672417'/>
+      </properties>
+    </artifact>
+    <artifact classifier='binary' id='wMFix.SJP.Java64.W64' version='10.7.0.0134-0007'>
+      <properties size='1'>
+        <property name='download.size' value='103950349'/>
+      </properties>
+    </artifact>
+    <artifact classifier='binary' id='wMFix.ALL.SIN' version='10.7.0.0002-0434'>
+      <properties size='1'>
+        <property name='download.size' value='6113290'/>
+      </properties>
+    </artifact>
+    <artifact classifier='binary' id='wMFix.SUMApi' version='10.7.0.0001-0296'>
+      <properties size='1'>
+        <property name='download.size' value='359829'/>
+      </properties>
+    </artifact>
+    <artifact classifier='binary' id='wMFix.NUMClient.JavaScript' version='10.7.0.0003-140269'>
+      <properties size='1'>
+        <property name='download.size' value='280652'/>
+      </properties>
+    </artifact>
+    <artifact classifier='binary' id='wMFix.SCGCommon.IS' version='10.7.0.0003-0028'>
+      <properties size='1'>
+        <property name='download.size' value='31907686'/>
+      </properties>
+    </artifact>
+    <artifact classifier='binary' id='wMFix.LARSharedBundles' version='10.7.0.0001-0435'>
+      <properties size='1'>
+        <property name='download.size' value='47527'/>
+      </properties>
+    </artifact>
+    <artifact classifier='binary' id='wMFix.SDRepository' version='10.7.0.0001-0360'>
+      <properties size='1'>
+        <property name='download.size' value='1035382'/>
+      </properties>
+    </artifact>
+    <artifact classifier='binary' id='wMFix.CCShared' version='10.7.0.0005-0926'>
+      <properties size='1'>
+        <property name='download.size' value='1194018'/>
+      </properties>
+    </artifact>
+    <artifact classifier='binary' id='wMFix.OSGI.Migration' version='10.7.0.0001-0384'>
+      <properties size='1'>
+        <property name='download.size' value='235387'/>
+      </properties>
+    </artifact>
+    <artifact classifier='binary' id='wMFix.OSGI.Platform' version='10.7.0.0006-0749'>
+      <properties size='1'>
+        <property name='download.size' value='5878597'/>
+      </properties>
+    </artifact>
+    <artifact classifier='binary' id='wMFix.OSGI.Updater' version='10.7.0.0001-0020'>
+      <properties size='1'>
+        <property name='download.size' value='21850'/>
+      </properties>
+    </artifact>
+    <artifact classifier='binary' id='wMFix.NUMRepository.SharedBundles' version='10.7.0.0003-140269'>
+      <properties size='1'>
+        <property name='download.size' value='4208346'/>
+      </properties>
+    </artifact>
+    <artifact classifier='binary' id='wMFix.ALL.SSL.W64' version='10.7.0.0001-0067'>
+      <properties size='1'>
+        <property name='download.size' value='1985121'/>
+      </properties>
+    </artifact>
+    <artifact classifier='binary' id='wMFix.TPS.Glassfish' version='10.7.0.0001-0036'>
+      <properties size='1'>
+        <property name='download.size' value='16973532'/>
+      </properties>
+    </artifact>
+  </artifacts>
+</repository>

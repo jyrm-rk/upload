@@ -1,0 +1,2 @@
+uninstall.phase4=osgiUninstall(uninstallIU:com.softwareag.saml2.patch.feature.group/10.7.0.0002-0434,com.softwareag.security.identity-feature.patch.feature.group/10.7.0.0002-0434,repository:common/runtime/bundles/platform/eclipse/,profile:minimal,profileRepo:/profiles/SPM);
+uninstall.phase3=osgiShutdown();

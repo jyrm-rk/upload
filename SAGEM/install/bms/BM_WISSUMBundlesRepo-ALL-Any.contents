@@ -1,0 +1,29 @@
+name=e2ei/11/WIS_10.7.0.0.426/Infrastructure/WISSharedBundles/WISSharedBundles-W64-Any/BM_WISSUMBundlesRepo-ALL-Any
+version=10.7.0.0.426
+timestamp=1612359326
+
+common/
+common/runtime/
+common/
+common/runtime/bundles/
+common/runtime/
+common/runtime/bundles/sum-cc/
+common/runtime/bundles/
+common/runtime/bundles/sum-cc/eclipse/
+common/runtime/bundles/sum-cc/
+common/runtime/bundles/sum-cc/eclipse/binary/
+common/runtime/bundles/sum-cc/eclipse/
+common/runtime/bundles/sum-cc/eclipse/features/
+common/runtime/bundles/sum-cc/eclipse/plugins/
+0755 common/runtime/bundles/sum-cc/eclipse/artifacts.xml
+0755 common/runtime/bundles/sum-cc/eclipse/content.xml
+0755 common/runtime/bundles/sum-cc/eclipse/features/com.softwareag.plm.sum.cc.all.spm.feature_10.7.0.0000-0276.jar
+common/runtime/bundles/sum-cc/eclipse/features/
+0755 common/runtime/bundles/sum-cc/eclipse/plugins/com.softwareag.plm.sum.cc.publisher.fix_10.7.0.0000-0276.jar
+common/runtime/bundles/sum-cc/eclipse/plugins/
+0755 common/runtime/bundles/sum-cc/eclipse/plugins/com.softwareag.plm.sum.cc.publisher_10.7.0.0000-0276.jar
+0755 common/runtime/bundles/sum-cc/eclipse/plugins/com.softwareag.plm.sum.cc.rest.api_10.7.0.0000-0276.jar
+0755 common/runtime/bundles/sum-cc/eclipse/plugins/com.softwareag.plm.sum.cc.rest_10.7.0.0000-0276.jar
+0755 common/runtime/bundles/sum-cc/eclipse/plugins/com.softwareag.plm.sum.cc.spm.sum.cc.api_10.7.0.0000-0276.jar
+0755 common/runtime/bundles/sum-cc/eclipse/plugins/com.softwareag.plm.sum.cc.spm.sum.cc.core_10.7.0.0000-0276.jar
+0755 common/runtime/bundles/sum-cc/eclipse/plugins/com.softwareag.plm.sum.cc.spm.sum.cc_10.7.0.0000-0276.jar

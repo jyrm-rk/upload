@@ -1,0 +1,48 @@
+
+product=e2ei/11/TPS_10.7.0.0.224/SCG/tppSEC
+
+e2ei/11/TPS_10.7.0.0.224/SCG/tppSEC/children=tppSEC-W64-Any
+
+## Product e2ei/11/TPS_10.7.0.0.224/SCG/tppSEC properties ##
+
+e2ei/11/TPS_10.7.0.0.224/SCG/tppSEC/props=developmentServer,displayDescript,displayGroup,displayName,displayNameVersionFormat,flags,group,installDir,lengthGroupVersionString,lengthVersionString,resourceBundle,resourceJars,sagProductCode,supplantLevel,user_hints,installDirMultiRootNo,localInstallDir,installDate
+e2ei/11/TPS_10.7.0.0.224/SCG/tppSEC/props/developmentServer=true
+e2ei/11/TPS_10.7.0.0.224/SCG/tppSEC/props/displayDescript=tppSEC.displayDescript
+e2ei/11/TPS_10.7.0.0.224/SCG/tppSEC/props/displayGroup=tppSEC.displayGroup
+e2ei/11/TPS_10.7.0.0.224/SCG/tppSEC/props/displayName=tppSEC.displayName
+e2ei/11/TPS_10.7.0.0.224/SCG/tppSEC/props/displayNameVersionFormat=%1.%2 SP%3
+e2ei/11/TPS_10.7.0.0.224/SCG/tppSEC/props/flags=ProgramFilesType,ProvisioningDownload
+e2ei/11/TPS_10.7.0.0.224/SCG/tppSEC/props/group=SCG
+e2ei/11/TPS_10.7.0.0.224/SCG/tppSEC/props/installDir=common
+e2ei/11/TPS_10.7.0.0.224/SCG/tppSEC/props/lengthGroupVersionString=0
+e2ei/11/TPS_10.7.0.0.224/SCG/tppSEC/props/lengthVersionString=2
+e2ei/11/TPS_10.7.0.0.224/SCG/tppSEC/props/resourceBundle=com.softwareag.tps.install.TPPSECInstallMessages
+e2ei/11/TPS_10.7.0.0.224/SCG/tppSEC/props/resourceJars=tppSECInstallMessages-ALL-Any
+e2ei/11/TPS_10.7.0.0.224/SCG/tppSEC/props/sagProductCode=TPP
+e2ei/11/TPS_10.7.0.0.224/SCG/tppSEC/props/supplantLevel=3
+e2ei/11/TPS_10.7.0.0.224/SCG/tppSEC/props/user_hints=enable
+e2ei/11/TPS_10.7.0.0.224/SCG/tppSEC/props/installDirMultiRootNo=2
+e2ei/11/TPS_10.7.0.0.224/SCG/tppSEC/props/localInstallDir=common
+e2ei/11/TPS_10.7.0.0.224/SCG/tppSEC/props/installDate=1635224352305
+
+## Product e2ei/11/TPS_10.7.0.0.224/SCG/tppSEC jars ##
+
+e2ei/11/TPS_10.7.0.0.224/SCG/tppSEC/jars=tppSECInstallMessages-ALL-Any
+e2ei/11/TPS_10.7.0.0.224/SCG/tppSEC/jars/tppSECInstallMessages-ALL-Any/props=jar_version,md5,size,timestamp,type
+e2ei/11/TPS_10.7.0.0.224/SCG/tppSEC/jars/tppSECInstallMessages-ALL-Any/props/jar_version=10.7.0.0000.0224
+e2ei/11/TPS_10.7.0.0.224/SCG/tppSEC/jars/tppSECInstallMessages-ALL-Any/props/md5=bcd9f280db3c6e4bf860c7eda156bd88
+e2ei/11/TPS_10.7.0.0.224/SCG/tppSEC/jars/tppSECInstallMessages-ALL-Any/props/size=1124
+e2ei/11/TPS_10.7.0.0.224/SCG/tppSEC/jars/tppSECInstallMessages-ALL-Any/props/timestamp=1599492582
+e2ei/11/TPS_10.7.0.0.224/SCG/tppSEC/jars/tppSECInstallMessages-ALL-Any/props/type=resourceJar
+## Product e2ei/11/TPS_10.7.0.0.224/SCG/tppSEC components ##
+
+## Buildmodule info for e2ei/11/TPS_10.7.0.0.224/SCG/tppSEC/tppSEC-W64-Any ##
+
+e2ei/11/TPS_10.7.0.0.224/SCG/tppSEC/tppSEC-W64-Any/children=BM_CommonBaseSec-ALL-Any
+e2ei/11/TPS_10.7.0.0.224/SCG/tppSEC/tppSEC-W64-Any/BM_CommonBaseSec-ALL-Any/props=compressed_size,expanded_size,md5,timestamp,version
+e2ei/11/TPS_10.7.0.0.224/SCG/tppSEC/tppSEC-W64-Any/BM_CommonBaseSec-ALL-Any/props/compressed_size=3477403
+e2ei/11/TPS_10.7.0.0.224/SCG/tppSEC/tppSEC-W64-Any/BM_CommonBaseSec-ALL-Any/props/expanded_size=3823339
+e2ei/11/TPS_10.7.0.0.224/SCG/tppSEC/tppSEC-W64-Any/BM_CommonBaseSec-ALL-Any/props/md5=af808163e6dbec2cdac8e0951dcf2376
+e2ei/11/TPS_10.7.0.0.224/SCG/tppSEC/tppSEC-W64-Any/BM_CommonBaseSec-ALL-Any/props/timestamp=1599492582
+e2ei/11/TPS_10.7.0.0.224/SCG/tppSEC/tppSEC-W64-Any/BM_CommonBaseSec-ALL-Any/props/version=10.7.0.0.224
+

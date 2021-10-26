@@ -1,0 +1,903 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?metadataRepository version='1.2.0'?>
+<repository name='assemblyRuntime' type='org.eclipse.equinox.internal.p2.metadata.repository.LocalMetadataRepository' version='1.0.0'>
+  <properties size='2'>
+    <property name='p2.timestamp' value='1635224484335'/>
+    <property name='p2.compressed' value='false'/>
+  </properties>
+  <units size='15'>
+    <unit id='com.softwareag.mom.nirvana.deployer' version='10.7.0.0000-133380' singleton='false' generation='2'>
+      <update id='com.softwareag.mom.nirvana.deployer' range='[0.0.0,10.7.0.0000-133380)' severity='0'/>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='Universal Messaging Deployer API'/>
+        <property name='org.eclipse.equinox.p2.description' value='Universal Messaging Deployer API'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Software AG'/>
+        <property name='org.eclipse.equinox.p2.doc.url' value='http://www.softwareag.com'/>
+      </properties>
+      <provides size='12'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.mom.nirvana.deployer' version='10.7.0.0000-133380'/>
+        <provided namespace='osgi.bundle' name='com.softwareag.mom.nirvana.deployer' version='10.7.0.0000-133380'/>
+        <provided namespace='java.package' name='com.softwareag.num.deployer' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.num.deployer.assets' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.num.deployer.exception' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.num.deployer.impl' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.num.deployer.resources' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.num.deployer.trans' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.num.deployer.trans.impl' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.num.deployer.utils' version='10.7.0'/>
+        <provided namespace='osgi.identity' name='com.softwareag.mom.nirvana.deployer' version='10.7.0.0000-133380'>
+          <properties size='1'>
+            <property name='type' value='osgi.bundle'/>
+          </properties>
+        </provided>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='17'>
+        <required namespace='java.package' name='com.softwareag.deployer.common.persistence' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.g11n.util' range='0.0.0'/>
+        <required namespace='java.package' name='com.webmethods.deployer.common.acdl' range='0.0.0'/>
+        <required namespace='java.package' name='com.webmethods.deployer.common.cipher' range='0.0.0'/>
+        <required namespace='java.package' name='com.pcbsys.foundation.security' range='[10.7.0,11.0.0)'/>
+        <required namespace='java.package' name='com.pcbsys.foundation.utils' range='[10.7.0,11.0.0)'/>
+        <required namespace='java.package' name='com.pcbsys.nirvana.client' range='[10.7.0,11.0.0)'/>
+        <required namespace='java.package' name='com.pcbsys.nirvana.nAdminAPI' range='[10.7.0,11.0.0)'/>
+        <required namespace='java.package' name='com.pcbsys.nirvana.nAdminAPI.xml' range='[10.7.0,11.0.0)'/>
+        <required namespace='java.package' name='com.pcbsys.nirvana.nJMS' range='[10.7.0,11.0.0)'/>
+        <required namespace='java.package' name='com.pcbsys.nirvana.nSpace' range='[10.7.0,11.0.0)'/>
+        <required namespace='java.package' name='javax.naming' range='0.0.0'/>
+        <required namespace='java.package' name='javax.xml.bind' range='0.0.0'/>
+        <required namespace='java.package' name='javax.xml.datatype' range='0.0.0'/>
+        <required namespace='java.package' name='javax.xml.parsers' range='0.0.0'/>
+        <required namespace='java.package' name='org.w3c.dom' range='0.0.0'/>
+        <requiredProperties namespace='osgi.ee' match='(&amp;(osgi.ee=JavaSE)(version=1.8))'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.softwareag.mom.nirvana.deployer' version='10.7.0.0000-133380'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.softwareag.mom.nirvana.deployer&#xA;Bundle-Version: 10.7.0.0000-133380
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.softwareag.plm.spm.nirvana.feature.feature.group' version='10.7.0.0000-133380' singleton='false'>
+      <update id='com.softwareag.plm.spm.nirvana.feature.feature.group' range='[0.0.0,10.7.0.0000-133380)' severity='0'/>
+      <properties size='10'>
+        <property name='org.eclipse.equinox.p2.name' value='%featureName'/>
+        <property name='org.eclipse.equinox.p2.description' value='%description'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='%descriptionURL'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%providerName'/>
+        <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+        <property name='df_LT.license' value='For Software AG Legal Notices please refer to: http://softwareag.com/licenses and/or in the root installation directory of the licensed product(s).'/>
+        <property name='df_LT.copyright' value='Copyright &amp;copy; 2006 - 2020 Software AG, Darmstadt, Germany and/or Software AG USA Inc., Reston, VA, USA, and/or its subsidiaries and/or its affiliates and/or their licensors. The name Software AG and all Software AG product names are either trademarks or registered trademarks of Software AG and/or Software AG USA Inc. and/or its subsidiaries and/or its affiliates and/or their licensors. Other company and product names mentioned herein may be trademarks of their respective owners. Detailed information on trademarks and patents owned by Software AG and/or its subsidiaries is located at {http://softwareag.com/licenses}. This software may include portions of third-party products. For third-party copyright notices, license terms, additional rights or restrictions, please refer to &quot;License Texts, Copyright Notices and Disclaimers of Third Party Products&quot;. For certain specific third-party license restrictions, please refer to section E of the Legal Notices available under &quot;License Terms and Conditions for Use of Software AG Products / Copyright and Trademark Notices of Software AG Products&quot;. These documents are part of the product documentation, located at {http://softwareag.com/licenses} and/or in the root installation directory of the licensed product(s). Use, reproduction, transfer, publication or disclosure is prohibited except as specifically provided for in your License Agreement with Software AG.'/>
+        <property name='df_LT.featureName' value='SPM for &apos;null&apos; feature'/>
+        <property name='df_LT.description' value='SPM for &apos;null&apos; feature'/>
+        <property name='df_LT.providerName' value='Software AG'/>
+      </properties>
+      <provides size='2'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.plm.spm.nirvana.feature.feature.group' version='10.7.0.0000-133380'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+      </provides>
+      <requires size='12'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.tps.protobuf.feature.feature.group' range='10.7.0.0000-0000'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.mom.nirvana.shared.feature.feature.group' range='10.7.0.0000-0000'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.cmp.features.cmp.api.feature.feature.group' range='10.7.0.0000-0000'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.cmp.features.cmp.um.feature.feature.group' range='10.7.0.0000-0000'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.plm.spm.nirvana.ta.impl' range='[10.7.0.0000-133380,10.7.0.0000-133380]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.plm.spm.nirvana.em.impl' range='[10.7.0.0000-133380,10.7.0.0000-133380]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.plm.spm.nirvana.impl' range='[10.7.0.0000-133380,10.7.0.0000-133380]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.plm.spm.nirvana.base.impl' range='[10.7.0.0000-133380,10.7.0.0000-133380]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.google.guava' range='[25.1.0.jre,25.1.0.jre]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.mom.nirvana.deployer' range='[10.7.0.0000-133380,10.7.0.0000-133380]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.plm.spm.nirvana.api' range='[10.7.0.0000-133380,10.7.0.0000-133380]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.plm.spm.nirvana.feature.feature.jar' range='[10.7.0.0000-133380,10.7.0.0000-133380]'>
+          <filter>
+            (org.eclipse.update.install.features=true)
+          </filter>
+        </required>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+      <licenses size='1'>
+        <license uri='%25licenseURL' url='%25licenseURL'>
+          %license
+        </license>
+      </licenses>
+      <copyright uri='%25copyrightURL' url='%25copyrightURL'>
+        %copyright
+      </copyright>
+    </unit>
+    <unit id='com.google.protobuf.util' version='3.7.1.1' singleton='false' generation='2'>
+      <update id='com.google.protobuf.util' range='[0.0.0,3.7.1.1)' severity='0'/>
+      <properties size='3'>
+        <property name='org.eclipse.equinox.p2.name' value='Protocol Buffers [Util]'/>
+        <property name='org.eclipse.equinox.p2.description' value='Utilities for Protocol Buffers'/>
+        <property name='org.eclipse.equinox.p2.doc.url' value='https://developers.google.com/protocol-buffers/'/>
+      </properties>
+      <provides size='5'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.google.protobuf.util' version='3.7.1.1'/>
+        <provided namespace='osgi.bundle' name='com.google.protobuf.util' version='3.7.1.1'/>
+        <provided namespace='java.package' name='com.google.protobuf.util' version='3.7.1'/>
+        <provided namespace='osgi.identity' name='com.google.protobuf.util' version='3.7.1.1'>
+          <properties size='1'>
+            <property name='type' value='osgi.bundle'/>
+          </properties>
+        </provided>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='8'>
+        <required namespace='java.package' name='com.google.common.base' range='[20.0.0,26.0.0)'/>
+        <required namespace='java.package' name='com.google.common.io' range='[20.0.0,26.0.0)'/>
+        <required namespace='java.package' name='com.google.common.math' range='[20.0.0,26.0.0)'/>
+        <required namespace='java.package' name='com.google.common.primitives' range='[20.0.0,26.0.0)'/>
+        <required namespace='java.package' name='com.google.gson' range='[2.7.0,3.0.0)'/>
+        <required namespace='java.package' name='com.google.gson.stream' range='[2.7.0,3.0.0)'/>
+        <required namespace='java.package' name='com.google.protobuf' range='[3.7.0,4.0.0)'/>
+        <requiredProperties namespace='osgi.ee' match='(&amp;(osgi.ee=JavaSE)(version=1.7))'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.google.protobuf.util' version='3.7.1.1'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.google.protobuf.util&#xA;Bundle-Version: 3.7.1.1
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.softwareag.plm.spm.nirvana.api' version='10.7.0.0000-133380' singleton='false'>
+      <update id='com.softwareag.plm.spm.nirvana.api' range='[0.0.0,10.7.0.0000-133380)' severity='0'/>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='SPM Administration Operations Service API'/>
+        <property name='org.eclipse.equinox.p2.description' value='SPM Administration Operations Service API'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Software AG'/>
+        <property name='org.eclipse.equinox.p2.doc.url' value='http://www.softwareag.com'/>
+      </properties>
+      <provides size='4'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.plm.spm.nirvana.api' version='10.7.0.0000-133380'/>
+        <provided namespace='osgi.bundle' name='com.softwareag.plm.spm.nirvana.api' version='10.7.0.0000-133380'/>
+        <provided namespace='osgi.identity' name='com.softwareag.plm.spm.nirvana.api' version='10.7.0.0000-133380'>
+          <properties size='1'>
+            <property name='type' value='osgi.bundle'/>
+          </properties>
+        </provided>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.softwareag.plm.spm.nirvana.api' version='10.7.0.0000-133380'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.softwareag.plm.spm.nirvana.api&#xA;Bundle-Version: 10.7.0.0000-133380
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.google.gson' version='2.8.5' singleton='false' generation='2'>
+      <update id='com.google.gson' range='[0.0.0,2.8.5)' severity='0'/>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='Gson'/>
+        <property name='org.eclipse.equinox.p2.description' value='Gson JSON library'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Google Gson Project'/>
+        <property name='org.eclipse.equinox.p2.contact' value='https://github.com/google/gson'/>
+      </properties>
+      <provides size='8'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.google.gson' version='2.8.5'/>
+        <provided namespace='osgi.bundle' name='com.google.gson' version='2.8.5'/>
+        <provided namespace='java.package' name='com.google.gson' version='2.8.5'/>
+        <provided namespace='java.package' name='com.google.gson.annotations' version='2.8.5'/>
+        <provided namespace='java.package' name='com.google.gson.reflect' version='2.8.5'/>
+        <provided namespace='java.package' name='com.google.gson.stream' version='2.8.5'/>
+        <provided namespace='osgi.identity' name='com.google.gson' version='2.8.5'>
+          <properties size='1'>
+            <property name='type' value='osgi.bundle'/>
+          </properties>
+        </provided>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='3'>
+        <required namespace='java.package' name='com.google.gson.annotations' range='0.0.0'/>
+        <requiredProperties namespace='osgi.ee' match='(&amp;(osgi.ee=JavaSE)(version=1.6))'/>
+        <requiredProperties namespace='osgi.ee' match='(&amp;(osgi.ee=JavaSE)(|(version=1.5)(version=1.6)(version=1.7)(version=1.8)))'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.google.gson' version='2.8.5'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.google.gson&#xA;Bundle-Version: 2.8.5
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.softwareag.plm.spm.nirvana.feature.feature.jar' version='10.7.0.0000-133380'>
+      <properties size='9'>
+        <property name='org.eclipse.equinox.p2.name' value='%featureName'/>
+        <property name='org.eclipse.equinox.p2.description' value='%description'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='%descriptionURL'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%providerName'/>
+        <property name='df_LT.license' value='For Software AG Legal Notices please refer to: http://softwareag.com/licenses and/or in the root installation directory of the licensed product(s).'/>
+        <property name='df_LT.copyright' value='Copyright &amp;copy; 2006 - 2020 Software AG, Darmstadt, Germany and/or Software AG USA Inc., Reston, VA, USA, and/or its subsidiaries and/or its affiliates and/or their licensors. The name Software AG and all Software AG product names are either trademarks or registered trademarks of Software AG and/or Software AG USA Inc. and/or its subsidiaries and/or its affiliates and/or their licensors. Other company and product names mentioned herein may be trademarks of their respective owners. Detailed information on trademarks and patents owned by Software AG and/or its subsidiaries is located at {http://softwareag.com/licenses}. This software may include portions of third-party products. For third-party copyright notices, license terms, additional rights or restrictions, please refer to &quot;License Texts, Copyright Notices and Disclaimers of Third Party Products&quot;. For certain specific third-party license restrictions, please refer to section E of the Legal Notices available under &quot;License Terms and Conditions for Use of Software AG Products / Copyright and Trademark Notices of Software AG Products&quot;. These documents are part of the product documentation, located at {http://softwareag.com/licenses} and/or in the root installation directory of the licensed product(s). Use, reproduction, transfer, publication or disclosure is prohibited except as specifically provided for in your License Agreement with Software AG.'/>
+        <property name='df_LT.featureName' value='SPM for &apos;null&apos; feature'/>
+        <property name='df_LT.description' value='SPM for &apos;null&apos; feature'/>
+        <property name='df_LT.providerName' value='Software AG'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.plm.spm.nirvana.feature.feature.jar' version='10.7.0.0000-133380'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
+        <provided namespace='org.eclipse.update.feature' name='com.softwareag.plm.spm.nirvana.feature' version='10.7.0.0000-133380'/>
+      </provides>
+      <filter>
+        (org.eclipse.update.install.features=true)
+      </filter>
+      <artifacts size='1'>
+        <artifact classifier='org.eclipse.update.feature' id='com.softwareag.plm.spm.nirvana.feature' version='10.7.0.0000-133380'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+        </instructions>
+      </touchpointData>
+      <licenses size='1'>
+        <license uri='%25licenseURL' url='%25licenseURL'>
+          %license
+        </license>
+      </licenses>
+      <copyright uri='%25copyrightURL' url='%25copyrightURL'>
+        %copyright
+      </copyright>
+    </unit>
+    <unit id='com.softwareag.plm.spm.nirvana.feature.patch.feature.group' version='10.7.0.0001-133384' singleton='false'>
+      <patchScope>
+        <scope>
+          <requires size='1'>
+            <required namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.plm.spm.nirvana.feature.feature.group' range='0.0.0'/>
+          </requires>
+        </scope>
+      </patchScope>
+      <changes>
+        <change>
+          <from>
+            <required namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.plm.spm.nirvana.base.impl' range='0.0.0'/>
+          </from>
+          <to>
+            <required namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.plm.spm.nirvana.base.impl' range='[10.7.0.0001-133384,10.7.0.0001-133384]'/>
+          </to>
+        </change>
+        <change>
+          <from>
+            <required namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.plm.spm.nirvana.impl' range='0.0.0'/>
+          </from>
+          <to>
+            <required namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.plm.spm.nirvana.impl' range='[10.7.0.0001-133384,10.7.0.0001-133384]'/>
+          </to>
+        </change>
+      </changes>
+      <lifeCycle>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.plm.spm.nirvana.feature.feature.group' range='0.0.0' greedy='false'/>
+      </lifeCycle>
+      <update id='com.softwareag.plm.spm.nirvana.feature.patch.feature.group' range='[0.0.0,10.7.0.0001-133384)' severity='0'/>
+      <properties size='5'>
+        <property name='org.eclipse.equinox.p2.type.patch' value='true'/>
+        <property name='org.eclipse.equinox.p2.name' value='SPM for &apos;null&apos; feature'/>
+        <property name='org.eclipse.equinox.p2.description' value='[Enter Feature Description here.]'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='http://www.example.com/description'/>
+        <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+      </properties>
+      <provides size='1'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.plm.spm.nirvana.feature.patch.feature.group' version='10.7.0.0001-133384'/>
+      </provides>
+      <requires size='1'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.plm.spm.nirvana.feature.patch.feature.jar' range='[10.7.0.0001-133384,10.7.0.0001-133384]'>
+          <filter>
+            (org.eclipse.update.install.features=true)
+          </filter>
+        </required>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+      <licenses size='1'>
+        <license uri='http://www.example.com/license' url='http://www.example.com/license'>
+          [Enter License Description here.]
+        </license>
+      </licenses>
+      <copyright uri='http://www.example.com/copyright' url='http://www.example.com/copyright'>
+        [Enter Copyright Description here.]
+      </copyright>
+    </unit>
+    <unit id='com.google.guava' version='25.1.0.jre' singleton='false' generation='2'>
+      <update id='com.google.guava' range='[0.0.0,25.1.0.jre)' severity='0'/>
+      <properties size='3'>
+        <property name='org.eclipse.equinox.p2.name' value='Guava: Google Core Libraries for Java'/>
+        <property name='org.eclipse.equinox.p2.description' value='Guava is a suite of core and expanded libraries that include    utility classes, google&apos;s collections, io classes, and much    much more.'/>
+        <property name='org.eclipse.equinox.p2.doc.url' value='https://github.com/google/guava/'/>
+      </properties>
+      <provides size='20'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.google.guava' version='25.1.0.jre'/>
+        <provided namespace='osgi.bundle' name='com.google.guava' version='25.1.0.jre'/>
+        <provided namespace='java.package' name='com.google.common.annotations' version='25.1.0'/>
+        <provided namespace='java.package' name='com.google.common.base' version='25.1.0'/>
+        <provided namespace='java.package' name='com.google.common.cache' version='25.1.0'/>
+        <provided namespace='java.package' name='com.google.common.collect' version='25.1.0'/>
+        <provided namespace='java.package' name='com.google.common.escape' version='25.1.0'/>
+        <provided namespace='java.package' name='com.google.common.eventbus' version='25.1.0'/>
+        <provided namespace='java.package' name='com.google.common.graph' version='25.1.0'/>
+        <provided namespace='java.package' name='com.google.common.hash' version='25.1.0'/>
+        <provided namespace='java.package' name='com.google.common.html' version='25.1.0'/>
+        <provided namespace='java.package' name='com.google.common.io' version='25.1.0'/>
+        <provided namespace='java.package' name='com.google.common.math' version='25.1.0'/>
+        <provided namespace='java.package' name='com.google.common.net' version='25.1.0'/>
+        <provided namespace='java.package' name='com.google.common.primitives' version='25.1.0'/>
+        <provided namespace='java.package' name='com.google.common.reflect' version='25.1.0'/>
+        <provided namespace='java.package' name='com.google.common.util.concurrent' version='25.1.0'/>
+        <provided namespace='java.package' name='com.google.common.xml' version='25.1.0'/>
+        <provided namespace='osgi.identity' name='com.google.guava' version='25.1.0.jre'>
+          <properties size='1'>
+            <property name='type' value='osgi.bundle'/>
+          </properties>
+        </provided>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='5'>
+        <required namespace='java.package' name='javax.annotation' range='[3.0.0,4.0.0)' optional='true' greedy='false'/>
+        <required namespace='java.package' name='javax.crypto' range='0.0.0' optional='true' greedy='false'/>
+        <required namespace='java.package' name='javax.crypto.spec' range='0.0.0' optional='true' greedy='false'/>
+        <required namespace='java.package' name='sun.misc' range='0.0.0' optional='true' greedy='false'/>
+        <requiredProperties namespace='osgi.ee' match='(&amp;(osgi.ee=JavaSE)(version=1.8))'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.google.guava' version='25.1.0.jre'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.google.guava&#xA;Bundle-Version: 25.1.0.jre
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.softwareag.plm.spm.nirvana.base.impl' version='10.7.0.0001-133384' singleton='false' generation='2'>
+      <update id='com.softwareag.plm.spm.nirvana.base.impl' range='[0.0.0,10.7.0.0001-133384)' severity='0'/>
+      <properties size='5'>
+        <property name='org.eclipse.equinox.p2.name' value='spm-nirvana-base-impl'/>
+        <property name='org.eclipse.equinox.p2.description' value='Universal Messaging base SPM functionality'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Software AG'/>
+        <property name='org.eclipse.equinox.p2.doc.url' value='http://www.softwareag.com'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='com/softwareag/platform/management/nirvana/messages'/>
+      </properties>
+      <provides size='11'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.plm.spm.nirvana.base.impl' version='10.7.0.0001-133384'/>
+        <provided namespace='osgi.bundle' name='com.softwareag.plm.spm.nirvana.base.impl' version='10.7.0.0001-133384'/>
+        <provided namespace='java.package' name='com.softwareag.platform.management.nirvana' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.platform.management.nirvana.exception' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.platform.management.nirvana.instancemanagement' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.platform.management.nirvana.inventory.impl' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.platform.management.nirvana.manager' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.platform.management.nirvana.messages' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.platform.management.nirvana.util' version='10.7.0'/>
+        <provided namespace='osgi.identity' name='com.softwareag.plm.spm.nirvana.base.impl' version='10.7.0.0001-133384'>
+          <properties size='1'>
+            <property name='type' value='osgi.bundle'/>
+          </properties>
+        </provided>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='26'>
+        <required namespace='java.package' name='com.softwareag.platform.management.common.exceptions' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.common.inventory' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.common.monitoring' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.common.security' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.instance.spi' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.inventory.spi' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.nirvana' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.nirvana.exception' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.nirvana.inventory.impl' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.nirvana.manager' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.nirvana.messages' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.nirvana.util' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.util' range='0.0.0'/>
+        <required namespace='java.package' name='com.pcbsys.foundation.base' range='[10.7.0,11.0.0)'/>
+        <required namespace='java.package' name='com.pcbsys.foundation.collections' range='[10.7.0,11.0.0)'/>
+        <required namespace='java.package' name='com.pcbsys.foundation.drivers.configuration' range='[10.7.0,11.0.0)'/>
+        <required namespace='java.package' name='com.pcbsys.foundation.io' range='[10.7.0,11.0.0)'/>
+        <required namespace='java.package' name='com.pcbsys.nirvana.client' range='[10.7.0,11.0.0)'/>
+        <required namespace='java.package' name='com.pcbsys.nirvana.nAdmin' range='[10.7.0,11.0.0)'/>
+        <required namespace='java.package' name='com.pcbsys.nirvana.nAdminAPI' range='[10.7.0,11.0.0)'/>
+        <required namespace='java.package' name='com.pcbsys.nirvana.nSpace' range='[10.7.0,11.0.0)'/>
+        <required namespace='java.package' name='javax.naming' range='0.0.0'/>
+        <required namespace='java.package' name='javax.naming.ldap' range='0.0.0'/>
+        <required namespace='java.package' name='javax.security.auth.x500' range='0.0.0'/>
+        <required namespace='java.package' name='org.slf4j' range='[1.7.0,2.0.0)'/>
+        <requiredProperties namespace='osgi.ee' match='(&amp;(osgi.ee=JavaSE)(version=1.8))'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.softwareag.plm.spm.nirvana.base.impl' version='10.7.0.0001-133384'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.softwareag.plm.spm.nirvana.base.impl&#xA;Bundle-Version: 10.7.0.0001-133384&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.softwareag.plm.spm.nirvana.ta.impl' version='10.7.0.0000-133380' singleton='false'>
+      <update id='com.softwareag.plm.spm.nirvana.ta.impl' range='[0.0.0,10.7.0.0000-133380)' severity='0'/>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='SPM product plugin for Universal Messaging Template Applications'/>
+        <property name='org.eclipse.equinox.p2.description' value='SPM product plugin for Universal Messaging Template Applications containing implementation for Template Applications instance management'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Software AG'/>
+        <property name='org.eclipse.equinox.p2.doc.url' value='http://www.softwareag.com'/>
+      </properties>
+      <provides size='4'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.plm.spm.nirvana.ta.impl' version='10.7.0.0000-133380'/>
+        <provided namespace='osgi.bundle' name='com.softwareag.plm.spm.nirvana.ta.impl' version='10.7.0.0000-133380'/>
+        <provided namespace='osgi.identity' name='com.softwareag.plm.spm.nirvana.ta.impl' version='10.7.0.0000-133380'>
+          <properties size='1'>
+            <property name='type' value='osgi.bundle'/>
+          </properties>
+        </provided>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='1'>
+        <required namespace='java.package' name='com.softwareag.platform.management.nirvana.instancemanagement' range='[10.7.0,11.0.0)'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.softwareag.plm.spm.nirvana.ta.impl' version='10.7.0.0000-133380'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.softwareag.plm.spm.nirvana.ta.impl&#xA;Bundle-Version: 10.7.0.0000-133380
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.softwareag.plm.spm.nirvana.base.impl' version='10.7.0.0000-133380' singleton='false' generation='2'>
+      <update id='com.softwareag.plm.spm.nirvana.base.impl' range='[0.0.0,10.7.0.0000-133380)' severity='0'/>
+      <properties size='5'>
+        <property name='org.eclipse.equinox.p2.name' value='spm-nirvana-base-impl'/>
+        <property name='org.eclipse.equinox.p2.description' value='Universal Messaging base SPM functionality'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Software AG'/>
+        <property name='org.eclipse.equinox.p2.doc.url' value='http://www.softwareag.com'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='com/softwareag/platform/management/nirvana/messages'/>
+      </properties>
+      <provides size='11'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.plm.spm.nirvana.base.impl' version='10.7.0.0000-133380'/>
+        <provided namespace='osgi.bundle' name='com.softwareag.plm.spm.nirvana.base.impl' version='10.7.0.0000-133380'/>
+        <provided namespace='java.package' name='com.softwareag.platform.management.nirvana' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.platform.management.nirvana.exception' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.platform.management.nirvana.instancemanagement' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.platform.management.nirvana.inventory.impl' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.platform.management.nirvana.manager' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.platform.management.nirvana.messages' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.platform.management.nirvana.util' version='10.7.0'/>
+        <provided namespace='osgi.identity' name='com.softwareag.plm.spm.nirvana.base.impl' version='10.7.0.0000-133380'>
+          <properties size='1'>
+            <property name='type' value='osgi.bundle'/>
+          </properties>
+        </provided>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='26'>
+        <required namespace='java.package' name='com.softwareag.platform.management.common.exceptions' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.common.inventory' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.common.monitoring' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.common.security' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.instance.spi' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.inventory.spi' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.nirvana' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.nirvana.exception' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.nirvana.inventory.impl' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.nirvana.manager' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.nirvana.messages' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.nirvana.util' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.util' range='0.0.0'/>
+        <required namespace='java.package' name='com.pcbsys.foundation.base' range='[10.7.0,11.0.0)'/>
+        <required namespace='java.package' name='com.pcbsys.foundation.collections' range='[10.7.0,11.0.0)'/>
+        <required namespace='java.package' name='com.pcbsys.foundation.drivers.configuration' range='[10.7.0,11.0.0)'/>
+        <required namespace='java.package' name='com.pcbsys.foundation.io' range='[10.7.0,11.0.0)'/>
+        <required namespace='java.package' name='com.pcbsys.nirvana.client' range='[10.7.0,11.0.0)'/>
+        <required namespace='java.package' name='com.pcbsys.nirvana.nAdmin' range='[10.7.0,11.0.0)'/>
+        <required namespace='java.package' name='com.pcbsys.nirvana.nAdminAPI' range='[10.7.0,11.0.0)'/>
+        <required namespace='java.package' name='com.pcbsys.nirvana.nSpace' range='[10.7.0,11.0.0)'/>
+        <required namespace='java.package' name='javax.naming' range='0.0.0'/>
+        <required namespace='java.package' name='javax.naming.ldap' range='0.0.0'/>
+        <required namespace='java.package' name='javax.security.auth.x500' range='0.0.0'/>
+        <required namespace='java.package' name='org.slf4j' range='[1.7.0,2.0.0)'/>
+        <requiredProperties namespace='osgi.ee' match='(&amp;(osgi.ee=JavaSE)(version=1.8))'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.softwareag.plm.spm.nirvana.base.impl' version='10.7.0.0000-133380'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.softwareag.plm.spm.nirvana.base.impl&#xA;Bundle-Version: 10.7.0.0000-133380
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.softwareag.plm.spm.nirvana.impl' version='10.7.0.0000-133380' singleton='false' generation='2'>
+      <update id='com.softwareag.plm.spm.nirvana.impl' range='[0.0.0,10.7.0.0000-133380)' severity='0'/>
+      <properties size='5'>
+        <property name='org.eclipse.equinox.p2.name' value='SPM product plugin for Universal Messaging Realm Server'/>
+        <property name='org.eclipse.equinox.p2.description' value='SPM product plugin for Universal Messaging Realm Server containing implementations for Realm Server lifecycle operations, inventory, custom api and others'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Software AG'/>
+        <property name='org.eclipse.equinox.p2.doc.url' value='http://www.softwareag.com'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='com/softwareag/platform/management/nirvana/messages'/>
+      </properties>
+      <provides size='38'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.plm.spm.nirvana.impl' version='10.7.0.0000-133380'/>
+        <provided namespace='osgi.bundle' name='com.softwareag.plm.spm.nirvana.impl' version='10.7.0.0000-133380'/>
+        <provided namespace='java.package' name='com.softwareag.platform.management.nirvana.administration.channels.impl' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.platform.management.nirvana.administration.durablesubscibers.event.viewer' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.platform.management.nirvana.administration.durablesubscribers.impl' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.platform.management.nirvana.administration.events' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.platform.management.nirvana.administration.impl' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.platform.management.nirvana.administration.publish' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.platform.management.nirvana.administration.queues.consumer' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.platform.management.nirvana.administration.queues.impl' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.platform.management.nirvana.administration.snoop' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.platform.management.nirvana.asset' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.platform.management.nirvana.channelsandqueues' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.platform.management.nirvana.cmp.impl' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.platform.management.nirvana.configuration.channels.impl' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.platform.management.nirvana.configuration.clusters' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.platform.management.nirvana.configuration.clusters.tasks' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.platform.management.nirvana.configuration.custom.jndi' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.platform.management.nirvana.configuration.groups.impl' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.platform.management.nirvana.configuration.impl' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.platform.management.nirvana.configuration.memory' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.platform.management.nirvana.configuration.ports' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.platform.management.nirvana.configuration.queues.impl' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.platform.management.nirvana.configuration.realms.impl' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.platform.management.nirvana.configuration.tanukiwrapper.impl' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.platform.management.nirvana.configuration.zones' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.platform.management.nirvana.configuration.zones.tasks' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.platform.management.nirvana.groups' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.platform.management.nirvana.impl' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.platform.management.nirvana.instancemanagement.rs' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.platform.management.nirvana.jndi.impl' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.platform.management.nirvana.lifecycle.impl' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.platform.management.nirvana.logaccess.impl' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.platform.management.nirvana.monitoring.impl' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.platform.management.nirvana.realms' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.platform.management.nirvana.zones' version='10.7.0'/>
+        <provided namespace='osgi.identity' name='com.softwareag.plm.spm.nirvana.impl' version='10.7.0.0000-133380'>
+          <properties size='1'>
+            <property name='type' value='osgi.bundle'/>
+          </properties>
+        </provided>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='83'>
+        <required namespace='java.package' name='com.softwareag.cmp.provider' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider.attribute' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider.context' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.cmp.umprovider' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.cmp.umprovider.context' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.common.lic' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.num.deployer.exception' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.num.deployer.impl' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.num.deployer.trans.impl' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.num.deployer.utils' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.administration.spi' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.asset' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.asset.spi' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.common.annotations' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.common.configuration' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.common.configuration.dto' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.common.exceptions' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.common.inventory' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.common.logretrieval' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.common.monitoring' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.common.security' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.configuration.common.configurationuibinding' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.configuration.common.serializer' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.configuration.common.types' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.configuration.common.types.clustersettings' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.configuration.common.types.jvmoptions' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.configuration.common.types.licenselocation' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.configuration.common.types.memorysettings' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.configuration.common.types.portsettings' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.configuration.spi' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.configuration.uibinding.spi' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.diagnostics.logretrieval' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.inventory.spi' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.lifecycleoperations.spi' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.monitoring.spi' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.nirvana' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.nirvana.administration.channels.impl' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.nirvana.administration.durablesubscibers.event.viewer' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.nirvana.administration.durablesubscribers.impl' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.nirvana.administration.events' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.nirvana.administration.impl' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.nirvana.administration.publish' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.nirvana.administration.queues.consumer' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.nirvana.administration.queues.impl' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.nirvana.administration.snoop' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.nirvana.channelsandqueues' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.nirvana.configuration.clusters' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.nirvana.configuration.clusters.tasks' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.nirvana.configuration.custom.jndi' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.nirvana.configuration.impl' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.nirvana.configuration.zones.tasks' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.nirvana.exception' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.nirvana.groups' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.nirvana.inventory.impl' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.nirvana.jndi.impl' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.nirvana.manager' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.nirvana.messages' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.nirvana.realms' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.nirvana.util' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.nirvana.zones' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.uibinding.spi' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.util' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.security.sin.jaas.util' range='0.0.0'/>
+        <required namespace='java.package' name='com.webmethods.deployer.common.acdl' range='0.0.0'/>
+        <required namespace='java.package' name='com.google.gson' range='[2.8.0,3.0.0)'/>
+        <required namespace='java.package' name='com.google.protobuf' range='[3.12.0,4.0.0)'/>
+        <required namespace='java.package' name='com.google.protobuf.util' range='[3.7.0,4.0.0)'/>
+        <required namespace='java.package' name='com.pcbsys.foundation.base' range='[10.7.0,11.0.0)'/>
+        <required namespace='java.package' name='com.pcbsys.foundation.collections' range='[10.7.0,11.0.0)'/>
+        <required namespace='java.package' name='com.pcbsys.foundation.drivers.configuration' range='[10.7.0,11.0.0)'/>
+        <required namespace='java.package' name='com.pcbsys.foundation.threads' range='[10.7.0,11.0.0)'/>
+        <required namespace='java.package' name='com.pcbsys.foundation.utils' range='[10.7.0,11.0.0)'/>
+        <required namespace='java.package' name='com.pcbsys.nirvana.base' range='[10.7.0,11.0.0)'/>
+        <required namespace='java.package' name='com.pcbsys.nirvana.client' range='[10.7.0,11.0.0)'/>
+        <required namespace='java.package' name='com.pcbsys.nirvana.nAdmin' range='[10.7.0,11.0.0)'/>
+        <required namespace='java.package' name='com.pcbsys.nirvana.nAdminAPI' range='[10.7.0,11.0.0)'/>
+        <required namespace='java.package' name='com.pcbsys.nirvana.nJMS' range='[10.7.0,11.0.0)'/>
+        <required namespace='java.package' name='javax.jms' range='[1.1.0,2.0.0)'/>
+        <required namespace='java.package' name='javax.naming' range='0.0.0'/>
+        <required namespace='java.package' name='javax.xml.bind.annotation' range='0.0.0'/>
+        <required namespace='java.package' name='org.slf4j' range='[1.7.0,2.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.nirvana.instancemanagement' range='[10.7.0,11.0.0)'/>
+        <requiredProperties namespace='osgi.ee' match='(&amp;(osgi.ee=JavaSE)(version=1.8))'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.softwareag.plm.spm.nirvana.impl' version='10.7.0.0000-133380'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.softwareag.plm.spm.nirvana.impl&#xA;Bundle-Version: 10.7.0.0000-133380
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.softwareag.plm.spm.nirvana.impl' version='10.7.0.0001-133384' singleton='false' generation='2'>
+      <update id='com.softwareag.plm.spm.nirvana.impl' range='[0.0.0,10.7.0.0001-133384)' severity='0'/>
+      <properties size='5'>
+        <property name='org.eclipse.equinox.p2.name' value='SPM product plugin for Universal Messaging Realm Server'/>
+        <property name='org.eclipse.equinox.p2.description' value='SPM product plugin for Universal Messaging Realm Server containing implementations for Realm Server lifecycle operations, inventory, custom api and others'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Software AG'/>
+        <property name='org.eclipse.equinox.p2.doc.url' value='http://www.softwareag.com'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='com/softwareag/platform/management/nirvana/messages'/>
+      </properties>
+      <provides size='38'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.plm.spm.nirvana.impl' version='10.7.0.0001-133384'/>
+        <provided namespace='osgi.bundle' name='com.softwareag.plm.spm.nirvana.impl' version='10.7.0.0001-133384'/>
+        <provided namespace='java.package' name='com.softwareag.platform.management.nirvana.administration.channels.impl' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.platform.management.nirvana.administration.durablesubscibers.event.viewer' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.platform.management.nirvana.administration.durablesubscribers.impl' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.platform.management.nirvana.administration.events' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.platform.management.nirvana.administration.impl' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.platform.management.nirvana.administration.publish' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.platform.management.nirvana.administration.queues.consumer' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.platform.management.nirvana.administration.queues.impl' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.platform.management.nirvana.administration.snoop' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.platform.management.nirvana.asset' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.platform.management.nirvana.channelsandqueues' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.platform.management.nirvana.cmp.impl' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.platform.management.nirvana.configuration.channels.impl' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.platform.management.nirvana.configuration.clusters' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.platform.management.nirvana.configuration.clusters.tasks' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.platform.management.nirvana.configuration.custom.jndi' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.platform.management.nirvana.configuration.groups.impl' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.platform.management.nirvana.configuration.impl' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.platform.management.nirvana.configuration.memory' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.platform.management.nirvana.configuration.ports' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.platform.management.nirvana.configuration.queues.impl' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.platform.management.nirvana.configuration.realms.impl' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.platform.management.nirvana.configuration.tanukiwrapper.impl' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.platform.management.nirvana.configuration.zones' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.platform.management.nirvana.configuration.zones.tasks' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.platform.management.nirvana.groups' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.platform.management.nirvana.impl' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.platform.management.nirvana.instancemanagement.rs' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.platform.management.nirvana.jndi.impl' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.platform.management.nirvana.lifecycle.impl' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.platform.management.nirvana.logaccess.impl' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.platform.management.nirvana.monitoring.impl' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.platform.management.nirvana.realms' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.platform.management.nirvana.zones' version='10.7.0'/>
+        <provided namespace='osgi.identity' name='com.softwareag.plm.spm.nirvana.impl' version='10.7.0.0001-133384'>
+          <properties size='1'>
+            <property name='type' value='osgi.bundle'/>
+          </properties>
+        </provided>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='83'>
+        <required namespace='java.package' name='com.softwareag.cmp.provider' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider.attribute' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.cmp.provider.context' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.cmp.umprovider' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.cmp.umprovider.context' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.common.lic' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.num.deployer.exception' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.num.deployer.impl' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.num.deployer.trans.impl' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.num.deployer.utils' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.administration.spi' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.asset' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.asset.spi' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.common.annotations' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.common.configuration' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.common.configuration.dto' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.common.exceptions' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.common.inventory' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.common.logretrieval' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.common.monitoring' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.common.security' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.configuration.common.configurationuibinding' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.configuration.common.serializer' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.configuration.common.types' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.configuration.common.types.clustersettings' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.configuration.common.types.jvmoptions' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.configuration.common.types.licenselocation' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.configuration.common.types.memorysettings' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.configuration.common.types.portsettings' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.configuration.spi' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.configuration.uibinding.spi' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.diagnostics.logretrieval' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.inventory.spi' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.lifecycleoperations.spi' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.monitoring.spi' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.nirvana' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.nirvana.administration.channels.impl' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.nirvana.administration.durablesubscibers.event.viewer' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.nirvana.administration.durablesubscribers.impl' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.nirvana.administration.events' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.nirvana.administration.impl' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.nirvana.administration.publish' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.nirvana.administration.queues.consumer' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.nirvana.administration.queues.impl' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.nirvana.administration.snoop' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.nirvana.channelsandqueues' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.nirvana.configuration.clusters' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.nirvana.configuration.clusters.tasks' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.nirvana.configuration.custom.jndi' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.nirvana.configuration.impl' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.nirvana.configuration.zones.tasks' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.nirvana.exception' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.nirvana.groups' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.nirvana.inventory.impl' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.nirvana.jndi.impl' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.nirvana.manager' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.nirvana.messages' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.nirvana.realms' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.nirvana.util' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.nirvana.zones' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.uibinding.spi' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.util' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.security.sin.jaas.util' range='0.0.0'/>
+        <required namespace='java.package' name='com.webmethods.deployer.common.acdl' range='0.0.0'/>
+        <required namespace='java.package' name='com.google.gson' range='[2.8.0,3.0.0)'/>
+        <required namespace='java.package' name='com.google.protobuf' range='[3.12.0,4.0.0)'/>
+        <required namespace='java.package' name='com.google.protobuf.util' range='[3.7.0,4.0.0)'/>
+        <required namespace='java.package' name='com.pcbsys.foundation.base' range='[10.7.0,11.0.0)'/>
+        <required namespace='java.package' name='com.pcbsys.foundation.collections' range='[10.7.0,11.0.0)'/>
+        <required namespace='java.package' name='com.pcbsys.foundation.drivers.configuration' range='[10.7.0,11.0.0)'/>
+        <required namespace='java.package' name='com.pcbsys.foundation.threads' range='[10.7.0,11.0.0)'/>
+        <required namespace='java.package' name='com.pcbsys.foundation.utils' range='[10.7.0,11.0.0)'/>
+        <required namespace='java.package' name='com.pcbsys.nirvana.base' range='[10.7.0,11.0.0)'/>
+        <required namespace='java.package' name='com.pcbsys.nirvana.client' range='[10.7.0,11.0.0)'/>
+        <required namespace='java.package' name='com.pcbsys.nirvana.nAdmin' range='[10.7.0,11.0.0)'/>
+        <required namespace='java.package' name='com.pcbsys.nirvana.nAdminAPI' range='[10.7.0,11.0.0)'/>
+        <required namespace='java.package' name='com.pcbsys.nirvana.nJMS' range='[10.7.0,11.0.0)'/>
+        <required namespace='java.package' name='javax.jms' range='[1.1.0,2.0.0)'/>
+        <required namespace='java.package' name='javax.naming' range='0.0.0'/>
+        <required namespace='java.package' name='javax.xml.bind.annotation' range='0.0.0'/>
+        <required namespace='java.package' name='org.slf4j' range='[1.7.0,2.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.platform.management.nirvana.instancemanagement' range='[10.7.0,11.0.0)'/>
+        <requiredProperties namespace='osgi.ee' match='(&amp;(osgi.ee=JavaSE)(version=1.8))'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.softwareag.plm.spm.nirvana.impl' version='10.7.0.0001-133384'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.softwareag.plm.spm.nirvana.impl&#xA;Bundle-Version: 10.7.0.0001-133384&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.softwareag.plm.spm.nirvana.em.impl' version='10.7.0.0000-133380' singleton='false'>
+      <update id='com.softwareag.plm.spm.nirvana.em.impl' range='[0.0.0,10.7.0.0000-133380)' severity='0'/>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='SPM product plugin for Universal Messaging Enterprise Manager'/>
+        <property name='org.eclipse.equinox.p2.description' value='SPM product plugin for Universal Messaging Enterprise Manager containing implementation for Enterprise Manager instance management'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Software AG'/>
+        <property name='org.eclipse.equinox.p2.doc.url' value='http://www.softwareag.com'/>
+      </properties>
+      <provides size='4'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.plm.spm.nirvana.em.impl' version='10.7.0.0000-133380'/>
+        <provided namespace='osgi.bundle' name='com.softwareag.plm.spm.nirvana.em.impl' version='10.7.0.0000-133380'/>
+        <provided namespace='osgi.identity' name='com.softwareag.plm.spm.nirvana.em.impl' version='10.7.0.0000-133380'>
+          <properties size='1'>
+            <property name='type' value='osgi.bundle'/>
+          </properties>
+        </provided>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='1'>
+        <required namespace='java.package' name='com.softwareag.platform.management.nirvana.instancemanagement' range='[10.7.0,11.0.0)'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.softwareag.plm.spm.nirvana.em.impl' version='10.7.0.0000-133380'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.softwareag.plm.spm.nirvana.em.impl&#xA;Bundle-Version: 10.7.0.0000-133380
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.softwareag.plm.spm.nirvana.feature.patch.feature.jar' version='10.7.0.0001-133384'>
+      <properties size='3'>
+        <property name='org.eclipse.equinox.p2.name' value='SPM for &apos;null&apos; feature'/>
+        <property name='org.eclipse.equinox.p2.description' value='[Enter Feature Description here.]'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='http://www.example.com/description'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.plm.spm.nirvana.feature.patch.feature.jar' version='10.7.0.0001-133384'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
+        <provided namespace='org.eclipse.update.feature' name='com.softwareag.plm.spm.nirvana.feature.patch' version='10.7.0.0001-133384'/>
+      </provides>
+      <filter>
+        (org.eclipse.update.install.features=true)
+      </filter>
+      <artifacts size='1'>
+        <artifact classifier='org.eclipse.update.feature' id='com.softwareag.plm.spm.nirvana.feature.patch' version='10.7.0.0001-133384'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+        </instructions>
+      </touchpointData>
+      <licenses size='1'>
+        <license uri='http://www.example.com/license' url='http://www.example.com/license'>
+          [Enter License Description here.]
+        </license>
+      </licenses>
+      <copyright uri='http://www.example.com/copyright' url='http://www.example.com/copyright'>
+        [Enter Copyright Description here.]
+      </copyright>
+    </unit>
+  </units>
+</repository>

@@ -1,0 +1,30 @@
+#This property file stores persistent values for this installation's installer.
+#Tue Oct 26 10:48:37 IST 2021
+simplifiedAPIData,com.softwareag.num.install.NUMConfigPanel,NUM.Client.RNAME.ID=__VERSION1__,nsp%3A%2F%2Flocalhost%3A9000
+SPM.httpPort=8092
+simplifiedDisabledAPIData,com.softwareag.num.install.NUMConfigPanel,NUM.EntMgr.TemplApps.ID=0
+__INSTALLER_PERSIST_PREFIX__,NUMEnterpriseManager,instance.ip=127.0.0.1
+simplifiedDisabledAPIData,com.softwareag.plm.spm.install.SPMSetupPanel,SPMGeneralDescriptionTextBlock=0
+SPM.jmxPort=8094
+simplifiedDisabledAPIData,com.softwareag.plm.spm.install.SPMSetupPanel,com.wm.distman.utils_separator0=0
+simplifiedDisabledAPIData,com.softwareag.num.install.NUMConfigPanel,NUM.Instance.Connection.ID=0
+simplifiedDisabledAPIData,com.softwareag.plm.spm.install.SPMSetupPanel,SPMUsingCC=0
+simplifiedDisabledAPIData,com.softwareag.plm.spm.install.SPMSetupPanel,SPMTitleTextBlock=0
+simplifiedDisabledAPIData,com.softwareag.plm.spm.install.SPMSetupPanel,SPMAppOrService=1
+simplifiedDisabledAPIData,com.softwareag.num.install.NUMConfigPanel,NUM.Client.RNAME.ID=0
+simplifiedDisabledAPIData,com.softwareag.num.install.NUMConfigPanel,NUM.Purpose.ID=0
+__INSTALLER_PERSIST_PREFIX__,NUMEnterpriseManager,instance.name=umserver
+simplifiedDisabledAPIData,com.softwareag.num.install.NUMConfigPanel,NUM.Client.Profile.ID=0
+simplifiedAPIData,com.softwareag.plm.spm.install.SPMSetupPanel,SPMHttpsPort=__VERSION1__,8093
+simplifiedAPIData,com.softwareag.plm.spm.install.SPMSetupPanel,SPMUsingCC=__VERSION1__,1,0,Plan+to+use+Command+Central
+simplifiedDisabledAPIData,com.softwareag.plm.spm.install.SPMSetupPanel,SPMAdditionalInfoDescriptionTextBlock=0
+SPM.httpsPort=8093
+simplifiedDisabledAPIData,com.softwareag.plm.spm.install.SPMSetupPanel,SPMConfigPanelPortsNotification=1
+__INSTALLER_PERSIST_PREFIX__,NUMEnterpriseManager,instance.port=9000
+simplifiedDisabledAPIData,com.softwareag.plm.spm.install.SPMSetupPanel,SPMHttpPort=1
+simplifiedAPIData,com.softwareag.num.install.NUMConfigPanel,NUM.Client.Profile.ID=__VERSION1__,1,0_,umserver,umserver
+simplifiedDisabledAPIData,com.softwareag.plm.spm.install.SPMSetupPanel,SPMHttpsPort=1
+simplifiedAPIData,com.softwareag.plm.spm.install.SPMSetupPanel,SPMAppOrService=__VERSION1__,1,0,Register+Windows+service%2FUNIX+daemon+for+automatic+startup+of+Platform+Manager
+simplifiedAPIData,com.softwareag.num.install.NUMConfigPanel,NUM.Purpose.ID=__VERSION1__,2,0_,1,New+installation,Side-by-side+installation+for+upgrade
+simplifiedAPIData,com.softwareag.plm.spm.install.SPMSetupPanel,SPMHttpPort=__VERSION1__,8092
+simplifiedDisabledAPIData,com.softwareag.plm.spm.install.SPMSetupPanel,com.wm.distman.utils_panel0=0

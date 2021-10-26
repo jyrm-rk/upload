@@ -1,0 +1,25 @@
+name=e2ei/11/WSC_10.7.0.0.434/SCG/SCGCommon/SCGCommon-W64-Any/BM_WSCCommon-ALL-Any
+version=10.7.0.0.434
+timestamp=1599492591
+
+common/
+common/lib/
+common/
+common/src/
+0755 common/lib/uddi-client.jar
+common/lib/
+0755 common/lib/wm-acdl-common.jar
+0755 common/lib/wm-bpm-processmodel.jar
+0755 common/lib/wm-eform-common.jar
+0755 common/lib/wm-eform.jar
+0755 common/lib/wm-g11nutils.jar
+0755 common/lib/wm-lwq.jar
+0755 common/lib/wm-scg-audit.jar
+0755 common/lib/wm-scg-cluster.jar
+0755 common/lib/wm-scg-core.jar
+0755 common/lib/wm-scg-jdbcpool.jar
+0755 common/lib/wm-scg-localization.jar
+0755 common/lib/wm-scg-security.jar
+0755 common/lib/wm-trang.jar
+0755 common/src/rhino1_6R7.zip
+common/src/

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<IDataXMLCoder version="1.0">
+  <record javaclass="com.wm.util.Values">
+    <value name="srcVersion">10.7.0</value>
+    <value name="destVersion">10.7.0</value>
+    <value name="isOverInstall">false</value>
+  </record>
+</IDataXMLCoder>

@@ -1,0 +1,9 @@
+name=e2ei/11/LIC_5.7.2.0.956/LICSharedLibsJava/LICSharedLibsJava/LICSharedLibsJava-W64-Any/BM_LIC_SharedLibs_java-ALL-Any
+version=5.7.2.0.956
+timestamp=1613471319
+
+common/
+common/lib/
+common/
+common/lib/saglic.jar
+common/lib/

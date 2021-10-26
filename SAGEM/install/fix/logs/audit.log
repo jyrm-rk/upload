@@ -1,0 +1,27 @@
+2021/10/26 10:34:03.881 IST: installed Shared Components 10.7 Core Fix 1(wMFix.SCGCommon.Core_10.7.0.0001-0450) Date of fix backup: Tue Oct 26 10:34:03 IST 2021
+2021/10/26 10:34:03.881 IST: installed DC_CL_10.7_DCC_Fix1(wMFix.SCGCommon.DatabaseComponentConfigurator_10.7.0.0001-0043) Date of fix backup: Tue Oct 26 10:34:03 IST 2021
+2021/10/26 10:34:03.881 IST: installed Integration Server Client 10.7 Fix 3(wMFix.SCGCommon.IS_10.7.0.0003-0028) Date of fix backup: Tue Oct 26 10:34:03 IST 2021
+2021/10/26 10:34:03.881 IST: installed Shared Components 10.7 Security Fix 1(wMFix.SCGCommon.Security_10.7.0.0001-0450) Date of fix backup: Tue Oct 26 10:34:03 IST 2021
+2021/10/26 10:34:03.881 IST: installed Java Package 1.8 Fix 134 (W64)(wMFix.SJP.Java64.W64_10.7.0.0134-0007) Date of fix backup: Tue Oct 26 10:34:03 IST 2021
+2021/10/26 10:34:03.881 IST: installed Common Libraries for OpenSSL 10.7 Fix 1 (W64)(wMFix.ALL.SSL.W64_10.7.0.0001-0067) Date of fix backup: Tue Oct 26 10:34:03 IST 2021
+2021/10/26 10:34:03.882 IST: installed Shared Libraries Light Weight Queue 10.7 Fix 1(wMFix.SCGCommon.LWQ_10.7.0.0001-0053) Date of fix backup: Tue Oct 26 10:34:03 IST 2021
+2021/10/26 10:34:03.882 IST: installed Platform Manager Shared 10.7.0 FIX 5(wMFix.CCShared_10.7.0.0005-0926) Date of fix backup: Tue Oct 26 10:34:03 IST 2021
+2021/10/26 10:34:03.882 IST: installed Platform Manager 10.7.0 FIX 5(wMFix.SPM_10.7.0.0005-0926) Date of fix backup: Tue Oct 26 10:34:03 IST 2021
+2021/10/26 10:34:03.882 IST: installed Universal Messaging 10.7 Fix 1(wMFix.NUMspmBundles_10.7.0.0001-133384) Date of fix backup: Tue Oct 26 10:34:03 IST 2021
+2021/10/26 10:34:03.882 IST: installed Security Infrastructure 10.7 Fix 2(wMFix.ALL.SIN_10.7.0.0002-0434) Date of fix backup: Tue Oct 26 10:34:03 IST 2021
+2021/10/26 10:34:03.882 IST: installed Platform Diagnostic 10.7 Fix 4(wMFix.OSGI.Diagnostic_10.7.0.0004-0386) Date of fix backup: Tue Oct 26 10:34:03 IST 2021
+2021/10/26 10:34:03.882 IST: installed Platform Migration 10.7.0 Fix 0001(wMFix.OSGI.Migration_10.7.0.0001-0384) Date of fix backup: Tue Oct 26 10:34:03 IST 2021
+2021/10/26 10:34:03.882 IST: installed Platform 10.7.0 Fix 0006(wMFix.OSGI.Platform_10.7.0.0006-0749) Date of fix backup: Tue Oct 26 10:34:03 IST 2021
+2021/10/26 10:34:03.882 IST: installed Platform Updater 10.7 Fix 1(wMFix.OSGI.Updater_10.7.0.0001-0020) Date of fix backup: Tue Oct 26 10:34:03 IST 2021
+2021/10/26 10:34:03.882 IST: installed Broker Bundles 10.5 Fix 3(wMFix.Broker.SharedBundles_10.5.0.0003-0446) Date of fix backup: Tue Oct 26 10:34:03 IST 2021
+2021/10/26 10:34:03.882 IST: installed Common Landscape Asset Registry 10.7 Fix 1(wMFix.LARSharedBundles_10.7.0.0001-0435) Date of fix backup: Tue Oct 26 10:34:03 IST 2021
+2021/10/26 10:34:03.882 IST: installed webMethods Installer Shared Tools InstallationProvisioning 10.7.0 FIX 1(wMFix.SDRepository_10.7.0.0001-0360) Date of fix backup: Tue Oct 26 10:34:03 IST 2021
+2021/10/26 10:34:03.882 IST: installed webMethods Installer Shared Tools SUM API 10.7.0 FIX 1(wMFix.SUMApi_10.7.0.0001-0296) Date of fix backup: Tue Oct 26 10:34:03 IST 2021
+2021/10/26 10:34:03.882 IST: installed Universal Messaging Shared Bundles 10.7 Fix 3(wMFix.NUMRepository.SharedBundles_10.7.0.0003-140269) Date of fix backup: Tue Oct 26 10:34:03 IST 2021
+2021/10/26 10:34:03.882 IST: installed Shared Bundles Commons 10.7 Fix 1(wMFix.TPS.Commons_10.7.0.0001-0017) Date of fix backup: Tue Oct 26 10:34:03 IST 2021
+2021/10/26 10:34:03.882 IST: installed Shared Bundles Glassfish 10.7 Fix 1(wMFix.TPS.Glassfish_10.7.0.0001-0036) Date of fix backup: Tue Oct 26 10:34:03 IST 2021
+2021/10/26 10:34:03.882 IST: installed Universal Messaging Java Client 10.7 Fix 3(wMFix.NUMClient_10.7.0.0003-140269) Date of fix backup: Tue Oct 26 10:34:03 IST 2021
+2021/10/26 10:34:03.882 IST: installed Universal Messaging JavaScript Client 10.7 Fix 3(wMFix.NUMClient.JavaScript_10.7.0.0003-140269) Date of fix backup: Tue Oct 26 10:34:03 IST 2021
+2021/10/26 10:34:03.882 IST: installed Universal Messaging .Net Client 10.7 Fix 3 (WNT,W64)(wMFix.NUMClient.WIN_10.7.0.0003-140269) Date of fix backup: Tue Oct 26 10:34:03 IST 2021
+2021/10/26 10:34:03.882 IST: installed Universal Messaging C++ Client 10.7 Fix 3 (W64)(wMFix.NUMClient.WIN64_10.7.0.0003-140269) Date of fix backup: Tue Oct 26 10:34:03 IST 2021
+2021/10/26 10:34:03.882 IST: installed Universal Messaging Enterprise Manager 10.7 Fix 3(wMFix.NUMEnterpriseManager_10.7.0.0003-140269) Date of fix backup: Tue Oct 26 10:34:03 IST 2021

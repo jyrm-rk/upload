@@ -1,0 +1,89 @@
+#!/bin/sh
+
+print_error_message_and_exit()
+{
+	echo "$1"
+	exit 1
+}
+
+run_program()
+{
+	$JAVA -classpath $CLASSPATH -Dlog4j.configurationFile="${CC_MIGRATE_SCRIPT_DIR}/log4j2.properties" -Dwatt.migrate.product.name="Platform Manager" -Dwatt.migrate.product.bundle.name=com.softwareag.plm.spm.migrator.messages -Dwatt.migrate.product.migrators.file=migrators.cnf -Dwatt.migrate.product.dataProvider=com.softwareag.plm.spm.migrator.cmd.SPMAppDataProvider -Dwatt.migrate.product.name="Platform Manager" -Dwatt.migrate.product.bundle.name=com.softwareag.plm.spm.migrator.messages -Dwatt.migrate.product.migrators.file=migrators.cnf -Dwatt.installer.migrate.destDir=../../.. com.softwareag.plm.spm.migrator.cmd.SPMCmdLineToolMigrationDriver "$@"
+}
+
+init()
+{
+	CC_MIGRATE_SCRIPT_DIR=`dirname $0`
+	SETENV_SCRIPT="${CC_MIGRATE_SCRIPT_DIR}/../../../install/bin/setenv.sh"
+	if [ -f ${SETENV_SCRIPT} ]
+	then
+		. ${SETENV_SCRIPT}
+		JAVA=${JAVA_HOME}/bin/java
+	elif [ -d "$JAVA_HOME" ]
+	then
+		JAVA=${JAVA_HOME}/bin/java
+	elif [ -f "`which java 2> /dev/null`" ]
+	then
+		JAVA=java
+	else
+		print_error_message_and_exit "Java not found!"
+	fi
+
+	unset CLASSPATH # make sure CLASSPATH never comes from the environment
+
+	CC_MIGRATE_LIB_DIR="${CC_MIGRATE_SCRIPT_DIR}/../lib"
+	COMMON_LIB_DIR="${CC_MIGRATE_SCRIPT_DIR}/../../../common/lib"
+	INSTALL_JARS_DIR="${CC_MIGRATE_SCRIPT_DIR}/../../../install/jars"
+
+	CLASSPATH="${CC_MIGRATE_SCRIPT_DIR}"
+	append_classpath "${CC_MIGRATE_LIB_DIR}/*"
+	append_classpath "${COMMON_LIB_DIR}/ext/log4j/*"
+	append_classpath "${COMMON_LIB_DIR}/wm-is-migration-framework.jar"
+	append_classpath "${COMMON_LIB_DIR}/wm-isclient.jar"
+	append_classpath "${COMMON_LIB_DIR}/ext/enttoolkit.jar"
+	append_classpath "${COMMON_LIB_DIR}/wm-scg-core.jar"
+	append_classpath "${COMMON_LIB_DIR}/wm-scg-security.jar"
+	append_classpath "${COMMON_LIB_DIR}/wm-g11nutils.jar"
+	append_classpath "${COMMON_LIB_DIR}/migrate/*"
+	append_classpath "${INSTALL_JARS_DIR}/DistMan.jar"
+}
+
+append_classpath() {
+    libs_pattern=$1
+    for jar_file in `ls $libs_pattern 2> /dev/null`
+    do
+        if [ -z "$CLASSPATH" ]
+        then
+            CLASSPATH=$jar_file
+        else
+            CLASSPATH="${CLASSPATH}:${jar_file}"
+        fi
+    done
+}
+
+check_input() {
+	if [ "$1" = "-help" ]; then
+		echo ""
+		echo "  Usage: . migrate [options]"
+		echo "  options"
+		echo "		-srcDir		Root directory of the Platform Manager you are migrating from."
+		echo " 		-destDir	Destination directory of the Platform Manager you are migrating to."
+		echo "		-srcVersion	Version of the source Platform Manager."
+		echo "		-silent		Specifies whether migration will be executed in the silent mode."
+		echo "            		Supported values are true or false."
+		echo "            		Supported values are true or false."
+		echo "		-importFile	Specifies file path containing migration settings."
+		echo "		-srcFile	Specifies archive file path containing configuration and packages of the source Command Central."
+		echo ""
+		exit
+	fi
+}
+
+main()
+{
+	init
+	check_input "$@"
+	run_program "$@"
+}
+
+main "$@"

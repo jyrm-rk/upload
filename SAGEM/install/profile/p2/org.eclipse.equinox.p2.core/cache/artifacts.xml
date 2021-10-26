@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<repository name='download cache' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1.0.0'>
+  <properties size='2'>
+    <property name='p2.system' value='true'/>
+    <property name='p2.timestamp' value='1635224373062'/>
+  </properties>
+  <mappings size='3'>
+    <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
+    <rule filter='(&amp; (classifier=binary))' output='${repoUrl}/binary/${id}_${version}'/>
+    <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
+  </mappings>
+  <artifacts size='13'>
+    <artifact classifier='binary' id='com.softwareag.platform.jmx.profile' version='10.7.0.0000-0635'>
+      <properties size='1'>
+        <property name='download.size' value='1291'/>
+      </properties>
+    </artifact>
+    <artifact classifier='binary' id='com.softwareag.platform.scg.profile' version='10.7.0.0000-0635'>
+      <properties size='1'>
+        <property name='download.size' value='1501'/>
+      </properties>
+    </artifact>
+    <artifact classifier='binary' id='com.softwareag.platform.minimal.profile' version='10.7.0.0000-0635'>
+      <properties size='1'>
+        <property name='download.size' value='1456'/>
+      </properties>
+    </artifact>
+    <artifact classifier='binary' id='com.softwareag.platform.equinox.profile.win32' version='10.7.0.0000-0635'>
+      <properties size='1'>
+        <property name='download.size' value='10124'/>
+      </properties>
+    </artifact>
+    <artifact classifier='binary' id='com.softwareag.platform.foundation.profile' version='10.7.0.0000-0635'>
+      <properties size='1'>
+        <property name='download.size' value='1250'/>
+      </properties>
+    </artifact>
+    <artifact classifier='binary' id='com.softwareag.platform.logging.profile' version='10.7.0.0000-0635'>
+      <properties size='1'>
+        <property name='download.size' value='1592'/>
+      </properties>
+    </artifact>
+    <artifact classifier='binary' id='com.softwareag.platform.security.sso.profile' version='10.7.0.0000-0635'>
+      <properties size='1'>
+        <property name='download.size' value='1428'/>
+      </properties>
+    </artifact>
+    <artifact classifier='binary' id='com.softwareag.plm.sd.platform.repository.feature.profile.win32' version='10.7.0.0000-0359'>
+      <properties size='1'>
+        <property name='download.size' value='1682'/>
+      </properties>
+    </artifact>
+    <artifact classifier='binary' id='com.softwareag.platform.security.authz.profile.win32' version='10.7.0.0000-0635'>
+      <properties size='1'>
+        <property name='download.size' value='1717'/>
+      </properties>
+    </artifact>
+    <artifact classifier='binary' id='com.softwareag.plm.sd.platform.provision.agent.feature.profile.win32' version='10.7.0.0000-0359'>
+      <properties size='1'>
+        <property name='download.size' value='1431'/>
+      </properties>
+    </artifact>
+    <artifact classifier='binary' id='com.softwareag.platform.equinox.profile' version='10.7.0.0000-0635'>
+      <properties size='1'>
+        <property name='download.size' value='4059'/>
+      </properties>
+    </artifact>
+    <artifact classifier='binary' id='com.softwareag.platform.security.authz.profile' version='10.7.0.0000-0635'>
+      <properties size='1'>
+        <property name='download.size' value='2219'/>
+      </properties>
+    </artifact>
+    <artifact classifier='binary' id='com.softwareag.platform.sshd.profile' version='10.7.0.0000-0635'>
+      <properties size='1'>
+        <property name='download.size' value='1788'/>
+      </properties>
+    </artifact>
+  </artifacts>
+</repository>

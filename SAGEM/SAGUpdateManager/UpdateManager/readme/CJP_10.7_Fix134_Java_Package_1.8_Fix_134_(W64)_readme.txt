@@ -1,0 +1,204 @@
+Software AG Java Package 1.8 Fix 134 readme
+
+May 2021
+
+_________________________________________________________________
+
+This file provides important information for applying 
+Sofware AG Java Package.
+
+_________________________________________________________________
+
+
+
+Contents:
+
+1.0   Fix Name
+2.0   Fix ID
+3.0   Product(s)/Component(s) Affected
+4.0   Requirements
+5.0   Platform Support
+6.0   Cautions and Warnings
+7.0   Fix Contents
+8.0   Installation
+9.0   Uninstallation
+10.0  Globalization
+11.0  Copyright
+12.0  Contacting Us
+
+
+
+1.0 Fix Name
+
+Software AG Java Package 1.8 Fix 134
+
+
+
+2.0 Fix ID
+
+CJP_10.7_Fix134
+
+
+
+3.0 Product(s)/Component(s) Affected
+
+This fix affects Software AG Java Package.
+
+
+
+4.0 Requirements
+
+There are no further explicit fix requirements, but Software AG strongly 
+recommend that you install all available product fixes at the same time as 
+Software AG Java Package 1.8 Fix 134.
+
+
+
+5.0 Platform Support
+
+This fix is supported on Windows, Linux x86_64, Solaris and AIX
+operating systems.
+
+
+
+6.0 Cautions and Warnings
+
+* All files in the "jvm/jvm" folder will be set to original vendor content. 
+Manual changes in the "jvm/jvm" folder need to be redone after the fix install.
+The old files can be found for reference in the "jvm/jvmXXX.bck" folder.
+
+* In Azul Zulu JDK TLS 1.0/1.1 is disabled in the Zulu builds. This may cause 
+incompatibility issues if your application uses TLS 1.0/1.1. 
+
+* Please check that no other Java versions can be found in your PATH
+and LIBRARY PATH (UNIX only) settings.
+Also JAVA_HOME should not be set.
+
+
+7.0 Fix Contents
+
+Software AG Java Package, including 
+* Azul Zulu JDK 8.54 (openjdk version "1.8.0_292") for Windows, Linux x86_64, Solaris
+  (the GA delivery of 10.7 contained Azul Zulu JDK 8.47 (openjdk version "1.8.0_261") for these platforms).
+* IBM Java 8 SR6 FP26 (Security base 180_281) for AIX (the GA delivery of 10.7 contained IBM Java 1.8.0 SR6 FP11)
+
+For changes/updates in the vendors java package please consult:
+* https://docs.azul.com/zulu/index.htm
+* https://developer.ibm.com/javasdk/category/release-notes/
+
+
+
+8.0 Installation
+
+Install using the Software AG Update Manager or Command Central (9.7 or later).
+For instructions, see the corresponding documentation at
+http://documentation.softwareag.com.
+
+If you are using Command Central, follow the steps below.
+
+1 Manually shut down all running products in the product directory that are not
+  managed by Command Central. Keep the Platform Manager in the product
+  directory running.
+2 Install Software AG Java Package 1.8 Fix 134 in the product directory.
+3 Start the products.
+
+If you are using Update Manager, Update Manager is located in a different 
+directory (e.g. C:\SoftwareAGSUM) than the product directory 
+(e.g. C:\SoftwareAG). Follow the steps below.
+
+1 Shut down all running products in the product directory (e.g. "C:\SoftwareAG").
+2 Use the Update Manager (e.g. in "C:\SoftwareAGSUM") to install 
+  Software AG Java Package 1.8 Fix 134 in the product directory 
+  (e.g. "C:\SoftwareAG").
+3 Start the products. 
+
+
+
+9.0 Uninstallation
+
+Note: These instructions can only be used to uninstall the most recently 
+installed fix. This action will revert your installation to the previously 
+installed fix. You cannot use these instructions to uninstall the previously 
+installed fix.
+
+Uninstall using the Software AG Update Manager or Command Central (9.7 or later).
+For instructions, see the corresponding documentation at
+http://documentation.softwareag.com.
+
+If you are using Command Central, Update Manager is located in the same 
+directory as the products. Follow the steps below.
+
+1 Manually shut down all running products in the product directory that are not
+  managed by Command Central. Keep the Platform Manager in the product 
+  directory running.
+2 Uninstall Software AG Java Package 1.8 Fix 134 from the product directory.
+3 Start the products.
+
+If you are using Update Manager, Update Manager is located in a different 
+directory (e.g. from "C:\SoftwareAGSUM") than the product directory 
+(e.g. from "C:\SoftwareAG"). Follow the steps below.
+
+1 Shut down all running products in the product directory (e.g. "C:\SoftwareAG").
+2 Use the Update Manager (e.g. in "C:\SoftwareAGSUM") to uninstall 
+  Software AG Java Package 1.8 Fix 134 from the product directory 
+  (e.g. from "C:\SoftwareAG").
+3 Start the products.
+
+
+
+10.0 Globalization
+
+This fix conforms to the internationalization standards of the webMethods 
+product suite and includes support for operation in any country, locale, or 
+language as specified in the Installing webMethods Products guide. It was not 
+tested with non-English configurations and non-ASCII data. However, this fix has
+no globalization impact and can be applied to systems running in any supported 
+locale or configuration.
+
+
+
+11.0 Copyright
+
+Copyright (C) 2007-2021 Software AG, Darmstadt, Germany and/or 
+Software AG USA Inc., Reston, VA, USA, and/or its subsidiaries and/or its 
+affiliates and/or their licensors.
+
+The name Software AG and all Software AG product names are either trademarks 
+or registered trademarks of Software AG and/or Software AG USA Inc. and/or its
+subsidiaries and/or its affiliates and/or their licensors. Other company and 
+product names mentioned herein may be trademarks of their respective owners.
+ 
+Detailed information on trademarks and patents owned by Software AG and/or its
+subsidiaries is located at http://softwareag.com/licenses.
+
+This software may include portions of third-party products. For third-party 
+copyright notices, license terms, additional rights or restrictions, please 
+refer to "License Texts, Copyright Notices and Disclaimers of Third Party 
+Products". For certain specific third-party license restrictions, please refer
+to section E of the Legal Notices available under "License Terms and 
+Conditions for Use of Software AG Products / Copyright and Trademark Notices 
+of Software AG Products". These documents are part of the product 
+documentation, located at http://softwareag.com/licenses and/or in the root 
+installation directory of the licensed product(s).
+
+
+
+12.0 Contacting Us
+
+Authorized technical support contacts can reach Software AG Global Support in 
+the following ways:
+
+  Web: https://empower.softwareag.com (online support center)
+
+  E-mail: empower@softwareag.com
+
+You can find complete contact information in our Global Support Contact 
+Directory at:
+
+https://empower.softwareag.com/public_directory.asp
+
+You can also visit our Software AG Developer Communities to access additional 
+articles, demos, and tutorials, technical information, samples, useful resources,
+online discussion forums moderated by Software AG professionals, and more at:
+
+http://communities.softwareag.com/ecosystem/communities/public/index.html

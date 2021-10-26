@@ -1,0 +1,5 @@
+#debug level. Allowed values are DEBUG,INFO,WARN or ERROR
+debugLevel=DEBUG
+#Self update mode. Allowed values are ON or PROMPT
+selfUpdateMode=ON
+port=37777

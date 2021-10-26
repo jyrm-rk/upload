@@ -1,0 +1,25 @@
+name=e2ei/11/CMP_10.7.0.0.82/CMP/CMP/CMP-W64-Any/BM_CMP_UM102-ALL-Any
+version=10.7.0.0.82
+timestamp=1599492527
+
+common/
+common/runtime/
+common/
+common/runtime/bundles/
+common/runtime/
+common/runtime/bundles/cmp-um102/
+common/runtime/bundles/
+common/runtime/bundles/cmp-um102/eclipse/
+common/runtime/bundles/cmp-um102/
+common/runtime/bundles/cmp-um102/eclipse/binary/
+common/runtime/bundles/cmp-um102/eclipse/
+common/runtime/bundles/cmp-um102/eclipse/features/
+common/runtime/bundles/cmp-um102/eclipse/plugins/
+0755 common/runtime/bundles/cmp-um102/eclipse/artifacts.xml
+0755 common/runtime/bundles/cmp-um102/eclipse/content.xml
+0755 common/runtime/bundles/cmp-um102/eclipse/features/com.softwareag.cmp.features.cmp.um102.feature_10.7.0.0000-0082.jar
+common/runtime/bundles/cmp-um102/eclipse/features/
+0755 common/runtime/bundles/cmp-um102/eclipse/plugins/com.pcbsys.nirvana.client_10.2.0.0004-111320.jar
+common/runtime/bundles/cmp-um102/eclipse/plugins/
+0755 common/runtime/bundles/cmp-um102/eclipse/plugins/com.pcbsys.nirvana.nAdminAPI_10.2.0.0004-111320.jar
+0755 common/runtime/bundles/cmp-um102/eclipse/plugins/com.softwareag.cmp.um102.impl_10.7.0.0000-0082.jar

@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<repository name='Bundle pool' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1.0.0'>
+  <properties size='2'>
+    <property name='p2.system' value='true'/>
+    <property name='p2.timestamp' value='1635224423545'/>
+  </properties>
+  <mappings size='3'>
+    <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
+    <rule filter='(&amp; (classifier=binary))' output='${repoUrl}/binary/${id}_${version}'/>
+    <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
+  </mappings>
+  <artifacts size='10'>
+    <artifact classifier='osgi.bundle' id='com.softwareag.fixinstall.cmdlineinstaller' version='11.0.0.0028-0666'>
+      <properties size='1'>
+        <property name='download.size' value='169566'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.softwareag.fixinstall.sum.credentials.helper' version='11.0.0.0028-0666'>
+      <properties size='1'>
+        <property name='download.size' value='24556'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.softwareag.fixinstall.sagjars' version='11.0.0.0028-0666'>
+      <properties size='1'>
+        <property name='download.size' value='8155264'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.softwareag.fixinstall.products' version='11.0.0.0028-0666'>
+      <properties size='1'>
+        <property name='download.size' value='199277'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.softwareag.fixinstall.log4j2.api.config' version='11.0.0.0028-0666'>
+      <properties size='1'>
+        <property name='download.size' value='857'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.softwareag.fixinstall.shared.actions' version='11.0.0.0028-0666'>
+      <properties size='1'>
+        <property name='download.size' value='623339'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.softwareag.fixinstall.guiinstaller' version='11.0.0.0028-0666'>
+      <properties size='1'>
+        <property name='download.size' value='478220'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.softwareag.fixinstall.core' version='11.0.0.0028-0666'>
+      <properties size='1'>
+        <property name='download.size' value='998452'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.softwareag.fixinstall.actions' version='11.0.0.0028-0666'>
+      <properties size='1'>
+        <property name='download.size' value='48999'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.softwareag.fixinstall.headless' version='11.0.0.0028-0666'>
+      <properties size='1'>
+        <property name='download.size' value='48587'/>
+      </properties>
+    </artifact>
+  </artifacts>
+</repository>

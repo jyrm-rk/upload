@@ -1,0 +1,11 @@
+name=e2ei/11/MFC_20.10.0.0.32/MFC/MfcAll/MFC-W64-Domestic/BM_MFC-WNT-Any
+version=20.10.0.0.32
+timestamp=1599492555
+
+common/
+common/VS2019/
+common/
+common/VS2019/x86/
+common/VS2019/
+common/VS2019/x86/readme.txt
+common/VS2019/x86/

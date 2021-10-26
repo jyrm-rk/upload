@@ -1,0 +1,47 @@
+/*
+ *
+ *   Copyright (c) 1999 - 2011 my-Channels Ltd
+ *   Copyright (c) 2012 - 2020 Software AG, Darmstadt, Germany and/or Software AG USA Inc., Reston, VA, USA, and/or its subsidiaries and/or its affiliates and/or their licensors.
+ *
+ *   Use, reproduction, transfer, publication or disclosure is prohibited except as specifically provided for in your License Agreement with Software AG.
+ *
+ */
+#pragma once
+
+#include "fBase.h"
+
+namespace com {
+namespace pcbsys {
+namespace nirvana {
+namespace nAdminAPI {
+
+using namespace foundation::fbase;
+
+class nConnectionDetails;
+
+/**
+ * Contains callbacks for when new connections are made or deleted
+ */
+class nAPIConnectionListener : public CountableObject {
+  public:
+    /**
+     * constructs a new nAPIConnectionListener
+     */
+    DLL nAPIConnectionListener(void);
+    virtual DLL ~nAPIConnectionListener(void);
+    /**
+     * Called when a new connection is added
+     * @param *pDetails the details for the connection which has been added
+     */
+    virtual void add(nConnectionDetails *pDetails) = 0;
+    /**
+     * Called when a new connection is removed
+     * @param *pDetails the details for the connection which has been removed
+     */
+    virtual void del(nConnectionDetails *pDetails) = 0;
+};
+
+}
+}
+}
+}

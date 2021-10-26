@@ -1,0 +1,9 @@
+name=e2ei/11/SPM_10.7.0.0.784/Platform/SPM/SPM-W64-Any/BM_SPMDiagnostics-ALL-Any
+version=10.7.0.0.784
+timestamp=1599492577
+
+PlatformManager/
+PlatformManager/diagnostics/
+PlatformManager/
+PlatformManager/diagnostics/syscap
+PlatformManager/diagnostics/

@@ -1,0 +1,8 @@
+#Tue Oct 26 10:34:05 IST 2021
+combooption=Fix Management
+createEmpowerImage=N
+installDir=C\:\\temp\\SAGEM
+action=Install fixes from image
+imageFile=C\:\\SoftwareAG107\\wM107Image.zip
+selectedFixes=wMFix.CCShared_10.7.0.0005-0926,wMFix.SUMApi_10.7.0.0001-0296,wMFix.SCGCommon.Core_10.7.0.0001-0450,wMFix.NUMRepository.SharedBundles_10.7.0.0003-140269,wMFix.SDRepository_10.7.0.0001-0360,wMFix.SPM_10.7.0.0005-0926,wMFix.LARSharedBundles_10.7.0.0001-0435,wMFix.ALL.SSL.W64_10.7.0.0001-0067,wMFix.SCGCommon.Security_10.7.0.0001-0450,wMFix.OSGI.Diagnostic_10.7.0.0004-0386,wMFix.TPS.Commons_10.7.0.0001-0017,wMFix.Broker.SharedBundles_10.5.0.0003-0446,wMFix.OSGI.Updater_10.7.0.0001-0020,wMFix.OSGI.Platform_10.7.0.0006-0749,wMFix.NUMClient.WIN64_10.7.0.0003-140269,wMFix.OSGI.Migration_10.7.0.0001-0384,wMFix.SCGCommon.glue_10.1.0.0003-0001,wMFix.NUMspmBundles_10.7.0.0001-133384,wMFix.SJP.Java64.W64_10.7.0.0134-0007,wMFix.NUMEnterpriseManager_10.7.0.0003-140269,wMFix.NUMClient_10.7.0.0003-140269,wMFix.NUMClient.WIN_10.7.0.0003-140269,wMFix.SCGCommon.LWQ_10.7.0.0001-0053,wMFix.TPS.Glassfish_10.7.0.0001-0036,wMFix.SCGCommon.IS_10.7.0.0003-0028,wMFix.SCGCommon.DatabaseComponentConfigurator_10.7.0.0001-0043,wMFix.NUMClient.JavaScript_10.7.0.0003-140269,wMFix.ALL.SIN_10.7.0.0002-0434
+installSP=N

@@ -1,0 +1,8 @@
+name=e2ei/11/IS_10.7.0.0.196/integrationServer/integrationServerMigrationFrameworkLib/integrationServerMigrationFrameworkLib-W64-Any/BM_IntegrationServerMigrationFrameworkLib-ALL-Any
+version=10.7.0.0.196
+timestamp=1599238281
+
+lib/
+0755 lib/wm-is-migration-framework.jar
+lib/
+0755 lib/wm-isclient.jar

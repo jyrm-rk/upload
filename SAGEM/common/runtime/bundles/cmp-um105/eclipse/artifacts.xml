@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<repository name='assemblyRuntime' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1'>
+  <properties size='2'>
+    <property name='p2.timestamp' value='1598261247734'/>
+    <property name='p2.compressed' value='false'/>
+  </properties>
+  <mappings size='3'>
+    <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
+    <rule filter='(&amp; (classifier=binary))' output='${repoUrl}/binary/${id}_${version}'/>
+    <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
+  </mappings>
+  <artifacts size='4'>
+    <artifact classifier='osgi.bundle' id='com.pcbsys.nirvana.nAdminAPI' version='10.5.0.0005-130434'>
+      <properties size='5'>
+        <property name='artifact.size' value='520983'/>
+        <property name='download.size' value='520983'/>
+        <property name='download.md5' value='9f126552f85be70a9c5ef5ccf0e5650e'/>
+        <property name='download.checksum.md5' value='9f126552f85be70a9c5ef5ccf0e5650e'/>
+        <property name='download.checksum.sha-256' value='e0f759ba032b9b5719e4963cbf5c25d0b36a1f7dc942852d5a829b0b0d6af7d9'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='com.softwareag.cmp.features.cmp.um105.feature' version='10.7.0.0000-0082'>
+      <properties size='6'>
+        <property name='artifact.size' value='3193'/>
+        <property name='download.size' value='3193'/>
+        <property name='download.md5' value='38428826b409abf4e31fd92795f8153e'/>
+        <property name='download.checksum.md5' value='38428826b409abf4e31fd92795f8153e'/>
+        <property name='download.checksum.sha-256' value='23dd319b6bf9160a7409d945e4496e1b4dabba9a41b4eaacedbebb79bc082e39'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.pcbsys.nirvana.client' version='10.5.0.0005-130434'>
+      <properties size='5'>
+        <property name='artifact.size' value='1965190'/>
+        <property name='download.size' value='1965190'/>
+        <property name='download.md5' value='7739e89c2deb1672c9a9c05091776dd5'/>
+        <property name='download.checksum.md5' value='7739e89c2deb1672c9a9c05091776dd5'/>
+        <property name='download.checksum.sha-256' value='93fbe9b758a6e01cfc28da89fd9cf55caa6530c48fe937d422b4a1883e78fd75'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.softwareag.cmp.um105.impl' version='10.7.0.0000-0082'>
+      <properties size='5'>
+        <property name='artifact.size' value='142433'/>
+        <property name='download.size' value='142433'/>
+        <property name='download.md5' value='acef61b66136fa2feadbf7bd4b59d08a'/>
+        <property name='download.checksum.md5' value='acef61b66136fa2feadbf7bd4b59d08a'/>
+        <property name='download.checksum.sha-256' value='3e0683510696185456b46a03da7d673cc99a30066d567b79fd753e2782e5cfca'/>
+      </properties>
+    </artifact>
+  </artifacts>
+</repository>

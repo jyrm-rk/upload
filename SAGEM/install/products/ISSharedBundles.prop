@@ -1,0 +1,44 @@
+
+product=e2ei/11/IS_10.7.0.0.196/integrationServer/ISSharedBundles
+
+e2ei/11/IS_10.7.0.0.196/integrationServer/ISSharedBundles/children=ISSharedBundles-W64-Any
+
+## Product e2ei/11/IS_10.7.0.0.196/integrationServer/ISSharedBundles properties ##
+
+e2ei/11/IS_10.7.0.0.196/integrationServer/ISSharedBundles/props=developmentServer,displayGroup,displayName,displayNameVersionFormat,flags,group,lengthGroupVersionString,lengthVersionString,osgiBundlesDir,resourceBundle,resourceJars,sagProductCode,user_hints,installDate
+e2ei/11/IS_10.7.0.0.196/integrationServer/ISSharedBundles/props/developmentServer=true
+e2ei/11/IS_10.7.0.0.196/integrationServer/ISSharedBundles/props/displayGroup=ISSharedBundles.displayGroup
+e2ei/11/IS_10.7.0.0.196/integrationServer/ISSharedBundles/props/displayName=ISSharedBundles.displayName
+e2ei/11/IS_10.7.0.0.196/integrationServer/ISSharedBundles/props/displayNameVersionFormat=%1.%2 SP%3
+e2ei/11/IS_10.7.0.0.196/integrationServer/ISSharedBundles/props/flags=ProvisioningDownload,ProgramFilesType
+e2ei/11/IS_10.7.0.0.196/integrationServer/ISSharedBundles/props/group=integrationServer
+e2ei/11/IS_10.7.0.0.196/integrationServer/ISSharedBundles/props/lengthGroupVersionString=0
+e2ei/11/IS_10.7.0.0.196/integrationServer/ISSharedBundles/props/lengthVersionString=0
+e2ei/11/IS_10.7.0.0.196/integrationServer/ISSharedBundles/props/osgiBundlesDir=is-shared
+e2ei/11/IS_10.7.0.0.196/integrationServer/ISSharedBundles/props/resourceBundle=com.wm.integrationServer.core.IntegrationServerMessages
+e2ei/11/IS_10.7.0.0.196/integrationServer/ISSharedBundles/props/resourceJars=IntegrationServerMessages-ALL-Any
+e2ei/11/IS_10.7.0.0.196/integrationServer/ISSharedBundles/props/sagProductCode=PIE
+e2ei/11/IS_10.7.0.0.196/integrationServer/ISSharedBundles/props/user_hints=enable
+e2ei/11/IS_10.7.0.0.196/integrationServer/ISSharedBundles/props/installDate=1635224364634
+
+## Product e2ei/11/IS_10.7.0.0.196/integrationServer/ISSharedBundles jars ##
+
+e2ei/11/IS_10.7.0.0.196/integrationServer/ISSharedBundles/jars=IntegrationServerMessages-ALL-Any
+e2ei/11/IS_10.7.0.0.196/integrationServer/ISSharedBundles/jars/IntegrationServerMessages-ALL-Any/props=jar_version,md5,size,timestamp,type
+e2ei/11/IS_10.7.0.0.196/integrationServer/ISSharedBundles/jars/IntegrationServerMessages-ALL-Any/props/jar_version=10.7.0.0.0
+e2ei/11/IS_10.7.0.0.196/integrationServer/ISSharedBundles/jars/IntegrationServerMessages-ALL-Any/props/md5=81c7ed63ee5fe69bb86354a28dfdd0aa
+e2ei/11/IS_10.7.0.0.196/integrationServer/ISSharedBundles/jars/IntegrationServerMessages-ALL-Any/props/size=13609
+e2ei/11/IS_10.7.0.0.196/integrationServer/ISSharedBundles/jars/IntegrationServerMessages-ALL-Any/props/timestamp=1599238392
+e2ei/11/IS_10.7.0.0.196/integrationServer/ISSharedBundles/jars/IntegrationServerMessages-ALL-Any/props/type=resourceJar
+## Product e2ei/11/IS_10.7.0.0.196/integrationServer/ISSharedBundles components ##
+
+## Buildmodule info for e2ei/11/IS_10.7.0.0.196/integrationServer/ISSharedBundles/ISSharedBundles-W64-Any ##
+
+e2ei/11/IS_10.7.0.0.196/integrationServer/ISSharedBundles/ISSharedBundles-W64-Any/children=BM_ISSharedBundles-ALL-Any
+e2ei/11/IS_10.7.0.0.196/integrationServer/ISSharedBundles/ISSharedBundles-W64-Any/BM_ISSharedBundles-ALL-Any/props=compressed_size,expanded_size,md5,timestamp,version
+e2ei/11/IS_10.7.0.0.196/integrationServer/ISSharedBundles/ISSharedBundles-W64-Any/BM_ISSharedBundles-ALL-Any/props/compressed_size=5842737
+e2ei/11/IS_10.7.0.0.196/integrationServer/ISSharedBundles/ISSharedBundles-W64-Any/BM_ISSharedBundles-ALL-Any/props/expanded_size=6225931
+e2ei/11/IS_10.7.0.0.196/integrationServer/ISSharedBundles/ISSharedBundles-W64-Any/BM_ISSharedBundles-ALL-Any/props/md5=1838df9538603e77b2929134d19e17ff
+e2ei/11/IS_10.7.0.0.196/integrationServer/ISSharedBundles/ISSharedBundles-W64-Any/BM_ISSharedBundles-ALL-Any/props/timestamp=1599238382
+e2ei/11/IS_10.7.0.0.196/integrationServer/ISSharedBundles/ISSharedBundles-W64-Any/BM_ISSharedBundles-ALL-Any/props/version=10.7.0.0.196
+

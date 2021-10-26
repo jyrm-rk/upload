@@ -1,0 +1,1 @@
+uninstall.phase4=extract(source:C:\\temp\\SAGEM\\install\\fix\\backup\\wMFix.OSGI.Diagnostic_10.7.0.0004-0386\\install.phase4_1\\replaced_files_backup);

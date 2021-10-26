@@ -1,0 +1,7 @@
+2020-08-25_14:31:13
+vmtest
+http://svnsof.apama.com:80/um/branches/rel/10.7.0.x/
+10.7.0.0.136016
+http://umjenkins107.eur.ad.sag:8080/job/10.7_publish/644/
+
+    

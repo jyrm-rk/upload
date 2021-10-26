@@ -1,0 +1,386 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?metadataRepository version='1.2.0'?>
+<repository name='assemblyRuntime' type='org.eclipse.equinox.internal.p2.metadata.repository.LocalMetadataRepository' version='1'>
+  <properties size='2'>
+    <property name='p2.timestamp' value='1596715499236'/>
+    <property name='p2.compressed' value='false'/>
+  </properties>
+  <units size='9'>
+    <unit id='com.softwareag.tps.esapi.feature.jar' version='10.7.0.0000-0239'>
+      <properties size='9'>
+        <property name='org.eclipse.equinox.p2.name' value='%featureName'/>
+        <property name='org.eclipse.equinox.p2.description' value='%description'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='%descriptionURL'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%providerName'/>
+        <property name='df_LT.license' value='For Software AG Legal Notices please refer to: http://softwareag.com/licenses and/or in the root installation directory of the licensed product(s).'/>
+        <property name='df_LT.copyright' value='Copyright &amp;copy; 2006 - 2020 Software AG, Darmstadt, Germany and/or Software AG USA Inc., Reston, VA, USA, and/or its subsidiaries and/or its affiliates and/or their licensors. The name Software AG and all Software AG product names are either trademarks or registered trademarks of Software AG and/or Software AG USA Inc. and/or its subsidiaries and/or its affiliates and/or their licensors. Other company and product names mentioned herein may be trademarks of their respective owners. Detailed information on trademarks and patents owned by Software AG and/or its subsidiaries is located at {http://softwareag.com/licenses}. This software may include portions of third-party products. For third-party copyright notices, license terms, additional rights or restrictions, please refer to &quot;License Texts, Copyright Notices and Disclaimers of Third Party Products&quot;. For certain specific third-party license restrictions, please refer to section E of the Legal Notices available under &quot;License Terms and Conditions for Use of Software AG Products / Copyright and Trademark Notices of Software AG Products&quot;. These documents are part of the product documentation, located at {http://softwareag.com/licenses} and/or in the root installation directory of the licensed product(s). Use, reproduction, transfer, publication or disclosure is prohibited except as specifically provided for in your License Agreement with Software AG.'/>
+        <property name='df_LT.featureName' value='zsl-tps-esapi'/>
+        <property name='df_LT.description' value=''/>
+        <property name='df_LT.providerName' value='Software AG'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.tps.esapi.feature.jar' version='10.7.0.0000-0239'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
+        <provided namespace='org.eclipse.update.feature' name='com.softwareag.tps.esapi' version='10.7.0.0000-0239'/>
+      </provides>
+      <filter>
+        (org.eclipse.update.install.features=true)
+      </filter>
+      <artifacts size='1'>
+        <artifact classifier='org.eclipse.update.feature' id='com.softwareag.tps.esapi' version='10.7.0.0000-0239'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+        </instructions>
+      </touchpointData>
+      <licenses size='1'>
+        <license uri='%25licenseURL' url='%25licenseURL'>
+          %license
+        </license>
+      </licenses>
+      <copyright uri='%25copyrightURL' url='%25copyrightURL'>
+        %copyright
+      </copyright>
+    </unit>
+    <unit id='com.softwareag.security.sin.esapi' version='10.7.0.0000-0239' singleton='false' generation='2'>
+      <update id='com.softwareag.security.sin.esapi' range='[0.0.0,10.7.0.0000-0239)' severity='0'/>
+      <properties size='3'>
+        <property name='org.eclipse.equinox.p2.name' value='Sanitization Service'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Software AG'/>
+        <property name='org.eclipse.equinox.p2.doc.url' value='http://www.softwareag.com'/>
+      </properties>
+      <provides size='5'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.security.sin.esapi' version='10.7.0.0000-0239'/>
+        <provided namespace='osgi.bundle' name='com.softwareag.security.sin.esapi' version='10.7.0.0000-0239'/>
+        <provided namespace='java.package' name='com.softwareag.security.sin.esapi' version='10.0.0'/>
+        <provided namespace='osgi.identity' name='com.softwareag.security.sin.esapi' version='10.7.0.0000-0239'>
+          <properties size='1'>
+            <property name='type' value='osgi.bundle'/>
+          </properties>
+        </provided>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='8'>
+        <required namespace='java.package' name='org.owasp.encoder' range='0.0.0'/>
+        <required namespace='java.package' name='org.owasp.esapi' range='[2.1.0,3.0.0)'/>
+        <required namespace='java.package' name='org.owasp.esapi.codecs' range='[2.1.0,3.0.0)'/>
+        <required namespace='java.package' name='org.owasp.esapi.errors' range='[2.1.0,3.0.0)'/>
+        <required namespace='java.package' name='org.owasp.esapi.reference' range='[2.1.0,3.0.0)'/>
+        <required namespace='java.package' name='org.owasp.esapi.reference.validation' range='[2.1.0,3.0.0)'/>
+        <required namespace='java.package' name='org.slf4j' range='[1.7.0,2.0.0)'/>
+        <requiredProperties namespace='osgi.ee' match='(&amp;(osgi.ee=JavaSE)(version=1.8))'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.softwareag.security.sin.esapi' version='10.7.0.0000-0239'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.softwareag.security.sin.esapi&#xA;Bundle-Version: 10.7.0.0000-0239&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.softwareag.ext.org.owasp.encoder' version='1.1.0' singleton='false'>
+      <update id='com.softwareag.ext.org.owasp.encoder' range='[0.0.0,1.1.0)' severity='0'/>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='OWASP java encoder'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Software AG'/>
+      </properties>
+      <provides size='5'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.ext.org.owasp.encoder' version='1.1.0'/>
+        <provided namespace='osgi.bundle' name='com.softwareag.ext.org.owasp.encoder' version='1.1.0'/>
+        <provided namespace='java.package' name='org.owasp.encoder' version='0.0.0'/>
+        <provided namespace='osgi.identity' name='com.softwareag.ext.org.owasp.encoder' version='1.1.0'>
+          <properties size='1'>
+            <property name='type' value='osgi.bundle'/>
+          </properties>
+        </provided>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.softwareag.ext.org.owasp.encoder' version='1.1.0'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.softwareag.ext.org.owasp.encoder&#xA;Bundle-Version: 1.1.0&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.softwareag.tps.esapi.feature.group' version='10.7.0.0000-0239' singleton='false'>
+      <update id='com.softwareag.tps.esapi.feature.group' range='[0.0.0,10.7.0.0000-0239)' severity='0'/>
+      <properties size='10'>
+        <property name='org.eclipse.equinox.p2.name' value='%featureName'/>
+        <property name='org.eclipse.equinox.p2.description' value='%description'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='%descriptionURL'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%providerName'/>
+        <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+        <property name='df_LT.license' value='For Software AG Legal Notices please refer to: http://softwareag.com/licenses and/or in the root installation directory of the licensed product(s).'/>
+        <property name='df_LT.copyright' value='Copyright &amp;copy; 2006 - 2020 Software AG, Darmstadt, Germany and/or Software AG USA Inc., Reston, VA, USA, and/or its subsidiaries and/or its affiliates and/or their licensors. The name Software AG and all Software AG product names are either trademarks or registered trademarks of Software AG and/or Software AG USA Inc. and/or its subsidiaries and/or its affiliates and/or their licensors. Other company and product names mentioned herein may be trademarks of their respective owners. Detailed information on trademarks and patents owned by Software AG and/or its subsidiaries is located at {http://softwareag.com/licenses}. This software may include portions of third-party products. For third-party copyright notices, license terms, additional rights or restrictions, please refer to &quot;License Texts, Copyright Notices and Disclaimers of Third Party Products&quot;. For certain specific third-party license restrictions, please refer to section E of the Legal Notices available under &quot;License Terms and Conditions for Use of Software AG Products / Copyright and Trademark Notices of Software AG Products&quot;. These documents are part of the product documentation, located at {http://softwareag.com/licenses} and/or in the root installation directory of the licensed product(s). Use, reproduction, transfer, publication or disclosure is prohibited except as specifically provided for in your License Agreement with Software AG.'/>
+        <property name='df_LT.featureName' value='zsl-tps-esapi'/>
+        <property name='df_LT.description' value=''/>
+        <property name='df_LT.providerName' value='Software AG'/>
+      </properties>
+      <provides size='2'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.tps.esapi.feature.group' version='10.7.0.0000-0239'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+      </provides>
+      <requires size='3'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.owasp.esapi' range='[2.1.0.1,2.1.0.1]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.ext.org.owasp.encoder' range='[1.1.0,1.1.0]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.tps.esapi.feature.jar' range='[10.7.0.0000-0239,10.7.0.0000-0239]'>
+          <filter>
+            (org.eclipse.update.install.features=true)
+          </filter>
+        </required>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+      <licenses size='1'>
+        <license uri='%25licenseURL' url='%25licenseURL'>
+          %license
+        </license>
+      </licenses>
+      <copyright uri='%25copyrightURL' url='%25copyrightURL'>
+        %copyright
+      </copyright>
+    </unit>
+    <unit id='org.owasp.esapi' version='2.1.0.1' singleton='false'>
+      <update id='org.owasp.esapi' range='[0.0.0,2.1.0.1)' severity='0'/>
+      <properties size='3'>
+        <property name='org.eclipse.equinox.p2.name' value='ESAPI'/>
+        <property name='org.eclipse.equinox.p2.description' value='ESAPI'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Software AG'/>
+      </properties>
+      <provides size='23'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.owasp.esapi' version='2.1.0.1'/>
+        <provided namespace='osgi.bundle' name='org.owasp.esapi' version='2.1.0.1'/>
+        <provided namespace='java.package' name='org.owasp.esapi' version='2.1.0.1'/>
+        <provided namespace='java.package' name='org.owasp.esapi.util' version='2.1.0.1'/>
+        <provided namespace='java.package' name='org.owasp.esapi.codecs' version='2.1.0.1'/>
+        <provided namespace='java.package' name='org.owasp.esapi.reference.validation' version='2.1.0.1'/>
+        <provided namespace='java.package' name='org.owasp.esapi.reference.accesscontrol' version='2.1.0.1'/>
+        <provided namespace='java.package' name='org.owasp.esapi.waf.internal' version='2.1.0.1'/>
+        <provided namespace='java.package' name='org.owasp.esapi.filters' version='2.1.0.1'/>
+        <provided namespace='java.package' name='org.owasp.esapi.reference.crypto' version='2.1.0.1'/>
+        <provided namespace='java.package' name='org.owasp.esapi.waf' version='2.1.0.1'/>
+        <provided namespace='java.package' name='org.owasp.esapi.configuration.consts' version='2.1.0.1'/>
+        <provided namespace='java.package' name='org.owasp.esapi.crypto' version='2.1.0.1'/>
+        <provided namespace='java.package' name='org.owasp.esapi.reference' version='2.1.0.1'/>
+        <provided namespace='java.package' name='org.owasp.esapi.waf.actions' version='2.1.0.1'/>
+        <provided namespace='java.package' name='org.owasp.esapi.errors' version='2.1.0.1'/>
+        <provided namespace='java.package' name='org.owasp.esapi.waf.rules' version='2.1.0.1'/>
+        <provided namespace='java.package' name='org.owasp.esapi.tags' version='2.1.0.1'/>
+        <provided namespace='java.package' name='org.owasp.esapi.configuration' version='2.1.0.1'/>
+        <provided namespace='java.package' name='org.owasp.esapi.waf.configuration' version='2.1.0.1'/>
+        <provided namespace='java.package' name='org.owasp.esapi.reference.accesscontrol.policyloader' version='2.1.0.1'/>
+        <provided namespace='osgi.identity' name='org.owasp.esapi' version='2.1.0.1'>
+          <properties size='1'>
+            <property name='type' value='osgi.bundle'/>
+          </properties>
+        </provided>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='25'>
+        <required namespace='java.package' name='bsh' range='0.0.0' optional='true' greedy='false'/>
+        <required namespace='java.package' name='javax.crypto' range='0.0.0' optional='true' greedy='false'/>
+        <required namespace='java.package' name='javax.crypto.spec' range='0.0.0' optional='true' greedy='false'/>
+        <required namespace='java.package' name='javax.servlet' range='0.0.0' optional='true' greedy='false'/>
+        <required namespace='java.package' name='javax.servlet.http' range='0.0.0' optional='true' greedy='false'/>
+        <required namespace='java.package' name='javax.servlet.jsp' range='0.0.0' optional='true' greedy='false'/>
+        <required namespace='java.package' name='javax.servlet.jsp.tagext' range='0.0.0' optional='true' greedy='false'/>
+        <required namespace='java.package' name='javax.xml.parsers' range='0.0.0' optional='true' greedy='false'/>
+        <required namespace='java.package' name='javax.xml.transform' range='0.0.0' optional='true' greedy='false'/>
+        <required namespace='java.package' name='javax.xml.transform.stream' range='0.0.0' optional='true' greedy='false'/>
+        <required namespace='java.package' name='javax.xml.validation' range='0.0.0' optional='true' greedy='false'/>
+        <required namespace='java.package' name='nu.xom' range='0.0.0' optional='true' greedy='false'/>
+        <required namespace='java.package' name='org.apache.commons.beanutils' range='0.0.0' optional='true' greedy='false'/>
+        <required namespace='java.package' name='org.apache.commons.collections.iterators' range='0.0.0' optional='true' greedy='false'/>
+        <required namespace='java.package' name='org.apache.commons.configuration' range='0.0.0' optional='true' greedy='false'/>
+        <required namespace='java.package' name='org.apache.commons.fileupload' range='0.0.0' optional='true' greedy='false'/>
+        <required namespace='java.package' name='org.apache.commons.fileupload.disk' range='0.0.0' optional='true' greedy='false'/>
+        <required namespace='java.package' name='org.apache.commons.fileupload.servlet' range='0.0.0' optional='true' greedy='false'/>
+        <required namespace='java.package' name='org.apache.commons.fileupload.util' range='0.0.0' optional='true' greedy='false'/>
+        <required namespace='java.package' name='org.apache.commons.lang.text' range='0.0.0' optional='true' greedy='false'/>
+        <required namespace='java.package' name='org.apache.log4j' range='0.0.0' optional='true' greedy='false'/>
+        <required namespace='java.package' name='org.apache.log4j.spi' range='0.0.0' optional='true' greedy='false'/>
+        <required namespace='java.package' name='org.apache.log4j.xml' range='0.0.0' optional='true' greedy='false'/>
+        <required namespace='java.package' name='org.owasp.validator.html' range='0.0.0' optional='true' greedy='false'/>
+        <required namespace='java.package' name='org.w3c.dom' range='0.0.0' optional='true' greedy='false'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.owasp.esapi' version='2.1.0.1'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.owasp.esapi&#xA;Bundle-Version: 2.1.0.1&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.softwareag.esapi.feature.jar' version='10.7.0.0000-0239'>
+      <properties size='9'>
+        <property name='org.eclipse.equinox.p2.name' value='%featureName'/>
+        <property name='org.eclipse.equinox.p2.description' value='%description'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='%descriptionURL'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%providerName'/>
+        <property name='df_LT.license' value='For Software AG Legal Notices please refer to: http://softwareag.com/licenses and/or in the root installation directory of the licensed product(s).'/>
+        <property name='df_LT.copyright' value='Copyright &amp;copy; 2006 - 2020 Software AG, Darmstadt, Germany and/or Software AG USA Inc., Reston, VA, USA, and/or its subsidiaries and/or its affiliates and/or their licensors. The name Software AG and all Software AG product names are either trademarks or registered trademarks of Software AG and/or Software AG USA Inc. and/or its subsidiaries and/or its affiliates and/or their licensors. Other company and product names mentioned herein may be trademarks of their respective owners. Detailed information on trademarks and patents owned by Software AG and/or its subsidiaries is located at {http://softwareag.com/licenses}. This software may include portions of third-party products. For third-party copyright notices, license terms, additional rights or restrictions, please refer to &quot;License Texts, Copyright Notices and Disclaimers of Third Party Products&quot;. For certain specific third-party license restrictions, please refer to section E of the Legal Notices available under &quot;License Terms and Conditions for Use of Software AG Products / Copyright and Trademark Notices of Software AG Products&quot;. These documents are part of the product documentation, located at {http://softwareag.com/licenses} and/or in the root installation directory of the licensed product(s). Use, reproduction, transfer, publication or disclosure is prohibited except as specifically provided for in your License Agreement with Software AG.'/>
+        <property name='df_LT.featureName' value='zsl-esapi'/>
+        <property name='df_LT.description' value=''/>
+        <property name='df_LT.providerName' value='Software AG'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.esapi.feature.jar' version='10.7.0.0000-0239'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
+        <provided namespace='org.eclipse.update.feature' name='com.softwareag.esapi' version='10.7.0.0000-0239'/>
+      </provides>
+      <filter>
+        (org.eclipse.update.install.features=true)
+      </filter>
+      <artifacts size='1'>
+        <artifact classifier='org.eclipse.update.feature' id='com.softwareag.esapi' version='10.7.0.0000-0239'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+        </instructions>
+      </touchpointData>
+      <licenses size='1'>
+        <license uri='%25licenseURL' url='%25licenseURL'>
+          %license
+        </license>
+      </licenses>
+      <copyright uri='%25copyrightURL' url='%25copyrightURL'>
+        %copyright
+      </copyright>
+    </unit>
+    <unit id='com.softwareag.security.sin.esapi.osgi' version='10.7.0.0000-0239' singleton='false' generation='2'>
+      <update id='com.softwareag.security.sin.esapi.osgi' range='[0.0.0,10.7.0.0000-0239)' severity='0'/>
+      <properties size='3'>
+        <property name='org.eclipse.equinox.p2.name' value='Sanitization Service OSGi'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Software AG'/>
+        <property name='org.eclipse.equinox.p2.doc.url' value='http://www.softwareag.com'/>
+      </properties>
+      <provides size='5'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.security.sin.esapi.osgi' version='10.7.0.0000-0239'/>
+        <provided namespace='osgi.bundle' name='com.softwareag.security.sin.esapi.osgi' version='10.7.0.0000-0239'/>
+        <provided namespace='java.package' name='com.softwareag.security.sin.esapi.osgi' version='10.7.0.0000-0239'/>
+        <provided namespace='osgi.identity' name='com.softwareag.security.sin.esapi.osgi' version='10.7.0.0000-0239'>
+          <properties size='1'>
+            <property name='type' value='osgi.bundle'/>
+          </properties>
+        </provided>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='3'>
+        <required namespace='java.package' name='com.softwareag.security.sin.esapi' range='[10.0.0,11.0.0)'/>
+        <required namespace='java.package' name='org.osgi.framework' range='[1.8.0,2.0.0)'/>
+        <requiredProperties namespace='osgi.ee' match='(&amp;(osgi.ee=JavaSE)(version=1.8))'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.softwareag.security.sin.esapi.osgi' version='10.7.0.0000-0239'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.softwareag.security.sin.esapi.osgi&#xA;Bundle-Version: 10.7.0.0000-0239&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.softwareag.esapi.feature.group' version='10.7.0.0000-0239' singleton='false'>
+      <update id='com.softwareag.esapi.feature.group' range='[0.0.0,10.7.0.0000-0239)' severity='0'/>
+      <properties size='10'>
+        <property name='org.eclipse.equinox.p2.name' value='%featureName'/>
+        <property name='org.eclipse.equinox.p2.description' value='%description'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='%descriptionURL'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%providerName'/>
+        <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+        <property name='df_LT.license' value='For Software AG Legal Notices please refer to: http://softwareag.com/licenses and/or in the root installation directory of the licensed product(s).'/>
+        <property name='df_LT.copyright' value='Copyright &amp;copy; 2006 - 2020 Software AG, Darmstadt, Germany and/or Software AG USA Inc., Reston, VA, USA, and/or its subsidiaries and/or its affiliates and/or their licensors. The name Software AG and all Software AG product names are either trademarks or registered trademarks of Software AG and/or Software AG USA Inc. and/or its subsidiaries and/or its affiliates and/or their licensors. Other company and product names mentioned herein may be trademarks of their respective owners. Detailed information on trademarks and patents owned by Software AG and/or its subsidiaries is located at {http://softwareag.com/licenses}. This software may include portions of third-party products. For third-party copyright notices, license terms, additional rights or restrictions, please refer to &quot;License Texts, Copyright Notices and Disclaimers of Third Party Products&quot;. For certain specific third-party license restrictions, please refer to section E of the Legal Notices available under &quot;License Terms and Conditions for Use of Software AG Products / Copyright and Trademark Notices of Software AG Products&quot;. These documents are part of the product documentation, located at {http://softwareag.com/licenses} and/or in the root installation directory of the licensed product(s). Use, reproduction, transfer, publication or disclosure is prohibited except as specifically provided for in your License Agreement with Software AG.'/>
+        <property name='df_LT.featureName' value='zsl-esapi'/>
+        <property name='df_LT.description' value=''/>
+        <property name='df_LT.providerName' value='Software AG'/>
+      </properties>
+      <provides size='2'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.esapi.feature.group' version='10.7.0.0000-0239'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+      </provides>
+      <requires size='6'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.security.api.feature.group' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.security.sin.esapi.logger' range='[10.7.0.0000-0239,10.7.0.0000-0239]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.security.sin.esapi.osgi' range='[10.7.0.0000-0239,10.7.0.0000-0239]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.tps.esapi.feature.group' range='[10.7.0.0000-0239,10.7.0.0000-0239]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.security.sin.esapi' range='[10.7.0.0000-0239,10.7.0.0000-0239]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.esapi.feature.jar' range='[10.7.0.0000-0239,10.7.0.0000-0239]'>
+          <filter>
+            (org.eclipse.update.install.features=true)
+          </filter>
+        </required>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+      <licenses size='1'>
+        <license uri='%25licenseURL' url='%25licenseURL'>
+          %license
+        </license>
+      </licenses>
+      <copyright uri='%25copyrightURL' url='%25copyrightURL'>
+        %copyright
+      </copyright>
+    </unit>
+    <unit id='com.softwareag.security.sin.esapi.logger' version='10.7.0.0000-0239' singleton='false' generation='2'>
+      <update id='com.softwareag.security.sin.esapi.logger' range='[0.0.0,10.7.0.0000-0239)' severity='0'/>
+      <properties size='3'>
+        <property name='org.eclipse.equinox.p2.name' value='ESAPI logger fragment'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Software AG'/>
+        <property name='org.eclipse.equinox.p2.doc.url' value='http://www.softwareag.com'/>
+      </properties>
+      <provides size='6'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.security.sin.esapi.logger' version='10.7.0.0000-0239'/>
+        <provided namespace='osgi.bundle' name='com.softwareag.security.sin.esapi.logger' version='10.7.0.0000-0239'/>
+        <provided namespace='java.package' name='com.softwareag.security.sin.esapi.logger' version='0.0.0'/>
+        <provided namespace='osgi.identity' name='com.softwareag.security.sin.esapi.logger' version='10.7.0.0000-0239'>
+          <properties size='1'>
+            <property name='type' value='osgi.fragment'/>
+          </properties>
+        </provided>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+        <provided namespace='osgi.fragment' name='org.owasp.esapi' version='10.7.0.0000-0239'/>
+      </provides>
+      <requires size='7'>
+        <required namespace='osgi.bundle' name='org.owasp.esapi' range='0.0.0'/>
+        <required namespace='java.package' name='org.apache.logging.log4j' range='[2.11.0,3.0.0)'/>
+        <required namespace='java.package' name='org.apache.logging.log4j.core' range='[2.11.0,3.0.0)'/>
+        <required namespace='java.package' name='org.apache.logging.log4j.message' range='[2.11.0,3.0.0)'/>
+        <required namespace='java.package' name='org.owasp.esapi' range='[2.1.0,3.0.0)'/>
+        <required namespace='java.package' name='org.owasp.esapi.reference' range='[2.1.0,3.0.0)'/>
+        <requiredProperties namespace='osgi.ee' match='(&amp;(osgi.ee=JavaSE)(version=1.8))'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.softwareag.security.sin.esapi.logger' version='10.7.0.0000-0239'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.softwareag.security.sin.esapi.logger&#xA;Bundle-Version: 10.7.0.0000-0239&#xA;Fragment-Host: org.owasp.esapi&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+  </units>
+</repository>

@@ -1,0 +1,9 @@
+name=e2ei/11/WIS_10.7.0.0.426/Infrastructure/WISSharedBundles/WISSharedBundles-W64-Any/BM_WISProductsConfigurations-ALL-Any
+version=10.7.0.0.426
+timestamp=1612359327
+
+install/
+install/configurations/
+install/
+0755 install/configurations/ProductsConfigurations.zip
+install/configurations/

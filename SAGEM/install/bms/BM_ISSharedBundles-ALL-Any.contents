@@ -1,0 +1,25 @@
+name=e2ei/11/IS_10.7.0.0.196/integrationServer/ISSharedBundles/ISSharedBundles-W64-Any/BM_ISSharedBundles-ALL-Any
+version=10.7.0.0.196
+timestamp=1599238382
+
+common/
+common/runtime/
+common/
+common/runtime/bundles/
+common/runtime/
+common/runtime/bundles/is-shared/
+common/runtime/bundles/
+common/runtime/bundles/is-shared/eclipse/
+common/runtime/bundles/is-shared/
+common/runtime/bundles/is-shared/eclipse/plugins/
+common/runtime/bundles/is-shared/eclipse/
+0755 common/runtime/bundles/is-shared/eclipse/plugins/net.sf.jsocks_1.0.1.jar
+common/runtime/bundles/is-shared/eclipse/plugins/
+0755 common/runtime/bundles/is-shared/eclipse/plugins/org.apache.oro_2.0.8.v201005080400.jar
+0755 common/runtime/bundles/is-shared/eclipse/plugins/com.softwareag.mom.is.client_10.7.0.0000-0196.jar
+0755 common/runtime/bundles/is-shared/eclipse/artifacts.xml
+0755 common/runtime/bundles/is-shared/eclipse/content.xml
+common/runtime/bundles/is-shared/eclipse/features/
+0755 common/runtime/bundles/is-shared/eclipse/features/com.softwareag.mom.is.shared.feature_10.7.0.0000-0196.jar
+common/runtime/bundles/is-shared/eclipse/features/
+common/runtime/bundles/is-shared/eclipse/binary/

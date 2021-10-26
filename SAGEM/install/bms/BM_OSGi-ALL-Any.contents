@@ -1,0 +1,13 @@
+name=e2ei/11/OSGI_10.7.0.0.635/Platform/OSGI/OSGI-W64-Any/BM_OSGi-ALL-Any
+version=10.7.0.0.635
+timestamp=1599492562
+
+common/
+common/conf/
+common/
+0755 common/conf/groups.txt
+common/conf/
+0755 common/conf/keystore.jks
+0755 common/conf/platform_truststore.jks
+0755 common/conf/roles.txt
+0755 common/conf/users.txt

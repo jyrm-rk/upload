@@ -1,0 +1,1666 @@
+########################
+########################
+######## INSTALL #######
+########################
+########################
+
+date: Tue Oct 26 10:29:27 IST 2021
+timestamp msec: 1635224367962
+installdir: C:\temp\SAGEM
+silent: false
+revert: false
+revert launch: false
+image read: true
+image write: false
+edit script: false
+overwrite: false
+console: false
+logfile: C:\temp\SAGEM\install\logs\installLog.txt
+
+## products changed ##
+Infrastructure / Java Package (install)
+version: 1.8.0.0.858
+canonical: e2ei/11/SJP_1.8.0.0.858/Infrastructure/sjp
+
+Infrastructure/Shared Platform/Bundles/Central Security Bundles (ZSL) / ZSL esapi Bundle (install)
+version: 10.7.0.0.239
+canonical: e2ei/11/ZSL_10.7.0.0.239/Platform/ZSLSharedBundles
+
+Infrastructure/Libraries / Shared Libraries (install)
+version: 10.7.0.0.434
+canonical: e2ei/11/WSC_10.7.0.0.434/SCG/SCGCommon
+
+Infrastructure/Libraries / Installer Libraries (install)
+version: 10.7.0.0.426
+canonical: e2ei/11/WIS_10.7.0.0.426/Infrastructure/WISSharedLibs
+
+Infrastructure/Shared Platform/Bundles / Installer Bundles (install)
+version: 10.7.0.0.426
+canonical: e2ei/11/WIS_10.7.0.0.426/Infrastructure/WISSharedBundles
+
+Infrastructure/Libraries/Third-Party Libraries / Base Security Libraries (install)
+version: 10.7.0.0.224
+canonical: e2ei/11/TPS_10.7.0.0.224/SCG/tppSEC
+
+Infrastructure/Libraries/Third-Party Libraries / Data Modeling Libraries (install)
+version: 10.7.0.0.224
+canonical: e2ei/11/TPS_10.7.0.0.224/SCG/tppModelling
+
+Infrastructure/Libraries/Third-Party Libraries / Logging Libraries for Java (install)
+version: 10.7.0.0.224
+canonical: e2ei/11/TPS_10.7.0.0.224/SCG/loggers
+
+Infrastructure/Libraries/Third-Party Libraries / Tool for Java Service Wrapper (install)
+version: 10.7.0.0.224
+canonical: e2ei/11/TPS_10.7.0.0.224/SCG/jsw
+
+Infrastructure/Shared Platform/Bundles / Shared Bundles (install)
+version: 10.7.0.0.224
+canonical: e2ei/11/TPS_10.7.0.0.224/Platform/TPS
+
+Infrastructure/Libraries / Common Libraries for OpenSSL (install)
+version: 10.7.0.0.56
+canonical: e2ei/11/SSX_TLS_10.7.0.0.56/API/SSX_TLS
+
+Infrastructure / Platform Manager (install)
+version: 10.7.0.0.784
+canonical: e2ei/11/SPM_10.7.0.0.784/Platform/SPM
+
+Infrastructure/Shared Platform / Platform (install)
+version: 10.7.0.0.635
+canonical: e2ei/11/OSGI_10.7.0.0.635/Platform/OSGI
+
+Infrastructure/Platform Manager Plug-ins / Universal Messaging Plug-in (install)
+version: 10.7.0.0.133380
+canonical: e2ei/11/NUM_TOOLS_10.7.0.0.133380/UniversalMessaging/NUMspm
+
+Infrastructure/Shared Platform/Bundles / Universal Messaging Bundles (install)
+version: 10.7.0.0.136016
+canonical: e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMRepository
+
+Universal Messaging / Instance Manager (install)
+version: 10.7.0.0.136016
+canonical: e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMInstanceManager
+
+Universal Messaging / Enterprise Manager (install)
+version: 10.7.0.0.136016
+canonical: e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMEnterpriseManager
+
+Universal Messaging / Client Libraries (install)
+version: 10.7.0.0.136016
+canonical: e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMClient
+
+Infrastructure / Common C/C++ Runtime (install)
+version: 20.10.0.0.32
+canonical: e2ei/11/MFC_20.10.0.0.32/MFC/MfcAll
+
+Infrastructure/License / Verifier (install)
+version: 5.7.2.0.956
+canonical: e2ei/11/LIC_5.7.2.0.956/LICUtil/LICUtil
+
+Infrastructure/License / Library for Java (install)
+version: 5.7.2.0.956
+canonical: e2ei/11/LIC_5.7.2.0.956/LICSharedLibsJava/LICSharedLibsJava
+
+Infrastructure/Shared Platform/Bundles / License Validator Bundles (install)
+version: 5.7.2.0.956
+canonical: e2ei/11/LIC_5.7.2.0.956/LICRepository/LICRepository
+
+Infrastructure/Shared Platform/Bundles / Common Landscape Asset Registry (install)
+version: 10.7.0.0.407
+canonical: e2ei/11/LAR_10.7.0.0.407/Platform/LARSharedBundles
+
+Infrastructure/Libraries / Migration Framework Libraries (install)
+version: 10.7.0.0.196
+canonical: e2ei/11/IS_10.7.0.0.196/integrationServer/integrationServerMigrationFrameworkLib
+
+Infrastructure/Shared Platform/Bundles / Integration Server Bundles (install)
+version: 10.7.0.0.196
+canonical: e2ei/11/IS_10.7.0.0.196/integrationServer/ISSharedBundles
+
+Infrastructure/Shared Platform/Bundles/Common Monitoring Provider Bundle / API (install)
+version: 10.7.0.0.82
+canonical: e2ei/11/CMP_10.7.0.0.82/CMP/CMP_API
+
+Infrastructure/Shared Platform/Bundles/Common Monitoring Provider Bundle / Implementations (install)
+version: 10.7.0.0.82
+canonical: e2ei/11/CMP_10.7.0.0.82/CMP/CMP
+
+Infrastructure/Shared Platform/Bundles / Broker Bundles (install)
+version: 10.5.0.0.700
+canonical: e2ei/11/BR_10.5.0.0.700/Broker/PIFSharedBundles
+
+Infrastructure/Shared Platform/Bundles / Deployer and Asset Build Environment Bundles (install)
+version: 10.7.0.0.345
+canonical: e2ei/11/ACDL_10.7.0.0.345/ACDL/ACDLDeployerSharedBundle
+
+Infrastructure/License / Agreement (install)
+version: 10.7.0.0.25
+canonical: e2ei/11/TPL_10.7.0.0.25/License/license
+
+Core Installer Files / Software AG Installer
+version: 10.7.0.0.391
+canonical: e2ei/11/WIR_10.7.0.0.391/Infrastructure/CustomInstall
+
+products installed: 31
+
+## buildmodules changed ##
+
+BM_CommonBaseSec-ALL-Any
+version: 10.7.0.0.224
+canonical: e2ei/11/TPS_10.7.0.0.224/SCG/tppSEC/tppSEC-W64-Any/BM_CommonBaseSec-ALL-Any
+
+BM_Protoc_current-W64-Any
+version: 10.7.0.0.224
+canonical: e2ei/11/TPS_10.7.0.0.224/SCG/tppModelling/tppModelling-W64-Any/BM_Protoc_current-W64-Any
+
+BM_CommonDataModelling-ALL-Any
+version: 10.7.0.0.224
+canonical: e2ei/11/TPS_10.7.0.0.224/SCG/tppModelling/tppModelling-W64-Any/BM_CommonDataModelling-ALL-Any
+
+BM_LARSharedBundles-ALL-Any
+version: 10.7.0.0.407
+canonical: e2ei/11/LAR_10.7.0.0.407/Platform/LARSharedBundles/LARSharedBundles-W64-Any/BM_LARSharedBundles-ALL-Any
+
+BM_LIC_SharedLibs_java-ALL-Any
+version: 5.7.2.0.956
+canonical: e2ei/11/LIC_5.7.2.0.956/LICSharedLibsJava/LICSharedLibsJava/LICSharedLibsJava-W64-Any/BM_LIC_SharedLibs_java-ALL-Any
+
+BM_NUM_Common-ALL-Any
+version: 10.7.0.0.136016
+canonical: e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMClient/NUMClient-W64-Any/BM_NUM_Common-ALL-Any
+
+BM_NUM_Client-ALL-Any
+version: 10.7.0.0.136016
+canonical: e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMClient/NUMClient-W64-Any/BM_NUM_Client-ALL-Any
+
+BM_NUM_Client-W64-Any
+version: 10.7.0.0.136016
+canonical: e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMClient/NUMClient-W64-Any/BM_NUM_Client-W64-Any
+
+BM_IntegrationServerMigrationFrameworkLib-ALL-Any
+version: 10.7.0.0.196
+canonical: e2ei/11/IS_10.7.0.0.196/integrationServer/integrationServerMigrationFrameworkLib/integrationServerMigrationFrameworkLib-W64-Any/BM_IntegrationServerMigrationFrameworkLib-ALL-Any
+
+BM_WISSharedLibs-ALL-Any
+version: 10.7.0.0.426
+canonical: e2ei/11/WIS_10.7.0.0.426/Infrastructure/WISSharedLibs/WISSharedLibs-W64-Any/BM_WISSharedLibs-ALL-Any
+
+BM_Tanuki_current-W64-Any
+version: 10.7.0.0.224
+canonical: e2ei/11/TPS_10.7.0.0.224/SCG/jsw/jsw-W64-Any/BM_Tanuki_current-W64-Any
+
+BM_Loggers-ALL-Any
+version: 10.7.0.0.224
+canonical: e2ei/11/TPS_10.7.0.0.224/SCG/loggers/loggers-W64-Any/BM_Loggers-ALL-Any
+
+BM_ACDLSharedDeployerBundles-ALL-Any
+version: 10.7.0.0.345
+canonical: e2ei/11/ACDL_10.7.0.0.345/ACDL/ACDLDeployerSharedBundle/ACDLDeployerSharedBundle-W64-Any/BM_ACDLSharedDeployerBundles-ALL-Any
+
+BM_OSGi-ALL-Any
+version: 10.7.0.0.635
+canonical: e2ei/11/OSGI_10.7.0.0.635/Platform/OSGI/OSGI-W64-Any/BM_OSGi-ALL-Any
+
+BM_OSGiAgent-W64-Any
+version: 10.7.0.0.635
+canonical: e2ei/11/OSGI_10.7.0.0.635/Platform/OSGI/OSGI-W64-Any/BM_OSGiAgent-W64-Any
+
+BM_OSGiRepository-ALL-Any
+version: 10.7.0.0.635
+canonical: e2ei/11/OSGI_10.7.0.0.635/Platform/OSGI/OSGI-W64-Any/BM_OSGiRepository-ALL-Any
+
+BM_OSGiMigration-W64-Any
+version: 10.7.0.0.635
+canonical: e2ei/11/OSGI_10.7.0.0.635/Platform/OSGI/OSGI-W64-Any/BM_OSGiMigration-W64-Any
+
+BM_OSGi-W64-Any
+version: 10.7.0.0.635
+canonical: e2ei/11/OSGI_10.7.0.0.635/Platform/OSGI/OSGI-W64-Any/BM_OSGi-W64-Any
+
+BM_OSGiMigration-ALL-Any
+version: 10.7.0.0.635
+canonical: e2ei/11/OSGI_10.7.0.0.635/Platform/OSGI/OSGI-W64-Any/BM_OSGiMigration-ALL-Any
+
+BM_Java64_JVM180_47cck-W64-Any
+version: 1.8.0.0.858
+canonical: e2ei/11/SJP_1.8.0.0.858/Infrastructure/sjp/SJP-W64-Domestic/BM_Java64_JVM180_47cck-W64-Any
+
+BM_TPL-ALL-Any
+version: 10.7.0.0.25
+canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL-ALL-Any
+
+BM_SAGDoc-ALL-Any
+version: 10.7.0.0.25
+canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_SAGDoc-ALL-Any
+
+BM_TPL_ABE-ALL-Any
+version: 10.7.0.0.25
+canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_ABE-ALL-Any
+
+BM_TPL_CJP-ALL-Any
+version: 10.7.0.0.25
+canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_CJP-ALL-Any
+
+BM_TPL_CMP-ALL-Any
+version: 10.7.0.0.25
+canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_CMP-ALL-Any
+
+BM_TPL_LAR-ALL-Any
+version: 10.7.0.0.25
+canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_LAR-ALL-Any
+
+BM_TPL_LIC-ALL-Any
+version: 10.7.0.0.25
+canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_LIC-ALL-Any
+
+BM_TPL_MFC-ALL-Any
+version: 10.7.0.0.25
+canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_MFC-ALL-Any
+
+BM_TPL_MIG-ALL-Any
+version: 10.7.0.0.25
+canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_MIG-ALL-Any
+
+BM_TPL_NUM-ALL-Any
+version: 10.7.0.0.25
+canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_NUM-ALL-Any
+
+BM_TPL_OGI-ALL-Any
+version: 10.7.0.0.25
+canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_OGI-ALL-Any
+
+BM_TPL_PIE-ALL-Any
+version: 10.7.0.0.25
+canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_PIE-ALL-Any
+
+BM_TPL_PIF-ALL-Any
+version: 10.7.0.0.25
+canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_PIF-ALL-Any
+
+BM_TPL_SPM-ALL-Any
+version: 10.7.0.0.25
+canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_SPM-ALL-Any
+
+BM_TPL_SSL-ALL-Any
+version: 10.7.0.0.25
+canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_SSL-ALL-Any
+
+BM_TPL_TPP-ALL-Any
+version: 10.7.0.0.25
+canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_TPP-ALL-Any
+
+BM_TPL_TPS-ALL-Any
+version: 10.7.0.0.25
+canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_TPS-ALL-Any
+
+BM_TPL_WIR-ALL-Any
+version: 10.7.0.0.25
+canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_WIR-ALL-Any
+
+BM_TPL_WIS-ALL-Any
+version: 10.7.0.0.25
+canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_WIS-ALL-Any
+
+BM_TPL_WSC-ALL-Any
+version: 10.7.0.0.25
+canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_WSC-ALL-Any
+
+BM_TPL_ZSL-ALL-Any
+version: 10.7.0.0.25
+canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_ZSL-ALL-Any
+
+BM_InstallIntrospect-ALL-Any
+version: 10.7.0.0.391
+canonical: e2ei/11/WIR_10.7.0.0.391/Infrastructure/CustomInstall/CustomInstall-W64-Any/BM_InstallIntrospect-ALL-Any
+
+BM_Uninstall-W32-Any
+version: 10.7.0.0.391
+canonical: e2ei/11/WIR_10.7.0.0.391/Infrastructure/CustomInstall/CustomInstall-W64-Any/BM_Uninstall-W32-Any
+
+BM_MFC-W64-Any
+version: 20.10.0.0.32
+canonical: e2ei/11/MFC_20.10.0.0.32/MFC/MfcAll/MFC-W64-Domestic/BM_MFC-W64-Any
+
+BM_MFC-WNT-Any
+version: 20.10.0.0.32
+canonical: e2ei/11/MFC_20.10.0.0.32/MFC/MfcAll/MFC-W64-Domestic/BM_MFC-WNT-Any
+
+BM_ISSharedBundles-ALL-Any
+version: 10.7.0.0.196
+canonical: e2ei/11/IS_10.7.0.0.196/integrationServer/ISSharedBundles/ISSharedBundles-W64-Any/BM_ISSharedBundles-ALL-Any
+
+BM_SPMMigration-ALL-Any
+version: 10.7.0.0.784
+canonical: e2ei/11/SPM_10.7.0.0.784/Platform/SPM/SPM-W64-Any/BM_SPMMigration-ALL-Any
+
+BM_CCShared-ALL-Any
+version: 10.7.0.0.784
+canonical: e2ei/11/SPM_10.7.0.0.784/Platform/SPM/SPM-W64-Any/BM_CCShared-ALL-Any
+
+BM_SPMCommon-ALL-Any
+version: 10.7.0.0.784
+canonical: e2ei/11/SPM_10.7.0.0.784/Platform/SPM/SPM-W64-Any/BM_SPMCommon-ALL-Any
+
+BM_SPMDiagnostics-ALL-Any
+version: 10.7.0.0.784
+canonical: e2ei/11/SPM_10.7.0.0.784/Platform/SPM/SPM-W64-Any/BM_SPMDiagnostics-ALL-Any
+
+BM_SPM-ALL-Any
+version: 10.7.0.0.784
+canonical: e2ei/11/SPM_10.7.0.0.784/Platform/SPM/SPM-W64-Any/BM_SPM-ALL-Any
+
+BM_CMP_UM100-ALL-Any
+version: 10.7.0.0.82
+canonical: e2ei/11/CMP_10.7.0.0.82/CMP/CMP/CMP-W64-Any/BM_CMP_UM100-ALL-Any
+
+BM_CMP_UM101-ALL-Any
+version: 10.7.0.0.82
+canonical: e2ei/11/CMP_10.7.0.0.82/CMP/CMP/CMP-W64-Any/BM_CMP_UM101-ALL-Any
+
+BM_CMP_UM102-ALL-Any
+version: 10.7.0.0.82
+canonical: e2ei/11/CMP_10.7.0.0.82/CMP/CMP/CMP-W64-Any/BM_CMP_UM102-ALL-Any
+
+BM_CMP_UM103-ALL-Any
+version: 10.7.0.0.82
+canonical: e2ei/11/CMP_10.7.0.0.82/CMP/CMP/CMP-W64-Any/BM_CMP_UM103-ALL-Any
+
+BM_CMP_UM910-ALL-Any
+version: 10.7.0.0.82
+canonical: e2ei/11/CMP_10.7.0.0.82/CMP/CMP/CMP-W64-Any/BM_CMP_UM910-ALL-Any
+
+BM_CMP_UM104-ALL-Any
+version: 10.7.0.0.82
+canonical: e2ei/11/CMP_10.7.0.0.82/CMP/CMP/CMP-W64-Any/BM_CMP_UM104-ALL-Any
+
+BM_CMP_UM95-ALL-Any
+version: 10.7.0.0.82
+canonical: e2ei/11/CMP_10.7.0.0.82/CMP/CMP/CMP-W64-Any/BM_CMP_UM95-ALL-Any
+
+BM_CMP_UM105-ALL-Any
+version: 10.7.0.0.82
+canonical: e2ei/11/CMP_10.7.0.0.82/CMP/CMP/CMP-W64-Any/BM_CMP_UM105-ALL-Any
+
+BM_CMP_UM97-ALL-Any
+version: 10.7.0.0.82
+canonical: e2ei/11/CMP_10.7.0.0.82/CMP/CMP/CMP-W64-Any/BM_CMP_UM97-ALL-Any
+
+BM_CMP-ALL-Any
+version: 10.7.0.0.82
+canonical: e2ei/11/CMP_10.7.0.0.82/CMP/CMP/CMP-W64-Any/BM_CMP-ALL-Any
+
+BM_CMP_UM96-ALL-Any
+version: 10.7.0.0.82
+canonical: e2ei/11/CMP_10.7.0.0.82/CMP/CMP/CMP-W64-Any/BM_CMP_UM96-ALL-Any
+
+BM_CMP_UM99-ALL-Any
+version: 10.7.0.0.82
+canonical: e2ei/11/CMP_10.7.0.0.82/CMP/CMP/CMP-W64-Any/BM_CMP_UM99-ALL-Any
+
+BM_CMP_UM912-ALL-Any
+version: 10.7.0.0.82
+canonical: e2ei/11/CMP_10.7.0.0.82/CMP/CMP/CMP-W64-Any/BM_CMP_UM912-ALL-Any
+
+BM_CMP_UM98-ALL-Any
+version: 10.7.0.0.82
+canonical: e2ei/11/CMP_10.7.0.0.82/CMP/CMP/CMP-W64-Any/BM_CMP_UM98-ALL-Any
+
+BM_NUM_IMInstanceConfiguration-ALL-Any
+version: 10.7.0.0.136016
+canonical: e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMInstanceManager/NUMInstanceManager-W64-Any/BM_NUM_IMInstanceConfiguration-ALL-Any
+
+BM_NUM_InstanceManager-ALL-Any
+version: 10.7.0.0.136016
+canonical: e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMInstanceManager/NUMInstanceManager-W64-Any/BM_NUM_InstanceManager-ALL-Any
+
+BM_NUM_InstanceManager-W64-Any
+version: 10.7.0.0.136016
+canonical: e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMInstanceManager/NUMInstanceManager-W64-Any/BM_NUM_InstanceManager-W64-Any
+
+BM_NUM_EnterpriseManager-ALL-Any
+version: 10.7.0.0.136016
+canonical: e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMEnterpriseManager/NUMEnterpriseManager-W64-Any/BM_NUM_EnterpriseManager-ALL-Any
+
+BM_NUM_EMInstanceConfiguration-ALL-Any
+version: 10.7.0.0.136016
+canonical: e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMEnterpriseManager/NUMEnterpriseManager-W64-Any/BM_NUM_EMInstanceConfiguration-ALL-Any
+
+BM_CMP_API-ALL-Any
+version: 10.7.0.0.82
+canonical: e2ei/11/CMP_10.7.0.0.82/CMP/CMP_API/CMP_API-W64-Any/BM_CMP_API-ALL-Any
+
+BM_LIC_Repository-ALL-Any
+version: 5.7.2.0.956
+canonical: e2ei/11/LIC_5.7.2.0.956/LICRepository/LICRepository/LICRepository-W64-Any/BM_LIC_Repository-ALL-Any
+
+BM_SSX_TLS_1.1.1g-WNT-Any
+version: 10.7.0.0.56
+canonical: e2ei/11/SSX_TLS_10.7.0.0.56/API/SSX_TLS/SSX_TLS-W64-Domestic/BM_SSX_TLS_1.1.1g-WNT-Any
+
+BM_SSX_TLS_1.1.1g-W64-Any
+version: 10.7.0.0.56
+canonical: e2ei/11/SSX_TLS_10.7.0.0.56/API/SSX_TLS/SSX_TLS-W64-Domestic/BM_SSX_TLS_1.1.1g-W64-Any
+
+BM_NUMCCplugins-ALL-Any
+version: 10.7.0.0.133380
+canonical: e2ei/11/NUM_TOOLS_10.7.0.0.133380/UniversalMessaging/NUMspm/NUMspm-W64-Any/BM_NUMCCplugins-ALL-Any
+
+BM_PIFSharedBundles-ALL-Any
+version: 10.5.0.0.700
+canonical: e2ei/11/BR_10.5.0.0.700/Broker/PIFSharedBundles/PIFSharedBundles-W64-Any/BM_PIFSharedBundles-ALL-Any
+
+BM_WSCCommon-ALL-Any
+version: 10.7.0.0.434
+canonical: e2ei/11/WSC_10.7.0.0.434/SCG/SCGCommon/SCGCommon-W64-Any/BM_WSCCommon-ALL-Any
+
+BM_NUM_Repository-ALL-Any
+version: 10.7.0.0.136016
+canonical: e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMRepository/NUMRepository-W64-Any/BM_NUM_Repository-ALL-Any
+
+BM_TPS-ALL-Any
+version: 10.7.0.0.224
+canonical: e2ei/11/TPS_10.7.0.0.224/Platform/TPS/TPS-W64-Any/BM_TPS-ALL-Any
+
+BM_WISSDBundlesRepo-ALL-Any
+version: 10.7.0.0.426
+canonical: e2ei/11/WIS_10.7.0.0.426/Infrastructure/WISSharedBundles/WISSharedBundles-W64-Any/BM_WISSDBundlesRepo-ALL-Any
+
+BM_WISSUMLauncher-W64-Any
+version: 10.7.0.0.426
+canonical: e2ei/11/WIS_10.7.0.0.426/Infrastructure/WISSharedBundles/WISSharedBundles-W64-Any/BM_WISSUMLauncher-W64-Any
+
+BM_WISSUMBundlesRepo-ALL-Any
+version: 10.7.0.0.426
+canonical: e2ei/11/WIS_10.7.0.0.426/Infrastructure/WISSharedBundles/WISSharedBundles-W64-Any/BM_WISSUMBundlesRepo-ALL-Any
+
+BM_WISProductsConfigurations-ALL-Any
+version: 10.7.0.0.426
+canonical: e2ei/11/WIS_10.7.0.0.426/Infrastructure/WISSharedBundles/WISSharedBundles-W64-Any/BM_WISProductsConfigurations-ALL-Any
+
+BM_ZSLEsapiOsgi-ALL-Any
+version: 10.7.0.0.239
+canonical: e2ei/11/ZSL_10.7.0.0.239/Platform/ZSLSharedBundles/ZSLSharedBundles-W64-Any/BM_ZSLEsapiOsgi-ALL-Any
+
+BM_LIC_Util-W64-Any
+version: 5.7.2.0.956
+canonical: e2ei/11/LIC_5.7.2.0.956/LICUtil/LICUtil/LICUtil-W64-Domestic/BM_LIC_Util-W64-Any
+
+buildmodules changed: 85
+
+## current installation ##
+
+Infrastructure / Java Package
+version: 1.8.0.0.858
+canonical: e2ei/11/SJP_1.8.0.0.858/Infrastructure/sjp
+  BM_Java64_JVM180_47cck-W64-Any
+  version: 1.8.0.0.858
+  canonical: e2ei/11/SJP_1.8.0.0.858/Infrastructure/sjp/SJP-W64-Domestic/BM_Java64_JVM180_47cck-W64-Any
+Infrastructure/Shared Platform/Bundles/Central Security Bundles (ZSL) / ZSL esapi Bundle
+version: 10.7.0.0.239
+canonical: e2ei/11/ZSL_10.7.0.0.239/Platform/ZSLSharedBundles
+  BM_ZSLEsapiOsgi-ALL-Any
+  version: 10.7.0.0.239
+  canonical: e2ei/11/ZSL_10.7.0.0.239/Platform/ZSLSharedBundles/ZSLSharedBundles-W64-Any/BM_ZSLEsapiOsgi-ALL-Any
+Infrastructure/Libraries / Shared Libraries
+version: 10.7.0.0.434
+canonical: e2ei/11/WSC_10.7.0.0.434/SCG/SCGCommon
+  BM_WSCCommon-ALL-Any
+  version: 10.7.0.0.434
+  canonical: e2ei/11/WSC_10.7.0.0.434/SCG/SCGCommon/SCGCommon-W64-Any/BM_WSCCommon-ALL-Any
+Infrastructure/Libraries / Installer Libraries
+version: 10.7.0.0.426
+canonical: e2ei/11/WIS_10.7.0.0.426/Infrastructure/WISSharedLibs
+  BM_WISSharedLibs-ALL-Any
+  version: 10.7.0.0.426
+  canonical: e2ei/11/WIS_10.7.0.0.426/Infrastructure/WISSharedLibs/WISSharedLibs-W64-Any/BM_WISSharedLibs-ALL-Any
+Infrastructure/Shared Platform/Bundles / Installer Bundles
+version: 10.7.0.0.426
+canonical: e2ei/11/WIS_10.7.0.0.426/Infrastructure/WISSharedBundles
+  BM_WISSDBundlesRepo-ALL-Any
+  version: 10.7.0.0.426
+  canonical: e2ei/11/WIS_10.7.0.0.426/Infrastructure/WISSharedBundles/WISSharedBundles-W64-Any/BM_WISSDBundlesRepo-ALL-Any
+  BM_WISSUMLauncher-W64-Any
+  version: 10.7.0.0.426
+  canonical: e2ei/11/WIS_10.7.0.0.426/Infrastructure/WISSharedBundles/WISSharedBundles-W64-Any/BM_WISSUMLauncher-W64-Any
+  BM_WISSUMBundlesRepo-ALL-Any
+  version: 10.7.0.0.426
+  canonical: e2ei/11/WIS_10.7.0.0.426/Infrastructure/WISSharedBundles/WISSharedBundles-W64-Any/BM_WISSUMBundlesRepo-ALL-Any
+  BM_WISProductsConfigurations-ALL-Any
+  version: 10.7.0.0.426
+  canonical: e2ei/11/WIS_10.7.0.0.426/Infrastructure/WISSharedBundles/WISSharedBundles-W64-Any/BM_WISProductsConfigurations-ALL-Any
+Infrastructure/Libraries/Third-Party Libraries / Base Security Libraries
+version: 10.7.0.0.224
+canonical: e2ei/11/TPS_10.7.0.0.224/SCG/tppSEC
+  BM_CommonBaseSec-ALL-Any
+  version: 10.7.0.0.224
+  canonical: e2ei/11/TPS_10.7.0.0.224/SCG/tppSEC/tppSEC-W64-Any/BM_CommonBaseSec-ALL-Any
+Infrastructure/Libraries/Third-Party Libraries / Data Modeling Libraries
+version: 10.7.0.0.224
+canonical: e2ei/11/TPS_10.7.0.0.224/SCG/tppModelling
+  BM_Protoc_current-W64-Any
+  version: 10.7.0.0.224
+  canonical: e2ei/11/TPS_10.7.0.0.224/SCG/tppModelling/tppModelling-W64-Any/BM_Protoc_current-W64-Any
+  BM_CommonDataModelling-ALL-Any
+  version: 10.7.0.0.224
+  canonical: e2ei/11/TPS_10.7.0.0.224/SCG/tppModelling/tppModelling-W64-Any/BM_CommonDataModelling-ALL-Any
+Infrastructure/Libraries/Third-Party Libraries / Logging Libraries for Java
+version: 10.7.0.0.224
+canonical: e2ei/11/TPS_10.7.0.0.224/SCG/loggers
+  BM_Loggers-ALL-Any
+  version: 10.7.0.0.224
+  canonical: e2ei/11/TPS_10.7.0.0.224/SCG/loggers/loggers-W64-Any/BM_Loggers-ALL-Any
+Infrastructure/Libraries/Third-Party Libraries / Tool for Java Service Wrapper
+version: 10.7.0.0.224
+canonical: e2ei/11/TPS_10.7.0.0.224/SCG/jsw
+  BM_Tanuki_current-W64-Any
+  version: 10.7.0.0.224
+  canonical: e2ei/11/TPS_10.7.0.0.224/SCG/jsw/jsw-W64-Any/BM_Tanuki_current-W64-Any
+Infrastructure/Shared Platform/Bundles / Shared Bundles
+version: 10.7.0.0.224
+canonical: e2ei/11/TPS_10.7.0.0.224/Platform/TPS
+  BM_TPS-ALL-Any
+  version: 10.7.0.0.224
+  canonical: e2ei/11/TPS_10.7.0.0.224/Platform/TPS/TPS-W64-Any/BM_TPS-ALL-Any
+Infrastructure/Libraries / Common Libraries for OpenSSL
+version: 10.7.0.0.56
+canonical: e2ei/11/SSX_TLS_10.7.0.0.56/API/SSX_TLS
+  BM_SSX_TLS_1.1.1g-WNT-Any
+  version: 10.7.0.0.56
+  canonical: e2ei/11/SSX_TLS_10.7.0.0.56/API/SSX_TLS/SSX_TLS-W64-Domestic/BM_SSX_TLS_1.1.1g-WNT-Any
+  BM_SSX_TLS_1.1.1g-W64-Any
+  version: 10.7.0.0.56
+  canonical: e2ei/11/SSX_TLS_10.7.0.0.56/API/SSX_TLS/SSX_TLS-W64-Domestic/BM_SSX_TLS_1.1.1g-W64-Any
+Infrastructure / Platform Manager
+version: 10.7.0.0.784
+canonical: e2ei/11/SPM_10.7.0.0.784/Platform/SPM
+  BM_SPMMigration-ALL-Any
+  version: 10.7.0.0.784
+  canonical: e2ei/11/SPM_10.7.0.0.784/Platform/SPM/SPM-W64-Any/BM_SPMMigration-ALL-Any
+  BM_CCShared-ALL-Any
+  version: 10.7.0.0.784
+  canonical: e2ei/11/SPM_10.7.0.0.784/Platform/SPM/SPM-W64-Any/BM_CCShared-ALL-Any
+  BM_SPMCommon-ALL-Any
+  version: 10.7.0.0.784
+  canonical: e2ei/11/SPM_10.7.0.0.784/Platform/SPM/SPM-W64-Any/BM_SPMCommon-ALL-Any
+  BM_SPMDiagnostics-ALL-Any
+  version: 10.7.0.0.784
+  canonical: e2ei/11/SPM_10.7.0.0.784/Platform/SPM/SPM-W64-Any/BM_SPMDiagnostics-ALL-Any
+  BM_SPM-ALL-Any
+  version: 10.7.0.0.784
+  canonical: e2ei/11/SPM_10.7.0.0.784/Platform/SPM/SPM-W64-Any/BM_SPM-ALL-Any
+Infrastructure/Shared Platform / Platform
+version: 10.7.0.0.635
+canonical: e2ei/11/OSGI_10.7.0.0.635/Platform/OSGI
+  BM_OSGi-ALL-Any
+  version: 10.7.0.0.635
+  canonical: e2ei/11/OSGI_10.7.0.0.635/Platform/OSGI/OSGI-W64-Any/BM_OSGi-ALL-Any
+  BM_OSGiAgent-W64-Any
+  version: 10.7.0.0.635
+  canonical: e2ei/11/OSGI_10.7.0.0.635/Platform/OSGI/OSGI-W64-Any/BM_OSGiAgent-W64-Any
+  BM_OSGiRepository-ALL-Any
+  version: 10.7.0.0.635
+  canonical: e2ei/11/OSGI_10.7.0.0.635/Platform/OSGI/OSGI-W64-Any/BM_OSGiRepository-ALL-Any
+  BM_OSGiMigration-W64-Any
+  version: 10.7.0.0.635
+  canonical: e2ei/11/OSGI_10.7.0.0.635/Platform/OSGI/OSGI-W64-Any/BM_OSGiMigration-W64-Any
+  BM_OSGi-W64-Any
+  version: 10.7.0.0.635
+  canonical: e2ei/11/OSGI_10.7.0.0.635/Platform/OSGI/OSGI-W64-Any/BM_OSGi-W64-Any
+  BM_OSGiMigration-ALL-Any
+  version: 10.7.0.0.635
+  canonical: e2ei/11/OSGI_10.7.0.0.635/Platform/OSGI/OSGI-W64-Any/BM_OSGiMigration-ALL-Any
+Infrastructure/Platform Manager Plug-ins / Universal Messaging Plug-in
+version: 10.7.0.0.133380
+canonical: e2ei/11/NUM_TOOLS_10.7.0.0.133380/UniversalMessaging/NUMspm
+  BM_NUMCCplugins-ALL-Any
+  version: 10.7.0.0.133380
+  canonical: e2ei/11/NUM_TOOLS_10.7.0.0.133380/UniversalMessaging/NUMspm/NUMspm-W64-Any/BM_NUMCCplugins-ALL-Any
+Infrastructure/Shared Platform/Bundles / Universal Messaging Bundles
+version: 10.7.0.0.136016
+canonical: e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMRepository
+  BM_NUM_Repository-ALL-Any
+  version: 10.7.0.0.136016
+  canonical: e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMRepository/NUMRepository-W64-Any/BM_NUM_Repository-ALL-Any
+Universal Messaging / Instance Manager
+version: 10.7.0.0.136016
+canonical: e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMInstanceManager
+  BM_NUM_IMInstanceConfiguration-ALL-Any
+  version: 10.7.0.0.136016
+  canonical: e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMInstanceManager/NUMInstanceManager-W64-Any/BM_NUM_IMInstanceConfiguration-ALL-Any
+  BM_NUM_InstanceManager-ALL-Any
+  version: 10.7.0.0.136016
+  canonical: e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMInstanceManager/NUMInstanceManager-W64-Any/BM_NUM_InstanceManager-ALL-Any
+  BM_NUM_InstanceManager-W64-Any
+  version: 10.7.0.0.136016
+  canonical: e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMInstanceManager/NUMInstanceManager-W64-Any/BM_NUM_InstanceManager-W64-Any
+Universal Messaging / Enterprise Manager
+version: 10.7.0.0.136016
+canonical: e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMEnterpriseManager
+  BM_NUM_EnterpriseManager-ALL-Any
+  version: 10.7.0.0.136016
+  canonical: e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMEnterpriseManager/NUMEnterpriseManager-W64-Any/BM_NUM_EnterpriseManager-ALL-Any
+  BM_NUM_EMInstanceConfiguration-ALL-Any
+  version: 10.7.0.0.136016
+  canonical: e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMEnterpriseManager/NUMEnterpriseManager-W64-Any/BM_NUM_EMInstanceConfiguration-ALL-Any
+Universal Messaging / Client Libraries
+version: 10.7.0.0.136016
+canonical: e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMClient
+  BM_NUM_Common-ALL-Any
+  version: 10.7.0.0.136016
+  canonical: e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMClient/NUMClient-W64-Any/BM_NUM_Common-ALL-Any
+  BM_NUM_Client-ALL-Any
+  version: 10.7.0.0.136016
+  canonical: e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMClient/NUMClient-W64-Any/BM_NUM_Client-ALL-Any
+  BM_NUM_Client-W64-Any
+  version: 10.7.0.0.136016
+  canonical: e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMClient/NUMClient-W64-Any/BM_NUM_Client-W64-Any
+Infrastructure / Common C/C++ Runtime
+version: 20.10.0.0.32
+canonical: e2ei/11/MFC_20.10.0.0.32/MFC/MfcAll
+  BM_MFC-W64-Any
+  version: 20.10.0.0.32
+  canonical: e2ei/11/MFC_20.10.0.0.32/MFC/MfcAll/MFC-W64-Domestic/BM_MFC-W64-Any
+  BM_MFC-WNT-Any
+  version: 20.10.0.0.32
+  canonical: e2ei/11/MFC_20.10.0.0.32/MFC/MfcAll/MFC-W64-Domestic/BM_MFC-WNT-Any
+Infrastructure/License / Verifier
+version: 5.7.2.0.956
+canonical: e2ei/11/LIC_5.7.2.0.956/LICUtil/LICUtil
+  BM_LIC_Util-W64-Any
+  version: 5.7.2.0.956
+  canonical: e2ei/11/LIC_5.7.2.0.956/LICUtil/LICUtil/LICUtil-W64-Domestic/BM_LIC_Util-W64-Any
+Infrastructure/License / Library for Java
+version: 5.7.2.0.956
+canonical: e2ei/11/LIC_5.7.2.0.956/LICSharedLibsJava/LICSharedLibsJava
+  BM_LIC_SharedLibs_java-ALL-Any
+  version: 5.7.2.0.956
+  canonical: e2ei/11/LIC_5.7.2.0.956/LICSharedLibsJava/LICSharedLibsJava/LICSharedLibsJava-W64-Any/BM_LIC_SharedLibs_java-ALL-Any
+Infrastructure/Shared Platform/Bundles / License Validator Bundles
+version: 5.7.2.0.956
+canonical: e2ei/11/LIC_5.7.2.0.956/LICRepository/LICRepository
+  BM_LIC_Repository-ALL-Any
+  version: 5.7.2.0.956
+  canonical: e2ei/11/LIC_5.7.2.0.956/LICRepository/LICRepository/LICRepository-W64-Any/BM_LIC_Repository-ALL-Any
+Infrastructure/Shared Platform/Bundles / Common Landscape Asset Registry
+version: 10.7.0.0.407
+canonical: e2ei/11/LAR_10.7.0.0.407/Platform/LARSharedBundles
+  BM_LARSharedBundles-ALL-Any
+  version: 10.7.0.0.407
+  canonical: e2ei/11/LAR_10.7.0.0.407/Platform/LARSharedBundles/LARSharedBundles-W64-Any/BM_LARSharedBundles-ALL-Any
+Infrastructure/Libraries / Migration Framework Libraries
+version: 10.7.0.0.196
+canonical: e2ei/11/IS_10.7.0.0.196/integrationServer/integrationServerMigrationFrameworkLib
+  BM_IntegrationServerMigrationFrameworkLib-ALL-Any
+  version: 10.7.0.0.196
+  canonical: e2ei/11/IS_10.7.0.0.196/integrationServer/integrationServerMigrationFrameworkLib/integrationServerMigrationFrameworkLib-W64-Any/BM_IntegrationServerMigrationFrameworkLib-ALL-Any
+Infrastructure/Shared Platform/Bundles / Integration Server Bundles
+version: 10.7.0.0.196
+canonical: e2ei/11/IS_10.7.0.0.196/integrationServer/ISSharedBundles
+  BM_ISSharedBundles-ALL-Any
+  version: 10.7.0.0.196
+  canonical: e2ei/11/IS_10.7.0.0.196/integrationServer/ISSharedBundles/ISSharedBundles-W64-Any/BM_ISSharedBundles-ALL-Any
+Infrastructure/Shared Platform/Bundles/Common Monitoring Provider Bundle / API
+version: 10.7.0.0.82
+canonical: e2ei/11/CMP_10.7.0.0.82/CMP/CMP_API
+  BM_CMP_API-ALL-Any
+  version: 10.7.0.0.82
+  canonical: e2ei/11/CMP_10.7.0.0.82/CMP/CMP_API/CMP_API-W64-Any/BM_CMP_API-ALL-Any
+Infrastructure/Shared Platform/Bundles/Common Monitoring Provider Bundle / Implementations
+version: 10.7.0.0.82
+canonical: e2ei/11/CMP_10.7.0.0.82/CMP/CMP
+  BM_CMP_UM100-ALL-Any
+  version: 10.7.0.0.82
+  canonical: e2ei/11/CMP_10.7.0.0.82/CMP/CMP/CMP-W64-Any/BM_CMP_UM100-ALL-Any
+  BM_CMP_UM101-ALL-Any
+  version: 10.7.0.0.82
+  canonical: e2ei/11/CMP_10.7.0.0.82/CMP/CMP/CMP-W64-Any/BM_CMP_UM101-ALL-Any
+  BM_CMP_UM102-ALL-Any
+  version: 10.7.0.0.82
+  canonical: e2ei/11/CMP_10.7.0.0.82/CMP/CMP/CMP-W64-Any/BM_CMP_UM102-ALL-Any
+  BM_CMP_UM103-ALL-Any
+  version: 10.7.0.0.82
+  canonical: e2ei/11/CMP_10.7.0.0.82/CMP/CMP/CMP-W64-Any/BM_CMP_UM103-ALL-Any
+  BM_CMP_UM910-ALL-Any
+  version: 10.7.0.0.82
+  canonical: e2ei/11/CMP_10.7.0.0.82/CMP/CMP/CMP-W64-Any/BM_CMP_UM910-ALL-Any
+  BM_CMP_UM104-ALL-Any
+  version: 10.7.0.0.82
+  canonical: e2ei/11/CMP_10.7.0.0.82/CMP/CMP/CMP-W64-Any/BM_CMP_UM104-ALL-Any
+  BM_CMP_UM95-ALL-Any
+  version: 10.7.0.0.82
+  canonical: e2ei/11/CMP_10.7.0.0.82/CMP/CMP/CMP-W64-Any/BM_CMP_UM95-ALL-Any
+  BM_CMP_UM105-ALL-Any
+  version: 10.7.0.0.82
+  canonical: e2ei/11/CMP_10.7.0.0.82/CMP/CMP/CMP-W64-Any/BM_CMP_UM105-ALL-Any
+  BM_CMP_UM97-ALL-Any
+  version: 10.7.0.0.82
+  canonical: e2ei/11/CMP_10.7.0.0.82/CMP/CMP/CMP-W64-Any/BM_CMP_UM97-ALL-Any
+  BM_CMP-ALL-Any
+  version: 10.7.0.0.82
+  canonical: e2ei/11/CMP_10.7.0.0.82/CMP/CMP/CMP-W64-Any/BM_CMP-ALL-Any
+  BM_CMP_UM96-ALL-Any
+  version: 10.7.0.0.82
+  canonical: e2ei/11/CMP_10.7.0.0.82/CMP/CMP/CMP-W64-Any/BM_CMP_UM96-ALL-Any
+  BM_CMP_UM99-ALL-Any
+  version: 10.7.0.0.82
+  canonical: e2ei/11/CMP_10.7.0.0.82/CMP/CMP/CMP-W64-Any/BM_CMP_UM99-ALL-Any
+  BM_CMP_UM912-ALL-Any
+  version: 10.7.0.0.82
+  canonical: e2ei/11/CMP_10.7.0.0.82/CMP/CMP/CMP-W64-Any/BM_CMP_UM912-ALL-Any
+  BM_CMP_UM98-ALL-Any
+  version: 10.7.0.0.82
+  canonical: e2ei/11/CMP_10.7.0.0.82/CMP/CMP/CMP-W64-Any/BM_CMP_UM98-ALL-Any
+Infrastructure/Shared Platform/Bundles / Broker Bundles
+version: 10.5.0.0.700
+canonical: e2ei/11/BR_10.5.0.0.700/Broker/PIFSharedBundles
+  BM_PIFSharedBundles-ALL-Any
+  version: 10.5.0.0.700
+  canonical: e2ei/11/BR_10.5.0.0.700/Broker/PIFSharedBundles/PIFSharedBundles-W64-Any/BM_PIFSharedBundles-ALL-Any
+Infrastructure/Shared Platform/Bundles / Deployer and Asset Build Environment Bundles
+version: 10.7.0.0.345
+canonical: e2ei/11/ACDL_10.7.0.0.345/ACDL/ACDLDeployerSharedBundle
+  BM_ACDLSharedDeployerBundles-ALL-Any
+  version: 10.7.0.0.345
+  canonical: e2ei/11/ACDL_10.7.0.0.345/ACDL/ACDLDeployerSharedBundle/ACDLDeployerSharedBundle-W64-Any/BM_ACDLSharedDeployerBundles-ALL-Any
+Infrastructure/License / Agreement
+version: 10.7.0.0.25
+canonical: e2ei/11/TPL_10.7.0.0.25/License/license
+  BM_TPL-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL-ALL-Any
+  BM_SAGDoc-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_SAGDoc-ALL-Any
+  BM_TPL_AAF-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_AAF-ALL-Any
+  BM_TPL_AAF-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_AAF-ALL-Any
+  BM_TPL_AAR-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_AAR-ALL-Any
+  BM_TPL_AAV-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_AAV-ALL-Any
+  BM_TPL_ABE-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_ABE-ALL-Any
+  BM_TPL_ACE-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_ACE-ALL-Any
+  BM_TPL_ACF-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_ACF-ALL-Any
+  BM_TPL_ACH-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_ACH-ALL-Any
+  BM_TPL_ACI-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_ACI-ALL-Any
+  BM_TPL_ACJ-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_ACJ-ALL-Any
+  BM_TPL_ACL-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_ACL-ALL-Any
+  BM_TPL_ADA-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_ADA-ALL-Any
+  BM_TPL_ADA-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_ADA-ALL-Any
+  BM_TPL_ADA-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_ADA-ALL-Any
+  BM_TPL_ADE-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_ADE-ALL-Any
+  BM_TPL_ADI-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_ADI-ALL-Any
+  BM_TPL_AEL-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_AEL-ALL-Any
+  BM_TPL_AEZ-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_AEZ-ALL-Any
+  BM_TPL_AFL-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_AFL-ALL-Any
+  BM_TPL_AIC-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_AIC-ALL-Any
+  BM_TPL_AII-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_AII-ALL-Any
+  BM_TPL_ALA-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_ALA-ALL-Any
+  BM_TPL_ALF-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_ALF-ALL-Any
+  BM_TPL_ALS-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_ALS-ALL-Any
+  BM_TPL_AMC-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_AMC-ALL-Any
+  BM_TPL_AMN-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_AMN-ALL-Any
+  BM_TPL_AMN-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_AMN-ALL-Any
+  BM_TPL_AMR-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_AMR-ALL-Any
+  BM_TPL_AMT-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_AMT-ALL-Any
+  BM_TPL_AOS-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_AOS-ALL-Any
+  BM_TPL_APX-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_APX-ALL-Any
+  BM_TPL_ARN-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_ARN-ALL-Any
+  BM_TPL_ARS-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_ARS-ALL-Any
+  BM_TPL_ART-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_ART-ALL-Any
+  BM_TPL_ASH-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_ASH-ALL-Any
+  BM_TPL_ASM-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_ASM-ALL-Any
+  BM_TPL_AZP-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_AZP-ALL-Any
+  BM_TPL_CAA-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_CAA-ALL-Any
+  BM_TPL_CAS-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_CAS-ALL-Any
+  BM_TPL_CCE-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_CCE-ALL-Any
+  BM_TPL_CCE-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_CCE-ALL-Any
+  BM_TPL_CDA-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_CDA-ALL-Any
+  BM_TPL_CEL-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_CEL-ALL-Any
+  BM_TPL_CEP-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_CEP-ALL-Any
+  BM_TPL_CHS-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_CHS-ALL-Any
+  BM_TPL_CIT-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_CIT-ALL-Any
+  BM_TPL_CJP-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_CJP-ALL-Any
+  BM_TPL_CLI-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_CLI-ALL-Any
+  BM_TPL_CLI-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_CLI-ALL-Any
+  BM_TPL_CMA-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_CMA-ALL-Any
+  BM_TPL_CMP-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_CMP-ALL-Any
+  BM_TPL_CNA-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_CNA-ALL-Any
+  BM_TPL_CPP-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_CPP-ALL-Any
+  BM_TPL_CSA-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_CSA-ALL-Any
+  BM_TPL_CSO-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_CSO-ALL-Any
+  BM_TPL_CST-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_CST-ALL-Any
+  BM_TPL_CTP-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_CTP-ALL-Any
+  BM_TPL_CUP-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_CUP-ALL-Any
+  BM_TPL_CWR-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_CWR-ALL-Any
+  BM_TPL_CXA-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_CXA-ALL-Any
+  BM_TPL_CXB-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_CXB-ALL-Any
+  BM_TPL_CXD-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_CXD-ALL-Any
+  BM_TPL_DDI-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_DDI-ALL-Any
+  BM_TPL_DDJ-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_DDJ-ALL-Any
+  BM_TPL_DEV-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_DEV-ALL-Any
+  BM_TPL_DPI-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_DPI-ALL-Any
+  BM_TPL_EAB-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_EAB-ALL-Any
+  BM_TPL_EAL-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_EAL-ALL-Any
+  BM_TPL_EAP-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_EAP-ALL-Any
+  BM_TPL_ECF-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_ECF-ALL-Any
+  BM_TPL_EDA-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_EDA-ALL-Any
+  BM_TPL_EEO-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_EEO-ALL-Any
+  BM_TPL_EFF-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_EFF-ALL-Any
+  BM_TPL_EFM-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_EFM-ALL-Any
+  BM_TPL_EGF-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_EGF-ALL-Any
+  BM_TPL_ERN-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_ERN-ALL-Any
+  BM_TPL_ERU-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_ERU-ALL-Any
+  BM_TPL_EXX-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_EXX-ALL-Any
+  BM_TPL_EXX-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_EXX-ALL-Any
+  BM_TPL_GWM-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_GWM-ALL-Any
+  BM_TPL_HCS-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_HCS-ALL-Any
+  BM_TPL_IMQ-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_IMQ-ALL-Any
+  BM_TPL_INM-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_INM-ALL-Any
+  BM_TPL_INM-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_INM-ALL-Any
+  BM_TPL_INS-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_INS-ALL-Any
+  BM_TPL_JBP-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_JBP-ALL-Any
+  BM_TPL_JDB-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_JDB-ALL-Any
+  BM_TPL_JDC-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_JDC-ALL-Any
+  BM_TPL_JDH-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_JDH-ALL-Any
+  BM_TPL_JDM-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_JDM-ALL-Any
+  BM_TPL_JDO-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_JDO-ALL-Any
+  BM_TPL_JDS-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_JDS-ALL-Any
+  BM_TPL_JMS-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_JMS-ALL-Any
+  BM_TPL_LAR-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_LAR-ALL-Any
+  BM_TPL_LIC-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_LIC-ALL-Any
+  BM_TPL_LJP-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_LJP-ALL-Any
+  BM_TPL_LNS-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_LNS-ALL-Any
+  BM_TPL_MAG-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_MAG-ALL-Any
+  BM_TPL_MAP-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_MAP-ALL-Any
+  BM_TPL_MAT-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_MAT-ALL-Any
+  BM_TPL_MAW-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_MAW-ALL-Any
+  BM_TPL_MFC-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_MFC-ALL-Any
+  BM_TPL_MIG-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_MIG-ALL-Any
+  BM_TPL_MIP-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_MIP-ALL-Any
+  BM_TPL_MMQ-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_MMQ-ALL-Any
+  BM_TPL_MOC-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_MOC-ALL-Any
+  BM_TPL_MSC-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_MSC-ALL-Any
+  BM_TPL_MSC-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_MSC-ALL-Any
+  BM_TPL_MTA-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_MTA-ALL-Any
+  BM_TPL_MTL-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_MTL-ALL-Any
+  BM_TPL_MWS-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_MWS-ALL-Any
+  BM_TPL_NAD-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_NAD-ALL-Any
+  BM_TPL_NAI-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_NAI-ALL-Any
+  BM_TPL_NAT-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_NAT-ALL-Any
+  BM_TPL_NAT-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_NAT-ALL-Any
+  BM_TPL_NBS-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_NBS-ALL-Any
+  BM_TPL_NDV-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_NDV-ALL-Any
+  BM_TPL_NEE-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_NEE-ALL-Any
+  BM_TPL_NGC-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_NGC-ALL-Any
+  BM_TPL_NJX-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_NJX-ALL-Any
+  BM_TPL_NOM-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_NOM-ALL-Any
+  BM_TPL_NOP-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_NOP-ALL-Any
+  BM_TPL_NPR-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_NPR-ALL-Any
+  BM_TPL_NPR-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_NPR-ALL-Any
+  BM_TPL_NRE-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_NRE-ALL-Any
+  BM_TPL_NSC-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_NSC-ALL-Any
+  BM_TPL_NUM-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_NUM-ALL-Any
+  BM_TPL_NUM-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_NUM-ALL-Any
+  BM_TPL_NWO-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_NWO-ALL-Any
+  BM_TPL_NXT-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_NXT-ALL-Any
+  BM_TPL_OAE-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_OAE-ALL-Any
+  BM_TPL_OAF-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_OAF-ALL-Any
+  BM_TPL_OAG-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_OAG-ALL-Any
+  BM_TPL_OAH-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_OAH-ALL-Any
+  BM_TPL_OAJ-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_OAJ-ALL-Any
+  BM_TPL_OAJ-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_OAJ-ALL-Any
+  BM_TPL_OAJ-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_OAJ-ALL-Any
+  BM_TPL_OBE-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_OBE-ALL-Any
+  BM_TPL_ODE-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_ODE-ALL-Any
+  BM_TPL_OFT-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_OFT-ALL-Any
+  BM_TPL_OFX-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_OFX-ALL-Any
+  BM_TPL_OGC-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_OGC-ALL-Any
+  BM_TPL_OGI-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_OGI-ALL-Any
+  BM_TPL_ONE-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_ONE-ALL-Any
+  BM_TPL_OPC-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_OPC-ALL-Any
+  BM_TPL_OSG-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_OSG-ALL-Any
+  BM_TPL_OSX-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_OSX-ALL-Any
+  BM_TPL_OTN-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_OTN-ALL-Any
+  BM_TPL_OXC-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_OXC-ALL-Any
+  BM_TPL_PAD-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_PAD-ALL-Any
+  BM_TPL_PAF-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_PAF-ALL-Any
+  BM_TPL_PAJ-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_PAJ-ALL-Any
+  BM_TPL_PAK-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_PAK-ALL-Any
+  BM_TPL_PAM-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_PAM-ALL-Any
+  BM_TPL_PAN-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_PAN-ALL-Any
+  BM_TPL_PAX-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_PAX-ALL-Any
+  BM_TPL_PAZ-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_PAZ-ALL-Any
+  BM_TPL_PCC-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_PCC-ALL-Any
+  BM_TPL_PIE-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_PIE-ALL-Any
+  BM_TPL_PIF-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_PIF-ALL-Any
+  BM_TPL_PIT-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_PIT-ALL-Any
+  BM_TPL_PLD-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_PLD-ALL-Any
+  BM_TPL_PLS-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_PLS-ALL-Any
+  BM_TPL_POA-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_POA-ALL-Any
+  BM_TPL_POC-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_POC-ALL-Any
+  BM_TPL_POJ-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_POJ-ALL-Any
+  BM_TPL_POL-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_POL-ALL-Any
+  BM_TPL_PRD-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_PRD-ALL-Any
+  BM_TPL_PRF-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_PRF-ALL-Any
+  BM_TPL_PSN-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_PSN-ALL-Any
+  BM_TPL_PWB-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_PWB-ALL-Any
+  BM_TPL_PWD-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_PWD-ALL-Any
+  BM_TPL_PWF-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_PWF-ALL-Any
+  BM_TPL_PWM-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_PWM-ALL-Any
+  BM_TPL_PWZ-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_PWZ-ALL-Any
+  BM_TPL_PYA-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_PYA-ALL-Any
+  BM_TPL_PYB-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_PYB-ALL-Any
+  BM_TPL_PYJ-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_PYJ-ALL-Any
+  BM_TPL_PYM-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_PYM-ALL-Any
+  BM_TPL_PYO-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_PYO-ALL-Any
+  BM_TPL_PYT-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_PYT-ALL-Any
+  BM_TPL_PYX-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_PYX-ALL-Any
+  BM_TPL_PYZ-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_PYZ-ALL-Any
+  BM_TPL_PZB-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_PZB-ALL-Any
+  BM_TPL_PZC-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_PZC-ALL-Any
+  BM_TPL_PZD-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_PZD-ALL-Any
+  BM_TPL_PZF-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_PZF-ALL-Any
+  BM_TPL_PZG-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_PZG-ALL-Any
+  BM_TPL_PZH-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_PZH-ALL-Any
+  BM_TPL_PZI-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_PZI-ALL-Any
+  BM_TPL_PZK-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_PZK-ALL-Any
+  BM_TPL_PZQ-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_PZQ-ALL-Any
+  BM_TPL_PZR-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_PZR-ALL-Any
+  BM_TPL_PZU-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_PZU-ALL-Any
+  BM_TPL_PZX-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_PZX-ALL-Any
+  BM_TPL_PZY-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_PZY-ALL-Any
+  BM_TPL_PZZ-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_PZZ-ALL-Any
+  BM_TPL_REM-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_REM-ALL-Any
+  BM_TPL_REO-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_REO-ALL-Any
+  BM_TPL_REV-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_REV-ALL-Any
+  BM_TPL_RTM-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_RTM-ALL-Any
+  BM_TPL_RUN-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_RUN-ALL-Any
+  BM_TPL_SAT-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_SAT-ALL-Any
+  BM_TPL_SBL-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_SBL-ALL-Any
+  BM_TPL_SBP-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_SBP-ALL-Any
+  BM_TPL_SDF-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_SDF-ALL-Any
+  BM_TPL_SEC-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_SEC-ALL-Any
+  BM_TPL_SIN-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_SIN-ALL-Any
+  BM_TPL_SPM-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_SPM-ALL-Any
+  BM_TPL_SPM-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_SPM-ALL-Any
+  BM_TPL_SPX-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_SPX-ALL-Any
+  BM_TPL_SSL-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_SSL-ALL-Any
+  BM_TPL_SSX-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_SSX-ALL-Any
+  BM_TPL_SUM-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_SUM-ALL-Any
+  BM_TPL_SYN-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_SYN-ALL-Any
+  BM_TPL_TAB-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_TAB-ALL-Any
+  BM_TPL_TAB-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_TAB-ALL-Any
+  BM_TPL_TAB-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_TAB-ALL-Any
+  BM_TPL_TAW-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_TAW-ALL-Any
+  BM_TPL_TCE-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_TCE-ALL-Any
+  BM_TPL_TDA-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_TDA-ALL-Any
+  BM_TPL_TDB-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_TDB-ALL-Any
+  BM_TPL_TDB-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_TDB-ALL-Any
+  BM_TPL_TEC-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_TEC-ALL-Any
+  BM_TPL_TEO-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_TEO-ALL-Any
+  BM_TPL_TNS-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_TNS-ALL-Any
+  BM_TPL_TPP-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_TPP-ALL-Any
+  BM_TPL_TPS-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_TPS-ALL-Any
+  BM_TPL_TSC-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_TSC-ALL-Any
+  BM_TPL_TUX-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_TUX-ALL-Any
+  BM_TPL_TWN-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_TWN-ALL-Any
+  BM_TPL_UHM-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_UHM-ALL-Any
+  BM_TPL_WAK-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_WAK-ALL-Any
+  BM_TPL_WAL-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_WAL-ALL-Any
+  BM_TPL_WAR-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_WAR-ALL-Any
+  BM_TPL_WAS-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_WAS-ALL-Any
+  BM_TPL_WCD-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_WCD-ALL-Any
+  BM_TPL_WCL-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_WCL-ALL-Any
+  BM_TPL_WCP-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_WCP-ALL-Any
+  BM_TPL_WDA-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_WDA-ALL-Any
+  BM_TPL_WDG-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_WDG-ALL-Any
+  BM_TPL_WDV-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_WDV-ALL-Any
+  BM_TPL_WDY-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_WDY-ALL-Any
+  BM_TPL_WED-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_WED-ALL-Any
+  BM_TPL_WEI-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_WEI-ALL-Any
+  BM_TPL_WEL-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_WEL-ALL-Any
+  BM_TPL_WEX-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_WEX-ALL-Any
+  BM_TPL_WFF-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_WFF-ALL-Any
+  BM_TPL_WGL-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_WGL-ALL-Any
+  BM_TPL_WHB-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_WHB-ALL-Any
+  BM_TPL_WHD-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_WHD-ALL-Any
+  BM_TPL_WHI-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_WHI-ALL-Any
+  BM_TPL_WHL-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_WHL-ALL-Any
+  BM_TPL_WID-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_WID-ALL-Any
+  BM_TPL_WIR-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_WIR-ALL-Any
+  BM_TPL_WIS-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_WIS-ALL-Any
+  BM_TPL_WLU-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_WLU-ALL-Any
+  BM_TPL_WMC-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_WMC-ALL-Any
+  BM_TPL_WMD-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_WMD-ALL-Any
+  BM_TPL_WMH-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_WMH-ALL-Any
+  BM_TPL_WMI-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_WMI-ALL-Any
+  BM_TPL_WMK-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_WMK-ALL-Any
+  BM_TPL_WMN-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_WMN-ALL-Any
+  BM_TPL_WMO-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_WMO-ALL-Any
+  BM_TPL_WMS-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_WMS-ALL-Any
+  BM_TPL_WOA-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_WOA-ALL-Any
+  BM_TPL_WOB-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_WOB-ALL-Any
+  BM_TPL_WOK-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_WOK-ALL-Any
+  BM_TPL_WPE-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_WPE-ALL-Any
+  BM_TPL_WRN-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_WRN-ALL-Any
+  BM_TPL_WRP-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_WRP-ALL-Any
+  BM_TPL_WSC-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_WSC-ALL-Any
+  BM_TPL_WSF-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_WSF-ALL-Any
+  BM_TPL_WSP-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_WSP-ALL-Any
+  BM_TPL_WSR-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_WSR-ALL-Any
+  BM_TPL_WSS-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_WSS-ALL-Any
+  BM_TPL_WST-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_WST-ALL-Any
+  BM_TPL_WTN-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_WTN-ALL-Any
+  BM_TPL_WWG-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_WWG-ALL-Any
+  BM_TPL_WWW-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_WWW-ALL-Any
+  BM_TPL_XAI-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_XAI-ALL-Any
+  BM_TPL_XSC-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_XSC-ALL-Any
+  BM_TPL_YAE-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_YAE-ALL-Any
+  BM_TPL_YAI-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_YAI-ALL-Any
+  BM_TPL_YAI-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_YAI-ALL-Any
+  BM_TPL_YAM-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_YAM-ALL-Any
+  BM_TPL_YAM-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_YAM-ALL-Any
+  BM_TPL_YAP-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_YAP-ALL-Any
+  BM_TPL_YAP-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_YAP-ALL-Any
+  BM_TPL_ZAD-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_ZAD-ALL-Any
+  BM_TPL_ZAD-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_ZAD-ALL-Any
+  BM_TPL_ZIS-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_ZIS-ALL-Any
+  BM_TPL_ZSL-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_ZSL-ALL-Any
+  BM_TPL_ZUP-ALL-Any
+  version: 10.7.0.0.25
+  canonical: e2ei/11/TPL_10.7.0.0.25/License/license/TPL-W64-Any/BM_TPL_ZUP-ALL-Any
+Core Installer Files / Software AG Installer
+version: 10.7.0.0.391
+canonical: e2ei/11/WIR_10.7.0.0.391/Infrastructure/CustomInstall
+  BM_InstallIntrospect-ALL-Any
+  version: 10.7.0.0.391
+  canonical: e2ei/11/WIR_10.7.0.0.391/Infrastructure/CustomInstall/CustomInstall-W64-Any/BM_InstallIntrospect-ALL-Any
+  BM_Uninstall-W32-Any
+  version: 10.7.0.0.391
+  canonical: e2ei/11/WIR_10.7.0.0.391/Infrastructure/CustomInstall/CustomInstall-W64-Any/BM_Uninstall-W32-Any
+

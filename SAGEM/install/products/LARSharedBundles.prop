@@ -1,0 +1,47 @@
+
+product=e2ei/11/LAR_10.7.0.0.407/Platform/LARSharedBundles
+
+e2ei/11/LAR_10.7.0.0.407/Platform/LARSharedBundles/children=LARSharedBundles-W64-Any
+
+## Product e2ei/11/LAR_10.7.0.0.407/Platform/LARSharedBundles properties ##
+
+e2ei/11/LAR_10.7.0.0.407/Platform/LARSharedBundles/props=developmentServer,displayDescript,displayGroup,displayName,displayNameVersionFormat,flags,group,lengthGroupVersionString,lengthVersionString,osgiBundlesRepos,requiresRegexp,resourceBundle,resourceJars,sagProductCode,supplantLevel,user_hints,installDate
+e2ei/11/LAR_10.7.0.0.407/Platform/LARSharedBundles/props/developmentServer=true
+e2ei/11/LAR_10.7.0.0.407/Platform/LARSharedBundles/props/displayDescript=LARSharedBundles.displayDescript
+e2ei/11/LAR_10.7.0.0.407/Platform/LARSharedBundles/props/displayGroup=LARSharedBundles.displayGroup
+e2ei/11/LAR_10.7.0.0.407/Platform/LARSharedBundles/props/displayName=LARSharedBundles.displayName
+e2ei/11/LAR_10.7.0.0.407/Platform/LARSharedBundles/props/displayNameVersionFormat=%1.%2 SP%3
+e2ei/11/LAR_10.7.0.0.407/Platform/LARSharedBundles/props/flags=ProgramFilesType
+e2ei/11/LAR_10.7.0.0.407/Platform/LARSharedBundles/props/group=Platform
+e2ei/11/LAR_10.7.0.0.407/Platform/LARSharedBundles/props/lengthGroupVersionString=0
+e2ei/11/LAR_10.7.0.0.407/Platform/LARSharedBundles/props/lengthVersionString=2
+e2ei/11/LAR_10.7.0.0.407/Platform/LARSharedBundles/props/osgiBundlesRepos=lar
+e2ei/11/LAR_10.7.0.0.407/Platform/LARSharedBundles/props/requiresRegexp=e2ei/11/.*/.*/TPS,e2ei/11/.*/.*/OSGI
+e2ei/11/LAR_10.7.0.0.407/Platform/LARSharedBundles/props/resourceBundle=com.softwareag.lar.install.LARSharedBundlesInstallMessages
+e2ei/11/LAR_10.7.0.0.407/Platform/LARSharedBundles/props/resourceJars=LARSharedBundlesInstallMessages-ALL-Any
+e2ei/11/LAR_10.7.0.0.407/Platform/LARSharedBundles/props/sagProductCode=LAR
+e2ei/11/LAR_10.7.0.0.407/Platform/LARSharedBundles/props/supplantLevel=3
+e2ei/11/LAR_10.7.0.0.407/Platform/LARSharedBundles/props/user_hints=enable
+e2ei/11/LAR_10.7.0.0.407/Platform/LARSharedBundles/props/installDate=1635224352819
+
+## Product e2ei/11/LAR_10.7.0.0.407/Platform/LARSharedBundles jars ##
+
+e2ei/11/LAR_10.7.0.0.407/Platform/LARSharedBundles/jars=LARSharedBundlesInstallMessages-ALL-Any
+e2ei/11/LAR_10.7.0.0.407/Platform/LARSharedBundles/jars/LARSharedBundlesInstallMessages-ALL-Any/props=jar_version,md5,size,timestamp,type
+e2ei/11/LAR_10.7.0.0.407/Platform/LARSharedBundles/jars/LARSharedBundlesInstallMessages-ALL-Any/props/jar_version=10.7.0.0000.0407
+e2ei/11/LAR_10.7.0.0.407/Platform/LARSharedBundles/jars/LARSharedBundlesInstallMessages-ALL-Any/props/md5=115a1e783e3c57cc468bf6b8f476dde0
+e2ei/11/LAR_10.7.0.0.407/Platform/LARSharedBundles/jars/LARSharedBundlesInstallMessages-ALL-Any/props/size=1170
+e2ei/11/LAR_10.7.0.0.407/Platform/LARSharedBundles/jars/LARSharedBundlesInstallMessages-ALL-Any/props/timestamp=1599492553
+e2ei/11/LAR_10.7.0.0.407/Platform/LARSharedBundles/jars/LARSharedBundlesInstallMessages-ALL-Any/props/type=resourceJar
+## Product e2ei/11/LAR_10.7.0.0.407/Platform/LARSharedBundles components ##
+
+## Buildmodule info for e2ei/11/LAR_10.7.0.0.407/Platform/LARSharedBundles/LARSharedBundles-W64-Any ##
+
+e2ei/11/LAR_10.7.0.0.407/Platform/LARSharedBundles/LARSharedBundles-W64-Any/children=BM_LARSharedBundles-ALL-Any
+e2ei/11/LAR_10.7.0.0.407/Platform/LARSharedBundles/LARSharedBundles-W64-Any/BM_LARSharedBundles-ALL-Any/props=compressed_size,expanded_size,md5,timestamp,version
+e2ei/11/LAR_10.7.0.0.407/Platform/LARSharedBundles/LARSharedBundles-W64-Any/BM_LARSharedBundles-ALL-Any/props/compressed_size=7620460
+e2ei/11/LAR_10.7.0.0.407/Platform/LARSharedBundles/LARSharedBundles-W64-Any/BM_LARSharedBundles-ALL-Any/props/expanded_size=8610430
+e2ei/11/LAR_10.7.0.0.407/Platform/LARSharedBundles/LARSharedBundles-W64-Any/BM_LARSharedBundles-ALL-Any/props/md5=dafa4d78465daaa0b215733dc0e0fd0d
+e2ei/11/LAR_10.7.0.0.407/Platform/LARSharedBundles/LARSharedBundles-W64-Any/BM_LARSharedBundles-ALL-Any/props/timestamp=1599492553
+e2ei/11/LAR_10.7.0.0.407/Platform/LARSharedBundles/LARSharedBundles-W64-Any/BM_LARSharedBundles-ALL-Any/props/version=10.7.0.0.407
+

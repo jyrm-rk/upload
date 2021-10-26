@@ -1,0 +1,171 @@
+   Software AG Common Libraries for OpenSSL 10.7 Fix 1 readme
+
+                                        May 2021
+
+____________________________________________________________________________________________________
+
+1.0   Fix Name
+2.0   Fix ID
+3.0   Product(s)/Component(s) Affected
+4.0   Requirements and Dependencies
+5.0   Platform Support
+6.0   Cautions and Warnings
+7.0   Fix Contents
+8.0   Installation
+9.0   Uninstallation
+10.0  Globalization
+11.0  Copyright
+____________________________________________________________________________________________________
+
+
+1.0 Fix Name
+
+Common Libraries for OpenSSL 10.7 Fix 1
+
+
+
+2.0 Fix ID
+
+SSL_10.7_Fix1
+
+
+
+3.0 Product(s)/Component(s) Affected
+
+Apama Adapter for FIX and Common Libraries
+Apama Shared Files 10.7
+CentraSite Registry Repository 10.7
+EntireX Mini Runtime 10.7
+EntireX Libraries 10.7
+Natural Base Environment 9.1 SP3
+NaturalONE Runtime 9.1 SP3
+Security Libraries 10.7
+Tamino XML Server 10.7
+Universal Messaging Client Libraries 10.7
+
+
+
+4.0 Requirements and Dependencies
+
+Common Libraries for OpenSSL 10.7
+
+
+
+5.0 Platform Support
+
+Same platforms as product release.
+
+
+
+6.0 Cautions and Warnings
+
+(AIX only) The environment variables LIBPATH and LD_LIBRARY_PATH should be unset. If these
+variables are needed, their values must not contain the path to the OpenSSL libraries as shipped by
+Software AG, for example "/opt/softwareag/common/security/openssl/lib", nor the system's standard
+paths "/usr/lib" and/or "/lib"!
+
+
+
+7.0 Fix Contents
+
+In addition to including resolutions to product defects, a fix may also include enhancements to
+existing functionality and features. Any of these items can result in new or changed built-in
+services, APIs, or configuration parameters. Review the fix contents carefully before installing
+the fix.
+
+This fix is cumulative, which means that it includes all previous fixes for the release.
+
+SSL-92 (SSL_10.7_Fix1)
+Updating OpenSSL libraries to version 1.1.1k. This will fix a number of issues within the shipped
+libraries.
+The update also contains mitigations for the following OpenSSL security issues:
+CVE-2021-3449 (High) and CVE-2021-3450 (High).
+
+SSL-84 (SSL_10.7_Fix1)
+Updating OpenSSL libraries to version 1.1.1j. This will fix a number of issues within the shipped
+libraries.
+The update also contains mitigations for the following OpenSSL security issues:
+CVE-2021-23840 (Low) and CVE-2021-23841 (Moderate).
+
+SSL-75 (SSL_10.7_Fix1)
+Updating OpenSSL libraries to version 1.1.1i. This will fix a number of issues within the shipped
+libraries.
+The update also contains mitigations for the following OpenSSL security issues:
+CVE-2020-1971 (High).
+
+
+
+8.0 Installation
+
+Install using Software AG Update Manager. For instructions, see the documentation at
+http://documentation.softwareag.com.
+
+(AIX only) Please stop all software mentioned in "3.0 Product(s)/Component(s) Affected" and then
+execute "/usr/sbin/slibclean" as root before attempting to install this Fix.
+
+(AIX only) If not done already, either install all Software AG products below "/opt/softwareag" or
+create a symbolic link at "/opt/softwareag" pointing to the actual installation directory.
+
+(AIX only) Some products might still setup the environment variables LIBPATH or LD_LIBRARY_PATH and
+append the system's standard paths "/usr/lib" and/or "/lib". They usually do this via a script
+ending on "env" and residing in the product's INSTALL/-directory, e.g.
+/opt/softwareag/EntireX/INSTALL/exxenv_, /opt/softwareag/AdabasClient/INSTALL/aclenv_, etc. These
+lines must be edited and the system's standard paths must be removed.
+Example before editing:
+  LIBPATH=${acllibpath}:/lib:/usr/lib
+Example after editing:
+  LIBPATH=${acllibpath}
+Please note, these changes are only necessary on AIX and should not be made on other platforms!
+
+
+
+9.0 Uninstallation
+
+Note: These instructions can only be used to uninstall the most recently installed fix. This action
+will revert your installation to the previously installed fix. You cannot use these instructions to
+uninstall the previously installed fix.
+
+Uninstall using Software AG Update Manager. For instructions, see the documentation at
+http://documentation.softwareag.com.
+
+(AIX only) Please stop all software mentioned in "3.0 Product(s)/Component(s) Affected" and then
+execute "/usr/sbin/slibclean" as root before attempting to remove this Fix.
+
+
+
+10.0 Globalization
+
+This fix conforms to the internationalization standards of the webMethods product suite and
+includes support for operation in any country, locale, or language as specified in the Installing
+webMethods Products guide. It was not tested with non-English configurations and non-ASCII data.
+This fix may have some globalization impact.
+
+
+10.1 Localization
+
+
+This fix does not require an updated language pack. It might contain new messages and these
+messages will appear in English.
+
+
+
+11.0 Copyright
+
+Copyright (C) 2017-2021 Software AG, Darmstadt, Germany and/or Software AG USA Inc., Reston, VA, 
+USA, and/or its subsidiaries and/or its affiliates and/or their licensors.
+
+The name Software AG and all Software AG product names are either trademarks or registered
+trademarks of Software AG and/or Software AG USA Inc. and/or its subsidiaries and/or its affiliates
+and/or their licensors. Other company and product names mentioned herein may be trademarks of their
+respective owners.
+
+Detailed information on trademarks and patents owned by Software AG and/or its subsidiaries is
+located at http://softwareag.com/licenses .
+
+This software may include portions of third-party products. For third-party copyright notices,
+license terms, additional rights or restrictions, please refer to "License Texts, Copyright Notices
+and Disclaimers of Third Party Products". For certain specific third-party license restrictions,
+please refer to section E of the Legal Notices available under "License Terms and Conditions for
+Use of Software AG Products / Copyright and Trademark Notices of Software AG Products". These
+documents are part of the product documentation, located at http://softwareag.com/licenses and/or
+in the root installation directory of the licensed product(s).

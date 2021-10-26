@@ -1,0 +1,307 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?metadataRepository version='1.2.0'?>
+<repository name='is-shared' type='org.eclipse.equinox.internal.p2.metadata.repository.LocalMetadataRepository' version='1'>
+  <properties size='2'>
+    <property name='p2.timestamp' value='1599225053250'/>
+    <property name='p2.compressed' value='false'/>
+  </properties>
+  <units size='5'>
+    <unit id='com.softwareag.mom.is.shared.feature.feature.jar' version='10.7.0.0000-0196'>
+      <properties size='9'>
+        <property name='org.eclipse.equinox.p2.name' value='%featureName'/>
+        <property name='org.eclipse.equinox.p2.description' value='%description'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='%descriptionURL'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%providerName'/>
+        <property name='df_LT.license' value='For Software AG Legal Notices please refer to: http://softwareag.com/licenses and/or in the root installation directory of the licensed product(s).'/>
+        <property name='df_LT.copyright' value='Copyright &amp;copy; 2006 - 2020 Software AG, Darmstadt, Germany and/or Software AG USA Inc., Reston, VA, USA, and/or its subsidiaries and/or its affiliates and/or their licensors. The name Software AG and all Software AG product names are either trademarks or registered trademarks of Software AG and/or Software AG USA Inc. and/or its subsidiaries and/or its affiliates and/or their licensors. Other company and product names mentioned herein may be trademarks of their respective owners. Detailed information on trademarks and patents owned by Software AG and/or its subsidiaries is located at {http://softwareag.com/licenses}. This software may include portions of third-party products. For third-party copyright notices, license terms, additional rights or restrictions, please refer to &quot;License Texts, Copyright Notices and Disclaimers of Third Party Products&quot;. For certain specific third-party license restrictions, please refer to section E of the Legal Notices available under &quot;License Terms and Conditions for Use of Software AG Products / Copyright and Trademark Notices of Software AG Products&quot;. These documents are part of the product documentation, located at {http://softwareag.com/licenses} and/or in the root installation directory of the licensed product(s). Use, reproduction, transfer, publication or disclosure is prohibited except as specifically provided for in your License Agreement with Software AG.'/>
+        <property name='df_LT.featureName' value='Software AG Integration Server shared feature'/>
+        <property name='df_LT.description' value='Software AG Integration Server shared feature'/>
+        <property name='df_LT.providerName' value='Software AG'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.mom.is.shared.feature.feature.jar' version='10.7.0.0000-0196'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
+        <provided namespace='org.eclipse.update.feature' name='com.softwareag.mom.is.shared.feature' version='10.7.0.0000-0196'/>
+      </provides>
+      <filter>
+        (org.eclipse.update.install.features=true)
+      </filter>
+      <artifacts size='1'>
+        <artifact classifier='org.eclipse.update.feature' id='com.softwareag.mom.is.shared.feature' version='10.7.0.0000-0196'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+        </instructions>
+      </touchpointData>
+      <licenses size='1'>
+        <license uri='%25licenseURL' url='%25licenseURL'>
+          %license
+        </license>
+      </licenses>
+      <copyright uri='%25copyrightURL' url='%25copyrightURL'>
+        %copyright
+      </copyright>
+    </unit>
+    <unit id='org.apache.oro' version='2.0.8.v201005080400' singleton='false' generation='2'>
+      <update id='org.apache.oro' range='[0.0.0,2.0.8.v201005080400)' severity='0'/>
+      <properties size='5'>
+        <property name='df_LT.pluginName' value='Apache Jakarta ORO'/>
+        <property name='df_LT.providerName' value='Eclipse Orbit'/>
+        <property name='org.eclipse.equinox.p2.name' value='%pluginName'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%providerName'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='plugin'/>
+      </properties>
+      <provides size='11'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.apache.oro' version='2.0.8.v201005080400'/>
+        <provided namespace='osgi.bundle' name='org.apache.oro' version='2.0.8.v201005080400'/>
+        <provided namespace='java.package' name='org.apache.oro.io' version='2.0.8'/>
+        <provided namespace='java.package' name='org.apache.oro.text' version='2.0.8'/>
+        <provided namespace='java.package' name='org.apache.oro.text.awk' version='2.0.8'/>
+        <provided namespace='java.package' name='org.apache.oro.text.perl' version='2.0.8'/>
+        <provided namespace='java.package' name='org.apache.oro.text.regex' version='2.0.8'/>
+        <provided namespace='java.package' name='org.apache.oro.util' version='2.0.8'/>
+        <provided namespace='osgi.identity' name='org.apache.oro' version='2.0.8.v201005080400'>
+          <properties size='1'>
+            <property name='type' value='osgi.bundle'/>
+          </properties>
+        </provided>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+      </provides>
+      <requires size='1'>
+        <requiredProperties namespace='osgi.ee' match='(&amp;(osgi.ee=JavaSE)(version=1.2))'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.apache.oro' version='2.0.8.v201005080400'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.apache.oro&#xA;Bundle-Version: 2.0.8.v201005080400&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='net.sf.jsocks' version='1.0.1' singleton='false'>
+      <update id='net.sf.jsocks' range='[0.0.0,1.0.1)' severity='0'/>
+      <properties size='3'>
+        <property name='org.eclipse.equinox.p2.name' value='jsocks'/>
+        <property name='org.eclipse.equinox.p2.description' value='jsocks'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Software AG'/>
+      </properties>
+      <provides size='5'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='net.sf.jsocks' version='1.0.1'/>
+        <provided namespace='osgi.bundle' name='net.sf.jsocks' version='1.0.1'/>
+        <provided namespace='java.package' name='socks' version='1.0.1'/>
+        <provided namespace='osgi.identity' name='net.sf.jsocks' version='1.0.1'>
+          <properties size='1'>
+            <property name='type' value='osgi.bundle'/>
+          </properties>
+        </provided>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='net.sf.jsocks' version='1.0.1'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: net.sf.jsocks&#xA;Bundle-Version: 1.0.1&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.softwareag.mom.is.shared.feature.feature.group' version='10.7.0.0000-0196' singleton='false'>
+      <update id='com.softwareag.mom.is.shared.feature.feature.group' range='[0.0.0,10.7.0.0000-0196)' severity='0'/>
+      <properties size='10'>
+        <property name='org.eclipse.equinox.p2.name' value='%featureName'/>
+        <property name='org.eclipse.equinox.p2.description' value='%description'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='%descriptionURL'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%providerName'/>
+        <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+        <property name='df_LT.license' value='For Software AG Legal Notices please refer to: http://softwareag.com/licenses and/or in the root installation directory of the licensed product(s).'/>
+        <property name='df_LT.copyright' value='Copyright &amp;copy; 2006 - 2020 Software AG, Darmstadt, Germany and/or Software AG USA Inc., Reston, VA, USA, and/or its subsidiaries and/or its affiliates and/or their licensors. The name Software AG and all Software AG product names are either trademarks or registered trademarks of Software AG and/or Software AG USA Inc. and/or its subsidiaries and/or its affiliates and/or their licensors. Other company and product names mentioned herein may be trademarks of their respective owners. Detailed information on trademarks and patents owned by Software AG and/or its subsidiaries is located at {http://softwareag.com/licenses}. This software may include portions of third-party products. For third-party copyright notices, license terms, additional rights or restrictions, please refer to &quot;License Texts, Copyright Notices and Disclaimers of Third Party Products&quot;. For certain specific third-party license restrictions, please refer to section E of the Legal Notices available under &quot;License Terms and Conditions for Use of Software AG Products / Copyright and Trademark Notices of Software AG Products&quot;. These documents are part of the product documentation, located at {http://softwareag.com/licenses} and/or in the root installation directory of the licensed product(s). Use, reproduction, transfer, publication or disclosure is prohibited except as specifically provided for in your License Agreement with Software AG.'/>
+        <property name='df_LT.featureName' value='Software AG Integration Server shared feature'/>
+        <property name='df_LT.description' value='Software AG Integration Server shared feature'/>
+        <property name='df_LT.providerName' value='Software AG'/>
+      </properties>
+      <provides size='2'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.mom.is.shared.feature.feature.group' version='10.7.0.0000-0196'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+      </provides>
+      <requires size='5'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.tps.ws.tools.feature.feature.group' range='10.7.0.0000-0000'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.mom.is.client' range='[10.7.0.0000-0196,10.7.0.0000-0196]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.apache.oro' range='[2.0.8.v201005080400,2.0.8.v201005080400]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='net.sf.jsocks' range='[1.0.1,1.0.1]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.mom.is.shared.feature.feature.jar' range='[10.7.0.0000-0196,10.7.0.0000-0196]'>
+          <filter>
+            (org.eclipse.update.install.features=true)
+          </filter>
+        </required>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+      <licenses size='1'>
+        <license uri='%25licenseURL' url='%25licenseURL'>
+          %license
+        </license>
+      </licenses>
+      <copyright uri='%25copyrightURL' url='%25copyrightURL'>
+        %copyright
+      </copyright>
+    </unit>
+    <unit id='com.softwareag.mom.is.client' version='10.7.0.0000-0196' singleton='false' generation='2'>
+      <update id='com.softwareag.mom.is.client' range='[0.0.0,10.7.0.0000-0196)' severity='0'/>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='IS is-client module'/>
+        <property name='org.eclipse.equinox.p2.description' value='IS is-client module'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Software AG'/>
+        <property name='org.eclipse.equinox.p2.doc.url' value='http://www.softwareag.com'/>
+      </properties>
+      <provides size='26'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.mom.is.client' version='10.7.0.0000-0196'/>
+        <provided namespace='osgi.bundle' name='com.softwareag.mom.is.client' version='10.7.0.0000-0196'/>
+        <provided namespace='java.package' name='com.wm.app.b2b.client' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.util' version='10.7.0'/>
+        <provided namespace='java.package' name='com.wm.app.b2b.server' version='10.7.0'/>
+        <provided namespace='java.package' name='com.wm.app.b2b.util' version='10.7.0'/>
+        <provided namespace='java.package' name='com.wm.data' version='10.7.0'/>
+        <provided namespace='java.package' name='com.wm.formatter' version='10.7.0'/>
+        <provided namespace='java.package' name='com.wm.lang.ns' version='10.7.0'/>
+        <provided namespace='java.package' name='com.wm.lang.schema.datatypev2' version='10.7.0'/>
+        <provided namespace='java.package' name='com.wm.lang.schema' version='10.7.0'/>
+        <provided namespace='java.package' name='com.wm.lang.widl' version='10.7.0'/>
+        <provided namespace='java.package' name='com.wm.lang.xml' version='10.7.0'/>
+        <provided namespace='java.package' name='com.wm.lang.xql' version='10.7.0'/>
+        <provided namespace='java.package' name='com.wm.util.codec' version='10.7.0'/>
+        <provided namespace='java.package' name='com.wm.util.coder' version='10.7.0'/>
+        <provided namespace='java.package' name='com.wm.util.security' version='10.7.0'/>
+        <provided namespace='java.package' name='com.wm.util.sort' version='10.7.0'/>
+        <provided namespace='java.package' name='com.wm.util' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.net' version='10.7.0'/>
+        <provided namespace='java.package' name='com.wm.validator' version='10.7.0'/>
+        <provided namespace='java.package' name='com.wm.security' version='10.7.0'/>
+        <provided namespace='java.package' name='com.wm.security.keystore' version='10.7.0'/>
+        <provided namespace='java.package' name='com.wm.util.tspace' version='10.7.0'/>
+        <provided namespace='osgi.identity' name='com.softwareag.mom.is.client' version='10.7.0.0000-0196'>
+          <properties size='1'>
+            <property name='type' value='osgi.bundle'/>
+          </properties>
+        </provided>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='93'>
+        <required namespace='java.package' name='com.ddtek.jdbc.extensions' range='0.0.0' optional='true' greedy='false'/>
+        <required namespace='java.package' name='org.owasp.esapi' range='[2.0.0,2.2.0)'/>
+        <required namespace='java.package' name='org.springframework.boot.actuate.health' range='0.0.0' optional='true' greedy='false'/>
+        <required namespace='java.package' name='com.sun.management' range='0.0.0' optional='true' greedy='false'/>
+        <required namespace='java.package' name='com.entrust.toolkit.security.fips' range='0.0.0'/>
+        <required namespace='java.package' name='com.entrust.toolkit.security.provider' range='0.0.0'/>
+        <required namespace='java.package' name='com.entrust.toolkit.x509.directory' range='0.0.0'/>
+        <required namespace='java.package' name='com.fasterxml.jackson.core' range='0.0.0'/>
+        <required namespace='java.package' name='com.fasterxml.jackson.core.util' range='0.0.0'/>
+        <required namespace='java.package' name='com.google.protobuf' range='0.0.0'/>
+        <required namespace='java.package' name='com.ibm.icu.text' range='0.0.0'/>
+        <required namespace='java.package' name='com.ibm.wsdl.util' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.g11n.text' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.g11n.util' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.net' range='0.0.0'/>
+        <required namespace='java.package' name='com.sun.mail.util' range='0.0.0'/>
+        <required namespace='java.package' name='com.webmethods.sc' range='0.0.0'/>
+        <required namespace='java.package' name='com.webmethods.sc.logging.log4j2.message' range='0.0.0'/>
+        <required namespace='java.package' name='com.webmethods.sc.security.keystoreaccessor.api' range='0.0.0'/>
+        <required namespace='java.package' name='com.webmethods.sc.security.keystoreaccessor.api.config' range='0.0.0'/>
+        <required namespace='java.package' name='com.webmethods.sc.security.passman' range='0.0.0'/>
+        <required namespace='java.package' name='com.webmethods.sc.xml' range='0.0.0'/>
+        <required namespace='java.package' name='com.wm.app.b2b.server' range='0.0.0'/>
+        <required namespace='java.package' name='com.wm.util.security' range='0.0.0'/>
+        <required namespace='java.package' name='com.wm.util.sort' range='0.0.0'/>
+        <required namespace='java.package' name='iaik.asn1' range='0.0.0'/>
+        <required namespace='java.package' name='iaik.asn1.structures' range='0.0.0'/>
+        <required namespace='java.package' name='iaik.pkcs' range='0.0.0'/>
+        <required namespace='java.package' name='iaik.pkcs.pkcs8' range='0.0.0'/>
+        <required namespace='java.package' name='iaik.security.jsse.net' range='0.0.0'/>
+        <required namespace='java.package' name='iaik.security.rsa' range='0.0.0'/>
+        <required namespace='java.package' name='iaik.security.smime' range='0.0.0'/>
+        <required namespace='java.package' name='iaik.security.ssl' range='0.0.0'/>
+        <required namespace='java.package' name='iaik.utils' range='0.0.0'/>
+        <required namespace='java.package' name='iaik.x509' range='0.0.0'/>
+        <required namespace='java.package' name='iaik.x509.extensions' range='0.0.0'/>
+        <required namespace='java.package' name='javax.activation' range='0.0.0'/>
+        <required namespace='java.package' name='javax.annotation.processing' range='0.0.0'/>
+        <required namespace='java.package' name='javax.crypto' range='0.0.0'/>
+        <required namespace='java.package' name='javax.crypto.spec' range='0.0.0'/>
+        <required namespace='java.package' name='javax.lang.model' range='0.0.0'/>
+        <required namespace='java.package' name='javax.lang.model.element' range='0.0.0'/>
+        <required namespace='java.package' name='javax.mail' range='0.0.0'/>
+        <required namespace='java.package' name='javax.mail.internet' range='0.0.0'/>
+        <required namespace='java.package' name='javax.management' range='0.0.0'/>
+        <required namespace='java.package' name='javax.naming' range='0.0.0'/>
+        <required namespace='java.package' name='javax.naming.directory' range='0.0.0'/>
+        <required namespace='java.package' name='javax.naming.ldap' range='0.0.0'/>
+        <required namespace='java.package' name='javax.net' range='0.0.0'/>
+        <required namespace='java.package' name='javax.net.ssl' range='0.0.0'/>
+        <required namespace='java.package' name='javax.security.auth' range='0.0.0'/>
+        <required namespace='java.package' name='javax.security.auth.callback' range='0.0.0'/>
+        <required namespace='java.package' name='javax.security.auth.login' range='0.0.0'/>
+        <required namespace='java.package' name='javax.security.auth.x500' range='0.0.0'/>
+        <required namespace='java.package' name='javax.security.cert' range='0.0.0'/>
+        <required namespace='java.package' name='javax.tools' range='0.0.0'/>
+        <required namespace='java.package' name='javax.wsdl' range='0.0.0'/>
+        <required namespace='java.package' name='javax.wsdl.extensions' range='0.0.0'/>
+        <required namespace='java.package' name='javax.wsdl.extensions.schema' range='0.0.0'/>
+        <required namespace='java.package' name='javax.wsdl.extensions.soap' range='0.0.0'/>
+        <required namespace='java.package' name='javax.wsdl.extensions.soap12' range='0.0.0'/>
+        <required namespace='java.package' name='javax.wsdl.factory' range='0.0.0'/>
+        <required namespace='java.package' name='javax.wsdl.xml' range='0.0.0'/>
+        <required namespace='java.package' name='javax.xml.namespace' range='0.0.0'/>
+        <required namespace='java.package' name='javax.xml.parsers' range='0.0.0'/>
+        <required namespace='java.package' name='javax.xml.rpc.handler' range='0.0.0'/>
+        <required namespace='java.package' name='javax.xml.soap' range='0.0.0'/>
+        <required namespace='java.package' name='javax.xml.stream' range='0.0.0'/>
+        <required namespace='java.package' name='javax.xml.stream.events' range='0.0.0'/>
+        <required namespace='java.package' name='javax.xml.transform' range='0.0.0'/>
+        <required namespace='java.package' name='javax.xml.transform.dom' range='0.0.0'/>
+        <required namespace='java.package' name='javax.xml.transform.stream' range='0.0.0'/>
+        <required namespace='java.package' name='javax.xml.validation' range='0.0.0'/>
+        <required namespace='java.package' name='org.apache.commons.codec.binary' range='0.0.0'/>
+        <required namespace='java.package' name='org.apache.http' range='0.0.0'/>
+        <required namespace='java.package' name='org.apache.http.client.utils' range='0.0.0'/>
+        <required namespace='java.package' name='org.apache.logging.log4j' range='0.0.0'/>
+        <required namespace='java.package' name='org.apache.logging.log4j.core' range='0.0.0'/>
+        <required namespace='java.package' name='org.apache.logging.log4j.core.config' range='0.0.0'/>
+        <required namespace='java.package' name='org.apache.logging.log4j.message' range='0.0.0'/>
+        <required namespace='java.package' name='org.apache.logging.log4j.spi' range='0.0.0'/>
+        <required namespace='java.package' name='org.apache.logging.log4j.util' range='0.0.0'/>
+        <required namespace='java.package' name='org.apache.oro.text.regex' range='0.0.0'/>
+        <required namespace='java.package' name='org.apache.xerces.jaxp.validation' range='0.0.0'/>
+        <required namespace='java.package' name='org.ietf.jgss' range='0.0.0'/>
+        <required namespace='java.package' name='org.w3c.dom' range='0.0.0'/>
+        <required namespace='java.package' name='org.w3c.dom.ls' range='0.0.0'/>
+        <required namespace='java.package' name='org.xml.sax' range='0.0.0'/>
+        <required namespace='java.package' name='org.xml.sax.helpers' range='0.0.0'/>
+        <required namespace='java.package' name='socks' range='0.0.0'/>
+        <required namespace='java.package' name='com.merant' range='0.0.0' optional='true' greedy='false'/>
+        <required namespace='java.package' name='com.merant.datadirect.jdbc.extensions' range='0.0.0' optional='true' greedy='false'/>
+        <requiredProperties namespace='osgi.ee' match='(&amp;(osgi.ee=JavaSE)(version=1.8))'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.softwareag.mom.is.client' version='10.7.0.0000-0196'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.softwareag.mom.is.client&#xA;Bundle-Version: 10.7.0.0000-0196&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+  </units>
+</repository>

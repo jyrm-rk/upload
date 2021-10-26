@@ -1,0 +1,47 @@
+
+product=e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMRepository
+
+e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMRepository/children=NUMRepository-W64-Any
+
+## Product e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMRepository properties ##
+
+e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMRepository/props=developmentServer,displayDescript,displayGroup,displayName,displayNameVersionFormat,flags,group,lengthGroupVersionString,lengthVersionString,osgiBundlesRepos,requiresRegexp,resourceBundle,resourceJars,sagProductCode,supplantLevel,user_hints,installDate
+e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMRepository/props/developmentServer=true
+e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMRepository/props/displayDescript=NUMRepository.displayDescript
+e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMRepository/props/displayGroup=NUMRepository.displayGroup
+e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMRepository/props/displayName=NUMRepository.displayName
+e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMRepository/props/displayNameVersionFormat=%1.%2 SP%3
+e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMRepository/props/flags=ProgramFilesType,ProvisioningDownload
+e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMRepository/props/group=UniversalMessaging
+e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMRepository/props/lengthGroupVersionString=0
+e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMRepository/props/lengthVersionString=2
+e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMRepository/props/osgiBundlesRepos=num
+e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMRepository/props/requiresRegexp=e2ei/11/.*/.*/WISSharedBundles
+e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMRepository/props/resourceBundle=com.softwareag.num.install.NUMRepositoryInstallMessages
+e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMRepository/props/resourceJars=NUMRepositoryInstallMessages-ALL-Any
+e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMRepository/props/sagProductCode=NUM
+e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMRepository/props/supplantLevel=3
+e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMRepository/props/user_hints=enable
+e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMRepository/props/installDate=1635224366358
+
+## Product e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMRepository jars ##
+
+e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMRepository/jars=NUMRepositoryInstallMessages-ALL-Any
+e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMRepository/jars/NUMRepositoryInstallMessages-ALL-Any/props=jar_version,md5,size,timestamp,type
+e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMRepository/jars/NUMRepositoryInstallMessages-ALL-Any/props/jar_version=10.7.0.0000.136016
+e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMRepository/jars/NUMRepositoryInstallMessages-ALL-Any/props/md5=846f600e5ccea12676c7adc8be26406b
+e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMRepository/jars/NUMRepositoryInstallMessages-ALL-Any/props/size=1171
+e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMRepository/jars/NUMRepositoryInstallMessages-ALL-Any/props/timestamp=1599492560
+e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMRepository/jars/NUMRepositoryInstallMessages-ALL-Any/props/type=resourceJar
+## Product e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMRepository components ##
+
+## Buildmodule info for e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMRepository/NUMRepository-W64-Any ##
+
+e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMRepository/NUMRepository-W64-Any/children=BM_NUM_Repository-ALL-Any
+e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMRepository/NUMRepository-W64-Any/BM_NUM_Repository-ALL-Any/props=compressed_size,expanded_size,md5,timestamp,version
+e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMRepository/NUMRepository-W64-Any/BM_NUM_Repository-ALL-Any/props/compressed_size=4189205
+e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMRepository/NUMRepository-W64-Any/BM_NUM_Repository-ALL-Any/props/expanded_size=4719139
+e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMRepository/NUMRepository-W64-Any/BM_NUM_Repository-ALL-Any/props/md5=13196a2c03213eeda0e75b5d6ddb5566
+e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMRepository/NUMRepository-W64-Any/BM_NUM_Repository-ALL-Any/props/timestamp=1599492560
+e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMRepository/NUMRepository-W64-Any/BM_NUM_Repository-ALL-Any/props/version=10.7.0.0.136016
+

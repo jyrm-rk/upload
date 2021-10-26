@@ -1,0 +1,685 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?metadataRepository version='1.2.0'?>
+<repository name='assemblyRuntime' type='org.eclipse.equinox.internal.p2.metadata.repository.LocalMetadataRepository' version='1.0.0'>
+  <properties size='2'>
+    <property name='p2.timestamp' value='1635224473875'/>
+    <property name='p2.compressed' value='false'/>
+  </properties>
+  <units size='13'>
+    <unit id='com.softwareag.plm.sum.cc.all.spm.feature.patch.feature.group' version='10.7.0.0001-0296' singleton='false'>
+      <patchScope>
+        <scope>
+          <requires size='1'>
+            <required namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.plm.sum.cc.all.spm.feature.feature.group' range='0.0.0'/>
+          </requires>
+        </scope>
+      </patchScope>
+      <changes>
+        <change>
+          <from>
+            <required namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.plm.sum.cc.spm.sum.cc' range='0.0.0'/>
+          </from>
+          <to>
+            <required namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.plm.sum.cc.spm.sum.cc' range='[10.7.0.0001-0296,10.7.0.0001-0296]'/>
+          </to>
+        </change>
+        <change>
+          <from>
+            <required namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.plm.sum.cc.spm.sum.cc.api' range='0.0.0'/>
+          </from>
+          <to>
+            <required namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.plm.sum.cc.spm.sum.cc.api' range='[10.7.0.0001-0296,10.7.0.0001-0296]'/>
+          </to>
+        </change>
+      </changes>
+      <lifeCycle>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.plm.sum.cc.all.spm.feature.feature.group' range='0.0.0' greedy='false'/>
+      </lifeCycle>
+      <update id='com.softwareag.plm.sum.cc.all.spm.feature.patch.feature.group' range='[0.0.0,10.7.0.0001-0296)' severity='0'/>
+      <properties size='5'>
+        <property name='org.eclipse.equinox.p2.type.patch' value='true'/>
+        <property name='org.eclipse.equinox.p2.name' value='sum-cc sum-cc-all-spm feature'/>
+        <property name='org.eclipse.equinox.p2.description' value='[Enter Feature Description here.]'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='http://www.example.com/description'/>
+        <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+      </properties>
+      <provides size='1'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.plm.sum.cc.all.spm.feature.patch.feature.group' version='10.7.0.0001-0296'/>
+      </provides>
+      <requires size='1'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.plm.sum.cc.all.spm.feature.patch.feature.jar' range='[10.7.0.0001-0296,10.7.0.0001-0296]'>
+          <filter>
+            (org.eclipse.update.install.features=true)
+          </filter>
+        </required>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+      <licenses size='1'>
+        <license uri='http://www.example.com/license' url='http://www.example.com/license'>
+          [Enter License Description here.]
+        </license>
+      </licenses>
+      <copyright uri='http://www.example.com/copyright' url='http://www.example.com/copyright'>
+        [Enter Copyright Description here.]
+      </copyright>
+    </unit>
+    <unit id='com.softwareag.plm.sum.cc.all.spm.feature.feature.group' version='10.7.0.0000-0276' singleton='false'>
+      <update id='com.softwareag.plm.sum.cc.all.spm.feature.feature.group' range='[0.0.0,10.7.0.0000-0276)' severity='0'/>
+      <properties size='10'>
+        <property name='org.eclipse.equinox.p2.name' value='%featureName'/>
+        <property name='org.eclipse.equinox.p2.description' value='%description'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='%descriptionURL'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%providerName'/>
+        <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+        <property name='df_LT.license' value='For Software AG Legal Notices please refer to: http://softwareag.com/licenses and/or in the root installation directory of the licensed product(s).'/>
+        <property name='df_LT.copyright' value='Copyright &amp;copy; 2006 - 2020 Software AG, Darmstadt, Germany and/or Software AG USA Inc., Reston, VA, USA, and/or its subsidiaries and/or its affiliates and/or their licensors. The name Software AG and all Software AG product names are either trademarks or registered trademarks of Software AG and/or Software AG USA Inc. and/or its subsidiaries and/or its affiliates and/or their licensors. Other company and product names mentioned herein may be trademarks of their respective owners. Detailed information on trademarks and patents owned by Software AG and/or its subsidiaries is located at {http://softwareag.com/licenses}. This software may include portions of third-party products. For third-party copyright notices, license terms, additional rights or restrictions, please refer to &quot;License Texts, Copyright Notices and Disclaimers of Third Party Products&quot;. For certain specific third-party license restrictions, please refer to section E of the Legal Notices available under &quot;License Terms and Conditions for Use of Software AG Products / Copyright and Trademark Notices of Software AG Products&quot;. These documents are part of the product documentation, located at {http://softwareag.com/licenses} and/or in the root installation directory of the licensed product(s). Use, reproduction, transfer, publication or disclosure is prohibited except as specifically provided for in your License Agreement with Software AG.'/>
+        <property name='df_LT.featureName' value='sum-cc sum-cc-all-spm feature'/>
+        <property name='df_LT.description' value='sum-cc sum-cc-all-spm feature'/>
+        <property name='df_LT.providerName' value='Software AG'/>
+      </properties>
+      <provides size='2'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.plm.sum.cc.all.spm.feature.feature.group' version='10.7.0.0000-0276'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+      </provides>
+      <requires size='9'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.plm.sd.introspect.feature.feature.group' range='10.7.0.0000-0000'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.plm.sum.cc.publisher' range='[10.7.0.0000-0276,10.7.0.0000-0276]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.plm.sum.cc.spm.sum.cc.api' range='[10.7.0.0000-0276,10.7.0.0000-0276]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.plm.sum.cc.spm.sum.cc' range='[10.7.0.0000-0276,10.7.0.0000-0276]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.plm.sum.cc.rest.api' range='[10.7.0.0000-0276,10.7.0.0000-0276]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.plm.sum.cc.publisher.fix' range='[10.7.0.0000-0276,10.7.0.0000-0276]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.plm.sum.cc.spm.sum.cc.core' range='[10.7.0.0000-0276,10.7.0.0000-0276]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.plm.sum.cc.rest' range='[10.7.0.0000-0276,10.7.0.0000-0276]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.plm.sum.cc.all.spm.feature.feature.jar' range='[10.7.0.0000-0276,10.7.0.0000-0276]'>
+          <filter>
+            (org.eclipse.update.install.features=true)
+          </filter>
+        </required>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+      <licenses size='1'>
+        <license uri='%25licenseURL' url='%25licenseURL'>
+          %license
+        </license>
+      </licenses>
+      <copyright uri='%25copyrightURL' url='%25copyrightURL'>
+        %copyright
+      </copyright>
+    </unit>
+    <unit id='com.softwareag.plm.sum.cc.publisher' version='10.7.0.0000-0276' singleton='false' generation='2'>
+      <update id='com.softwareag.plm.sum.cc.publisher' range='[0.0.0,10.7.0.0000-0276)' severity='0'/>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='sum-cc sum-cc-publisher module'/>
+        <property name='org.eclipse.equinox.p2.description' value='sum-cc sum-cc-publisher module'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Software AG'/>
+        <property name='org.eclipse.equinox.p2.doc.url' value='http://www.softwareag.com'/>
+      </properties>
+      <provides size='5'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.plm.sum.cc.publisher' version='10.7.0.0000-0276'/>
+        <provided namespace='osgi.bundle' name='com.softwareag.plm.sum.cc.publisher' version='10.7.0.0000-0276'/>
+        <provided namespace='java.package' name='com.softwareag.fixinstall.publisher.api' version='10.7.0'/>
+        <provided namespace='osgi.identity' name='com.softwareag.plm.sum.cc.publisher' version='10.7.0.0000-0276'>
+          <properties size='1'>
+            <property name='type' value='osgi.bundle'/>
+          </properties>
+        </provided>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='10'>
+        <required namespace='java.package' name='com.softwareag.fixinstall.publisher.api' range='[10.7.0,11.0.0)'/>
+        <required namespace='java.package' name='org.eclipse.core.runtime' range='[3.5.0,4.0.0)'/>
+        <required namespace='java.package' name='org.eclipse.equinox.p2.core' range='[2.0.0,3.0.0)'/>
+        <required namespace='java.package' name='org.eclipse.equinox.p2.metadata' range='[2.4.0,3.0.0)'/>
+        <required namespace='java.package' name='org.eclipse.equinox.p2.publisher' range='0.0.0'/>
+        <required namespace='java.package' name='org.eclipse.equinox.p2.publisher.eclipse' range='0.0.0'/>
+        <required namespace='java.package' name='org.eclipse.equinox.p2.query' range='[2.0.0,3.0.0)'/>
+        <required namespace='java.package' name='org.eclipse.equinox.p2.repository.artifact' range='[2.3.0,3.0.0)'/>
+        <required namespace='java.package' name='org.eclipse.equinox.p2.repository.metadata' range='[2.0.0,3.0.0)'/>
+        <requiredProperties namespace='osgi.ee' match='(&amp;(osgi.ee=JavaSE)(version=1.8))'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.softwareag.plm.sum.cc.publisher' version='10.7.0.0000-0276'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.softwareag.plm.sum.cc.publisher&#xA;Bundle-Version: 10.7.0.0000-0276
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.softwareag.plm.sum.cc.spm.sum.cc' version='10.7.0.0001-0296' singleton='false' generation='2'>
+      <update id='com.softwareag.plm.sum.cc.spm.sum.cc' range='[0.0.0,10.7.0.0001-0296)' severity='0'/>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='sum-cc spm-sum-cc module'/>
+        <property name='org.eclipse.equinox.p2.description' value='sum-cc spm-sum-cc module'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Software AG'/>
+        <property name='org.eclipse.equinox.p2.doc.url' value='http://www.softwareag.com'/>
+      </properties>
+      <provides size='7'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.plm.sum.cc.spm.sum.cc' version='10.7.0.0001-0296'/>
+        <provided namespace='osgi.bundle' name='com.softwareag.plm.sum.cc.spm.sum.cc' version='10.7.0.0001-0296'/>
+        <provided namespace='java.package' name='com.softwareag.fixinstall.spm.logger' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.fixinstall.spm.internal.util' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.fixinstall.spm.internal' version='10.7.0'/>
+        <provided namespace='osgi.identity' name='com.softwareag.plm.sum.cc.spm.sum.cc' version='10.7.0.0001-0296'>
+          <properties size='1'>
+            <property name='type' value='osgi.bundle'/>
+          </properties>
+        </provided>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='47'>
+        <required namespace='java.package' name='com.fasterxml.jackson.annotation' range='[2.10.0,3.0.0)'/>
+        <required namespace='java.package' name='com.fasterxml.jackson.core' range='[2.10.0,3.0.0)'/>
+        <required namespace='java.package' name='com.fasterxml.jackson.core.type' range='[2.10.0,3.0.0)'/>
+        <required namespace='java.package' name='com.fasterxml.jackson.databind' range='[2.10.0,3.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.fixinstall.rest.api.client' range='[10.7.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.fixinstall.rest.api.dto' range='[10.7.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.fixinstall.rest.api.exception' range='[10.7.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.fixinstall.spm.api' range='[10.7.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.fixinstall.spm.api.internal' range='[10.7.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.fixinstall.spm.api.repo' range='[10.7.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.fixinstall.spm.backup.api' range='[10.7.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.fixinstall.spm.logger' range='[10.7.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.fixinstall.spm.statistics.api' range='[10.7.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.install.osgi.instance.registry' range='[10.7.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.install.osgi.profiles' range='[10.7.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.install.tools' range='[10.7.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.plm.sd.common' range='[10.0.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.plm.sd.common.logger' range='[10.0.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.plm.sd.common.management' range='[10.0.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.plm.sd.security' range='[10.0.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.plm.sd.web.repository' range='[10.0.0,11.0.0)'/>
+        <required namespace='java.package' name='com.wm.distman.install' range='[10.7.0,11.0.0)'/>
+        <required namespace='java.package' name='javax.crypto' range='0.0.0'/>
+        <required namespace='java.package' name='javax.crypto.spec' range='0.0.0'/>
+        <required namespace='java.package' name='javax.net.ssl' range='0.0.0'/>
+        <required namespace='java.package' name='org.apache.commons.codec.binary' range='[1.13.0,2.0.0)'/>
+        <required namespace='java.package' name='org.eclipse.core.runtime' range='[3.5.0,4.0.0)'/>
+        <required namespace='java.package' name='org.eclipse.ecf.core' range='[3.0.0,4.0.0)'/>
+        <required namespace='java.package' name='org.eclipse.ecf.core.identity' range='[3.3.0,4.0.0)'/>
+        <required namespace='java.package' name='org.eclipse.ecf.core.security' range='[3.1.0,4.0.0)'/>
+        <required namespace='java.package' name='org.eclipse.ecf.filetransfer' range='[5.0.0,6.0.0)'/>
+        <required namespace='java.package' name='org.eclipse.ecf.filetransfer.events' range='[5.0.0,6.0.0)'/>
+        <required namespace='java.package' name='org.eclipse.ecf.filetransfer.identity' range='[5.0.0,6.0.0)'/>
+        <required namespace='java.package' name='org.eclipse.equinox.internal.p2.metadata' range='0.0.0'/>
+        <required namespace='java.package' name='org.eclipse.equinox.p2.core' range='[2.0.0,3.0.0)'/>
+        <required namespace='java.package' name='org.eclipse.equinox.p2.engine' range='[2.2.0,3.0.0)'/>
+        <required namespace='java.package' name='org.eclipse.equinox.p2.metadata' range='[2.4.0,3.0.0)'/>
+        <required namespace='java.package' name='org.eclipse.equinox.p2.metadata.expression' range='[2.0.0,3.0.0)'/>
+        <required namespace='java.package' name='org.eclipse.equinox.p2.query' range='[2.0.0,3.0.0)'/>
+        <required namespace='java.package' name='org.eclipse.equinox.p2.repository.artifact' range='[2.3.0,3.0.0)'/>
+        <required namespace='java.package' name='org.eclipse.equinox.p2.repository.metadata' range='[2.0.0,3.0.0)'/>
+        <required namespace='java.package' name='org.eclipse.equinox.security.storage' range='[1.0.0,2.0.0)'/>
+        <required namespace='java.package' name='org.eclipse.osgi.util' range='[1.1.0,2.0.0)'/>
+        <required namespace='java.package' name='org.osgi.framework' range='[1.9.0,2.0.0)'/>
+        <required namespace='java.package' name='org.osgi.service.cm' range='[1.6.0,2.0.0)'/>
+        <required namespace='java.package' name='org.slf4j' range='[1.7.0,2.0.0)'/>
+        <requiredProperties namespace='osgi.ee' match='(&amp;(osgi.ee=JavaSE)(version=1.8))'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.softwareag.plm.sum.cc.spm.sum.cc' version='10.7.0.0001-0296'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.softwareag.plm.sum.cc.spm.sum.cc&#xA;Bundle-Version: 10.7.0.0001-0296&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.softwareag.plm.sum.cc.spm.sum.cc' version='10.7.0.0000-0276' singleton='false' generation='2'>
+      <update id='com.softwareag.plm.sum.cc.spm.sum.cc' range='[0.0.0,10.7.0.0000-0276)' severity='0'/>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='sum-cc spm-sum-cc module'/>
+        <property name='org.eclipse.equinox.p2.description' value='sum-cc spm-sum-cc module'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Software AG'/>
+        <property name='org.eclipse.equinox.p2.doc.url' value='http://www.softwareag.com'/>
+      </properties>
+      <provides size='7'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.plm.sum.cc.spm.sum.cc' version='10.7.0.0000-0276'/>
+        <provided namespace='osgi.bundle' name='com.softwareag.plm.sum.cc.spm.sum.cc' version='10.7.0.0000-0276'/>
+        <provided namespace='java.package' name='com.softwareag.fixinstall.spm.logger' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.fixinstall.spm.internal.util' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.fixinstall.spm.internal' version='10.7.0'/>
+        <provided namespace='osgi.identity' name='com.softwareag.plm.sum.cc.spm.sum.cc' version='10.7.0.0000-0276'>
+          <properties size='1'>
+            <property name='type' value='osgi.bundle'/>
+          </properties>
+        </provided>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='47'>
+        <required namespace='java.package' name='com.fasterxml.jackson.annotation' range='[2.10.0,3.0.0)'/>
+        <required namespace='java.package' name='com.fasterxml.jackson.core' range='[2.10.0,3.0.0)'/>
+        <required namespace='java.package' name='com.fasterxml.jackson.core.type' range='[2.10.0,3.0.0)'/>
+        <required namespace='java.package' name='com.fasterxml.jackson.databind' range='[2.10.0,3.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.fixinstall.rest.api.client' range='[10.7.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.fixinstall.rest.api.dto' range='[10.7.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.fixinstall.rest.api.exception' range='[10.7.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.fixinstall.spm.api' range='[10.7.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.fixinstall.spm.api.internal' range='[10.7.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.fixinstall.spm.api.repo' range='[10.7.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.fixinstall.spm.backup.api' range='[10.7.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.fixinstall.spm.logger' range='[10.7.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.fixinstall.spm.statistics.api' range='[10.7.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.install.osgi.instance.registry' range='[10.7.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.install.osgi.profiles' range='[10.7.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.install.tools' range='[10.7.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.plm.sd.common' range='[10.0.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.plm.sd.common.logger' range='[10.0.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.plm.sd.common.management' range='[10.0.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.plm.sd.security' range='[10.0.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.plm.sd.web.repository' range='[10.0.0,11.0.0)'/>
+        <required namespace='java.package' name='com.wm.distman.install' range='[10.7.0,11.0.0)'/>
+        <required namespace='java.package' name='javax.crypto' range='0.0.0'/>
+        <required namespace='java.package' name='javax.crypto.spec' range='0.0.0'/>
+        <required namespace='java.package' name='javax.net.ssl' range='0.0.0'/>
+        <required namespace='java.package' name='org.apache.commons.codec.binary' range='[1.13.0,2.0.0)'/>
+        <required namespace='java.package' name='org.eclipse.core.runtime' range='[3.5.0,4.0.0)'/>
+        <required namespace='java.package' name='org.eclipse.ecf.core' range='[3.0.0,4.0.0)'/>
+        <required namespace='java.package' name='org.eclipse.ecf.core.identity' range='[3.3.0,4.0.0)'/>
+        <required namespace='java.package' name='org.eclipse.ecf.core.security' range='[3.1.0,4.0.0)'/>
+        <required namespace='java.package' name='org.eclipse.ecf.filetransfer' range='[5.0.0,6.0.0)'/>
+        <required namespace='java.package' name='org.eclipse.ecf.filetransfer.events' range='[5.0.0,6.0.0)'/>
+        <required namespace='java.package' name='org.eclipse.ecf.filetransfer.identity' range='[5.0.0,6.0.0)'/>
+        <required namespace='java.package' name='org.eclipse.equinox.internal.p2.metadata' range='0.0.0'/>
+        <required namespace='java.package' name='org.eclipse.equinox.p2.core' range='[2.0.0,3.0.0)'/>
+        <required namespace='java.package' name='org.eclipse.equinox.p2.engine' range='[2.2.0,3.0.0)'/>
+        <required namespace='java.package' name='org.eclipse.equinox.p2.metadata' range='[2.4.0,3.0.0)'/>
+        <required namespace='java.package' name='org.eclipse.equinox.p2.metadata.expression' range='[2.0.0,3.0.0)'/>
+        <required namespace='java.package' name='org.eclipse.equinox.p2.query' range='[2.0.0,3.0.0)'/>
+        <required namespace='java.package' name='org.eclipse.equinox.p2.repository.artifact' range='[2.3.0,3.0.0)'/>
+        <required namespace='java.package' name='org.eclipse.equinox.p2.repository.metadata' range='[2.0.0,3.0.0)'/>
+        <required namespace='java.package' name='org.eclipse.equinox.security.storage' range='[1.0.0,2.0.0)'/>
+        <required namespace='java.package' name='org.eclipse.osgi.util' range='[1.1.0,2.0.0)'/>
+        <required namespace='java.package' name='org.osgi.framework' range='[1.9.0,2.0.0)'/>
+        <required namespace='java.package' name='org.osgi.service.cm' range='[1.6.0,2.0.0)'/>
+        <required namespace='java.package' name='org.slf4j' range='[1.7.0,2.0.0)'/>
+        <requiredProperties namespace='osgi.ee' match='(&amp;(osgi.ee=JavaSE)(version=1.8))'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.softwareag.plm.sum.cc.spm.sum.cc' version='10.7.0.0000-0276'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.softwareag.plm.sum.cc.spm.sum.cc&#xA;Bundle-Version: 10.7.0.0000-0276
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.softwareag.plm.sum.cc.spm.sum.cc.core' version='10.7.0.0000-0276' singleton='false' generation='2'>
+      <update id='com.softwareag.plm.sum.cc.spm.sum.cc.core' range='[0.0.0,10.7.0.0000-0276)' severity='0'/>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='sum-cc spm-sum-cc-core module'/>
+        <property name='org.eclipse.equinox.p2.description' value='sum-cc spm-sum-cc-core module'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Software AG'/>
+        <property name='org.eclipse.equinox.p2.doc.url' value='http://www.softwareag.com'/>
+      </properties>
+      <provides size='6'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.plm.sum.cc.spm.sum.cc.core' version='10.7.0.0000-0276'/>
+        <provided namespace='osgi.bundle' name='com.softwareag.plm.sum.cc.spm.sum.cc.core' version='10.7.0.0000-0276'/>
+        <provided namespace='java.package' name='com.softwareag.fixinstall.spm.core.api' version='10.7.0.0000-0276'/>
+        <provided namespace='java.package' name='com.softwareag.fixinstall.spm.core.internal' version='10.7.0.0000-0276'/>
+        <provided namespace='osgi.identity' name='com.softwareag.plm.sum.cc.spm.sum.cc.core' version='10.7.0.0000-0276'>
+          <properties size='1'>
+            <property name='type' value='osgi.bundle'/>
+          </properties>
+        </provided>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='12'>
+        <required namespace='java.package' name='com.softwareag.fixinstall.spm.core.api' range='10.7.0'/>
+        <required namespace='java.package' name='com.softwareag.fixinstall.spm.api' range='[10.7.0,11.0.0)'/>
+        <required namespace='java.package' name='org.eclipse.core.runtime' range='[3.5.0,4.0.0)'/>
+        <required namespace='java.package' name='org.eclipse.equinox.p2.core' range='[2.0.0,3.0.0)'/>
+        <required namespace='java.package' name='org.eclipse.equinox.p2.metadata' range='[2.4.0,3.0.0)'/>
+        <required namespace='java.package' name='org.eclipse.equinox.p2.metadata.expression' range='[2.0.0,3.0.0)'/>
+        <required namespace='java.package' name='org.eclipse.equinox.p2.query' range='[2.0.0,3.0.0)'/>
+        <required namespace='java.package' name='org.eclipse.equinox.p2.repository' range='[2.0.0,3.0.0)'/>
+        <required namespace='java.package' name='org.eclipse.equinox.p2.repository.artifact' range='[2.3.0,3.0.0)'/>
+        <required namespace='java.package' name='org.eclipse.equinox.p2.repository.metadata' range='[2.0.0,3.0.0)'/>
+        <required namespace='java.package' name='org.eclipse.equinox.p2.repository.tools.comparator' range='[2.0.0,3.0.0)'/>
+        <requiredProperties namespace='osgi.ee' match='(&amp;(osgi.ee=JavaSE)(version=1.8))'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.softwareag.plm.sum.cc.spm.sum.cc.core' version='10.7.0.0000-0276'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.softwareag.plm.sum.cc.spm.sum.cc.core&#xA;Bundle-Version: 10.7.0.0000-0276
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.softwareag.plm.sum.cc.rest' version='10.7.0.0000-0276' singleton='false' generation='2'>
+      <update id='com.softwareag.plm.sum.cc.rest' range='[0.0.0,10.7.0.0000-0276)' severity='0'/>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='sum-cc sum-cc-rest module'/>
+        <property name='org.eclipse.equinox.p2.description' value='sum-cc sum-cc-rest module'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Software AG'/>
+        <property name='org.eclipse.equinox.p2.doc.url' value='http://www.softwareag.com'/>
+      </properties>
+      <provides size='6'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.plm.sum.cc.rest' version='10.7.0.0000-0276'/>
+        <provided namespace='osgi.bundle' name='com.softwareag.plm.sum.cc.rest' version='10.7.0.0000-0276'/>
+        <provided namespace='java.package' name='com.softwareag.fixinstall.rest.client' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.fixinstall.rest.activator' version='10.7.0'/>
+        <provided namespace='osgi.identity' name='com.softwareag.plm.sum.cc.rest' version='10.7.0.0000-0276'>
+          <properties size='1'>
+            <property name='type' value='osgi.bundle'/>
+          </properties>
+        </provided>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='22'>
+        <required namespace='java.package' name='com.fasterxml.jackson.core' range='[2.10.0,3.0.0)'/>
+        <required namespace='java.package' name='com.fasterxml.jackson.databind' range='[2.10.0,3.0.0)'/>
+        <required namespace='java.package' name='com.fasterxml.jackson.databind.module' range='[2.10.0,3.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.fixinstall.rest.api.client' range='[10.7.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.fixinstall.rest.api.deserializer' range='[10.7.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.fixinstall.rest.api.dto' range='[10.7.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.fixinstall.rest.api.exception' range='[10.7.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.fixinstall.spm.api' range='[10.7.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.fixinstall.spm.api.internal' range='[10.7.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.fixinstall.spm.internal' range='[10.7.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.fixinstall.spm.internal.util' range='[10.7.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.fixinstall.spm.logger' range='[10.7.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.plm.sd.security' range='[10.0.0,11.0.0)'/>
+        <required namespace='java.package' name='javax.net.ssl' range='0.0.0'/>
+        <required namespace='java.package' name='javax.ws.rs' range='[2.1.0,3.0.0)'/>
+        <required namespace='java.package' name='javax.ws.rs.client' range='[2.1.0,3.0.0)'/>
+        <required namespace='java.package' name='javax.ws.rs.container' range='[2.1.0,3.0.0)'/>
+        <required namespace='java.package' name='javax.ws.rs.core' range='[2.1.0,3.0.0)'/>
+        <required namespace='java.package' name='javax.ws.rs.ext' range='[2.1.0,3.0.0)'/>
+        <required namespace='java.package' name='org.osgi.framework' range='[1.9.0,2.0.0)'/>
+        <required namespace='java.package' name='org.osgi.service.cm' range='[1.6.0,2.0.0)'/>
+        <requiredProperties namespace='osgi.ee' match='(&amp;(osgi.ee=JavaSE)(version=1.8))'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.softwareag.plm.sum.cc.rest' version='10.7.0.0000-0276'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.softwareag.plm.sum.cc.rest&#xA;Bundle-Version: 10.7.0.0000-0276
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.softwareag.plm.sum.cc.rest.api' version='10.7.0.0000-0276' singleton='false' generation='2'>
+      <update id='com.softwareag.plm.sum.cc.rest.api' range='[0.0.0,10.7.0.0000-0276)' severity='0'/>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='sum-cc sum-cc-rest-api module'/>
+        <property name='org.eclipse.equinox.p2.description' value='sum-cc sum-cc-rest-api module'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Software AG'/>
+        <property name='org.eclipse.equinox.p2.doc.url' value='http://www.softwareag.com'/>
+      </properties>
+      <provides size='8'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.plm.sum.cc.rest.api' version='10.7.0.0000-0276'/>
+        <provided namespace='osgi.bundle' name='com.softwareag.plm.sum.cc.rest.api' version='10.7.0.0000-0276'/>
+        <provided namespace='java.package' name='com.softwareag.fixinstall.rest.api.client' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.fixinstall.rest.api.deserializer' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.fixinstall.rest.api.dto' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.fixinstall.rest.api.exception' version='10.7.0'/>
+        <provided namespace='osgi.identity' name='com.softwareag.plm.sum.cc.rest.api' version='10.7.0.0000-0276'>
+          <properties size='1'>
+            <property name='type' value='osgi.bundle'/>
+          </properties>
+        </provided>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='9'>
+        <required namespace='java.package' name='com.fasterxml.jackson.annotation' range='[2.10.0,3.0.0)'/>
+        <required namespace='java.package' name='com.fasterxml.jackson.core' range='[2.10.0,3.0.0)'/>
+        <required namespace='java.package' name='com.fasterxml.jackson.databind' range='[2.10.0,3.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.fixinstall.rest.api.dto' range='[10.7.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.fixinstall.rest.api.exception' range='[10.7.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.fixinstall.spm.api' range='[10.7.0,11.0.0)'/>
+        <required namespace='java.package' name='org.eclipse.equinox.p2.metadata' range='[2.4.0,3.0.0)'/>
+        <required namespace='java.package' name='org.osgi.framework' range='[1.9.0,2.0.0)'/>
+        <requiredProperties namespace='osgi.ee' match='(&amp;(osgi.ee=JavaSE)(version=1.8))'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.softwareag.plm.sum.cc.rest.api' version='10.7.0.0000-0276'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.softwareag.plm.sum.cc.rest.api&#xA;Bundle-Version: 10.7.0.0000-0276
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.softwareag.plm.sum.cc.spm.sum.cc.api' version='10.7.0.0000-0276' singleton='false' generation='2'>
+      <update id='com.softwareag.plm.sum.cc.spm.sum.cc.api' range='[0.0.0,10.7.0.0000-0276)' severity='0'/>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='sum-cc spm-sum-cc-api module'/>
+        <property name='org.eclipse.equinox.p2.description' value='sum-cc spm-sum-cc-api module'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Software AG'/>
+        <property name='org.eclipse.equinox.p2.doc.url' value='http://www.softwareag.com'/>
+      </properties>
+      <provides size='9'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.plm.sum.cc.spm.sum.cc.api' version='10.7.0.0000-0276'/>
+        <provided namespace='osgi.bundle' name='com.softwareag.plm.sum.cc.spm.sum.cc.api' version='10.7.0.0000-0276'/>
+        <provided namespace='java.package' name='com.softwareag.fixinstall.spm.api' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.fixinstall.spm.api.internal' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.fixinstall.spm.api.repo' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.fixinstall.spm.statistics.api' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.fixinstall.spm.backup.api' version='10.7.0'/>
+        <provided namespace='osgi.identity' name='com.softwareag.plm.sum.cc.spm.sum.cc.api' version='10.7.0.0000-0276'>
+          <properties size='1'>
+            <property name='type' value='osgi.bundle'/>
+          </properties>
+        </provided>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='14'>
+        <required namespace='java.package' name='com.softwareag.fixinstall.spm.api.internal' range='[10.7.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.fixinstall.spm.api.repo' range='[10.7.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.fixinstall.spm.backup.api' range='[10.7.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.fixinstall.spm.statistics.api' range='[10.7.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.plm.sd.common' range='[10.0.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.plm.sd.security' range='[10.0.0,11.0.0)'/>
+        <required namespace='java.package' name='org.eclipse.core.runtime' range='[3.5.0,4.0.0)'/>
+        <required namespace='java.package' name='org.eclipse.equinox.internal.p2.metadata' range='0.0.0'/>
+        <required namespace='java.package' name='org.eclipse.equinox.p2.core' range='[2.0.0,3.0.0)'/>
+        <required namespace='java.package' name='org.eclipse.equinox.p2.engine' range='[2.2.0,3.0.0)'/>
+        <required namespace='java.package' name='org.eclipse.equinox.p2.metadata' range='[2.4.0,3.0.0)'/>
+        <required namespace='java.package' name='org.eclipse.equinox.p2.query' range='[2.0.0,3.0.0)'/>
+        <required namespace='java.package' name='org.osgi.framework' range='[1.9.0,2.0.0)'/>
+        <requiredProperties namespace='osgi.ee' match='(&amp;(osgi.ee=JavaSE)(version=1.8))'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.softwareag.plm.sum.cc.spm.sum.cc.api' version='10.7.0.0000-0276'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.softwareag.plm.sum.cc.spm.sum.cc.api&#xA;Bundle-Version: 10.7.0.0000-0276
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.softwareag.plm.sum.cc.spm.sum.cc.api' version='10.7.0.0001-0296' singleton='false' generation='2'>
+      <update id='com.softwareag.plm.sum.cc.spm.sum.cc.api' range='[0.0.0,10.7.0.0001-0296)' severity='0'/>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='sum-cc spm-sum-cc-api module'/>
+        <property name='org.eclipse.equinox.p2.description' value='sum-cc spm-sum-cc-api module'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Software AG'/>
+        <property name='org.eclipse.equinox.p2.doc.url' value='http://www.softwareag.com'/>
+      </properties>
+      <provides size='9'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.plm.sum.cc.spm.sum.cc.api' version='10.7.0.0001-0296'/>
+        <provided namespace='osgi.bundle' name='com.softwareag.plm.sum.cc.spm.sum.cc.api' version='10.7.0.0001-0296'/>
+        <provided namespace='java.package' name='com.softwareag.fixinstall.spm.api' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.fixinstall.spm.api.internal' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.fixinstall.spm.api.repo' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.fixinstall.spm.statistics.api' version='10.7.0'/>
+        <provided namespace='java.package' name='com.softwareag.fixinstall.spm.backup.api' version='10.7.0'/>
+        <provided namespace='osgi.identity' name='com.softwareag.plm.sum.cc.spm.sum.cc.api' version='10.7.0.0001-0296'>
+          <properties size='1'>
+            <property name='type' value='osgi.bundle'/>
+          </properties>
+        </provided>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='14'>
+        <required namespace='java.package' name='com.softwareag.fixinstall.spm.api.internal' range='[10.7.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.fixinstall.spm.api.repo' range='[10.7.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.fixinstall.spm.backup.api' range='[10.7.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.fixinstall.spm.statistics.api' range='[10.7.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.plm.sd.common' range='[10.0.0,11.0.0)'/>
+        <required namespace='java.package' name='com.softwareag.plm.sd.security' range='[10.0.0,11.0.0)'/>
+        <required namespace='java.package' name='org.eclipse.core.runtime' range='[3.5.0,4.0.0)'/>
+        <required namespace='java.package' name='org.eclipse.equinox.internal.p2.metadata' range='0.0.0'/>
+        <required namespace='java.package' name='org.eclipse.equinox.p2.core' range='[2.0.0,3.0.0)'/>
+        <required namespace='java.package' name='org.eclipse.equinox.p2.engine' range='[2.2.0,3.0.0)'/>
+        <required namespace='java.package' name='org.eclipse.equinox.p2.metadata' range='[2.4.0,3.0.0)'/>
+        <required namespace='java.package' name='org.eclipse.equinox.p2.query' range='[2.0.0,3.0.0)'/>
+        <required namespace='java.package' name='org.osgi.framework' range='[1.9.0,2.0.0)'/>
+        <requiredProperties namespace='osgi.ee' match='(&amp;(osgi.ee=JavaSE)(version=1.8))'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.softwareag.plm.sum.cc.spm.sum.cc.api' version='10.7.0.0001-0296'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.softwareag.plm.sum.cc.spm.sum.cc.api&#xA;Bundle-Version: 10.7.0.0001-0296&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.softwareag.plm.sum.cc.all.spm.feature.patch.feature.jar' version='10.7.0.0001-0296'>
+      <properties size='3'>
+        <property name='org.eclipse.equinox.p2.name' value='sum-cc sum-cc-all-spm feature'/>
+        <property name='org.eclipse.equinox.p2.description' value='[Enter Feature Description here.]'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='http://www.example.com/description'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.plm.sum.cc.all.spm.feature.patch.feature.jar' version='10.7.0.0001-0296'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
+        <provided namespace='org.eclipse.update.feature' name='com.softwareag.plm.sum.cc.all.spm.feature.patch' version='10.7.0.0001-0296'/>
+      </provides>
+      <filter>
+        (org.eclipse.update.install.features=true)
+      </filter>
+      <artifacts size='1'>
+        <artifact classifier='org.eclipse.update.feature' id='com.softwareag.plm.sum.cc.all.spm.feature.patch' version='10.7.0.0001-0296'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+        </instructions>
+      </touchpointData>
+      <licenses size='1'>
+        <license uri='http://www.example.com/license' url='http://www.example.com/license'>
+          [Enter License Description here.]
+        </license>
+      </licenses>
+      <copyright uri='http://www.example.com/copyright' url='http://www.example.com/copyright'>
+        [Enter Copyright Description here.]
+      </copyright>
+    </unit>
+    <unit id='com.softwareag.plm.sum.cc.publisher.fix' version='10.7.0.0000-0276' singleton='false' generation='2'>
+      <update id='com.softwareag.plm.sum.cc.publisher.fix' range='[0.0.0,10.7.0.0000-0276)' severity='0'/>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='sum-cc sum-cc-publisher-fix module'/>
+        <property name='org.eclipse.equinox.p2.description' value='sum-cc sum-cc-publisher-fix module'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Software AG'/>
+        <property name='org.eclipse.equinox.p2.doc.url' value='http://www.softwareag.com'/>
+      </properties>
+      <provides size='5'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.plm.sum.cc.publisher.fix' version='10.7.0.0000-0276'/>
+        <provided namespace='osgi.bundle' name='com.softwareag.plm.sum.cc.publisher.fix' version='10.7.0.0000-0276'/>
+        <provided namespace='java.package' name='com.softwareag.fixinstall.publisher.fix' version='10.7.0'/>
+        <provided namespace='osgi.identity' name='com.softwareag.plm.sum.cc.publisher.fix' version='10.7.0.0000-0276'>
+          <properties size='1'>
+            <property name='type' value='osgi.bundle'/>
+          </properties>
+        </provided>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='12'>
+        <required namespace='java.package' name='org.eclipse.osgi.framework.util' range='0.0.0'/>
+        <required namespace='java.package' name='com.softwareag.fixinstall.publisher.api' range='[10.7.0,11.0.0)'/>
+        <required namespace='java.package' name='org.eclipse.core.runtime' range='[3.5.0,4.0.0)'/>
+        <required namespace='java.package' name='org.eclipse.equinox.internal.p2.core.helpers' range='0.0.0'/>
+        <required namespace='java.package' name='org.eclipse.equinox.internal.p2.metadata' range='0.0.0'/>
+        <required namespace='java.package' name='org.eclipse.equinox.p2.metadata' range='[2.4.0,3.0.0)'/>
+        <required namespace='java.package' name='org.eclipse.equinox.p2.publisher' range='0.0.0'/>
+        <required namespace='java.package' name='org.eclipse.equinox.p2.repository.artifact' range='[2.3.0,3.0.0)'/>
+        <required namespace='java.package' name='org.eclipse.equinox.spi.p2.publisher' range='0.0.0'/>
+        <required namespace='java.package' name='org.eclipse.osgi.util' range='[1.1.0,2.0.0)'/>
+        <required namespace='java.package' name='org.osgi.framework' range='[1.9.0,2.0.0)'/>
+        <requiredProperties namespace='osgi.ee' match='(&amp;(osgi.ee=JavaSE)(version=1.8))'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.softwareag.plm.sum.cc.publisher.fix' version='10.7.0.0000-0276'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.softwareag.plm.sum.cc.publisher.fix&#xA;Bundle-Version: 10.7.0.0000-0276
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.softwareag.plm.sum.cc.all.spm.feature.feature.jar' version='10.7.0.0000-0276'>
+      <properties size='9'>
+        <property name='org.eclipse.equinox.p2.name' value='%featureName'/>
+        <property name='org.eclipse.equinox.p2.description' value='%description'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='%descriptionURL'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%providerName'/>
+        <property name='df_LT.license' value='For Software AG Legal Notices please refer to: http://softwareag.com/licenses and/or in the root installation directory of the licensed product(s).'/>
+        <property name='df_LT.copyright' value='Copyright &amp;copy; 2006 - 2020 Software AG, Darmstadt, Germany and/or Software AG USA Inc., Reston, VA, USA, and/or its subsidiaries and/or its affiliates and/or their licensors. The name Software AG and all Software AG product names are either trademarks or registered trademarks of Software AG and/or Software AG USA Inc. and/or its subsidiaries and/or its affiliates and/or their licensors. Other company and product names mentioned herein may be trademarks of their respective owners. Detailed information on trademarks and patents owned by Software AG and/or its subsidiaries is located at {http://softwareag.com/licenses}. This software may include portions of third-party products. For third-party copyright notices, license terms, additional rights or restrictions, please refer to &quot;License Texts, Copyright Notices and Disclaimers of Third Party Products&quot;. For certain specific third-party license restrictions, please refer to section E of the Legal Notices available under &quot;License Terms and Conditions for Use of Software AG Products / Copyright and Trademark Notices of Software AG Products&quot;. These documents are part of the product documentation, located at {http://softwareag.com/licenses} and/or in the root installation directory of the licensed product(s). Use, reproduction, transfer, publication or disclosure is prohibited except as specifically provided for in your License Agreement with Software AG.'/>
+        <property name='df_LT.featureName' value='sum-cc sum-cc-all-spm feature'/>
+        <property name='df_LT.description' value='sum-cc sum-cc-all-spm feature'/>
+        <property name='df_LT.providerName' value='Software AG'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.softwareag.plm.sum.cc.all.spm.feature.feature.jar' version='10.7.0.0000-0276'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
+        <provided namespace='org.eclipse.update.feature' name='com.softwareag.plm.sum.cc.all.spm.feature' version='10.7.0.0000-0276'/>
+      </provides>
+      <filter>
+        (org.eclipse.update.install.features=true)
+      </filter>
+      <artifacts size='1'>
+        <artifact classifier='org.eclipse.update.feature' id='com.softwareag.plm.sum.cc.all.spm.feature' version='10.7.0.0000-0276'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+        </instructions>
+      </touchpointData>
+      <licenses size='1'>
+        <license uri='%25licenseURL' url='%25licenseURL'>
+          %license
+        </license>
+      </licenses>
+      <copyright uri='%25copyrightURL' url='%25copyrightURL'>
+        %copyright
+      </copyright>
+    </unit>
+  </units>
+</repository>

@@ -1,0 +1,1 @@
+The audit log for fix installation is stored in the <SoftwareAG_directory>\install\fix\logs directory for the products on which you installed the fixes.

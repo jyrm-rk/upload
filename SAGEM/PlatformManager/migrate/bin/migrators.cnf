@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<IDataXMLCoder version="1.0">
+
+<record javaclass="com.wm.util.Values">
+
+  <record javaclass="com.wm.app.b2b.server.migrate.MigratorMappingBeanData">
+    <value name="srcVersion">9.0.1</value>
+    <value name="destVersion">10.7.0</value>
+    <value name="isOverInstall">false</value>
+      <record name="SPMCTPConfMigrator" javaclass="com.wm.app.b2b.server.migrate.MigratorBeanData">
+        <value name="description">SPMMIGI0009</value>
+        <value name="migratorClass">com.softwareag.platform.migration.migrators.CTPConfMigrator</value>
+        <value name="commandClass">com.softwareag.plm.spm.migrator.cmd.spm.CmdSPMCTPConfMigratorClient</value>        
+      </record>
+  </record>
+  
+   <record javaclass="com.wm.app.b2b.server.migrate.MigratorMappingBeanData">
+    <value name="srcVersion">9.5.1</value>
+    <value name="destVersion">10.7.0</value>
+    <value name="isOverInstall">false</value>
+      <record name="SPMCTPConfMigrator" javaclass="com.wm.app.b2b.server.migrate.MigratorBeanData">
+        <value name="description">SPMMIGI0009</value>
+        <value name="migratorClass">com.softwareag.platform.migration.migrators.CTPConfMigrator</value>
+        <value name="commandClass">com.softwareag.plm.spm.migrator.cmd.spm.CmdSPMCTPConfMigratorClient</value>        
+      </record>
+  </record>
+  
+   <record javaclass="com.wm.app.b2b.server.migrate.MigratorMappingBeanData">
+    <value name="srcVersion">9.6.0</value>
+    <value name="destVersion">10.7.0</value>
+    <value name="isOverInstall">false</value>
+    <record name="migrators" javaclass="com.wm.app.b2b.server.migrate.MigratorsHolderData">
+      <record name="SPMUsersGroupsMigrator" javaclass="com.wm.app.b2b.server.migrate.MigratorBeanData">
+        <value name="description">SPMMIGI0009</value>
+        <value name="migratorClass">com.softwareag.plm.spm.migrator.spm.SPMSingleVersionUsersGroupsMigrator</value>
+        <value name="commandClass">com.softwareag.plm.spm.migrator.cmd.spm.CmdSPMUsersGroupsMigratorClient</value>        
+      </record>
+      <record name="SPMRolesMigrator" javaclass="com.wm.app.b2b.server.migrate.MigratorBeanData">
+        <value name="description">SPMMIGI0009</value>
+        <value name="migratorClass">com.softwareag.platform.migration.migrators.JAASRolesMigrator</value>
+        <value name="commandClass">com.softwareag.plm.spm.migrator.cmd.spm.CmdSPMRolesMigratorClient</value>        
+      </record>
+      <record name="SPMCTPConfMigrator" javaclass="com.wm.app.b2b.server.migrate.MigratorBeanData">
+        <value name="description">SPMMIGI0009</value>
+        <value name="migratorClass">com.softwareag.platform.migration.migrators.CTPConfMigrator</value>
+        <value name="commandClass">com.softwareag.plm.spm.migrator.cmd.spm.CmdSPMCTPConfMigratorClient</value>        
+      </record>
+      <record name="SPMPassmanMigrator" javaclass="com.wm.app.b2b.server.migrate.MigratorBeanData">
+        <value name="description">SPMMIGI0009</value>
+        <value name="migratorClass">com.softwareag.plm.spm.migrator.spm.SPMPassmanMigrator</value>
+        <value name="commandClass">com.softwareag.plm.spm.migrator.cmd.spm.CmdSPMPassmanMigratorClient</value>        
+      </record>
+      <record name="SPMCustomWrapperConfigurationMigrator" javaclass="com.wm.app.b2b.server.migrate.MigratorBeanData">
+        <value name="description">SPMMIGI0009</value>
+        <value name="migratorClass">com.softwareag.plm.migrator.CCCustomWrapperConfigurationMigrator</value>
+        <value name="commandClass">com.softwareag.plm.spm.migrator.cmd.spm.CmdSPMCustomWrapperConfMigratorClient</value>        
+      </record>
+    </record>
+  </record>
+   <record javaclass="com.wm.app.b2b.server.migrate.MigratorMappingBeanData">
+    <value name="srcVersion">9.7.0</value>
+    <value name="destVersion">10.7.0</value>
+    <value name="isOverInstall">false</value>
+    <record name="migrators" javaclass="com.wm.app.b2b.server.migrate.MigratorsHolderData">
+      <record name="SPMRolesMigrator" javaclass="com.wm.app.b2b.server.migrate.MigratorBeanData">
+        <value name="description">SPMMIGI0009</value>
+        <value name="migratorClass">com.softwareag.platform.migration.migrators.JAASRolesMigrator</value>
+        <value name="commandClass">com.softwareag.plm.spm.migrator.cmd.spm.CmdSPMRolesMigratorClient</value>        
+      </record>
+      <record name="SPMCTPConfMigrator" javaclass="com.wm.app.b2b.server.migrate.MigratorBeanData">
+        <value name="description">SPMMIGI0009</value>
+        <value name="migratorClass">com.softwareag.platform.migration.migrators.CTPConfMigrator</value>
+        <value name="commandClass">com.softwareag.plm.spm.migrator.cmd.spm.CmdSPMCTPConfMigratorClient</value>        
+      </record>
+      <record name="SPMPassmanMigrator" javaclass="com.wm.app.b2b.server.migrate.MigratorBeanData">
+        <value name="description">SPMMIGI0009</value>
+        <value name="migratorClass">com.softwareag.plm.spm.migrator.spm.SPMPassmanMigrator</value>
+        <value name="commandClass">com.softwareag.plm.spm.migrator.cmd.spm.CmdSPMPassmanMigratorClient</value>        
+      </record>
+      <record name="SPMCustomWrapperConfigurationMigrator" javaclass="com.wm.app.b2b.server.migrate.MigratorBeanData">
+        <value name="description">SPMMIGI0009</value>
+        <value name="migratorClass">com.softwareag.plm.spm.migrator.CCCustomWrapperConfigurationMigrator</value>
+        <value name="commandClass">com.softwareag.plm.spm.migrator.cmd.spm.CmdSPMCustomWrapperConfMigratorClient</value>        
+      </record>	  
+    </record>
+  </record>
+  <record javaclass="com.wm.app.b2b.server.migrate.MigratorMappingBeanData">
+    <value name="srcVersion">9.8.0</value>
+    <value name="destVersion">10.7.0</value>
+    <value name="isOverInstall">false</value>
+    <record name="migrators" javaclass="com.wm.app.b2b.server.migrate.MigratorsHolderData">
+      <record name="SPMUsersGroupsMigrator" javaclass="com.wm.app.b2b.server.migrate.MigratorBeanData">
+        <value name="description">SPMMIGI0009</value>
+        <value name="migratorClass">com.softwareag.plm.spm.migrator.spm.SPMSingleVersionUsersGroupsMigrator</value>
+        <value name="commandClass">com.softwareag.plm.spm.migrator.cmd.spm.CmdSPMUsersGroupsMigratorClient</value>        
+      </record>
+      <record name="SPMRolesMigrator" javaclass="com.wm.app.b2b.server.migrate.MigratorBeanData">
+        <value name="description">SPMMIGI0009</value>
+        <value name="migratorClass">com.softwareag.platform.migration.migrators.JAASRolesMigrator</value>
+        <value name="commandClass">com.softwareag.plm.spm.migrator.cmd.spm.CmdSPMRolesMigratorClient</value>        
+      </record>
+      <record name="SPMCTPConfMigrator" javaclass="com.wm.app.b2b.server.migrate.MigratorBeanData">
+        <value name="description">SPMMIGI0009</value>
+        <value name="migratorClass">com.softwareag.platform.migration.migrators.CTPConfMigrator</value>
+        <value name="commandClass">com.softwareag.plm.spm.migrator.cmd.spm.CmdSPMCTPConfMigratorClient</value>        
+      </record>
+      <record name="SPMPassmanMigrator" javaclass="com.wm.app.b2b.server.migrate.MigratorBeanData">
+        <value name="description">SPMMIGI0009</value>
+        <value name="migratorClass">com.softwareag.plm.spm.migrator.spm.SPMPassmanMigrator</value>
+        <value name="commandClass">com.softwareag.plm.spm.migrator.cmd.spm.CmdSPMPassmanMigratorClient</value>        
+      </record>
+      <record name="SPMSsoMigrator" javaclass="com.wm.app.b2b.server.migrate.MigratorBeanData">
+        <value name="description">SPMMIGI0009</value>
+        <value name="migratorClass">com.softwareag.platform.migration.migrators.SSOConfigurationMigrator</value>
+        <value name="commandClass">com.softwareag.plm.spm.migrator.cmd.spm.CmdSPMSsoMigratorClient</value>        
+      </record>
+      <record name="SPMCustomWrapperConfigurationMigrator" javaclass="com.wm.app.b2b.server.migrate.MigratorBeanData">
+        <value name="description">SPMMIGI0009</value>
+        <value name="migratorClass">com.softwareag.plm.migrator.CCCustomWrapperConfigurationMigrator</value>
+        <value name="commandClass">com.softwareag.plm.spm.migrator.cmd.spm.CmdSPMCustomWrapperConfMigratorClient</value>        
+      </record>
+    </record>
+  </record>
+  <record javaclass="com.wm.app.b2b.server.migrate.MigratorMappingBeanData">
+    <value name="srcVersion">9.9.0</value>
+    <value name="destVersion">10.7.0</value>
+    <value name="isOverInstall">false</value>
+    <record name="migrators" javaclass="com.wm.app.b2b.server.migrate.MigratorsHolderData">
+      <record name="SPMUsersGroupsMigrator" javaclass="com.wm.app.b2b.server.migrate.MigratorBeanData">
+        <value name="description">SPMMIGI0009</value>
+        <value name="migratorClass">com.softwareag.plm.spm.migrator.spm.SPMSingleVersionUsersGroupsMigrator</value>
+        <value name="commandClass">com.softwareag.plm.spm.migrator.cmd.spm.CmdSPMUsersGroupsMigratorClient</value>        
+      </record>
+      <record name="SPMRolesMigrator" javaclass="com.wm.app.b2b.server.migrate.MigratorBeanData">
+        <value name="description">SPMMIGI0009</value>
+        <value name="migratorClass">com.softwareag.platform.migration.migrators.JAASRolesMigrator</value>
+        <value name="commandClass">com.softwareag.plm.spm.migrator.cmd.spm.CmdSPMRolesMigratorClient</value>        
+      </record>
+      <record name="SPMJaasConfigMigrator" javaclass="com.wm.app.b2b.server.migrate.MigratorBeanData">
+        <value name="description">SPMMIGI0009</value>
+        <value name="migratorClass">com.softwareag.plm.spm.migrator.spm.SPMPost99JaasConfigurationMigrator</value>
+        <value name="commandClass">com.softwareag.plm.spm.migrator.cmd.spm.CmdSPMJaasMigratorClient</value>        
+      </record>
+      <record name="SPMCTPConfMigrator" javaclass="com.wm.app.b2b.server.migrate.MigratorBeanData">
+        <value name="description">SPMMIGI0009</value>
+        <value name="migratorClass">com.softwareag.platform.migration.migrators.CTPConfMigrator</value>
+        <value name="commandClass">com.softwareag.plm.spm.migrator.cmd.spm.CmdSPMCTPConfMigratorClient</value>        
+      </record>
+      <record name="SPMPassmanMigrator" javaclass="com.wm.app.b2b.server.migrate.MigratorBeanData">
+        <value name="description">SPMMIGI0009</value>
+        <value name="migratorClass">com.softwareag.plm.spm.migrator.spm.SPMPassmanMigrator</value>
+        <value name="commandClass">com.softwareag.plm.spm.migrator.cmd.spm.CmdSPMPassmanMigratorClient</value>        
+      </record>
+      <record name="SPMSsoMigrator" javaclass="com.wm.app.b2b.server.migrate.MigratorBeanData">
+        <value name="description">SPMMIGI0009</value>
+        <value name="migratorClass">com.softwareag.platform.migration.migrators.SSOConfigurationMigrator</value>
+        <value name="commandClass">com.softwareag.plm.spm.migrator.cmd.spm.CmdSPMSsoMigratorClient</value>        
+      </record>
+      <record name="SPMCustomWrapperConfigurationMigrator" javaclass="com.wm.app.b2b.server.migrate.MigratorBeanData">
+        <value name="description">SPMMIGI0009</value>
+        <value name="migratorClass">com.softwareag.plm.migrator.CCCustomWrapperConfigurationMigrator</value>
+        <value name="commandClass">com.softwareag.plm.spm.migrator.cmd.spm.CmdSPMCustomWrapperConfMigratorClient</value>        
+      </record>
+    </record>
+  </record>
+  <record javaclass="com.wm.app.b2b.server.migrate.MigratorMappingBeanData">
+    <value name="srcVersion">9.10.0</value>
+    <value name="destVersion">10.7.0</value>
+    <value name="isOverInstall">false</value>
+    <record name="migrators" javaclass="com.wm.app.b2b.server.migrate.MigratorsHolderData">
+      <record name="SPMUsersGroupsMigrator" javaclass="com.wm.app.b2b.server.migrate.MigratorBeanData">
+        <value name="description">SPMMIGI0009</value>
+        <value name="migratorClass">com.softwareag.plm.spm.migrator.spm.SPMSingleVersionUsersGroupsMigrator</value>
+        <value name="commandClass">com.softwareag.plm.spm.migrator.cmd.spm.CmdSPMUsersGroupsMigratorClient</value>        
+      </record>
+      <record name="SPMRolesMigrator" javaclass="com.wm.app.b2b.server.migrate.MigratorBeanData">
+        <value name="description">SPMMIGI0009</value>
+        <value name="migratorClass">com.softwareag.platform.migration.migrators.JAASRolesMigrator</value>
+        <value name="commandClass">com.softwareag.plm.spm.migrator.cmd.spm.CmdSPMRolesMigratorClient</value>        
+      </record>
+      <record name="SPMJaasConfigMigrator" javaclass="com.wm.app.b2b.server.migrate.MigratorBeanData">
+        <value name="description">SPMMIGI0009</value>
+        <value name="migratorClass">com.softwareag.plm.spm.migrator.spm.SPMPost99JaasConfigurationMigrator</value>
+        <value name="commandClass">com.softwareag.plm.spm.migrator.cmd.spm.CmdSPMJaasMigratorClient</value>        
+      </record>
+      <record name="SPMCTPConfMigrator" javaclass="com.wm.app.b2b.server.migrate.MigratorBeanData">
+        <value name="description">SPMMIGI0009</value>
+        <value name="migratorClass">com.softwareag.platform.migration.migrators.CTPConfMigrator</value>
+        <value name="commandClass">com.softwareag.plm.spm.migrator.cmd.spm.CmdSPMCTPConfMigratorClient</value>        
+      </record>
+      <record name="SPMPassmanMigrator" javaclass="com.wm.app.b2b.server.migrate.MigratorBeanData">
+        <value name="description">SPMMIGI0009</value>
+        <value name="migratorClass">com.softwareag.plm.spm.migrator.spm.SPMPassmanMigrator</value>
+        <value name="commandClass">com.softwareag.plm.spm.migrator.cmd.spm.CmdSPMPassmanMigratorClient</value>        
+      </record>
+      <record name="SPMSsoMigrator" javaclass="com.wm.app.b2b.server.migrate.MigratorBeanData">
+        <value name="description">SPMMIGI0009</value>
+        <value name="migratorClass">com.softwareag.platform.migration.migrators.SSOConfigurationMigrator</value>
+        <value name="commandClass">com.softwareag.plm.spm.migrator.cmd.spm.CmdSPMSsoMigratorClient</value>        
+      </record>
+      <record name="SPMCustomWrapperConfigurationMigrator" javaclass="com.wm.app.b2b.server.migrate.MigratorBeanData">
+        <value name="description">SPMMIGI0009</value>
+        <value name="migratorClass">com.softwareag.plm.migrator.CCCustomWrapperConfigurationMigrator</value>
+        <value name="commandClass">com.softwareag.plm.spm.migrator.cmd.spm.CmdSPMCustomWrapperConfMigratorClient</value>        
+      </record>
+    </record>
+  </record>
+  <record javaclass="com.wm.app.b2b.server.migrate.MigratorMappingBeanData">
+    <value name="srcVersion">9.12.0</value>
+    <value name="destVersion">10.7.0</value>
+    <value name="isOverInstall">false</value>
+    <record name="migrators" javaclass="com.wm.app.b2b.server.migrate.MigratorsHolderData">
+      <record name="SPMUsersGroupsMigrator" javaclass="com.wm.app.b2b.server.migrate.MigratorBeanData">
+        <value name="description">SPMMIGI0009</value>
+        <value name="migratorClass">com.softwareag.plm.spm.migrator.spm.SPMSingleVersionUsersGroupsMigrator</value>
+        <value name="commandClass">com.softwareag.plm.spm.migrator.cmd.spm.CmdSPMUsersGroupsMigratorClient</value>        
+      </record>
+      <record name="SPMRolesMigrator" javaclass="com.wm.app.b2b.server.migrate.MigratorBeanData">
+        <value name="description">SPMMIGI0009</value>
+        <value name="migratorClass">com.softwareag.platform.migration.migrators.JAASRolesMigrator</value>
+        <value name="commandClass">com.softwareag.plm.spm.migrator.cmd.spm.CmdSPMRolesMigratorClient</value>        
+      </record>
+      <record name="SPMJaasConfigMigrator" javaclass="com.wm.app.b2b.server.migrate.MigratorBeanData">
+        <value name="description">SPMMIGI0009</value>
+        <value name="migratorClass">com.softwareag.plm.spm.migrator.spm.SPMPost99JaasConfigurationMigrator</value>
+        <value name="commandClass">com.softwareag.plm.spm.migrator.cmd.spm.CmdSPMJaasMigratorClient</value>        
+      </record>
+      <record name="SPMCTPConfMigrator" javaclass="com.wm.app.b2b.server.migrate.MigratorBeanData">
+        <value name="description">SPMMIGI0009</value>
+        <value name="migratorClass">com.softwareag.platform.migration.migrators.CTPConfMigrator</value>
+        <value name="commandClass">com.softwareag.plm.spm.migrator.cmd.spm.CmdSPMCTPConfMigratorClient</value>        
+      </record>
+      <record name="SPMPassmanMigrator" javaclass="com.wm.app.b2b.server.migrate.MigratorBeanData">
+        <value name="description">SPMMIGI0009</value>
+        <value name="migratorClass">com.softwareag.plm.spm.migrator.spm.SPMPassmanMigrator</value>
+        <value name="commandClass">com.softwareag.plm.spm.migrator.cmd.spm.CmdSPMPassmanMigratorClient</value>        
+      </record>
+      <record name="SPMSsoMigrator" javaclass="com.wm.app.b2b.server.migrate.MigratorBeanData">
+        <value name="description">SPMMIGI0009</value>
+        <value name="migratorClass">com.softwareag.platform.migration.migrators.SSOConfigurationMigrator</value>
+        <value name="commandClass">com.softwareag.plm.spm.migrator.cmd.spm.CmdSPMSsoMigratorClient</value>        
+      </record>
+      <record name="SPMCustomWrapperConfigurationMigrator" javaclass="com.wm.app.b2b.server.migrate.MigratorBeanData">
+        <value name="description">SPMMIGI0009</value>
+        <value name="migratorClass">com.softwareag.plm.migrator.CCCustomWrapperConfigurationMigrator</value>
+        <value name="commandClass">com.softwareag.plm.spm.migrator.cmd.spm.CmdSPMCustomWrapperConfMigratorClient</value>        
+      </record>
+    </record>
+  </record>
+  <record javaclass="com.wm.app.b2b.server.migrate.MigratorMappingBeanData">
+    <value name="srcVersion">10.0.0</value>
+    <value name="destVersion">10.7.0</value>
+    <value name="isOverInstall">false</value>
+    <record name="migrators" javaclass="com.wm.app.b2b.server.migrate.MigratorsHolderData">
+      <record name="SPMUsersGroupsMigrator" javaclass="com.wm.app.b2b.server.migrate.MigratorBeanData">
+        <value name="description">SPMMIGI0009</value>
+        <value name="migratorClass">com.softwareag.plm.spm.migrator.spm.SPMSingleVersionUsersGroupsMigrator</value>
+        <value name="commandClass">com.softwareag.plm.spm.migrator.cmd.spm.CmdSPMUsersGroupsMigratorClient</value>        
+      </record>
+      <record name="SPMRolesMigrator" javaclass="com.wm.app.b2b.server.migrate.MigratorBeanData">
+        <value name="description">SPMMIGI0009</value>
+        <value name="migratorClass">com.softwareag.platform.migration.migrators.JAASRolesMigrator</value>
+        <value name="commandClass">com.softwareag.plm.spm.migrator.cmd.spm.CmdSPMRolesMigratorClient</value>        
+      </record>
+      <record name="SPMJaasConfigMigrator" javaclass="com.wm.app.b2b.server.migrate.MigratorBeanData">
+        <value name="description">SPMMIGI0009</value>
+        <value name="migratorClass">com.softwareag.plm.spm.migrator.spm.SPMPost99JaasConfigurationMigrator</value>
+        <value name="commandClass">com.softwareag.plm.spm.migrator.cmd.spm.CmdSPMJaasMigratorClient</value>        
+      </record>
+      <record name="SPMCTPConfMigrator" javaclass="com.wm.app.b2b.server.migrate.MigratorBeanData">
+        <value name="description">SPMMIGI0009</value>
+        <value name="migratorClass">com.softwareag.platform.migration.migrators.CTPConfMigrator</value>
+        <value name="commandClass">com.softwareag.plm.spm.migrator.cmd.spm.CmdSPMCTPConfMigratorClient</value>        
+      </record>
+      <record name="SPMPassmanMigrator" javaclass="com.wm.app.b2b.server.migrate.MigratorBeanData">
+        <value name="description">SPMMIGI0009</value>
+        <value name="migratorClass">com.softwareag.plm.spm.migrator.spm.SPMPassmanMigrator</value>
+        <value name="commandClass">com.softwareag.plm.spm.migrator.cmd.spm.CmdSPMPassmanMigratorClient</value>        
+      </record>
+      <record name="SPMSsoMigrator" javaclass="com.wm.app.b2b.server.migrate.MigratorBeanData">
+        <value name="description">SPMMIGI0009</value>
+        <value name="migratorClass">com.softwareag.platform.migration.migrators.SSOConfigurationMigrator</value>
+        <value name="commandClass">com.softwareag.plm.spm.migrator.cmd.spm.CmdSPMSsoMigratorClient</value>        
+      </record>
+      <record name="SPMCustomWrapperConfigurationMigrator" javaclass="com.wm.app.b2b.server.migrate.MigratorBeanData">
+        <value name="description">SPMMIGI0009</value>
+        <value name="migratorClass">com.softwareag.plm.migrator.CCCustomWrapperConfigurationMigrator</value>
+        <value name="commandClass">com.softwareag.plm.spm.migrator.cmd.spm.CmdSPMCustomWrapperConfMigratorClient</value>        
+      </record>
+    </record>
+  </record>
+  <record javaclass="com.wm.app.b2b.server.migrate.MigratorMappingBeanData">
+    <value name="srcVersion">10.1.0</value>
+    <value name="destVersion">10.7.0</value>
+    <value name="isOverInstall">false</value>
+    <record name="migrators" javaclass="com.wm.app.b2b.server.migrate.MigratorsHolderData">
+      <record name="SPMUsersGroupsMigrator" javaclass="com.wm.app.b2b.server.migrate.MigratorBeanData">
+        <value name="description">SPMMIGI0009</value>
+        <value name="migratorClass">com.softwareag.plm.spm.migrator.spm.SPMSingleVersionUsersGroupsMigrator</value>
+        <value name="commandClass">com.softwareag.plm.spm.migrator.cmd.spm.CmdSPMUsersGroupsMigratorClient</value>        
+      </record>
+      <record name="SPMRolesMigrator" javaclass="com.wm.app.b2b.server.migrate.MigratorBeanData">
+        <value name="description">SPMMIGI0009</value>
+        <value name="migratorClass">com.softwareag.platform.migration.migrators.JAASRolesMigrator</value>
+        <value name="commandClass">com.softwareag.plm.spm.migrator.cmd.spm.CmdSPMRolesMigratorClient</value>        
+      </record>
+      <record name="SPMJaasConfigMigrator" javaclass="com.wm.app.b2b.server.migrate.MigratorBeanData">
+        <value name="description">SPMMIGI0009</value>
+        <value name="migratorClass">com.softwareag.plm.spm.migrator.spm.SPMPost99JaasConfigurationMigrator</value>
+        <value name="commandClass">com.softwareag.plm.spm.migrator.cmd.spm.CmdSPMJaasMigratorClient</value>        
+      </record>
+      <record name="SPMCTPConfMigrator" javaclass="com.wm.app.b2b.server.migrate.MigratorBeanData">
+        <value name="description">SPMMIGI0009</value>
+        <value name="migratorClass">com.softwareag.platform.migration.migrators.CTPConfMigrator</value>
+        <value name="commandClass">com.softwareag.plm.spm.migrator.cmd.spm.CmdSPMCTPConfMigratorClient</value>        
+      </record>
+      <record name="SPMPassmanMigrator" javaclass="com.wm.app.b2b.server.migrate.MigratorBeanData">
+        <value name="description">SPMMIGI0009</value>
+        <value name="migratorClass">com.softwareag.plm.spm.migrator.spm.SPMPassmanMigrator</value>
+        <value name="commandClass">com.softwareag.plm.spm.migrator.cmd.spm.CmdSPMPassmanMigratorClient</value>        
+      </record>
+      <record name="SPMSsoMigrator" javaclass="com.wm.app.b2b.server.migrate.MigratorBeanData">
+        <value name="description">SPMMIGI0009</value>
+        <value name="migratorClass">com.softwareag.platform.migration.migrators.SSOConfigurationMigrator</value>
+        <value name="commandClass">com.softwareag.plm.spm.migrator.cmd.spm.CmdSPMSsoMigratorClient</value>        
+      </record>
+      <record name="SPMCustomWrapperConfigurationMigrator" javaclass="com.wm.app.b2b.server.migrate.MigratorBeanData">
+        <value name="description">SPMMIGI0009</value>
+        <value name="migratorClass">com.softwareag.plm.migrator.CCCustomWrapperConfigurationMigrator</value>
+        <value name="commandClass">com.softwareag.plm.spm.migrator.cmd.spm.CmdSPMCustomWrapperConfMigratorClient</value>        
+      </record>
+      <record name="SPMProxyMigrator" javaclass="com.wm.app.b2b.server.migrate.MigratorBeanData">
+        <value name="description">SPMMIGI0009</value>
+        <value name="migratorClass">com.softwareag.platform.migration.migrators.ProxyConfigurationMigrator</value>
+        <value name="commandClass">com.softwareag.plm.spm.migrator.cmd.spm.CmdSPMProxyMigratorPlatformClient</value>
+      </record>
+    </record>
+  </record>
+  <record javaclass="com.wm.app.b2b.server.migrate.MigratorMappingBeanData">
+    <value name="srcVersion">10.2.0</value>
+    <value name="destVersion">10.7.0</value>
+    <value name="isOverInstall">false</value>
+    <record name="migrators" javaclass="com.wm.app.b2b.server.migrate.MigratorsHolderData">
+      <record name="SPMUsersGroupsMigrator" javaclass="com.wm.app.b2b.server.migrate.MigratorBeanData">
+        <value name="description">SPMMIGI0009</value>
+        <value name="migratorClass">com.softwareag.plm.spm.migrator.spm.SPMSingleVersionUsersGroupsMigrator</value>
+        <value name="commandClass">com.softwareag.plm.spm.migrator.cmd.spm.CmdSPMUsersGroupsMigratorClient</value>        
+      </record>
+      <record name="SPMRolesMigrator" javaclass="com.wm.app.b2b.server.migrate.MigratorBeanData">
+        <value name="description">SPMMIGI0009</value>
+        <value name="migratorClass">com.softwareag.platform.migration.migrators.JAASRolesMigrator</value>
+        <value name="commandClass">com.softwareag.plm.spm.migrator.cmd.spm.CmdSPMRolesMigratorClient</value>        
+      </record>
+      <record name="SPMJaasConfigMigrator" javaclass="com.wm.app.b2b.server.migrate.MigratorBeanData">
+        <value name="description">SPMMIGI0009</value>
+        <value name="migratorClass">com.softwareag.plm.spm.migrator.spm.SPMPost99JaasConfigurationMigrator</value>
+        <value name="commandClass">com.softwareag.plm.spm.migrator.cmd.spm.CmdSPMJaasMigratorClient</value>        
+      </record>
+      <record name="SPMCTPConfMigrator" javaclass="com.wm.app.b2b.server.migrate.MigratorBeanData">
+        <value name="description">SPMMIGI0009</value>
+        <value name="migratorClass">com.softwareag.platform.migration.migrators.CTPConfMigrator</value>
+        <value name="commandClass">com.softwareag.plm.spm.migrator.cmd.spm.CmdSPMCTPConfMigratorClient</value>        
+      </record>
+      <record name="SPMPassmanMigrator" javaclass="com.wm.app.b2b.server.migrate.MigratorBeanData">
+        <value name="description">SPMMIGI0009</value>
+        <value name="migratorClass">com.softwareag.plm.spm.migrator.spm.SPMPassmanMigrator</value>
+        <value name="commandClass">com.softwareag.plm.spm.migrator.cmd.spm.CmdSPMPassmanMigratorClient</value>        
+      </record>
+      <record name="SPMSsoMigrator" javaclass="com.wm.app.b2b.server.migrate.MigratorBeanData">
+        <value name="description">SPMMIGI0009</value>
+        <value name="migratorClass">com.softwareag.platform.migration.migrators.SSOConfigurationMigrator</value>
+        <value name="commandClass">com.softwareag.plm.spm.migrator.cmd.spm.CmdSPMSsoMigratorClient</value>        
+      </record>
+      <record name="SPMCustomWrapperConfigurationMigrator" javaclass="com.wm.app.b2b.server.migrate.MigratorBeanData">
+        <value name="description">SPMMIGI0009</value>
+        <value name="migratorClass">com.softwareag.plm.migrator.CCCustomWrapperConfigurationMigrator</value>
+        <value name="commandClass">com.softwareag.plm.spm.migrator.cmd.spm.CmdSPMCustomWrapperConfMigratorClient</value>        
+      </record>
+      <record name="SPMProxyMigrator" javaclass="com.wm.app.b2b.server.migrate.MigratorBeanData">
+        <value name="description">SPMMIGI0009</value>
+        <value name="migratorClass">com.softwareag.platform.migration.migrators.ProxyConfigurationMigrator</value>
+        <value name="commandClass">com.softwareag.plm.spm.migrator.cmd.spm.CmdSPMProxyMigratorPlatformClient</value>
+      </record>
+    </record>
+  </record>
+    <record javaclass="com.wm.app.b2b.server.migrate.MigratorMappingBeanData">
+    <value name="srcVersion">10.3.0</value>
+    <value name="destVersion">10.7.0</value>
+    <value name="isOverInstall">false</value>
+    <record name="migrators" javaclass="com.wm.app.b2b.server.migrate.MigratorsHolderData">
+      <record name="SPMUsersGroupsMigrator" javaclass="com.wm.app.b2b.server.migrate.MigratorBeanData">
+        <value name="description">SPMMIGI0009</value>
+        <value name="migratorClass">com.softwareag.plm.spm.migrator.spm.SPMSingleVersionUsersGroupsMigrator</value>
+        <value name="commandClass">com.softwareag.plm.spm.migrator.cmd.spm.CmdSPMUsersGroupsMigratorClient</value>        
+      </record>
+      <record name="SPMRolesMigrator" javaclass="com.wm.app.b2b.server.migrate.MigratorBeanData">
+        <value name="description">SPMMIGI0009</value>
+        <value name="migratorClass">com.softwareag.platform.migration.migrators.JAASRolesMigrator</value>
+        <value name="commandClass">com.softwareag.plm.spm.migrator.cmd.spm.CmdSPMRolesMigratorClient</value>        
+      </record>
+      <record name="SPMJaasConfigMigrator" javaclass="com.wm.app.b2b.server.migrate.MigratorBeanData">
+        <value name="description">SPMMIGI0009</value>
+        <value name="migratorClass">com.softwareag.plm.spm.migrator.spm.SPMPost99JaasConfigurationMigrator</value>
+        <value name="commandClass">com.softwareag.plm.spm.migrator.cmd.spm.CmdSPMJaasMigratorClient</value>        
+      </record>
+      <record name="SPMCTPConfMigrator" javaclass="com.wm.app.b2b.server.migrate.MigratorBeanData">
+        <value name="description">SPMMIGI0009</value>
+        <value name="migratorClass">com.softwareag.platform.migration.migrators.CTPConfMigrator</value>
+        <value name="commandClass">com.softwareag.plm.spm.migrator.cmd.spm.CmdSPMCTPConfMigratorClient</value>        
+      </record>
+      <record name="SPMPassmanMigrator" javaclass="com.wm.app.b2b.server.migrate.MigratorBeanData">
+        <value name="description">SPMMIGI0009</value>
+        <value name="migratorClass">com.softwareag.plm.spm.migrator.spm.SPMPassmanMigrator</value>
+        <value name="commandClass">com.softwareag.plm.spm.migrator.cmd.spm.CmdSPMPassmanMigratorClient</value>        
+      </record>
+      <record name="SPMSsoMigrator" javaclass="com.wm.app.b2b.server.migrate.MigratorBeanData">
+        <value name="description">SPMMIGI0009</value>
+        <value name="migratorClass">com.softwareag.platform.migration.migrators.SSOConfigurationMigrator</value>
+        <value name="commandClass">com.softwareag.plm.spm.migrator.cmd.spm.CmdSPMSsoMigratorClient</value>        
+      </record>
+      <record name="SPMCustomWrapperConfigurationMigrator" javaclass="com.wm.app.b2b.server.migrate.MigratorBeanData">
+        <value name="description">SPMMIGI0009</value>
+        <value name="migratorClass">com.softwareag.plm.migrator.CCCustomWrapperConfigurationMigrator</value>
+        <value name="commandClass">com.softwareag.plm.spm.migrator.cmd.spm.CmdSPMCustomWrapperConfMigratorClient</value>        
+      </record>
+      <record name="SPMProxyMigrator" javaclass="com.wm.app.b2b.server.migrate.MigratorBeanData">
+        <value name="description">SPMMIGI0009</value>
+        <value name="migratorClass">com.softwareag.platform.migration.migrators.ProxyConfigurationMigrator</value>
+        <value name="commandClass">com.softwareag.plm.spm.migrator.cmd.spm.CmdSPMProxyMigratorPlatformClient</value>
+      </record>
+    </record>
+  </record>
+
+  <record javaclass="com.wm.app.b2b.server.migrate.MigratorMappingBeanData">
+    <value name="srcVersion">10.4.0</value>
+    <value name="destVersion">10.7.0</value>
+    <value name="isOverInstall">false</value>
+    <record name="migrators" javaclass="com.wm.app.b2b.server.migrate.MigratorsHolderData">
+      <record name="SPMUsersGroupsMigrator" javaclass="com.wm.app.b2b.server.migrate.MigratorBeanData">
+        <value name="description">SPMMIGI0009</value>
+        <value name="migratorClass">com.softwareag.plm.spm.migrator.spm.SPMSingleVersionUsersGroupsMigrator</value>
+        <value name="commandClass">com.softwareag.plm.spm.migrator.cmd.spm.CmdSPMUsersGroupsMigratorClient</value>        
+      </record>
+      <record name="SPMRolesMigrator" javaclass="com.wm.app.b2b.server.migrate.MigratorBeanData">
+        <value name="description">SPMMIGI0009</value>
+        <value name="migratorClass">com.softwareag.platform.migration.migrators.JAASRolesMigrator</value>
+        <value name="commandClass">com.softwareag.plm.spm.migrator.cmd.spm.CmdSPMRolesMigratorClient</value>        
+      </record>
+      <record name="SPMJaasConfigMigrator" javaclass="com.wm.app.b2b.server.migrate.MigratorBeanData">
+        <value name="description">SPMMIGI0009</value>
+        <value name="migratorClass">com.softwareag.plm.spm.migrator.spm.SPMPost99JaasConfigurationMigrator</value>
+        <value name="commandClass">com.softwareag.plm.spm.migrator.cmd.spm.CmdSPMJaasMigratorClient</value>        
+      </record>
+      <record name="SPMCTPConfMigrator" javaclass="com.wm.app.b2b.server.migrate.MigratorBeanData">
+        <value name="description">SPMMIGI0009</value>
+        <value name="migratorClass">com.softwareag.platform.migration.migrators.CTPConfMigrator</value>
+        <value name="commandClass">com.softwareag.plm.spm.migrator.cmd.spm.CmdSPMCTPConfMigratorClient</value>        
+      </record>
+      <record name="SPMPassmanMigrator" javaclass="com.wm.app.b2b.server.migrate.MigratorBeanData">
+        <value name="description">SPMMIGI0009</value>
+        <value name="migratorClass">com.softwareag.plm.spm.migrator.spm.SPMPassmanMigrator</value>
+        <value name="commandClass">com.softwareag.plm.spm.migrator.cmd.spm.CmdSPMPassmanMigratorClient</value>        
+      </record>
+      <record name="SPMSsoMigrator" javaclass="com.wm.app.b2b.server.migrate.MigratorBeanData">
+        <value name="description">SPMMIGI0009</value>
+        <value name="migratorClass">com.softwareag.platform.migration.migrators.SSOConfigurationMigrator</value>
+        <value name="commandClass">com.softwareag.plm.spm.migrator.cmd.spm.CmdSPMSsoMigratorClient</value>        
+      </record>
+      <record name="SPMCustomWrapperConfigurationMigrator" javaclass="com.wm.app.b2b.server.migrate.MigratorBeanData">
+        <value name="description">SPMMIGI0009</value>
+        <value name="migratorClass">com.softwareag.plm.migrator.CCCustomWrapperConfigurationMigrator</value>
+        <value name="commandClass">com.softwareag.plm.spm.migrator.cmd.spm.CmdSPMCustomWrapperConfMigratorClient</value>        
+      </record>
+      <record name="SPMProxyMigrator" javaclass="com.wm.app.b2b.server.migrate.MigratorBeanData">
+        <value name="description">SPMMIGI0009</value>
+        <value name="migratorClass">com.softwareag.platform.migration.migrators.ProxyConfigurationMigrator</value>
+        <value name="commandClass">com.softwareag.plm.spm.migrator.cmd.spm.CmdSPMProxyMigratorPlatformClient</value>
+      </record>
+    </record>
+  </record>
+
+  <record javaclass="com.wm.app.b2b.server.migrate.MigratorMappingBeanData">
+    <value name="srcVersion">10.5.0</value>
+    <value name="destVersion">10.7.0</value>
+    <value name="isOverInstall">false</value>
+    <record name="migrators" javaclass="com.wm.app.b2b.server.migrate.MigratorsHolderData">
+      <record name="SPMUsersGroupsMigrator" javaclass="com.wm.app.b2b.server.migrate.MigratorBeanData">
+        <value name="description">SPMMIGI0009</value>
+        <value name="migratorClass">com.softwareag.plm.spm.migrator.spm.SPMSingleVersionUsersGroupsMigrator</value>
+        <value name="commandClass">com.softwareag.plm.spm.migrator.cmd.spm.CmdSPMUsersGroupsMigratorClient</value>        
+      </record>
+      <record name="SPMRolesMigrator" javaclass="com.wm.app.b2b.server.migrate.MigratorBeanData">
+        <value name="description">SPMMIGI0009</value>
+        <value name="migratorClass">com.softwareag.platform.migration.migrators.JAASRolesMigrator</value>
+        <value name="commandClass">com.softwareag.plm.spm.migrator.cmd.spm.CmdSPMRolesMigratorClient</value>        
+      </record>
+      <record name="SPMJaasConfigMigrator" javaclass="com.wm.app.b2b.server.migrate.MigratorBeanData">
+        <value name="description">SPMMIGI0009</value>
+        <value name="migratorClass">com.softwareag.plm.spm.migrator.spm.SPMPost99JaasConfigurationMigrator</value>
+        <value name="commandClass">com.softwareag.plm.spm.migrator.cmd.spm.CmdSPMJaasMigratorClient</value>        
+      </record>
+      <record name="SPMCTPConfMigrator" javaclass="com.wm.app.b2b.server.migrate.MigratorBeanData">
+        <value name="description">SPMMIGI0009</value>
+        <value name="migratorClass">com.softwareag.platform.migration.migrators.CTPConfMigrator</value>
+        <value name="commandClass">com.softwareag.plm.spm.migrator.cmd.spm.CmdSPMCTPConfMigratorClient</value>        
+      </record>
+      <record name="SPMPassmanMigrator" javaclass="com.wm.app.b2b.server.migrate.MigratorBeanData">
+        <value name="description">SPMMIGI0009</value>
+        <value name="migratorClass">com.softwareag.plm.spm.migrator.spm.SPMPassmanMigrator</value>
+        <value name="commandClass">com.softwareag.plm.spm.migrator.cmd.spm.CmdSPMPassmanMigratorClient</value>        
+      </record>
+      <record name="SPMSsoMigrator" javaclass="com.wm.app.b2b.server.migrate.MigratorBeanData">
+        <value name="description">SPMMIGI0009</value>
+        <value name="migratorClass">com.softwareag.platform.migration.migrators.SSOConfigurationMigrator</value>
+        <value name="commandClass">com.softwareag.plm.spm.migrator.cmd.spm.CmdSPMSsoMigratorClient</value>        
+      </record>
+      <record name="SPMCustomWrapperConfigurationMigrator" javaclass="com.wm.app.b2b.server.migrate.MigratorBeanData">
+        <value name="description">SPMMIGI0009</value>
+        <value name="migratorClass">com.softwareag.plm.migrator.CCCustomWrapperConfigurationMigrator</value>
+        <value name="commandClass">com.softwareag.plm.spm.migrator.cmd.spm.CmdSPMCustomWrapperConfMigratorClient</value>        
+      </record>
+      <record name="SPMProxyMigrator" javaclass="com.wm.app.b2b.server.migrate.MigratorBeanData">
+        <value name="description">SPMMIGI0009</value>
+        <value name="migratorClass">com.softwareag.platform.migration.migrators.ProxyConfigurationMigrator</value>
+        <value name="commandClass">com.softwareag.plm.spm.migrator.cmd.spm.CmdSPMProxyMigratorPlatformClient</value>
+      </record>
+    </record>
+  </record>
+
+  <record javaclass="com.wm.app.b2b.server.migrate.MigratorMappingBeanData">
+    <value name="srcVersion">10.7.0</value>
+    <value name="destVersion">10.7.0</value>
+    <value name="isOverInstall">false</value>
+    <record name="migrators" javaclass="com.wm.app.b2b.server.migrate.MigratorsHolderData">
+      <record name="SPMUsersGroupsMigrator" javaclass="com.wm.app.b2b.server.migrate.MigratorBeanData">
+        <value name="description">SPMMIGI0009</value>
+        <value name="migratorClass">com.softwareag.plm.spm.migrator.spm.SPMSingleVersionUsersGroupsMigrator</value>
+        <value name="commandClass">com.softwareag.plm.spm.migrator.cmd.spm.CmdSPMUsersGroupsMigratorClient</value>        
+      </record>
+      <record name="SPMRolesMigrator" javaclass="com.wm.app.b2b.server.migrate.MigratorBeanData">
+        <value name="description">SPMMIGI0009</value>
+        <value name="migratorClass">com.softwareag.platform.migration.migrators.JAASRolesMigrator</value>
+        <value name="commandClass">com.softwareag.plm.spm.migrator.cmd.spm.CmdSPMRolesMigratorClient</value>        
+      </record>
+      <record name="SPMJaasConfigMigrator" javaclass="com.wm.app.b2b.server.migrate.MigratorBeanData">
+        <value name="description">SPMMIGI0009</value>
+        <value name="migratorClass">com.softwareag.plm.spm.migrator.spm.SPMPost99JaasConfigurationMigrator</value>
+        <value name="commandClass">com.softwareag.plm.spm.migrator.cmd.spm.CmdSPMJaasMigratorClient</value>        
+      </record>
+      <record name="SPMCTPConfMigrator" javaclass="com.wm.app.b2b.server.migrate.MigratorBeanData">
+        <value name="description">SPMMIGI0009</value>
+        <value name="migratorClass">com.softwareag.platform.migration.migrators.CTPConfMigrator</value>
+        <value name="commandClass">com.softwareag.plm.spm.migrator.cmd.spm.CmdSPMCTPConfMigratorClient</value>        
+      </record>
+      <record name="SPMPassmanMigrator" javaclass="com.wm.app.b2b.server.migrate.MigratorBeanData">
+        <value name="description">SPMMIGI0009</value>
+        <value name="migratorClass">com.softwareag.plm.spm.migrator.spm.SPMPassmanMigrator</value>
+        <value name="commandClass">com.softwareag.plm.spm.migrator.cmd.spm.CmdSPMPassmanMigratorClient</value>        
+      </record>
+      <record name="SPMSsoMigrator" javaclass="com.wm.app.b2b.server.migrate.MigratorBeanData">
+        <value name="description">SPMMIGI0009</value>
+        <value name="migratorClass">com.softwareag.platform.migration.migrators.SSOConfigurationMigrator</value>
+        <value name="commandClass">com.softwareag.plm.spm.migrator.cmd.spm.CmdSPMSsoMigratorClient</value>        
+      </record>
+      <record name="SPMCustomWrapperConfigurationMigrator" javaclass="com.wm.app.b2b.server.migrate.MigratorBeanData">
+        <value name="description">SPMMIGI0009</value>
+        <value name="migratorClass">com.softwareag.plm.migrator.CCCustomWrapperConfigurationMigrator</value>
+        <value name="commandClass">com.softwareag.plm.spm.migrator.cmd.spm.CmdSPMCustomWrapperConfMigratorClient</value>        
+      </record>
+      <record name="SPMProxyMigrator" javaclass="com.wm.app.b2b.server.migrate.MigratorBeanData">
+        <value name="description">SPMMIGI0009</value>
+        <value name="migratorClass">com.softwareag.platform.migration.migrators.ProxyConfigurationMigrator</value>
+        <value name="commandClass">com.softwareag.plm.spm.migrator.cmd.spm.CmdSPMProxyMigratorPlatformClient</value>
+      </record>
+    </record>
+  </record>
+ </record>
+</IDataXMLCoder>

@@ -1,0 +1,140 @@
+                      Shared Libraries Light Weight Queue 10.7 Fix 1 readme
+
+                                          April 2021
+
+____________________________________________________________________________________________________
+
+1.0   Fix Name
+2.0   Fix ID
+3.0   Product(s)/Component(s) Affected
+4.0   Requirements and Dependencies
+5.0   Platform Support
+6.0   Cautions and Warnings
+7.0   Fix Contents
+8.0   Installation
+9.0   Uninstallation
+10.0  Globalization
+11.0  Copyright
+____________________________________________________________________________________________________
+
+
+1.0   Fix Name
+
+Shared Libraries Light Weight Queue 10.7 Fix 1
+
+
+
+2.0   Fix ID
+
+WSC_10.7_LWQ_Fix1
+
+
+
+3.0   Product(s)/Component(s) Affected
+
+This fix affects the common libraries installed with your webMethods products.
+
+
+
+4.0   Requirements and Dependencies
+
+None
+
+For language pack requirements, see the Globalization section of the Software AG Empower Product 
+Support website at https://empower.softwareag.com/Products/Globalization/default.asp
+
+
+
+5.0   Platform Support
+
+Same platforms as product release.
+
+
+6.0   Cautions and Warnings
+
+None.
+
+
+
+7.0   Fix Contents
+
+In addition to including resolutions to product defects, a fix may also include enhancements to 
+existing functionality and features. Any of these items can result in new or changed built-in services,
+APIs, or configuration parameters. Review the fix contents carefully before installing the fix.
+
+This fix is cumulative, which means that it includes all previous fixes for the release.
+
+PIF-15056
+My webMethods Server reports the following error under a high workload:
+[TE Task Timed Event Handler ] - Cannot handle BLOB. ERROR XJ076: The position argument '389'
+exceeds the size of the BLOB/CLOB.
+at org.apache.derby.impl.jdbc.Util.newIOException
+at org.apache.derby.impl.jdbc.LOBInputStream.read
+...
+at com.webmethods.lwq.ext.FifoQueue.peek
+at com.webmethods.lwq.impl.QueueMode.peek
+
+This issue occurs because event peek operation is not thread-safe. This not only causes peek to fail
+as reported in the above error, but also cause issues in insert/remove operations.
+
+This issue is resolved.
+
+
+
+8.0   Installation
+
+Install using Software AG Update Manager. For instructions, see the documentation at 
+http://documentation.softwareag.com.
+
+Install following fixes in Software AG Update Manager:
+- Infrastructure > Libraries > Shared Libraries Light Weight Queue 10.7 Fix 1
+
+
+
+9.0   Uninstallation
+
+Note: These instructions can only be used to uninstall the most recently installed fix. This action
+will revert your installation to the previously installed fix. You cannot use these instructions to
+uninstall the previously installed fix.
+
+Uninstall using Software AG Update Manager. For instructions, see the documentation at 
+http://documentation.softwareag.com.
+
+
+
+10.0  Globalization
+
+This fix conforms to the internationalization standards of the webMethods product suite and includes 
+support for operation in any country, locale, or language as specified in the Installing webMethods 
+Products guide. It was not tested with non-English configurations and non-ASCII data. However, this 
+fix has no globalization impact and can be applied to systems running in any supported locale or 
+configuration.
+
+
+10.1 Localization
+
+This fix does not require an updated language pack. It might contain new messages and these messages 
+will appear in English.
+
+
+
+11.0  Copyright
+
+Copyright © 2021 Software AG, Darmstadt, Germany and/or Software AG USA Inc., Reston, VA, USA,
+and/or its subsidiaries and/or its affiliates and/or their licensors.
+
+The name Software AG and all Software AG product names are either trademarks or registered
+trademarks of Software AG and/or Software AG USA Inc. and/or its subsidiaries and/or its affiliates
+and/or their licensors. Other company and product names mentioned herein may be trademarks of their
+respective owners.
+
+Detailed information on trademarks and patents owned by Software AG and/or its subsidiaries is
+located at http://softwareag.com/licenses .
+
+This software may include portions of third-party products. For third-party copyright notices,
+license terms, additional rights or restrictions, please refer to "License Texts, Copyright Notices
+and Disclaimers of Third Party Products". For certain specific third-party license restrictions,
+please refer to section E of the Legal Notices available under "License Terms and Conditions for Use
+of Software AG Products / Copyright and Trademark Notices of Software AG Products". These documents
+are part of the product documentation, located at http://softwareag.com/licenses and/or in the root
+installation directory of the licensed product(s).

@@ -1,0 +1,55 @@
+
+if not exists (select * from dbo.sysobjects where id = object_id(N'[COMPONENT_EVENT]') and OBJECTPROPERTY(id, N'IsUserTable') = 1 and uid=schema_id())
+begin
+
+	CREATE TABLE COMPONENT_EVENT (
+	       COMPONENT_EVENT_ID   bigint IDENTITY(1,1),
+	       COMPONENT_CD         nvarchar(50) NOT NULL,
+	       COMPONENT_DESC       nvarchar(50) NULL,
+	       COMPONENT_EVENT      nvarchar(30) NULL,
+	       COMPONENT_LEVEL      nvarchar(30) NULL,
+	       EVENT_DT             datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
+		   CTRL_INSERT_DT  datetime  NOT NULL 
+			 DEFAULT  getdate(),
+		   CTRL_UPDATE_DT  datetime  NOT NULL 
+			 DEFAULT  getdate()
+	)
+	
+	
+	ALTER TABLE COMPONENT_EVENT
+	       ADD PRIMARY KEY (COMPONENT_EVENT_ID ASC)
+
+end
+
+go
+
+
+IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.VIEWS
+        WHERE TABLE_NAME = 'INSTALLED_COMPONENT' AND TABLE_SCHEMA=schema_name())
+
+    DROP VIEW INSTALLED_COMPONENT
+go
+
+
+CREATE VIEW INSTALLED_COMPONENT
+AS
+SELECT 
+    DISTINCT COMPONENT_CD, COMPONENT_LEVEL, COMPONENT_DESC 
+FROM 
+    COMPONENT_EVENT 
+WHERE 
+    COMPONENT_EVENT            NOT IN ('UNINSTALL','MIGRATE')
+    AND COMPONENT_EVENT_ID NOT IN 
+    ( 
+    SELECT 
+        E1.COMPONENT_EVENT_ID 
+    FROM 
+        COMPONENT_EVENT E1, 
+        COMPONENT_EVENT E2 
+    WHERE 
+        E1.COMPONENT_EVENT     = 'INSTALL'
+        AND E1.COMPONENT_CD    = E2.COMPONENT_CD 
+        AND E1.COMPONENT_EVENT_ID    < E2.COMPONENT_EVENT_ID
+    )
+
+go

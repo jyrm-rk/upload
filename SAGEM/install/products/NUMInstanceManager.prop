@@ -1,0 +1,62 @@
+
+product=e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMInstanceManager
+
+e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMInstanceManager/children=NUMInstanceManager-W64-Any
+
+## Product e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMInstanceManager properties ##
+
+e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMInstanceManager/props=developmentServer,displayDescript,displayGroup,displayName,displayNameVersionFormat,flags,group,installDirNUM,lengthGroupVersionString,lengthVersionString,productDir,requiresRegexp,resourceBundle,resourceJars,sagProductCode,sortHint,supplantLevel,tanukiWrapperVer,user_hints,installDate
+e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMInstanceManager/props/developmentServer=true
+e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMInstanceManager/props/displayDescript=NUMInstanceManager.displayDescript
+e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMInstanceManager/props/displayGroup=NUMInstanceManager.displayGroup
+e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMInstanceManager/props/displayName=NUMInstanceManager.displayName
+e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMInstanceManager/props/displayNameVersionFormat=%1.%2 SP%3
+e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMInstanceManager/props/flags=ProgramFilesType,ProvisioningDownload,NoDirectSelection
+e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMInstanceManager/props/group=UniversalMessaging
+e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMInstanceManager/props/installDirNUM=UniversalMessaging
+e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMInstanceManager/props/lengthGroupVersionString=0
+e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMInstanceManager/props/lengthVersionString=2
+e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMInstanceManager/props/productDir=UniversalMessaging
+e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMInstanceManager/props/requiresRegexp=e2ei/11/.*/.*/NUMspm,e2ei/11/.*/.*/WISSharedLibs,e2ei/11/.*/.*/jsw
+e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMInstanceManager/props/resourceBundle=com.softwareag.num.install.NUMInstanceManagerInstallMessages
+e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMInstanceManager/props/resourceJars=NUMInstanceManagerInstallMessages-ALL-Any
+e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMInstanceManager/props/sagProductCode=NUM
+e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMInstanceManager/props/sortHint=5.0
+e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMInstanceManager/props/supplantLevel=3
+e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMInstanceManager/props/tanukiWrapperVer=3.5.43
+e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMInstanceManager/props/user_hints=enable
+e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMInstanceManager/props/installDate=1635224365681
+
+## Product e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMInstanceManager jars ##
+
+e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMInstanceManager/jars=NUMInstanceManagerInstallMessages-ALL-Any
+e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMInstanceManager/jars/NUMInstanceManagerInstallMessages-ALL-Any/props=jar_version,md5,size,timestamp,type
+e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMInstanceManager/jars/NUMInstanceManagerInstallMessages-ALL-Any/props/jar_version=10.7.0.0000.136016
+e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMInstanceManager/jars/NUMInstanceManagerInstallMessages-ALL-Any/props/md5=b7dbec1596c87e55555c259775384355
+e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMInstanceManager/jars/NUMInstanceManagerInstallMessages-ALL-Any/props/size=1223
+e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMInstanceManager/jars/NUMInstanceManagerInstallMessages-ALL-Any/props/timestamp=1599492560
+e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMInstanceManager/jars/NUMInstanceManagerInstallMessages-ALL-Any/props/type=resourceJar
+## Product e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMInstanceManager components ##
+
+## Buildmodule info for e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMInstanceManager/NUMInstanceManager-W64-Any ##
+
+e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMInstanceManager/NUMInstanceManager-W64-Any/children=BM_NUM_IMInstanceConfiguration-ALL-Any,BM_NUM_InstanceManager-ALL-Any,BM_NUM_InstanceManager-W64-Any
+e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMInstanceManager/NUMInstanceManager-W64-Any/BM_NUM_IMInstanceConfiguration-ALL-Any/props=compressed_size,expanded_size,md5,timestamp,version
+e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMInstanceManager/NUMInstanceManager-W64-Any/BM_NUM_IMInstanceConfiguration-ALL-Any/props/compressed_size=1268
+e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMInstanceManager/NUMInstanceManager-W64-Any/BM_NUM_IMInstanceConfiguration-ALL-Any/props/expanded_size=1184
+e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMInstanceManager/NUMInstanceManager-W64-Any/BM_NUM_IMInstanceConfiguration-ALL-Any/props/md5=a38c9dac0f7f398a7f2ca4cd9435e62f
+e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMInstanceManager/NUMInstanceManager-W64-Any/BM_NUM_IMInstanceConfiguration-ALL-Any/props/timestamp=1599492560
+e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMInstanceManager/NUMInstanceManager-W64-Any/BM_NUM_IMInstanceConfiguration-ALL-Any/props/version=10.7.0.0.136016
+e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMInstanceManager/NUMInstanceManager-W64-Any/BM_NUM_InstanceManager-ALL-Any/props=compressed_size,expanded_size,md5,timestamp,version
+e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMInstanceManager/NUMInstanceManager-W64-Any/BM_NUM_InstanceManager-ALL-Any/props/compressed_size=54679
+e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMInstanceManager/NUMInstanceManager-W64-Any/BM_NUM_InstanceManager-ALL-Any/props/expanded_size=56160
+e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMInstanceManager/NUMInstanceManager-W64-Any/BM_NUM_InstanceManager-ALL-Any/props/md5=2903d1cdeeaa703c23c1f6b6ee0fe257
+e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMInstanceManager/NUMInstanceManager-W64-Any/BM_NUM_InstanceManager-ALL-Any/props/timestamp=1599492560
+e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMInstanceManager/NUMInstanceManager-W64-Any/BM_NUM_InstanceManager-ALL-Any/props/version=10.7.0.0.136016
+e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMInstanceManager/NUMInstanceManager-W64-Any/BM_NUM_InstanceManager-W64-Any/props=compressed_size,expanded_size,md5,timestamp,version
+e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMInstanceManager/NUMInstanceManager-W64-Any/BM_NUM_InstanceManager-W64-Any/props/compressed_size=389668
+e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMInstanceManager/NUMInstanceManager-W64-Any/BM_NUM_InstanceManager-W64-Any/props/expanded_size=839618
+e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMInstanceManager/NUMInstanceManager-W64-Any/BM_NUM_InstanceManager-W64-Any/props/md5=8db78c8195cc26126d957e0db94abea4
+e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMInstanceManager/NUMInstanceManager-W64-Any/BM_NUM_InstanceManager-W64-Any/props/timestamp=1599492560
+e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMInstanceManager/NUMInstanceManager-W64-Any/BM_NUM_InstanceManager-W64-Any/props/version=10.7.0.0.136016
+

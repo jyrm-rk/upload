@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><Server>
+	<Service name="Catalina">
+		<Listener className="com.softwareag.platform.catalina.registrator.OsgiServiceRegistrator"/>
+		<Engine defaultHost="localhost" name="Catalina">
+			<Realm className="org.apache.catalina.realm.LockOutRealm"/>
+			<Host appBase="C:\temp\SAGEM\profiles\SPM\workspace\webapps" autoDeploy="false" deployOnStartup="false" errorReportValveClass="com.softwareag.platform.catalina.valves.SagErrorReportValve" name="localhost" unpackWARs="false" workDir="C:\temp\SAGEM\profiles\SPM\workspace\work"/>
+		</Engine>
+	</Service>
+</Server>

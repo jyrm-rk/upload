@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<repository name='broker-shared' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1'>
+  <properties size='2'>
+    <property name='p2.timestamp' value='1567122273127'/>
+    <property name='p2.compressed' value='false'/>
+  </properties>
+  <mappings size='3'>
+    <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
+    <rule filter='(&amp; (classifier=binary))' output='${repoUrl}/binary/${id}_${version}'/>
+    <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
+  </mappings>
+  <artifacts size='9'>
+    <artifact classifier='osgi.bundle' id='com.softwareag.mom.broker.jms.client' version='10.5.0.0000-0272'>
+      <properties size='5'>
+        <property name='artifact.size' value='755786'/>
+        <property name='download.size' value='755786'/>
+        <property name='download.md5' value='bcbf74028d22f95cd383f1dd3d8f9d09'/>
+        <property name='download.checksum.md5' value='bcbf74028d22f95cd383f1dd3d8f9d09'/>
+        <property name='download.checksum.sha-256' value='e318ee32afbcd8cd7be99c2bab4e59237bc7f10841ac9bfd413aa29c8bd502f2'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='com.softwareag.mom.broker.shared.deployer.feature' version='10.5.0.0000-0272'>
+      <properties size='6'>
+        <property name='artifact.size' value='3190'/>
+        <property name='download.size' value='3190'/>
+        <property name='download.md5' value='9d39fc7dbad585224a4911cb06f7b3bb'/>
+        <property name='download.checksum.md5' value='9d39fc7dbad585224a4911cb06f7b3bb'/>
+        <property name='download.checksum.sha-256' value='c72e3827101058a8f1f5dc8ab8c72a3f04d939ffad7a8a8dfcb23647bf3f878b'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='com.softwareag.mom.broker.shared.java.feature' version='10.5.0.0000-0272'>
+      <properties size='6'>
+        <property name='artifact.size' value='3171'/>
+        <property name='download.size' value='3171'/>
+        <property name='download.md5' value='385b943d75f2e21af43dd854e0641175'/>
+        <property name='download.checksum.md5' value='385b943d75f2e21af43dd854e0641175'/>
+        <property name='download.checksum.sha-256' value='ec78c0c8b87098dc15dfd0fc0267416dc3149d6304c875703d6eea1f44f02bd1'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.softwareag.mom.broker.deployer' version='10.5.0.0000-0272'>
+      <properties size='5'>
+        <property name='artifact.size' value='154427'/>
+        <property name='download.size' value='154427'/>
+        <property name='download.md5' value='b99d5ce145bd0576c23f62df92f895ec'/>
+        <property name='download.checksum.md5' value='b99d5ce145bd0576c23f62df92f895ec'/>
+        <property name='download.checksum.sha-256' value='49f758adaaf83cbbf496a3a4e50d1dadb7060968451a1ad9baa8d78e2324fdfc'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='com.softwareag.mom.broker.shared.jms.feature' version='10.5.0.0000-0272'>
+      <properties size='6'>
+        <property name='artifact.size' value='3193'/>
+        <property name='download.size' value='3193'/>
+        <property name='download.md5' value='db3116dcfbf1d2be3a6e1c0cbbce1bba'/>
+        <property name='download.checksum.md5' value='db3116dcfbf1d2be3a6e1c0cbbce1bba'/>
+        <property name='download.checksum.sha-256' value='501e178a4fa1f65ce895d380f053c3f467f7d55550d52a757280e5434c11f09f'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.softwareag.mom.broker.jms.naming' version='10.5.0.0000-0272'>
+      <properties size='5'>
+        <property name='artifact.size' value='48097'/>
+        <property name='download.size' value='48097'/>
+        <property name='download.md5' value='ea7aa8793bf0a64d8790b1d64e298da0'/>
+        <property name='download.checksum.md5' value='ea7aa8793bf0a64d8790b1d64e298da0'/>
+        <property name='download.checksum.sha-256' value='ee27daf64e203259a5e953da7310e30e01d97f4364314eb42bda1ff53c22effb'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='com.softwareag.mom.broker.shared.feature' version='10.5.0.0000-0272'>
+      <properties size='6'>
+        <property name='artifact.size' value='3195'/>
+        <property name='download.size' value='3195'/>
+        <property name='download.md5' value='854b4198915883d728d979937a2e6742'/>
+        <property name='download.checksum.md5' value='854b4198915883d728d979937a2e6742'/>
+        <property name='download.checksum.sha-256' value='ec9876e8641bb2ac87e0a31faa3580d7d0e78edef1d275b3a85c440b99bb6cfb'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.softwareag.mom.broker.java.client' version='10.5.0.0000-0272'>
+      <properties size='5'>
+        <property name='artifact.size' value='986196'/>
+        <property name='download.size' value='986196'/>
+        <property name='download.md5' value='47bd0ee3707bf183d5c2cbc4b3928713'/>
+        <property name='download.checksum.md5' value='47bd0ee3707bf183d5c2cbc4b3928713'/>
+        <property name='download.checksum.sha-256' value='eaab7de90729fd601dfb3607eaee64685783849972a4255e286cdd2210d536ed'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.softwareag.mom.broker.jms.admin' version='10.5.0.0000-0272'>
+      <properties size='5'>
+        <property name='artifact.size' value='258046'/>
+        <property name='download.size' value='258046'/>
+        <property name='download.md5' value='f8f28db54dba249ff2f8ad1c0307c650'/>
+        <property name='download.checksum.md5' value='f8f28db54dba249ff2f8ad1c0307c650'/>
+        <property name='download.checksum.sha-256' value='683fe51c4da2113d943f90d0485a93867791ff5d9ed89c320908355efb7964ef'/>
+      </properties>
+    </artifact>
+  </artifacts>
+</repository>

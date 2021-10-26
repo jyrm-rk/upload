@@ -1,0 +1,9 @@
+name=e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMEnterpriseManager/NUMEnterpriseManager-W64-Any/BM_NUM_EMInstanceConfiguration-ALL-Any
+version=10.7.0.0.136016
+timestamp=1599492560
+
+install/
+install/configurations/
+install/
+0755 install/configurations/NUMEnterpriseManager.zip
+install/configurations/

@@ -1,0 +1,10 @@
+#This property file stores properties for this installation
+#Tue Oct 26 10:29:03 IST 2021
+hostname=SAG-GY5L573
+dataModel=64
+installerServerVersion=Version 10.7.0.0.391 071321
+installDir=C\:\\temp\\SAGEM
+JVMHomeRel=jvm\\jvm
+JVMHomeAbs=C\:\\temp\\SAGEM\\jvm\\jvm
+installerClientVersion=Version 10.7.0.0.391 071321
+startMenuFolder=Temp SAG EM

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<IDataXMLCoder version="1.0">
+  <record javaclass="com.wm.util.Values">
+    <record name="CommonConfConfigurationMigrator" javaclass="com.wm.util.Values">
+      <value name="isSelected">true</value>
+    </record>
+    <value name="srcVersion">10.2.0</value>
+    <value name="destVersion">10.7.0</value>
+    <value name="isOverInstall">false</value>
+  </record>
+</IDataXMLCoder>

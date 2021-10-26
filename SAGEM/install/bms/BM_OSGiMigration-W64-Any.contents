@@ -1,0 +1,30 @@
+name=e2ei/11/OSGI_10.7.0.0.635/Platform/OSGI/OSGI-W64-Any/BM_OSGiMigration-W64-Any
+version=10.7.0.0.635
+timestamp=1599492568
+
+common/
+common/migrate/
+common/
+common/migrate/osgi/
+common/migrate/
+common/migrate/osgi/bin/
+common/migrate/osgi/
+0755 common/migrate/osgi/bin/log4j2.properties
+common/migrate/osgi/bin/
+0755 common/migrate/osgi/bin/migrate.bat
+0755 common/migrate/osgi/bin/migrate1000sbs.dat
+0755 common/migrate/osgi/bin/migrate1010sbs.dat
+0755 common/migrate/osgi/bin/migrate1020sbs.dat
+0755 common/migrate/osgi/bin/migrate1030sbs.dat
+0755 common/migrate/osgi/bin/migrate1040sbs.dat
+0755 common/migrate/osgi/bin/migrate1050sbs.dat
+0755 common/migrate/osgi/bin/migrate1070sbs.dat
+0755 common/migrate/osgi/bin/migrate901sbs.dat
+0755 common/migrate/osgi/bin/migrate9100sbs.dat
+0755 common/migrate/osgi/bin/migrate9120sbs.dat
+0755 common/migrate/osgi/bin/migrate951sbs.dat
+0755 common/migrate/osgi/bin/migrate960sbs.dat
+0755 common/migrate/osgi/bin/migrate970sbs.dat
+0755 common/migrate/osgi/bin/migrate980sbs.dat
+0755 common/migrate/osgi/bin/migrate990sbs.dat
+0755 common/migrate/osgi/bin/platform-migration.jar

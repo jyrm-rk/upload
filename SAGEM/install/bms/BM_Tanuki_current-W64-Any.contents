@@ -1,0 +1,16 @@
+name=e2ei/11/TPS_10.7.0.0.224/SCG/jsw/jsw-W64-Any/BM_Tanuki_current-W64-Any
+version=10.7.0.0.224
+timestamp=1599492582
+
+common/
+common/bin/
+common/
+common/lib/
+common/lib/tw-3.5.43/
+common/lib/
+0755 common/bin/wrapper-3.5.43.exe
+common/bin/
+0755 common/bin/wrapperw-3.5.43.exe
+0755 common/lib/tw-3.5.43/wrapper.dll
+common/lib/tw-3.5.43/
+0755 common/lib/tw-3.5.43/wrapper.jar

@@ -1,0 +1,8 @@
+eclipse.preferences.version=1
+repositories/jar\:file\:_C\:_SoftwareAG107_wM107Image.zip\!/enabled=true
+repositories/jar\:file\:_C\:_SoftwareAG107_wM107Image.zip\!/isSystem=false
+repositories/jar\:file\:_C\:_SoftwareAG107_wM107Image.zip\!/name=Fix Metadata Repository
+repositories/jar\:file\:_C\:_SoftwareAG107_wM107Image.zip\!/suffix=content.xml
+repositories/jar\:file\:_C\:_SoftwareAG107_wM107Image.zip\!/type=org.eclipse.equinox.internal.p2.metadata.repository.LocalMetadataRepository
+repositories/jar\:file\:_C\:_SoftwareAG107_wM107Image.zip\!/uri=jar\:file\:/C\:/SoftwareAG107/wM107Image.zip\!/
+repositories/jar\:file\:_C\:_SoftwareAG107_wM107Image.zip\!/version=1.0.0

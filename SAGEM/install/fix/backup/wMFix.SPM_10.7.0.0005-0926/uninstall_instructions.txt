@@ -1,0 +1,2 @@
+uninstall.phase4=osgiUninstall(uninstallIU:com.softwareag.plm.spm.core.feature.patch.feature.group/10.7.0.0005-0926,com.softwareag.plm.spm.plugins.feature.patch.feature.group/10.7.0.0005-0926,com.softwareag.plm.spm.host.feature.patch.feature.group/10.7.0.0005-0926,com.softwareag.plm.spm.asset.feature.patch.feature.group/10.7.0.0005-0926,com.softwareag.plm.spm.metering.feature.patch.feature.group/10.7.0.0005-0926,repository:common/runtime/bundles/spm/eclipse,profile:minimal,profileRepo:/profiles/SPM);
+uninstall.phase3=osgiShutdown(profile:SPM);

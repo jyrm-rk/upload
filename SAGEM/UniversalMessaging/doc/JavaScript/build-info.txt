@@ -1,0 +1,7 @@
+2021-07-16_15:36:45
+vmtest
+https://10.21.65.45/um/branches/rel/10.7.0.x/
+10.7.0.3.140269
+http://umjenkins107.eur.ad.sag:8080/job/10.7_publish/1029/
+
+    

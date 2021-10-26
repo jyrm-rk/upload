@@ -1,0 +1,73 @@
+
+product=e2ei/11/LIC_5.7.2.0.956/LICUtil/LICUtil
+
+e2ei/11/LIC_5.7.2.0.956/LICUtil/LICUtil/children=LICUtil-W64-Domestic,LICUtil-W64-Export
+
+## Product e2ei/11/LIC_5.7.2.0.956/LICUtil/LICUtil properties ##
+
+e2ei/11/LIC_5.7.2.0.956/LICUtil/LICUtil/props=build.maturity,developmentServer,displayDescript,displayGroup,displayName,flags,group,lengthGroupVersionString,lengthVersionString,requiresUninstallErrorMessage,resourceBundle,resourceJars,sagProductCode,sortHint,supplantLevel,user_hints,installDate
+e2ei/11/LIC_5.7.2.0.956/LICUtil/LICUtil/props/build.maturity=milestone
+e2ei/11/LIC_5.7.2.0.956/LICUtil/LICUtil/props/developmentServer=true
+e2ei/11/LIC_5.7.2.0.956/LICUtil/LICUtil/props/displayDescript=LICUtil.displayDescript
+e2ei/11/LIC_5.7.2.0.956/LICUtil/LICUtil/props/displayGroup=LICUtil.displayGroup
+e2ei/11/LIC_5.7.2.0.956/LICUtil/LICUtil/props/displayName=LICUtil.displayName
+e2ei/11/LIC_5.7.2.0.956/LICUtil/LICUtil/props/flags=ProgramFilesType,AlwaysSelectedType,OverinstallType
+e2ei/11/LIC_5.7.2.0.956/LICUtil/LICUtil/props/group=LICUtil
+e2ei/11/LIC_5.7.2.0.956/LICUtil/LICUtil/props/lengthGroupVersionString=0
+e2ei/11/LIC_5.7.2.0.956/LICUtil/LICUtil/props/lengthVersionString=0
+e2ei/11/LIC_5.7.2.0.956/LICUtil/LICUtil/props/requiresUninstallErrorMessage=LICUtil.requiresUninstallErrorMessage
+e2ei/11/LIC_5.7.2.0.956/LICUtil/LICUtil/props/resourceBundle=com.softwareag.saglic.install.SaglicInstallMessages
+e2ei/11/LIC_5.7.2.0.956/LICUtil/LICUtil/props/resourceJars=SaglicInstallMessages-ALL-Any
+e2ei/11/LIC_5.7.2.0.956/LICUtil/LICUtil/props/sagProductCode=LIC
+e2ei/11/LIC_5.7.2.0.956/LICUtil/LICUtil/props/sortHint=5.0
+e2ei/11/LIC_5.7.2.0.956/LICUtil/LICUtil/props/supplantLevel=3
+e2ei/11/LIC_5.7.2.0.956/LICUtil/LICUtil/props/user_hints=enable
+e2ei/11/LIC_5.7.2.0.956/LICUtil/LICUtil/props/installDate=1635224367960
+
+## Product e2ei/11/LIC_5.7.2.0.956/LICUtil/LICUtil jars ##
+
+e2ei/11/LIC_5.7.2.0.956/LICUtil/LICUtil/jars=SaglicInstallMessages-ALL-Any,saglic-ALL-Any
+e2ei/11/LIC_5.7.2.0.956/LICUtil/LICUtil/jars/SaglicInstallMessages-ALL-Any/props=jar_version,md5,size,timestamp,type
+e2ei/11/LIC_5.7.2.0.956/LICUtil/LICUtil/jars/SaglicInstallMessages-ALL-Any/props/jar_version=5.7.2.0000.0956
+e2ei/11/LIC_5.7.2.0.956/LICUtil/LICUtil/jars/SaglicInstallMessages-ALL-Any/props/md5=872ce16c64891b648f2ac32994f915ec
+e2ei/11/LIC_5.7.2.0.956/LICUtil/LICUtil/jars/SaglicInstallMessages-ALL-Any/props/size=1903
+e2ei/11/LIC_5.7.2.0.956/LICUtil/LICUtil/jars/SaglicInstallMessages-ALL-Any/props/timestamp=1613471316
+e2ei/11/LIC_5.7.2.0.956/LICUtil/LICUtil/jars/SaglicInstallMessages-ALL-Any/props/type=resourceJar
+e2ei/11/LIC_5.7.2.0.956/LICUtil/LICUtil/jars/saglic-ALL-Any/props=jar_version,md5,size,timestamp,type
+e2ei/11/LIC_5.7.2.0.956/LICUtil/LICUtil/jars/saglic-ALL-Any/props/jar_version=5.7.2.0000.0956
+e2ei/11/LIC_5.7.2.0.956/LICUtil/LICUtil/jars/saglic-ALL-Any/props/md5=39a81d433464bb9fb03ab250d6b611d0
+e2ei/11/LIC_5.7.2.0.956/LICUtil/LICUtil/jars/saglic-ALL-Any/props/size=34576
+e2ei/11/LIC_5.7.2.0.956/LICUtil/LICUtil/jars/saglic-ALL-Any/props/timestamp=1614354538
+e2ei/11/LIC_5.7.2.0.956/LICUtil/LICUtil/jars/saglic-ALL-Any/props/type=panelJar
+## Product e2ei/11/LIC_5.7.2.0.956/LICUtil/LICUtil components ##
+
+## Component properties for e2ei/11/LIC_5.7.2.0.956/LICUtil/LICUtil/LICUtil-W64-Domestic##
+
+e2ei/11/LIC_5.7.2.0.956/LICUtil/LICUtil/LICUtil-W64-Domestic/props=jars
+e2ei/11/LIC_5.7.2.0.956/LICUtil/LICUtil/LICUtil-W64-Domestic/props/jars=saglic-ALL-Any
+
+## Buildmodule info for e2ei/11/LIC_5.7.2.0.956/LICUtil/LICUtil/LICUtil-W64-Domestic ##
+
+e2ei/11/LIC_5.7.2.0.956/LICUtil/LICUtil/LICUtil-W64-Domestic/children=BM_LIC_Util-W64-Any
+e2ei/11/LIC_5.7.2.0.956/LICUtil/LICUtil/LICUtil-W64-Domestic/BM_LIC_Util-W64-Any/props=compressed_size,expanded_size,md5,timestamp,version
+e2ei/11/LIC_5.7.2.0.956/LICUtil/LICUtil/LICUtil-W64-Domestic/BM_LIC_Util-W64-Any/props/compressed_size=27880
+e2ei/11/LIC_5.7.2.0.956/LICUtil/LICUtil/LICUtil-W64-Domestic/BM_LIC_Util-W64-Any/props/expanded_size=82089
+e2ei/11/LIC_5.7.2.0.956/LICUtil/LICUtil/LICUtil-W64-Domestic/BM_LIC_Util-W64-Any/props/md5=1c316fa79803692637caa1c941e9d274
+e2ei/11/LIC_5.7.2.0.956/LICUtil/LICUtil/LICUtil-W64-Domestic/BM_LIC_Util-W64-Any/props/timestamp=1613471328
+e2ei/11/LIC_5.7.2.0.956/LICUtil/LICUtil/LICUtil-W64-Domestic/BM_LIC_Util-W64-Any/props/version=5.7.2.0.956
+
+## Component properties for e2ei/11/LIC_5.7.2.0.956/LICUtil/LICUtil/LICUtil-W64-Export##
+
+e2ei/11/LIC_5.7.2.0.956/LICUtil/LICUtil/LICUtil-W64-Export/props=jars
+e2ei/11/LIC_5.7.2.0.956/LICUtil/LICUtil/LICUtil-W64-Export/props/jars=saglic-ALL-Any
+
+## Buildmodule info for e2ei/11/LIC_5.7.2.0.956/LICUtil/LICUtil/LICUtil-W64-Export ##
+
+e2ei/11/LIC_5.7.2.0.956/LICUtil/LICUtil/LICUtil-W64-Export/children=BM_LIC_Util-W64-Any
+e2ei/11/LIC_5.7.2.0.956/LICUtil/LICUtil/LICUtil-W64-Export/BM_LIC_Util-W64-Any/props=compressed_size,expanded_size,md5,timestamp,version
+e2ei/11/LIC_5.7.2.0.956/LICUtil/LICUtil/LICUtil-W64-Export/BM_LIC_Util-W64-Any/props/compressed_size=27880
+e2ei/11/LIC_5.7.2.0.956/LICUtil/LICUtil/LICUtil-W64-Export/BM_LIC_Util-W64-Any/props/expanded_size=82089
+e2ei/11/LIC_5.7.2.0.956/LICUtil/LICUtil/LICUtil-W64-Export/BM_LIC_Util-W64-Any/props/md5=1c316fa79803692637caa1c941e9d274
+e2ei/11/LIC_5.7.2.0.956/LICUtil/LICUtil/LICUtil-W64-Export/BM_LIC_Util-W64-Any/props/timestamp=1613471328
+e2ei/11/LIC_5.7.2.0.956/LICUtil/LICUtil/LICUtil-W64-Export/BM_LIC_Util-W64-Any/props/version=5.7.2.0.956
+

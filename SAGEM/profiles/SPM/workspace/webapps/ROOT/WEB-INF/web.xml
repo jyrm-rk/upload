@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
+    version="2.4">
+
+    <welcome-file-list>
+    	<welcome-file>/index.jsp</welcome-file>
+    </welcome-file-list>
+
+	<servlet>
+		<servlet-name>Redirect</servlet-name>
+		<servlet-class>com.softwareag.platform.web.ContextRedirectorController</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Redirect</servlet-name>
+		<url-pattern>/root-context/</url-pattern>
+	</servlet-mapping>
+
+	<context-param>
+		<description>This is where the property files should be located</description>
+    	<param-name>resources.url</param-name>
+    	<param-value>/WEB-INF/resources/</param-value>
+	</context-param>
+
+	<context-param>
+		<description>This is where the base stylesheet is located</description>
+    	<param-name>base.style.url</param-name>
+    	<param-value>/css/sag_base.css</param-value>
+	</context-param>
+
+	<context-param>
+		<description>This is where the extended stylesheet is located</description>
+    	<param-name>style.url</param-name>
+    	<param-value>/css/sag_root_context.css</param-value>
+	</context-param>
+
+	<context-param>
+		<description>This is where the logo is located</description>
+    	<param-name>logo.url</param-name>
+    	<param-value>/img/SAG_logo_150x24.png</param-value>
+	</context-param>
+
+	<context-param>
+		<description>This is where the icon is located</description>
+    	<param-name>icon.url</param-name>
+    	<param-value>/img/favicon.ico</param-value>
+	</context-param>
+
+	<context-param>
+		<description>Coma-separated priority of contexts resource - available values are: mbean,file OR file,mbean OR file OR mbean</description>
+    	<param-name>resource.prio</param-name>
+    	<param-value>mbean,file</param-value>
+	</context-param>
+
+</web-app>

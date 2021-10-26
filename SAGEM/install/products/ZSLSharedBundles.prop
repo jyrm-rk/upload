@@ -1,0 +1,47 @@
+
+product=e2ei/11/ZSL_10.7.0.0.239/Platform/ZSLSharedBundles
+
+e2ei/11/ZSL_10.7.0.0.239/Platform/ZSLSharedBundles/children=ZSLSharedBundles-W64-Any
+
+## Product e2ei/11/ZSL_10.7.0.0.239/Platform/ZSLSharedBundles properties ##
+
+e2ei/11/ZSL_10.7.0.0.239/Platform/ZSLSharedBundles/props=developmentServer,displayDescript,displayGroup,displayName,displayNameVersionFormat,flags,group,lengthGroupVersionString,lengthVersionString,osgiBundlesRepos,requiresRegexp,resourceBundle,resourceJars,sagProductCode,supplantLevel,user_hints,installDate
+e2ei/11/ZSL_10.7.0.0.239/Platform/ZSLSharedBundles/props/developmentServer=true
+e2ei/11/ZSL_10.7.0.0.239/Platform/ZSLSharedBundles/props/displayDescript=ZSLSharedBundles.displayDescript
+e2ei/11/ZSL_10.7.0.0.239/Platform/ZSLSharedBundles/props/displayGroup=ZSLSharedBundles.displayGroup
+e2ei/11/ZSL_10.7.0.0.239/Platform/ZSLSharedBundles/props/displayName=ZSLSharedBundles.displayName
+e2ei/11/ZSL_10.7.0.0.239/Platform/ZSLSharedBundles/props/displayNameVersionFormat=%1.%2 SP%3
+e2ei/11/ZSL_10.7.0.0.239/Platform/ZSLSharedBundles/props/flags=ProgramFilesType
+e2ei/11/ZSL_10.7.0.0.239/Platform/ZSLSharedBundles/props/group=Platform
+e2ei/11/ZSL_10.7.0.0.239/Platform/ZSLSharedBundles/props/lengthGroupVersionString=0
+e2ei/11/ZSL_10.7.0.0.239/Platform/ZSLSharedBundles/props/lengthVersionString=2
+e2ei/11/ZSL_10.7.0.0.239/Platform/ZSLSharedBundles/props/osgiBundlesRepos=esapi
+e2ei/11/ZSL_10.7.0.0.239/Platform/ZSLSharedBundles/props/requiresRegexp=e2ei/11/.*/.*/TPS
+e2ei/11/ZSL_10.7.0.0.239/Platform/ZSLSharedBundles/props/resourceBundle=com.softwareag.esapi-osgi.install.ZSLOSGIInstallMessages
+e2ei/11/ZSL_10.7.0.0.239/Platform/ZSLSharedBundles/props/resourceJars=ZSLOSGIInstallMessages-ALL-Any
+e2ei/11/ZSL_10.7.0.0.239/Platform/ZSLSharedBundles/props/sagProductCode=ZSL
+e2ei/11/ZSL_10.7.0.0.239/Platform/ZSLSharedBundles/props/supplantLevel=3
+e2ei/11/ZSL_10.7.0.0.239/Platform/ZSLSharedBundles/props/user_hints=enable
+e2ei/11/ZSL_10.7.0.0.239/Platform/ZSLSharedBundles/props/installDate=1635224367953
+
+## Product e2ei/11/ZSL_10.7.0.0.239/Platform/ZSLSharedBundles jars ##
+
+e2ei/11/ZSL_10.7.0.0.239/Platform/ZSLSharedBundles/jars=ZSLOSGIInstallMessages-ALL-Any
+e2ei/11/ZSL_10.7.0.0.239/Platform/ZSLSharedBundles/jars/ZSLOSGIInstallMessages-ALL-Any/props=jar_version,md5,size,timestamp,type
+e2ei/11/ZSL_10.7.0.0.239/Platform/ZSLSharedBundles/jars/ZSLOSGIInstallMessages-ALL-Any/props/jar_version=10.7.0.0000.0239
+e2ei/11/ZSL_10.7.0.0.239/Platform/ZSLSharedBundles/jars/ZSLOSGIInstallMessages-ALL-Any/props/md5=57c8460dd61ac0c558f926f77159ad0e
+e2ei/11/ZSL_10.7.0.0.239/Platform/ZSLSharedBundles/jars/ZSLOSGIInstallMessages-ALL-Any/props/size=1194
+e2ei/11/ZSL_10.7.0.0.239/Platform/ZSLSharedBundles/jars/ZSLOSGIInstallMessages-ALL-Any/props/timestamp=1599492606
+e2ei/11/ZSL_10.7.0.0.239/Platform/ZSLSharedBundles/jars/ZSLOSGIInstallMessages-ALL-Any/props/type=resourceJar
+## Product e2ei/11/ZSL_10.7.0.0.239/Platform/ZSLSharedBundles components ##
+
+## Buildmodule info for e2ei/11/ZSL_10.7.0.0.239/Platform/ZSLSharedBundles/ZSLSharedBundles-W64-Any ##
+
+e2ei/11/ZSL_10.7.0.0.239/Platform/ZSLSharedBundles/ZSLSharedBundles-W64-Any/children=BM_ZSLEsapiOsgi-ALL-Any
+e2ei/11/ZSL_10.7.0.0.239/Platform/ZSLSharedBundles/ZSLSharedBundles-W64-Any/BM_ZSLEsapiOsgi-ALL-Any/props=compressed_size,expanded_size,md5,timestamp,version
+e2ei/11/ZSL_10.7.0.0.239/Platform/ZSLSharedBundles/ZSLSharedBundles-W64-Any/BM_ZSLEsapiOsgi-ALL-Any/props/compressed_size=465585
+e2ei/11/ZSL_10.7.0.0.239/Platform/ZSLSharedBundles/ZSLSharedBundles-W64-Any/BM_ZSLEsapiOsgi-ALL-Any/props/expanded_size=537149
+e2ei/11/ZSL_10.7.0.0.239/Platform/ZSLSharedBundles/ZSLSharedBundles-W64-Any/BM_ZSLEsapiOsgi-ALL-Any/props/md5=0ef92fcbc8700522bfda3dec3a71c912
+e2ei/11/ZSL_10.7.0.0.239/Platform/ZSLSharedBundles/ZSLSharedBundles-W64-Any/BM_ZSLEsapiOsgi-ALL-Any/props/timestamp=1599492606
+e2ei/11/ZSL_10.7.0.0.239/Platform/ZSLSharedBundles/ZSLSharedBundles-W64-Any/BM_ZSLEsapiOsgi-ALL-Any/props/version=10.7.0.0.239
+

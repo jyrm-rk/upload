@@ -1,0 +1,23 @@
+name=e2ei/11/CMP_10.7.0.0.82/CMP/CMP_API/CMP_API-W64-Any/BM_CMP_API-ALL-Any
+version=10.7.0.0.82
+timestamp=1599492527
+
+common/
+common/runtime/
+common/
+common/runtime/bundles/
+common/runtime/
+common/runtime/bundles/cmp-api/
+common/runtime/bundles/
+common/runtime/bundles/cmp-api/eclipse/
+common/runtime/bundles/cmp-api/
+common/runtime/bundles/cmp-api/eclipse/binary/
+common/runtime/bundles/cmp-api/eclipse/
+common/runtime/bundles/cmp-api/eclipse/features/
+common/runtime/bundles/cmp-api/eclipse/plugins/
+0755 common/runtime/bundles/cmp-api/eclipse/artifacts.xml
+0755 common/runtime/bundles/cmp-api/eclipse/content.xml
+0755 common/runtime/bundles/cmp-api/eclipse/features/com.softwareag.cmp.features.cmp.api.feature_10.7.0.0000-0082.jar
+common/runtime/bundles/cmp-api/eclipse/features/
+0755 common/runtime/bundles/cmp-api/eclipse/plugins/com.softwareag.cmp.api_10.7.0.0000-0082.jar
+common/runtime/bundles/cmp-api/eclipse/plugins/

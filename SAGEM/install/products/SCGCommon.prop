@@ -1,0 +1,47 @@
+
+product=e2ei/11/WSC_10.7.0.0.434/SCG/SCGCommon
+
+e2ei/11/WSC_10.7.0.0.434/SCG/SCGCommon/children=SCGCommon-W64-Any
+
+## Product e2ei/11/WSC_10.7.0.0.434/SCG/SCGCommon properties ##
+
+e2ei/11/WSC_10.7.0.0.434/SCG/SCGCommon/props=developmentServer,displayDescript,displayGroup,displayName,displayNameVersionFormat,flags,group,lengthGroupVersionString,lengthVersionString,requiresRegexp,resourceBundle,resourceJars,sagProductCode,sortHint,supplantLevel,user_hints,installDate
+e2ei/11/WSC_10.7.0.0.434/SCG/SCGCommon/props/developmentServer=true
+e2ei/11/WSC_10.7.0.0.434/SCG/SCGCommon/props/displayDescript=SCGCommon.displayDescript
+e2ei/11/WSC_10.7.0.0.434/SCG/SCGCommon/props/displayGroup=SCGCommon.displayGroup
+e2ei/11/WSC_10.7.0.0.434/SCG/SCGCommon/props/displayName=SCGCommon.displayName
+e2ei/11/WSC_10.7.0.0.434/SCG/SCGCommon/props/displayNameVersionFormat=%1.%2 SP%3
+e2ei/11/WSC_10.7.0.0.434/SCG/SCGCommon/props/flags=ProvisioningDownload,ProgramFilesType
+e2ei/11/WSC_10.7.0.0.434/SCG/SCGCommon/props/group=SCG
+e2ei/11/WSC_10.7.0.0.434/SCG/SCGCommon/props/lengthGroupVersionString=0
+e2ei/11/WSC_10.7.0.0.434/SCG/SCGCommon/props/lengthVersionString=2
+e2ei/11/WSC_10.7.0.0.434/SCG/SCGCommon/props/requiresRegexp=e2ei/11/*/*/integrationServerMigrationFrameworkLib,e2ei/11/*/*/LICSharedLibsJava,e2ei/11/.*/.*/loggers
+e2ei/11/WSC_10.7.0.0.434/SCG/SCGCommon/props/resourceBundle=com.softwareag.scg.install.WSCInstallMessages
+e2ei/11/WSC_10.7.0.0.434/SCG/SCGCommon/props/resourceJars=SCGCommonInstallMessages-ALL-Any
+e2ei/11/WSC_10.7.0.0.434/SCG/SCGCommon/props/sagProductCode=WSC
+e2ei/11/WSC_10.7.0.0.434/SCG/SCGCommon/props/sortHint=11.0
+e2ei/11/WSC_10.7.0.0.434/SCG/SCGCommon/props/supplantLevel=3
+e2ei/11/WSC_10.7.0.0.434/SCG/SCGCommon/props/user_hints=enable
+e2ei/11/WSC_10.7.0.0.434/SCG/SCGCommon/props/installDate=1635224366279
+
+## Product e2ei/11/WSC_10.7.0.0.434/SCG/SCGCommon jars ##
+
+e2ei/11/WSC_10.7.0.0.434/SCG/SCGCommon/jars=SCGCommonInstallMessages-ALL-Any
+e2ei/11/WSC_10.7.0.0.434/SCG/SCGCommon/jars/SCGCommonInstallMessages-ALL-Any/props=jar_version,md5,size,timestamp,type
+e2ei/11/WSC_10.7.0.0.434/SCG/SCGCommon/jars/SCGCommonInstallMessages-ALL-Any/props/jar_version=10.7.0.0000.0434
+e2ei/11/WSC_10.7.0.0.434/SCG/SCGCommon/jars/SCGCommonInstallMessages-ALL-Any/props/md5=880764d70e009d0eacab4d085f685889
+e2ei/11/WSC_10.7.0.0.434/SCG/SCGCommon/jars/SCGCommonInstallMessages-ALL-Any/props/size=1143
+e2ei/11/WSC_10.7.0.0.434/SCG/SCGCommon/jars/SCGCommonInstallMessages-ALL-Any/props/timestamp=1599492591
+e2ei/11/WSC_10.7.0.0.434/SCG/SCGCommon/jars/SCGCommonInstallMessages-ALL-Any/props/type=resourceJar
+## Product e2ei/11/WSC_10.7.0.0.434/SCG/SCGCommon components ##
+
+## Buildmodule info for e2ei/11/WSC_10.7.0.0.434/SCG/SCGCommon/SCGCommon-W64-Any ##
+
+e2ei/11/WSC_10.7.0.0.434/SCG/SCGCommon/SCGCommon-W64-Any/children=BM_WSCCommon-ALL-Any
+e2ei/11/WSC_10.7.0.0.434/SCG/SCGCommon/SCGCommon-W64-Any/BM_WSCCommon-ALL-Any/props=compressed_size,expanded_size,md5,timestamp,version
+e2ei/11/WSC_10.7.0.0.434/SCG/SCGCommon/SCGCommon-W64-Any/BM_WSCCommon-ALL-Any/props/compressed_size=5176537
+e2ei/11/WSC_10.7.0.0.434/SCG/SCGCommon/SCGCommon-W64-Any/BM_WSCCommon-ALL-Any/props/expanded_size=5553683
+e2ei/11/WSC_10.7.0.0.434/SCG/SCGCommon/SCGCommon-W64-Any/BM_WSCCommon-ALL-Any/props/md5=2fa9d540f6bf1b94e8ba6d01fb5f614c
+e2ei/11/WSC_10.7.0.0.434/SCG/SCGCommon/SCGCommon-W64-Any/BM_WSCCommon-ALL-Any/props/timestamp=1599492591
+e2ei/11/WSC_10.7.0.0.434/SCG/SCGCommon/SCGCommon-W64-Any/BM_WSCCommon-ALL-Any/props/version=10.7.0.0.434
+

@@ -1,0 +1,11 @@
+!SESSION 2021-10-26 10:30:08.459 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_292
+java.vendor=Azul Systems, Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -application org.eclipse.equinox.p2.director -repository file:/C:/temp/SAGEM/SAGUpdateManager/UpdateManager/repository/ -addCacheExt file:/C:/temp/SAGEM/SAGUpdateManager/UpdateManager/repository/ -profile self -destination C:\temp\SAGEM\SAGUpdateManager\UpdateManager\profile -roaming -installIU com.softwareag.fixinstall.feature.feature.group
+Command-line arguments:  -consoleLog -application org.eclipse.equinox.p2.director -repository file:/C:/temp/SAGEM/SAGUpdateManager/UpdateManager/repository/ -addCacheExt file:/C:/temp/SAGEM/SAGUpdateManager/UpdateManager/repository/ -profile self -destination C:\temp\SAGEM\SAGUpdateManager\UpdateManager\profile -roaming -clean -installIU com.softwareag.fixinstall.feature.feature.group
+
+!ENTRY Orphaned Bundles in Profile 4 6 2021-10-26 10:30:10.773
+!MESSAGE There are 1 orphaned bundles in profile self:
+	com.softwareag.fixinstall.sum.credentials.helper(11.0.0.0018-0491)

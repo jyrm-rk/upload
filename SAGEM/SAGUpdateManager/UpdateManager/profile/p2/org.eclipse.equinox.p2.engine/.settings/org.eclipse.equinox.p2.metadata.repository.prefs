@@ -1,0 +1,8 @@
+eclipse.preferences.version=1
+repositories/file\:_C\:_temp_SAGEM_SAGUpdateManager_UpdateManager_repository/enabled=true
+repositories/file\:_C\:_temp_SAGEM_SAGUpdateManager_UpdateManager_repository/isSystem=false
+repositories/file\:_C\:_temp_SAGEM_SAGUpdateManager_UpdateManager_repository/name=sum-client-repo-dist
+repositories/file\:_C\:_temp_SAGEM_SAGUpdateManager_UpdateManager_repository/suffix=content.xml
+repositories/file\:_C\:_temp_SAGEM_SAGUpdateManager_UpdateManager_repository/type=org.eclipse.equinox.internal.p2.metadata.repository.LocalMetadataRepository
+repositories/file\:_C\:_temp_SAGEM_SAGUpdateManager_UpdateManager_repository/uri=file\:/C\:/temp/SAGEM/SAGUpdateManager/UpdateManager/repository/
+repositories/file\:_C\:_temp_SAGEM_SAGUpdateManager_UpdateManager_repository/version=1.0.0

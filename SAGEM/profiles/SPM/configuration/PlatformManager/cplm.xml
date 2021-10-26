@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurations xmlns="com.softwareag.platform.spm.lifecycle">
+	<configuration version="1.0">
+		<action name="restart"/>
+	</configuration>
+</configurations>

@@ -1,0 +1,14 @@
+name=e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMClient/NUMClient-W64-Any/BM_NUM_Common-ALL-Any
+version=10.7.0.0.136016
+timestamp=1599492560
+
+UniversalMessaging/
+UniversalMessaging/lib/
+UniversalMessaging/
+UniversalMessaging/lib/classes/
+UniversalMessaging/lib/
+UniversalMessaging/lib/classes/log4j2.xml
+UniversalMessaging/lib/classes/
+UniversalMessaging/lib/classes/logback.xml
+UniversalMessaging/lib/umExtensions.jar
+UniversalMessaging/lib/umSampleApplications.jar

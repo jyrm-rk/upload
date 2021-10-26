@@ -1,0 +1,63 @@
+name=e2ei/11/LAR_10.7.0.0.407/Platform/LARSharedBundles/LARSharedBundles-W64-Any/BM_LARSharedBundles-ALL-Any
+version=10.7.0.0.407
+timestamp=1599492553
+
+common/
+common/runtime/
+common/
+common/runtime/bundles/
+common/runtime/
+common/runtime/bundles/lar/
+common/runtime/bundles/
+common/runtime/bundles/lar/eclipse/
+common/runtime/bundles/lar/
+common/runtime/bundles/lar/eclipse/binary/
+common/runtime/bundles/lar/eclipse/
+common/runtime/bundles/lar/eclipse/features/
+common/runtime/bundles/lar/eclipse/plugins/
+0755 common/runtime/bundles/lar/eclipse/artifacts.xml
+0755 common/runtime/bundles/lar/eclipse/content.xml
+0755 common/runtime/bundles/lar/eclipse/features/com.softwareag.platform.lar.instance.factory.api_10.7.0.0000-0407.jar
+common/runtime/bundles/lar/eclipse/features/
+0755 common/runtime/bundles/lar/eclipse/features/com.softwareag.platform.lar.instance.factory.config.store_10.7.0.0000-0407.jar
+0755 common/runtime/bundles/lar/eclipse/features/com.softwareag.platform.lar.promotion_10.7.0.0000-0407.jar
+0755 common/runtime/bundles/lar/eclipse/features/com.softwareag.platform.lar.registry_10.7.0.0000-0407.jar
+0755 common/runtime/bundles/lar/eclipse/features/com.softwareag.platform.lar.repository.is_10.7.0.0000-0407.jar
+0755 common/runtime/bundles/lar/eclipse/features/com.softwareag.platform.lar.repository.web_10.7.0.0000-0407.jar
+0755 common/runtime/bundles/lar/eclipse/features/com.softwareag.platform.lar.repository_10.7.0.0000-0407.jar
+0755 common/runtime/bundles/lar/eclipse/plugins/com.google.gson_2.8.5.jar
+common/runtime/bundles/lar/eclipse/plugins/
+0755 common/runtime/bundles/lar/eclipse/plugins/com.softwareag.platform.lar.executor.cron_10.7.0.0000-0407.jar
+0755 common/runtime/bundles/lar/eclipse/plugins/com.softwareag.platform.lar.executor.filter_10.7.0.0000-0407.jar
+0755 common/runtime/bundles/lar/eclipse/plugins/com.softwareag.platform.lar.httpclient_10.7.0.0000-0407.jar
+0755 common/runtime/bundles/lar/eclipse/plugins/com.softwareag.platform.lar.instance.factory.api_10.7.0.0000-0407.jar
+0755 common/runtime/bundles/lar/eclipse/plugins/com.softwareag.platform.lar.instance.factory.config.store_10.7.0.0000-0407.jar
+0755 common/runtime/bundles/lar/eclipse/plugins/com.softwareag.platform.lar.instance.factory.spi_10.7.0.0000-0407.jar
+0755 common/runtime/bundles/lar/eclipse/plugins/com.softwareag.platform.lar.lar.api_10.7.0.0000-0407.jar
+0755 common/runtime/bundles/lar/eclipse/plugins/com.softwareag.platform.lar.promotion.acdl_10.7.0.0000-0407.jar
+0755 common/runtime/bundles/lar/eclipse/plugins/com.softwareag.platform.lar.promotion.api_10.7.0.0000-0407.jar
+0755 common/runtime/bundles/lar/eclipse/plugins/com.softwareag.platform.lar.promotion.spi_10.7.0.0000-0407.jar
+0755 common/runtime/bundles/lar/eclipse/plugins/com.softwareag.platform.lar.registry.acdl_10.7.0.0000-0407.jar
+0755 common/runtime/bundles/lar/eclipse/plugins/com.softwareag.platform.lar.registry.api_10.7.0.0000-0407.jar
+0755 common/runtime/bundles/lar/eclipse/plugins/com.softwareag.platform.lar.registry.osgi_10.7.0.0000-0407.jar
+0755 common/runtime/bundles/lar/eclipse/plugins/com.softwareag.platform.lar.registry.properties_10.7.0.0000-0407.jar
+0755 common/runtime/bundles/lar/eclipse/plugins/com.softwareag.platform.lar.registry.spi_10.7.0.0000-0407.jar
+0755 common/runtime/bundles/lar/eclipse/plugins/com.softwareag.platform.lar.repository.admin_10.7.0.0000-0407.jar
+0755 common/runtime/bundles/lar/eclipse/plugins/com.softwareag.platform.lar.repository.api_10.7.0.0000-0407.jar
+0755 common/runtime/bundles/lar/eclipse/plugins/com.softwareag.platform.lar.repository.artifactory_10.7.0.0000-0407.jar
+0755 common/runtime/bundles/lar/eclipse/plugins/com.softwareag.platform.lar.repository.binary.osgi_10.7.0.0000-0407.jar
+0755 common/runtime/bundles/lar/eclipse/plugins/com.softwareag.platform.lar.repository.git_10.7.0.0000-0407.jar
+0755 common/runtime/bundles/lar/eclipse/plugins/com.softwareag.platform.lar.repository.is.launcher.fragment_10.7.0.0000-0407.jar
+0755 common/runtime/bundles/lar/eclipse/plugins/com.softwareag.platform.lar.repository.localfolder_10.7.0.0000-0407.jar
+0755 common/runtime/bundles/lar/eclipse/plugins/com.softwareag.platform.lar.repository.maven_10.7.0.0000-0407.jar
+0755 common/runtime/bundles/lar/eclipse/plugins/com.softwareag.platform.lar.repository.osgi_10.7.0.0000-0407.jar
+0755 common/runtime/bundles/lar/eclipse/plugins/com.softwareag.platform.lar.repository.search.api_10.7.0.0000-0407.jar
+0755 common/runtime/bundles/lar/eclipse/plugins/com.softwareag.platform.lar.repository.spi_10.7.0.0000-0407.jar
+0755 common/runtime/bundles/lar/eclipse/plugins/com.softwareag.platform.lar.transformer.acdl_10.7.0.0000-0407.jar
+0755 common/runtime/bundles/lar/eclipse/plugins/com.softwareag.platform.lar.transformer.api_10.7.0.0000-0407.jar
+0755 common/runtime/bundles/lar/eclipse/plugins/javaewah_1.1.6.v20160919-1400.jar
+0755 common/runtime/bundles/lar/eclipse/plugins/org.apache.lucene.analyzers-common_6.1.0.v20161115-1612.jar
+0755 common/runtime/bundles/lar/eclipse/plugins/org.apache.lucene.core_6.1.0.v20170814-1820.jar
+0755 common/runtime/bundles/lar/eclipse/plugins/org.apache.lucene.queryparser_6.1.0.v20161115-1612.jar
+0755 common/runtime/bundles/lar/eclipse/plugins/org.eclipse.jgit.lfs_5.7.0.202003110725-r.jar
+0755 common/runtime/bundles/lar/eclipse/plugins/org.eclipse.jgit_5.7.0.202003110725-r.jar

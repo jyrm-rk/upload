@@ -1,0 +1,25 @@
+name=e2ei/11/ACDL_10.7.0.0.345/ACDL/ACDLDeployerSharedBundle/ACDLDeployerSharedBundle-W64-Any/BM_ACDLSharedDeployerBundles-ALL-Any
+version=10.7.0.0.345
+timestamp=1599492517
+
+common/
+common/runtime/
+common/
+common/runtime/bundles/
+common/runtime/
+common/runtime/bundles/deployer-acdl-shared/
+common/runtime/bundles/
+common/runtime/bundles/deployer-acdl-shared/eclipse/
+common/runtime/bundles/deployer-acdl-shared/
+common/runtime/bundles/deployer-acdl-shared/eclipse/binary/
+common/runtime/bundles/deployer-acdl-shared/eclipse/
+common/runtime/bundles/deployer-acdl-shared/eclipse/features/
+common/runtime/bundles/deployer-acdl-shared/eclipse/plugins/
+0755 common/runtime/bundles/deployer-acdl-shared/eclipse/artifacts.xml
+0755 common/runtime/bundles/deployer-acdl-shared/eclipse/content.xml
+0755 common/runtime/bundles/deployer-acdl-shared/eclipse/features/com.softwareag.plm.deployer.acdl.shared.feature_10.7.0.0000-0345.jar
+common/runtime/bundles/deployer-acdl-shared/eclipse/features/
+0755 common/runtime/bundles/deployer-acdl-shared/eclipse/plugins/com.softwareag.plm.deployer.common.acdl_10.7.0.0000-0345.jar
+common/runtime/bundles/deployer-acdl-shared/eclipse/plugins/
+0755 common/runtime/bundles/deployer-acdl-shared/eclipse/plugins/com.softwareag.plm.deployer.common.persistence.api_10.7.0.0000-0345.jar
+0755 common/runtime/bundles/deployer-acdl-shared/eclipse/plugins/com.softwareag.plm.deployer.common.persistence.file_10.7.0.0000-0345.jar

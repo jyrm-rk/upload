@@ -1,0 +1,8 @@
+name=e2ei/11/TPS_10.7.0.0.224/SCG/tppModelling/tppModelling-W64-Any/BM_Protoc_current-W64-Any
+version=10.7.0.0.224
+timestamp=1599492582
+
+bin/
+0755 bin/protoc-gen-grpc-java.exe
+bin/
+0755 bin/protoc.exe

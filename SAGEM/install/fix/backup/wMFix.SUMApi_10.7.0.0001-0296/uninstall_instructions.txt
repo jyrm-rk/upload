@@ -1,0 +1,2 @@
+uninstall.phase4=osgiUninstall(uninstallIU:com.softwareag.plm.sum.cc.all.spm.feature.patch.feature.group/10.7.0.0001-0296,repository:common/runtime/bundles/sum-cc/eclipse,profile:minimal,profileRepo:/profiles/SPM);
+uninstall.phase3=osgiShutdown(profile:SPM);

@@ -1,0 +1,8 @@
+-installIU
+com.softwareag.osgi.platform.minimal.sdk.feature.group,com.softwareag.plm.sd.platform.provision.application.feature.feature.group
+-metadataRepository
+file:/C:/temp/SAGEM/common/runtime/bundles/sd/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/sagprov/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/sum-cc/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/esapi/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/ext/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/platform/eclipse/
+-artifactRepository
+file:/C:/temp/SAGEM/common/runtime/bundles/sd/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/sagprov/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/sum-cc/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/esapi/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/ext/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/platform/eclipse/
+-addCacheExt
+file:/C:/temp/SAGEM/common/runtime/bundles/sd/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/sagprov/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/sum-cc/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/esapi/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/ext/eclipse/,file:/C:/temp/SAGEM/common/runtime/bundles/platform/eclipse/

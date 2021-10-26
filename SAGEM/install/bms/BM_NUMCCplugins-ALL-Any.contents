@@ -1,0 +1,31 @@
+name=e2ei/11/NUM_TOOLS_10.7.0.0.133380/UniversalMessaging/NUMspm/NUMspm-W64-Any/BM_NUMCCplugins-ALL-Any
+version=10.7.0.0.133380
+timestamp=1599492560
+
+common/
+common/runtime/
+common/
+common/runtime/bundles/
+common/runtime/
+common/runtime/bundles/num-cc/
+common/runtime/bundles/
+common/runtime/bundles/num-cc/eclipse/
+common/runtime/bundles/num-cc/
+common/runtime/bundles/num-cc/eclipse/binary/
+common/runtime/bundles/num-cc/eclipse/
+common/runtime/bundles/num-cc/eclipse/features/
+common/runtime/bundles/num-cc/eclipse/plugins/
+0755 common/runtime/bundles/num-cc/eclipse/artifacts.xml
+0755 common/runtime/bundles/num-cc/eclipse/content.xml
+0755 common/runtime/bundles/num-cc/eclipse/features/com.softwareag.plm.spm.nirvana.feature_10.7.0.0000-133380.jar
+common/runtime/bundles/num-cc/eclipse/features/
+0755 common/runtime/bundles/num-cc/eclipse/plugins/com.google.gson_2.8.5.jar
+common/runtime/bundles/num-cc/eclipse/plugins/
+0755 common/runtime/bundles/num-cc/eclipse/plugins/com.google.guava_25.1.0.jre.jar
+0755 common/runtime/bundles/num-cc/eclipse/plugins/com.google.protobuf.util_3.7.1.1.jar
+0755 common/runtime/bundles/num-cc/eclipse/plugins/com.softwareag.mom.nirvana.deployer_10.7.0.0000-133380.jar
+0755 common/runtime/bundles/num-cc/eclipse/plugins/com.softwareag.plm.spm.nirvana.api_10.7.0.0000-133380.jar
+0755 common/runtime/bundles/num-cc/eclipse/plugins/com.softwareag.plm.spm.nirvana.base.impl_10.7.0.0000-133380.jar
+0755 common/runtime/bundles/num-cc/eclipse/plugins/com.softwareag.plm.spm.nirvana.em.impl_10.7.0.0000-133380.jar
+0755 common/runtime/bundles/num-cc/eclipse/plugins/com.softwareag.plm.spm.nirvana.impl_10.7.0.0000-133380.jar
+0755 common/runtime/bundles/num-cc/eclipse/plugins/com.softwareag.plm.spm.nirvana.ta.impl_10.7.0.0000-133380.jar

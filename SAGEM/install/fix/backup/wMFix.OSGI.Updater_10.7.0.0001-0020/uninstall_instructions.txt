@@ -1,0 +1,1 @@
+uninstall.phase4=delete(file:common/lib/profile-updater.jar);

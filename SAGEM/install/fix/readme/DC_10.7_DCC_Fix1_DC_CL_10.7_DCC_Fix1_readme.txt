@@ -1,0 +1,139 @@
+         webMethods Database Configuration 10.7 Fix 1
+
+                         March 2021
+________________________________________________________________________________
+This file provides important information for applying webMethods Database 
+Configuration 10.3 Fix 10 to webMethods Database Configuration 10.3. For 
+additional information about Database Configuration, see the readme file in the 
+_documentation directory of your Software AG installation (if installed) or on 
+the Empower Web site at https://empower.softwareag.com.
+
+
+
+Contents:
+
+1.0   Fix Name
+2.0   Fix ID
+3.0   Product(s)/Component(s) Affected
+4.0   Requirements
+5.0   Platform/RDBMS Support
+6.0   Cautions and Warnings
+7.0   Fix Contents
+8.0   Installation
+9.0   Uninstallation
+10.0  Copyright
+11.0  Contacting Us
+
+
+
+1.0 Fix Name
+
+webMethods Database Component Configurator 10.7 Fix 1.
+
+
+
+2.0 Fix ID
+
+DC_10.7_DCC_Fix1
+
+
+
+
+3.0 Product(s)/Component(s) Affected
+
+This fix affects the webMethods Database Scripts component of webMethods Database 
+Configuration.
+
+
+
+4.0 Requirements
+None.
+
+
+
+5.0 Platform/RDBMS Support
+
+This fix is supported on all platforms supported by webMethods Product Suite 10.7
+
+
+6.0 Cautions and Warnings
+
+None.
+
+
+
+7.0 Fix Contents
+
+WDA-1742
+Added support for "ReAuthenticateUser" option for using Kerberos authenticated database
+
+
+8.0 Installation
+
+Install the fix using the Software AG Update Manager. For instructions, see 
+Using the Software AG Update Manager located either in the _documentation 
+directory or on the documentation Web site at http://documentation.softwareag.com.
+
+
+
+9.0 Uninstallation
+
+Uninstall the fix using the Software AG Update Manager. For instructions, see 
+Using the Software AG Update Manager.
+
+NOTE: This uninstall procedure can only be used to uninstall the most recently 
+installed fix. This action will revert your installation to the previously 
+installed fix. You cannot apply this uninstall procedure to the previously 
+installed fix.
+
+
+ 
+9.1 Localization
+
+This fix does not require an updated Language Pack. It might 
+contain new messages and these messages will appear in English.
+
+
+10.0 Copyright
+
+Copyright © 2021 Software AG, Darmstadt, Germany and/or Software AG USA, Inc., 
+Reston, VA, United States of America, and/or their licensors.
+
+The name Software AG, webMethods and all Software AG product names are either 
+trademarks or registered trademarks of Software AG and/or Software AG USA, Inc. 
+and/or its Subsidiaries and/or their licensors. Other company and product names 
+mentioned herein may be trademarks of their respective owners. 
+
+Detailed information on trademarks and patents owned by Software AG and/or its 
+subsidiaries is located at http://documentation.softwareag.com/legal/. 
+
+This software may include portions of third-party products. For third-party 
+copyright notices and license terms, please refer to "License Texts, Copyright 
+Notices and Disclaimers of Third Party Products". This document is part of the 
+product documentation, located at http://documentation.softwareag.com/legal and/
+or in the root installation directory of the licensed product(s).
+
+Use, reproduction, transfer, publication or disclosure is prohibited except as 
+specifically provided for in your License Agreement with Software AG.
+
+
+
+11.0 Contacting Us
+
+Authorized technical support contacts can reach Software AG Global Support in 
+the following ways:
+
+  Web: https://empower.softwareag.com (online support center)
+  
+  E-mail: empower@softwareag.com
+  
+You can find complete contact information in our Global Support Contact Directory 
+at:
+
+https://empower.softwareag.com/public_directory.asp
+
+You can also visit our Software AG Developer Communities to access additional 
+articles, demos, and tutorials, technical information, samples, useful resources, 
+online discussion forums moderated by Software AG professionals, and more at:
+
+http://communities.softwareag.com/ecosystem/communities/public/index.html

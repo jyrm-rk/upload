@@ -1,0 +1,47 @@
+
+product=e2ei/11/TPS_10.7.0.0.224/Platform/TPS
+
+e2ei/11/TPS_10.7.0.0.224/Platform/TPS/children=TPS-W64-Any
+
+## Product e2ei/11/TPS_10.7.0.0.224/Platform/TPS properties ##
+
+e2ei/11/TPS_10.7.0.0.224/Platform/TPS/props=developmentServer,displayDescript,displayGroup,displayName,displayNameVersionFormat,flags,group,lengthGroupVersionString,lengthVersionString,osgiBundlesRepos,resourceBundle,resourceJars,sagProductCode,sortHint,supplantLevel,user_hints,installDate
+e2ei/11/TPS_10.7.0.0.224/Platform/TPS/props/developmentServer=true
+e2ei/11/TPS_10.7.0.0.224/Platform/TPS/props/displayDescript=TPS.displayDescript
+e2ei/11/TPS_10.7.0.0.224/Platform/TPS/props/displayGroup=TPS.displayGroup
+e2ei/11/TPS_10.7.0.0.224/Platform/TPS/props/displayName=TPS.displayName
+e2ei/11/TPS_10.7.0.0.224/Platform/TPS/props/displayNameVersionFormat=%1.%2 SP%3
+e2ei/11/TPS_10.7.0.0.224/Platform/TPS/props/flags=ProgramFilesType
+e2ei/11/TPS_10.7.0.0.224/Platform/TPS/props/group=Platform
+e2ei/11/TPS_10.7.0.0.224/Platform/TPS/props/lengthGroupVersionString=0
+e2ei/11/TPS_10.7.0.0.224/Platform/TPS/props/lengthVersionString=2
+e2ei/11/TPS_10.7.0.0.224/Platform/TPS/props/osgiBundlesRepos=ext
+e2ei/11/TPS_10.7.0.0.224/Platform/TPS/props/resourceBundle=com.softwareag.tps.install.TPSInstallMessages
+e2ei/11/TPS_10.7.0.0.224/Platform/TPS/props/resourceJars=TPSInstallMessages-ALL-Any
+e2ei/11/TPS_10.7.0.0.224/Platform/TPS/props/sagProductCode=TPS
+e2ei/11/TPS_10.7.0.0.224/Platform/TPS/props/sortHint=11.0
+e2ei/11/TPS_10.7.0.0.224/Platform/TPS/props/supplantLevel=3
+e2ei/11/TPS_10.7.0.0.224/Platform/TPS/props/user_hints=enable
+e2ei/11/TPS_10.7.0.0.224/Platform/TPS/props/installDate=1635224367728
+
+## Product e2ei/11/TPS_10.7.0.0.224/Platform/TPS jars ##
+
+e2ei/11/TPS_10.7.0.0.224/Platform/TPS/jars=TPSInstallMessages-ALL-Any
+e2ei/11/TPS_10.7.0.0.224/Platform/TPS/jars/TPSInstallMessages-ALL-Any/props=jar_version,md5,size,timestamp,type
+e2ei/11/TPS_10.7.0.0.224/Platform/TPS/jars/TPSInstallMessages-ALL-Any/props/jar_version=10.7.0.0000.0224
+e2ei/11/TPS_10.7.0.0.224/Platform/TPS/jars/TPSInstallMessages-ALL-Any/props/md5=868501e6283ac559dc220b082cb70bb9
+e2ei/11/TPS_10.7.0.0.224/Platform/TPS/jars/TPSInstallMessages-ALL-Any/props/size=1150
+e2ei/11/TPS_10.7.0.0.224/Platform/TPS/jars/TPSInstallMessages-ALL-Any/props/timestamp=1599492582
+e2ei/11/TPS_10.7.0.0.224/Platform/TPS/jars/TPSInstallMessages-ALL-Any/props/type=resourceJar
+## Product e2ei/11/TPS_10.7.0.0.224/Platform/TPS components ##
+
+## Buildmodule info for e2ei/11/TPS_10.7.0.0.224/Platform/TPS/TPS-W64-Any ##
+
+e2ei/11/TPS_10.7.0.0.224/Platform/TPS/TPS-W64-Any/children=BM_TPS-ALL-Any
+e2ei/11/TPS_10.7.0.0.224/Platform/TPS/TPS-W64-Any/BM_TPS-ALL-Any/props=compressed_size,expanded_size,md5,timestamp,version
+e2ei/11/TPS_10.7.0.0.224/Platform/TPS/TPS-W64-Any/BM_TPS-ALL-Any/props/compressed_size=55878064
+e2ei/11/TPS_10.7.0.0.224/Platform/TPS/TPS-W64-Any/BM_TPS-ALL-Any/props/expanded_size=63718039
+e2ei/11/TPS_10.7.0.0.224/Platform/TPS/TPS-W64-Any/BM_TPS-ALL-Any/props/md5=0f78033ab9b2baff76f1472c5fa8746d
+e2ei/11/TPS_10.7.0.0.224/Platform/TPS/TPS-W64-Any/BM_TPS-ALL-Any/props/timestamp=1599492582
+e2ei/11/TPS_10.7.0.0.224/Platform/TPS/TPS-W64-Any/BM_TPS-ALL-Any/props/version=10.7.0.0.224
+

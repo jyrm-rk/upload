@@ -1,0 +1,19 @@
+name=e2ei/11/TPS_10.7.0.0.224/SCG/loggers/loggers-W64-Any/BM_Loggers-ALL-Any
+version=10.7.0.0.224
+timestamp=1599492582
+
+lib/
+lib/ext/
+lib/
+lib/ext/log4j/
+lib/ext/
+0755 lib/ext/log4j/log4j-12api.jar
+lib/ext/log4j/
+0755 lib/ext/log4j/log4j-api.jar
+0755 lib/ext/log4j/log4j-core.jar
+0755 lib/ext/log4j/log4j-jcl.jar
+0755 lib/ext/log4j/log4j-jul.jar
+0755 lib/ext/log4j/log4j-slf4j-impl.jar
+0755 lib/ext/slf4j-api.jar
+0755 lib/ext/slf4j-ext.jar
+0755 lib/ext/slf4j-jdk14.jar

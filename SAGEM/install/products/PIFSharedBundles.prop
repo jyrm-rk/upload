@@ -1,0 +1,59 @@
+
+product=e2ei/11/BR_10.5.0.0.700/Broker/PIFSharedBundles
+
+e2ei/11/BR_10.5.0.0.700/Broker/PIFSharedBundles/children=PIFSharedBundles-W64-Any
+
+## Product e2ei/11/BR_10.5.0.0.700/Broker/PIFSharedBundles properties ##
+
+e2ei/11/BR_10.5.0.0.700/Broker/PIFSharedBundles/props=developmentServer,displayDescript,displayGroup,displayName,displayNameVersionFormat,flags,group,lengthGroupVersionString,lengthVersionString,osgiBundlesDir,requiresRegexp,resourceBundle,resourceJars,sagProductCode,supplantLevel,user_hints,installDate
+e2ei/11/BR_10.5.0.0.700/Broker/PIFSharedBundles/props/developmentServer=true
+e2ei/11/BR_10.5.0.0.700/Broker/PIFSharedBundles/props/displayDescript=PIFSharedBundles.descriptName
+e2ei/11/BR_10.5.0.0.700/Broker/PIFSharedBundles/props/displayGroup=PIFSharedBundles.displayGroup
+e2ei/11/BR_10.5.0.0.700/Broker/PIFSharedBundles/props/displayName=PIFSharedBundles.displayName
+e2ei/11/BR_10.5.0.0.700/Broker/PIFSharedBundles/props/displayNameVersionFormat=%1.%2 SP%3
+e2ei/11/BR_10.5.0.0.700/Broker/PIFSharedBundles/props/flags=DefaultSelectionIfParentSelected,ProgramFilesType,ProvisioningDownload
+e2ei/11/BR_10.5.0.0.700/Broker/PIFSharedBundles/props/group=Broker
+e2ei/11/BR_10.5.0.0.700/Broker/PIFSharedBundles/props/lengthGroupVersionString=0
+e2ei/11/BR_10.5.0.0.700/Broker/PIFSharedBundles/props/lengthVersionString=0
+e2ei/11/BR_10.5.0.0.700/Broker/PIFSharedBundles/props/osgiBundlesDir=broker-shared
+e2ei/11/BR_10.5.0.0.700/Broker/PIFSharedBundles/props/requiresRegexp=e2ei/11/*/*/ACDLDeployerSharedBundle
+e2ei/11/BR_10.5.0.0.700/Broker/PIFSharedBundles/props/resourceBundle=com.wm.installer.broker.BrokerInstallMessages
+e2ei/11/BR_10.5.0.0.700/Broker/PIFSharedBundles/props/resourceJars=PIFInstallMessagesL10N-ALL-Any,PIFInstallMessagesL10N-ALL-Any_ja,BrokerInstallCheck-ALL-Any
+e2ei/11/BR_10.5.0.0.700/Broker/PIFSharedBundles/props/sagProductCode=PIF
+e2ei/11/BR_10.5.0.0.700/Broker/PIFSharedBundles/props/supplantLevel=3
+e2ei/11/BR_10.5.0.0.700/Broker/PIFSharedBundles/props/user_hints=enable
+e2ei/11/BR_10.5.0.0.700/Broker/PIFSharedBundles/props/installDate=1635224366178
+
+## Product e2ei/11/BR_10.5.0.0.700/Broker/PIFSharedBundles jars ##
+
+e2ei/11/BR_10.5.0.0.700/Broker/PIFSharedBundles/jars=BrokerInstallCheck-ALL-Any,PIFInstallMessagesL10N-ALL-Any,PIFInstallMessagesL10N-ALL-Any_ja
+e2ei/11/BR_10.5.0.0.700/Broker/PIFSharedBundles/jars/BrokerInstallCheck-ALL-Any/props=jar_version,md5,size,timestamp,type
+e2ei/11/BR_10.5.0.0.700/Broker/PIFSharedBundles/jars/BrokerInstallCheck-ALL-Any/props/jar_version=10.5.0.0.272
+e2ei/11/BR_10.5.0.0.700/Broker/PIFSharedBundles/jars/BrokerInstallCheck-ALL-Any/props/md5=5e8afe24cb2a19ae03c73668e960850c
+e2ei/11/BR_10.5.0.0.700/Broker/PIFSharedBundles/jars/BrokerInstallCheck-ALL-Any/props/size=1547
+e2ei/11/BR_10.5.0.0.700/Broker/PIFSharedBundles/jars/BrokerInstallCheck-ALL-Any/props/timestamp=1599492525
+e2ei/11/BR_10.5.0.0.700/Broker/PIFSharedBundles/jars/BrokerInstallCheck-ALL-Any/props/type=resourceJar
+e2ei/11/BR_10.5.0.0.700/Broker/PIFSharedBundles/jars/PIFInstallMessagesL10N-ALL-Any/props=jar_version,md5,size,timestamp,type
+e2ei/11/BR_10.5.0.0.700/Broker/PIFSharedBundles/jars/PIFInstallMessagesL10N-ALL-Any/props/jar_version=10.5.0.0.272
+e2ei/11/BR_10.5.0.0.700/Broker/PIFSharedBundles/jars/PIFInstallMessagesL10N-ALL-Any/props/md5=946f4a058887257304d00f6a68620569
+e2ei/11/BR_10.5.0.0.700/Broker/PIFSharedBundles/jars/PIFInstallMessagesL10N-ALL-Any/props/size=7689
+e2ei/11/BR_10.5.0.0.700/Broker/PIFSharedBundles/jars/PIFInstallMessagesL10N-ALL-Any/props/timestamp=1599492525
+e2ei/11/BR_10.5.0.0.700/Broker/PIFSharedBundles/jars/PIFInstallMessagesL10N-ALL-Any/props/type=resourceJar
+e2ei/11/BR_10.5.0.0.700/Broker/PIFSharedBundles/jars/PIFInstallMessagesL10N-ALL-Any_ja/props=jar_version,md5,size,timestamp,type
+e2ei/11/BR_10.5.0.0.700/Broker/PIFSharedBundles/jars/PIFInstallMessagesL10N-ALL-Any_ja/props/jar_version=10.5.0.0.272
+e2ei/11/BR_10.5.0.0.700/Broker/PIFSharedBundles/jars/PIFInstallMessagesL10N-ALL-Any_ja/props/md5=23494f20c9d916eb32f80120044361a0
+e2ei/11/BR_10.5.0.0.700/Broker/PIFSharedBundles/jars/PIFInstallMessagesL10N-ALL-Any_ja/props/size=9081
+e2ei/11/BR_10.5.0.0.700/Broker/PIFSharedBundles/jars/PIFInstallMessagesL10N-ALL-Any_ja/props/timestamp=1599492525
+e2ei/11/BR_10.5.0.0.700/Broker/PIFSharedBundles/jars/PIFInstallMessagesL10N-ALL-Any_ja/props/type=resourceJar
+## Product e2ei/11/BR_10.5.0.0.700/Broker/PIFSharedBundles components ##
+
+## Buildmodule info for e2ei/11/BR_10.5.0.0.700/Broker/PIFSharedBundles/PIFSharedBundles-W64-Any ##
+
+e2ei/11/BR_10.5.0.0.700/Broker/PIFSharedBundles/PIFSharedBundles-W64-Any/children=BM_PIFSharedBundles-ALL-Any
+e2ei/11/BR_10.5.0.0.700/Broker/PIFSharedBundles/PIFSharedBundles-W64-Any/BM_PIFSharedBundles-ALL-Any/props=compressed_size,expanded_size,md5,timestamp,version
+e2ei/11/BR_10.5.0.0.700/Broker/PIFSharedBundles/PIFSharedBundles-W64-Any/BM_PIFSharedBundles-ALL-Any/props/compressed_size=2112188
+e2ei/11/BR_10.5.0.0.700/Broker/PIFSharedBundles/PIFSharedBundles-W64-Any/BM_PIFSharedBundles-ALL-Any/props/expanded_size=2274598
+e2ei/11/BR_10.5.0.0.700/Broker/PIFSharedBundles/PIFSharedBundles-W64-Any/BM_PIFSharedBundles-ALL-Any/props/md5=1daec5614f2d9e2b295fbb9b61438cd0
+e2ei/11/BR_10.5.0.0.700/Broker/PIFSharedBundles/PIFSharedBundles-W64-Any/BM_PIFSharedBundles-ALL-Any/props/timestamp=1599492525
+e2ei/11/BR_10.5.0.0.700/Broker/PIFSharedBundles/PIFSharedBundles-W64-Any/BM_PIFSharedBundles-ALL-Any/props/version=10.5.0.0.700
+

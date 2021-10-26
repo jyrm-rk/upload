@@ -1,0 +1,49 @@
+
+product=e2ei/11/IS_10.7.0.0.196/integrationServer/integrationServerMigrationFrameworkLib
+
+e2ei/11/IS_10.7.0.0.196/integrationServer/integrationServerMigrationFrameworkLib/children=integrationServerMigrationFrameworkLib-W64-Any
+
+## Product e2ei/11/IS_10.7.0.0.196/integrationServer/integrationServerMigrationFrameworkLib properties ##
+
+e2ei/11/IS_10.7.0.0.196/integrationServer/integrationServerMigrationFrameworkLib/props=developmentServer,displayDescript,displayGroup,displayName,displayNameVersionFormat,flags,group,installDir,lengthGroupVersionString,lengthVersionString,requiresRegexp,resourceBundle,resourceJars,sagProductCode,supplantLevel,user_hints,installDirMultiRootNo,localInstallDir,installDate
+e2ei/11/IS_10.7.0.0.196/integrationServer/integrationServerMigrationFrameworkLib/props/developmentServer=true
+e2ei/11/IS_10.7.0.0.196/integrationServer/integrationServerMigrationFrameworkLib/props/displayDescript=integrationServer.migrationframeworklibs.displayDescript
+e2ei/11/IS_10.7.0.0.196/integrationServer/integrationServerMigrationFrameworkLib/props/displayGroup=integrationServer.migrationframeworklibs.displayGroup
+e2ei/11/IS_10.7.0.0.196/integrationServer/integrationServerMigrationFrameworkLib/props/displayName=integrationServer.migrationframeworklibs.displayName
+e2ei/11/IS_10.7.0.0.196/integrationServer/integrationServerMigrationFrameworkLib/props/displayNameVersionFormat=%1.%2 SP%3
+e2ei/11/IS_10.7.0.0.196/integrationServer/integrationServerMigrationFrameworkLib/props/flags=ProgramFilesType
+e2ei/11/IS_10.7.0.0.196/integrationServer/integrationServerMigrationFrameworkLib/props/group=integrationServer
+e2ei/11/IS_10.7.0.0.196/integrationServer/integrationServerMigrationFrameworkLib/props/installDir=common
+e2ei/11/IS_10.7.0.0.196/integrationServer/integrationServerMigrationFrameworkLib/props/lengthGroupVersionString=0
+e2ei/11/IS_10.7.0.0.196/integrationServer/integrationServerMigrationFrameworkLib/props/lengthVersionString=0
+e2ei/11/IS_10.7.0.0.196/integrationServer/integrationServerMigrationFrameworkLib/props/requiresRegexp=e2ei/11/*/*/loggers
+e2ei/11/IS_10.7.0.0.196/integrationServer/integrationServerMigrationFrameworkLib/props/resourceBundle=com.wm.integrationServer.core.IntegrationServerMessages
+e2ei/11/IS_10.7.0.0.196/integrationServer/integrationServerMigrationFrameworkLib/props/resourceJars=IntegrationServerMessages-ALL-Any
+e2ei/11/IS_10.7.0.0.196/integrationServer/integrationServerMigrationFrameworkLib/props/sagProductCode=MIG
+e2ei/11/IS_10.7.0.0.196/integrationServer/integrationServerMigrationFrameworkLib/props/supplantLevel=9
+e2ei/11/IS_10.7.0.0.196/integrationServer/integrationServerMigrationFrameworkLib/props/user_hints=enable
+e2ei/11/IS_10.7.0.0.196/integrationServer/integrationServerMigrationFrameworkLib/props/installDirMultiRootNo=2
+e2ei/11/IS_10.7.0.0.196/integrationServer/integrationServerMigrationFrameworkLib/props/localInstallDir=common
+e2ei/11/IS_10.7.0.0.196/integrationServer/integrationServerMigrationFrameworkLib/props/installDate=1635224359789
+
+## Product e2ei/11/IS_10.7.0.0.196/integrationServer/integrationServerMigrationFrameworkLib jars ##
+
+e2ei/11/IS_10.7.0.0.196/integrationServer/integrationServerMigrationFrameworkLib/jars=IntegrationServerMessages-ALL-Any
+e2ei/11/IS_10.7.0.0.196/integrationServer/integrationServerMigrationFrameworkLib/jars/IntegrationServerMessages-ALL-Any/props=jar_version,md5,size,timestamp,type
+e2ei/11/IS_10.7.0.0.196/integrationServer/integrationServerMigrationFrameworkLib/jars/IntegrationServerMessages-ALL-Any/props/jar_version=10.7.0.0.0
+e2ei/11/IS_10.7.0.0.196/integrationServer/integrationServerMigrationFrameworkLib/jars/IntegrationServerMessages-ALL-Any/props/md5=81c7ed63ee5fe69bb86354a28dfdd0aa
+e2ei/11/IS_10.7.0.0.196/integrationServer/integrationServerMigrationFrameworkLib/jars/IntegrationServerMessages-ALL-Any/props/size=13609
+e2ei/11/IS_10.7.0.0.196/integrationServer/integrationServerMigrationFrameworkLib/jars/IntegrationServerMessages-ALL-Any/props/timestamp=1599238392
+e2ei/11/IS_10.7.0.0.196/integrationServer/integrationServerMigrationFrameworkLib/jars/IntegrationServerMessages-ALL-Any/props/type=resourceJar
+## Product e2ei/11/IS_10.7.0.0.196/integrationServer/integrationServerMigrationFrameworkLib components ##
+
+## Buildmodule info for e2ei/11/IS_10.7.0.0.196/integrationServer/integrationServerMigrationFrameworkLib/integrationServerMigrationFrameworkLib-W64-Any ##
+
+e2ei/11/IS_10.7.0.0.196/integrationServer/integrationServerMigrationFrameworkLib/integrationServerMigrationFrameworkLib-W64-Any/children=BM_IntegrationServerMigrationFrameworkLib-ALL-Any
+e2ei/11/IS_10.7.0.0.196/integrationServer/integrationServerMigrationFrameworkLib/integrationServerMigrationFrameworkLib-W64-Any/BM_IntegrationServerMigrationFrameworkLib-ALL-Any/props=compressed_size,expanded_size,md5,timestamp,version
+e2ei/11/IS_10.7.0.0.196/integrationServer/integrationServerMigrationFrameworkLib/integrationServerMigrationFrameworkLib-W64-Any/BM_IntegrationServerMigrationFrameworkLib-ALL-Any/props/compressed_size=5805549
+e2ei/11/IS_10.7.0.0.196/integrationServer/integrationServerMigrationFrameworkLib/integrationServerMigrationFrameworkLib-W64-Any/BM_IntegrationServerMigrationFrameworkLib-ALL-Any/props/expanded_size=6162072
+e2ei/11/IS_10.7.0.0.196/integrationServer/integrationServerMigrationFrameworkLib/integrationServerMigrationFrameworkLib-W64-Any/BM_IntegrationServerMigrationFrameworkLib-ALL-Any/props/md5=8eb2eca2388618377a40d3ed0bf0cb36
+e2ei/11/IS_10.7.0.0.196/integrationServer/integrationServerMigrationFrameworkLib/integrationServerMigrationFrameworkLib-W64-Any/BM_IntegrationServerMigrationFrameworkLib-ALL-Any/props/timestamp=1599238281
+e2ei/11/IS_10.7.0.0.196/integrationServer/integrationServerMigrationFrameworkLib/integrationServerMigrationFrameworkLib-W64-Any/BM_IntegrationServerMigrationFrameworkLib-ALL-Any/props/version=10.7.0.0.196
+

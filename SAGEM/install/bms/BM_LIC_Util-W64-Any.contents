@@ -1,0 +1,9 @@
+name=e2ei/11/LIC_5.7.2.0.956/LICUtil/LICUtil/LICUtil-W64-Domestic/BM_LIC_Util-W64-Any
+version=5.7.2.0.956
+timestamp=1613471328
+
+common/
+common/verifier/
+common/
+common/verifier/saglicutilstat.exe
+common/verifier/

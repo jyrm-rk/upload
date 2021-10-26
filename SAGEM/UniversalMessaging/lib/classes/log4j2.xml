@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="FATAL" packages="com.softwareag.um.extensions.logger.log4j2">
+    <Appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n%ex" />
+        </Console>
+        <RollingFile name="LOG_FILE" fileName="${sys:LOGFILE}" immediateFlush="true" append="false" filePattern="${sys:LOGFILE}%i">
+            <Log4J2AdapterLayout>
+				<pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n%ex</pattern>
+			</Log4J2AdapterLayout>
+			<SizeBasedTriggeringPolicy size="100MB" />
+			<DefaultRolloverStrategy max="10" min="1" fileIndex="min"/>
+        </RollingFile>
+    </Appenders>
+    <Loggers>
+		<Logger name="com.pcbsys.nirvana" additivity="false" level="error">
+		  <AppenderRef ref="LOG_FILE"/>
+		</Logger>
+		<Logger name="com.pcbsys.foundation" additivity="false" level="error">
+			<AppenderRef ref="LOG_FILE"/>
+		</Logger>
+		<Logger name="com.softwareag.um" additivity="false" level="error">
+			<AppenderRef ref="LOG_FILE" />
+		</Logger>
+        <Root level="off">
+            <AppenderRef ref="Console" />
+        </Root>
+    </Loggers>
+</Configuration>

@@ -1,0 +1,48 @@
+name=e2ei/11/SPM_10.7.0.0.784/Platform/SPM/SPM-W64-Any/BM_CCShared-ALL-Any
+version=10.7.0.0.784
+timestamp=1599492577
+
+common/
+common/runtime/
+common/
+common/runtime/bundles/
+common/runtime/
+common/runtime/bundles/cc-shared/
+common/runtime/bundles/
+common/runtime/bundles/cc-shared/eclipse/
+common/runtime/bundles/cc-shared/
+common/runtime/bundles/cc-shared/eclipse/binary/
+common/runtime/bundles/cc-shared/eclipse/
+common/runtime/bundles/cc-shared/eclipse/features/
+common/runtime/bundles/cc-shared/eclipse/plugins/
+0755 common/runtime/bundles/cc-shared/eclipse/artifacts.xml
+0755 common/runtime/bundles/cc-shared/eclipse/content.xml
+0755 common/runtime/bundles/cc-shared/eclipse/features/com.softwareag.plm.cc.common.feature_10.7.0.0000-0784.jar
+common/runtime/bundles/cc-shared/eclipse/features/
+0755 common/runtime/bundles/cc-shared/eclipse/features/com.softwareag.plm.cc.configuration.common.model.feature_10.7.0.0000-0784.jar
+0755 common/runtime/bundles/cc-shared/eclipse/features/com.softwareag.plm.cc.spm.jersey.client_10.7.0.0000-0784.jar
+0755 common/runtime/bundles/cc-shared/eclipse/features/com.softwareag.plm.cc.spm.jersey.common_10.7.0.0000-0784.jar
+0755 common/runtime/bundles/cc-shared/eclipse/features/com.softwareag.plm.cc.spm.jersey.containers_10.7.0.0000-0784.jar
+0755 common/runtime/bundles/cc-shared/eclipse/features/com.softwareag.plm.cc.spm.jersey.media_10.7.0.0000-0784.jar
+0755 common/runtime/bundles/cc-shared/eclipse/features/com.softwareag.plm.cc.spm.jersey.server_10.7.0.0000-0784.jar
+0755 common/runtime/bundles/cc-shared/eclipse/plugins/com.softwareag.plm.cc.spm.abe_10.7.0.0000-0784.jar
+common/runtime/bundles/cc-shared/eclipse/plugins/
+0755 common/runtime/bundles/cc-shared/eclipse/plugins/com.softwareag.plm.cc.spm.common_10.7.0.0000-0784.jar
+0755 common/runtime/bundles/cc-shared/eclipse/plugins/com.softwareag.plm.cc.spm.composite.template.common_10.7.0.0000-0784.jar
+0755 common/runtime/bundles/cc-shared/eclipse/plugins/com.softwareag.plm.cc.spm.composite.template.tools_10.7.0.0000-0784.jar
+0755 common/runtime/bundles/cc-shared/eclipse/plugins/com.softwareag.plm.cc.spm.configuration.common.model_10.7.0.0000-0784.jar
+0755 common/runtime/bundles/cc-shared/eclipse/plugins/com.softwareag.plm.cc.spm.configuration.common_10.7.0.0000-0784.jar
+0755 common/runtime/bundles/cc-shared/eclipse/plugins/com.softwareag.plm.cc.spm.job.manager_10.7.0.0000-0784.jar
+0755 common/runtime/bundles/cc-shared/eclipse/plugins/com.softwareag.plm.cc.spm.polling.common_10.7.0.0000-0784.jar
+0755 common/runtime/bundles/cc-shared/eclipse/plugins/com.softwareag.plm.cc.spm.remote.core_10.7.0.0000-0784.jar
+0755 common/runtime/bundles/cc-shared/eclipse/plugins/com.softwareag.plm.cc.spm.remote.json_10.7.0.0000-0784.jar
+0755 common/runtime/bundles/cc-shared/eclipse/plugins/com.softwareag.plm.cc.spm.security.common_10.7.0.0000-0784.jar
+0755 common/runtime/bundles/cc-shared/eclipse/plugins/com.softwareag.plm.cc.spm.template.common_10.7.0.0000-0784.jar
+0755 common/runtime/bundles/cc-shared/eclipse/plugins/com.softwareag.plm.cc.spm.uibinding.common_10.7.0.0000-0784.jar
+0755 common/runtime/bundles/cc-shared/eclipse/plugins/com.softwareag.plm.cc.spm.util_10.7.0.0000-0784.jar
+0755 common/runtime/bundles/cc-shared/eclipse/plugins/javax.annotation-api_1.2.0.jar
+0755 common/runtime/bundles/cc-shared/eclipse/plugins/org.apache.commons.compress_1.9.0.jar
+0755 common/runtime/bundles/cc-shared/eclipse/plugins/org.glassfish.hk2.external.aopalliance-repackaged_2.5.0.b42.jar
+0755 common/runtime/bundles/cc-shared/eclipse/plugins/org.glassfish.jersey.media.jersey-media-multipart_2.29.1.jar
+0755 common/runtime/bundles/cc-shared/eclipse/plugins/org.glassfish.jersey.media.jersey-media-sse_2.29.1.jar
+0755 common/runtime/bundles/cc-shared/eclipse/plugins/org.jvnet.mimepull_1.9.6.jar

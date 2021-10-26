@@ -1,0 +1,1 @@
+uninstall.phase4=extract(source:C:\\temp\\SAGEM\\install\\fix\\backup\\wMFix.OSGI.Migration_10.7.0.0001-0384\\install.phase4_1\\replaced_files_backup);extract(source:C:\\temp\\SAGEM\\install\\fix\\backup\\wMFix.OSGI.Migration_10.7.0.0001-0384\\install.phase4_2\\replaced_files_backup);

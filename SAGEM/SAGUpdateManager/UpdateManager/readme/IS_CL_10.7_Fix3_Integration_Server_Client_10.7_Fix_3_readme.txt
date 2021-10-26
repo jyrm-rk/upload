@@ -1,0 +1,1777 @@
+                   webMethods Integration Server 10.7 Core Fix 3 readme
+                  webMethods Integration Server 10.7 Client Fix 3 readme
+
+                                        July 2021                                                      
+
+____________________________________________________________________________________________________
+
+1.0   Fix Name
+2.0   Fix ID
+3.0   Product(s)/Component(s) Affected
+4.0   Requirements and Dependencies
+5.0   Platform Support
+6.0   Cautions and Warnings
+7.0   Fix Contents
+8.0   Installation
+9.0   Uninstallation
+10.0  Globalization
+11.0  Copyright
+____________________________________________________________________________________________________
+
+
+1.0 Fix Name
+
+webMethods Integration Server 10.7 Core Fix 3.
+
+
+
+2.0 Fix ID
+
+IS_10.7_Core_Fix3
+
+
+
+3.0 Product(s)/Component(s) Affected
+
+This fix affects webMethods Integration Server 10.7.
+
+
+
+4.0 Requirements and Dependencies
+
+WOK_10.7_RuleEngine_Fix4
+WOK_10.7_RuleDesigner_Fix4
+WOK_10.7_RuleBuild_Fix4
+WOK_10.7_RMC_Fix4
+WSC_10.7_Security_Fix1
+MTA_10.7_Fix2
+
+For language pack requirements, see the Globalization section of the Software AG Empower Product 
+Support website at https://empower.softwareag.com/Products/Globalization/default.asp
+
+
+
+5.0 Platform Support
+
+webMethods Integration Server 10.7 Core Fix 3 is supported on the 
+same platforms and operating systems and with the same JREs as webMethods 
+Integration Server 10.7.
+
+
+
+6.0 Cautions and Warnings
+
+If Integration Server uses central user management which is provided through My webMethods Server, 
+you must keep the common libraries provided by My webMethods Server up to date. To obtain the 
+current changes to the common libraries, install the latest My webMethods Server fix located 
+under Common Libraries in Software AG Update Manager.
+
+To complete resolution of PIE-66920, after applying a fix that includes PIE-66920, 
+you must do the following for each publishable document type that contains multiple 
+document reference variables with the same name but different document type references: 
+edit the publishable document type, save it, and then synchronize it with Universal Messaging. 
+This will generate a new protocol buffer descriptor and synchronize 
+it with the definition on Universal Messaging.
+
+Important! PIE-63695 requires the webMethods Deployer fix for WDY-5938. After you install this fix, 
+install the latest fix for your webMethods Deployer release. 
+For example: DEP_10.7_Fix1 for webMethods Deployer 10.7.
+
+Important! PIE-66900 requires the webMethods Process Engine fix for WPE-4790. 
+After you install this fix, install the latest fix for your 
+webMethods Process Engine release. For example: PRT_10.7_Fix1 for webMethods Process Engine 10.7.
+
+To resolve WSC-665 on a Microservices Runtime, you must apply the fix that contains PIE-68592 
+to Microservices Runtime before applying the shared components (WSC) fix. For Integration Server, 
+the fix containing PIE-68592 does not need to be applied before the WSC fix.
+
+
+7.0 Fix Contents
+In addition to including resolutions to product defects, a fix may also include enhancements to 
+existing functionality and features. Any of these items can result in new or changed built-in services,
+APIs, or configuration parameters. Review the fix contents carefully before installing the fix.
+
+This fix is cumulative, which means that it includes all previous fixes for the release.
+
+PIE-61708
+In webMethods Cloud, attempts to move a newly created SOAP application from one
+folder to another encounter issues if the application contains a document
+reference. 
+
+If a SOAP application in webMethods Cloud contains a document reference, copying
+the application from one folder to another does not work correctly because the
+copied document reference points to the old folder location and not the new
+location. 
+
+This issue is now resolved.
+
+PIE-65069
+Integration Server has issues at runtime while working with a REST API 
+Descriptor (RAD) created from a Swagger document containing arrays as root 
+elements in the response.
+
+When you are creating a provider or consumer RAD by importing a Swagger document 
+that has operations containing arrays as root elements in the response, 
+Integration Server sends an incorrect response while working as a provider and 
+incorrectly executes the connector services while working as a consumer.
+
+These issues are resolved now.
+
+PIE-65495
+The pub.client:http service does not honour the value of the watt.net.maxRetries
+property. 
+ 
+Regardless of the value set for the watt.net.maxRetries property, Integration
+Server considers the default value of watt.net.maxRetries, which is 1. It does
+not consider 0 or a value greater than 1 (default value). Additionally, despite
+receiving a SocketTimeoutException with the "read timed out" message,
+Integration Server continues to try to connect with the target. This is
+inconsistent if the connection is established, as the response is not received
+within the specified timeout value, yet the connection with the target gets
+established. 
+  
+This issue is now resolved. 
+
+PIE-66849
+WmJMSAdminException occurs when attempting to create a destination on Broker via
+Designer. 
+
+When creating a JMS connection alias that uses the native webMethods API,
+Integration Server incorrectly creates the connection as encrypted even when the
+Encrypted check box is not selected. This results in the following exception
+when attempting to use Designer to create a destination on Broker. 
+
+com.webmethods.jms.admin.WmJMSAdminException: [BRM.10.5102]  JMS: Cannot make an
+authenticated connection to Broker: password is missing 
+
+This issue is now resolved.
+
+PIE-66946
+Integration Server does not roll over server log files correctly.
+
+When Integration Server rotates the server log, Integration Server also ensures
+that the number of server log files (the current file plus archived ones) does
+not exceed the value of watt.server.serverlogFilesToKeep. However, Integration
+Server deletes the most recent archived server log file instead of the oldest
+one. 
+
+This issue is now corrected.
+
+PIE-66986
+Integration Server does not remove expired OAuth tokens from the cache or
+database. 
+
+Integration Server maintains some base OAuth token information in the
+OAuthTokens cache and access token information in the OAuthAccessTokens cache.
+However, Integration Server does not correctly remove token data associated with
+expired access tokens from the caches or the database. 
+
+This fix resolves the following issues surrounding OAuth tokens, the caches, and
+the database: 
+ 
+- Integration Server removes expired OAuth access tokens from the cache but does
+not remove the corresponding record from the database. This is more prevalent
+when Terracotta Server Array (TSA) is in use. Now, Integration Server ensures
+automatic deletion of expired access tokens from the TSA cache and the database. 
+
+- The OAuthTokens cache increases in size as used tokens are removed from the
+database but left in the TSA caches. Now, when the access token that corresponds
+to a token or refresh token expires, Integration Server automatically removes
+the token or refresh token from the TSA cache. If the refresh token is valid and
+is used again, Integration Server re-retrieves the corresponding token and
+refresh token from the database and adds them to the TSA cache. Integration
+Server will remove the tokens in the TSA cache after the access token expires. 
+
+PIE-66988
+Enhancement to Integration Server to add support for FIPS-certified cipher.
+ 
+In conjunction with the webMethods Shared Components (issue WSC-660),
+Integration Server now includes support for a FIPS-certified cipher with the
+outbound password encryption and the master password features. Specifically, the
+password manager in Integration Server now supports an Entrust AES cipher
+algorithm with a 256-bit key. 
+ 
+Integration Server does not automatically switch to the new cipher algorithm nor
+does it migrate existing passwords that were encrypted using a previous
+algorithm. If you want to use the FIPS-certified cipher with passwords, you must
+edit the passman configuration. 
+ 
+To configure Integration Server to use the new cipher algorithm for all
+passwords (existing and future ones), do the following after applying a fix that
+includes PIE-66988 and the companion shared components fix that includes
+WSC-660: 
+1. Shutdown Integration Server.
+2. Navigate to the IntegrationServer/instances/<instance_name>/config/ directory
+and backup the following files: 
+    - configPassman.cnf
+    - passman.cnf
+    - txnPassStore.dat
+    - empw.dat
+Note: If you are using Microservices Runtime, navigate to
+IntegrationServer/config. 
+3. In the above directory, delete the following files
+     - passman.cnf
+     - txnPassStore.dat
+     - empw.dat
+4. Using a text editor, open the configPassman.cnf file located in the same
+directory. 
+5. Make the following changes to configPassman.cnf
+5.1 Before the master.password.field.fileName parameter, add the following
+parameter: 
+
+MasterPasswordClass=com.webmethods.sc.security.passman.impl.masterpw.entrust.EntrustAesMasterPassword
+     5.2 Change the value of default.encryptor parameter to EntrustAes.
+Note: You can comment out the current default.encryptor parameter using # and
+then add the line: 
+                       default.encryptor=EntrustAes
+     5.3 At the end of the file, add the parameter: sanity.encryptor=EntrustAes
+6. Save your changes to configPassman.cnf and close the file.
+7. Start Integration Server.
+8. Set the values of any outbound passwords (keystores, JDBC pools, etc.). This
+is necessary because deleting the *.dat files removed any saved outbound
+passwords. The new values for outbound passwords will be encrypted using the new
+cipher encryptor. 
+
+Note: If you have multiple Integration Servers that use the same passwords, you
+can make the changes described above in one Integration Server. Then, after
+installing the fixes that contain PIE-66988 and WSC-660 on another Integration
+Server, while the Integration Server is still shut down, copy the passman.cnf,
+configPassman.cnf, txnPassStore.dat, and empw.dat files from the first
+integration Server to the IntegrationServer/instances/<instance_name>/config/
+directory on the second Integration Server. 
+
+PIE-67120
+Incorrect dependency displayed between a document type and a simple type in an
+IS schema. 
+
+When using schema domains, if there are simple types with the same name in both
+the default schema domain and another schema domain, the dependency manager in
+Designer might show incorrect dependencies between the document types that
+reference those simple types. 
+
+This issue is now resolved.
+
+PIE-67151
+When a web service connector receives an HTTP 4xx response other than a 400,
+Integration Server does not pass the fault details back to the caller but
+should. 
+
+Now, Integration Server processes HTTP 4xx responses received by a web service
+connector similarly to HTTP 400 responses. Integration Server returns the fault
+details present in the response to the caller. 
+
+PIE-67515
+Integration Server incorrectly assigns the status for JMS messages as 'IN_DOUBT' 
+instead of throwing an error message during a database failover.
+
+In Designer, when you configure the exactly-once processing for a JMS trigger by
+setting the "Detect duplicates" and "Use history" properties to "True" under 
+"Properties > Exactly once" and if a database failover happens while entering a 
+record into a table, Integration Server incorrectly assigns the status for the 
+messages as 'IN_DOUBT' instead of throwing an error message. 
+
+This issue is resolved now.
+
+PIE-67821
+Integration Server throws an error while importing a Swagger document containing 
+an inline schema in the request body.
+
+When you create a provider or consumer REST API descriptor (RAD) by importing a 
+Swagger document that contains an inline schema in the request body, Integration 
+Server throws an error and does not import the document.
+
+This issue is now resolved.
+
+PIE-67825
+After applying a fix that includes PIE-66955, the configuration variables
+(application.properties) could only set a keystore alias type to the default
+value. 
+
+This issue is now resolved. An application.properties template can be used to
+set a keystore alias type to a value other than the default. 
+
+PIE-67885
+Unable to establish a connection to Enterprise Gateway Server on the loopback
+interface: 127.0.0.1. 
+
+An Enterprise Gateway Server instance may have an internal server port on the
+loopback interface and also have an external registration port on the same host.
+In such an environment, a create, update, or delete operation on the
+registration port generates the error, "Failed to create Gateway Listener as
+Port xxxx is already associated with another listener", though there is no such
+listener. 
+
+The issue is now resolved.
+
+PIE-68067
+Integration Server incorrectly enables a suspended JMS trigger even though a
+resource monitoring service is not configured.
+
+In Designer, when you configure the exactly-once processing for a JMS trigger by
+setting the "Detect duplicates" and "Use history" properties to "True" under 
+"Properties > Exactly once" and the 
+"watt.server.trigger.preprocess.suspendAndRetryOnError" parameter to "true", 
+Integration Server suspends the trigger if the history database contains issues 
+and monitors the database availability using a resource monitoring service.
+When the database is available, the monitoring service enables the trigger.
+
+Now, if any issue occurs while processing the trigger and if the "Transient 
+error handling > On retry failure" property is set to "Suspend and retry later", 
+and a resource monitoring service is not configured, Integration Server must 
+only suspend the trigger and not enable it automatically.
+
+This issue is now resolved.
+
+PIE-68163
+Integration Server Administrator cannot be used to change the state of a
+webMethods messaging trigger. 
+
+When the server configuration parameter watt.server.ns.lockingMode is set to
+none, Integration Server Administrator cannot be used to suspend or resume
+document retrieval or document processing for a webMethods messaging trigger.
+Instead, the following error occurs: 
+
+com.wm.app.b2b.server.ServiceException: [ISS.0098.9072] Trigger "<triggerName>"
+is locked. Change not permitted. 
+
+This is incorrect. When watt.server.ns.lockingMode is set to none, locking
+should be disabled and Integration Server Administrator can be used to change
+the state of the trigger. 
+
+This issue is now resolved.
+
+PIE-68170
+After an Integration Server instance is migrated from 10.3 to 107, applying the
+application.properties file results in the JDBC Functional Alias configuration
+variables (jdbcfunc.functionName.connPoolAlias) being uneditable. 
+
+This issue is now resolved.
+
+Note: The configuration variables functionality is available in Microservices
+Runtime or in an Integration Server with a Microservices license. 
+
+PIE-68317
+Enhancement to Integration Server to control whether an outbound call from
+Integration Server follows redirection. 
+
+Previously, when Integration Server makes an outbound call and receives a
+response code is between 300 and 400, Integration Server automatically redirects
+to the location specified in the response header. However, an application may
+sometimes require Integration Server to not follow that redirection. For
+example, an application may need to first see the cookies returned by the
+initial request before making the redirection request. Some applications may not
+need to follow a redirection request. 
+
+To resolve this issue, Integration Server now includes the server configuration
+parameter watt.net.http.followRedirect that controls following redirection
+requests on a server-wide basis and a pub.client:http input parameter that
+controls following redirection requests on a case by case basis. 
+
+watt.net.http.followRedirect
+Specifies whether Integration Server automatically follows redirection when an
+outbound HTTP requests receives a response code is between 300 and 400. Set to
+true for outbound requests to follow the redirect. Set to false for outbound
+requests to not follow the redirect and instead return the response code and all
+of the response headers from the original outbound request. The default is true. 
+
+You do not need to restart Integration Server for changes to this parameter to
+take effect. 
+
+The watt.net.http.followRedirect behavior can be over-ridden on a case-by-case
+basis via the followRedirect input parameter for the pub.client:http service. 
+
+followRedirect – String. Optional. Whether the outbound request follows a
+redirect when receiving a response code between 300 and 400. Set to one of the
+following: 
+
+yes – if the request follows the redirect
+no – if the request does not follow the redirect and instead return the
+response code and all of the response headers from the original outbound
+request. 
+<null> - if the value of the watt.net.http.followRedirect parameter determines
+whether or not the request follows a redirect. 
+Note: A value of yes or no overrides the value of the
+watt.net.http.followRedirect parameter. 
+
+PIE-68330
+In Integration Server 10.5, the output of the built-in service,
+pub.xml:documentToXMLString, shows some data loss when the document to be
+converted (the document input parameter) has a document list that contains
+nested objects types. 
+ 
+The issue is now resolved.
+
+PIE-68339
+Integration Server becomes unresponsive.
+
+Integration Server threads become blocked due to a synchronization error in the
+JDBC driver for SQL server driver. 
+
+The issue has been resolved by changing the synchronization logic.
+
+PIE-68340
+Integration Server utilizes high amounts of CPU.
+
+A thread synchronization issue around obtaining cluster status for an
+Integration Server results in high CPU utilization. 
+
+This issue has been resolved by removing a redundant call that caused incorrect
+synchronization. 
+
+PIE-68646
+Integration Server encodes documents in the pipeline very slowly.
+
+Depending upon the size and complexity of a document, Integration Server might
+take a long time to encode the document using the Integration Server binary
+protocol. 
+
+To address this issue, Integration Server introduces the ability to use a faster
+and slightly more memory efficient implementation of IDataBinCoder. Set
+watt.sever.idatacoder.legacy to false to use the faster, more efficient
+IDataBinCoder implementation. 
+ 
+watt.server.idatacoder.legacy
+Specifies whether a newer version or legacy version of the IDataBinCoder for
+encoding documents using the binary protocol. Set to true to use the legacy
+version. Set to false to use a newer version which may be significantly faster
+and slightly more memory efficient for large, complex documents. The default is
+true. 
+
+Restart of Integration Server is not required for changes to take effect. 
+
+Note: Any documents persisted to disk can be decoded even if the
+watt.server.idatacoder.legacy value changes between the time the document was
+encoded and the time the document needs to be decoded. That is, persisted data
+can be decoded regardless of the version of IDataBinCoder used to persist encode
+it. 
+
+PIE-68651
+When an InputStream is passed to the responseStream input parameter off the
+pub.flow:setReponse2 service, the service does not close the stream after
+sending the HTTP response to the client. 
+
+Now, the pub.flow:setReponse2 service closes the stream after sending the
+response. 
+
+PIE-68778
+When Integration Server experiences a heavy load of outbound calls, the number
+of newly created sessions may result in out of memory and/or stability issues. 
+
+When making an outbound HTTP/S call, Integration Server uses an existing session
+or creates a new session. Whether Integration Server reuses an existing session
+or creates a new session depends on the following: 
+
+-  Whether the server configuration parameter
+watt.server.new.http.session.context is set to true. 
+-  If there is a newSession parameter set to yes in the pipeline. The
+pub.client:http service has a newSession input parameter. 
+-  If watt.server.new.http.session.context is set to false and the newSession
+parameter is not in the pipeline or it exists but has the value “no�?, then
+Integration Server checks to see if there is already a session assigned to the
+service thread. If a session is available on the service thread, Integration
+Server uses it. If there is not a session available, Integration Server creates
+one with the name "(httpclient)". 
+
+The new sessions created under heavy load tend to occupy more memory and create
+stability issues for Integration Server. This is because sessions created under
+heavy load are less likely to be reused. Additionally, the interval at which
+Integration Server executes the session sweeper scheduled system task to clean
+up expired sessions is the same as the value of the watt.server.clientTimeout
+parameter. (The watt.server.clientTimeout, which has a default of 10 minutes,
+specifies the amount of time, in minutes, after which an idle session times
+out.) If the session sweeper task executes every ten minutes and the session
+itself must be idle for ten minutes before it times out, idle sessions could
+remain in Java heap. As more and more outbound calls are made, more and more new
+sessions are created. This leads to issues with heap exhaustion. 
+
+To address the issues caused by new sessions created under heavy outbound load,
+Integration Server introduces the following changes: 
+
+-  Reducing the idle period of a newly created session for an outbound HTTP/S
+call and providing the ability to configure this idle period. The new server
+configuration parameter watt.net.http.clientSession.idleTimeout specifies how
+many milliseconds a newly created outbound HTTP/S session can be idle before the
+session times out and can be removed by the session sweeper. A lower idle
+timeout for a session allows Integration Server to more quickly remove a session
+that is not likely to be reused. The default value is 20,000 ms (i.e., 20
+seconds). Outbound HTTP/S sessions have the name "(httpclient)". You do not need
+to restart Integration Server for changes to this parameter to take effect. 
+-  A new configuration parameter for controlling the interval at which the
+session sweeper system task executes. The watt.server.session.sweeperInterval
+specifies the interval, measured in milliseconds, between execution or the
+session sweeper task. The parameter applies to all inbound and outbound
+sessions. The default is 120,000 ms (2 minutes). You must restart Integration
+Server for changes to this parameter to take effect. 
+
+Note: If the watt.server.clientTimeout value is less than the
+watt.server.session.sweeperInterval, Integration Server uses the
+watt.server.clientTimeout value as the interval for the session sweeper
+scheduled task. That is, when scheduling the sessions sweeper system task,
+Integration Server uses the shorter of the time values set for
+watt.server.session.sweeperInterval or watt.server.clientTimeout. Keep in mind
+that watt.sever.clientTimeout value uses minutes as the unit of measure and
+watt.server.session.sweeperInterval uses milliseconds. 
+
+PIE-68848
+Integration Server throws an IndexOutofRangeException when at the end of an
+enumeration list. 
+
+This issue is now resolved.
+
+PIE-68855
+The application.properties template does not contain the Initial Context Factory
+value for a JNDI provider but should. 
+
+When Microservices Runtime (or an Integration Server equipped with a
+Microservices license) generated an application.properties template, the JNDI
+provider portion of the template did not contain a configuration variable for
+the Initial Context Factory. 
+
+This issue is now resolved.
+
+PIE-68858
+In some cases, a few properties are not migrated correctly and the Integration
+Server instance fails to start after migration to a newer version. 
+
+A few properties in AuditConfig.xml and the Terracotta license path in
+server.cnf continue to point to the source installation after a migration. In
+such cases, the migrated Integration Server instance fails to start. 
+
+This issue is resolved now. The properties in AuditConfig.xml and the Terracotta
+license path in server.cnf file point to the target installation. 
+
+PIE-68900
+Previously, a configuration variables template could be used to set the user and
+password for a Broker connection alias only. 
+
+Microservices Runtime and an Integration Server with a Microservices license now
+support setting the following values for a Broker connection alias via an
+application.properties file. 
+
+Broker Host: messaging.BROKERALIAS.brokerHost
+Broker Name: messaging.BROKERALIAS.brokerName
+Client Group: messaging.BROKERALIAS.clientGroupName
+Keystore: messaging.BROKERALIAS.certfile
+Keystore Password: messaging.BROKERALIAS.keystorePassword
+Truststore: messaging.BROKERALIAS.truststore
+Username: messaging.BROKERALIAS.user
+Password: messaging.BROKERALIAS.password
+
+You can also create a Broker connection alias via application of a configuration
+variables template. However, only one Broker connection alias can exist on a
+Microservices Runtime (or an Integration Server). If the application.properties
+file being applied to the Microservices Runtime specifies a Broker connection
+alias, but a Broker connection alias already exists on Microservices Runtime, an
+error is written to the configurationvariables.log and the Broker configuration
+is not updated. 
+
+PIE-68910
+When server logging facility 0012 is set to TRACE, an OutOfMemoryException can
+occur when Integration Server processes tokens from an OpenID provider. 
+
+This has been resolved. The OutOfMemoryException no longer occurs when
+Integration Server logs OpenID activity. 
+
+PIE-69100
+After applying the Java package update that includes JDK 1.8.0_292, Integration
+Server is not able to use TLSv1.1 or TLSv1. 
+
+The Java package update for JDK 1.8.0_292 disables the use of TLSv1.1 and TLSv1
+using the jdk.tls.disabledAlgorithms parameter in the java.security file. After
+applying the Java package update, Integration Server is not able to use TLSv1.1
+or TLSv1. 
+
+Note: Java package updates are available in Software AG Update Manager in
+Infrastructure > Java Package. For 10.5, the Java package fix CJP_10.5_Fix134
+contains JDK 1.8.0_292. 
+
+Integration Server provides an override file for the java.security file named
+webm_override_java.security. The override file is installed into
+IntegrationServer_dir\instances\instanceName\config\security folder. This file
+is then registered with Java using the
+-Djava.security.properties=config/security/webm_override_java.security in the
+custom_wrapper.conf. Note these changes are made programmatically. 
+ 
+Note: When applying a fix that includes PIE-69100 to Microservices Runtime, the
+override file is installed in IntegrationServer_dir\config\security.  Changes in
+the override file are applied programmatically. 
+
+Although Integration Server allows the use TLSv1.1 and TLSv1, Software AG
+recommends adjusting your enabled protocols to be more secure and use TLSv1.2 or
+higher. To change the allowed protocols, set the
+watt.net.jsse.*.enabledProtocols configuration parameters on Integration Server
+or Microservice Runtime versions 10.5 and lower or by using the
+watt.net.jsse.*.disabledProtocols properties on version 10.7. 
+
+PIE-69213
+A misspelling of the word adapter resulted in an incorrect URL for the Open API
+document for the Adapter Runtime. 
+
+The incorrect URL was: /admin/swagger/adpaterRuntime
+
+This has been resolved. The correct URL is: /admin/swagger/adapterRuntime
+
+PIE-69422
+Enhancement to Microservices Runtime to allow metrics for layered products to be
+returned when the metrics endpoint is invoked. 
+
+Previously, Microservices Runtime (or an Integration Server with a Microservices
+license) gathered and returned metrics for Microservices Runtime only. The data
+returned when the metrics endpoint was called did not include any data for
+layered products (Software AG products that reside on top of Microservices
+Runtime). 
+
+Now, metrics for layered products can be gathered and returned when the metrics
+endpoint is called. For a list and description of metrics returned by layered
+products, consult the documentation for those products. 
+
+PIE-69684
+Integration Server stores OAuth client_secrets in clear text.
+
+When a confidential OAuth client is created, Integration Server generates a
+client_secret. The client_secret is similar to a password and must be stored
+securely.  Integration Server saves client_secrets in clear text in the
+database. However, if the database itself is not encrypted, this represents a
+security vulnerability. 
+
+This vulnerability had been addressed previously with PIE-67827 which changed
+the Integration Server behavior to store the client_secrets in the secure
+password store. However, this solution does not work well for Integration
+Servers in a cluster because the password store resides on each server's local
+file system. As a result, the client_secret values are not shared among all the
+servers in a cluster. 
+
+This fix addresses the security vulnerability and the shortcomings of using the
+local password store, by encrypting each client_secret before writing it to the
+database. When Integration Server reads client_secrets from the database,
+Integration Server holds them in memory in encrypted form. Integration Server
+decrypts the client_secret only when they are being used. 
+
+When Integration Server starts after this fix is installed, Integration Server
+encrypts clear text client_secrets in the database. Integration Server also
+encrypts client_secrets found in the password store and saves them to the
+database. 
+
+PIE-61708
+In webMethods Cloud, attempts to move a newly created SOAP application from one
+folder to another encounter issues if the application contains a document
+reference. 
+
+If a SOAP application in webMethods Cloud contains a document reference, copying
+the application from one folder to another does not work correctly because the
+copied document reference points to the old folder location and not the new
+location. 
+
+This issue is now resolved.
+
+PIE-61404 (IS_10.7_Core_Fix2)
+Pipeline data may become corrupted after service resubmitted via Monitor.
+
+When using the service resubmission functionality in Monitor, the pipeline
+passed to the service may decode equivalent objects as references to the same
+object instead of unique objects that contain equivalent data. An incorrectly
+decoded pipeline introduces the potential for data corruption. 
+
+This issue is now fixed. Integration Server decodes equivalent objects in the
+service resubmission pipeline as unique objects that contain equivalent data. 
+
+
+PIE-63155 (IS_10.7_Core_Fix2)
+Integration Server throws a document validation error while publishing a 
+document that depends on a document in another package and the two packages were 
+not installed in the correct order.
+
+Consider two IS packages: package 'A' and package 'B'. Package 'B' contains a
+document 'B1' which refers to a document 'A1' in package 'A'. The packages are 
+installed in the correct order: first package 'A' and the package 'B'.
+ 
+in 
+the reverse order: first package 'B' and then package 'A'. Thereafter, when you 
+try to publish document 'B1', Integration Server does not publish it because 
+document 'B1' refers to an earlier version of document 'A1' which is not 
+available.
+
+This issue is now resolved. Now, even if the packages are installed in the 
+reverse order, you will be able to publish the dependent document 'B1'.
+
+PIE-66254 (IS_10.7_Core_Fix2)
+Integration Server does not remove the durable from Universal Messaging for
+packages that are deployed using WmDeployer. 
+
+In Designer, when you create and enable a webMethods messaging trigger for
+Universal Messaging, Integration Server creates a durable in Universal
+Messaging. When you remove the same trigger from Designer, and the "Client
+Prefix Is Shared" setting in Integration Server Administrator (on the "Settings
+> Messaging > webMethods Messaging Settings > Universal Messaging Connection
+Alias" page) is set to "No", then Integration Server removes the durable from
+Universal Messaging. However, when you remove the trigger from the package
+directly on the Integration Server and then deploy the package to another
+Integration Server using WmDeployer, Integration Server does not remove the
+durable from Universal Messaging. 
+
+This issue is resolved. Now, a new parameter "Delete Universal Messaging
+Durable" (<DeploymentSet_Name> > Packages > <Package_Name> > Properties >
+Package Deployment Options) is added to the WmDeployer project page (accessible
+from the "Packages > Management > WmDeployer" page in Integration Server
+Administrator). When set to "Yes", Integration Server removes the durable from
+Universal Messaging. The default value of "Delete Universal Messaging Durable"
+is "No". 
+
+PIE-66342 (IS_10.7_Core_Fix2)
+The SSL debug log contains exceptions indicating that Integration Server
+attempts to incorrectly close SSL connections. 
+
+When Integration Server connects to URLs/endpoints using TLS and SSL debugging
+is in use, the following exception is logged upon closing the connection:
+"closing inbound before receiving peer's close_notify". This exception occurs
+when Integration Server attempts to close SSL connections incorrectly. 
+
+This issue has been fixed.
+
+PIE-66486 (IS_10.7_Core_Fix2)
+The Integration Server migration utility updates the Server ID in database
+tables even for an upgrade on the same host. 
+
+The issue is now resolved. 
+
+PIE-66664 (IS_10.7_Core_Fix2)
+The APIs tab on the Dashboard displays inconsistent data in the Top 5 Slow APIs
+by Response Time chart and the Average response time value in the table. 
+
+The response time values for the Top 5 Slow APIs by Response Time chart should
+be the same as the Average response time for those APIs in the table below the
+chart. 
+
+Now, those values are the same.
+
+PIE-66711 (IS_10.7_Core_Fix2)
+Support for adding the SameSite attribute to the Set-Cookie HTTP response header
+in Integration server 
+
+Integration Server includes a new server configuration parameter,
+watt.server.http.header.sameSite, that enables you to add the SameSite attribute
+to Set-Cookie HTTP response headers. 
+
+Valid values for watt.server.http.header.sameSite are: None, Strict, and Lax. If
+the parameter is set to None, all clients that include cookies with their
+requests must use a secure HTTP (HTTPS) port. If you want to return Set-Cookie
+headers without the Secure attribute, set watt.server.http.header.sameSite to
+Strict or Lax. 
+
+There is no default value for the watt.server.http.header.sameSite parameter.
+Therefore, by default, the SameSite attribute is not added. 
+
+A server restart is not required for this configuration parameter to take
+effect. 
+
+Notes:
+* The HTTP standard states that when the SameSite attribute of the Set-Cookie
+HTTP response header is None, the Secure attribute must be specified. To include
+the Secure attribute in the HTTP response header, set the server configuration
+parameter watt.server.http.header.useSecure to true. 
+* If you try to set watt.server.http.header.sameSite to None in IS
+Administrator, when watt.server.http.header.useSecure is set to false, IS
+Administrator displays a warning message and does not allow you change the
+value.  
+* If you edit the server.cnf configuration file directly and specify an invalid
+configuration, IS logs a warning and the invalid configuration is ignored. As
+the value of watt.server.http.header.sameSite is ignored, the SameSite attribute
+is not added to the Set-Cookie HTTP response header. 
+* If you set the Set-Cookie header and include the SameSite attribute using the
+pub.flow:setResponseHeader or pub.flow:setResponseHeaders services then IS
+ignores the value of the watt.server.http.header.sameSite parameter. 
+
+PIE-66793 (IS_10.7_Core_Fix2)
+The pub.security.util:getCertificateInfo service returns only the last two
+digits of the certificate expiration year which can lead to incorrect
+calculations for certificates expiring in 2100 or later. 
+
+The pub.security.util:getCertificateInfo service uses a preset date format that
+returns only the last two digits of the certificate expiration year. This
+creates ambiguity as a certificate that expires in 2109 returns an expiration
+year of 09, which some systems might treat aa 2009. 
+
+To address this issue, the pub.security.util:getCertificateInfo service now
+includes the optional parameter dateFormat which is of  type String. The value
+of dateFormat must be a pattern used by java.text.SimpleDateFormat, for example
+"MM/dd/yyyy". Use the dateFormat parameter to specify the date format to use for
+the date returned by the notBefore and notAfter fields in the validity output
+parameter. 
+
+PIE-67052 (IS_10.7_Core_Fix2)
+Integration Server does not log exceptions that occur during an attempt to
+establish an LDAP connection if a timeout occurs during the connection attempt. 
+
+If an exception and timeout occur during an attempt to establish an LDAP
+connection, Integration Server does not log the exception and the login attempt
+fails. 
+
+Now, Integration Server logs a message about the timeout and includes
+information about the type of exception. 
+
+PIE-67149 (IS_10.7_Core_Fix2)
+pub.storage data can become inaccessible in a cluster.
+
+Integration Server has a performance optimization in the pub.storage
+implementation. This optimization caches database keys in local memory. When in
+a cluster, this local cache can get out of sync with the database if another
+server in the cluster deletes then recreates data with the same storeName and
+key as the locally cached data. 
+
+This issue has been addressed by disabling this optimization by default and
+introducing a server configuration parameter to provide the option of enabling
+the behavior. When Integration Server is not running in a cluster, the
+optimization can be enabled by setting watt.server.storage.optimizeForStandalone
+to true. When set to true, Integration Server caches database keys in local
+memory, which may result in a small performance improvement for pub.storage.
+When set to false (the default), Integration Server does not cache database keys
+in local memory. 
+
+Important! Do not set watt.server.storage.optimizeForStandalone to true when in
+a cluster as this may lead to pub.storage database becoming inaccessible. 
+
+You do not need to restart Integration Server for changes to this parameter to
+take effect. 
+
+PIE-67311 (IS_10.7_Core_Fix2)
+Service caching performance appears to degrade under heavy load.
+
+This issue is now resolved.
+
+PIE-67416 (IS_10.7_Core_Fix2)
+Under heavy load, server processing that relies on the
+java.lang.invoke.MethodHandles class degrades resulting in high CPU usage and
+OutOfMemoryExceptions 
+
+Integration Server can encode an Object into a stream of bytes and decode a
+stream of bytes, if properly encoded, back into an Object. The process of
+decoding bytes uses the java.lang.invoke.MethodHandles class during the creation
+of object instances. Under heavy loads, the performance of the
+MethodHandles.lookup() method degrades. This can create a bottleneck in the
+server's processing, eventually leading to high CPU usage and
+OutOfMemoryExceptions. 
+
+This has been resolved. The use of MethodHandles has been replaced.
+
+PIE-67626 (IS_10.7_Core_Fix2)
+When you create a JNDI connection alias using a WmRoot internal service and do
+not update the required input parameters that enable the JNDI password to be
+saved in the password manager, Integration Server fails to look up JNDI 
+administered objects.
+
+This issue is resolved. Now, Integration Server displays an error message
+indicating that the input parameters are invalid or missing in the service 
+request, and does not save the JNDI connection alias.
+
+PIE-67687 (IS_10.7_Core_Fix2)
+Enhancement to diagnostic utility to gather data for webMethods messaging and
+JMS messaging. 
+
+The diagnostic utility in Integration Server now gathers data about webMethods
+messaging and JMS messaging and includes this information in the diagnostic
+report. The diagnostic information includes trigger conditions, JMS connection
+alias information, messaging connection alias information. The additional
+information may help with debugging and diagnosing issues in Integration Server. 
+
+PIE-67760 (IS_10.7_Core_Fix2)
+Services results caching causes a StackOverflowError.
+
+The Java serialization used by Integration Server for caching service results
+used recursive calls. In some situations, the level of recursion resulted in a
+StackOverflowError. 
+
+This issue is resolved by changing the serialization used for caching service
+results. 
+
+PIE-67780 (IS_10.7_Core_Fix2)
+If an email listener port in Integration Server is configured to invoke a flow
+service, Integration Server creates a session for each invocation, which expires
+in 600 seconds even though the flow service is configured as stateless and the
+port is configured to invoke the service as a non-administrator user. 
+
+This issue is resolved. Now, a session is created for each invocation of a
+stateless flow service and the session expires only after the service execution
+completes. 
+
+PIE-67813 (IS_10.7_Core_Fix2)
+For a Microservices Runtime or an Integration Server running in a Docker
+container, the default ACL for accessing the /health and /metrics endpoint
+should be "Anonymous" but is not. 
+
+This issue is resolved.
+
+PIE-67827 (IS_10.7_Core_Fix2)
+Integration Server Administrator displays the OAuth client secret in clear text.
+
+The Security > OAuth > Client Registration > Edit page displays the client
+secret in clear text in the Secret field. Additionally, the database table that
+stores the client secret also stores the client secret in clear text. 
+
+To resolve this security vulnerability, the Security > OAuth > Client
+Registration > Edit page now masks the contents of the Secret field and includes
+a Reveal Secret button which displays the secret in clear text when clicked. The
+database table that stores the client secret now uses an encrypted value instead
+of clear text. The fix also migrates all existing clear text values for the
+client secret in the database to be oauth.client.%CLIENT_ID%.secret where
+%CLIENT_ID% is a variable that refers to an encrypted value in the outbound
+password store. 
+
+PIE-67872 (IS_10.7_Core_Fix2)
+HTTP PUT requests from Integration Server to load-balanced Microsoft IIS servers
+using NTLM authentication fail intermittently. 
+
+During an NTLM handshake with a load-balanced Microsoft IIS server, Integration
+Server does not return the cookie sent by the load balancer. So, NTLM Type 1 and
+Type 3 requests reach different Microsoft IIS servers resulting in an
+unsuccessful handshake. 
+
+This issue is now resolved.
+
+PIE-68051 (IS_10.7_Core_Fix2)
+New Prometheus metric for service errors that excludes services from packages
+listed in watt.server.stats.packages.exclude. 
+
+The watt.server.stats.packages.exclude server configuration parameter excludes
+services from statistics. By default, internal services that belong to packages
+that start with Wm are excluded from various statistics. However, the Prometheus
+metric sag_is_number_service_errors_per_minute returned by the /metrics endpoint
+includes all services. 
+
+To address this, the /metrics endpoint now returns the following Prometheus
+metric: 
+sag_is_number_service_errors_excluding_internal_svc_per_minute
+The number of service errors in the last minute, which includes any service that
+gets an exception of any kind but excludes any services in a package set in the
+watt.sever.stats.packages.exclude server configuration parameter. 
+Prometheus label: host
+
+PIE-68171 (IS_10.7_Core_Fix2)
+After migrating Microservices Runtime or an Integration Server instance from
+10.3 to 10.7, the /health endpoint does not return information for the
+ClusterHealthIndicator. 
+
+This issue is now resolved.
+
+Note: The /health endpoint functionality is available in Microservices Runtime
+or in an Integration Server with a Microservices license. 
+
+PIE-68268 (IS_10.7_Core_Fix2)
+Integration Server erroneously treats automatic creation of a Broker connection
+alias as an event that requires a restart of Integration Server. 
+
+Pre-defined, system generated assets should not result in the banner stating
+"Restart is required for changes to take effect." appearing at the top of
+Integration Server Administrator. However, when Integration Server creates a
+Broker connection alias during the very first time an installation of
+Integration Server starts up, the restart required banner appears. 
+
+This issue has been resolved by modifying the mechanism that detects restarts to
+ignore system generated assets created on initial startup of Integration Server. 
+
+PIE-68376 (IS_10.7_Core_Fix2)
+After applying fix that includes PIE-67359, attempts to export configuration
+result in no buildFiles being generated. 
+
+The resolution for PIE-67359 contained logic that ensured files were only copied
+to the Cloud deployment location if there were no errors during export. However,
+this broke configuration export where asset types that could be successfully
+exported were while asset types for which errors occur were not exported. 
+
+To address this issue, the logic of exporting to cloud has been changed to allow
+successful export of packages and asset types for which errors do not occur and
+ensure that failed package exports do not generate a NullPointerException. 
+
+PIE-68473 (IS_10.7_Core_Fix2)
+When a package containing a Web Services Descriptor is deployed to webMethods
+Cloud Container, the WSDL URL is not updated correctly. 
+
+The issue is resolved now.
+
+PIE-68570 (IS_10.7_Core_Fix2)
+Using a configuration variables template (application.properties) to set the
+JNDI password does not result in the password being set in the outbound password
+store. 
+
+This issue is now fixed.
+
+PIE-68592 (IS_10.7_Core_Fix2)
+Addition of log4j2 jar files to the Integration Server and Microservices Runtime
+classpaths. 
+
+To support resolution of the shared component issue WSC-665, this fix adds the
+log4j-jul.jar and log4j-12api.jar files to the classpath of Integration Server
+and Microservices Runtime. 
+
+Important! To resolve WSC-665 on a Microservices Runtime, you must apply the fix
+that contains PIE-68592 to Microservices Runtime before applying the shared
+components (WSC) fix. For Integration Server, the fix containing PIE-68592 does
+not need to be applied before the WSC fix. 
+
+PIE-68620 (IS_10.7_Core_Fix2)
+The first time an Integration Server instance is started, the AuditConfig.xml
+file is created. If the IS Core Audit JDBC functional alias is not configured,
+the Service Custom Fields Logger is not added to the AuditConfig.xml. If the IS
+Core Audit JDBC functional alias is subsequently configured and the Service
+Logger is changed to use a database destination, the Service Custom Fields
+Logger is added to AuditConfig.xml, but it incorrectly has a file system
+destination. The entries logged by the Service Custom Fields Logger are used by
+webMethods Monitor and must be written to a database, not to the file system. 
+
+This has been fixed. When the Service Custom Fields Logger is created, it will
+have a database destination. 
+
+
+PIE-66839 (IS_10.7_Core_Fix1)
+Statistics Data Collector now performs a scheduled restart once every 24 hours.
+
+Statistics Data Collector, which is the Integration Server component responsible 
+for the capture and retrieval of statistical information for its service invocations, 
+now periodically restarts itself. The purpose of the restart is to minimize the disk file 
+consumption produced by its document index from an embedded third-party library (org.apache.lucene). 
+Restart of the Statistics Data Collector does not affect a running Integration Server.
+ 
+PIE-65314 (IS_10.7_Core_Fix1)
+When asynchronous request-reply operations for JMS messaging are consecutive, 
+the second reply operation fails.
+
+With Integration Server, an asynchronous request-reply for JMS messaging consists 
+of invoking the pub.jms:sendAndWait service with the async input parameter set to true, 
+followed by invoking the pub.jms:waitForReply service. The first service sends the request 
+message and the second service waits for the reply message. When this sequence of services is 
+invoked more than once within the scope of single top-level service, the second pub.jms:waitForReply 
+service fails because the session to the JMS provider was closed by the previous invocation of the service.
+
+Now, the session established by the pub.jms:waitForReply service is closed when the top-level 
+service completes instead of when the pub.jms:waitForReply service completes.
+ 
+PIE-67535 (IS_10.7_Core_Fix1)
+When migrating to Integration Server 10.7 from an earlier version, the migration utility 
+should remove SSLv3 as an enabled protocol but does not.
+
+This fix addresses the issue. Integration Server 10.7 migrator automatically adds SSLv2Hello, 
+SSLv3 and TLSv1 to the disabled protocols list even if any of them are found in the enabled 
+protocols properties that are getting converted. The disabled protocols lists are controlled 
+by the watt.net.jsse.client.disabledProtocols and watt.net.jsse.server.disabledProtocols 
+server configuration parameters.
+
+PIE-67719 (IS_10.7_Core_Fix1)
+Concurrent delete statements can cause deadlocks in the document history database.
+
+webMethods messaging triggers and JMS triggers use the document history database to 
+ascertain if a received message is a duplicate. An entry written to the document history 
+database expires after an amount of time configured on a per trigger basis. While triggers 
+remove expired entries from the database, Integration Server also runs a scheduled task 
+periodically to remove expired entries. If multiple threads call the logic to delete 
+expired entries at the same time, threading concurrency issues may occur and result in 
+a deadlock in the document history database.
+
+To address this issue, Integration Server now ensures that the logic to delete expired 
+entries in the document history database is called synchronously.
+ 
+PIE-66940 (IS_10.7_Core_Fix1)
+New classes in Integration Server Java API for generating a SAML 2.0 
+bearer assertion for integration with an SAP system.
+
+Integration Server now includes the 
+com.softwareag.is.auth.saml.issuer.SAMLIssuerUtils.generateSamlAssertion method 
+which can be used for generating a SAML 2.0 bearer assertion. For more information 
+about this method and related classes, review the updated Java API documentation for 
+Integration Server located at https://documentation.softwareag.com/.
+
+Note: The resulting SAML 2.0 bearer assertion has been tested for integration with an SAP system.
+
+PIE-66948 (IS_10.7_Core_Fix1)
+When there are multiple requests by the webMethods Adapter for JDBC to create an adapter 
+connection using Kerberos authentication, one request succeeds but the remainder fail with 
+a JAAS authentication error.
+
+The webMethods Adapter for JDBC uses Oracle's JDBC driver. When the adapter makes JDBC 
+connections using Oracle's ojdbc8 driver to connect to the database, it sometimes fails 
+with a JAAS authentication error. This makes it impossible for the JDBC connections made 
+by the JDBC adapter to use Kerberos authentication.
+
+This fix extends PIE-64956, making it possible for adapter connections made by the webMethods 
+Adapter for JDBC adapter to use Kerberos authentication.
+
+To use Kerberos authentication with for connections made by the webMethods Adapter for JDBC, 
+do the following:
+
+1. Add the login context to the database URL for the webMethods Adapter for JDBC connection
+ alias by including the parameter loginConfigName=<loginContext>.
+2. Set the watt.server.jdbc.datadirect.useJaasSubjectForKerberos server configuration property to true. 
+You do not need to restart Integration Server for changes to this parameter to take effect.
+3. If using Oracle's ojdbc8 driver, configure the adapter connection alias to use Kerberos 
+for authentication and another user to access the database by adding the following database 
+URL parameter to the adapter connection alias URL: ReAuthenticateUser= userName
+
+Following is a sample URL used by the JDBC adapter connection with the Oracle's JDBC driver:
+driverType=thin;loginTimeout=10;url=jdbc:oracle:thin:@
+(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=<db-server.company.com>)(PORT=<1234>))(CONNECT_DATA=(SERVICE_NAME=<db-service-name>)));
+loginConfigName=<JAAS_CONFIG_FOR_USER>;ReAuthenticateUser=<username>;connectionProperties=
+{oracle.net.authentication_services=(KERBEROS5),oracle.net.kerberos5_mutual_authentication=true};
+
+With the above URL, the webMethods Adapter for JDBC adapter first establishes the connection 
+to the database using the Kerberos JAAS authentication. If the ReAuthenticateUser connection 
+parameter is specified then Integration Server invokes the APIs provided by the Oracle driver 
+to switch the username from the Kerberos authenticated user to the user specified by the 
+ReAuthenticateUser user parameter. This JAAS authentication avoids the JAAS authentication 
+errors caused by the Oracle's JDBC driver.
+ 
+PIE-63695 (IS_10.7_Core_Fix1)
+Integration Server reloads the dependent packages of a WmDeployer runtime 
+project (accessible from the "Packages > Management > WmDeployer" page in 
+Integration Server Administrator) even when the "Reload Packages" property of 
+the project (Projects > <Project_Name> > Properties > Packages > Reload Packages)
+is set to "No".
+
+This issue is resolved.
+ 
+PIE-66690 (IS_10.7_Core_Fix1)
+Currently, if a Java or Flow service creates an FTP(S) or SFTP session by invoking the 
+pub.client.ftp:login or pub.client.sftp:login service, then the session does not close automatically. 
+You must invoke the pub.client.ftp:logout or pub.client.sftp:logout service explicitly to close the session.
+
+This issue is resolved by introducing the following server configuration properties:
+
+watt.client.ftp.session.logoutOnServiceCompletion: Set the value to "true" to automatically 
+close the FTP(S) session created by the pub.client.ftp:login service, when the top-level service 
+execution completes. If the value is set to "false", you must invoke the pub.client.ftp:logout
+ service to close the FTP(S) session. The default value is "false".
+
+watt.client.sftp.session.logoutOnServiceCompletion: Set the value to "true" to automatically 
+close the SFTP session created by the pub.client.sftp:login service, when the 
+top-level service execution completes. If the value is set to "false", you must invoke the pub.client.sftp:logout 
+service to close the SFTP session. The default value is "false".
+
+You do not need to restart Integration Server for a change in these properties to take effect.
+ 
+PIE-67263 (IS_10.7_Core_Fix1)
+The "pub.client.sftp:chmod" public service accepts only three octal digits for the "mode" 
+input parameter and does not accept a value for the sticky bit.
+
+This issue is resolved. Now, you can set the sticky bit using the "pub.client.sftp:chmod" public service.
+ 
+PIE-66900 (IS_10.7_Core_Fix1)
+Integration Server incorrectly logs an error while restarting the server or 
+reloading the WmPRT package. 
+
+When client authentication for a Universal Messaging connection is set to 
+"Username/Password" or "Certificate Based" in Integration Server Administrator 
+(Settings > Messaging > webMethods Messaging Settings > Universal Messaging 
+Connection Alias), Integration Server logs an error while restarting the server 
+or while reloading the WmPRT package. 
+
+This issue is resolved. Now Integration Server checks whether WmPRT documents 
+are already synchronized with the Universal Messaging server during server 
+restart or during WmPRT package reload and does not log any error.
+ 
+PIE-66928 (IS_10.7_Core_Fix1)
+A scheduled task does not run and the scheduler logs the "Could not complete last run" error 
+because the ScheduleDB.checkInvalidTasks() job runs when the scheduler is 
+still in the process of scheduling the task.
+
+This issue is now resolved.
+ 
+PIE-61795 (IS_10.7_Core_Fix1)
+Integration Server migrated to Google Cloud Platform from on-premise throws the following error for scheduled jobs:
+[ISS.0137.0013E] Scheduler: Error updating task in database:
+Deadlock found when trying to get lock; try restarting transaction.
+
+This issue is resolved now. 
+ 
+PIE-62850 (IS_10.7_Core_Fix1)
+Integration Server logs a SOAPException but does not indicate the underlying cause of the exception.
+While processing the body of a SOAP message, Integration Server sometimes logs the following:
+com.wm.app.b2b.server.SOAPException: [ISS.0088.9134] Exception occurred while processing the body of the message
+This message does not indicate the underlying cause of this exception.
+This issue is now resolved. As part of the message for [ISS.0088.9134], Integration Server includes an underlying exception.
+ 
+PIE-64091 (IS_10.7_Core_Fix1)
+Integration Server ignores the Connection Timeout parameter configured for LDAP Directory servers.
+This issue is resolved now.
+ 
+PIE-64326 (IS_10.7_Core_Fix1)
+OpenID Connect fixes and improvements.
+
+This fix includes the following OpenID Connect fixes and improvements:
+
+- Azure AD returns some errors that do not conform to the OpenID Connect standard. 
+Integration Server now handles these non-conformant responses correctly.
+- When a request is received on a port protected by an OpenID provider, an unused session r
+emained on Integration Server after the client was redirected to the provider's login page. Now, 
+Integration Server discards the session immediately.
+- TRACE level logging has been added to aid in troubleshooting.
+- It is now possible for the Id Provider name to be different than the provider's 
+configuration file name. Previously, a configuration file named 
+IntegrationServer\instances\<instance_name>\config\security\openid\ProviderXYZ.json must have contained 
+a name field with the value "ProviderXYZ". Now, the provider's name and the file name can be different.
+ 
+PIE-64334 (IS_10.7_Core_Fix1)
+Designer does not retry connecting to Integration Server after disconnection due 
+to a connection reset on the network and might lose connection to Integration 
+Server, especially if the Integration Server instance is hosted remotely or in 
+the cloud. 
+
+This issue is resolved now by adding the retry behavior and the number of 
+retries is configurable using the "watt.clientConnection.numberOfRetries" system 
+property. You can configure the number of retries by adding this property to 
+Designer at startup using the command line or add it to the 
+"Software AG_directory\Designer\eclipse\configuration\config.ini" file. By 
+default, watt.clientConnection.numberOfRetries=3, which means, in case of a 
+connection reset, Designer attempts to reconnect three times. If the reconnect 
+attempt fails three times, Designer disconnects from Integration Server.
+Note: You can also connect to Integration Server manually using the Preferences 
+dialog under "Window > Preferences > Software AG > Integration Servers" in 
+Designer.
+ 
+PIE-64500 (IS_10.7_Core_Fix1)
+In an Integration Server configured with an LDAP server, if the number of results 
+of a query for user groups exceeds the maximum size limit configured on the LDAP server, 
+the Size Limit Exceeded error occurs on the LDAP server.
+
+To resolve this issue, the following new server configuration properties are introduced:
+watt.server.ldap.groupSearchFilter: This property can be used to reduce the number of LDAP 
+entries returned so that the size limit set on the LDAP server is not exceeded.
+watt.server.ldap.searchresult.pageSize: This property can be used to return the LDAP entries 
+in batches so that the size limit set on the LDAP server is not exceeded. 
+ 
+PIE-64521 (IS_10.7_Core_Fix1)
+Integration Server cannot enable webMethods messaging trigger for Broker.
+
+When creating a webMethods messaging trigger for Broker, Integration Server 
+fails to start the trigger and throws the following exception.
+"com.wm.app.b2b.server.dispatcher.exceptions.MessagingSubsystemException: 
+[ISS.0153.9998] webMethods Messaging Trigger <TRIGGER_NAME> experienced an 
+unexpected error: Internal error: TriggerOutputControl is null."
+
+When creating a webMethods messaging trigger, if you do not associate a document 
+type and service for the trigger, Integration Server does not start the trigger. 
+However, Integration Server incorrectly restarts the trigger and throws the 
+following exception assuming that the trigger has already started.
+"[ISS.0153.0998E] Unable to restart webMethods Messaging UM trigger 
+<TRIGGER_NAME>: com.wm.app.b2b.server.dispatcher.exceptions.
+MessagingSubsystemException: [ISS.0153.9998] webMethods Messaging Trigger 
+<TRIGGER_NAME> experienced an unexpected error: Internal 
+error: TriggerOutputControl is null."
+
+These issues are now resolved.
+ 
+PIE-64558 (IS_10.7_Core_Fix1)
+When a malicious source tries to invoke a service in Integration Server through 
+Enterprise Gateway, the security log records only the IP address of Enterprise Gateway 
+and not that of the malicious source.
+
+This issue is resolved now by introducing the server configuration property: 
+watt.server.securityLog.eg.enableExternalClientIP.
+
+If this property is set to true, then the security log records the IP address of the source. 
+Otherwise, the log records the Enterprise Gateway IP address. The property is set to false by default.
+
+PIE-64763 (IS_10.7_Core_Fix1)
+When deploying users to Cloud solutions using Designer and the ACDL-based approach, 
+the password field for each user asset is not visible for variable substitution in Designer's deployment wizard.
+
+With this fix the password field will be visible and available for variable substitution.
+ 
+PIE-64766 (IS_10.7_Core_Fix1)
+Integration Server does not name the rolled over server log files correctly.
+
+When size-based roll over is configured for the server log through the watt.server.serverlogRotateSize 
+server configuration parameter, Integration Server sometimes uses the previous day date in 
+the name of the rolled over server log file. Integration Server should use the 
+current date in the name of the rolled over log file.
+
+This issue is now resolved.
+ 
+PIE-65135 (IS_10.7_Core_Fix1)
+Restart of the Software AG Platform Manager (SPM) logs the following error in the SPM log default.log, 
+when the Pub/Sub license is not enabled:
+2020/04/22 21:14:35 WARN #00000 Error: (id: 1587582875981) Loaded configuration cannot be null. caused by:
+java.lang.IllegalStateException: Loaded configuration cannot be null.
+
+This issue is resolved now.
+ 
+PIE-65332 (IS_10.7_Core_Fix1)
+Integration Server authenticates a user by searching the user's username and password in the local system. 
+If a match is not found, Integration Server attempts to authenticate the user through the connected LDAP 
+servers even if the username exists in the local system and only the user-entered password is incorrect. 
+Currently, this behavior cannot be controlled.
+
+To control this behavior, the "watt.server.ldap.checkLocalUserInLDAP" server configuration 
+property is introduced. The default value of this property is "true". Set this property to "false" to 
+skip LDAP-based authentication if the username exists in the local system.
+ 
+PIE-65346 (IS_10.7_Core_Fix1)
+Integration Server returns an incorrect HTTP error when an invalid input is 
+passed to a REST v2 service.
+
+If the payload of a REST v2 request to Integration Server contains an input that 
+cannot be converted to the required type, Integration Server incorrectly sends 
+the "500 error" as the HTTP response.
+
+This issue is now resolved. Integration Server now sends the "400 Invalid Input" 
+HTTP error along with the error details.
+ 
+PIE-65416 (IS_10.7_Core_Fix1)
+When running Integration Server or Microservices Runtime in an Alpine OS container, 
+it may not be possible to create, edit, or synchronize a publishable document type with Universal Messaging.
+
+Requests to create or update the provider definition on Universal Messaging may fail with the following error:
+
+UM admin operation failed [create channel]: com.wm.util.coder.ProtoBufException: [ISC.0076.9021] 
+Error invoking the protocol buffer compiler. Error: java.io.IOException: Cannot 
+run program "/xxx/common/bin/protoc" (in directory "/xxx/IntegrationServer/bin/../packages/xxx/ns/yyy): error=2, 
+No such file or directory.
+
+Where "xxx" and "yyy" in the message will contain one or more directory names.
+
+This issue is now resolved
+
+PIE-65498 (IS_10.7_Core_Fix1)
+Integration Server generates an incorrect output service signature on importing
+an OpenAPI document.
+
+When you create a provider REST API descriptor using an OpenAPI document that
+contains an operation response referencing an empty schema, Integration
+Server generates an incorrect document structure in the output service signature.
+
+This issue is now resolved.
+ 
+PIE-65740 (IS_10.7_Core_Fix1)
+Integration Server throws an incorrect validation message while executing the 
+generated service after importing an OpenAPI document.
+
+When you create a provider REST API descriptor using an OpenAPI document that 
+contains a JSON schema property of type number or integer whose exclusiveMaximum 
+or exclusiveMinimum constraint is set to true, and the value of the property
+sent to the service is the same as either of the two constraints values, 
+Integration Server throws an incorrect validation message.
+
+This issue is resolved. Now Integration Server displays correct validation 
+message.
+ 
+PIE-66114 (IS_10.7_Core_Fix1)
+Email notification for service execution failure does not include service name or the time of failure.
+
+When a service execution fails, Integration Server sends an email to the email address 
+specified in the Email Notification section of the "Settings > Resources" screen in Integration Server Administrator. 
+The email contains detailed service exception but does not include the name of the service 
+that failed to execute and the time at which the failure occurred.
+
+This issue is resolved now.
+ 
+PIE-66160 (IS_10.7_Core_Fix1)
+Statistics Data Collector now performs a scheduled restart once every 24 hours.
+
+Statistics Data Collector, which is the Integration Server component responsible for the 
+capture and retrieval of statistical information for its service invocations, now periodically restarts itself. 
+The purpose of the restart is to minimize the disk file consumption produced by its document index from 
+an embedded third-party library (org.apache.lucene). Restart of the Statistics Data Collector does not 
+affect a running Integration Server.
+ 
+PIE-66187 (IS_10.7_Core_Fix1)
+The server log contains the message "BinCoder decode error creating Java serialized object. 
+Excpt:java.lang.ClassNotFoundException: Class:java.lang.NullPointerException, not in White List".
+
+Integration Server could not deserialize NullPointerException because it was not whitelisted.
+
+The Class:java.lang.NullPointerException class is now added to the white list along with other classes 
+to allow a NullPointerException to be thrown and handled by Integration Server correctly.
+ 
+PIE-66279 (IS_10.7_Core_Fix1)
+When creating a JDBC pool alias by applying a configuration variables template at startup, 
+creating the pool alias fails if the exiting pool alias is null.
+
+When using application of a configuration variables template to create a JDBC pool alias and 
+then associate the alias with a JDBC functional alias, Microservices Runtime 
+(or an Integration Server with a Microservices license) creates the JDBC pool 
+alias but does not associate the pool alias with the JDBC functional alias.
+
+This issue is now resolved. A JDBC pool alias can be created and assigned via 
+application of a configuration variables template.
+
+PIE-66318 (IS_10.7_Core_Fix1)
+Issues with REST request payloads that have numeric values containing spaces and 
+REST responses with the contentType set to date. 
+
+When a numeric value in a REST request sent to an Integration Server REST V2 
+resource includes a space, Integration Server processes the request incorrectly. 
+For example, a request payload containing " 20.5". Additionally, if one of the 
+fields in the REST response has a contentType as date, Integration Server 
+returns an incorrect date format as a response.
+
+These issues are now resolved.
+ 
+PIE-66389 (IS_10.7_Core_Fix1)
+When Integration Server is in quiesce mode, the server log contains multiple messages 
+stating "The ServiceResults Cache is not alive (STATUS_SHUTDOWN)".
+
+These messages are logged because Integration Server is attempting to sweep the ServiceResults 
+Cache but the cache is not available because Integration Server is in quiesce mode. When Integration 
+Server is in quiesce mode, Integration Server should not sweep the ServiceResults cache.
+
+Now, when in quiesce mode, Integration Server does not sweep the ServiceResults Cache.
+ 
+PIE-66393 (IS_10.7_Core_Fix1)
+Integration Server does not honor the value of watt.server.stats.logFilesToKeep.
+
+Integration Server keeps an unlimited number of statistics log files regardless 
+of the value of watt.server.stats.logFilesToKeep.
+
+This issue is now resolved.
+ 
+PIE-66394 (IS_10.7_Core_Fix1)
+A StackOverflowError occurs during service results caching.
+
+When a high volume of requests invoke the same service and that service has cached results, 
+a race condition occurs where the cached results become corrupted. This results in a StackOverflowError.
+
+Now, Integration Server synchronizes access to retrieving and updating the cached 
+results for a service, which prevents the corruption.
+ 
+PIE-66445 (IS_10.7_Core_Fix1)
+The stat sag_is_avg_time_per_http_requests returns the wrong data in Prometheus stats.
+
+The incorrect Integration Server stats value is being returned for the stat 
+sag_is_avg_time_per_http_requests statistic.
+
+The correct value is now returned for stat sag_is_avg_time_per_http_requests. 
+ 
+PIE-66538 (IS_10.7_Core_Fix1)
+Command Central does not display all the supported RDBMS options.
+
+While creating a new instance in Command Central and selecting the RDBMS, 
+Command Central does not list all the supported RDBMS options.
+
+This issue is now resolved.
+ 
+PIE-66576 (IS_10.7_Core_Fix1)
+Cross-site scripting vulnerability in two pages of the Integration 
+Server Administrator UI
+
+The Extended Settings and Mime Types pages of Integration Server Administrator 
+had a cross-site scripting vulnerability.
+
+The issue is resolved now.
+ 
+PIE-66629 (IS_10.7_Core_Fix1)
+On the Settings > Cluster page in Integration Server Administrator, 
+the Server Start Time value is not in the correct format.
+
+The Server Start Time for a clustered Integration Server instance should be shown in the format 
+"yyyy-MM-dd HH:mm:ss z" by default or the format specified by the watt.server.dateStampFmt 
+configuration parameter. However, the Server Start Time is shown as UNIX time.
+
+This issue is now resolved.
+ 
+PIE-66640 (IS_10.7_Core_Fix1)
+When Alpine is used as a base Docker image for Microservices Runtime, 
+the root user is used to launch the process.
+
+This issue is now resolved. Microservices Runtime now uses sagadmin user 
+when using Alpine as a base Docker image.
+ 
+PIE-66681 (IS_10.7_Core_Fix1)
+The Logs pages are not refreshing automatically.
+
+In Integration Server Administrator, the logs displayed under the Logs menu should refresh automatically. 
+The refresh rate is controlled by the watt.server.log.refreshInterval server configuration parameter.
+ However, the logs were not refreshing automatically.
+
+This issue is now resolved.
+ 
+PIE-66701 (IS_10.7_Core_Fix1)
+When using the pub.smime.keystore: createSignedAndEncryptedData built-in 
+service, if the explicit property is set to false, then processing the signed data with 
+the pub.smime:processSignedData service (after processing the encrypted data) 
+fails with the error "com.wm.app.b2b.server.ServiceException: [ISS.0086.9055] 
+Could not retrieve content from input". 
+
+The issue is fixed now.
+ 
+PIE-66732 (IS_10.7_Core_Fix1)
+During start up, Integration Server logs erroneous messages about adding My webMethods user 
+groups to ACLs even though My webMethods Server is not installed.
+
+When Integration Server starts up, it attempts to add the My webMethods Users and My webMethods 
+Administrators user groups to the default Integration Server Access Control Lists (ACLs). 
+This occurs even when My webMethods Server is not installed and the user groups do not exist 
+on Integration Server. Error similar to the following appear in the server log:
+
+ [ISS.0024.0015E] Integration Server cannot add group "My webMethods Users" to ACL "Anonymous" 
+ because group "My webMethods Users" is not found.
+
+This issue is now resolved. Integration Server now verifies the existence of a user group before 
+attempting to add it to an ACL.
+ 
+PIE-66876 (IS_10.7_Core_Fix1)
+All Prometheus metrics reported when the metrics endpoint is called now have a host label.
+
+Some of the Prometheus metrics reported by Microservices Runtime (or an Integration Server 
+with a Microservices license) did not include the Prometheus label "host". The host label is 
+used to capture the hostname of the machine that produced the data. This is useful when metrics 
+are collected from many installations.
+
+Now, all Prometheus metrics returned by Microservices Runtime include the host label.
+ 
+PIE-67176 (IS_10.7_Core_Fix1)
+Change in the default value of watt.server.stats.logfile to be logs/stats.csv.
+
+The default value of watt.server.stats.logfile should be logs/stats.csv because the default 
+format of the statistics log is a comma-separated values.
+The default value of watt.sever.stats.logfile is now logs/stats.csv instead of logs/stats.log.
+ 
+PIE-67326 (IS_10.7_Core_Fix1)
+Unable to delete any user-created custom JAAS realm from Command Central.
+
+The issue is resolved now.
+ 
+PIE-67359 (IS_10.7_Core_Fix1)
+When using Designer to deploy packages to cloud, a NullPointerException is 
+thrown when a package fails to deploy.
+
+Now, failure of a package to deploy is handled more gracefully.
+ 
+PIE-67478 (IS_10.7_Core_Fix1)
+Changes to resource names in Integration Server Administrator API to improve usability.
+Some resource names in the Administrator API were very long or included trailing periods.
+
+In this fix, resource names were shortened and trailing periods were removed.
+ 
+PIE-67517 (IS_10.7_Core_Fix1)
+When enhanced logging for messaging is configured to write to the messaging audit log, 
+Integration Server does not persist the change across restart.
+
+When the Logging Type for enhanced messaging logging is set to Messaging Audit Log, after
+Integration Server restart the logging type reverts to the server log.
+
+Now, when the Logging Type is set to Messaging Audit Log, Integration Server persists the 
+change across restart.
+ 
+PIE-67621 (IS_10.7_Core_Fix1)
+Connecting to Integration Server from Designer takes minutes when running on a macOS.
+This issue has been resolved.
+ 
+PIE-67641 (IS_10.7_Core_Fix1)
+The About page of the new Administrator console shows some blank lines in the Japanese locale.
+This issue is resolved now.
+ 
+PIE-67822 (IS_10.7_Core_Fix1)
+An attempt to delete a JDBC pool linked to a JDBC driver that does not exist 
+fails with a NullPointerException.
+
+Now, a JDBC pool linked to a non-existent JDBC driver can be deleted.
+ 
+PIE-62470 (IS_10.7_Core_Fix1)
+The wm.server.dispatcher:deleteExpiredUUID system task, which deletes expired documents in the 
+document history database, is scheduled even though the document history JDBC pool is not configured.
+
+This issue is now fixed.
+ 
+PIE-64157 (IS_10.7_Core_Fix1)
+Removal of class from whitelist to address security vulnerability.
+
+The java.net.URL class was removed from the whitelist and factored out of the 
+HttpContext as the java.net.URL class has a known vulnerability to serialization attacks.
+ 
+PIE-66693 (IS_10.7_Core_Fix1)
+Designer does not properly reduce the dimension of an input or output XML document list in a Loop step.
+
+In the Pipeline view in Designer, the dimension of an XML document list within a Loop step is not reduced. 
+This prevents mapping within the Loop step.
+
+This issue is now resolved.
+ 
+PIE-66903 (IS_10.7_Core_Fix1)
+For Enterprise Gateway custom filters created from API Gateway, Integration 
+Server removes the payload from the pipeline for the custom service that is 
+invoked.
+
+The issue is resolved now.
+ 
+PIE-66910 (IS_10.7_Core_Fix1)
+Redundant caching of sessions. 
+
+When services are invoked or web pages are requested, user sessions are written to 
+the session cache twice. This redundancy is not needed and can put a strain on the session 
+cache when processing a high volume of requests.
+
+This has been resolved. The redundant caching of sessions has been eliminated.
+
+PIE-66920 (IS_10.7_Core_Fix1)
+Filters are not working for a webMethods messaging trigger that receives messages from Universal Messaging.
+
+Integration Server generates the incorrect protocol buffer descriptor for a publishable 
+document type that contains multiple document reference variables that have the same name but 
+refer to IS document types in different folders.
+
+To resolve this issue, Integration Server now uses the fully qualified name of the document 
+reference in the protocol buffer descriptor.
+
+Important! To complete resolution of this issue, for each publishable document type that contains 
+multiple document reference variables with the same name but different document type references, 
+a new protocol buffer descriptor must be generated and then synchronized with Universal Messaging. 
+After applying a fix that contains PIE-66920, edit the publishable document type, save it, 
+and then synchronize it with Universal Messaging.
+ 
+PIE-66922 (IS_10.7_Core_Fix1)
+During repository-based deployment, Integration Sever packages reload many times.
+Integration Server reloads packages over and over again during repository-based deployment.
+Now, Integration Server ensures that packages load only once during repository-based deployment.
+ 
+PIE-67000 (IS_10.7_Core_Fix1)
+Integration Server Scheduler does not pause on quickly switching between 
+the pause and resume states
+
+Involving the commands Pause Scheduler, Resume Scheduler, and Pause Scheduler 
+in quick succession in Integration Server Administrator does not pause the 
+Scheduler.
+
+The issue is fixed now.
+ 
+PIE-67094 (IS_10.7_Core_Fix1)
+During package deployment, startup services begin executing before Integration 
+Server applies the ACLs contained in the deployment metadata.
+
+Now, during package deployment, Integration Server applies the ACLs from the deployment 
+metadata and then begins executing the package startup services.
+ 
+PIE-67272 (IS_10.7_Core_Fix1)
+Integration Server does not return an error message to the API Gateway when you attempt to 
+update an active listener using webMethods API Gateway.
+
+This issue is resolved now. Integration Server returns an error message to API Gateway indicating 
+that the listener must be disabled before updating its configuration. Similarly, when you attempt to 
+update a primary listener, Integration Server returns an error message indicating that the primary 
+listener should not be updated.
+ 
+PIE-62179 (IS_10.7_Core_Fix1)
+Updating the Integration Server license key in Command Central does not reflect in Integration Server Administrator
+
+Integration Server Administrator displays the message "License Key is Expired or Invalid" 
+even after a valid license key is added on the IS Configuration page of Command Central.
+
+The issue is resolved now.
+ 
+PIE-62959 (IS_10.7_Core_Fix1)
+User Interface issue in Integration Server Administrator when it is accessed from webMethods Cloud Container.
+ 
+If you are using the Google Chrome browser and access Integration Server Administrator from webMethods 
+Cloud Container, a user interface issue causes the page to automatically scroll upon clicking the Settings menu.
+
+To work around this issue, use a different browser.
+ 
+PIE-65372 (IS_10.7_Core_Fix1)
+While converting a document to a JSON string, the built-in service pub.json:documentToJSONString converts 
+Unicode values to the corresponding Unicode characters. For example, if the document 
+contains the value "\u2605", the service converts it to the character "*".
+
+This issue is resolved now.
+ 
+PIE-66897 (IS_10.7_Core_Fix1)
+When creating a REST API Descriptor (RAD) using a Swagger document that contains
+an object array in which some of the nested properties are 'required', 
+Integration Server sets all the fields of the document type generated for the 
+object array as 'optional'.
+
+This issue is now resolved. 
+ 
+PIE-66984 (IS_10.7_Core_Fix1)
+CSRF token errors in RESTv2 requests to unprotected URLs
+
+If a REST endpoint is added to "Unprotected URLs" in the CSRF page in
+Integration Server Administrator and CSRF guard is enabled, Integration Server
+should exclude requests to that endpoint from CSRF secure token checks.
+However, an error is returned if a REST request at an unprotected URL
+does not meet the CSRF secure token checks.
+
+The issue is fixed now.
+ 
+PIE-67003 (IS_10.7_Core_Fix1)
+Attempts to create an Integration Server document type from a schema that contains an xsd:any 
+element that is part of nested choices elements fail with a NullPointerException at 
+com.wm.lang.schema.ComplexModel.mergeChoiceName(ComplexModel.java:297)
+
+This issue is fixed now.
+ 
+PIE-67104 (IS_10.7_Core_Fix1)
+Messages are incorrectly discarded from the client side queue because Integration Server 
+does not properly save the time to live for the publishable document type.
+
+Integration Server does not properly save the Time to live value for a publishable document type. 
+This results in published instances of the document type being 
+discarded from the client side queue prematurely.
+
+This issue is now resolved.
+  
+PIE-66955 (IS_10.7_Core_Fix1)
+The configuration variables log contains passwords if the passwords were 
+provided in the application.properties file.
+
+The configuration variables log now masks any passwords with ******.
+
+
+
+8.0 Installation
+
+Install using Software AG Update Manager. For instructions, see the documentation at 
+http://documentation.softwareag.com.
+
+
+
+9.0 Uninstallation
+
+Note: These instructions can only be used to uninstall the most recently installed fix. This action 
+will revert your installation to the previously installed fix. You cannot use these instructions to 
+uninstall the previously installed fix.
+
+Uninstall using Software AG Update Manager. For instructions, see the documentation at 
+http://documentation.softwareag.com.
+
+
+
+10.0 Globalization
+
+This fix conforms to the internationalization standards of the webMethods product suite and includes 
+support for operation in any country, locale, or language as specified in the Installing webMethods 
+Products guide. It was not tested with non-English configurations and non-ASCII data. However, this 
+fix has no globalization impact and can be applied to systems running in any supported locale or 
+configuration.
+
+
+
+10.1 Localization
+
+This fix does not require an updated language pack. It might contain new messages and these messages 
+will appear in English.
+
+
+
+11.0 Copyright
+
+Copyright @2021  Software AG, Darmstadt, Germany and/or Software AG USA  Inc.,
+Reston, VA, USA, and/or its subsidiaries and/or its affiliates and/or their 
+licensors.
+
+The name Software AG and all Software AG product names are either trademarks 
+or registered trademarks of Software AG and/or Software AG USA Inc. and/or 
+its subsidiaries and/or its affiliates and/or their licensors. Other company 
+and product names mentioned herein may be trademarks of their respective owners.
+
+Detailed information on trademarks and patents owned by Software AG and/or its 
+subsidiaries is located at http://softwareag.com/licenses.
+
+Use of this software is subject to adherence to Software AG's licensing 
+conditions and terms. These terms are part of the product documentation, 
+located at http://documentation.softwareag.com/legal/ and/or in the root
+installation directory of the licensed product(s).
+
+This software may include portions of third-party products. For third-party 
+copyright notices, license terms, additional rights or restrictions, please 
+refer to "License Texts, Copyright Notices and Disclaimers of Third Party 
+Products". For certain specific third-party license restrictions, please 
+refer to section E of the Legal Notices available under "License Terms
+and Conditions for Use of Software AG Products / Copyright and Trademark 
+Notices of Software AG Products". These documents are part of the product 
+documentation, located at http://softwareag.com/licenses and/or in the 
+root installation directory of the licensed product(s).

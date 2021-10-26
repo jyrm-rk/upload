@@ -1,0 +1,69 @@
+name=e2ei/11/SPM_10.7.0.0.784/Platform/SPM/SPM-W64-Any/BM_SPM-ALL-Any
+version=10.7.0.0.784
+timestamp=1599492577
+
+common/
+common/runtime/
+common/
+common/runtime/bundles/
+common/runtime/
+common/runtime/bundles/spm/
+common/runtime/bundles/
+common/runtime/bundles/spm/eclipse/
+common/runtime/bundles/spm/
+common/runtime/bundles/spm/eclipse/binary/
+common/runtime/bundles/spm/eclipse/
+common/runtime/bundles/spm/eclipse/features/
+common/runtime/bundles/spm/eclipse/plugins/
+0755 common/runtime/bundles/spm/eclipse/artifacts.xml
+0755 common/runtime/bundles/spm/eclipse/binary/com.softwareag.plm.spm.core.feature.profile_10.7.0.0000-0784
+common/runtime/bundles/spm/eclipse/binary/
+0755 common/runtime/bundles/spm/eclipse/content.xml
+0755 common/runtime/bundles/spm/eclipse/features/com.softwareag.plm.spm.asset.feature_10.7.0.0000-0784.jar
+common/runtime/bundles/spm/eclipse/features/
+0755 common/runtime/bundles/spm/eclipse/features/com.softwareag.plm.spm.core.feature_10.7.0.0000-0784.jar
+0755 common/runtime/bundles/spm/eclipse/features/com.softwareag.plm.spm.host.feature_10.7.0.0000-0784.jar
+0755 common/runtime/bundles/spm/eclipse/features/com.softwareag.plm.spm.main.feature_10.7.0.0000-0784.jar
+0755 common/runtime/bundles/spm/eclipse/features/com.softwareag.plm.spm.metering.feature_10.7.0.0000-0784.jar
+0755 common/runtime/bundles/spm/eclipse/features/com.softwareag.plm.spm.plugins.feature_10.7.0.0000-0784.jar
+0755 common/runtime/bundles/spm/eclipse/features/com.softwareag.plm.spm.remote.feature_10.7.0.0000-0784.jar
+0755 common/runtime/bundles/spm/eclipse/plugins/com.softwareag.plm.spm.administration.remote_10.7.0.0000-0784.jar
+common/runtime/bundles/spm/eclipse/plugins/
+0755 common/runtime/bundles/spm/eclipse/plugins/com.softwareag.plm.spm.administration_10.7.0.0000-0784.jar
+0755 common/runtime/bundles/spm/eclipse/plugins/com.softwareag.plm.spm.asset.management.remote_10.7.0.0000-0784.jar
+0755 common/runtime/bundles/spm/eclipse/plugins/com.softwareag.plm.spm.asset.management_10.7.0.0000-0784.jar
+0755 common/runtime/bundles/spm/eclipse/plugins/com.softwareag.plm.spm.composite.template_10.7.0.0000-0784.jar
+0755 common/runtime/bundles/spm/eclipse/plugins/com.softwareag.plm.spm.configuration.remote_10.7.0.0000-0784.jar
+0755 common/runtime/bundles/spm/eclipse/plugins/com.softwareag.plm.spm.configuration_10.7.0.0000-0784.jar
+0755 common/runtime/bundles/spm/eclipse/plugins/com.softwareag.plm.spm.core_10.7.0.0000-0784.jar
+0755 common/runtime/bundles/spm/eclipse/plugins/com.softwareag.plm.spm.dbc.impl_10.7.0.0000-0784.jar
+0755 common/runtime/bundles/spm/eclipse/plugins/com.softwareag.plm.spm.diagnostics.remote_10.7.0.0000-0784.jar
+0755 common/runtime/bundles/spm/eclipse/plugins/com.softwareag.plm.spm.diagnostics_10.7.0.0000-0784.jar
+0755 common/runtime/bundles/spm/eclipse/plugins/com.softwareag.plm.spm.installation.proxy.remote_10.7.0.0000-0784.jar
+0755 common/runtime/bundles/spm/eclipse/plugins/com.softwareag.plm.spm.installation.proxy_10.7.0.0000-0784.jar
+0755 common/runtime/bundles/spm/eclipse/plugins/com.softwareag.plm.spm.instance.management.remote_10.7.0.0000-0784.jar
+0755 common/runtime/bundles/spm/eclipse/plugins/com.softwareag.plm.spm.instance.management_10.7.0.0000-0784.jar
+0755 common/runtime/bundles/spm/eclipse/plugins/com.softwareag.plm.spm.inventory.remote_10.7.0.0000-0784.jar
+0755 common/runtime/bundles/spm/eclipse/plugins/com.softwareag.plm.spm.inventory_10.7.0.0000-0784.jar
+0755 common/runtime/bundles/spm/eclipse/plugins/com.softwareag.plm.spm.job.manager.remote_10.7.0.0000-0784.jar
+0755 common/runtime/bundles/spm/eclipse/plugins/com.softwareag.plm.spm.lifecycle.remote_10.7.0.0000-0784.jar
+0755 common/runtime/bundles/spm/eclipse/plugins/com.softwareag.plm.spm.lifecycle_10.7.0.0000-0784.jar
+0755 common/runtime/bundles/spm/eclipse/plugins/com.softwareag.plm.spm.metering.remote_10.7.0.0000-0784.jar
+0755 common/runtime/bundles/spm/eclipse/plugins/com.softwareag.plm.spm.metering.validator_10.7.0.0000-0784.jar
+0755 common/runtime/bundles/spm/eclipse/plugins/com.softwareag.plm.spm.metering_10.7.0.0000-0784.jar
+0755 common/runtime/bundles/spm/eclipse/plugins/com.softwareag.plm.spm.monitoring.remote_10.7.0.0000-0784.jar
+0755 common/runtime/bundles/spm/eclipse/plugins/com.softwareag.plm.spm.monitoring_10.7.0.0000-0784.jar
+0755 common/runtime/bundles/spm/eclipse/plugins/com.softwareag.plm.spm.osgi.impl_10.7.0.0000-0784.jar
+0755 common/runtime/bundles/spm/eclipse/plugins/com.softwareag.plm.spm.provision.remote_10.7.0.0000-0784.jar
+0755 common/runtime/bundles/spm/eclipse/plugins/com.softwareag.plm.spm.provision_10.7.0.0000-0784.jar
+0755 common/runtime/bundles/spm/eclipse/plugins/com.softwareag.plm.spm.remote.resources_10.7.0.0000-0784.jar
+0755 common/runtime/bundles/spm/eclipse/plugins/com.softwareag.plm.spm.repository.impl_10.7.0.0000-0784.jar
+0755 common/runtime/bundles/spm/eclipse/plugins/com.softwareag.plm.spm.repository.remote_10.7.0.0000-0784.jar
+0755 common/runtime/bundles/spm/eclipse/plugins/com.softwareag.plm.spm.repository_10.7.0.0000-0784.jar
+0755 common/runtime/bundles/spm/eclipse/plugins/com.softwareag.plm.spm.security.remote_10.7.0.0000-0784.jar
+0755 common/runtime/bundles/spm/eclipse/plugins/com.softwareag.plm.spm.security_10.7.0.0000-0784.jar
+0755 common/runtime/bundles/spm/eclipse/plugins/com.softwareag.plm.spm.spm.impl_10.7.0.0000-0784.jar
+0755 common/runtime/bundles/spm/eclipse/plugins/com.softwareag.plm.spm.template.remote_10.7.0.0000-0784.jar
+0755 common/runtime/bundles/spm/eclipse/plugins/com.softwareag.plm.spm.template_10.7.0.0000-0784.jar
+0755 common/runtime/bundles/spm/eclipse/plugins/com.softwareag.plm.spm.uibinding.remote_10.7.0.0000-0784.jar
+0755 common/runtime/bundles/spm/eclipse/plugins/com.softwareag.plm.spm.uibinding_10.7.0.0000-0784.jar

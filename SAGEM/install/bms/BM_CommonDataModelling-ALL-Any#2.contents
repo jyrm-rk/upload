@@ -1,0 +1,21 @@
+name=e2ei/11/TPS_10.7.0.0.224/SCG/tppModelling/tppModelling-W64-Any/BM_CommonDataModelling-ALL-Any
+version=10.7.0.0.224
+timestamp=1599492582
+
+lib/
+lib/ext/
+lib/
+0755 lib/ext/castor-core.jar
+lib/ext/
+0755 lib/ext/castor-xml-schema-extension.jar
+0755 lib/ext/castor-xml-schema.jar
+0755 lib/ext/castor-xml.jar
+0755 lib/ext/failureaccess.jar
+0755 lib/ext/guava.jar
+0755 lib/ext/ical4j.jar
+0755 lib/ext/icu4j.jar
+0755 lib/ext/jakarta-oro.jar
+0755 lib/ext/protobuf-java-util.jar
+0755 lib/ext/protobuf-java.jar
+0755 lib/ext/validation-api.jar
+0755 lib/ext/velocity.jar

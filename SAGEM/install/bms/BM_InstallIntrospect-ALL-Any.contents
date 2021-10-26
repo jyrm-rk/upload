@@ -1,0 +1,9 @@
+name=e2ei/11/WIR_10.7.0.0.391/Infrastructure/CustomInstall/CustomInstall-W64-Any/BM_InstallIntrospect-ALL-Any
+version=10.7.0.0.391
+timestamp=1626253032
+
+install/
+install/repo/
+install/
+0755 install/repo/sd-introspect-p2repo-10.7.0-v0391.zip
+install/repo/

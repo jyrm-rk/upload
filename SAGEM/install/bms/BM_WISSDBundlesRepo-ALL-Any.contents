@@ -1,0 +1,54 @@
+name=e2ei/11/WIS_10.7.0.0.426/Infrastructure/WISSharedBundles/WISSharedBundles-W64-Any/BM_WISSDBundlesRepo-ALL-Any
+version=10.7.0.0.426
+timestamp=1612359327
+
+common/
+common/runtime/
+common/
+common/runtime/bundles/
+common/runtime/
+common/runtime/bundles/sagprov/
+common/runtime/bundles/
+common/runtime/bundles/sagprov/eclipse/
+common/runtime/bundles/sagprov/
+common/runtime/bundles/sagprov/eclipse/binary/
+common/runtime/bundles/sagprov/eclipse/
+common/runtime/bundles/sagprov/eclipse/features/
+common/runtime/bundles/sagprov/eclipse/plugins/
+0755 common/runtime/bundles/sagprov/eclipse/artifacts.xml
+0755 common/runtime/bundles/sagprov/eclipse/binary/com.softwareag.plm.sd.platform.provision.agent.feature.profile.unix_10.7.0.0000-0359
+common/runtime/bundles/sagprov/eclipse/binary/
+0755 common/runtime/bundles/sagprov/eclipse/binary/com.softwareag.plm.sd.platform.provision.agent.feature.profile.win32_10.7.0.0000-0359
+0755 common/runtime/bundles/sagprov/eclipse/binary/com.softwareag.plm.sd.platform.repository.feature.profile.unix_10.7.0.0000-0359
+0755 common/runtime/bundles/sagprov/eclipse/binary/com.softwareag.plm.sd.platform.repository.feature.profile.win32_10.7.0.0000-0359
+0755 common/runtime/bundles/sagprov/eclipse/binary/com.softwareag.plm.sd.platform.repository.feature.profile_10.7.0.0000-0359
+0755 common/runtime/bundles/sagprov/eclipse/content.xml
+0755 common/runtime/bundles/sagprov/eclipse/features/com.softwareag.plm.sd.osgi.profiles.feature_10.7.0.0000-0298.jar
+common/runtime/bundles/sagprov/eclipse/features/
+0755 common/runtime/bundles/sagprov/eclipse/features/com.softwareag.plm.sd.platform.provision.agent.feature_10.7.0.0000-0359.jar
+0755 common/runtime/bundles/sagprov/eclipse/features/com.softwareag.plm.sd.platform.provision.application.feature_10.7.0.0000-0359.jar
+0755 common/runtime/bundles/sagprov/eclipse/features/com.softwareag.plm.sd.platform.provision.feature_10.7.0.0000-0359.jar
+0755 common/runtime/bundles/sagprov/eclipse/features/com.softwareag.plm.sd.platform.repository.feature_10.7.0.0000-0359.jar
+0755 common/runtime/bundles/sagprov/eclipse/features/com.softwareag.plm.sd.platform.repository.manager.feature_10.7.0.0000-0359.jar
+0755 common/runtime/bundles/sagprov/eclipse/features/com.softwareag.plm.sd.platform.repository.web.app.feature_10.7.0.0000-0359.jar
+0755 common/runtime/bundles/sagprov/eclipse/features/com.softwareag.plm.sd.tools.feature_10.7.0.0000-0298.jar
+0755 common/runtime/bundles/sagprov/eclipse/plugins/com.softwareag.plm.sd.itools.osgi.profiles.api_10.7.0.0000-0298.jar
+common/runtime/bundles/sagprov/eclipse/plugins/
+0755 common/runtime/bundles/sagprov/eclipse/plugins/com.softwareag.plm.sd.itools.osgi.profiles.impl_10.7.0.0000-0298.jar
+0755 common/runtime/bundles/sagprov/eclipse/plugins/com.softwareag.plm.sd.itools.tools.api_10.7.0.0000-0298.jar
+0755 common/runtime/bundles/sagprov/eclipse/plugins/com.softwareag.plm.sd.itools.tools.impl_10.7.0.0000-0298.jar
+0755 common/runtime/bundles/sagprov/eclipse/plugins/com.softwareag.plm.sd.platform.agent_10.7.0.0000-0359.jar
+0755 common/runtime/bundles/sagprov/eclipse/plugins/com.softwareag.plm.sd.platform.common_10.7.0.0000-0359.jar
+0755 common/runtime/bundles/sagprov/eclipse/plugins/com.softwareag.plm.sd.platform.provision.application_10.7.0.0000-0359.jar
+0755 common/runtime/bundles/sagprov/eclipse/plugins/com.softwareag.plm.sd.platform.provision.common_10.7.0.0000-0359.jar
+0755 common/runtime/bundles/sagprov/eclipse/plugins/com.softwareag.plm.sd.platform.provision.monitor_10.7.0.0000-0359.jar
+0755 common/runtime/bundles/sagprov/eclipse/plugins/com.softwareag.plm.sd.platform.provision_10.7.0.0000-0359.jar
+0755 common/runtime/bundles/sagprov/eclipse/plugins/com.softwareag.plm.sd.platform.repository.plain_10.7.0.0000-0359.jar
+0755 common/runtime/bundles/sagprov/eclipse/plugins/com.softwareag.plm.sd.platform.repository.web.app.fragment_10.7.0.0000-0359.jar
+0755 common/runtime/bundles/sagprov/eclipse/plugins/com.softwareag.plm.sd.platform.repository.web.app_10.7.0.0000-0359.jar
+0755 common/runtime/bundles/sagprov/eclipse/plugins/com.softwareag.plm.sd.platform.repository_10.7.0.0000-0359.jar
+0755 common/runtime/bundles/sagprov/eclipse/plugins/com.softwareag.plm.sd.platform.sdc.auth_10.7.0.0000-0359.jar
+0755 common/runtime/bundles/sagprov/eclipse/plugins/com.softwareag.plm.sd.repository.manager.impl_10.7.0.0000-0364.jar
+0755 common/runtime/bundles/sagprov/eclipse/plugins/com.softwareag.plm.sd.repository.manager_10.7.0.0000-0359.jar
+0755 common/runtime/bundles/sagprov/eclipse/plugins/org.eclipse.core.net_1.2.300.v20141118-1725.jar
+0755 common/runtime/bundles/sagprov/eclipse/plugins/org.eclipse.ecf.provider.filetransfer.ssl_1.0.0.v20150512-1727.jar

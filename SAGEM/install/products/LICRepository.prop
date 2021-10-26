@@ -1,0 +1,59 @@
+
+product=e2ei/11/LIC_5.7.2.0.956/LICRepository/LICRepository
+
+e2ei/11/LIC_5.7.2.0.956/LICRepository/LICRepository/children=LICRepository-W64-Any
+
+## Product e2ei/11/LIC_5.7.2.0.956/LICRepository/LICRepository properties ##
+
+e2ei/11/LIC_5.7.2.0.956/LICRepository/LICRepository/props=build.maturity,developmentServer,displayDescript,displayGroup,displayName,flags,group,lengthGroupVersionString,lengthVersionString,osgiBundlesRepos,requiresUninstallErrorMessage,resourceBundle,resourceJars,sagProductCode,sortHint,supplantLevel,user_hints,installDate
+e2ei/11/LIC_5.7.2.0.956/LICRepository/LICRepository/props/build.maturity=milestone
+e2ei/11/LIC_5.7.2.0.956/LICRepository/LICRepository/props/developmentServer=true
+e2ei/11/LIC_5.7.2.0.956/LICRepository/LICRepository/props/displayDescript=LICRepository.displayDescript
+e2ei/11/LIC_5.7.2.0.956/LICRepository/LICRepository/props/displayGroup=LICRepository.displayGroup
+e2ei/11/LIC_5.7.2.0.956/LICRepository/LICRepository/props/displayName=LICRepository.displayName
+e2ei/11/LIC_5.7.2.0.956/LICRepository/LICRepository/props/flags=ProgramFilesType
+e2ei/11/LIC_5.7.2.0.956/LICRepository/LICRepository/props/group=LICRepository
+e2ei/11/LIC_5.7.2.0.956/LICRepository/LICRepository/props/lengthGroupVersionString=0
+e2ei/11/LIC_5.7.2.0.956/LICRepository/LICRepository/props/lengthVersionString=0
+e2ei/11/LIC_5.7.2.0.956/LICRepository/LICRepository/props/osgiBundlesRepos=lic
+e2ei/11/LIC_5.7.2.0.956/LICRepository/LICRepository/props/requiresUninstallErrorMessage=LICRepository.requiresUninstallErrorMessage
+e2ei/11/LIC_5.7.2.0.956/LICRepository/LICRepository/props/resourceBundle=com.softwareag.saglic.install.SaglicInstallMessages
+e2ei/11/LIC_5.7.2.0.956/LICRepository/LICRepository/props/resourceJars=SaglicInstallMessages-ALL-Any
+e2ei/11/LIC_5.7.2.0.956/LICRepository/LICRepository/props/sagProductCode=LIC
+e2ei/11/LIC_5.7.2.0.956/LICRepository/LICRepository/props/sortHint=5.0
+e2ei/11/LIC_5.7.2.0.956/LICRepository/LICRepository/props/supplantLevel=3
+e2ei/11/LIC_5.7.2.0.956/LICRepository/LICRepository/props/user_hints=enable
+e2ei/11/LIC_5.7.2.0.956/LICRepository/LICRepository/props/installDate=1635224365879
+
+## Product e2ei/11/LIC_5.7.2.0.956/LICRepository/LICRepository jars ##
+
+e2ei/11/LIC_5.7.2.0.956/LICRepository/LICRepository/jars=SaglicInstallMessages-ALL-Any,saglic-ALL-Any
+e2ei/11/LIC_5.7.2.0.956/LICRepository/LICRepository/jars/SaglicInstallMessages-ALL-Any/props=jar_version,md5,size,timestamp,type
+e2ei/11/LIC_5.7.2.0.956/LICRepository/LICRepository/jars/SaglicInstallMessages-ALL-Any/props/jar_version=5.7.2.0000.0956
+e2ei/11/LIC_5.7.2.0.956/LICRepository/LICRepository/jars/SaglicInstallMessages-ALL-Any/props/md5=872ce16c64891b648f2ac32994f915ec
+e2ei/11/LIC_5.7.2.0.956/LICRepository/LICRepository/jars/SaglicInstallMessages-ALL-Any/props/size=1903
+e2ei/11/LIC_5.7.2.0.956/LICRepository/LICRepository/jars/SaglicInstallMessages-ALL-Any/props/timestamp=1613471316
+e2ei/11/LIC_5.7.2.0.956/LICRepository/LICRepository/jars/SaglicInstallMessages-ALL-Any/props/type=resourceJar
+e2ei/11/LIC_5.7.2.0.956/LICRepository/LICRepository/jars/saglic-ALL-Any/props=jar_version,md5,size,timestamp,type
+e2ei/11/LIC_5.7.2.0.956/LICRepository/LICRepository/jars/saglic-ALL-Any/props/jar_version=5.7.2.0000.0956
+e2ei/11/LIC_5.7.2.0.956/LICRepository/LICRepository/jars/saglic-ALL-Any/props/md5=39a81d433464bb9fb03ab250d6b611d0
+e2ei/11/LIC_5.7.2.0.956/LICRepository/LICRepository/jars/saglic-ALL-Any/props/size=34576
+e2ei/11/LIC_5.7.2.0.956/LICRepository/LICRepository/jars/saglic-ALL-Any/props/timestamp=1614354538
+e2ei/11/LIC_5.7.2.0.956/LICRepository/LICRepository/jars/saglic-ALL-Any/props/type=panelJar
+## Product e2ei/11/LIC_5.7.2.0.956/LICRepository/LICRepository components ##
+
+## Component properties for e2ei/11/LIC_5.7.2.0.956/LICRepository/LICRepository/LICRepository-W64-Any##
+
+e2ei/11/LIC_5.7.2.0.956/LICRepository/LICRepository/LICRepository-W64-Any/props=jars
+e2ei/11/LIC_5.7.2.0.956/LICRepository/LICRepository/LICRepository-W64-Any/props/jars=saglic-ALL-Any
+
+## Buildmodule info for e2ei/11/LIC_5.7.2.0.956/LICRepository/LICRepository/LICRepository-W64-Any ##
+
+e2ei/11/LIC_5.7.2.0.956/LICRepository/LICRepository/LICRepository-W64-Any/children=BM_LIC_Repository-ALL-Any
+e2ei/11/LIC_5.7.2.0.956/LICRepository/LICRepository/LICRepository-W64-Any/BM_LIC_Repository-ALL-Any/props=compressed_size,expanded_size,md5,timestamp,version
+e2ei/11/LIC_5.7.2.0.956/LICRepository/LICRepository/LICRepository-W64-Any/BM_LIC_Repository-ALL-Any/props/compressed_size=44836
+e2ei/11/LIC_5.7.2.0.956/LICRepository/LICRepository/LICRepository-W64-Any/BM_LIC_Repository-ALL-Any/props/expanded_size=55636
+e2ei/11/LIC_5.7.2.0.956/LICRepository/LICRepository/LICRepository-W64-Any/BM_LIC_Repository-ALL-Any/props/md5=defbe880c5c37f581567e91a993a6dbe
+e2ei/11/LIC_5.7.2.0.956/LICRepository/LICRepository/LICRepository-W64-Any/BM_LIC_Repository-ALL-Any/props/timestamp=1613471319
+e2ei/11/LIC_5.7.2.0.956/LICRepository/LICRepository/LICRepository-W64-Any/BM_LIC_Repository-ALL-Any/props/version=5.7.2.0.956
+

@@ -1,0 +1,60 @@
+
+product=e2ei/11/NUM_TOOLS_10.7.0.0.133380/UniversalMessaging/NUMspm
+
+e2ei/11/NUM_TOOLS_10.7.0.0.133380/UniversalMessaging/NUMspm/children=NUMspm-W64-Any
+
+## Product e2ei/11/NUM_TOOLS_10.7.0.0.133380/UniversalMessaging/NUMspm properties ##
+
+e2ei/11/NUM_TOOLS_10.7.0.0.133380/UniversalMessaging/NUMspm/props=ManagementFeature1,developmentServer,displayDescript,displayGroup,displayName,displayNameVersionFormat,flags,group,installDirNUM,lengthGroupVersionString,lengthVersionString,osgiBundlesRepos,requiresRegexp,resourceBundle,resourceJars,sagProductCode,supplantLevel,user_hints,installDate
+e2ei/11/NUM_TOOLS_10.7.0.0.133380/UniversalMessaging/NUMspm/props/ManagementFeature1=com.softwareag.plm.spm.nirvana.feature
+e2ei/11/NUM_TOOLS_10.7.0.0.133380/UniversalMessaging/NUMspm/props/developmentServer=true
+e2ei/11/NUM_TOOLS_10.7.0.0.133380/UniversalMessaging/NUMspm/props/displayDescript=NUMspm.displayDescript
+e2ei/11/NUM_TOOLS_10.7.0.0.133380/UniversalMessaging/NUMspm/props/displayGroup=NUMspm.displayGroup
+e2ei/11/NUM_TOOLS_10.7.0.0.133380/UniversalMessaging/NUMspm/props/displayName=NUMspm.displayName
+e2ei/11/NUM_TOOLS_10.7.0.0.133380/UniversalMessaging/NUMspm/props/displayNameVersionFormat=%1.%2 SP%3
+e2ei/11/NUM_TOOLS_10.7.0.0.133380/UniversalMessaging/NUMspm/props/flags=ProvisioningDownload
+e2ei/11/NUM_TOOLS_10.7.0.0.133380/UniversalMessaging/NUMspm/props/group=UniversalMessaging
+e2ei/11/NUM_TOOLS_10.7.0.0.133380/UniversalMessaging/NUMspm/props/installDirNUM=UniversalMessaging
+e2ei/11/NUM_TOOLS_10.7.0.0.133380/UniversalMessaging/NUMspm/props/lengthGroupVersionString=0
+e2ei/11/NUM_TOOLS_10.7.0.0.133380/UniversalMessaging/NUMspm/props/lengthVersionString=2
+e2ei/11/NUM_TOOLS_10.7.0.0.133380/UniversalMessaging/NUMspm/props/osgiBundlesRepos=num-cc
+e2ei/11/NUM_TOOLS_10.7.0.0.133380/UniversalMessaging/NUMspm/props/requiresRegexp=e2ei/11/.*/.*/CMP,e2ei/11/.*/.*/NUMRepository,e2ei/11/.*/.*/SPM
+e2ei/11/NUM_TOOLS_10.7.0.0.133380/UniversalMessaging/NUMspm/props/resourceBundle=com.softwareag.num.install.NUMToolsSPMInstallMessages
+e2ei/11/NUM_TOOLS_10.7.0.0.133380/UniversalMessaging/NUMspm/props/resourceJars=NUMspmInstallMessages-ALL-Any
+e2ei/11/NUM_TOOLS_10.7.0.0.133380/UniversalMessaging/NUMspm/props/sagProductCode=NUM
+e2ei/11/NUM_TOOLS_10.7.0.0.133380/UniversalMessaging/NUMspm/props/supplantLevel=3
+e2ei/11/NUM_TOOLS_10.7.0.0.133380/UniversalMessaging/NUMspm/props/user_hints=enable
+e2ei/11/NUM_TOOLS_10.7.0.0.133380/UniversalMessaging/NUMspm/props/installDate=1635224366113
+
+## Product e2ei/11/NUM_TOOLS_10.7.0.0.133380/UniversalMessaging/NUMspm jars ##
+
+e2ei/11/NUM_TOOLS_10.7.0.0.133380/UniversalMessaging/NUMspm/jars=NUMspmInstallMessages-ALL-Any
+e2ei/11/NUM_TOOLS_10.7.0.0.133380/UniversalMessaging/NUMspm/jars/NUMspmInstallMessages-ALL-Any/props=jar_version,md5,size,timestamp,type
+e2ei/11/NUM_TOOLS_10.7.0.0.133380/UniversalMessaging/NUMspm/jars/NUMspmInstallMessages-ALL-Any/props/jar_version=10.7.0.0000.133380
+e2ei/11/NUM_TOOLS_10.7.0.0.133380/UniversalMessaging/NUMspm/jars/NUMspmInstallMessages-ALL-Any/props/md5=b3e7403fd0b87d533218897160715eee
+e2ei/11/NUM_TOOLS_10.7.0.0.133380/UniversalMessaging/NUMspm/jars/NUMspmInstallMessages-ALL-Any/props/size=1192
+e2ei/11/NUM_TOOLS_10.7.0.0.133380/UniversalMessaging/NUMspm/jars/NUMspmInstallMessages-ALL-Any/props/timestamp=1599492560
+e2ei/11/NUM_TOOLS_10.7.0.0.133380/UniversalMessaging/NUMspm/jars/NUMspmInstallMessages-ALL-Any/props/type=resourceJar
+## Product e2ei/11/NUM_TOOLS_10.7.0.0.133380/UniversalMessaging/NUMspm panels ##
+
+e2ei/11/NUM_TOOLS_10.7.0.0.133380/UniversalMessaging/NUMspm/panels=SPMPluginsProvisioning
+e2ei/11/NUM_TOOLS_10.7.0.0.133380/UniversalMessaging/NUMspm/panels/SPMPluginsProvisioning/props=class,installAfter,rankBias,resourceBundle,stage,type,uninstallBefore
+e2ei/11/NUM_TOOLS_10.7.0.0.133380/UniversalMessaging/NUMspm/panels/SPMPluginsProvisioning/props/class=com.softwareag.install.osgi.profiles.impl.SPMPluginsProvisioning
+e2ei/11/NUM_TOOLS_10.7.0.0.133380/UniversalMessaging/NUMspm/panels/SPMPluginsProvisioning/props/installAfter=com.softwareag.plm.spm.install.SPMInstallPanel
+e2ei/11/NUM_TOOLS_10.7.0.0.133380/UniversalMessaging/NUMspm/panels/SPMPluginsProvisioning/props/rankBias=80
+e2ei/11/NUM_TOOLS_10.7.0.0.133380/UniversalMessaging/NUMspm/panels/SPMPluginsProvisioning/props/resourceBundle=com.softwareag.install.osgi.profiles.impl.OSGiProfilesMessages
+e2ei/11/NUM_TOOLS_10.7.0.0.133380/UniversalMessaging/NUMspm/panels/SPMPluginsProvisioning/props/stage=PostFileCopy
+e2ei/11/NUM_TOOLS_10.7.0.0.133380/UniversalMessaging/NUMspm/panels/SPMPluginsProvisioning/props/type=InstallerProgressGroupPanel
+e2ei/11/NUM_TOOLS_10.7.0.0.133380/UniversalMessaging/NUMspm/panels/SPMPluginsProvisioning/props/uninstallBefore=com.softwareag.plm.spm.install.SPMInstallPanel
+## Product e2ei/11/NUM_TOOLS_10.7.0.0.133380/UniversalMessaging/NUMspm components ##
+
+## Buildmodule info for e2ei/11/NUM_TOOLS_10.7.0.0.133380/UniversalMessaging/NUMspm/NUMspm-W64-Any ##
+
+e2ei/11/NUM_TOOLS_10.7.0.0.133380/UniversalMessaging/NUMspm/NUMspm-W64-Any/children=BM_NUMCCplugins-ALL-Any
+e2ei/11/NUM_TOOLS_10.7.0.0.133380/UniversalMessaging/NUMspm/NUMspm-W64-Any/BM_NUMCCplugins-ALL-Any/props=compressed_size,expanded_size,md5,timestamp,version
+e2ei/11/NUM_TOOLS_10.7.0.0.133380/UniversalMessaging/NUMspm/NUMspm-W64-Any/BM_NUMCCplugins-ALL-Any/props/compressed_size=3447511
+e2ei/11/NUM_TOOLS_10.7.0.0.133380/UniversalMessaging/NUMspm/NUMspm-W64-Any/BM_NUMCCplugins-ALL-Any/props/expanded_size=3893084
+e2ei/11/NUM_TOOLS_10.7.0.0.133380/UniversalMessaging/NUMspm/NUMspm-W64-Any/BM_NUMCCplugins-ALL-Any/props/md5=85c83f80729be8e1fcf9f154608c3556
+e2ei/11/NUM_TOOLS_10.7.0.0.133380/UniversalMessaging/NUMspm/NUMspm-W64-Any/BM_NUMCCplugins-ALL-Any/props/timestamp=1599492560
+e2ei/11/NUM_TOOLS_10.7.0.0.133380/UniversalMessaging/NUMspm/NUMspm-W64-Any/BM_NUMCCplugins-ALL-Any/props/version=10.7.0.0.133380
+

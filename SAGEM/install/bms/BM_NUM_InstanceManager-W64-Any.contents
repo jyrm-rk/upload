@@ -1,0 +1,13 @@
+name=e2ei/11/NUM_10.7.0.0.136016/UniversalMessaging/NUMInstanceManager/NUMInstanceManager-W64-Any/BM_NUM_InstanceManager-W64-Any
+version=10.7.0.0.136016
+timestamp=1599492560
+
+UniversalMessaging/
+UniversalMessaging/tools/
+UniversalMessaging/
+UniversalMessaging/tools/InstanceManager/
+UniversalMessaging/tools/
+UniversalMessaging/tools/InstanceManager/NUMInstanceManager.dll
+UniversalMessaging/tools/InstanceManager/
+UniversalMessaging/tools/InstanceManager/msvcr100.dll
+UniversalMessaging/tools/InstanceManager/ninstancemanager.bat

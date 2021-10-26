@@ -1,0 +1,2649 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>S22.Sasl</name>
+    </assembly>
+    <members>
+        <member name="M:S22.Sasl.Extensions.ThrowIfNull``1(``0,System.String)">
+            <summary>
+            Adds a couple of useful extensions to reference types.
+            </summary>
+            <summary>
+            Throws an ArgumentNullException if the given data item is null.
+            </summary>
+            <param name="data">The item to check for nullity.</param>
+            <param name="name">The name to use when throwing an
+            exception, if necessary</param>
+        </member>
+        <member name="M:S22.Sasl.Extensions.ThrowIfNull``1(``0)">
+            <summary>
+            Throws an ArgumentNullException if the given data item is null.
+            </summary>
+            <param name="data">The item to check for nullity.</param>
+        </member>
+        <member name="M:S22.Sasl.Extensions.ThrowIfNullOrEmpty(System.String)">
+            <summary>
+            Throws an ArgumentException if the given string is null or
+            empty.
+            </summary>
+            <param name="data">The string to check for nullity and
+            emptiness.</param>
+        </member>
+        <member name="M:S22.Sasl.Extensions.ThrowIfNullOrEmpty(System.String,System.String)">
+            <summary>
+            Throws an ArgumentException if the given string is null or
+            empty.
+            </summary>
+            <param name="data">The string to check for nullity and
+            emptiness.</param>
+            <param name="name">The name to use when throwing an
+            exception, if necessary</param>
+        </member>
+        <member name="T:S22.Sasl.ByteBuilder">
+            <summary>
+            A utility class modeled after the BCL StringBuilder to simplify
+            building binary-data messages.
+            </summary>
+        </member>
+        <member name="F:S22.Sasl.ByteBuilder.buffer">
+            <summary>
+            The actual byte buffer.
+            </summary>
+        </member>
+        <member name="M:S22.Sasl.ByteBuilder.Append(System.Byte[])">
+            <summary>
+            Appends one or several byte values to this instance.
+            </summary>
+            <param name="values">Byte values to append.</param>
+            <returns>A reference to the calling instance.</returns>
+        </member>
+        <member name="M:S22.Sasl.ByteBuilder.Append(System.Byte[],System.Int32,System.Int32)">
+            <summary>
+            Appends the specified number of bytes from the specified buffer
+            starting at the specified offset to this instance.
+            </summary>
+            <param name="buffer">The buffer to append bytes from.</param>
+            <param name="offset">The offset into the buffert at which to start
+            reading bytes from.</param>
+            <param name="count">The number of bytes to read from the buffer.</param>
+            <returns>A reference to the calling instance.</returns>
+        </member>
+        <member name="M:S22.Sasl.ByteBuilder.Append(System.Int32,System.Boolean)">
+            <summary>
+            Appends the specified 32-bit integer value to this instance.
+            </summary>
+            <param name="value">A 32-bit integer value to append.</param>
+            <param name="bigEndian">Set this to true, to append the value as
+            big-endian.</param>
+            <returns>A reference to the calling instance.</returns>
+        </member>
+        <member name="M:S22.Sasl.ByteBuilder.Append(System.Int16,System.Boolean)">
+            <summary>
+            Appends the specified 16-bit short value to this instance.
+            </summary>
+            <param name="value">A 16-bit short value to append.</param>
+            <param name="bigEndian">Set this to true, to append the value as
+            big-endian.</param>
+            <returns>A reference to the calling instance.</returns>
+        </member>
+        <member name="M:S22.Sasl.ByteBuilder.Append(System.UInt16,System.Boolean)">
+            <summary>
+            Appends the specified 16-bit unsigend short value to this instance.
+            </summary>
+            <param name="value">A 16-bit unsigend short value to append.</param>
+            <param name="bigEndian">Set this to true, to append the value as
+            big-endian.</param>
+            <returns>A reference to the calling instance.</returns>
+        </member>
+        <member name="M:S22.Sasl.ByteBuilder.Append(System.UInt32,System.Boolean)">
+            <summary>
+            Appends the specified 32-bit unsigned integer value to this instance.
+            </summary>
+            <param name="value">A 32-bit unsigned integer value to append.</param>
+            <param name="bigEndian">Set this to true, to append the value as
+            big-endian.</param>
+            <returns>A reference to the calling instance.</returns>
+        </member>
+        <member name="M:S22.Sasl.ByteBuilder.Append(System.Int64,System.Boolean)">
+            <summary>
+            Appends the specified 64-bit integer value to this instance.
+            </summary>
+            <param name="value">A 64-bit integer value to append.</param>
+            <param name="bigEndian">Set this to true, to append the value as
+            big-endian.</param>
+            <returns>A reference to the calling instance.</returns>
+        </member>
+        <member name="M:S22.Sasl.ByteBuilder.Append(System.String,System.Text.Encoding)">
+            <summary>
+            Appends the specified string using the specified encoding to this
+            instance.
+            </summary>
+            <param name="value">The string vale to append.</param>
+            <param name="encoding">The encoding to use for decoding the string value
+            into a sequence of bytes. If this is null, ASCII encoding is used as a
+            default.</param>
+            <returns>A reference to the calling instance.</returns>
+        </member>
+        <member name="M:S22.Sasl.ByteBuilder.ToArray">
+            <summary>
+            Returns the ByteBuilder's content as an array of bytes.
+            </summary>
+            <returns>An array of bytes.</returns>
+        </member>
+        <member name="M:S22.Sasl.ByteBuilder.Clear">
+            <summary>
+            Removes all bytes from the current ByteBuilder instance.
+            </summary>
+        </member>
+        <member name="P:S22.Sasl.ByteBuilder.Length">
+            <summary>
+            The length of the underlying data buffer.
+            </summary>
+        </member>
+        <member name="T:S22.Sasl.Mechanisms.Ntlm.BinaryReaderExtensions">
+            <summary>
+            Adds extension methods to the BinaryReader class to simplify the
+            deserialization of NTLM messages.
+            </summary>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.Ntlm.BinaryReaderExtensions.ReadASCIIString(System.IO.BinaryReader,System.Int32)">
+            <summary>
+            Reads an ASCII-string of the specified length from this instance.
+            </summary>
+            <param name="reader">Extension method for the BinaryReader class.</param>
+            <param name="count">The number of bytes to read from the underlying
+            stream.</param>
+            <returns>A string decoded from the bytes read from the underlying
+            stream using the ASCII character set.</returns>
+        </member>
+        <member name="T:S22.Sasl.Mechanisms.Ntlm.Flags">
+            <summary>
+            The NTLM flags which are contained in a bitfield within the header of
+            an NTLM message.
+            </summary>
+        </member>
+        <member name="F:S22.Sasl.Mechanisms.Ntlm.Flags.NegotiateUnicode">
+            <summary>
+            Indicates that Unicode strings are supported for use in security
+            buffer data.
+            </summary>
+        </member>
+        <member name="F:S22.Sasl.Mechanisms.Ntlm.Flags.NegotiateOEM">
+            <summary>
+            Indicates that OEM strings are supported for use in security
+            buffer data.
+            </summary>
+        </member>
+        <member name="F:S22.Sasl.Mechanisms.Ntlm.Flags.RequestTarget">
+            <summary>
+            Requests that the server's authentication realm be included in
+            the Type 2 message.
+            </summary>
+        </member>
+        <member name="F:S22.Sasl.Mechanisms.Ntlm.Flags.NegotiateSign">
+            <summary>
+            Specifies that authenticated communication between the client and
+            server should carry a digital signature (message integrity).
+            </summary>
+        </member>
+        <member name="F:S22.Sasl.Mechanisms.Ntlm.Flags.NegotiateSeal">
+            <summary>
+            Specifies that authenticated communication between the client and
+            server should be encrypted (message confidentiality).
+            </summary>
+        </member>
+        <member name="F:S22.Sasl.Mechanisms.Ntlm.Flags.NegotiateDatagramStyle">
+            <summary>
+            Indicates that datagram authentication is being used.
+            </summary>
+        </member>
+        <member name="F:S22.Sasl.Mechanisms.Ntlm.Flags.NegotiateLanManagerKey">
+            <summary>
+            Indicates that the Lan Manager Session Key should be used for signing
+            and sealing authenticated communications.
+            </summary>
+        </member>
+        <member name="F:S22.Sasl.Mechanisms.Ntlm.Flags.NegotiateNetware">
+            <summary>
+            This flag's usage has not been identified.
+            </summary>
+        </member>
+        <member name="F:S22.Sasl.Mechanisms.Ntlm.Flags.NegotiateNTLM">
+            <summary>
+            Indicates that NTLM authentication is being used.
+            </summary>
+        </member>
+        <member name="F:S22.Sasl.Mechanisms.Ntlm.Flags.NegotiateAnonymous">
+            <summary>
+            Sent by the client in the Type 3 message to indicate that an anonymous
+            context has been established. This also affects the response fields.
+            </summary>
+        </member>
+        <member name="F:S22.Sasl.Mechanisms.Ntlm.Flags.NegotiateDomainSupplied">
+            <summary>
+            Sent by the client in the Type 1 message to indicate that the name of
+            the domain in which the client workstation has membership is included
+            in the message. This is used by the server to determine whether the
+            client is eligible for local authentication.
+            </summary>
+        </member>
+        <member name="F:S22.Sasl.Mechanisms.Ntlm.Flags.NegotiateWorkstationSupplied">
+            <summary>
+            Sent by the client in the Type 1 message to indicate that the client
+            workstation's name is included in the message. This is used by the
+            server to determine whether the client is eligible for local
+            authentication.
+            </summary>
+        </member>
+        <member name="F:S22.Sasl.Mechanisms.Ntlm.Flags.NegotiateLocalCall">
+            <summary>
+            Sent by the server to indicate that the server and client are on the
+            same machine. Implies that the client may use the established local
+            credentials for authentication instead of calculating a response to
+            the challenge.
+            </summary>
+        </member>
+        <member name="F:S22.Sasl.Mechanisms.Ntlm.Flags.NegotiateAlwaysSign">
+            <summary>
+            Indicates that authenticated communication between the client and
+            server should be signed with a "dummy" signature.
+            </summary>
+        </member>
+        <member name="F:S22.Sasl.Mechanisms.Ntlm.Flags.TargetTypeDomain">
+            <summary>
+            Sent by the server in the Type 2 message to indicate that the target
+            authentication realm is a domain.
+            </summary>
+        </member>
+        <member name="F:S22.Sasl.Mechanisms.Ntlm.Flags.TargetTypeServer">
+            <summary>
+            Sent by the server in the Type 2 message to indicate that the target
+            authentication realm is a server.
+            </summary>
+        </member>
+        <member name="F:S22.Sasl.Mechanisms.Ntlm.Flags.TargetTypeShare">
+            <summary>
+            Sent by the server in the Type 2 message to indicate that the target
+            authentication realm is a share. Presumably, this is for share-level
+            authentication. Usage is unclear.
+            </summary>
+        </member>
+        <member name="F:S22.Sasl.Mechanisms.Ntlm.Flags.NegotiateNTLM2Key">
+            <summary>
+            Indicates that the NTLM2 signing and sealing scheme should be used for
+            protecting authenticated communications. Note that this refers to a
+            particular session security scheme, and is not related to the use of
+            NTLMv2 authentication. This flag can, however, have an effect on the
+            response calculations.
+            </summary>
+        </member>
+        <member name="F:S22.Sasl.Mechanisms.Ntlm.Flags.RequestInitResponse">
+            <summary>
+            This flag's usage has not been identified.
+            </summary>
+        </member>
+        <member name="F:S22.Sasl.Mechanisms.Ntlm.Flags.RequestAcceptResponse">
+            <summary>
+            This flag's usage has not been identified.
+            </summary>
+        </member>
+        <member name="F:S22.Sasl.Mechanisms.Ntlm.Flags.RequestNonNTSessionKey">
+            <summary>
+            This flag's usage has not been identified.
+            </summary>
+        </member>
+        <member name="F:S22.Sasl.Mechanisms.Ntlm.Flags.NegotiateTargetInfo">
+            <summary>
+            Sent by the server in the Type 2 message to indicate that it is including
+            a Target Information block in the message. The Target Information block
+            is used in the calculation of the NTLMv2 response.
+            </summary>
+        </member>
+        <member name="F:S22.Sasl.Mechanisms.Ntlm.Flags.Negotiate128">
+            <summary>
+            Indicates that 128-bit encryption is supported.
+            </summary>
+        </member>
+        <member name="F:S22.Sasl.Mechanisms.Ntlm.Flags.NegotiateKeyExchange">
+            <summary>
+            Indicates that the client will provide an encrypted master key in the
+            "Session Key" field of the Type 3 message.
+            </summary>
+        </member>
+        <member name="F:S22.Sasl.Mechanisms.Ntlm.Flags.Negotiate56">
+            <summary>
+            Indicates that 56-bit encryption is supported.
+            </summary>
+        </member>
+        <member name="T:S22.Sasl.Mechanisms.Ntlm.Type2TargetInformation">
+            <summary>
+            Represents the data contained in the target information block of an
+            NTLM type 2 message.
+            </summary>
+        </member>
+        <member name="P:S22.Sasl.Mechanisms.Ntlm.Type2TargetInformation.ServerName">
+            <summary>
+            The server name.
+            </summary>
+        </member>
+        <member name="P:S22.Sasl.Mechanisms.Ntlm.Type2TargetInformation.DomainName">
+            <summary>
+            The domain name.
+            </summary>
+        </member>
+        <member name="P:S22.Sasl.Mechanisms.Ntlm.Type2TargetInformation.DnsHostname">
+            <summary>
+            The fully-qualified DNS host name.
+            </summary>
+        </member>
+        <member name="P:S22.Sasl.Mechanisms.Ntlm.Type2TargetInformation.DnsDomainName">
+            <summary>
+            The fully-qualified DNS domain name.
+            </summary>
+        </member>
+        <member name="T:S22.Sasl.Mechanisms.Ntlm.Type2Version">
+            <summary>
+            Describes the different versions of the Type 2 message that have
+            been observed.
+            </summary>
+        </member>
+        <member name="F:S22.Sasl.Mechanisms.Ntlm.Type2Version.Unknown">
+            <summary>
+            The version is unknown.
+            </summary>
+        </member>
+        <member name="F:S22.Sasl.Mechanisms.Ntlm.Type2Version.Version1">
+            <summary>
+            This form is seen in older Win9x-based systems.
+            </summary>
+        </member>
+        <member name="F:S22.Sasl.Mechanisms.Ntlm.Type2Version.Version2">
+            <summary>
+            This form is seen in most out-of-box shipping versions of Windows.
+            </summary>
+        </member>
+        <member name="F:S22.Sasl.Mechanisms.Ntlm.Type2Version.Version3">
+            <summary>
+            This form was introduced in a relatively recent Service Pack, and
+            is seen on currently-patched versions of Windows 2000, Windows XP,
+            and Windows 2003.
+            </summary>
+        </member>
+        <member name="T:S22.Sasl.Mechanisms.Ntlm.Type2InformationType">
+            <summary>
+            Indicates the type of data in Type 2 target information blocks.
+            </summary>
+        </member>
+        <member name="F:S22.Sasl.Mechanisms.Ntlm.Type2InformationType.TerminatorBlock">
+            <summary>
+            Signals the end of the target information block.
+            </summary>
+        </member>
+        <member name="F:S22.Sasl.Mechanisms.Ntlm.Type2InformationType.ServerName">
+            <summary>
+            The data in the information block contains the server name.
+            </summary>
+        </member>
+        <member name="F:S22.Sasl.Mechanisms.Ntlm.Type2InformationType.DomainName">
+            <summary>
+            The data in the information block contains the domain name.
+            </summary>
+        </member>
+        <member name="F:S22.Sasl.Mechanisms.Ntlm.Type2InformationType.DnsHostname">
+            <summary>
+            The data in the information block contains the DNS hostname.
+            </summary>
+        </member>
+        <member name="F:S22.Sasl.Mechanisms.Ntlm.Type2InformationType.DnsDomainName">
+            <summary>
+            The data in the information block contans the DNS domain name.
+            </summary>
+        </member>
+        <member name="T:S22.Sasl.Mechanisms.Ntlm.MD4">
+            <summary>
+            Computes the MD4 hash value for the input data.
+            Courtesy of Keith Wood.
+            </summary>
+        </member>
+        <member name="T:S22.Sasl.Mechanisms.Ntlm.MessageType">
+            <summary>
+            Describes the different types of NTLM messages.
+            </summary>
+        </member>
+        <member name="F:S22.Sasl.Mechanisms.Ntlm.MessageType.Type1">
+            <summary>
+            An NTLM type 1 message is the initial client response to the
+            server.
+            </summary>
+        </member>
+        <member name="F:S22.Sasl.Mechanisms.Ntlm.MessageType.Type2">
+            <summary>
+            An NTLM type 2 message is the challenge sent by the server in
+            response to an NTLM type 1 message.
+            </summary>
+        </member>
+        <member name="F:S22.Sasl.Mechanisms.Ntlm.MessageType.Type3">
+            <summary>
+            An NTLM type 3 message is the challenge response sent by the client
+            in response to an NTLM type 2 message.
+            </summary>
+        </member>
+        <member name="T:S22.Sasl.Mechanisms.Ntlm.OSVersion">
+            <summary>
+            Indicates the version and build number of the operating system.
+            </summary>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.Ntlm.OSVersion.#ctor">
+            <summary>
+            Default constructor.
+            </summary>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.Ntlm.OSVersion.#ctor(System.Byte,System.Byte,System.Int16)">
+            <summary>
+            Creates a new instance of the OSVersion class using the specified
+            values.
+            </summary>
+            <param name="majorVersion">The major version of the operating
+            system.</param>
+            <param name="minorVersion">The minor version of the operating
+            system.</param>
+            <param name="buildNumber">The build number of the operating systen.</param>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.Ntlm.OSVersion.Serialize">
+            <summary>
+            Serializes this instance of the OSVersion class to an array of
+            bytes.
+            </summary>
+            <returns>An array of bytes representing this instance of the OSVersion
+            class.</returns>
+        </member>
+        <member name="P:S22.Sasl.Mechanisms.Ntlm.OSVersion.MajorVersion">
+            <summary>
+            The major version number of the operating system.
+            </summary>
+        </member>
+        <member name="P:S22.Sasl.Mechanisms.Ntlm.OSVersion.MinorVersion">
+            <summary>
+            The minor version number of the operating system.
+            </summary>
+        </member>
+        <member name="P:S22.Sasl.Mechanisms.Ntlm.OSVersion.BuildNumber">
+            <summary>
+            The build number of the operating system.
+            </summary>
+        </member>
+        <member name="T:S22.Sasl.Mechanisms.Ntlm.Responses">
+            <summary>
+            Contains methods for calculating the various Type 3 challenge
+            responses.
+            </summary>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.Ntlm.Responses.ComputeLMResponse(System.Byte[],System.String)">
+            <summary>
+            Computes the LM-response to the challenge sent as part of an
+            NTLM type 2 message.
+            </summary>
+            <param name="challenge">The challenge sent by the server.</param>
+            <param name="password">The user account password.</param>
+            <returns>An array of bytes representing the response to the
+            specified challenge.</returns>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.Ntlm.Responses.ComputeNtlmResponse(System.Byte[],System.String)">
+            <summary>
+            Computes the NTLM-response to the challenge sent as part of an
+            NTLM type 2 message.
+            </summary>
+            <param name="challenge">The challenge sent by the server.</param>
+            <param name="password">The user account password.</param>
+            <returns>An array of bytes representing the response to the
+            specified challenge.</returns>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.Ntlm.Responses.ComputeNtlmv2Response(System.String,System.Net.NetworkCredential,System.Byte[],System.Byte[],System.Byte[])">
+            <summary>
+            Computes the NTLMv2-response to the challenge sent as part of an
+            NTLM type 2 message.
+            </summary>
+            <param name="target">The name of the authentication target.</param>
+            <param name="username">The user account name to authenticate with.</param>
+            <param name="password">The user account password.</param>
+            <param name="targetInformation">The target information block from
+            the NTLM type 2 message.</param>
+            <param name="challenge">The challenge sent by the server.</param>
+            <param name="clientNonce">A random 8-byte client nonce.</param>
+            <returns>An array of bytes representing the response to the
+            specified challenge.</returns>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.Ntlm.Responses.ComputeLMv2Response(System.String,System.Net.NetworkCredential,System.Byte[],System.Byte[])">
+            <summary>
+            Computes the LMv2-response to the challenge sent as part of an
+            NTLM type 2 message.
+            </summary>
+            <param name="target">The name of the authentication target.</param>
+            <param name="username">The user account to authenticate with.</param>
+            <param name="password">The user account password.</param>
+            <param name="challenge">The challenge sent by the server.</param>
+            <param name="clientNonce">A random 8-byte client nonce.</param>
+            <returns>An array of bytes representing the response to the
+            specified challenge.</returns>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.Ntlm.Responses.LMHash(System.String)">
+            <summary>
+            Creates the LM Hash of the specified password.
+            </summary>
+            <param name="password">The password to create the LM Hash of.</param>
+            <returns>The LM Hash of the given password, used in the calculation
+            of the LM Response.</returns>
+            <exception cref="T:System.ArgumentNullException">Thrown if the password argument
+            is null.</exception>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.Ntlm.Responses.CreateDESKey(System.Byte[],System.Int32)">
+            <summary>
+            Creates a DES encryption key from the specified key material.
+            </summary>
+            <param name="bytes">The key material to create the DES encryption
+            key from.</param>
+            <param name="offset">An offset into the byte array at which to
+            extract the key material from.</param>
+            <returns>A 56-bit DES encryption key as an array of bytes.</returns>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.Ntlm.Responses.OddParity(System.Byte[])">
+            <summary>
+            Applies odd parity to the specified byte array.
+            </summary>
+            <param name="bytes">The byte array to apply odd parity to.</param>
+            <returns>A reference to the byte array.</returns>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.Ntlm.Responses.LMResponse(System.Byte[],System.Byte[])">
+            <summary>
+            Creates the LM Response from the specified hash and Type 2 challenge.
+            </summary>
+            <param name="hash">An LM or NTLM hash.</param>
+            <param name="challenge">The server challenge from the Type 2
+            message.</param>
+            <returns>The challenge response as an array of bytes.</returns>
+            <exception cref="T:System.ArgumentNullException">Thrown if the hash or the
+            challenge parameter is null.</exception>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.Ntlm.Responses.NtlmHash(System.String)">
+            <summary>
+            Creates the NTLM Hash of the specified password.
+            </summary>
+            <param name="password">The password to create the NTLM hash of.</param>
+            <returns>The NTLM hash for the specified password.</returns>
+            <exception cref="T:System.ArgumentNullException">Thrown if the password
+            parameter is null.</exception>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.Ntlm.Responses.Ntlmv2Hash(System.String,System.Net.NetworkCredential)">
+            <summary>
+            Creates the NTLMv2 Hash of the specified target, username
+            and password values.
+            </summary>
+            <param name="target">The name of the authentication target as is
+            specified in the target name field of the NTLM type 3 message.</param>
+            <param name="username">The user account name.</param>
+            <param name="password">The password for the user account.</param>
+            <returns>The NTLMv2 hash for the specified input values.</returns>
+            <exception cref="T:System.ArgumentNullException">Thrown if the username or
+            the password parameter is null.</exception>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.Ntlm.Responses.GetTimestamp">
+            <summary>
+            Returns the current time as the number of tenths of a microsecond
+            since January 1, 1601.
+            </summary>
+            <returns>The current time as the number of tenths of a microsecond
+            since January 1, 1601.</returns>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.Ntlm.Responses.CreateBlob(System.Byte[],System.Byte[])">
+            <summary>
+            Creates the "blob" data block which is part of the NTLMv2 challenge
+            response.
+            </summary>
+            <param name="targetInformation">The target information block from
+            the NTLM type 2 message.</param>
+            <param name="clientNonce">A random 8-byte client nonce.</param>
+            <returns>The blob, used in the calculation of the NTLMv2 Response.</returns>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.Ntlm.Responses.LMv2Response(System.Byte[],System.Byte[],System.Byte[])">
+            <summary>
+            Creates the LMv2 Response from the given NTLMv2 hash, client data, and
+            Type 2 challenge.
+            </summary>
+            <param name="hash">The NTLMv2 Hash.</param>
+            <param name="clientData">The client data (blob or client nonce).</param>
+            <param name="challenge">The server challenge from the Type 2 message.</param>
+            <returns>The response which is either for NTLMv2 or LMv2, depending
+            on the client data.</returns>
+        </member>
+        <member name="T:S22.Sasl.Mechanisms.Ntlm.SecurityBuffer">
+            <summary>
+            Represents an NTLM security buffer, which is a structure used to point
+            to a buffer of binary data within an NTLM message.
+            </summary>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.Ntlm.SecurityBuffer.#ctor(System.Int32,System.Int32)">
+            <summary>
+            Creates a new instance of the SecurityBuffer class using the specified
+            values.
+            </summary>
+            <param name="length">The length of the buffer described by this instance
+            of the SecurityBuffer class.</param>
+            <param name="offset">The offset at which the buffer starts, in bytes.</param>
+            <exception cref="T:System.OverflowException">Thrown if the length value exceeds
+            the maximum value allowed. The security buffer structure stores the
+            length value as a 2-byte short value.</exception>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.Ntlm.SecurityBuffer.#ctor(System.Byte[],System.Int32)">
+            <summary>
+            Creates a new instance of the SecurityBuffer class using the specified
+            values.
+            </summary>
+            <param name="data">The data of the buffer described by this instance
+            of the SecurityBuffer class.</param>
+            <param name="offset">The offset at which the buffer starts, in bytes.</param>
+            <exception cref="T:System.OverflowException">Thrown if the length of the data
+            buffer exceeds the maximum value allowed. The security buffer structure
+            stores the buffer length value as a 2-byte short value.</exception>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.Ntlm.SecurityBuffer.Serialize">
+            <summary>
+            Serializes this instance of the SecurityBuffer into an array of bytes.
+            </summary>
+            <returns>A byte array representing this instance of the SecurityBuffer
+            class.</returns>
+        </member>
+        <member name="P:S22.Sasl.Mechanisms.Ntlm.SecurityBuffer.Length">
+            <summary>
+            The length of the buffer content in bytes (may be zero).
+            </summary>
+        </member>
+        <member name="P:S22.Sasl.Mechanisms.Ntlm.SecurityBuffer.AllocatedSpace">
+            <summary>
+            The allocated space for the buffer in bytes (typically the same as
+            the length).
+            </summary>
+        </member>
+        <member name="P:S22.Sasl.Mechanisms.Ntlm.SecurityBuffer.Offset">
+            <summary>
+            The offset from the beginning of the NTLM message to the start of
+            the buffer, in bytes.
+            </summary>
+        </member>
+        <member name="T:S22.Sasl.Mechanisms.Ntlm.Type1Message">
+            <summary>
+            Represents an NTLM Type 1 Message.
+            </summary>
+        </member>
+        <member name="F:S22.Sasl.Mechanisms.Ntlm.Type1Message.signature">
+            <summary>
+            The NTLM message signature which is always "NTLMSSP".
+            </summary>
+        </member>
+        <member name="F:S22.Sasl.Mechanisms.Ntlm.Type1Message.type">
+            <summary>
+            The NTML message type which is always 1 for an NTLM Type 1 message.
+            </summary>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.Ntlm.Type1Message.#ctor(System.String,System.String,S22.Sasl.Mechanisms.Ntlm.Flags)">
+            <summary>
+            Creates a new instance of the Type1Message class using the specified
+            domain and workstation names.
+            </summary>
+            <param name="domain">The domain in which the client's workstation has
+            membership.</param>
+            <param name="workstation">The client's workstation name.</param>
+            <exception cref="T:System.ArgumentNullException">Thrown if the domain or the
+            workstation parameter is null.</exception>
+            <exception cref="T:System.ArgumentOutOfRangeException">Thrown if the domain
+            or the workstation name exceeds the maximum allowed string
+            length.</exception>
+            <remarks>The domain as well as the workstation name is restricted
+            to ASCII characters and must not be longer than 65536 characters.
+            </remarks>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.Ntlm.Type1Message.Serialize">
+            <summary>
+            Serializes this instance of the Type1 class to an array of bytes.
+            </summary>
+            <returns>An array of bytes representing this instance of the Type1
+            class.</returns>
+        </member>
+        <member name="P:S22.Sasl.Mechanisms.Ntlm.Type1Message.Flags">
+            <summary>
+            The NTLM flags set on this instance.
+            </summary>
+        </member>
+        <member name="P:S22.Sasl.Mechanisms.Ntlm.Type1Message.domain">
+            <summary>
+            The supplied domain name as an array of bytes in the ASCII
+            range.
+            </summary>
+        </member>
+        <member name="P:S22.Sasl.Mechanisms.Ntlm.Type1Message.domainOffset">
+            <summary>
+            The offset within the message where the domain name data starts.
+            </summary>
+        </member>
+        <member name="P:S22.Sasl.Mechanisms.Ntlm.Type1Message.workstation">
+            <summary>
+            The supplied workstation name as an array of bytes in the
+            ASCII range.
+            </summary>
+        </member>
+        <member name="P:S22.Sasl.Mechanisms.Ntlm.Type1Message.workstationOffset">
+            <summary>
+            The offset within the message where the workstation name data starts.
+            </summary>
+        </member>
+        <member name="P:S22.Sasl.Mechanisms.Ntlm.Type1Message.workstationLength">
+            <summary>
+            The length of the supplied workstation name as a 16-bit short value.
+            </summary>
+        </member>
+        <member name="P:S22.Sasl.Mechanisms.Ntlm.Type1Message.OSVersion">
+            <summary>
+            Contains information about the client's OS version.
+            </summary>
+        </member>
+        <member name="T:S22.Sasl.Mechanisms.Ntlm.Type2Message">
+            <summary>
+            Represents an NTLM Type 2 Message.
+            </summary>
+        </member>
+        <member name="F:S22.Sasl.Mechanisms.Ntlm.Type2Message.signature">
+            <summary>
+            The NTLM message signature which is always "NTLMSSP".
+            </summary>
+        </member>
+        <member name="F:S22.Sasl.Mechanisms.Ntlm.Type2Message.type">
+            <summary>
+            The NTML message type which is always 2 for an NTLM Type 2 message.
+            </summary>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.Ntlm.Type2Message.#ctor">
+            <summary>
+            Private constructor.
+            </summary>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.Ntlm.Type2Message.Deserialize(System.Byte[])">
+            <summary>
+            Deserializes a Type 2 message instance from the specified buffer
+            of bytes.
+            </summary>
+            <param name="buffer">The buffer containing a sequence of bytes
+            representing an NTLM Type 2 message.</param>
+            <returns>An initialized instance of the Type2 class.</returns>
+            <exception cref="!:SerializationException">Thrown if an error occurs
+            during deserialization of the Type 2 message.</exception>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.Ntlm.Type2Message.GetType2Version(System.Int32)">
+            <summary>
+            Determines the version of an NTLM type 2 message.
+            </summary>
+            <param name="targetOffset">The target offset field of the NTLM
+            type 2 message.</param>
+            <returns>A value from the Type2Version enumeration.</returns>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.Ntlm.Type2Message.ReadOSVersion(System.IO.BinaryReader)">
+            <summary>
+            Reads the OS information data present in version 3 of an NTLM
+            type 2 message from the specified BinaryReader.
+            </summary>
+            <param name="r">The BinaryReader instance to read from.</param>
+            <returns>An initialized instance of the OSVersion class.</returns>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.Ntlm.Type2Message.ReadTargetInformation(System.IO.BinaryReader)">
+            <summary>
+            Reads the target information data present in version 2 and 3 of
+            an NTLM type 2 message from the specified BinaryReader.
+            </summary>
+            <param name="r">The BinaryReader instance to read from.</param>
+            <returns>An initialized instance of the Type2TargetInformation
+            class.</returns>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.Ntlm.Type2Message.GetTargetName(System.Byte[],System.Boolean)">
+            <summary>
+            Retrieves the target name from the specified byte array.
+            </summary>
+            <param name="data">A byte array containing the target name.</param>
+            <param name="isUnicode">If true the target name will be decoded
+            using UTF-16 unicode encoding.</param>
+            <returns></returns>
+        </member>
+        <member name="P:S22.Sasl.Mechanisms.Ntlm.Type2Message.Challenge">
+            <summary>
+            The challenge is an 8-byte block of random data.
+            </summary>
+        </member>
+        <member name="P:S22.Sasl.Mechanisms.Ntlm.Type2Message.TargetName">
+            <summary>
+            The target name of the authentication target.
+            </summary>
+        </member>
+        <member name="P:S22.Sasl.Mechanisms.Ntlm.Type2Message.Flags">
+            <summary>
+            The NTLM flags set on this message.
+            </summary>
+        </member>
+        <member name="P:S22.Sasl.Mechanisms.Ntlm.Type2Message.Context">
+            <summary>
+            The SSPI context handle when a local call is being made,
+            otherwise null.
+            </summary>
+        </member>
+        <member name="P:S22.Sasl.Mechanisms.Ntlm.Type2Message.OSVersion">
+            <summary>
+            Contains the data present in the OS version structure.
+            </summary>
+        </member>
+        <member name="P:S22.Sasl.Mechanisms.Ntlm.Type2Message.Version">
+            <summary>
+            The version of this Type 2 message instance.
+            </summary>
+        </member>
+        <member name="P:S22.Sasl.Mechanisms.Ntlm.Type2Message.TargetInformation">
+            <summary>
+            Contains the data present in the target information block.
+            </summary>
+        </member>
+        <member name="P:S22.Sasl.Mechanisms.Ntlm.Type2Message.RawTargetInformation">
+            <summary>
+            Contains the raw data present in the target information block.
+            </summary>
+        </member>
+        <member name="T:S22.Sasl.Mechanisms.Ntlm.Type3Message">
+            <summary>
+            Represents an NTLM Type 3 Message.
+            </summary>
+        </member>
+        <member name="F:S22.Sasl.Mechanisms.Ntlm.Type3Message.signature">
+            <summary>
+            The NTLM message signature which is always "NTLMSSP".
+            </summary>
+        </member>
+        <member name="F:S22.Sasl.Mechanisms.Ntlm.Type3Message.type">
+            <summary>
+            The NTML message type which is always 3 for an NTLM Type 3 message.
+            </summary>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.Ntlm.Type3Message.#ctor(System.Net.NetworkCredential,System.Byte[],System.String,S22.Sasl.Mechanisms.Ntlm.Flags,System.Boolean,System.String,System.Byte[])">
+            <summary>
+            Creates a new instance of an NTLM type 3 message using the specified
+            values.
+            </summary>
+            <param name="username">The Windows account name to use for
+            authentication.</param>
+            <param name="password">The Windows account password to use for
+            authentication.</param>
+            <param name="challenge">The challenge received from the server as part
+            of the NTLM type 2 message.</param>
+            <param name="workstation">The client's workstation name.</param>
+            <param name="ntlmv2">Set to true to send an NTLMv2 challenge
+            response.</param>
+            <param name="targetName">The authentication realm in which the
+            authenticating account has membership.</param>
+            <param name="targetInformation">The target information block from
+            the NTLM type 2 message.</param>
+            <remarks>The target name is a domain name for domain accounts, or
+            a server name for local machine accounts. All security buffers will
+            be encoded as Unicode.</remarks>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.Ntlm.Type3Message.#ctor(System.Net.NetworkCredential,System.Byte[],System.Boolean,System.String,S22.Sasl.Mechanisms.Ntlm.Flags,System.Boolean,System.String,System.Byte[])">
+            <summary>
+            Creates a new instance of an NTLM type 3 message using the specified
+            values.
+            </summary>
+            <param name="username">The Windows account name to use for
+            authentication.</param>
+            <param name="password">The Windows account password to use for
+            authentication.</param>
+            <param name="challenge">The challenge received from the server as part
+            of the NTLM type 2 message.</param>
+            <param name="useUnicode">Set this to true, if Unicode encoding has been
+            negotiated between client and server.</param>
+            <param name="workstation">The client's workstation name.</param>
+            <param name="ntlmv2">Set to true to send an NTLMv2 challenge
+            response.</param> 
+            <param name="targetName">The authentication realm in which the
+            authenticating account has membership.</param>
+            <param name="targetInformation">The target information block from
+            the NTLM type 2 message.</param>
+            <remarks>The target name is a domain name for domain accounts, or
+            a server name for local machine accounts.</remarks>
+            <exception cref="T:System.ArgumentNullException">Thrown if the username, password
+            or challenge parameters are null.</exception>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.Ntlm.Type3Message.Serialize">
+            <summary>
+            Serializes this instance of the Type3 class to an array of bytes.
+            </summary>
+            <returns>An array of bytes representing this instance of the Type3
+            class.</returns>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.Ntlm.Type3Message.GetCNonce">
+            <summary>
+            Returns a random 8-byte cnonce value.
+            </summary>
+            <returns>A random 8-byte cnonce value.</returns>
+        </member>
+        <member name="P:S22.Sasl.Mechanisms.Ntlm.Type3Message.Flags">
+            <summary>
+            The NTLM flags set on this instance.
+            </summary>
+        </member>
+        <member name="P:S22.Sasl.Mechanisms.Ntlm.Type3Message.LMResponse">
+            <summary>
+            The "Lan Manager" challenge response.
+            </summary>
+        </member>
+        <member name="P:S22.Sasl.Mechanisms.Ntlm.Type3Message.LMOffset">
+            <summary>
+            The offset at which the LM challenge response data starts.
+            </summary>
+        </member>
+        <member name="P:S22.Sasl.Mechanisms.Ntlm.Type3Message.NtlmResponse">
+            <summary>
+            The NTLM challenge response.
+            </summary>
+        </member>
+        <member name="P:S22.Sasl.Mechanisms.Ntlm.Type3Message.NtlmOffset">
+            <summary>
+            The offset at which the NTLM challenge response data starts.
+            </summary>
+        </member>
+        <member name="P:S22.Sasl.Mechanisms.Ntlm.Type3Message.targetName">
+            <summary>
+            The authentication realm in which the authenticating account
+            has membership.
+            </summary>
+        </member>
+        <member name="P:S22.Sasl.Mechanisms.Ntlm.Type3Message.targetOffset">
+            <summary>
+            The offset at which the target name data starts.
+            </summary>
+        </member>
+        <member name="P:S22.Sasl.Mechanisms.Ntlm.Type3Message.username">
+            <summary>
+            The authenticating account name.
+            </summary>
+        </member>
+        <member name="P:S22.Sasl.Mechanisms.Ntlm.Type3Message.usernameOffset">
+            <summary>
+            The offset at which the username data starts.
+            </summary>
+        </member>
+        <member name="P:S22.Sasl.Mechanisms.Ntlm.Type3Message.workstation">
+            <summary>
+            The client workstation's name.
+            </summary>
+        </member>
+        <member name="P:S22.Sasl.Mechanisms.Ntlm.Type3Message.workstationOffset">
+            <summary>
+            The offset at which the client workstation's name data starts.
+            </summary>
+        </member>
+        <member name="P:S22.Sasl.Mechanisms.Ntlm.Type3Message.sessionKey">
+            <summary>
+            The session key value which is used by the session security mechanism
+            during key exchange.
+            </summary>
+        </member>
+        <member name="P:S22.Sasl.Mechanisms.Ntlm.Type3Message.sessionKeyOffset">
+            <summary>
+            The offset at which the session key data starts.
+            </summary>
+        </member>
+        <member name="P:S22.Sasl.Mechanisms.Ntlm.Type3Message.OSVersion">
+            <summary>
+            Contains the data present in the OS version structure.
+            </summary>
+        </member>
+        <member name="P:S22.Sasl.Mechanisms.Ntlm.Type3Message.encoding">
+            <summary>
+            The encoding used for transmitting the contents of the various
+            security buffers.
+            </summary>
+        </member>
+        <member name="T:S22.Sasl.Mechanisms.SaslCramMd5">
+            <summary>
+            Implements the Sasl Cram-Md5 authentication method as described in
+            RFC 2195.
+            </summary>
+        </member>
+        <member name="T:S22.Sasl.SaslMechanism">
+            <summary>
+            The abstract base class from which all classes implementing a Sasl
+            authentication mechanism must derive.
+            </summary>
+        </member>
+        <member name="M:S22.Sasl.SaslMechanism.ComputeResponse(System.Byte[])">
+            <summary>
+            Computes the client response to a challenge sent by the server.
+            </summary>
+            <param name="challenge"></param>
+            <returns>The client response to the specified challenge.</returns>
+        </member>
+        <member name="M:S22.Sasl.SaslMechanism.#ctor">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:S22.Sasl.SaslMechanism.GetResponse(System.String)">
+            <summary>
+            Retrieves the base64-encoded client response for the specified
+            base64-encoded challenge sent by the server.
+            </summary>
+            <param name="challenge">A base64-encoded string representing a challenge
+            sent by the server.</param>
+            <returns>A base64-encoded string representing the client response to the
+            server challenge.</returns>
+            <remarks>The IMAP, POP3 and SMTP authentication commands expect challenges
+            and responses to be base64-encoded. This method automatically decodes the
+            server challenge before passing it to the Sasl implementation and
+            encodes the client response to a base64-string before returning it to the
+            caller.</remarks>
+            <exception cref="T:S22.Sasl.SaslException">The client response could not be retrieved.
+            Refer to the inner exception for error details.</exception>
+        </member>
+        <member name="M:S22.Sasl.SaslMechanism.GetResponse(System.Byte[])">
+            <summary>
+            Retrieves the client response for the specified server challenge.
+            </summary>
+            <param name="challenge">A byte array containing the challenge sent by
+            the server.</param>
+            <returns>An array of bytes representing the client response to the
+            server challenge.</returns>
+        </member>
+        <member name="P:S22.Sasl.SaslMechanism.Name">
+            <summary>
+            IANA name of the authentication mechanism.
+            </summary>
+        </member>
+        <member name="P:S22.Sasl.SaslMechanism.IsCompleted">
+            <summary>
+            True if the authentication exchange between client and server
+            has been completed.
+            </summary>
+        </member>
+        <member name="P:S22.Sasl.SaslMechanism.HasInitial">
+            <summary>
+            True if the mechanism requires initiation by the client.
+            </summary>
+        </member>
+        <member name="P:S22.Sasl.SaslMechanism.Properties">
+            <summary>
+            A map of mechanism-specific properties which are needed by the
+            authentication mechanism to compute it's challenge-responses.
+            </summary>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.SaslCramMd5.#ctor">
+            <summary>
+            Private constructor for use with Sasl.SaslFactory.
+            </summary>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.SaslCramMd5.#ctor(System.Net.NetworkCredential)">
+            <summary>
+            Creates and initializes a new instance of the SaslCramMd5 class
+            using the specified username and password.
+            </summary>
+            <param name="username">The username to authenticate with.</param>
+            <param name="password">The plaintext password to authenticate
+            with.</param>
+            <exception cref="T:System.ArgumentNullException">Thrown if the username
+            or the password parameter is null.</exception>
+            <exception cref="T:System.ArgumentException">Thrown if the username
+            parameter is empty.</exception>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.SaslCramMd5.ComputeResponse(System.Byte[])">
+            <summary>
+            Computes the client response to the specified Cram-Md5 challenge.
+            </summary>
+            <param name="challenge">The challenge sent by the server</param>
+            <returns>The response to the Cram-Md5 challenge.</returns>
+            <exception cref="T:S22.Sasl.SaslException">Thrown if the response could not
+            be computed.</exception>
+        </member>
+        <member name="P:S22.Sasl.Mechanisms.SaslCramMd5.HasInitial">
+            <summary>
+            Server sends the first message in the authentication exchange.
+            </summary>
+        </member>
+        <member name="P:S22.Sasl.Mechanisms.SaslCramMd5.IsCompleted">
+            <summary>
+            True if the authentication exchange between client and server
+            has been completed.
+            </summary>
+        </member>
+        <member name="P:S22.Sasl.Mechanisms.SaslCramMd5.Name">
+            <summary>
+            The IANA name for the Cram-Md5 authentication mechanism as described
+            in RFC 2195.
+            </summary>
+        </member>
+        <member name="P:S22.Sasl.Mechanisms.SaslCramMd5.Credential">
+            <summary>
+            The username to authenticate with.
+            </summary>
+        </member>
+        <member name="T:S22.Sasl.Mechanisms.SaslDigestMd5">
+            <summary>
+            Implements the Sasl Cram-Md5 authentication method as described in
+            RFC 2831.
+            </summary>
+        </member>
+        <member name="F:S22.Sasl.Mechanisms.SaslDigestMd5.Cnonce">
+            <summary>
+            The client nonce value used during authentication.
+            </summary>
+        </member>
+        <member name="F:S22.Sasl.Mechanisms.SaslDigestMd5.Step">
+            <summary>
+            Cram-Md5 involves several steps.
+            </summary>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.SaslDigestMd5.#ctor">
+            <summary>
+            Private constructor for use with Sasl.SaslFactory.
+            </summary>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.SaslDigestMd5.#ctor(System.Net.NetworkCredential,System.String)">
+            <summary>
+            Internal constructor used for unit testing.
+            </summary>
+            <param name="username">The username to authenticate with.</param>
+            <param name="password">The plaintext password to authenticate
+            with.</param>
+            <param name="cnonce">The client nonce value to use.</param>
+            <exception cref="T:System.ArgumentNullException">Thrown if the username
+            or the password parameter is null.</exception>
+            <exception cref="T:System.ArgumentException">Thrown if the username
+            parameter is empty.</exception>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.SaslDigestMd5.#ctor(System.Net.NetworkCredential)">
+            <summary>
+            Creates and initializes a new instance of the SaslDigestMd5 class
+            using the specified username and password.
+            </summary>
+            <param name="username">The username to authenticate with.</param>
+            <param name="password">The plaintext password to authenticate
+            with.</param>
+            <exception cref="T:System.ArgumentNullException">Thrown if the username
+            or the password parameter is null.</exception>
+            <exception cref="T:System.ArgumentException">Thrown if the username
+            parameter is empty.</exception>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.SaslDigestMd5.ComputeResponse(System.Byte[])">
+            <summary>
+            Computes the client response to the specified Digest-Md5 challenge.
+            </summary>
+            <param name="challenge">The challenge sent by the server</param>
+            <returns>The response to the Digest-Md5 challenge.</returns>
+            <exception cref="T:S22.Sasl.SaslException">Thrown if the response could not
+            be computed.</exception>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.SaslDigestMd5.ParseDigestChallenge(System.String)">
+            <summary>
+            Parses the challenge string sent by the server in response to a Digest-Md5
+            authentication request.
+            </summary>
+            <param name="challenge">The challenge sent by the server as part of
+            "Step One" of the Digest-Md5 authentication mechanism.</param>
+            <returns>An initialized NameValueCollection instance made up of the
+            attribute/value pairs contained in the challenge.</returns>
+            <exception cref="T:System.ArgumentNullException">Thrown if the challenge parameter
+            is null.</exception>
+            <remarks>Refer to RFC 2831 section 2.1.1 for a detailed description of the
+            format of the challenge sent by the server.</remarks>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.SaslDigestMd5.ComputeDigestResponseValue(System.Collections.Specialized.NameValueCollection,System.String,System.String,System.Net.NetworkCredential)">
+            <summary>
+            Computes the "response-value" hex-string which is part of the
+            Digest-MD5 challenge-response.
+            </summary>
+            <param name="challenge">A collection containing the attributes
+            and values of the challenge sent by the server.</param>
+            <param name="cnonce">The cnonce value to use for computing
+            the response-value.</param>
+            <param name="digestUri">The "digest-uri" string to use for
+            computing the response-value.</param>
+            <param name="username">The username to use for computing the
+            response-value.</param>
+            <param name="password">The password to use for computing the
+            response-value.</param>
+            <returns>A string containing a hash-value which is part of the
+            response sent by the client.</returns>
+            <remarks>Refer to RFC 2831, section 2.1.2.1 for a detailed
+            description of the computation of the response-value.</remarks>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.SaslDigestMd5.MD5(System.String,System.Text.Encoding)">
+            <summary>
+            Calculates the MD5 hash value for the specified string.
+            </summary>
+            <param name="s">The string to calculate the MD5 hash value for.</param>
+            <param name="encoding">The encoding to employ for encoding the
+            characters in the specified string into a sequence of bytes for
+            which the MD5 hash will be calculated.</param>
+            <returns>An MD5 hash as a 32-character hex-string.</returns>
+            <exception cref="T:System.ArgumentException">Thrown if the input string
+            is null.</exception>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.SaslDigestMd5.Dquote(System.String)">
+            <summary>
+            Encloses the specified string in double-quotes.
+            </summary>
+            <param name="s">The string to enclose in double-quote characters.</param>
+            <returns>The enclosed string.</returns>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.SaslDigestMd5.GenerateCnonce">
+            <summary>
+            Generates a random cnonce-value which is a "client-specified data string
+            which must be different each time a digest-response is sent".
+            </summary>
+            <returns>A random "cnonce-value" string.</returns>
+        </member>
+        <member name="P:S22.Sasl.Mechanisms.SaslDigestMd5.HasInitial">
+            <summary>
+            The server sends the first message in the authentication exchange. 
+            </summary>
+        </member>
+        <member name="P:S22.Sasl.Mechanisms.SaslDigestMd5.IsCompleted">
+            <summary>
+            True if the authentication exchange between client and server
+            has been completed.
+            </summary>
+        </member>
+        <member name="P:S22.Sasl.Mechanisms.SaslDigestMd5.Name">
+            <summary>
+            The IANA name for the Digest-Md5 authentication mechanism as described
+            in RFC 2195.
+            </summary>
+        </member>
+        <member name="P:S22.Sasl.Mechanisms.SaslDigestMd5.Credential">
+            <summary>
+            The username to authenticate with.
+            </summary>
+        </member>
+        <member name="T:S22.Sasl.Mechanisms.SaslNtlm">
+            <summary>
+            Implements the Sasl NTLM authentication method which is used in various
+            Microsoft network protocol implementations.
+            </summary>
+            <remarks>Implemented with the help of the excellent documentation on
+            NTLM composed by Eric Glass.</remarks>
+        </member>
+        <member name="F:S22.Sasl.Mechanisms.SaslNtlm.step">
+            <summary>
+            NTLM involves several steps.
+            </summary>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.SaslNtlm.#ctor">
+            <summary>
+            Private constructor for use with Sasl.SaslFactory.
+            </summary>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.SaslNtlm.#ctor(System.Net.NetworkCredential)">
+            <summary>
+            Creates and initializes a new instance of the SaslNtlm class
+            using the specified username and password.
+            </summary>
+            <param name="username">The username to authenticate with.</param>
+            <param name="password">The plaintext password to authenticate
+            with.</param>
+            <exception cref="T:System.ArgumentNullException">Thrown if the username
+            or the password parameter is null.</exception>
+            <exception cref="T:System.ArgumentException">Thrown if the username
+            parameter is empty.</exception>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.SaslNtlm.ComputeResponse(System.Byte[])">
+            <summary>
+            Computes the client response to the specified NTLM challenge.
+            </summary>
+            <param name="challenge">The challenge sent by the server</param>
+            <returns>The response to the NTLM challenge.</returns>
+            <exception cref="T:S22.Sasl.SaslException">Thrown if the response could not
+            be computed.</exception>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.SaslNtlm.ComputeInitialResponse(System.Byte[])">
+            <summary>
+            Computes the initial client response to an NTLM challenge.
+            </summary>
+            <param name="challenge">The challenge sent by the server. Since
+            NTLM expects an initial client response, this will usually be
+            empty.</param>
+            <returns>The initial response to the NTLM challenge.</returns>
+            <exception cref="T:S22.Sasl.SaslException">Thrown if the response could not
+            be computed.</exception>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.SaslNtlm.ComputeChallengeResponse(System.Byte[])">
+            <summary>
+            Computes the actual challenge response to an NTLM challenge
+            which is sent as part of an NTLM type 2 message.
+            </summary>
+            <param name="challenge">The challenge sent by the server.</param>
+            <returns>The response to the NTLM challenge.</returns>
+            <exception cref="T:S22.Sasl.SaslException">Thrown if the challenge
+            response could not be computed.</exception>
+        </member>
+        <member name="P:S22.Sasl.Mechanisms.SaslNtlm.HasInitial">
+            <summary>
+            Client sends the first message in the authentication exchange.
+            </summary>
+        </member>
+        <member name="P:S22.Sasl.Mechanisms.SaslNtlm.IsCompleted">
+            <summary>
+            True if the authentication exchange between client and server
+            has been completed.
+            </summary>
+        </member>
+        <member name="P:S22.Sasl.Mechanisms.SaslNtlm.Name">
+            <summary>
+            The IANA name for the NTLM authentication mechanism.
+            </summary>
+        </member>
+        <member name="P:S22.Sasl.Mechanisms.SaslNtlm.Credential">
+            <summary>
+            The username to authenticate with.
+            </summary>
+        </member>
+        <member name="T:S22.Sasl.Mechanisms.SaslNtlmv2">
+            <summary>
+            Implements the Sasl NTLMv2 authentication method which addresses
+            some of the security issues present in NTLM version 1.
+            </summary>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.SaslNtlmv2.#ctor">
+            <summary>
+            Private constructor for use with Sasl.SaslFactory.
+            </summary>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.SaslNtlmv2.#ctor(System.Net.NetworkCredential,System.Boolean)">
+            <summary>
+            Creates and initializes a new instance of the SaslNtlmv2 class
+            using the specified username and password.
+            </summary>
+            <param name="username">The username to authenticate with.</param>
+            <param name="password">The plaintext password to authenticate
+            with.</param>
+            <exception cref="T:System.ArgumentNullException">Thrown if the username
+            or the password parameter is null.</exception>
+            <exception cref="T:System.ArgumentException">Thrown if the username
+            parameter is empty.</exception>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.SaslNtlmv2.ComputeResponse(System.Byte[])">
+            <summary>
+            Computes the client response to the specified NTLM challenge.
+            </summary>
+            <param name="challenge">The challenge sent by the server</param>
+            <returns>The response to the NTLM challenge.</returns>
+            <exception cref="T:S22.Sasl.SaslException">Thrown if the response could not
+            be computed.</exception>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.SaslNtlmv2.ComputeInitialResponse(System.Byte[])">
+            <summary>
+            Computes the initial client response to an NTLM challenge.
+            </summary>
+            <param name="challenge">The challenge sent by the server. Since
+            NTLM expects an initial client response, this will usually be
+            empty.</param>
+            <returns>The initial response to the NTLM challenge.</returns>
+            <exception cref="T:S22.Sasl.SaslException">Thrown if the response could not
+            be computed.</exception>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.SaslNtlmv2.ComputeChallengeResponse(System.Byte[])">
+            <summary>
+            Computes the actual challenge response to an NTLM challenge
+            which is sent as part of an NTLM type 2 message.
+            </summary>
+            <param name="challenge">The challenge sent by the server.</param>
+            <returns>The response to the NTLM challenge.</returns>
+            <exception cref="T:S22.Sasl.SaslException">Thrown if the challenge
+            response could not be computed.</exception>
+        </member>
+        <member name="T:S22.Sasl.Mechanisms.SaslOAuth">
+            <summary>
+            Implements the Sasl OAuth authentication method.
+            </summary>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.SaslOAuth.#ctor">
+            <summary>
+            Private constructor for use with Sasl.SaslFactory.
+            </summary>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.SaslOAuth.#ctor(System.String)">
+            <summary>
+            Creates and initializes a new instance of the SaslOAuth class
+            using the specified username and password.
+            </summary>
+            <param name="accessToken">The username to authenticate with.</param>
+            <exception cref="T:System.ArgumentNullException">Thrown if the accessToken
+            parameter is null.</exception>
+            <exception cref="T:System.ArgumentException">Thrown if the accessToken
+            parameter is empty.</exception>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.SaslOAuth.ComputeResponse(System.Byte[])">
+            <summary>
+            Computes the client response for a OAuth challenge.
+            </summary>
+            <param name="challenge">The challenge sent by the server.</param>
+            <returns>The response to the OAuth challenge.</returns>
+            <exception cref="T:S22.Sasl.SaslException">Thrown if the response could not
+            be computed.</exception>
+        </member>
+        <member name="P:S22.Sasl.Mechanisms.SaslOAuth.HasInitial">
+            <summary>
+            Client sends the first message in the authentication exchange.
+            </summary>
+        </member>
+        <member name="P:S22.Sasl.Mechanisms.SaslOAuth.IsCompleted">
+            <summary>
+            True if the authentication exchange between client and server
+            has been completed.
+            </summary>
+        </member>
+        <member name="P:S22.Sasl.Mechanisms.SaslOAuth.Name">
+            <summary>
+            The IANA name for the OAuth authentication mechanism.
+            </summary>
+        </member>
+        <member name="P:S22.Sasl.Mechanisms.SaslOAuth.AccessToken">
+            <summary>
+            The access token to authenticate with.
+            </summary>
+        </member>
+        <member name="T:S22.Sasl.Mechanisms.SaslOAuth2">
+            <summary>
+            Implements the Sasl OAuth 2.0 authentication method.
+            </summary>
+        </member>
+        <member name="F:S22.Sasl.Mechanisms.SaslOAuth2.Step">
+            <summary>
+            The server sends an error response in case authentication fails
+            which must be acknowledged.
+            </summary>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.SaslOAuth2.#ctor">
+            <summary>
+            Private constructor for use with Sasl.SaslFactory.
+            </summary>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.SaslOAuth2.#ctor(System.String,System.String)">
+            <summary>
+            Creates and initializes a new instance of the SaslOAuth class
+            using the specified username and password.
+            </summary>
+            <param name="username">The username to authenticate with.</param>
+            <param name="accessToken">The username to authenticate with.</param>
+            <exception cref="T:System.ArgumentNullException">Thrown if the username
+            or the accessToken parameter is null.</exception>
+            <exception cref="T:System.ArgumentException">Thrown if the username or
+            the accessToken parameter is empty.</exception>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.SaslOAuth2.ComputeResponse(System.Byte[])">
+            <summary>
+            Computes the client response to an XOAUTH2 challenge.
+            </summary>
+            <param name="challenge">The challenge sent by the server.</param>
+            <returns>The response to the OAuth2 challenge.</returns>
+            <exception cref="T:S22.Sasl.SaslException">Thrown if the response could not
+            be computed.</exception>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.SaslOAuth2.ComputeInitialResponse(System.Byte[])">
+            <summary>
+            Computes the initial client response to an XOAUTH2 challenge.
+            </summary>
+            <param name="challenge">The challenge sent by the server.</param>
+            <returns>The response to the OAuth2 challenge.</returns>
+            <exception cref="T:S22.Sasl.SaslException">Thrown if the response could not
+            be computed.</exception>
+        </member>
+        <member name="P:S22.Sasl.Mechanisms.SaslOAuth2.HasInitial">
+            <summary>
+            Client sends the first message in the authentication exchange.
+            </summary>
+        </member>
+        <member name="P:S22.Sasl.Mechanisms.SaslOAuth2.IsCompleted">
+            <summary>
+            True if the authentication exchange between client and server
+            has been completed.
+            </summary>
+        </member>
+        <member name="P:S22.Sasl.Mechanisms.SaslOAuth2.Name">
+            <summary>
+            The IANA name for the OAuth 2.0 authentication mechanism.
+            </summary>
+        </member>
+        <member name="P:S22.Sasl.Mechanisms.SaslOAuth2.Username">
+            <summary>
+            The username to authenticate with.
+            </summary>
+        </member>
+        <member name="P:S22.Sasl.Mechanisms.SaslOAuth2.AccessToken">
+            <summary>
+            The access token to authenticate with.
+            </summary>
+        </member>
+        <member name="T:S22.Sasl.Mechanisms.SaslPlain">
+            <summary>
+            Implements the Sasl Plain authentication method as described in
+            RFC 4616.
+            </summary>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.SaslPlain.#ctor">
+            <summary>
+            Private constructor for use with Sasl.SaslFactory.
+            </summary>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.SaslPlain.#ctor(System.Net.NetworkCredential)">
+            <summary>
+            Creates and initializes a new instance of the SaslPlain class
+            using the specified username and password.
+            </summary>
+            <param name="username">The username to authenticate with.</param>
+            <param name="password">The plaintext password to authenticate
+            with.</param>
+            <exception cref="T:System.ArgumentNullException">Thrown if the username
+            or the password parameter is null.</exception>
+            <exception cref="T:System.ArgumentException">Thrown if the username
+            parameter is empty.</exception>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.SaslPlain.ComputeResponse(System.Byte[])">
+            <summary>
+            Computes the client response for a plain-challenge.
+            </summary>
+            <param name="challenge">The challenge sent by the server. For the
+            "plain" mechanism this will usually be empty.</param>
+            <returns>The response for the "plain"-challenge.</returns>
+            <exception cref="T:S22.Sasl.SaslException">Thrown if the response could not
+            be computed.</exception>
+        </member>
+        <member name="P:S22.Sasl.Mechanisms.SaslPlain.HasInitial">
+            <summary>
+            Sasl Plain just sends one initial response.
+            </summary>
+        </member>
+        <member name="P:S22.Sasl.Mechanisms.SaslPlain.IsCompleted">
+            <summary>
+            True if the authentication exchange between client and server
+            has been completed.
+            </summary>
+        </member>
+        <member name="P:S22.Sasl.Mechanisms.SaslPlain.Name">
+            <summary>
+            The IANA name for the Plain authentication mechanism as described
+            in RFC 4616.
+            </summary>
+        </member>
+        <member name="P:S22.Sasl.Mechanisms.SaslPlain.Credential">
+            <summary>
+            The username to authenticate with.
+            </summary>
+        </member>
+        <member name="T:S22.Sasl.Mechanisms.SaslScramSha1">
+            <summary>
+            Implements the Sasl SCRAM-SHA-1 authentication method as described in
+            RFC 5802.
+            </summary>
+        </member>
+        <member name="F:S22.Sasl.Mechanisms.SaslScramSha1.Cnonce">
+            <summary>
+            The client nonce value used during authentication.
+            </summary>
+        </member>
+        <member name="F:S22.Sasl.Mechanisms.SaslScramSha1.Step">
+            <summary>
+            Scram-Sha-1 involves several steps.
+            </summary>
+        </member>
+        <member name="F:S22.Sasl.Mechanisms.SaslScramSha1.SaltedPassword">
+            <summary>
+            The salted password. This is needed for client authentication and later
+            on again for verifying the server signature.
+            </summary>
+        </member>
+        <member name="F:S22.Sasl.Mechanisms.SaslScramSha1.AuthMessage">
+            <summary>
+            The auth message is part of the authentication exchange and is needed for
+            authentication as well as for verifying the server signature.
+            </summary>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.SaslScramSha1.#ctor">
+            <summary>
+            Private constructor for use with Sasl.SaslFactory.
+            </summary>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.SaslScramSha1.#ctor(System.Net.NetworkCredential,System.String)">
+            <summary>
+            Internal constructor used for unit testing.
+            </summary>
+            <param name="username">The username to authenticate with.</param>
+            <param name="password">The plaintext password to authenticate
+            with.</param>
+            <param name="cnonce">The client nonce value to use.</param>
+            <exception cref="T:System.ArgumentNullException">Thrown if the username
+            or the password parameter is null.</exception>
+            <exception cref="T:System.ArgumentException">Thrown if the username
+            parameter is empty.</exception>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.SaslScramSha1.#ctor(System.Net.NetworkCredential)">
+            <summary>
+            Creates and initializes a new instance of the SaslScramSha1
+            class using the specified username and password.
+            </summary>
+            <param name="username">The username to authenticate with.</param>
+            <param name="password">The plaintext password to authenticate
+            with.</param>
+            <exception cref="T:System.ArgumentNullException">Thrown if the username
+            or the password parameter is null.</exception>
+            <exception cref="T:System.ArgumentException">Thrown if the username
+            parameter is empty.</exception>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.SaslScramSha1.ComputeResponse(System.Byte[])">
+            <summary>
+            Computes the client response to the specified SCRAM-SHA-1 challenge.
+            </summary>
+            <param name="challenge">The challenge sent by the server</param>
+            <returns>The response to the SCRAM-SHA-1 challenge.</returns>
+            <exception cref="T:S22.Sasl.SaslException">Thrown if the response could not
+            be computed.</exception>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.SaslScramSha1.ComputeInitialResponse">
+            <summary>
+            Computes the initial response sent by the client to the server.
+            </summary>
+            <returns>An array of bytes containing the initial client
+            response.</returns>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.SaslScramSha1.ComputeFinalResponse(System.Byte[])">
+            <summary>
+            Computes the "client-final-message" which completes the authentication
+            process.
+            </summary>
+            <param name="challenge">The "server-first-message" challenge received
+            from the server in response to the initial client response.</param>
+            <returns>An array of bytes containing the client's challenge
+            response.</returns>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.SaslScramSha1.VerifyServerNonce(System.String)">
+            <summary>
+            Verifies the nonce value sent by the server.
+            </summary>
+            <param name="nonce">The nonce value sent by the server as part of the
+            server-first-message.</param>
+            <returns>True if the nonce value is valid, otherwise false.</returns>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.SaslScramSha1.VerifyServerSignature(System.Byte[])">
+            <summary>
+            Verifies the server signature which is sent by the server as the final
+            step of the authentication process.
+            </summary>
+            <param name="challenge">The server signature as a base64-encoded
+            string.</param>
+            <returns>The client's response to the server. This will be an empty
+            byte array if verification was successful, or the '*' SASL cancellation
+            token.</returns>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.SaslScramSha1.ParseServerFirstMessage(System.Byte[])">
+            <summary>
+            Parses the "server-first-message" received from the server.
+            </summary>
+            <param name="challenge">The challenge received from the server.</param>
+            <returns>A collection of key/value pairs contained extracted from
+            the server message.</returns>
+            <exception cref="T:System.ArgumentNullException">Thrown if the message parameter
+            is null.</exception>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.SaslScramSha1.Hi(System.String,System.String,System.Int32)">
+            <summary>
+            Computes the "Hi()"-formula which is part of the client's response
+            to the server challenge.
+            </summary>
+            <param name="password">The supplied password to use.</param>
+            <param name="salt">The salt received from the server.</param>
+            <param name="count">The iteration count.</param>
+            <returns>An array of bytes containing the result of the
+            computation of the "Hi()"-formula.</returns>
+            <remarks>Hi is, essentially, PBKDF2 with HMAC as the
+            pseudorandom function (PRF) and with dkLen == output length of
+            HMAC() == output length of H(). (Refer to RFC 5802, p.6)</remarks>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.SaslScramSha1.HMAC(System.Byte[],System.Byte[])">
+            <summary>
+            Applies the HMAC keyed hash algorithm using the specified key to
+            the specified input data.
+            </summary>
+            <param name="key">The key to use for initializing the HMAC
+            provider.</param>
+            <param name="data">The input to compute the hashcode for.</param>
+            <returns>The hashcode of the specified data input.</returns>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.SaslScramSha1.HMAC(System.Byte[],System.String)">
+            <summary>
+            Applies the HMAC keyed hash algorithm using the specified key to
+            the specified input string.
+            </summary>
+            <param name="key">The key to use for initializing the HMAC
+            provider.</param>
+            <param name="data">The input string to compute the hashcode for.</param>
+            <returns>The hashcode of the specified string.</returns>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.SaslScramSha1.H(System.Byte[])">
+            <summary>
+            Applies the cryptographic hash function SHA-1 to the specified data
+            array.
+            </summary>
+            <param name="data">The data array to apply the hash function to.</param>
+            <returns>The hash value for the specified byte array.</returns>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.SaslScramSha1.Xor(System.Byte[],System.Byte[])">
+            <summary>
+            Applies the exclusive-or operation to combine the specified byte array
+            a with the specified byte array b.
+            </summary>
+            <param name="a">The first byte array.</param>
+            <param name="b">The second byte array.</param>
+            <returns>An array of bytes of the same length as the input arrays
+            containing the result of the exclusive-or operation.</returns>
+            <exception cref="T:System.ArgumentNullException">Thrown if either argument is
+            null.</exception>
+            <exception cref="T:System.InvalidOperationException">Thrown if the input arrays
+            are not of the same length.</exception>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.SaslScramSha1.GenerateCnonce">
+            <summary>
+            Generates a random cnonce-value which is a "client-specified data string
+            which must be different each time a digest-response is sent".
+            </summary>
+            <returns>A random "cnonce-value" string.</returns>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.SaslScramSha1.SaslPrep(System.String)">
+            <summary>
+            Prepares the specified string as is described in RFC 5802.
+            </summary>
+            <param name="s">A string value.</param>
+            <returns>A "Saslprepped" string.</returns>
+        </member>
+        <member name="P:S22.Sasl.Mechanisms.SaslScramSha1.HasInitial">
+            <summary>
+            Client sends the first message in the authentication exchange.
+            </summary>
+        </member>
+        <member name="P:S22.Sasl.Mechanisms.SaslScramSha1.IsCompleted">
+            <summary>
+            True if the authentication exchange between client and server
+            has been completed.
+            </summary>
+        </member>
+        <member name="P:S22.Sasl.Mechanisms.SaslScramSha1.Name">
+            <summary>
+            The IANA name for the Scram-Sha-1 authentication mechanism as described
+            in RFC 5802.
+            </summary>
+        </member>
+        <member name="P:S22.Sasl.Mechanisms.SaslScramSha1.Credential">
+            <summary>
+            The username to authenticate with.
+            </summary>
+        </member>
+        <member name="T:S22.Sasl.Mechanisms.SaslSrp">
+            <summary>
+            Implements the Sasl Secure Remote Password (SRP) authentication
+            mechanism as is described in the IETF SRP 08 draft.
+            </summary>
+            <remarks>
+            Some notes:
+             - Don't bother with the example given in the IETF 08 draft
+              document (7.5 Example); It is broken.
+             - Integrity and confidentiality protection is not implemented.
+              In fact, the "mandatory"-option is not supported at all.
+            </remarks>
+        </member>
+        <member name="F:S22.Sasl.Mechanisms.SaslSrp.Step">
+            <summary>
+            SRP involves several steps.
+            </summary>
+        </member>
+        <member name="F:S22.Sasl.Mechanisms.SaslSrp.HashAlgorithm">
+            <summary>
+            The negotiated hash algorithm which will be used to perform any
+            message digest calculations.
+            </summary>
+        </member>
+        <member name="F:S22.Sasl.Mechanisms.SaslSrp.PublicKey">
+            <summary>
+            The public key computed as part of the authentication exchange.
+            </summary>
+        </member>
+        <member name="F:S22.Sasl.Mechanisms.SaslSrp.PrivateKey">
+            <summary>
+            The client's private key used for calculating the client evidence.
+            </summary>
+        </member>
+        <member name="F:S22.Sasl.Mechanisms.SaslSrp.SharedKey">
+            <summary>
+            The secret key shared between client and server.
+            </summary>
+        </member>
+        <member name="F:S22.Sasl.Mechanisms.SaslSrp.ClientProof">
+            <summary>
+            The client evidence calculated as part of the authentication exchange.
+            </summary>
+        </member>
+        <member name="F:S22.Sasl.Mechanisms.SaslSrp.Options">
+            <summary>
+            The options chosen by the client, picked from the list of options
+            advertised by the server.
+            </summary>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.SaslSrp.#ctor">
+            <summary>
+            Private constructor for use with Sasl.SaslFactory.
+            </summary>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.SaslSrp.#ctor(System.Net.NetworkCredential,System.Byte[])">
+            <summary>
+            Internal constructor used for unit testing.
+            </summary>
+            <param name="username">The username to authenticate with.</param>
+            <param name="password">The plaintext password to authenticate
+            with.</param>
+            <param name="privateKey">The client private key to use.</param>
+            <exception cref="T:System.ArgumentNullException">Thrown if the username
+            or the password parameter is null.</exception>
+            <exception cref="T:System.ArgumentException">Thrown if the username
+            parameter is empty.</exception>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.SaslSrp.#ctor(System.Net.NetworkCredential)">
+            <summary>
+            Creates and initializes a new instance of the SaslSrp class using
+            the specified username and password.
+            </summary>
+            <param name="username">The username to authenticate with.</param>
+            <param name="password">The plaintext password to authenticate
+            with.</param>
+            <exception cref="T:System.ArgumentNullException">Thrown if the username
+            or the password parameter is null.</exception>
+            <exception cref="T:System.ArgumentException">Thrown if the username
+            parameter is empty.</exception>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.SaslSrp.ComputeResponse(System.Byte[])">
+            <summary>
+            Computes the client response to the specified SRP challenge.
+            </summary>
+            <param name="challenge">The challenge sent by the server</param>
+            <returns>The response to the SRP challenge.</returns>
+            <exception cref="T:S22.Sasl.SaslException">Thrown if the response could not
+            be computed.</exception>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.SaslSrp.ComputeInitialResponse">
+            <summary>
+            Computes the initial response sent by the client to the server.
+            </summary>
+            <returns>An array of bytes containing the initial client
+            response.</returns>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.SaslSrp.ComputeFinalResponse(System.Byte[])">
+            <summary>
+            Computes the client response containing the client's public key and
+            evidence.
+            </summary>
+            <param name="challenge">The challenge containing the protocol elements
+            received from the server in response to the initial client
+            response.</param>
+            <returns>An array of bytes containing the client's challenge
+            response.</returns>
+            <exception cref="T:S22.Sasl.SaslException">Thrown if the server specified any
+            mandatory options which are not supported.</exception>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.SaslSrp.VerifyServerSignature(System.Byte[])">
+            <summary>
+            Verifies the server signature which is sent by the server as the final
+            step of the authentication process.
+            </summary>
+            <param name="challenge">The server signature as a base64-encoded
+            string.</param>
+            <returns>The client's response to the server. This will be an empty
+            byte array if verification was successful, or the '*' SASL cancellation
+            token.</returns>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.SaslSrp.SelectHashAlgorithm(System.String)">
+            <summary>
+            Selects a message digest algorithm from the specified list of
+            supported algorithms.
+            </summary>
+            <returns>A tuple containing the name of the selected message digest
+            algorithm as well as the type.</returns>
+            <exception cref="T:System.NotSupportedException">Thrown if none of the algorithms
+            specified in the list parameter is supported.</exception>
+        </member>
+        <member name="P:S22.Sasl.Mechanisms.SaslSrp.HasInitial">
+            <summary>
+            Client sends the first message in the authentication exchange.
+            </summary>
+        </member>
+        <member name="P:S22.Sasl.Mechanisms.SaslSrp.IsCompleted">
+            <summary>
+            True if the authentication exchange between client and server
+            has been completed.
+            </summary>
+        </member>
+        <member name="P:S22.Sasl.Mechanisms.SaslSrp.Name">
+            <summary>
+            The IANA name for the SRP authentication mechanism.
+            </summary>
+        </member>
+        <member name="P:S22.Sasl.Mechanisms.SaslSrp.Credential">
+            <summary>
+            The username to authenticate with.
+            </summary>
+        </member>
+        <member name="P:S22.Sasl.Mechanisms.SaslSrp.AuthId">
+            <summary>
+            The authorization id (userid in draft jargon).
+            </summary>
+        </member>
+        <member name="T:S22.Sasl.Mechanisms.Srp.ClientMessage1">
+            <summary>
+            Represents the initial client-response sent to the server to initiate
+            the authentication exchange.
+            </summary>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.Srp.ClientMessage1.#ctor(System.String,System.String)">
+            <summary>
+            Creates a new instance of the ClientMessage1 class using the specified
+            username.
+            </summary>
+            <param name="username">The username to authenticate with.</param>
+            <param name="authId">The authorization id to authenticate with.</param>
+            <exception cref="T:System.ArgumentNullException">Thrown if the username parameter
+            is null.</exception>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.Srp.ClientMessage1.Serialize">
+            <summary>
+            Serializes this instance of the ClientMessage1 class into a sequence of
+            bytes according to the requirements of the SRP specification.
+            </summary>
+            <returns>A sequence of bytes representing this instance of the
+            ClientMessage1 class.</returns>
+            <exception cref="T:System.OverflowException">Thrown if the cummultative length
+            of the serialized data fields exceeds the maximum number of bytes
+            allowed as per SRP specification.</exception>
+            <remarks>SRP specification imposes a limit of 2,147,483,643 bytes on
+            the serialized data.</remarks> 
+        </member>
+        <member name="P:S22.Sasl.Mechanisms.Srp.ClientMessage1.Username">
+            <summary>
+            The username to authenticate with.
+            </summary>
+            <remarks>SRP specification imposes a limit of 65535 bytes
+            on this field.</remarks>
+        </member>
+        <member name="P:S22.Sasl.Mechanisms.Srp.ClientMessage1.AuthId">
+            <summary>
+            The authorization identity to authenticate with.
+            </summary>
+            <remarks>SRP specification imposes a limit of 65535 bytes
+            on this field.</remarks>
+        </member>
+        <member name="P:S22.Sasl.Mechanisms.Srp.ClientMessage1.SessionId">
+            <summary>
+            The session identifier of a previous session whose parameters the
+            client wishes to re-use.
+            </summary>
+            <remarks>SRP specification imposes a limit of 65535 bytes
+            on this field. If the client wishes to initialize a new session,
+            this parameter must be set to the empty string.</remarks> 
+        </member>
+        <member name="P:S22.Sasl.Mechanisms.Srp.ClientMessage1.ClientNonce">
+            <summary>
+            The client's nonce used in deriving a new shared context key from
+            the shared context key of the previous session.
+            </summary>
+            <remarks>SRP specification imposes a limit of 255 bytes on this
+            field. If not needed, it must be set to an empty byte array.</remarks>
+        </member>
+        <member name="T:S22.Sasl.Mechanisms.Srp.ClientMessage2">
+            <summary>
+            Represents the second client-response sent to the server as part of
+            the SRP authentication exchange.
+            </summary>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.Srp.ClientMessage2.#ctor">
+            <summary>
+            Creates and initializes a new instance of the ClientMessage2 class.
+            </summary>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.Srp.ClientMessage2.#ctor(S22.Sasl.Mechanisms.Srp.Mpi,System.Byte[])">
+            <summary>
+            Creates and initializes a new instance of the ClientMessage2 class using
+            the specified public key and client proof.
+            </summary>
+            <param name="publicKey">The client's public key.</param>
+            <param name="proof">The calculated client proof.</param>
+            <exception cref="T:System.ArgumentNullException">Thrown if either the public key
+            or the proof parameter is null.</exception>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.Srp.ClientMessage2.Serialize">
+            <summary>
+            Serializes this instance of the ClientMessage2 class into a sequence of
+            bytes according to the requirements of the SRP specification.
+            </summary>
+            <returns>A sequence of bytes representing this instance of the
+            ClientMessage2 class.</returns>
+            <exception cref="T:System.OverflowException">Thrown if the cummultative length
+            of the serialized data fields exceeds the maximum number of bytes
+            allowed as per SRP specification.</exception>
+            <remarks>SRP specification imposes a limit of 2,147,483,643 bytes on
+            the serialized data.</remarks> 
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.Srp.ClientMessage2.BuildOptionsString">
+            <summary>
+            Serializes the client's options collection into a comma-seperated
+            options string.
+            </summary>
+            <returns>A comma-seperated string containing the client's chosen
+            options.</returns>
+        </member>
+        <member name="P:S22.Sasl.Mechanisms.Srp.ClientMessage2.PublicKey">
+            <summary>
+            The client's ephemeral public key.
+            </summary>
+        </member>
+        <member name="P:S22.Sasl.Mechanisms.Srp.ClientMessage2.Proof">
+            <summary>
+            The evidence which proves to the server client-knowledge of the shared
+            context key.
+            </summary>
+        </member>
+        <member name="P:S22.Sasl.Mechanisms.Srp.ClientMessage2.Options">
+            <summary>
+            The options list indicating the security services chosen by the client.
+            </summary>
+        </member>
+        <member name="P:S22.Sasl.Mechanisms.Srp.ClientMessage2.InitialVector">
+            <summary>
+            The initial vector the server will use to set up its encryption
+            context, if confidentiality protection will be employed.
+            </summary>
+        </member>
+        <member name="T:S22.Sasl.Mechanisms.Srp.BinaryReaderExtensions">
+            <summary>
+            Adds extension methods to the BinaryReader class to simplify the
+            deserialization of SRP messages.
+            </summary>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.Srp.BinaryReaderExtensions.ReadUInt32(System.IO.BinaryReader,System.Boolean)">
+            <summary>
+            Reads an unsigned integer value from the underlying stream,
+            optionally using big endian byte ordering.
+            </summary>
+            <param name="reader">Extension method for BinaryReader.</param>
+            <param name="bigEndian">Set to true to interpret the integer value
+            as big endian value.</param>
+            <returns>The 32-byte unsigned integer value read from the underlying
+            stream.</returns>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.Srp.BinaryReaderExtensions.ReadUInt16(System.IO.BinaryReader,System.Boolean)">
+            <summary>
+            Reads an unsigned short value from the underlying stream, optionally
+            using big endian byte ordering.
+            </summary>
+            <param name="reader">Extension method for BinaryReader.</param>
+            <param name="bigEndian">Set to true to interpret the short value
+            as big endian value.</param>
+            <returns>The 16-byte unsigned short value read from the underlying
+            stream.</returns>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.Srp.BinaryReaderExtensions.ReadMpi(System.IO.BinaryReader)">
+            <summary>
+            Reads a "multi-precision integer" from this instance.
+            </summary>
+            <param name="reader">Extension method for the BinaryReader class.</param>
+            <returns>An instance of the Mpi class decoded from the bytes read
+            from the underlying stream.</returns>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.Srp.BinaryReaderExtensions.ReadOs(System.IO.BinaryReader)">
+            <summary>
+            Reads an "octet-sequence" from this instance.
+            </summary>
+            <param name="reader">Extension method for the BinaryReader class.</param>
+            <returns>An instance of the OctetSequence class decoded from the bytes
+            read from the underlying stream.</returns>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.Srp.BinaryReaderExtensions.ReadUtf8String(System.IO.BinaryReader)">
+            <summary>
+            Reads an UTF-8 string from this instance.
+            </summary>
+            <param name="reader">Extension method for the BinaryReader class.</param>
+            <returns>An instance of the Utf8String class decoded from the bytes
+            read from the underlying stream.</returns>
+        </member>
+        <member name="T:S22.Sasl.Mechanisms.Srp.Helper">
+            <summary>
+            Contains helper methods for calculating the various components of the
+            SRP authentication exchange.
+            </summary>
+        </member>
+        <member name="F:S22.Sasl.Mechanisms.Srp.Helper.ts">
+            <summary>
+            The trace source used for informational and debug messages.
+            </summary>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.Srp.Helper.IsValidModulus(S22.Sasl.Mechanisms.Srp.Mpi)">
+            <summary>
+            Determines whether the specified modulus is valid.
+            </summary>
+            <param name="N">The modulus to validate.</param>
+            <returns>True if the specified modulus is valid, otherwise
+            false.</returns>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.Srp.Helper.IsValidGenerator(S22.Sasl.Mechanisms.Srp.Mpi)">
+            <summary>
+            Determines whether the specified generator is valid.
+            </summary>
+            <param name="g">The generator to validate.</param>
+            <returns>True if the specified generator is valid, otherwise
+            false.</returns>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.Srp.Helper.GenerateClientPrivateKey">
+            <summary>
+            Generates a random "multi-precision integer" which will act as the
+            client's private key.
+            </summary>
+            <returns>The client's ephemeral private key as a "multi-precision
+            integer".</returns>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.Srp.Helper.ComputeClientPublicKey(S22.Sasl.Mechanisms.Srp.Mpi,S22.Sasl.Mechanisms.Srp.Mpi,S22.Sasl.Mechanisms.Srp.Mpi)">
+            <summary>
+            Calculates the client's ephemeral public key.
+            </summary>
+            <param name="generator">The generator sent by the server.</param>
+            <param name="safePrimeModulus">The safe prime modulus sent by
+            the server.</param>
+            <param name="privateKey">The client's private key.</param>
+            <returns>The client's ephemeral public key as a
+            "multi-precision integer".</returns>
+            <remarks>
+            A = Client Public Key
+            g = Generator
+            a = Client Private Key
+            N = Safe Prime Modulus
+            </remarks>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.Srp.Helper.ComputeSharedKey(System.Byte[],System.String,System.String,S22.Sasl.Mechanisms.Srp.Mpi,S22.Sasl.Mechanisms.Srp.Mpi,S22.Sasl.Mechanisms.Srp.Mpi,S22.Sasl.Mechanisms.Srp.Mpi,S22.Sasl.Mechanisms.Srp.Mpi,System.Security.Cryptography.HashAlgorithm)">
+            <summary>
+            Calculates the shared context key K from the given parameters.
+            </summary>
+            <param name="salt">The user's password salt.</param>
+            <param name="username">The username to authenticate with.</param>
+            <param name="password">The password to authenticate with.</param>
+            <param name="clientPublicKey">The client's ephemeral public key.</param>
+            <param name="serverPublicKey">The server's ephemeral public key.</param>
+            <param name="clientPrivateKey">The client's private key.</param>
+            <param name="generator">The generator sent by the server.</param>
+            <param name="safePrimeModulus">The safe prime modulus sent by the
+            server.</param>
+            <param name="hashAlgorithm">The negotiated hash algorithm to use
+            for the calculations.</param>
+            <returns>The shared context key K as a "multi-precision
+            integer".</returns>
+            <remarks>
+            A = Client Public Key
+            B = Server Public Key
+            N = Safe Prime Modulus
+            U = Username
+            p = Password
+            s = User's Password Salt
+            a = Client Private Key
+            g = Generator
+            K = Shared Public Key
+            </remarks>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.Srp.Helper.ComputeClientProof(S22.Sasl.Mechanisms.Srp.Mpi,S22.Sasl.Mechanisms.Srp.Mpi,System.String,System.Byte[],S22.Sasl.Mechanisms.Srp.Mpi,S22.Sasl.Mechanisms.Srp.Mpi,S22.Sasl.Mechanisms.Srp.Mpi,System.String,System.String,System.Security.Cryptography.HashAlgorithm)">
+            <summary>
+            Computes the client evidence from the given parameters.
+            </summary>
+            <param name="safePrimeModulus">The safe prime modulus sent by the
+            server.</param>
+            <param name="generator">The generator sent by the server.</param>
+            <param name="username">The username to authenticate with.</param>
+            <param name="salt">The client's password salt.</param>
+            <param name="clientPublicKey">The client's ephemeral public key.</param>
+            <param name="serverPublicKey">The server's ephemeral public key.</param>
+            <param name="sharedKey">The shared context key.</param>
+            <param name="authId">The authorization identity.</param>
+            <param name="options">The raw options string as received from the
+            server.</param>
+            <param name="hashAlgorithm">The message digest algorithm to use for
+            calculating the client proof.</param>
+            <returns>The client proof as an array of bytes.</returns>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.Srp.Helper.ComputeServerProof(S22.Sasl.Mechanisms.Srp.Mpi,System.Byte[],S22.Sasl.Mechanisms.Srp.Mpi,System.String,System.String,System.String,System.UInt32,System.Security.Cryptography.HashAlgorithm)">
+            <summary>
+            Computes the server evidence from the given parameters.
+            </summary>
+            <param name="clientPublicKey">The client's ephemeral public key.</param>
+            <param name="clientProof"></param>
+            <param name="sharedKey">The shared context key.</param>
+            <param name="authId">The authorization identity.</param>
+            <param name="options">The raw options string as sent by the
+            client.</param>
+            <param name="sid">The session id sent by the server.</param>
+            <param name="ttl">The time-to-live value for the session id sent
+            by the server.</param>
+            <param name="hashAlgorithm">The message digest algorithm to use for
+            calculating the server proof.</param>
+            <returns>The server proof as an array of bytes.</returns>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.Srp.Helper.Xor(System.Byte[],System.Byte[])">
+            <summary>
+            Applies the exclusive-or operation to combine the specified byte array
+            a with the specified byte array b.
+            </summary>
+            <param name="a">The first byte array.</param>
+            <param name="b">The second byte array.</param>
+            <returns>An array of bytes of the same length as the input arrays
+            containing the result of the exclusive-or operation.</returns>
+            <exception cref="T:System.ArgumentNullException">Thrown if either argument is
+            null.</exception>
+            <exception cref="T:System.InvalidOperationException">Thrown if the input arrays
+            are not of the same length.</exception>
+        </member>
+        <member name="F:S22.Sasl.Mechanisms.Srp.Helper.moduli">
+            <summary>
+            Recommended values for the safe prime modulus (Refer to Appendix A.
+            "Modulus and Generator Values" of the IETF SRP draft).
+            </summary>
+        </member>
+        <member name="T:S22.Sasl.Mechanisms.Srp.Mpi">
+            <summary>
+            Represents a "multi-precision integer" (MPI) as is described in the
+            SRP specification (3.2 Multi-Precision Integers, p.5).
+            </summary>
+            <remarks>Multi-Precision Integers, or MPIs, are positive integers used
+            to hold large integers used in cryptographic computations.</remarks>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.Srp.Mpi.#ctor(System.Byte[])">
+            <summary>
+            Creates a new "multi-precision integer" from the specified array
+            of bytes.
+            </summary>
+            <param name="data">A big-endian sequence of bytes forming the
+            integer value of the multi-precision integer.</param>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.Srp.Mpi.#ctor(System.Numerics.BigInteger)">
+            <summary>
+            Creates a new "multi-precision integer" from the specified BigInteger
+            instance.
+            </summary>
+            <param name="value">The BigInteger instance to initialize the MPI
+            with.</param>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.Srp.Mpi.ToBytes">
+            <summary>
+            Returns a sequence of bytes in big-endian order forming the integer
+            value of this "multi-precision integer" instance.
+            </summary>
+            <returns>Returns a sequence of bytes in big-endian order representing
+            this "multi-precision integer" instance.</returns>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.Srp.Mpi.Serialize">
+            <summary>
+            Serializes the "multi-precision integer" into a sequence of bytes
+            according to the requirements of the SRP specification.
+            </summary>
+            <returns>A big-endian sequence of bytes representing the integer
+            value of the MPI.</returns>
+        </member>
+        <member name="P:S22.Sasl.Mechanisms.Srp.Mpi.Value">
+            <summary>
+            The underlying BigInteger instance used to represent this
+            "multi-precision integer".
+            </summary>
+        </member>
+        <member name="T:S22.Sasl.Mechanisms.Srp.OctetSequence">
+            <summary>
+            Represents an "octet-sequence" as is described in the SRP specification
+            (3.3 Octet sequences, p.6).
+            </summary>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.Srp.OctetSequence.#ctor(System.Byte[])">
+            <summary>
+            Creates a new instance of the OctetSequence class using the specified
+            byte array.
+            </summary>
+            <param name="sequence">The sequence of bytes to initialize this instance
+            of the OctetSequence class with.</param>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.Srp.OctetSequence.Serialize">
+            <summary>
+            Serializes this instance of the OctetSequence class into a sequence of
+            bytes according to the requirements of the SRP specification.
+            </summary>
+            <returns>A sequence of bytes representing this instance of the
+            OctetSequence class.</returns>
+            <exception cref="T:System.OverflowException">Thrown if the length of the byte
+            sequence exceeds the maximum number of bytes allowed as per SRP
+            specification.</exception>
+            <remarks>SRP specification imposes a limit of 255 bytes on the
+            length of the underlying byte array.</remarks> 
+        </member>
+        <member name="P:S22.Sasl.Mechanisms.Srp.OctetSequence.Value">
+            <summary>
+            The underlying byte array forming this instance of the OctetSequence
+            class.
+            </summary>
+        </member>
+        <member name="T:S22.Sasl.Mechanisms.Srp.ServerMessage1">
+            <summary>
+            Represents the first message sent by the server in response to an
+            initial client-response.
+            </summary>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.Srp.ServerMessage1.Deserialize(System.Byte[])">
+            <summary>
+            Deserializes a new instance of the ServerMessage1 class from the
+            specified buffer of bytes.
+            </summary>
+            <param name="buffer">The byte buffer to deserialize the ServerMessage1
+            instance from.</param>
+            <returns>An instance of the ServerMessage1 class deserialized from the
+            specified byte array.</returns>
+            <exception cref="T:System.FormatException">Thrown if the byte buffer does not
+            contain valid data.</exception>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.Srp.ServerMessage1.ParseOptions(System.String)">
+            <summary>
+            Parses the options string sent by the server.
+            </summary>
+            <param name="s">A comma-delimited options string.</param>
+            <returns>An initialized instance of the NameValueCollection class
+            containing the parsed server options.</returns>
+        </member>
+        <member name="P:S22.Sasl.Mechanisms.Srp.ServerMessage1.SafePrimeModulus">
+            <summary>
+            The safe prime modulus sent by the server.
+            </summary>
+        </member>
+        <member name="P:S22.Sasl.Mechanisms.Srp.ServerMessage1.Generator">
+            <summary>
+            The generator sent by the server.
+            </summary>
+        </member>
+        <member name="P:S22.Sasl.Mechanisms.Srp.ServerMessage1.Salt">
+            <summary>
+            The user's password salt.
+            </summary>
+        </member>
+        <member name="P:S22.Sasl.Mechanisms.Srp.ServerMessage1.PublicKey">
+            <summary>
+            The server's ephemeral public key.
+            </summary>
+        </member>
+        <member name="P:S22.Sasl.Mechanisms.Srp.ServerMessage1.Options">
+            <summary>
+            The options list indicating available security services.
+            </summary>
+        </member>
+        <member name="P:S22.Sasl.Mechanisms.Srp.ServerMessage1.RawOptions">
+            <summary>
+            The raw options as received from the server.
+            </summary>
+        </member>
+        <member name="T:S22.Sasl.Mechanisms.Srp.ServerMessage2">
+            <summary>
+            Represents the second message sent by the server as part of the SRP
+            authentication exchange.
+            </summary>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.Srp.ServerMessage2.Deserialize(System.Byte[])">
+            <summary>
+            Deserializes a new instance of the ServerMessage2 class from the
+            specified buffer of bytes.
+            </summary>
+            <param name="buffer">The byte buffer to deserialize the ServerMessage2
+            instance from.</param>
+            <returns>An instance of the ServerMessage2 class deserialized from the
+            specified byte array.</returns>
+            <exception cref="T:System.FormatException">Thrown if the byte buffer does not
+            contain valid data.</exception>
+        </member>
+        <member name="P:S22.Sasl.Mechanisms.Srp.ServerMessage2.Proof">
+            <summary>
+            The evidence which proves to the client server-knowledge of the shared
+            context key.
+            </summary>
+        </member>
+        <member name="P:S22.Sasl.Mechanisms.Srp.ServerMessage2.InitialVector">
+            <summary>
+            The initial vector the client will use to set up its encryption
+            context, if confidentiality protection will be employed.
+            </summary>
+        </member>
+        <member name="P:S22.Sasl.Mechanisms.Srp.ServerMessage2.SessionId">
+            <summary>
+            The session identifier the server has given to this session.
+            </summary>
+        </member>
+        <member name="P:S22.Sasl.Mechanisms.Srp.ServerMessage2.Ttl">
+            <summary>
+            The time period for which this session's parameters may be re-usable.
+            </summary>
+        </member>
+        <member name="T:S22.Sasl.Mechanisms.Srp.Utf8String">
+            <summary>
+            Represents an UTF-8 string as is described in the SRP specification
+            (3.5 Text, p.6).
+            </summary>
+        </member>
+        <member name="F:S22.Sasl.Mechanisms.Srp.Utf8String.Value">
+            <summary>
+            The value of the UTF-8 string.
+            </summary>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.Srp.Utf8String.#ctor(System.String)">
+            <summary>
+            Creates a new instance of the Utf8String class using the specified
+            string value.
+            </summary>
+            <param name="s">The string to initialize the Utf8String instance
+            with.</param>
+        </member>
+        <member name="M:S22.Sasl.Mechanisms.Srp.Utf8String.Serialize">
+            <summary>
+            Serializes this instance of the Utf8String class into a sequence of
+            bytes according to the requirements of the SRP specification.
+            </summary>
+            <returns>A sequence of bytes representing this instance of the
+            Utf8String class.</returns>
+            <exception cref="T:System.OverflowException">Thrown if the string value exceeds
+            the maximum number of bytes allowed as per SRP specification.</exception>
+            <remarks>SRP specification imposes a limit of 65535 bytes on the
+            string data after it has been encoded into a sequence of bytes
+            using an encoding of UTF-8.</remarks> 
+        </member>
+        <member name="T:S22.Sasl.SaslConfigurationSection">
+            <summary>
+            Represents the sasl section within a configuration
+            file.
+            </summary>
+        </member>
+        <member name="P:S22.Sasl.SaslConfigurationSection.SaslProviders">
+            <summary>
+            The saslProviders section contains a collection of
+            saslProvider elements.
+            </summary>
+        </member>
+        <member name="T:S22.Sasl.SaslProviderCollection">
+            <summary>
+            Represents a saslProvider configuration element within the
+            saslProviders section of a configuration file.
+            </summary>
+        </member>
+        <member name="F:S22.Sasl.SaslProviderCollection.PropertyName">
+            <summary>
+            The name of the configuration element.
+            </summary>
+        </member>
+        <member name="M:S22.Sasl.SaslProviderCollection.IsElementName(System.String)">
+            <summary>
+            Indicates whether the specified System.Configuration.ConfigurationElement
+            exists in the SaslProviderCollection.
+            </summary>
+            <param name="elementName">The name of the element to verify.</param>
+            <returns>Returns true if the element exists in the collection,
+            otherwise false.</returns>
+        </member>
+        <member name="M:S22.Sasl.SaslProviderCollection.CreateNewElement">
+            <summary>
+            Creates a new instance of the SaslProvider class.
+            </summary>
+            <returns>A new instance of the SaslProvider class.</returns>
+        </member>
+        <member name="M:S22.Sasl.SaslProviderCollection.GetElementKey(System.Configuration.ConfigurationElement)">
+            <summary>
+            Gets the element key for the specified SaslProvider element.
+            </summary>
+            <param name="element">A SaslProvider element to retrieve the
+            element key for.</param>
+            <returns>The unique element key of the specified SaslProvider
+            instance.</returns>
+        </member>
+        <member name="P:S22.Sasl.SaslProviderCollection.ElementName">
+            <summary>
+            Gets the name used to identify this collection of elements
+            in the configuration file.
+            </summary>
+        </member>
+        <member name="P:S22.Sasl.SaslProviderCollection.Item(System.String)">
+            <summary>
+            Returns the SaslProvider instance for the saslProvider
+            element with the specified name.
+            </summary>
+            <param name="name">The name of the saslProvider element to
+            retrieve.</param>
+            <returns>The SaslProvider instance with the specified name
+            or null.</returns>
+        </member>
+        <member name="P:S22.Sasl.SaslProviderCollection.Item(System.Int32)">
+            <summary>
+            Returns the SaslProvider instance for the saslProvider
+            element at the specified index.
+            </summary>
+            <param name="index">The index of the saslProvider element
+            to retrieve.</param>
+            <returns>The SaslProvider instance with the specified
+            index.</returns>
+            <exception cref="T:System.Configuration.ConfigurationErrorsException">Thrown if the
+            index is less than 0 or if there is no SaslProvider instance
+            at the specified index.</exception>
+        </member>
+        <member name="P:S22.Sasl.SaslProviderCollection.CollectionType">
+            <summary>
+            Gets the collection type of the SaslProviderCollection.
+            </summary>
+        </member>
+        <member name="T:S22.Sasl.SaslProvider">
+            <summary>
+            Represents a saslProvider section within the saslProviders
+            section of a configuration file.
+            </summary>
+        </member>
+        <member name="P:S22.Sasl.SaslProvider.Name">
+            <summary>
+            The name of the saslProvider. This attribute must be unique in
+            that no two saslProvider elements exists that have the same
+            name attribute.
+            </summary>
+        </member>
+        <member name="P:S22.Sasl.SaslProvider.Type">
+            <summary>
+            The type name of the SaslMechanism exposed by the
+            saslProvider.
+            </summary>
+        </member>
+        <member name="P:S22.Sasl.SaslProvider.Item(System.String)">
+            <summary>
+            Retrieves the setting with the specified name for this saslProvider.
+            </summary>
+            <param name="name">The name of the setting to retrieve.</param>
+            <returns>The value of the setting with the specified name or null
+            if the setting could not be found.</returns>
+        </member>
+        <member name="P:S22.Sasl.SaslProvider.Settings">
+            <summary>
+            Represents a collection of arbitrary name-value pairs which can be
+            added to the saslProvider element.
+            </summary>
+        </member>
+        <member name="T:S22.Sasl.SaslException">
+            <summary>
+            The exception is thrown when a Sasl-related error or unexpected condition occurs.
+            </summary>
+        </member>
+        <member name="M:S22.Sasl.SaslException.#ctor">
+            <summary>
+            Initializes a new instance of the SaslException class
+            </summary>
+        </member>
+        <member name="M:S22.Sasl.SaslException.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the SaslException class with its message
+            string set to <paramref name="message"/>.
+            </summary>
+            <param name="message">A description of the error. The content of message is intended
+            to be understood by humans.</param>
+        </member>
+        <member name="M:S22.Sasl.SaslException.#ctor(System.String,System.Exception)">
+            <summary>
+            Initializes a new instance of the SaslException class with its message
+            string set to <paramref name="message"/> and a reference to the inner exception that
+            is the cause of this exception.
+            </summary>
+            <param name="message">A description of the error. The content of message is intended
+            to be understood by humans.</param>
+            <param name="inner">The exception that is the cause of the current exception.</param>
+        </member>
+        <member name="T:S22.Sasl.SaslFactory">
+            <summary>
+            A factory class for producing instances of Sasl mechanisms.
+            </summary>
+        </member>
+        <member name="M:S22.Sasl.SaslFactory.Create(System.String)">
+            <summary>
+            Creates an instance of the Sasl mechanism with the specified
+            name.
+            </summary>
+            <param name="name">The name of the Sasl mechanism of which an
+            instance will be created.</param>
+            <returns>An instance of the Sasl mechanism with the specified name.</returns>
+            <exception cref="T:System.ArgumentNullException">The name parameter is null.</exception>
+            <exception cref="T:S22.Sasl.SaslException">A Sasl mechanism with the
+            specified name is not registered with Sasl.SaslFactory.</exception>
+        </member>
+        <member name="M:S22.Sasl.SaslFactory.Add(System.String,System.Type)">
+            <summary>
+            Registers a Sasl mechanism with the factory using the specified name.
+            </summary>
+            <param name="name">The name with which to register the Sasl mechanism
+            with the factory class.</param>
+            <param name="t">The type of the class implementing the Sasl mechanism.
+            The implementing class must be a subclass of Sasl.SaslMechanism.</param>
+            <exception cref="T:System.ArgumentNullException">The name parameter or the t
+            parameter is null.</exception>
+            <exception cref="T:System.ArgumentException">The class represented by the
+            specified type does not derive from Sasl.SaslMechanism.</exception>
+            <exception cref="T:S22.Sasl.SaslException">The Sasl mechanism could not be
+            registered with the factory. Refer to the inner exception for error
+            details.</exception>
+        </member>
+        <member name="M:S22.Sasl.SaslFactory.#cctor">
+            <summary>
+            Static class constructor. Initializes static properties.
+            </summary>
+        </member>
+        <member name="P:S22.Sasl.SaslFactory.Mechanisms">
+            <summary>
+            A dictionary of Sasl mechanisms registered with the factory class.
+            </summary>
+        </member>
+    </members>
+</doc>

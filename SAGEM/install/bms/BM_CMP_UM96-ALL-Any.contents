@@ -1,0 +1,26 @@
+name=e2ei/11/CMP_10.7.0.0.82/CMP/CMP/CMP-W64-Any/BM_CMP_UM96-ALL-Any
+version=10.7.0.0.82
+timestamp=1599492527
+
+common/
+common/runtime/
+common/
+common/runtime/bundles/
+common/runtime/
+common/runtime/bundles/cmp-um96/
+common/runtime/bundles/
+common/runtime/bundles/cmp-um96/eclipse/
+common/runtime/bundles/cmp-um96/
+common/runtime/bundles/cmp-um96/eclipse/binary/
+common/runtime/bundles/cmp-um96/eclipse/
+common/runtime/bundles/cmp-um96/eclipse/features/
+common/runtime/bundles/cmp-um96/eclipse/plugins/
+0755 common/runtime/bundles/cmp-um96/eclipse/artifacts.xml
+0755 common/runtime/bundles/cmp-um96/eclipse/content.xml
+0755 common/runtime/bundles/cmp-um96/eclipse/features/com.softwareag.cmp.features.cmp.um96.feature_10.7.0.0000-0082.jar
+common/runtime/bundles/cmp-um96/eclipse/features/
+0755 common/runtime/bundles/cmp-um96/eclipse/plugins/com.pcbsys.nirvana.client.p2p_9.6.0.0023-97500.jar
+common/runtime/bundles/cmp-um96/eclipse/plugins/
+0755 common/runtime/bundles/cmp-um96/eclipse/plugins/com.pcbsys.nirvana.client_9.6.0.0023-97500.jar
+0755 common/runtime/bundles/cmp-um96/eclipse/plugins/com.pcbsys.nirvana.nAdminAPI_9.6.0.0023-97500.jar
+0755 common/runtime/bundles/cmp-um96/eclipse/plugins/com.softwareag.cmp.um96.impl_10.7.0.0000-0082.jar
